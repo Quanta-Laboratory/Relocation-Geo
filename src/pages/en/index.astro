@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const all = await getCollection('guides', ({ data }) => data.lang === 'en' && !data.draft);
+const byCat = (c: string) =>
+  all
+    .filter((e) => e.data.category === c)
+    .sort((a, b) => a.data.order - b.data.order);
+const link = (e: { id: string }) => `/en/${e.id.replace(/^en\//, '')}`;
+
+const hubs = [
+  { id: 'immigration', title: 'Immigration & Visa', desc: 'Entry rules, visas, legal status and all residence permit types.' },
+  { id: 'work', title: 'Work & Business', desc: 'Work permits, Individual Entrepreneur, companies and taxes.' },
+  { id: 'live', title: 'Live in Georgia', desc: 'Banking, insurance, cost of living and daily life.' },
+  { id: 'about', title: 'About', desc: 'Methodology, standards and legal information.' },
+];
+---
+<BaseLayout
+  title={null}
+  description="Relocation.ge organises official Georgian legal provisions into clear, source-based guidance on visas, residence permits, business, taxes and daily life."
+>
+  <main id="main" class="wrap">
+    <h1>Relocation to Georgia</h1>
+    <p class="lede">
+      Relocation.ge is a public, open-source project that organises official legal
+      provisions into clear guidance for international audiences.
+    </p>
+
+    <a href="#immigration" class="start-button">
+      Start now
+      <svg width="18" height="18" viewBox="0 0 33 40" fill="currentColor" aria-hidden="true">
+        <path d="M0 0h13l20 20-20 20H0l20-20z" />
+      </svg>
+    </a>
+
+    <div class="grid">
+      {hubs.map((h) => (
+        <section class="hub" id={h.id}>
+          <h2>{h.title}</h2>
+          <p class="desc">{h.desc}</p>
+          <ul>
+            {byCat(h.id).length === 0 && <li style="color:var(--grey-1)">Coming soon</li>}
+            {byCat(h.id).map((e) => (
+              <li><a href={link(e)}>{e.data.title}</a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+
+    <div class="sources">
+      <h2>Sources</h2>
+      <p style="color:var(--grey-1)">Information on this website is structured from official publications, including:</p>
+      <ul>
+        <li>Matsne — Legislative Herald of Georgia</li>
+        <li>Ministry of Internal Affairs of Georgia</li>
+        <li>Revenue Service of Georgia</li>
+        <li>Public Service Hall</li>
+      </ul>
+    </div>
+  </main>
+</BaseLayout>

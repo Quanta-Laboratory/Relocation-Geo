@@ -1,0 +1,24 @@
+---
+const support = [
+  { href: '/en/#about', label: 'Methodology' },
+  { href: '/en/#about', label: 'Data Integrity Standard' },
+  { href: '/en/#about', label: 'Use of Materials' },
+  { href: '/en/#about', label: 'AI Compliance Disclosure' },
+  { href: '/sitemap-index.xml', label: 'Sitemap' },
+];
+---
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <h3>Support links</h3>
+    <ul>
+      {support.map((s) => (
+        <li><a href={s.href}>{s.label}</a></li>
+      ))}
+    </ul>
+    <p class="disclaimer">
+      Relocation.ge is an independent, privately-run open-source project. It is not
+      affiliated with, or endorsed by, any government body. Information is structured
+      from publicly available official publications. © Relocation.ge.
+    </p>
+  </div>
+</footer>

@@ -1,0 +1,25 @@
+---
+// Live chat is loaded LAZILY (only on first interaction) so it never slows
+// the first paint or hurts Core Web Vitals / SEO.
+// During integration, replace the loader inside loadChat() with your
+// provider's snippet (Crisp or Tawk.to) and your website ID.
+---
+<button id="support-launch" type="button" aria-haspopup="dialog">Support</button>
+<script is:inline>
+  (function () {
+    var btn = document.getElementById('support-launch');
+    var loaded = false;
+    function loadChat() {
+      if (loaded) return;
+      loaded = true;
+      // --- EXAMPLE: Crisp (uncomment and set your ID at integration time) ---
+      // window.$crisp = []; window.CRISP_WEBSITE_ID = 'YOUR_WEBSITE_ID';
+      // var s = document.createElement('script');
+      // s.src = 'https://client.crisp.chat/l.js'; s.async = true;
+      // s.onload = function () { window.$crisp.push(['do', 'chat:open']); };
+      // document.head.appendChild(s);
+      alert('Live chat placeholder — add your Crisp / Tawk.to ID during integration.');
+    }
+    if (btn) btn.addEventListener('click', loadChat);
+  })();
+</script>

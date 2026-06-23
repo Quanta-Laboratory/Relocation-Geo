@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# env & secrets
+.env
+.env.production
+*.local
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
+
+# leftover nested clone folder from initial setup (safe to ignore)
+Relocat/

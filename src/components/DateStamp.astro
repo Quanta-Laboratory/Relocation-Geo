@@ -1,0 +1,8 @@
+---
+const { reviewed, checked } = Astro.props;
+const fmt = (d: Date) =>
+  new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+<p class="datestamp">
+  Last reviewed: <strong>{fmt(reviewed)}</strong> · Last checked: {fmt(checked)}
+</p>

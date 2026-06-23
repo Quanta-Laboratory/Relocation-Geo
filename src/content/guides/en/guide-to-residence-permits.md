@@ -1,0 +1,56 @@
+---
+title: "Guide to Residence Permits in Georgia"
+category: "immigration"
+lang: "en"
+summary: "Georgia offers several residence permits depending on the purpose of stay — work, IT, investment, study, family and more. Each has its own legal basis, conditions and validity."
+reviewed: 2026-06-12
+checked: 2026-06-22
+order: 1
+sources:
+  - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons"
+    url: "https://www.matsne.gov.ge/en/document/view/2278806"
+faq:
+  - q: "How long does a residence permit decision take in Georgia?"
+    a: "The Agency must decide within 30 days of receiving all required documents. It may request additional evidence or interviews during that period."
+  - q: "Which residence permit is best for remote workers and IT professionals?"
+    a: "The IT Residence Permit is designed for IT professionals and entrepreneurs with at least 2 years of experience and annual income of at least USD 25,000. It is valid for 3 years."
+  - q: "Can I get residency in Georgia by buying property?"
+    a: "Yes. A Short-Term Residence Permit is available to owners of non-agricultural real estate with a market value above USD 150,000 (threshold from 1 March 2026). Property above USD 300,000 can qualify for an Investment Residence Permit."
+---
+
+Georgia offers several types of residence permit, depending on the purpose of stay. Each permit is issued for a specific legal basis and has its own conditions, duration and extension rules.
+
+Foreign documents must be legalised or apostilled unless covered by an international treaty. Documents not in Georgian must be translated and certified unless otherwise allowed.
+
+## Main residence permit types
+
+**Work Residence Permit** — for foreigners who work or run a business in Georgia. Monthly income must be at least 5× the average subsistence minimum, and employer/company annual turnover at least GEL 50,000 per foreign employee (GEL 35,000 for educational or medical institutions).
+
+**IT Residence Permit** — for IT professionals and entrepreneurs with at least 2 years of experience and annual income of at least USD 25,000. Valid for 3 years; absence of 183 days or more in any 12-month period terminates it.
+
+**Investment Residence Permit** — for those who invest at least USD 300,000, or own non-agricultural real estate with a market value above USD 300,000.
+
+**Short-Term Residence Permit (real estate based)** — for owners of non-agricultural real estate with a market value above USD 150,000 (threshold from 1 March 2026).
+
+Eight further types exist: Family Reunification, Study, Indefinite, Permanent, Former Citizen, Stateless Person, Special, and the Domestic / Gender-Based Violence permit.
+
+## How the process works
+
+1. **Check eligibility under the Law** — determine the permit type and its legal conditions (income, investment, family ties).
+2. **Collect documents** — supporting documents, translation/legalisation, filed before any current permit expires.
+3. **Submit your application** — online, in person, or through an authorised representative.
+4. **Agency review** — the Agency verifies documents and may request more evidence. It decides within 30 days.
+5. **Decision** — if approved, collect your residence card within one month. If refused, you may re-apply after one month.
+
+## Comparison of key permits
+
+| Permit type | Key legal criteria | Initial validity |
+| --- | --- | --- |
+| Work | Income ≥ 5× subsistence minimum; turnover ≥ GEL 50,000 / foreigner | 6–12 months |
+| IT | 2+ years experience; income ≥ USD 25,000; < 183 days absence | 3 years |
+| Study | Enrollment in an authorised institution | 6–12 months |
+| Family Reunification | Valid permit of a family member; proof of relationship | 6–12 months |
+| Short-Term (property) | Real estate value > USD 150,000 | 1 year |
+| Investment | USD 300,000 investment OR real estate > USD 300,000 | Up to 5 years |
+| Permanent | Close relative of a citizen OR 10 years legal residence | Permanent |
+| Indefinite | 5 years investment permit + Year-5 turnover ≥ USD 120,000 | Indefinite |

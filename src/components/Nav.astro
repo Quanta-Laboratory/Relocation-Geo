@@ -1,0 +1,17 @@
+---
+const items = [
+  { href: '/en/#immigration', label: 'Immigration & Visa' },
+  { href: '/en/#work', label: 'Work & Business' },
+  { href: '/en/#live', label: 'Live in Georgia' },
+  { href: '/en/#about', label: 'About' },
+];
+---
+<nav class="site-nav" aria-label="Primary">
+  <div class="site-nav__inner">
+    <ul>
+      {items.map((i) => (
+        <li><a href={i.href}>{i.label}</a></li>
+      ))}
+    </ul>
+  </div>
+</nav>

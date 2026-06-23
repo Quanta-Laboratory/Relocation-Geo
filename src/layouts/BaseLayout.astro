@@ -1,0 +1,68 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import SupportChat from '../components/SupportChat.astro';
+
+const {
+  title,
+  description = 'Clear, source-based guidance on relocating to Georgia: visas, residence permits, business, taxes and daily life.',
+  lang = 'en',
+  dir = 'ltr',
+  jsonLd = [],
+} = Astro.props;
+
+const siteUrl = Astro.site ? String(Astro.site) : 'https://relocation.ge';
+const canonical = new URL(Astro.url.pathname, siteUrl).href;
+const fullTitle = title ? `${title} — Relocation.ge` : 'Relocation.ge — Guidance on moving to Georgia';
+
+// Site-wide structured data (always emitted)
+const organizationLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Relocation.ge',
+  url: siteUrl,
+  description:
+    'Independent open-source project structuring official Georgian legal provisions into clear guidance for international audiences.',
+};
+const websiteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Relocation.ge',
+  url: siteUrl,
+  inLanguage: lang,
+};
+const allLd = [organizationLd, websiteLd, ...jsonLd];
+---
+<!doctype html>
+<html lang={lang} dir={dir}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Relocation.ge" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {allLd.map((block) => (
+      <script type="application/ld+json" set:html={JSON.stringify(block)} />
+    ))}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <Header />
+    <Nav />
+    <slot />
+    <Footer />
+    <SupportChat />
+  </body>
+</html>

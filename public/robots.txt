@@ -1,0 +1,32 @@
+# Relocation.ge — robots.txt
+# We WANT AI assistants and search engines to read and cite this content.
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI / answer-engine crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://relocation.ge/sitemap-index.xml

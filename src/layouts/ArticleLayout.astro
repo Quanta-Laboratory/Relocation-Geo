@@ -1,0 +1,123 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import DateStamp from '../components/DateStamp.astro';
+
+const { entry, headings = [] } = Astro.props;
+const d = entry.data;
+
+const catLabels: Record<string, string> = {
+  immigration: 'Immigration & Visa',
+  work: 'Work & Business',
+  live: 'Live in Georgia',
+  about: 'About',
+};
+const catHref: Record<string, string> = {
+  immigration: '/en/#immigration',
+  work: '/en/#work',
+  live: '/en/#live',
+  about: '/en/#about',
+};
+
+const crumbs = [
+  { href: '/en/', label: 'Home' },
+  { href: catHref[d.category], label: catLabels[d.category] },
+  { label: d.title },
+];
+
+const siteUrl = Astro.site ? String(Astro.site) : 'https://relocation.ge';
+const url = new URL(Astro.url.pathname, siteUrl).href;
+
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: d.title,
+  description: d.summary,
+  inLanguage: d.lang,
+  dateModified: new Date(d.reviewed).toISOString(),
+  url,
+  isPartOf: { '@type': 'WebSite', name: 'Relocation.ge', url: siteUrl },
+  publisher: { '@type': 'Organization', name: 'Relocation.ge' },
+  citation: d.sources.map((s: { name: string; url: string }) => ({
+    '@type': 'CreativeWork',
+    name: s.name,
+    url: s.url,
+  })),
+};
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: crumbs.map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.label,
+    item: c.href ? new URL(c.href, siteUrl).href : url,
+  })),
+};
+const faqLd =
+  d.faq.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: d.faq.map((f: { q: string; a: string }) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      }
+    : null;
+
+const jsonLd = [articleLd, breadcrumbLd, ...(faqLd ? [faqLd] : [])];
+const toc = headings.filter((h: { depth: number }) => h.depth === 2);
+---
+<BaseLayout title={d.title} description={d.summary} lang={d.lang} jsonLd={jsonLd}>
+  <Breadcrumbs items={crumbs} />
+  <main id="main" class="wrap">
+    <h1>{d.title}</h1>
+    <p class="lede">{d.summary}</p>
+    <DateStamp reviewed={d.reviewed} checked={d.checked} />
+
+    <div class="cols">
+      <nav class="contents" aria-label="Contents">
+        <h2>Contents</h2>
+        <ol>
+          {toc.map((h: { slug: string; text: string }) => (
+            <li><a href={`#${h.slug}`}>{h.text}</a></li>
+          ))}
+        </ol>
+      </nav>
+
+      <div class="prose">
+        <slot />
+
+        {d.faq.length > 0 && (
+          <section class="faq" aria-label="Frequently asked questions">
+            <h2>Frequently asked questions</h2>
+            {d.faq.map((f: { q: string; a: string }) => (
+              <details>
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))}
+          </section>
+        )}
+
+        {d.sources.length > 0 && (
+          <div class="sources">
+            <h2>Sources</h2>
+            <ul>
+              {d.sources.map((s: { name: string; url: string }) => (
+                <li><a href={s.url} rel="nofollow noopener" target="_blank">{s.name}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <div class="feedback">
+          <h2>Is this page useful?</h2>
+          <p><a href="#">Yes</a> · <a href="#">No</a></p>
+        </div>
+      </div>
+    </div>
+  </main>
+</BaseLayout>

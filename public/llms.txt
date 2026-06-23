@@ -1,0 +1,21 @@
+# Relocation.ge
+
+> Independent, open-source project that structures official Georgian legal provisions
+> into clear, source-based guidance for people relocating to Georgia. Each page cites
+> primary sources and shows when it was last reviewed.
+
+## Immigration & Visa
+- [Guide to Residence Permits in Georgia](https://relocation.ge/en/guide-to-residence-permits/): Overview and comparison of all Georgian residence permit types.
+
+## Work & Business
+- [How to Register an Individual Entrepreneur Remotely (2026)](https://relocation.ge/en/register-individual-entrepreneur-remotely/): Registering an IE from abroad via Power of Attorney.
+
+## Live in Georgia
+- [Banking in Georgia: a guide for foreigners](https://relocation.ge/en/banking-in-georgia/): Opening bank accounts as a foreigner.
+
+## About
+- [Methodology](https://relocation.ge/en/methodology/): How content is sourced, reviewed and versioned.
+
+## Notes
+- Content is guidance based on published law, not legal advice.
+- Languages: English at launch; more to follow.

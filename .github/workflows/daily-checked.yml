@@ -1,0 +1,36 @@
+name: Daily checked-date stamp
+
+# Updates the "Last checked" date on every page once per day, commits the
+# change, and lets Cloudflare Pages rebuild automatically.
+on:
+  schedule:
+    - cron: '0 5 * * *' # 05:00 UTC daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  stamp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update checked dates
+        run: node scripts/update-checked-date.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "relocation-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: daily checked-date stamp [skip ci]"
+            git push
+          fi
