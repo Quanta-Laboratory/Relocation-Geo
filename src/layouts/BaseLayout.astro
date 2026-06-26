@@ -4,6 +4,8 @@ import Header from '../components/Header.astro';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import SupportChat from '../components/SupportChat.astro';
+import Analytics from '../components/Analytics.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 
 const {
   title,
@@ -58,11 +60,13 @@ const allLd = [organizationLd, websiteLd, ...jsonLd];
     ))}
   </head>
   <body>
+    <Analytics />
     <a class="skip-link" href="#main">Skip to main content</a>
     <Header />
     <Nav />
     <slot />
     <Footer />
     <SupportChat />
+    <ConsentBanner />
   </body>
 </html>

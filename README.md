@@ -50,7 +50,27 @@ Add a new page = add a Markdown file. It appears automatically under its hub.
 - `sitemap-index.xml`, `robots.txt` (AI crawlers allowed), `llms.txt`
 - canonical + hreflang, semantic HTML, fast static output
 
+## Analytics (marketing stack)
+Tag management is done through **Google Tag Manager (GTM)**, loaded with **Google
+Consent Mode v2** and a GDPR cookie-consent banner (deny-by-default until accepted).
+
+Inside GTM you then add, with no code changes:
+- **GA4** — traffic, campaigns/UTM, conversions, funnels, audiences (incl. AI referrals).
+- **Microsoft Clarity** — heatmaps and session recordings.
+
+**Google Search Console** is set up separately (domain verification, no on-page script).
+
+To enable analytics, set one environment variable in Cloudflare Pages:
+```
+PUBLIC_GTM_ID = GTM-XXXXXXX
+```
+If it is unset, no tags load and no banner shows — the site still works.
+
+Implementation: `src/components/Analytics.astro` (GTM + consent mode) and
+`src/components/ConsentBanner.astro` (cookie banner).
+
 ## Before launch
 1. Confirm the domain in `astro.config.mjs` (`SITE`).
 2. Add your live-chat ID in `src/components/SupportChat.astro`.
-3. Connect the repo to Cloudflare Pages (build: `npm run build`, output: `dist`).
+3. Set `PUBLIC_GTM_ID` in Cloudflare Pages and wire GA4 + Clarity inside GTM.
+4. Connect the repo to Cloudflare Pages (build: `npm run build`, output: `dist`).

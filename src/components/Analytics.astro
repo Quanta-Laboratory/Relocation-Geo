@@ -1,0 +1,60 @@
+---
+// Google Tag Manager loader with Consent Mode v2.
+// The container ID comes from the PUBLIC_GTM_ID env var (set in Cloudflare Pages).
+// If it's empty, nothing loads — so the site works before analytics is configured.
+// GA4 + Microsoft Clarity are added as tags INSIDE GTM (no code changes needed).
+const GTM_ID = import.meta.env.PUBLIC_GTM_ID || '';
+---
+{GTM_ID && (
+  <>
+    <script is:inline define:vars={{ GTM_ID }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      window.gtag = gtag;
+
+      // Consent Mode v2 — deny everything until the visitor accepts (GDPR-safe default)
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        functionality_storage: 'granted',
+        security_storage: 'granted',
+        wait_for_update: 500,
+      });
+
+      // Re-apply a previously stored choice
+      try {
+        if (localStorage.getItem('consent') === 'granted') {
+          gtag('consent', 'update', {
+            ad_storage: 'granted',
+            analytics_storage: 'granted',
+            ad_user_data: 'granted',
+            ad_personalization: 'granted',
+          });
+        }
+      } catch (e) {}
+
+      // Google Tag Manager
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', GTM_ID);
+    </script>
+    <noscript>
+      <iframe
+        src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+        title="gtm"
+      ></iframe>
+    </noscript>
+  </>
+)}

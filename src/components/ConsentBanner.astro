@@ -1,0 +1,46 @@
+---
+// Lightweight GDPR cookie-consent banner. Only renders when analytics is enabled.
+// On "Accept" it grants Consent Mode; on "Decline" it keeps everything denied.
+const GTM_ID = import.meta.env.PUBLIC_GTM_ID || '';
+---
+{GTM_ID && (
+  <div id="consent-banner" role="dialog" aria-label="Cookie consent" hidden>
+    <p class="consent-text">
+      We use cookies for analytics to understand how visitors use Relocation.ge and to
+      improve our content. You can accept or decline.
+    </p>
+    <div class="consent-actions">
+      <button id="consent-accept" type="button" class="consent-btn consent-accept">Accept</button>
+      <button id="consent-decline" type="button" class="consent-btn consent-decline">Decline</button>
+    </div>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var banner = document.getElementById('consent-banner');
+      if (!banner) return;
+      var stored = null;
+      try { stored = localStorage.getItem('consent'); } catch (e) {}
+      if (!stored) banner.hidden = false;
+
+      function set(value) {
+        try { localStorage.setItem('consent', value); } catch (e) {}
+        if (window.gtag) {
+          var granted = value === 'granted';
+          window.gtag('consent', 'update', {
+            ad_storage: granted ? 'granted' : 'denied',
+            analytics_storage: granted ? 'granted' : 'denied',
+            ad_user_data: granted ? 'granted' : 'denied',
+            ad_personalization: granted ? 'granted' : 'denied',
+          });
+        }
+        banner.hidden = true;
+      }
+
+      var a = document.getElementById('consent-accept');
+      var d = document.getElementById('consent-decline');
+      if (a) a.addEventListener('click', function () { set('granted'); });
+      if (d) d.addEventListener('click', function () { set('denied'); });
+    })();
+  </script>
+)}
