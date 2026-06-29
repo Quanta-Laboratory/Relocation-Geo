@@ -45,4 +45,11 @@ const enabled = GTM_ID || GA4_ID;
       if (d) d.addEventListener('click', function () { set('denied'); });
     })();
   </script>
+
+  <style>
+    /* The #consent-banner rule in global.css sets display:flex, which (by id
+       specificity) overrides the UA [hidden] rule. Without this, setting
+       hidden=true never dismisses the banner, so Accept/Decline appear dead. */
+    #consent-banner[hidden] { display: none !important; }
+  </style>
 )}
