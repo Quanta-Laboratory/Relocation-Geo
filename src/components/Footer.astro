@@ -15,18 +15,9 @@ const support = [
         <li><a href={s.href}>{s.label}</a></li>
       ))}
     </ul>
-    <div class="site-footer__emblem">
-      <img
-        src="/coat-of-arms-georgia.svg"
-        width="56"
-        height="69"
-        alt="Coat of arms of Georgia"
-        loading="lazy"
-      />
-      <p class="non-commercial">
-        Relocation.ge is a <strong>non-commercial, privately-run initiative</strong>.
-      </p>
-    </div>
+    <p class="non-commercial">
+      Relocation.ge is a <strong>non-commercial, privately-run initiative</strong>.
+    </p>
     <p class="disclaimer">
       Relocation.ge is an independent, privately-run open-source project. It is not
       affiliated with, or endorsed by, any government body. Information is structured
@@ -36,19 +27,8 @@ const support = [
 </footer>
 
 <style>
-  .site-footer__emblem {
-    display: flex;
-    align-items: center;
-    gap: 0.85rem;
+  .site-footer .non-commercial {
     margin: 1.25rem 0 0.75rem;
-  }
-  .site-footer__emblem img {
-    flex: 0 0 auto;
-    height: auto;
-    opacity: 0.92;
-  }
-  .site-footer__emblem .non-commercial {
-    margin: 0;
     font-size: 0.95rem;
   }
 </style>
