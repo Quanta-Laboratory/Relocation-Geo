@@ -95,6 +95,46 @@ async function runReports(token) {
         orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
         limit: 10,
       },
+      // 3: top countries
+      {
+        dateRanges: yesterday,
+        dimensions: [{ name: 'country' }],
+        metrics: [{ name: 'sessions' }],
+        orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+        limit: 7,
+      },
+      // 4: top cities
+      {
+        dateRanges: yesterday,
+        dimensions: [{ name: 'city' }],
+        metrics: [{ name: 'sessions' }],
+        orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+        limit: 7,
+      },
+      // 5: sessions by hour of day (00–23, local property time)
+      {
+        dateRanges: yesterday,
+        dimensions: [{ name: 'hour' }],
+        metrics: [{ name: 'sessions' }],
+        orderBys: [{ dimension: { dimensionName: 'hour' } }],
+        limit: 24,
+      },
+      // 6: new vs returning users
+      {
+        dateRanges: yesterday,
+        dimensions: [{ name: 'newVsReturning' }],
+        metrics: [{ name: 'activeUsers' }],
+        orderBys: [{ metric: { metricName: 'activeUsers' }, desc: true }],
+        limit: 5,
+      },
+      // 7: top landing pages
+      {
+        dateRanges: yesterday,
+        dimensions: [{ name: 'landingPagePlusQueryString' }],
+        metrics: [{ name: 'sessions' }],
+        orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+        limit: 10,
+      },
     ],
   };
 
@@ -125,8 +165,25 @@ function metricValue(report, index) {
   return row ? row.metricValues[index].value : '0';
 }
 
+// Render a "dimension — value" list block with a heading; falls back to "no data".
+function listBlock(title, report, { bullet = '•', code = false } = {}) {
+  let out = `\n<b>${title}</b>\n`;
+  if (report?.rows?.length) {
+    report.rows.forEach((r) => {
+      const label0 = escapeHtml(r.dimensionValues[0].value || '(not set)');
+      const label = code ? `<code>${label0}</code>` : label0;
+      const v = num(r.metricValues[0].value);
+      out += `${bullet} ${label}: ${v}\n`;
+    });
+  } else {
+    out += `— no data\n`;
+  }
+  return out;
+}
+
 function buildMessage(batch) {
-  const [totals, pages, channels] = batch.reports;
+  const [totals, pages, channels, countries, cities, hours, newReturning, landing] =
+    batch.reports;
 
   const d = new Date(Date.now() - 24 * 60 * 60 * 1000);
   const dateStr = d.toISOString().slice(0, 10);
@@ -159,6 +216,34 @@ function buildMessage(batch) {
       const ch = escapeHtml(r.dimensionValues[0].value);
       const v = num(r.metricValues[0].value);
       msg += `• ${ch}: ${v}\n`;
+    });
+  } else {
+    msg += `— no data\n`;
+  }
+
+  // Geography
+  msg += listBlock('🌍 Top countries:', countries);
+  msg += listBlock('🏙 Top cities:', cities);
+
+  // Landing pages
+  msg += listBlock('🛬 Top landing pages:', landing, { code: true });
+
+  // New vs returning users
+  msg += listBlock('🔁 New vs returning (users):', newReturning);
+
+  // Busiest hours of day (sort by sessions desc, show top 6; hour is "00".."23")
+  msg += `\n<b>⏰ Busiest hours (by sessions):</b>\n`;
+  if (hours?.rows?.length) {
+    const top = [...hours.rows]
+      .sort(
+        (a, b) =>
+          Number(b.metricValues[0].value) - Number(a.metricValues[0].value)
+      )
+      .slice(0, 6);
+    top.forEach((r) => {
+      const h = String(r.dimensionValues[0].value).padStart(2, '0');
+      const v = num(r.metricValues[0].value);
+      msg += `• ${h}:00 — ${v}\n`;
     });
   } else {
     msg += `— no data\n`;
