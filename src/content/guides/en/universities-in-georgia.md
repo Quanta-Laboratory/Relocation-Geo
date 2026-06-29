@@ -45,26 +45,34 @@ Most programmes are taught in Georgian, but many universities run full English-m
 
 ## Major universities for international students
 
-The list below covers well-known Georgian universities that admit international students and run English-taught programmes. It is not exhaustive, and inclusion here is not an endorsement — always confirm a university's current NCEQE authorisation and your programme's accreditation directly before applying. Links go to each institution's official website.
+The list below covers well-known Georgian universities that admit international students and run English-taught programmes. It is not exhaustive, and inclusion here is not an endorsement — always confirm a university's current NCEQE authorisation and your programme's accreditation directly before applying. Links go to each institution's official website. A note of **(English MD)** marks institutions known for English-taught medical (MD/MBBS) programmes; for medicine, also check the university's WDOMS listing and your home country's licensing rules — see the [studying medicine guide](https://relocation.ge/en/studying-medicine-in-georgia/).
 
 Public (state) universities:
 
-- [Ivane Javakhishvili Tbilisi State University (TSU)](https://www.tsu.ge) — Georgia's oldest and largest university, Tbilisi.
+- [Ivane Javakhishvili Tbilisi State University (TSU)](https://www.tsu.ge) — Georgia's oldest and largest university, Tbilisi. **(English MD)**
+- [Tbilisi State Medical University (TSMU)](https://tsmu.edu) — the leading public medical university. **(English MD)**
 - [Georgian Technical University (GTU)](https://gtu.ge) — the main technical university, Tbilisi.
 - [Ilia State University](https://iliauni.edu.ge) — research-focused, Tbilisi.
-- [Tbilisi State Medical University (TSMU)](https://tsmu.edu) — the leading public medical university.
-- [Batumi Shota Rustaveli State University](https://bsu.edu.ge) — public university in Batumi.
-- [Akaki Tsereteli State University](https://www.atsu.edu.ge/en/) — public university in Kutaisi.
+- [Batumi Shota Rustaveli State University](https://bsu.edu.ge) — public university in Batumi. **(English MD)**
+- [Akaki Tsereteli State University](https://www.atsu.edu.ge/en/) — public university in Kutaisi. **(English MD)**
 - [Kutaisi International University (KIU)](https://www.kiu.edu.ge) — newer public research university, Kutaisi.
 
 Private universities:
 
 - [Free University of Tbilisi](https://freeuni.edu.ge/en/) — selective private university, business, IT and more.
-- [University of Georgia (UG)](https://www.ug.edu.ge) — large private university, Tbilisi.
+- [University of Georgia (UG)](https://www.ug.edu.ge) — large private university, Tbilisi. **(English MD)**
 - [Caucasus University](https://www.cu.edu.ge) — private university, business and professional programmes.
-- [Georgian American University (GAU)](https://www.gau.edu.ge/en) — private university with an English MD programme.
-- [New Vision University](https://www.newvision.ge/en) — private university, medicine and health sciences.
-- [European University](https://eu.edu.ge/en/) — private university, including an English medical programme.
+- [Georgian American University (GAU)](https://www.gau.edu.ge/en) — private university. **(English MD)**
+- [New Vision University](https://www.newvision.ge/en) — private university, medicine and health sciences. **(English MD)**
+- [European University](https://eu.edu.ge/en/) — private university. **(English MD)**
+
+Dedicated medical universities (English-taught MD/MBBS), popular with international medical students:
+
+- [David Tvildiani Medical University (DTMU)](https://dtmu.ge) — private medical university, Tbilisi.
+- [Petre Shotadze Tbilisi Medical Academy (TMA)](https://tma.edu.ge/en) — private medical academy, Tbilisi.
+- [Caucasus International University (CIU)](https://www.ciu.edu.ge) — private university with medical and dentistry programmes, Tbilisi.
+- [Teaching University Geomedi](https://geomedi.edu.ge/?lang=en) — private medical university, Tbilisi.
+- [BAU International University Batumi](https://bauinternational.edu.ge) — private international university, Batumi.
 
 ## Recognition of diplomas — in and out of Georgia
 
