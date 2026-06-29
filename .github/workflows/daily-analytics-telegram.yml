@@ -1,0 +1,30 @@
+name: Daily GA4 analytics to Telegram
+
+# Posts yesterday's GA4 traffic summary to a Telegram chat once per day.
+# Requires repository secrets: GA4_PROPERTY_ID, GA_SERVICE_ACCOUNT_JSON,
+# TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
+on:
+  schedule:
+    - cron: '0 6 * * *' # 06:00 UTC daily (~10:00 Tbilisi)
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Send GA4 report to Telegram
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA_SERVICE_ACCOUNT_JSON: ${{ secrets.GA_SERVICE_ACCOUNT_JSON }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node scripts/ga4-telegram-report.mjs
