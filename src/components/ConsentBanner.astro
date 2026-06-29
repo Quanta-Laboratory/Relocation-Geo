@@ -2,8 +2,10 @@
 // Lightweight GDPR cookie-consent banner. Only renders when analytics is enabled.
 // On "Accept" it grants Consent Mode; on "Decline" it keeps everything denied.
 const GTM_ID = import.meta.env.PUBLIC_GTM_ID || '';
+const GA4_ID = import.meta.env.PUBLIC_GA4_ID || 'G-TQPWEETDJ1';
+const enabled = GTM_ID || GA4_ID;
 ---
-{GTM_ID && (
+{enabled && (
   <div id="consent-banner" role="dialog" aria-label="Cookie consent" hidden>
     <p class="consent-text">
       We use cookies for analytics to understand how visitors use Relocation.ge and to

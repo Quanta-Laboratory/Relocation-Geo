@@ -1,13 +1,17 @@
 ---
-// Google Tag Manager loader with Consent Mode v2.
-// The container ID comes from the PUBLIC_GTM_ID env var (set in Cloudflare Pages).
-// If it's empty, nothing loads — so the site works before analytics is configured.
-// GA4 + Microsoft Clarity are added as tags INSIDE GTM (no code changes needed).
+// Analytics loader with Consent Mode v2.
+// Two independent channels, both consent-gated (deny-by-default until the visitor accepts):
+//   - GA4 via gtag.js   — measurement ID from PUBLIC_GA4_ID (defaults to the site's ID)
+//   - Google Tag Manager — container ID from PUBLIC_GTM_ID (optional)
+// If a given ID is empty, that channel simply doesn't load.
+// NOTE: if you ever add GA4 *inside* the GTM container, remove PUBLIC_GA4_ID here to avoid double counting.
 const GTM_ID = import.meta.env.PUBLIC_GTM_ID || '';
+const GA4_ID = import.meta.env.PUBLIC_GA4_ID || 'G-TQPWEETDJ1';
+const enabled = GTM_ID || GA4_ID;
 ---
-{GTM_ID && (
+{enabled && (
   <>
-    <script is:inline define:vars={{ GTM_ID }}>
+    <script is:inline define:vars={{ GTM_ID, GA4_ID }}>
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       window.gtag = gtag;
@@ -35,26 +39,42 @@ const GTM_ID = import.meta.env.PUBLIC_GTM_ID || '';
         }
       } catch (e) {}
 
+      gtag('js', new Date());
+
+      // GA4 configuration (the gtag.js script is loaded below)
+      if (GA4_ID) {
+        gtag('config', GA4_ID);
+      }
+
       // Google Tag Manager
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', GTM_ID);
+      if (GTM_ID) {
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', GTM_ID);
+      }
     </script>
-    <noscript>
-      <iframe
-        src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden"
-        title="gtm"
-      ></iframe>
-    </noscript>
+
+    {GA4_ID && (
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}></script>
+    )}
+
+    {GTM_ID && (
+      <noscript>
+        <iframe
+          src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+          title="gtm"
+        ></iframe>
+      </noscript>
+    )}
   </>
 )}
