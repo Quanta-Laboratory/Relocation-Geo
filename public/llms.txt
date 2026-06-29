@@ -15,6 +15,7 @@
 - [Registering a Company in Georgia](https://relocation.ge/en/registering-a-company-in-georgia/): Business forms, limited liability and registration as both state and tax registration.
 - [Running a Company in Georgia](https://relocation.ge/en/running-a-company-in-georgia/): Governance bodies, the annual general meeting, registry updates and reorganisation.
 - [Georgia for Digital Nomads (2026)](https://relocation.ge/en/georgia-for-digital-nomads/): Visa-free stay, the 2026 work-permit rule, the 1% small-business tax regime and territorial taxation for remote workers.
+- [Virtual Asset Service Providers (VASPs) in Georgia](https://relocation.ge/en/vasp-georgia/): NBG crypto registration regime since 2023 — what counts as a virtual asset service, who must register, AML/CFT duties, and the ban on paying with crypto.
 
 ## Study in Georgia
 - [Universities in Georgia: Higher Education for International Students](https://relocation.ge/en/universities-in-georgia/): The Bologna system, NCEQE authorisation and accreditation, English-taught degrees and diploma recognition.
