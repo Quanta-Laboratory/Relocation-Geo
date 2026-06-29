@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 248" role="img" aria-label="Coat of arms of Georgia">
+  <title>Coat of arms of Georgia</title>
+  <!-- Crown -->
+  <g fill="#C9A227" stroke="#9c7c1d" stroke-width="1.5">
+    <path d="M62 36 L70 14 L86 30 L100 6 L114 30 L130 14 L138 36 Z"/>
+    <rect x="60" y="36" width="80" height="10" rx="3"/>
+    <circle cx="70" cy="14" r="5"/>
+    <circle cx="100" cy="6" r="5"/>
+    <circle cx="130" cy="14" r="5"/>
+  </g>
+  <!-- Shield -->
+  <path d="M40 52 H160 V150 C160 198 130 224 100 240 C70 224 40 198 40 150 Z"
+        fill="#C8102E" stroke="#7d0a1c" stroke-width="3"/>
+  <!-- St George on horseback (stylised silhouette) -->
+  <g fill="#FFFFFF">
+    <!-- horse body -->
+    <path d="M62 158
+             C62 142 74 132 92 132
+             C104 132 112 138 120 138
+             C128 138 132 132 138 134
+             C142 135 142 140 138 142
+             C134 144 130 142 126 146
+             C132 150 134 158 132 166
+             L126 166 C126 158 122 152 116 150
+             C110 156 100 158 92 156
+             C92 162 96 168 96 176
+             L90 176 C88 168 84 162 82 158
+             C76 160 70 160 66 166
+             L60 166 C58 160 60 160 62 158 Z"/>
+    <!-- rider torso and head -->
+    <path d="M98 130 C98 122 102 116 108 116 C114 116 118 122 116 128
+             C120 126 124 128 124 132 L112 138 C106 138 100 136 98 130 Z"/>
+    <circle cx="108" cy="111" r="6"/>
+    <!-- spear -->
+    <rect x="116" y="96" width="3" height="72" transform="rotate(28 117 132)"/>
+  </g>
+  <!-- dragon beneath the hooves -->
+  <path d="M70 176 C84 184 116 184 132 174 C124 184 110 190 100 190 C88 190 78 184 70 176 Z"
+        fill="#2b2b2b"/>
+</svg>
