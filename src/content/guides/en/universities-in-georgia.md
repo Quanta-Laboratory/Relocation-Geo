@@ -43,6 +43,29 @@ Before you pay any tuition, confirm both: that the university is authorised, and
 
 Most programmes are taught in Georgian, but many universities run full English-medium degrees aimed at international students. The strongest English-taught offerings are in medicine and dentistry, followed by business, IT and engineering. Georgia is a particularly common choice for international medical students, so English-language MD programmes are well established at several universities.
 
+## Major universities for international students
+
+The list below covers well-known Georgian universities that admit international students and run English-taught programmes. It is not exhaustive, and inclusion here is not an endorsement — always confirm a university's current NCEQE authorisation and your programme's accreditation directly before applying. Links go to each institution's official website.
+
+Public (state) universities:
+
+- [Ivane Javakhishvili Tbilisi State University (TSU)](https://www.tsu.ge) — Georgia's oldest and largest university, Tbilisi.
+- [Georgian Technical University (GTU)](https://gtu.ge) — the main technical university, Tbilisi.
+- [Ilia State University](https://iliauni.edu.ge) — research-focused, Tbilisi.
+- [Tbilisi State Medical University (TSMU)](https://tsmu.edu) — the leading public medical university.
+- [Batumi Shota Rustaveli State University](https://bsu.edu.ge) — public university in Batumi.
+- [Akaki Tsereteli State University](https://www.atsu.edu.ge/en/) — public university in Kutaisi.
+- [Kutaisi International University (KIU)](https://www.kiu.edu.ge) — newer public research university, Kutaisi.
+
+Private universities:
+
+- [Free University of Tbilisi](https://freeuni.edu.ge/en/) — selective private university, business, IT and more.
+- [University of Georgia (UG)](https://www.ug.edu.ge) — large private university, Tbilisi.
+- [Caucasus University](https://www.cu.edu.ge) — private university, business and professional programmes.
+- [Georgian American University (GAU)](https://www.gau.edu.ge/en) — private university with an English MD programme.
+- [New Vision University](https://www.newvision.ge/en) — private university, medicine and health sciences.
+- [European University](https://eu.edu.ge/en/) — private university, including an English medical programme.
+
 ## Recognition of diplomas — in and out of Georgia
 
 The NCEQE is also the body that recognises foreign qualifications and that legalises or apostilles Georgian educational documents. If you are bringing a prior qualification to enrol, or you intend to use your Georgian degree in another country, plan for this recognition step: it verifies the document's authenticity and compares the qualification with Georgian standards. Whether your Georgian degree is then accepted abroad depends on the destination country's authorities or professional licensing bodies.
