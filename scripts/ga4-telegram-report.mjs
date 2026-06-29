@@ -65,79 +65,10 @@ async function getAccessToken() {
   return data.access_token;
 }
 
-// --- GA4 Data API: batch several reports in one call ---------------------
-async function runReports(token) {
-  const yesterday = [{ startDate: 'yesterday', endDate: 'yesterday' }];
-  const body = {
-    requests: [
-      // 0: totals
-      {
-        dateRanges: yesterday,
-        metrics: [
-          { name: 'sessions' },
-          { name: 'activeUsers' },
-          { name: 'screenPageViews' },
-        ],
-      },
-      // 1: top pages
-      {
-        dateRanges: yesterday,
-        dimensions: [{ name: 'pagePath' }],
-        metrics: [{ name: 'screenPageViews' }],
-        orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }],
-        limit: 10,
-      },
-      // 2: traffic sources (channel grouping)
-      {
-        dateRanges: yesterday,
-        dimensions: [{ name: 'sessionDefaultChannelGroup' }],
-        metrics: [{ name: 'sessions' }],
-        orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
-        limit: 10,
-      },
-      // 3: top countries
-      {
-        dateRanges: yesterday,
-        dimensions: [{ name: 'country' }],
-        metrics: [{ name: 'sessions' }],
-        orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
-        limit: 7,
-      },
-      // 4: top cities
-      {
-        dateRanges: yesterday,
-        dimensions: [{ name: 'city' }],
-        metrics: [{ name: 'sessions' }],
-        orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
-        limit: 7,
-      },
-      // 5: sessions by hour of day (00–23, local property time)
-      {
-        dateRanges: yesterday,
-        dimensions: [{ name: 'hour' }],
-        metrics: [{ name: 'sessions' }],
-        orderBys: [{ dimension: { dimensionName: 'hour' } }],
-        limit: 24,
-      },
-      // 6: new vs returning users
-      {
-        dateRanges: yesterday,
-        dimensions: [{ name: 'newVsReturning' }],
-        metrics: [{ name: 'activeUsers' }],
-        orderBys: [{ metric: { metricName: 'activeUsers' }, desc: true }],
-        limit: 5,
-      },
-      // 7: top landing pages
-      {
-        dateRanges: yesterday,
-        dimensions: [{ name: 'landingPagePlusQueryString' }],
-        metrics: [{ name: 'sessions' }],
-        orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
-        limit: 10,
-      },
-    ],
-  };
-
+// --- GA4 Data API: batch several reports -----------------------------------
+// NOTE: batchRunReports allows at most 5 requests per call, so the 8 reports
+// below are split across two batches and merged back in order.
+async function batchRunReports(token, requests) {
   const res = await fetch(
     `https://analyticsdata.googleapis.com/v1beta/properties/${GA4_PROPERTY_ID}:batchRunReports`,
     {
@@ -146,13 +77,95 @@ async function runReports(token) {
         Authorization: `Bearer ${token}`,
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(body),
+      body: JSON.stringify({ requests }),
     }
   );
   if (!res.ok) {
     throw new Error(`GA4 API failed: ${res.status} ${await res.text()}`);
   }
   return res.json();
+}
+
+async function runReports(token) {
+  const yesterday = [{ startDate: 'yesterday', endDate: 'yesterday' }];
+  const requests = [
+    // 0: totals
+    {
+      dateRanges: yesterday,
+      metrics: [
+        { name: 'sessions' },
+        { name: 'activeUsers' },
+        { name: 'screenPageViews' },
+      ],
+    },
+    // 1: top pages
+    {
+      dateRanges: yesterday,
+      dimensions: [{ name: 'pagePath' }],
+      metrics: [{ name: 'screenPageViews' }],
+      orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }],
+      limit: 10,
+    },
+    // 2: traffic sources (channel grouping)
+    {
+      dateRanges: yesterday,
+      dimensions: [{ name: 'sessionDefaultChannelGroup' }],
+      metrics: [{ name: 'sessions' }],
+      orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+      limit: 10,
+    },
+    // 3: top countries
+    {
+      dateRanges: yesterday,
+      dimensions: [{ name: 'country' }],
+      metrics: [{ name: 'sessions' }],
+      orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+      limit: 7,
+    },
+    // 4: top cities
+    {
+      dateRanges: yesterday,
+      dimensions: [{ name: 'city' }],
+      metrics: [{ name: 'sessions' }],
+      orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+      limit: 7,
+    },
+    // 5: sessions by hour of day (00–23, local property time)
+    {
+      dateRanges: yesterday,
+      dimensions: [{ name: 'hour' }],
+      metrics: [{ name: 'sessions' }],
+      orderBys: [{ dimension: { dimensionName: 'hour' } }],
+      limit: 24,
+    },
+    // 6: new vs returning users
+    {
+      dateRanges: yesterday,
+      dimensions: [{ name: 'newVsReturning' }],
+      metrics: [{ name: 'activeUsers' }],
+      orderBys: [{ metric: { metricName: 'activeUsers' }, desc: true }],
+      limit: 5,
+    },
+    // 7: top landing pages
+    {
+      dateRanges: yesterday,
+      dimensions: [{ name: 'landingPagePlusQueryString' }],
+      metrics: [{ name: 'sessions' }],
+      orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+      limit: 10,
+    },
+  ];
+
+  // Split into chunks of <= 5 requests, run each batch, merge reports in order.
+  const chunkSize = 5;
+  const batches = [];
+  for (let i = 0; i < requests.length; i += chunkSize) {
+    batches.push(requests.slice(i, i + chunkSize));
+  }
+  const results = await Promise.all(
+    batches.map((chunk) => batchRunReports(token, chunk))
+  );
+  return { reports: results.flatMap((r) => r.reports || []) };
 }
 
 // --- Formatting ----------------------------------------------------------
