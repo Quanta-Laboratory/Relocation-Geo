@@ -135,13 +135,13 @@ function buildMessage(batch) {
   const users = metricValue(totals, 1);
   const views = metricValue(totals, 2);
 
-  let msg = `📊 <b>Relocation.ge — статистика за ${dateStr}</b>\n\n`;
-  msg += `👥 Посещения (sessions): <b>${num(sessions)}</b>\n`;
-  msg += `🧑 Пользователи (active users): <b>${num(users)}</b>\n`;
-  msg += `📄 Просмотры страниц: <b>${num(views)}</b>\n`;
+  let msg = `📊 <b>Relocation.ge — stats for ${dateStr}</b>\n\n`;
+  msg += `👥 Sessions: <b>${num(sessions)}</b>\n`;
+  msg += `🧑 Active users: <b>${num(users)}</b>\n`;
+  msg += `📄 Page views: <b>${num(views)}</b>\n`;
 
   // Top pages
-  msg += `\n<b>Топ страниц:</b>\n`;
+  msg += `\n<b>Top pages:</b>\n`;
   if (pages?.rows?.length) {
     pages.rows.forEach((r, i) => {
       const path = escapeHtml(r.dimensionValues[0].value);
@@ -149,11 +149,11 @@ function buildMessage(batch) {
       msg += `${i + 1}. <code>${path}</code> — ${v}\n`;
     });
   } else {
-    msg += `— нет данных\n`;
+    msg += `— no data\n`;
   }
 
   // Traffic sources
-  msg += `\n<b>Источники трафика:</b>\n`;
+  msg += `\n<b>Traffic sources:</b>\n`;
   if (channels?.rows?.length) {
     channels.rows.forEach((r) => {
       const ch = escapeHtml(r.dimensionValues[0].value);
@@ -161,7 +161,7 @@ function buildMessage(batch) {
       msg += `• ${ch}: ${v}\n`;
     });
   } else {
-    msg += `— нет данных\n`;
+    msg += `— no data\n`;
   }
 
   return msg;
