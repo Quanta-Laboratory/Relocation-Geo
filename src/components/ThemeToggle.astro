@@ -1,0 +1,98 @@
+---
+// Light/dark theme toggle. The initial theme is set before paint by the
+// inline script in BaseLayout's <head> (no flash of wrong theme).
+---
+<button
+  id="theme-toggle"
+  type="button"
+  class="theme-toggle"
+  aria-label="Switch to dark theme"
+  aria-pressed="false"
+  title="Switch theme"
+>
+  <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+  </svg>
+  <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="4.2" />
+    <path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8" />
+  </svg>
+  <span class="theme-toggle__label">Dark</span>
+</button>
+
+<style is:global>
+  /* ---- Toggle button (lives in the dark header) ---- */
+  .theme-toggle {
+    margin-inline-start: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #6f777b;
+    border-radius: 4px;
+    padding: 7px 12px;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .theme-toggle:hover { background: #2e3133; }
+  .theme-toggle:focus { outline: 3px solid var(--yellow); outline-offset: 2px; }
+  .theme-toggle svg { width: 18px; height: 18px; flex: none; }
+  .theme-toggle .icon-sun { display: none; }
+  .theme-toggle .icon-moon { display: block; }
+  html[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+  html[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+  /* ---- Theme color-scheme hints ---- */
+  html[data-theme="light"] { color-scheme: light; }
+  html[data-theme="dark"]  { color-scheme: dark; }
+
+  /* ---- Dark theme ----
+     The palette is not fully semantic, so we re-point the content-level
+     custom properties and override the few places that hard-code a colour.
+     --black is left untouched on purpose: it is reused as the dark header /
+     nav / consent background and as the dark text on yellow focus states. */
+  html[data-theme="dark"] body {
+    background: #0e1113;
+    color: #e9ebed;
+  }
+  html[data-theme="dark"] {
+    --blue: #5694ca;       /* links / accents, lightened for dark bg */
+    --blue-dark: #85b9e0;  /* link hover */
+    --grey-1: #b9bfc2;     /* muted text */
+    --grey-2: #3a3f43;     /* medium borders */
+    --grey-3: #1a1d1f;     /* raised surfaces (sources, footer, chips) */
+    --grey-4: #2a2e31;     /* hairline borders */
+  }
+  /* Places that hard-code var(--black) as ink/border rather than surface */
+  html[data-theme="dark"] .datestamp strong { color: #e9ebed; }
+  html[data-theme="dark"] .contents { border-top-color: #e9ebed; }
+  html[data-theme="dark"] .prose thead th { border-bottom-color: #e9ebed; }
+  /* Keep the floating support button readable on hover */
+  html[data-theme="dark"] #support-launch:hover,
+  html[data-theme="dark"] .support-chat:hover { background: #3a7bb5; }
+</style>
+
+<script is:inline>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    var label = btn.querySelector('.theme-toggle__label');
+    function reflect(theme) {
+      var dark = theme === 'dark';
+      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+      btn.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+      if (label) label.textContent = dark ? 'Light' : 'Dark';
+    }
+    reflect(document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
+    btn.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+      reflect(next);
+    });
+  })();
+</script>

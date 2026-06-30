@@ -1,9 +1,11 @@
 ---
+import ThemeToggle from './ThemeToggle.astro';
 const { product = 'Guides' } = Astro.props;
 ---
 <header class="site-header">
   <div class="site-header__inner">
     <a href="/en/" class="site-logo">Relocation.ge</a>
     <span class="site-header__product">{product}</span>
+    <ThemeToggle />
   </div>
 </header>
