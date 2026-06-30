@@ -125,3 +125,16 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
     </div>
   </main>
 </BaseLayout>
+
+<style is:global>
+  /* On mobile the two-column grid collapses to one column; the sticky
+     Contents nav would otherwise overlap the article text as you scroll.
+     Higher specificity (.cols .contents) overrides the base sticky rule. */
+  @media (max-width: 740px) {
+    .cols .contents {
+      position: static;
+      top: auto;
+      margin-bottom: 30px;
+    }
+  }
+</style>
