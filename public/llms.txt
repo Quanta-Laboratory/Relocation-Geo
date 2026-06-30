@@ -59,6 +59,7 @@
 - [Mobile & Internet in Georgia](https://relocation.ge/en/mobile-and-internet-in-georgia/): SIM cards, operators, mobile data and home fibre broadband.
 
 ## About
+- [About Relocation.ge](https://relocation.ge/en/about/): What the project is, why it exists, what makes it different, its scope (information, not legal advice) and where it is going.
 - [Methodology](https://relocation.ge/en/methodology/): How content is sourced, reviewed and versioned.
 
 ## Notes
