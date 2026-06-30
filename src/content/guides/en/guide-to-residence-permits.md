@@ -46,11 +46,15 @@ Eight further types exist: Family Reunification, Study, Indefinite, Permanent, F
 
 | Permit type | Key legal criteria | Initial validity |
 | --- | --- | --- |
-| Work | Income ≥ 5× subsistence minimum; turnover ≥ GEL 50,000 / foreigner | 6–12 months |
-| IT | 2+ years experience; income ≥ USD 25,000; < 183 days absence | 3 years |
-| Study | Enrollment in an authorised institution | 6–12 months |
-| Family Reunification | Valid permit of a family member; proof of relationship | 6–12 months |
-| Short-Term (property) | Real estate value > USD 150,000 | 1 year |
-| Investment | USD 300,000 investment OR real estate > USD 300,000 | Up to 5 years |
-| Permanent | Close relative of a citizen OR 10 years legal residence | Permanent |
-| Indefinite | 5 years investment permit + Year-5 turnover ≥ USD 120,000 | Indefinite |
+| [Work](https://relocation.ge/en/work-residence-permit-georgia/) | Income ≥ 5× subsistence minimum; turnover ≥ GEL 50,000 / foreigner | 6–12 months |
+| [IT](https://relocation.ge/en/it-residence-permit-georgia/) | 2+ years experience; income ≥ USD 25,000; < 183 days absence | 3 years (max 12) |
+| [Study](https://relocation.ge/en/student-visa-and-residence-georgia/) | Enrollment in an authorised institution | 6–12 months |
+| [Family Reunification](https://relocation.ge/en/family-reunification-residence-permit-georgia/) | Family member of a permit-holder or citizen; means of support | 6–12 months |
+| [Short-Term (property)](https://relocation.ge/en/short-term-residence-permit-property-georgia/) | Non-agricultural real estate > USD 150,000 (from 1 Mar 2026) | 1 year |
+| [Investment](https://relocation.ge/en/investment-residence-permit-georgia/) | USD 300,000 investment OR real estate > USD 300,000 | Up to 5 years |
+| [Former Citizen](https://relocation.ge/en/former-citizen-residence-permit-georgia/) | Previously held Georgian citizenship that has ended | Up to 6 years |
+| [Special](https://relocation.ge/en/special-residence-permit-georgia/) | Government initiative; trafficking victims; Article 60; compatriots | Issued in ~10 days |
+| [Domestic-Violence victim](https://relocation.ge/en/temporary-residence-permit-domestic-violence-georgia/) | Recognised victim; lawful-stay & 40-day rules waived | Temporary |
+| Stateless Person | Recognised stateless status in Georgia | Temporary |
+| [Permanent](https://relocation.ge/en/permanent-residence-permit-georgia/) | Close relative of a citizen OR 10 years legal residence | Permanent |
+| [Indefinite](https://relocation.ge/en/indefinite-residence-permit-georgia/) | 5 years investment permit + Year-5 turnover ≥ USD 120,000 | Indefinite |
