@@ -1,0 +1,71 @@
+---
+// Detects visits arriving from AI assistants (for the cases where the AI tool
+// passes a referrer) and reports them to GA4 as an `ai_referral` event with an
+// `ai_source` parameter, so you can see how much traffic each assistant sends.
+//
+// Consent is handled automatically: gtag is configured with Consent Mode v2 in
+// Analytics.astro (deny-by-default), so this event only reaches GA4 once the
+// visitor has accepted analytics — consistent with the rest of the site.
+//
+// Note: many AI tools strip the referrer (the visit then looks like "direct"),
+// so this captures the measurable subset, not every AI-sourced visit.
+---
+<script is:inline>
+  (function () {
+    try {
+      // referrer host (or its suffix) -> assistant label
+      var SOURCES = [
+        { host: 'chatgpt.com', name: 'ChatGPT' },
+        { host: 'openai.com', name: 'ChatGPT' },
+        { host: 'perplexity.ai', name: 'Perplexity' },
+        { host: 'gemini.google.com', name: 'Gemini' },
+        { host: 'bard.google.com', name: 'Gemini' },
+        { host: 'copilot.microsoft.com', name: 'Copilot' },
+        { host: 'claude.ai', name: 'Claude' },
+        { host: 'you.com', name: 'You.com' },
+        { host: 'poe.com', name: 'Poe' },
+        { host: 'phind.com', name: 'Phind' },
+        { host: 'deepseek.com', name: 'DeepSeek' },
+        { host: 'grok.com', name: 'Grok' },
+        { host: 'x.ai', name: 'Grok' },
+        { host: 'mistral.ai', name: 'Le Chat' }
+      ];
+
+      function matchHost(host) {
+        host = host.replace(/^www\./, '');
+        for (var i = 0; i < SOURCES.length; i++) {
+          var h = SOURCES[i].host;
+          if (host === h || host.slice(-(h.length + 1)) === '.' + h) return SOURCES[i].name;
+        }
+        return null;
+      }
+
+      var src = null;
+
+      // 1) explicit override via ?ai_source=Name (optional, if you tag a link)
+      var qs = new URLSearchParams(window.location.search);
+      if (qs.get('ai_source')) src = qs.get('ai_source');
+
+      // 2) otherwise infer from the referrer host
+      if (!src && document.referrer) {
+        src = matchHost(new URL(document.referrer).hostname);
+      }
+
+      if (!src) return;
+
+      // de-dupe within the session (avoid double counting on refresh)
+      try {
+        if (sessionStorage.getItem('ai_ref_sent') === src) return;
+        sessionStorage.setItem('ai_ref_sent', src);
+      } catch (e) {}
+
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'ai_referral', {
+          ai_source: src,
+          page_location: window.location.href,
+          page_referrer: document.referrer || ''
+        });
+      }
+    } catch (e) {}
+  })();
+</script>

@@ -5,6 +5,7 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import SupportChat from '../components/SupportChat.astro';
 import Analytics from '../components/Analytics.astro';
+import AiReferral from '../components/AiReferral.astro';
 import ConsentBanner from '../components/ConsentBanner.astro';
 
 const {
@@ -75,6 +76,7 @@ const allLd = [organizationLd, websiteLd, ...jsonLd];
   </head>
   <body>
     <Analytics />
+    <AiReferral />
     <a class="skip-link" href="#main">Skip to main content</a>
     <Header />
     <Nav />
