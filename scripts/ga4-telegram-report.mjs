@@ -154,20 +154,6 @@ async function runReports(token) {
       orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
       limit: 10,
     },
-    // 8: AI assistant referrals (custom event ai_referral, broken down by ai_source)
-    {
-      dateRanges: yesterday,
-      dimensions: [{ name: 'customEvent:ai_source' }],
-      metrics: [{ name: 'eventCount' }],
-      dimensionFilter: {
-        filter: {
-          fieldName: 'eventName',
-          stringFilter: { value: 'ai_referral' },
-        },
-      },
-      orderBys: [{ metric: { metricName: 'eventCount' }, desc: true }],
-      limit: 10,
-    },
   ];
 
   // Split into chunks of <= 5 requests, run each batch, merge reports in order.
@@ -179,7 +165,37 @@ async function runReports(token) {
   const results = await Promise.all(
     batches.map((chunk) => batchRunReports(token, chunk))
   );
-  return { reports: results.flatMap((r) => r.reports || []) };
+  const reports = results.flatMap((r) => r.reports || []);
+
+  // 8: AI assistant referrals (custom event ai_referral, broken down by
+  // ai_source). Run separately and tolerate failure: the `customEvent:ai_source`
+  // dimension only exists once a matching custom dimension is registered in GA4,
+  // so until then this query 400s. We don't want that to sink the whole report —
+  // on any error we append null and the AI section renders "no data".
+  let aiReport = null;
+  try {
+    const aiBatch = await batchRunReports(token, [
+      {
+        dateRanges: yesterday,
+        dimensions: [{ name: 'customEvent:ai_source' }],
+        metrics: [{ name: 'eventCount' }],
+        dimensionFilter: {
+          filter: {
+            fieldName: 'eventName',
+            stringFilter: { value: 'ai_referral' },
+          },
+        },
+        orderBys: [{ metric: { metricName: 'eventCount' }, desc: true }],
+        limit: 10,
+      },
+    ]);
+    aiReport = (aiBatch.reports && aiBatch.reports[0]) || null;
+  } catch (err) {
+    console.error('AI referrals query failed (skipping section):', err.message);
+  }
+  reports.push(aiReport);
+
+  return { reports };
 }
 
 // --- Formatting ----------------------------------------------------------
