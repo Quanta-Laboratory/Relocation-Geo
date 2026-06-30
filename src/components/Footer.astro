@@ -15,9 +15,24 @@ const support = [
         <li><a href={s.href}>{s.label}</a></li>
       ))}
     </ul>
-    <p class="non-commercial">
-      Relocation.ge is a <strong>non-commercial, privately-run initiative</strong>.
-    </p>
+    <div class="non-commercial">
+      <a
+        class="emblem-link"
+        href="https://www.heraldika.ge/?lng=eng"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="National emblem of Georgia — State Council of Heraldry at the Parliament of Georgia"
+      >
+        <img
+          src="/coat-of-arms-georgia.webp"
+          alt="National emblem of Georgia"
+          width="46"
+          height="40"
+          loading="lazy"
+        />
+      </a>
+      <p>Relocation.ge is a <strong>non-commercial, privately-run initiative</strong>.</p>
+    </div>
     <p class="disclaimer">
       Relocation.ge is an independent, privately-run open-source project. It is not
       affiliated with, or endorsed by, any government body. Information is structured
@@ -28,7 +43,24 @@ const support = [
 
 <style>
   .site-footer .non-commercial {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
     margin: 1.25rem 0 0.75rem;
     font-size: 0.95rem;
+  }
+  .site-footer .non-commercial p {
+    margin: 0;
+  }
+  .site-footer .emblem-link {
+    display: inline-flex;
+    flex: none;
+    line-height: 0;
+  }
+  .site-footer .emblem-link img {
+    display: block;
+    height: 40px;
+    width: auto;
+    background: transparent;
   }
 </style>
