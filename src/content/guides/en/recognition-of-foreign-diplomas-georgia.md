@@ -4,7 +4,7 @@ category: "students"
 lang: "en"
 summary: "The NCEQE is Georgia's official body for recognising foreign qualifications and for legalising or apostilling Georgian educational documents. Recognition verifies a document's authenticity and compares the qualification with Georgian standards — and it is also the route to using a Georgian degree abroad."
 reviewed: 2026-06-27
-checked: 2026-06-27
+checked: 2026-06-30
 order: 5
 sources:
   - name: "National Center for Educational Quality Enhancement (NCEQE)"
