@@ -154,6 +154,20 @@ async function runReports(token) {
       orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
       limit: 10,
     },
+    // 8: AI assistant referrals (custom event ai_referral, broken down by ai_source)
+    {
+      dateRanges: yesterday,
+      dimensions: [{ name: 'customEvent:ai_source' }],
+      metrics: [{ name: 'eventCount' }],
+      dimensionFilter: {
+        filter: {
+          fieldName: 'eventName',
+          stringFilter: { value: 'ai_referral' },
+        },
+      },
+      orderBys: [{ metric: { metricName: 'eventCount' }, desc: true }],
+      limit: 10,
+    },
   ];
 
   // Split into chunks of <= 5 requests, run each batch, merge reports in order.
@@ -195,7 +209,7 @@ function listBlock(title, report, { bullet = '•', code = false } = {}) {
 }
 
 function buildMessage(batch) {
-  const [totals, pages, channels, countries, cities, hours, newReturning, landing] =
+  const [totals, pages, channels, countries, cities, hours, newReturning, landing, ai] =
     batch.reports;
 
   const d = new Date(Date.now() - 24 * 60 * 60 * 1000);
@@ -260,6 +274,23 @@ function buildMessage(batch) {
     });
   } else {
     msg += `— no data\n`;
+  }
+
+  // AI assistant referrals
+  msg += `\n<b>🤖 AI referrals:</b>\n`;
+  const aiRows = (ai?.rows || []).filter(
+    (r) => r.dimensionValues[0].value && r.dimensionValues[0].value !== '(not set)'
+  );
+  if (aiRows.length) {
+    const aiTotal = aiRows.reduce((s, r) => s + Number(r.metricValues[0].value || 0), 0);
+    msg += `Total: <b>${num(aiTotal)}</b>\n`;
+    aiRows.forEach((r) => {
+      const src = escapeHtml(r.dimensionValues[0].value);
+      const v = num(r.metricValues[0].value);
+      msg += `• ${src}: ${v}\n`;
+    });
+  } else {
+    msg += `— no AI-referred visits\n`;
   }
 
   return msg;
