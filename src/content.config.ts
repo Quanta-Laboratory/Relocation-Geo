@@ -8,7 +8,7 @@ const guides = defineCollection({
   schema: z.object({
     title: z.string(),
     // Top-level hub the page belongs to
-    category: z.enum(['immigration', 'work', 'students', 'live', 'about']),
+    category: z.enum(['immigration', 'work', 'tax', 'students', 'live', 'about']),
     lang: z.string().default('en'),
     // Answer-first summary used for meta description + AI extraction
     summary: z.string(),
