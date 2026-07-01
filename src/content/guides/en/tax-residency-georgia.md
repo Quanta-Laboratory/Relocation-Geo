@@ -4,7 +4,7 @@ category: "tax"
 lang: "en"
 summary: "Georgia decides individual tax residency mainly on physical presence: under Article 34 of the Tax Code, a person who spends 183 days or more in Georgia in any continuous 12-month period ending in the tax year is a Georgian tax resident for that entire year. There is also a High Net Worth Individual (HNWI) route, set by a joint order of the Minister of Finance, that grants residency without the day count to people who meet a wealth-or-income threshold plus a Georgian-nexus condition. Tax residency matters because Georgia taxes residents only on Georgian-source income and because a residency certificate unlocks Georgia's double-tax treaties. This guide explains both routes, how days are counted, the HNWI thresholds, and how to obtain a tax-residency certificate, checked against the primary Georgian law."
 reviewed: 2026-06-30
-checked: 2026-06-30
+checked: 2026-07-01
 order: 1
 sources:
   - name: "Tax Code of Georgia, Article 34 (residence) — Legislative Herald, consolidated Georgian text"

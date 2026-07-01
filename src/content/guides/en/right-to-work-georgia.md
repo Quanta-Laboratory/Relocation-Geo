@@ -4,7 +4,7 @@ category: "immigration"
 lang: "en"
 summary: "The 'right to work' is the permission a foreign national needs to take paid employment or run a business for economic benefit in Georgia. Since the 2026 labour-migration reform it is a distinct authorisation, granted by the Ministry of Labour through its electronic labour-migration system, separate from any residence permit. This guide explains who needs it, the fourteen statutory exemptions (including fully remote work and work for foreign clients, both widened by Law No 1509 of 15 April 2026), how an employee and a self-employed person each apply, the GEL 500 fee cap and 30-day review, the grounds for refusal and termination, the fines for working without it, and the 1 January 2027 transitional deadline for people already registered in Georgia."
 reviewed: 2026-06-29
-checked: 2026-06-30
+checked: 2026-07-01
 order: 5
 sources:
   - name: "Law of Georgia on Labour Migration (consolidated, English)"
