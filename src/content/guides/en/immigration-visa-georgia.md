@@ -27,17 +27,18 @@ faq:
 
 The immigration visa — category **D** — is Georgia's **long-term** visa. It matters more than any other category for people relocating, because a long-term visa is the **precondition for obtaining a Georgian residence permit**. It is defined in Article 7 of the Law on the Legal Status of Aliens and Stateless Persons. Choose the D subcategory that matches your purpose.
 
-## The five subcategories
+## The subcategories
 
 - **D1 — work and business.** For an alien who has obtained the **right to labour activity**, and for those coming to Georgia to carry out **entrepreneurial activity** under the Law on Entrepreneurs.
 - **D2 — missions, freelancers, media.** Scientific, sporting, cultural or educational missions; freelancers; interns and volunteers; mass-media workers performing official duties.
 - **D3 — study and research.** Study or research at an authorised educational institution in Georgia, and study under international programmes.
 - **D4 — family reunification.** For individuals arriving for family reunification.
 - **D5 — property owners.** For an owner of Georgian real property (other than agricultural land) with a market value exceeding the GEL equivalent of **USD 150,000**, plus spouse and child(ren). The value must be established by a **certified assessor** accredited by the Georgian Accreditation Centre.
+- **D6 — minor students (from 1 September 2026).** For a **minor** studying at an authorised higher, vocational or general-education institution in Georgia, and — where the student is a minor — their parents or legal representatives and minor siblings, until the student turns 18. This new category comes into force on **1 September 2026**; from the same date D3 is limited to adult students and researchers. See the [D6 visa guide](/en/d6-visa-georgia).
 
 ## Type, validity and stay
 
-D visas are **multiple-entry** with **90-day or one-year** validity and duration of stay. A one-year long-term visa is issued **only** for D5; the other D categories carry 90-day validity. The long-term visa is the gateway to a residence permit and, where relevant, to diplomatic accreditation.
+D visas are **multiple-entry** with **90-day or one-year** validity and duration of stay. From **1 September 2026** the one-year long-term visa is issued for **D5 and D6**; the other D categories carry 90-day validity. (Until that date, one-year validity applies to D5 only.) The long-term visa is the gateway to a residence permit and, where relevant, to diplomatic accreditation.
 
 ## Processing time
 

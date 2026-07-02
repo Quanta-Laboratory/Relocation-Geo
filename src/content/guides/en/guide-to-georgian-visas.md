@@ -2,7 +2,7 @@
 title: "Guide to Georgian Visas: All Visa Types Explained (2026)"
 category: "immigration"
 lang: "en"
-summary: "Many nationalities can enter Georgia visa-free for up to one year. Those who need a visa choose from short-term categories (diplomatic A, special B, ordinary C, transit) or long-term immigration visas (D1–D5). A long-term visa is the precondition for a residence permit, and since 1 March 2026 working in Georgia also requires a separate work permit."
+summary: "Many nationalities can enter Georgia visa-free for up to one year. Those who need a visa choose from short-term categories (diplomatic A, special B, ordinary C, transit) or long-term immigration visas (D1–D6, with D6 in force from 1 September 2026). A long-term visa is the precondition for a residence permit, and since 1 March 2026 working in Georgia also requires a separate work permit."
 reviewed: 2026-06-27
 checked: 2026-07-02
 order: 1
@@ -15,7 +15,7 @@ faq:
   - q: "Do I need a visa to visit Georgia?"
     a: "Often not. Citizens of more than 90 countries can enter visa-free and stay up to one year under a Government ordinance. Other visa-exempt travellers may stay 90 days within any 180-day period. Everyone else needs a short-term visa or an e-visa."
   - q: "What is the difference between short-term and long-term visas?"
-    a: "Short-term visas (diplomatic A, special B, ordinary C, and transit) are for short stays — a single-entry short-term visa is issued for up to 30 days. Long-term immigration visas (D1–D5) are multiple-entry with 90-day or one-year validity and are the precondition for obtaining a residence permit."
+    a: "Short-term visas (diplomatic A, special B, ordinary C, and transit) are for short stays — a single-entry short-term visa is issued for up to 30 days. Long-term immigration visas (D1–D6, with D6 in force from 1 September 2026) are multiple-entry with 90-day or one-year validity and are the precondition for obtaining a residence permit."
   - q: "Which visa do digital nomads use?"
     a: "Georgia has no dedicated digital-nomad visa. Remote workers typically rely on visa-free entry (up to a year) or the C5 short-term visa for activity performed only for a non-resident. Note that since 1 March 2026, performing paid work in Georgia generally requires a separate work permit."
   - q: "What is the D5 visa?"
@@ -59,7 +59,12 @@ Long-term, or immigration, visas are category D. They are multiple-entry, issued
 - **D2** — scientific, sporting, cultural or educational missions; freelancers; interns and volunteers; media workers on assignment.
 - **D3** — study or research at an authorised educational institution, or study under international programmes.
 - **D4** — family reunification.
-- **D5** — for an owner of Georgian real estate (other than agricultural land) worth at least the GEL equivalent of USD 150,000, plus spouse and children. The market value must be confirmed by a certified assessor. D5 is the only D visa that carries one-year validity.
+- **D5** — for an owner of Georgian real estate (other than agricultural land) worth at least the GEL equivalent of USD 150,000, plus spouse and children. The market value must be confirmed by a certified assessor.
+- **D6** — for a minor studying at an authorised Georgian institution, plus their parents or legal representatives and minor siblings. New from 1 September 2026 — see the block below.
+
+## New from 1 September 2026: the D6 student visa
+
+A new immigration sub-category, **D6**, comes into force on **1 September 2026**. It is built for **minor foreign nationals who come to Georgia to study** — at an authorised higher or vocational institution, or at a general-education school until they finish full general education — and it also covers the **parents or legal representatives and minor siblings** accompanying that minor, until the student turns 18. Like D5, D6 is a long-term, multiple-entry visa that can be issued with **one-year validity** and is a precondition for a residence permit. The same amendment narrows **D3** to **adult** students and researchers, so from that date minors use D6 instead. Full detail is in the [D6 visa guide](/en/d6-visa-georgia).
 
 ## E-visa
 
@@ -77,4 +82,4 @@ Georgia is popular with remote workers but has no dedicated digital-nomad visa i
 
 ## Validity and length of stay at a glance
 
-A single-entry short-term visa is issued for up to 30 days. Multiple-entry short-term visas can run up to five years. Long-term D visas are multiple-entry with 90-day or one-year validity (one year only for D5). Visa-free visitors stay either up to one year (listed nationalities) or up to 90 days in any 180-day period. To stay and live in Georgia beyond a visa, you convert a long-term visa into a residence permit.
+A single-entry short-term visa is issued for up to 30 days. Multiple-entry short-term visas can run up to five years. Long-term D visas are multiple-entry with 90-day or one-year validity (one year for D5, and for D6 from 1 September 2026). Visa-free visitors stay either up to one year (listed nationalities) or up to 90 days in any 180-day period. To stay and live in Georgia beyond a visa, you convert a long-term visa into a residence permit.
