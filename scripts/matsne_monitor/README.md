@@ -10,19 +10,21 @@ Georgian original.
 
 | File | Purpose |
 | --- | --- |
-| `monitor.py` | The script. |
+| `monitor.py` | The script that checks matsne and notifies on each new document. |
+| `digest.py` | Sends one daily summary of the documents detected today. |
 | `state.json` | Saved state (which documents have been seen). Committed back by the workflow. Created automatically. |
 | `changes_log.md` | Human-readable history of every detected document, EN + KA. Committed back by the workflow. Created automatically. |
-| `../../.github/workflows/monitor.yml` | Runs the script twice a day. |
+| `../../.github/workflows/monitor.yml` | Runs `monitor.py` twice a day. |
+| `../../.github/workflows/digest.yml` | Runs `digest.py` once a day (evening summary). |
 
 ## Schedule
 
-The GitHub Action runs twice daily via cron (always UTC):
+Cron is always UTC:
 
-- `08:00 UTC` → 12:00 Tbilisi
-- `16:00 UTC` → 20:00 Tbilisi
+- Monitor: `08:00 UTC` → 12:00 Tbilisi, and `16:00 UTC` → 20:00 Tbilisi — checks matsne and sends a notification per new document.
+- Digest: `17:00 UTC` → 21:00 Tbilisi — one message summarising the documents detected today. Reads `changes_log.md` (no extra translation). Sends "No new documents today" on empty days; set the workflow env `SEND_IF_EMPTY: '0'` to stay silent instead.
 
-You can also trigger it manually from the **Actions** tab (**Run workflow**).
+You can also trigger either from the **Actions** tab (**Run workflow**).
 
 ## Secrets
 
