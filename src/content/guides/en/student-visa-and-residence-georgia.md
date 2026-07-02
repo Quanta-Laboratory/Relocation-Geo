@@ -4,7 +4,7 @@ category: "students"
 lang: "en"
 summary: "International students enter Georgia on the D3 immigration visa, issued for study or research at an authorised institution, and then convert it into a study (temporary) residence permit to stay for the length of their programme. Many nationalities can also enter visa-free first and arrange status from within Georgia."
 reviewed: 2026-06-27
-checked: 2026-07-01
+checked: 2026-07-02
 order: 2
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)"

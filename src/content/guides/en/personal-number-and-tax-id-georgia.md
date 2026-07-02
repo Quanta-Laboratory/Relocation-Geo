@@ -4,7 +4,7 @@ category: "live"
 lang: "en"
 summary: "Foreign residents receive an 11-digit personal number with their Georgian ID card, which requires a residence permit and is issued by the Public Service Development Agency. Foreigners without residence can instead get a 9-digit tax identification number (TIN) from the Revenue Service — no residence permit needed."
 reviewed: 2026-06-27
-checked: 2026-07-01
+checked: 2026-07-02
 order: 7
 sources:
   - name: "Public Service Development Agency (PSDA)"
