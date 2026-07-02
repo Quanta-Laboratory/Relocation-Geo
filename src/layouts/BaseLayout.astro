@@ -14,10 +14,21 @@ const {
   lang = 'en',
   dir = 'ltr',
   jsonLd = [],
+  translations = [],
+  languageLabel = 'Language',
 } = Astro.props;
 
 const siteUrl = Astro.site ? String(Astro.site) : 'https://relocation.ge';
 const canonical = new URL(Astro.url.pathname, siteUrl).href;
+
+// hreflang alternates: one per available translation of this page, plus a
+// sensible x-default (the English version when present, else the current URL).
+const alternates = (translations as { code: string; href: string; active: boolean }[]).map((t) => ({
+  code: t.code,
+  href: new URL(t.href, siteUrl).href,
+}));
+const xDefault =
+  alternates.find((a) => a.code === 'en')?.href ?? canonical;
 const fullTitle = title ? `${title} — Relocation.ge` : 'Relocation.ge — Guidance on moving to Georgia';
 
 // Site-wide structured data (always emitted)
@@ -60,8 +71,19 @@ const allLd = [organizationLd, websiteLd, ...jsonLd];
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="en" href={canonical} />
-    <link rel="alternate" hreflang="x-default" href={canonical} />
+    {alternates.length > 1 ? (
+      <>
+        {alternates.map((a) => (
+          <link rel="alternate" hreflang={a.code} href={a.href} />
+        ))}
+        <link rel="alternate" hreflang="x-default" href={xDefault} />
+      </>
+    ) : (
+      <>
+        <link rel="alternate" hreflang="en" href={canonical} />
+        <link rel="alternate" hreflang="x-default" href={canonical} />
+      </>
+    )}
     <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Relocation.ge" />
@@ -78,7 +100,7 @@ const allLd = [organizationLd, websiteLd, ...jsonLd];
     <Analytics />
     <AiReferral />
     <a class="skip-link" href="#main">Skip to main content</a>
-    <Header />
+    <Header translations={translations} languageLabel={languageLabel} />
     <Nav />
     <slot />
     <Footer />

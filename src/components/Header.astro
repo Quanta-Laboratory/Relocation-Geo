@@ -1,11 +1,27 @@
 ---
 import ThemeToggle from './ThemeToggle.astro';
-const { product = 'Guides' } = Astro.props;
+import LanguageSwitcher from './LanguageSwitcher.astro';
+const { product = 'Guides', translations = [], languageLabel = 'Language' } = Astro.props;
 ---
 <header class="site-header">
   <div class="site-header__inner">
     <a href="/en/" class="site-logo">Relocation.ge</a>
     <span class="site-header__product">{product}</span>
-    <ThemeToggle />
+    <div class="site-header__tools">
+      <LanguageSwitcher links={translations} label={languageLabel} />
+      <ThemeToggle />
+    </div>
   </div>
 </header>
+
+<style is:global>
+  .site-header__tools {
+    margin-inline-start: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  /* ThemeToggle sets its own auto margin; inside the tools group it no longer
+     needs to push itself, the group does. */
+  .site-header__tools .theme-toggle { margin-inline-start: 0; }
+</style>

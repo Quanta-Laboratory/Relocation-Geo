@@ -3,49 +3,64 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import DateStamp from '../components/DateStamp.astro';
 import { getCollection } from 'astro:content';
+import { ui, dirFor, localeFor, LANGS } from '../i18n/ui';
 
 const { entry, headings = [] } = Astro.props;
 const d = entry.data;
 
-const slug = entry.id.replace(/^en\//, '');
-const childLink = (e: { id: string }) => `/en/${e.id.replace(/^en\//, '')}`;
+const lang = d.lang;
+const t = ui(lang);
+
+// Strip the language prefix (any of the known codes) to get the base slug.
+const stripLang = (id: string) => id.replace(/^[a-z]{2}\//, '');
+const slug = stripLang(entry.id);
+const childLink = (e: { id: string }) => `/${lang}/${stripLang(e.id)}`;
 
 // Sibling pages in the same language, used to build the two-level hierarchy:
 // children of this page (for the "In this section" index) and this page's
 // parent pillar (for the breadcrumb trail).
 const siblings = await getCollection(
   'guides',
-  ({ data }) => data.lang === d.lang && !data.draft
+  ({ data }) => data.lang === lang && !data.draft
 );
 const children = siblings
   .filter((e) => e.data.parent === slug)
   .sort((a, b) => a.data.order - b.data.order);
 const parentEntry = d.parent
-  ? siblings.find((e) => e.id.replace(/^en\//, '') === d.parent)
+  ? siblings.find((e) => stripLang(e.id) === d.parent)
   : null;
 
-const catLabels: Record<string, string> = {
-  immigration: 'Immigration & Visa',
-  work: 'Work & Business',
-  tax: 'Taxes',
-  students: 'Study in Georgia',
-  live: 'Live in Georgia',
-  about: 'About',
-};
+// Cross-language versions of this same page, for the header switcher and
+// hreflang alternates. One entry per language that has this base slug.
+const allGuides = await getCollection('guides', ({ data }) => !data.draft);
+const translations = LANGS.map((l) => {
+  const match = allGuides.find(
+    (e) => e.data.lang === l.code && stripLang(e.id) === slug
+  );
+  if (!match) return null;
+  return {
+    code: l.code,
+    native: l.native,
+    href: `/${l.code}/${slug}`,
+    active: l.code === lang,
+  };
+}).filter((x): x is NonNullable<typeof x> => x !== null);
+
+const catLabels = t.categories;
 const catHref: Record<string, string> = {
-  immigration: '/en/#immigration',
-  work: '/en/#work',
-  tax: '/en/#tax',
-  students: '/en/#students',
-  live: '/en/#live',
-  about: '/en/#about',
+  immigration: `/${lang}/#immigration`,
+  work: `/${lang}/#work`,
+  tax: `/${lang}/#tax`,
+  students: `/${lang}/#students`,
+  live: `/${lang}/#live`,
+  about: `/${lang}/#about`,
 };
 
 const crumbs = [
-  { href: '/en/', label: 'Home' },
+  { href: `/${lang}/`, label: t.home },
   { href: catHref[d.category], label: catLabels[d.category] },
   ...(parentEntry
-    ? [{ href: `/en/${d.parent}`, label: parentEntry.data.title }]
+    ? [{ href: `/${lang}/${d.parent}`, label: parentEntry.data.title }]
     : []),
   { label: d.title },
 ];
@@ -95,16 +110,30 @@ const faqLd =
 const jsonLd = [articleLd, breadcrumbLd, ...(faqLd ? [faqLd] : [])];
 const toc = headings.filter((h: { depth: number }) => h.depth === 2);
 ---
-<BaseLayout title={d.title} description={d.summary} lang={d.lang} jsonLd={jsonLd}>
+<BaseLayout
+  title={d.title}
+  description={d.summary}
+  lang={lang}
+  dir={dirFor(lang)}
+  translations={translations}
+  languageLabel={t.language}
+  jsonLd={jsonLd}
+>
   <Breadcrumbs items={crumbs} />
   <main id="main" class="wrap">
     <h1>{d.title}</h1>
     <p class="lede">{d.summary}</p>
-    <DateStamp reviewed={d.reviewed} checked={d.checked} />
+    <DateStamp
+      reviewed={d.reviewed}
+      checked={d.checked}
+      locale={localeFor(lang)}
+      reviewedLabel={t.reviewed}
+      checkedLabel={t.checked}
+    />
 
     <div class="cols">
-      <nav class="contents" aria-label="Contents">
-        <h2>Contents</h2>
+      <nav class="contents" aria-label={t.contents}>
+        <h2>{t.contents}</h2>
         <ol>
           {toc.map((h: { slug: string; text: string }) => (
             <li><a href={`#${h.slug}`}>{h.text}</a></li>
@@ -114,8 +143,8 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
 
       <div class="prose">
         {children.length > 0 && (
-          <nav class="in-section" aria-label="In this section">
-            <h2>In this section</h2>
+          <nav class="in-section" aria-label={t.inThisSection}>
+            <h2>{t.inThisSection}</h2>
             <ul>
               {children.map((e) => (
                 <li>
@@ -130,8 +159,8 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
         <slot />
 
         {d.faq.length > 0 && (
-          <section class="faq" aria-label="Frequently asked questions">
-            <h2>Frequently asked questions</h2>
+          <section class="faq" aria-label={t.faqHeading}>
+            <h2>{t.faqHeading}</h2>
             {d.faq.map((f: { q: string; a: string }) => (
               <details>
                 <summary>{f.q}</summary>
@@ -143,7 +172,7 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
 
         {d.sources.length > 0 && (
           <div class="sources">
-            <h2>Sources</h2>
+            <h2>{t.sources}</h2>
             <ul>
               {d.sources.map((s: { name: string; url: string }) => (
                 <li><a href={s.url} rel="nofollow noopener" target="_blank">{s.name}</a></li>
@@ -153,8 +182,8 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
         )}
 
         <div class="feedback">
-          <h2>Is this page useful?</h2>
-          <p><a href="#">Yes</a> · <a href="#">No</a></p>
+          <h2>{t.usefulHeading}</h2>
+          <p><a href="#">{t.yes}</a> · <a href="#">{t.no}</a></p>
         </div>
       </div>
     </div>
