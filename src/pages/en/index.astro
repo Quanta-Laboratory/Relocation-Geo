@@ -3,9 +3,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const all = await getCollection('guides', ({ data }) => data.lang === 'en' && !data.draft);
+// Only top-level pages appear on the homepage. Pages that declare a `parent`
+// are nested under their pillar page and are reachable from there.
 const byCat = (c: string) =>
   all
-    .filter((e) => e.data.category === c)
+    .filter((e) => e.data.category === c && !e.data.parent)
     .sort((a, b) => a.data.order - b.data.order);
 const link = (e: { id: string }) => `/en/${e.id.replace(/^en\//, '')}`;
 

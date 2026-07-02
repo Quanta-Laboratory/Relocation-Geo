@@ -9,6 +9,10 @@ const guides = defineCollection({
     title: z.string(),
     // Top-level hub the page belongs to
     category: z.enum(['immigration', 'work', 'tax', 'students', 'live', 'about']),
+    // Optional pillar/overview page this page sits under (its slug, without the
+    // `en/` prefix). Pages with a parent are hidden from the homepage hub list
+    // and instead surface under the pillar page's "In this section" block.
+    parent: z.string().optional(),
     lang: z.string().default('en'),
     // Answer-first summary used for meta description + AI extraction
     summary: z.string(),

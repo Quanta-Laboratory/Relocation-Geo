@@ -1,6 +1,7 @@
 ---
 title: "Work Residence Permit & the Right to Work in Georgia (2026)"
 category: "immigration"
+parent: guide-to-residence-permits
 lang: "en"
 summary: "Since the 2026 labour-migration reform, working in Georgia is a two-stage process. First a foreign national obtains the 'right to work' from the Ministry of Labour (the work permit); only then does a work residence permit or IT-employed residence permit follow. A residence permit alone no longer grants the right to work. The work residence permit requires monthly income of at least five times the subsistence minimum and an employer turnover of at least GEL 50,000 per applicant. Amendments of 15 April 2026 broadened the exemptions: people who work completely remotely for a foreign employer, or who serve clients abroad without needing to enter Georgia, fall outside the requirement, as do several other categories."
 reviewed: 2026-06-29

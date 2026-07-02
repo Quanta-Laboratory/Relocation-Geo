@@ -2,9 +2,27 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import DateStamp from '../components/DateStamp.astro';
+import { getCollection } from 'astro:content';
 
 const { entry, headings = [] } = Astro.props;
 const d = entry.data;
+
+const slug = entry.id.replace(/^en\//, '');
+const childLink = (e: { id: string }) => `/en/${e.id.replace(/^en\//, '')}`;
+
+// Sibling pages in the same language, used to build the two-level hierarchy:
+// children of this page (for the "In this section" index) and this page's
+// parent pillar (for the breadcrumb trail).
+const siblings = await getCollection(
+  'guides',
+  ({ data }) => data.lang === d.lang && !data.draft
+);
+const children = siblings
+  .filter((e) => e.data.parent === slug)
+  .sort((a, b) => a.data.order - b.data.order);
+const parentEntry = d.parent
+  ? siblings.find((e) => e.id.replace(/^en\//, '') === d.parent)
+  : null;
 
 const catLabels: Record<string, string> = {
   immigration: 'Immigration & Visa',
@@ -26,6 +44,9 @@ const catHref: Record<string, string> = {
 const crumbs = [
   { href: '/en/', label: 'Home' },
   { href: catHref[d.category], label: catLabels[d.category] },
+  ...(parentEntry
+    ? [{ href: `/en/${d.parent}`, label: parentEntry.data.title }]
+    : []),
   { label: d.title },
 ];
 
@@ -92,6 +113,20 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
       </nav>
 
       <div class="prose">
+        {children.length > 0 && (
+          <nav class="in-section" aria-label="In this section">
+            <h2>In this section</h2>
+            <ul>
+              {children.map((e) => (
+                <li>
+                  <a href={childLink(e)}>{e.data.title}</a>
+                  <span class="in-section__sum">{e.data.summary}</span>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
+
         <slot />
 
         {d.faq.length > 0 && (
@@ -127,6 +162,37 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
 </BaseLayout>
 
 <style is:global>
+  /* "In this section" — auto-generated index of child pages on a pillar page. */
+  .in-section {
+    margin: 0 0 30px;
+    padding: 15px 20px;
+    background: var(--grey-3);
+  }
+  .in-section h2 {
+    margin: 0 0 12px;
+    font-size: 18px;
+  }
+  .in-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 14px;
+  }
+  .in-section li {
+    margin: 0;
+  }
+  .in-section a {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .in-section__sum {
+    display: block;
+    margin-top: 3px;
+    font-size: 15px;
+    color: var(--grey-1);
+  }
+
   /* On mobile the two-column grid collapses to one column; the sticky
      Contents nav would otherwise overlap the article text as you scroll.
      Higher specificity (.cols .contents) overrides the base sticky rule. */

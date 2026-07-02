@@ -1,6 +1,7 @@
 ---
 title: "Short-Term Residence Permit in Georgia by Property (2026)"
 category: "immigration"
+parent: guide-to-residence-permits
 lang: "en"
 summary: "Georgia's Short-Term Residence Permit lets owners of Georgian real estate live in the country on the strength of their property. From 1 March 2026 the qualifying threshold is non-agricultural real estate with a market value above USD 150,000 (raised from USD 100,000); ownership registered before that date keeps the old threshold. The permit is issued for one year at a time and is renewable while the qualifying ownership continues, and it can extend to the owner's spouse and minor children. Value is set by market valuation, not purchase price, and multiple properties can be combined to reach the threshold. This guide explains the threshold and the 1 March 2026 change, who can be included, fees and how it differs from the Investment Residence Permit, checked against the primary law."
 reviewed: 2026-06-30
