@@ -4,7 +4,7 @@ category: "students"
 lang: "en"
 summary: "Funding for international students in Georgia comes mainly from EU Erasmus+ programmes, a limited number of Georgian government and bilateral scholarships, and university-level tuition discounts. Most international students still largely self-fund, helped by Georgia's low tuition and living costs."
 reviewed: 2026-06-27
-checked: 2026-06-30
+checked: 2026-07-02
 order: 8
 sources:
   - name: "Erasmus+ (European Union)"

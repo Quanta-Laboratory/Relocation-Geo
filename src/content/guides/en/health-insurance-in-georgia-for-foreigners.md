@@ -4,7 +4,7 @@ category: "live"
 lang: "en"
 summary: "From 1 January 2026, tourists entering Georgia must hold health and accident insurance with a minimum sum insured of GEL 30,000, valid for their whole stay, under Government Decree No 602. Long-term residents generally rely on private insurance, as the state Universal Healthcare Program offers foreigners only limited free cover."
 reviewed: 2026-06-27
-checked: 2026-06-30
+checked: 2026-07-02
 order: 2
 sources:
   - name: "Government of Georgia, Decree No 602 of 26 December 2025 (mandatory insurance for incoming tourists)"

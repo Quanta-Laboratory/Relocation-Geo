@@ -4,7 +4,7 @@ category: "work"
 lang: "en"
 summary: "Once registered, a Georgian company is run through its general meeting and management body, with a supervisory board only where law or the charter requires one. A regular general meeting must be held at least once a year, registry data must be kept up to date, and the Law on Entrepreneurs sets clear rules for reorganisation and creditor protection."
 reviewed: 2026-06-27
-checked: 2026-06-30
+checked: 2026-07-02
 order: 4
 sources:
   - name: "Law of Georgia on Entrepreneurs (Legislative Herald)"
