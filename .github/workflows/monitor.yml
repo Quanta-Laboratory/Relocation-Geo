@@ -41,7 +41,8 @@ jobs:
         run: |
           git config user.name "relocation-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add scripts/matsne_monitor/state.json scripts/matsne_monitor/changes_log.md
+          git add scripts/matsne_monitor/state.json 2>/dev/null || true
+          git add scripts/matsne_monitor/changes_log.md 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
