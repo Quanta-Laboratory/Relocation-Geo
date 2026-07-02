@@ -1,0 +1,68 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#334155" stroke-width="1" opacity="0.35">
+    <path d="M0 90 H1200 M0 180 H1200 M0 270 H1200 M0 360 H1200 M0 450 H1200 M0 540 H1200"/>
+    <path d="M150 0 V630 M300 0 V630 M450 0 V630 M600 0 V630 M750 0 V630 M900 0 V630 M1050 0 V630"/>
+  </g>
+
+  <!-- Georgian cross motif, faint, top-right -->
+  <g opacity="0.08" fill="#ef4444">
+    <rect x="1010" y="70" width="30" height="150"/>
+    <rect x="950" y="130" width="150" height="30"/>
+  </g>
+
+  <!-- monitor / screen icon -->
+  <g transform="translate(120,175)">
+    <rect x="0" y="0" width="200" height="140" rx="14" fill="#0b1220" stroke="url(#accent)" stroke-width="4"/>
+    <rect x="86" y="140" width="28" height="30" fill="#334155"/>
+    <rect x="55" y="170" width="90" height="12" rx="6" fill="#334155"/>
+    <!-- document lines on screen -->
+    <rect x="24" y="30" width="120" height="12" rx="6" fill="url(#accent)"/>
+    <rect x="24" y="56" width="152" height="9" rx="4.5" fill="#475569"/>
+    <rect x="24" y="76" width="132" height="9" rx="4.5" fill="#475569"/>
+    <rect x="24" y="96" width="150" height="9" rx="4.5" fill="#475569"/>
+    <!-- pulse dot -->
+    <circle cx="165" cy="36" r="9" fill="#22c55e" filter="url(#glow)"/>
+  </g>
+
+  <!-- text -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="120" y="415" font-size="86" font-weight="800" fill="#f8fafc" letter-spacing="-1">Matsne Monitor</text>
+    <text x="122" y="470" font-size="30" font-weight="500" fill="#94a3b8">Tracking new Georgian legal documents · twice daily</text>
+
+    <!-- pill tags -->
+    <g font-size="22" font-weight="600">
+      <rect x="122" y="505" width="200" height="46" rx="23" fill="#1e293b" stroke="#334155"/>
+      <text x="222" y="535" fill="#e2e8f0" text-anchor="middle">matsne.gov.ge</text>
+
+      <rect x="338" y="505" width="180" height="46" rx="23" fill="#1e293b" stroke="#334155"/>
+      <text x="428" y="535" fill="#e2e8f0" text-anchor="middle">Auto-translate</text>
+
+      <rect x="534" y="505" width="150" height="46" rx="23" fill="#1e293b" stroke="#334155"/>
+      <text x="609" y="535" fill="#e2e8f0" text-anchor="middle">Telegram</text>
+    </g>
+  </g>
+
+  <!-- accent underline -->
+  <rect x="122" y="432" width="360" height="6" rx="3" fill="url(#accent)"/>
+
+  <!-- brand corner -->
+  <text x="1080" y="590" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" fill="#64748b" text-anchor="end">relocation.ge</text>
+</svg>
