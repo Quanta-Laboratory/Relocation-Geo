@@ -28,7 +28,7 @@ Georgia's entry system has two layers: a generous visa-free regime that covers m
 
 ## Do you even need a visa?
 
-For many people the answer is no. Citizens of more than 90 countries — including the EU, the United Kingdom, the United States, Canada, Australia and many others — can enter Georgia visa-free and stay for up to one year under a Government of Georgia ordinance. EU and UK citizens may even enter on a national ID card rather than a passport.
+For many people the answer is no. Citizens of more than 90 countries — including the EU, the United Kingdom, the United States, Canada, Australia and many others — can enter Georgia visa-free and stay for up to one year under a Government of Georgia ordinance. EU and UK citizens may even enter on a national ID card rather than a passport. See [Visa-Free Entry & the One-Year Rule](/en/visa-free-entry-georgia) for the full list and how the year works.
 
 Travellers who are visa-exempt but not on the one-year list may stay for up to 90 calendar days within any 180-day period. In addition, holders of a valid visa or residence permit from certain countries (such as the EU, US and others) can enter visa-free for short stays even if their nationality would normally require a visa. If none of these apply to you, you will need a Georgian visa or an e-visa.
 
@@ -36,10 +36,10 @@ Travellers who are visa-exempt but not on the one-year list may stay for up to 9
 
 Short-term visas cover short visits. A single-entry short-term visa is issued for up to 30 days; multiple-entry short-term visas can be issued with validity up to five years. The categories are:
 
-- **A — Diplomatic visa (A1–A5):** for heads of state and senior officials, accredited diplomats and their families, diplomatic couriers, honorary consuls, and similar official visitors.
-- **B — Special visa (B1–B4):** for members of official delegations and holders of service passports, administrative and technical staff of missions, persons arriving under international treaties or as peacekeepers, and certain national-interest missions.
-- **C — Ordinary visa (C1–C5):** the everyday categories — see below.
-- **Transit visa:** for transiting Georgia (up to 10 days) on the way to a third country.
+- **[A — Diplomatic visa (A1–A5)](/en/diplomatic-visa-georgia):** for heads of state and senior officials, accredited diplomats and their families, diplomatic couriers, honorary consuls, and similar official visitors.
+- **[B — Special visa (B1–B4)](/en/special-visa-georgia):** for members of official delegations and holders of service passports, administrative and technical staff of missions, persons arriving under international treaties or as peacekeepers, and certain national-interest missions.
+- **[C — Ordinary visa (C1–C5)](/en/ordinary-visa-georgia):** the everyday categories — see below.
+- **[Transit visa](/en/transit-visa-georgia):** for transiting Georgia (up to 10 days) on the way to a third country.
 
 ## The ordinary (C) categories
 
@@ -53,7 +53,7 @@ Most ordinary travellers who need a visa fall under category C:
 
 ## Long-term (immigration) visas
 
-Long-term, or immigration, visas are category D. They are multiple-entry, issued with 90-day or one-year validity, and — importantly — a long-term visa is the precondition for obtaining a Georgian residence permit. The sub-categories are:
+Long-term, or immigration, visas are category D. They are multiple-entry, issued with 90-day or one-year validity, and — importantly — a long-term visa is the precondition for obtaining a Georgian residence permit. See [Immigration (D) Visa: D1–D5 Explained](/en/immigration-visa-georgia) for the full detail. The sub-categories are:
 
 - **D1** — for a person who has obtained the right to labour activity, and for those coming to carry out entrepreneurial activity under the Law on Entrepreneurs.
 - **D2** — scientific, sporting, cultural or educational missions; freelancers; interns and volunteers; media workers on assignment.
