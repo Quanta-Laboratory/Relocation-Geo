@@ -28,7 +28,7 @@ Georgia is straightforward for foreign drivers in the short term, but there are 
 
 ## Driving on a foreign licence
 
-A foreigner may drive in Georgia on a **valid foreign driving licence for up to one year after their last entry** into the country — or until the licence's own expiry date, if that comes first. If your licence is not in Georgian or English, carry an International Driving Permit (IDP) alongside it to avoid problems with police or car-rental firms.
+A foreigner may drive in Georgia on a **valid foreign driving licence for up to one year after their last entry** into the country — or until the licence's own expiry date, if that comes first. This one-year window runs from your last border crossing, much like the [visa-free one-year stay](/en/visa-free-entry-georgia). If your licence is not in Georgian or English, carry an International Driving Permit (IDP) alongside it to avoid problems with police or car-rental firms.
 
 ## Exchanging for a Georgian licence
 

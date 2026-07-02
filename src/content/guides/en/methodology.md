@@ -11,7 +11,7 @@ sources:
     url: "https://matsne.gov.ge/"
 ---
 
-Relocation.ge follows an open-standard approach to turning official legal provisions into clear, usable guidance.
+Relocation.ge follows an open-standard approach to turning official legal provisions into clear, usable guidance. For what the project is and why it exists, see [About Relocation.ge](/en/about).
 
 ## Our principles
 

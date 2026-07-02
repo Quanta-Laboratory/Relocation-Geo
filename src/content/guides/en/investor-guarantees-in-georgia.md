@@ -22,7 +22,7 @@ faq:
     a: "Yes. Some activities are prohibited for everyone (such as weapons of mass destruction or narcotic drug production), some are reserved for the State of Georgia (such as printing currency or dispatching electricity), and others require special permits or licences. Rights to land and natural resources are governed by separate laws."
 ---
 
-Georgia treats foreign and local investment under a single framework. The Law of Georgia on Promotion and Guarantees of Investment Activity (Document No 473, in force since 1996 and consolidated through 2019) sets out what an investment is, who qualifies as an investor, and the protections the state guarantees. An investment is broadly defined: money, securities, movable and immovable property, rights to use land or natural resources, patents, licences, know-how and other intellectual values used in entrepreneurial activity in Georgia to earn profit.
+Georgia treats foreign and local investment under a single framework. The Law of Georgia on Promotion and Guarantees of Investment Activity (Document No 473, in force since 1996 and consolidated through 2019) sets out what an investment is, who qualifies as an investor, and the protections the state guarantees. An investment is broadly defined: money, securities, movable and immovable property, rights to use land or natural resources, patents, licences, know-how and other intellectual values used in entrepreneurial activity in Georgia to earn profit. A sufficiently large investment can also open a residence route — see the [investment residence permit](/en/investment-residence-permit-georgia).
 
 ## Equal treatment with local investors
 
@@ -42,7 +42,7 @@ Investments are fully and unconditionally protected by Georgian legislation. An 
 
 ## Employing foreign staff
 
-Investors may employ foreign nationals in line with Georgian law. There is no required minimum number of Georgian citizens in a company's leading bodies. A foreign employee who is not a permanent resident may freely transfer their after-tax earnings abroad, and is not subject to the social insurance, social protection and pension contribution requirements that apply to permanent residents.
+Investors may employ foreign nationals in line with Georgian law — though since 1 March 2026 most foreign staff also need a [work permit](/en/right-to-work-georgia). There is no required minimum number of Georgian citizens in a company's leading bodies. A foreign employee who is not a permanent resident may freely transfer their after-tax earnings abroad, and is not subject to the social insurance, social protection and pension contribution requirements that apply to permanent residents.
 
 ## Prohibited and restricted sectors
 

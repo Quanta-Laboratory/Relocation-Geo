@@ -40,7 +40,7 @@ The decree sets a single minimum: the policy's sum insured (the maximum limit th
 
 Decree No 602 lists the categories it does not apply to:
 
-- holders of a diplomatic or special visa;
+- holders of a [diplomatic](/en/diplomatic-visa-georgia) or [special](/en/special-visa-georgia) visa;
 - holders of a diplomatic, official, service or special passport;
 - accredited staff of diplomatic missions, consular offices and international-organisation representations (and equivalent bodies), together with their accredited family members;
 - persons whose entry to Georgia is provided for by Georgia's international agreements or treaties;
@@ -54,7 +54,7 @@ When you enter Georgia, an officer of the Patrol Police Department of the Minist
 
 ## Healthcare once you live in Georgia
 
-Georgia runs a state Universal Healthcare Program, but it is built mainly around Georgian citizens. A foreigner who obtains a residence permit can register, yet genuinely free services are generally reserved for vulnerable categories such as low-income residents, pensioners and large families. Most foreign residents do not fall into these groups and so receive only limited benefits. People with recognised stateless, refugee or humanitarian status are covered on the same terms as citizens.
+For how care actually works day to day — clinics, pharmacies and the 112 emergency line — see [healthcare in Georgia](/en/healthcare-in-georgia). Georgia runs a state Universal Healthcare Program, but it is built mainly around Georgian citizens. A foreigner who obtains a residence permit can register, yet genuinely free services are generally reserved for vulnerable categories such as low-income residents, pensioners and large families. Most foreign residents do not fall into these groups and so receive only limited benefits. People with recognised stateless, refugee or humanitarian status are covered on the same terms as citizens.
 
 ## Private health insurance
 

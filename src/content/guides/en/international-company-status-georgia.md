@@ -30,6 +30,8 @@ Georgia offers a dedicated preferential tax regime — **International Company S
 
 ## What the status is
 
+For IT companies whose income comes from software supplied abroad, the [Virtual Zone Person](/en/virtual-zone-person-georgia) regime is the main alternative to compare against.
+
 International Company Status is granted to a **Georgian enterprise** that carries out specific permitted activities. It is not a company type you register at the outset — it is a status layered on top of an existing Georgian company, granted by a decision of the **Government of Georgia**. Once granted, it applies for an **indefinite term** and takes effect from the **beginning of the month** in which it is granted. The Revenue Service maintains a unified electronic register of companies that hold the status.
 
 ## The tax benefits

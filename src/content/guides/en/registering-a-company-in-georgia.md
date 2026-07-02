@@ -28,7 +28,7 @@ Setting up a company in Georgia is governed by the Law of Georgia on Entrepreneu
 
 ## Business forms
 
-Business activity can be carried out either as an individual entrepreneur or as a company. The law recognises five company forms: the general partnership, the limited partnership, the limited liability company (LLC), the joint-stock company (JSC) and the cooperative. A company's brand name must indicate its form — for example "LLC" or "Limited Liability Company". For most foreigners setting up a small or medium business, the LLC is the standard choice.
+Business activity can be carried out either as an [individual entrepreneur](/en/register-individual-entrepreneur-remotely) or as a company. The law recognises five company forms: the general partnership, the limited partnership, the limited liability company (LLC), the joint-stock company (JSC) and the cooperative. A company's brand name must indicate its form — for example "LLC" or "Limited Liability Company". For most foreigners setting up a small or medium business, the LLC is the standard choice.
 
 ## Liability: the key difference between forms
 
@@ -49,3 +49,5 @@ To register a company you submit its instrument of incorporation (the charter or
 ## Foreign companies and redomiciliation
 
 A company registered abroad can operate in Georgia through a branch, which is registered with the same authority. The law also allows an entrepreneur registered in another country to redomicile its registration to Georgia, moving the company itself rather than setting up a new one.
+
+Once the company exists, see [running a company in Georgia](/en/running-a-company-in-georgia) for the governance and ongoing obligations that follow.

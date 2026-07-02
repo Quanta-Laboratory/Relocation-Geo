@@ -22,8 +22,10 @@ Georgia allows foreigners to register an Individual Entrepreneur (IE) remotely t
 
 1. **Issue a Power of Attorney** to a trusted representative in Georgia, notarised and apostilled (or legalised) in your country.
 2. **Your representative registers the IE** at the Public Service Hall on your behalf.
-3. **Tax registration** is completed with the Revenue Service, where you can also apply for Small Business status if eligible.
+3. **Tax registration** is completed with the Revenue Service, where you can also apply for [Small Business status](/en/personal-income-tax-georgia) if eligible.
 
 ## After registration
 
-Once registered, you receive an identification number and can open a business bank account, issue invoices, and apply for preferential tax regimes such as Small Business status (1% on turnover up to the annual threshold).
+Once registered, you receive an identification number and can [open a business bank account](/en/banking-in-georgia), issue invoices, and apply for preferential tax regimes such as [Small Business status](/en/personal-income-tax-georgia) (1% on turnover up to the annual threshold).
+
+Note that since 1 March 2026, carrying out entrepreneurial activity in Georgia generally also requires a separate work permit — see the [right to work in Georgia](/en/right-to-work-georgia) guide before you start earning income here.

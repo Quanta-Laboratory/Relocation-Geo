@@ -22,7 +22,7 @@ faq:
     a: "Yes. Under the Civil Code, termination of a tenancy must be made in writing."
 ---
 
-Most people relocating to Georgia rent before they buy, and residential tenancies are governed by the Civil Code of Georgia (Articles 531–575). The rules give the parties wide freedom to agree terms, but they also set important defaults — especially around notice and termination — that are worth knowing before you sign.
+Most people relocating to Georgia rent before they [buy](/en/buying-property-in-georgia-for-foreigners), and residential tenancies are governed by the Civil Code of Georgia (Articles 531–575). The rules give the parties wide freedom to agree terms, but they also set important defaults — especially around notice and termination — that are worth knowing before you sign.
 
 ## Rent and increases
 
@@ -49,3 +49,5 @@ A landlord may terminate before expiry only for a legitimate reason. These inclu
 ## Form, condition and disputes
 
 Termination of a tenancy must be made in writing. At the end of the tenancy the tenant must return the property in the condition it was received, allowing for normal wear and tear, or in the condition agreed in the contract. There are no special tenancy tribunals in Georgia: disputes are handled by the ordinary courts unless the parties have agreed to arbitration.
+
+For typical rent levels and how housing fits into a monthly budget, see the [cost of living in Georgia](/en/cost-of-living-in-georgia).

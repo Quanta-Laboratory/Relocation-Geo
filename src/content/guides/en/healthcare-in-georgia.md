@@ -38,7 +38,7 @@ The single emergency number is **112**, covering ambulance, police and fire. Eme
 
 ## State cover vs paying privately
 
-Georgia runs a state **Universal Healthcare Program**, but it is designed around Georgian citizens. Foreigners, even with a residence permit, generally receive only limited free benefits, so in practice you either **pay out of pocket** — routine care is inexpensive by Western standards — or rely on **private insurance**. The trade-offs are set out in the [health insurance guide](https://relocation.ge/en/health-insurance-in-georgia-for-foreigners/).
+Georgia runs a state **Universal Healthcare Program**, but it is designed around Georgian citizens. Foreigners, even with a residence permit, generally receive only limited free benefits, so in practice you either **pay out of pocket** — routine care is inexpensive by Western standards — or rely on **private insurance**. The trade-offs are set out in the [health insurance guide](/en/health-insurance-in-georgia-for-foreigners).
 
 ## Insurance is the backbone
 

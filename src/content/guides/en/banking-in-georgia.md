@@ -14,7 +14,7 @@ faq:
     a: "Yes, in many cases. Major banks open accounts for non-residents, though they may apply additional compliance checks and request proof of address, source of funds, and the purpose of the account."
 ---
 
-Foreigners can open personal and business accounts at Georgia's major banks. The most common choices are Bank of Georgia, TBC Bank and Liberty Bank.
+Foreigners can open personal and business accounts at Georgia's major banks. The most common choices are Bank of Georgia, TBC Bank and Liberty Bank. A business account is usually the next step after you [register an Individual Entrepreneur](/en/register-individual-entrepreneur-remotely), and most banks will ask for your [personal number or tax ID](/en/personal-number-and-tax-id-georgia).
 
 ## What you typically need
 
@@ -26,4 +26,4 @@ Approval times and compliance requirements vary by bank and by nationality. Some
 
 ## Practical tips
 
-Bring more documentation than the minimum, keep an English or Georgian translation ready, and be prepared for additional questions during compliance review.
+Bring more documentation than the minimum, keep an English or Georgian translation ready, and be prepared for additional questions during compliance review. If you are budgeting your move, see the [cost of living in Georgia](/en/cost-of-living-in-georgia).

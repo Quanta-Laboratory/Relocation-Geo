@@ -40,7 +40,7 @@ Article 3 of the Law lists what is **not levied** on a virtual zone person:
 - **VAT** on the supply, outside Georgia, of the ITs created by the virtual zone person;
 - **Export duty** on exporting those ITs from the customs territory of Georgia.
 
-In other words, the core benefit is a **0% effective rate on foreign-supplied software profit**, plus no VAT on those exports. The taxation of virtual zone persons is otherwise governed by the Tax Code.
+In other words, the core benefit is a **0% effective rate on foreign-supplied software profit**, plus no VAT on those exports. The taxation of virtual zone persons is otherwise governed by the Tax Code. IT companies weighing this regime often compare it with [International Company Status](/en/international-company-status-georgia), which applies a 5% rate but with different substance and activity conditions.
 
 ## The export condition
 

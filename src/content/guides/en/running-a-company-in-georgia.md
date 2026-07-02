@@ -22,7 +22,7 @@ faq:
     a: "Yes. The law provides for reorganisation by conversion, merger and division, with a three-month window for creditors to require security for their claims after the reorganisation is registered."
 ---
 
-Registering a company is only the start. The Law of Georgia on Entrepreneurs (No 875 of 2021) also sets out how a company is governed day to day and what obligations continue once it is operating. The rules give partners flexibility through the charter, while fixing certain protections that cannot be bargained away.
+[Registering a company](/en/registering-a-company-in-georgia) is only the start. The Law of Georgia on Entrepreneurs (No 875 of 2021) also sets out how a company is governed day to day and what obligations continue once it is operating. The rules give partners flexibility through the charter, while fixing certain protections that cannot be bargained away.
 
 ## Governing bodies
 
