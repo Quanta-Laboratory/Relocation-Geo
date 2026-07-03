@@ -4,7 +4,7 @@ category: "work"
 lang: "en"
 summary: "Under the Law of Georgia on Entrepreneurs, foreigners can set up a Georgian company on the same terms as locals. Registration is handled by the National Agency of Public Registry, counts as both state and tax registration, and the company exists from the moment it is registered. The LLC is the most common form and has no minimum capital requirement."
 reviewed: 2026-06-27
-checked: 2026-07-02
+checked: 2026-07-03
 order: 3
 sources:
   - name: "Law of Georgia on Entrepreneurs (Legislative Herald)"

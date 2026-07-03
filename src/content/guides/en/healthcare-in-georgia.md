@@ -4,7 +4,7 @@ category: "live"
 lang: "en"
 summary: "Georgia has accessible private clinics and well-stocked pharmacies, concentrated in Tbilisi and Batumi, with the emergency number 112. Most foreigners pay out of pocket or use private insurance, as state cover is limited for non-citizens — so insurance is the practical backbone of healthcare here."
 reviewed: 2026-06-27
-checked: 2026-07-02
+checked: 2026-07-03
 order: 8
 sources:
   - name: "Ministry of IDPs, Labour, Health and Social Affairs of Georgia"

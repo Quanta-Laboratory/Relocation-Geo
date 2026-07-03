@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: "en"
 summary: "Georgia's Special Residence Permit is a discretionary and protective category that covers several distinct situations: persons whose residence is initiated by a member of the Government; victims (and affected persons) of human trafficking; people identified under Article 60 of the Law on the Legal Status of Aliens and Stateless Persons; and foreign compatriots living abroad with a recognised connection to Georgia. It is normally issued quickly — within about ten days — and in most cases carries no application fee, the exception being Article 60 cases, which follow the standard fee schedule. This guide explains the four situations the permit covers, the fast issuance, the fee position and how it differs from the ordinary permits, checked against the primary law."
 reviewed: 2026-06-30
-checked: 2026-07-02
+checked: 2026-07-03
 order: 17
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)"

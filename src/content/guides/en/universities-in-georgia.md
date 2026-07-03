@@ -4,7 +4,7 @@ category: "students"
 lang: "en"
 summary: "Georgian higher education follows the Bologna three-cycle system and is overseen by the NCEQE, which authorises institutions and accredits programmes. Many universities teach degrees in English — especially medicine, dentistry, business and IT — but international recognition depends on a university holding authorisation and your programme being accredited."
 reviewed: 2026-06-27
-checked: 2026-07-02
+checked: 2026-07-03
 order: 1
 sources:
   - name: "Law of Georgia on Higher Education (Legislative Herald)"
