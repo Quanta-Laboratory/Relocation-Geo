@@ -24,7 +24,7 @@ faq:
     a: "Most programmes have an autumn intake, and many universities also offer a spring intake. Deadlines vary by university — apply well ahead to allow time for document recognition and the visa or residence-permit process."
 ---
 
-Getting into a Georgian university as an international student is straightforward once you know the sequence: pick a properly recognised institution and programme, get your existing qualification recognised, prepare your documents in the right legal form, and meet the programme's language requirement. Doing these in the right order avoids the most common delays
+Getting into a Georgian university as an international student is straightforward once you know the sequence: pick a properly recognised institution and programme, get your existing qualification recognised, prepare your documents in the right legal form, and meet the programme's language requirement. Doing these in the right order avoids the most common delays.
 
 ## Step 1 — Choose an authorised institution and accredited programme
 
