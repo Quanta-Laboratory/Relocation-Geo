@@ -26,7 +26,7 @@ One of Georgia's strongest draws is affordability: housing, food and everyday se
 
 ## A rough monthly budget
 
-As a planning guide, a single person comfortably budgets around **USD 700–1,200 per month** including rent, while a couple is often in the **USD 1,200–2,000** range. Families and those wanting central, newer housing or frequent dining out will be higher. The single biggest variable is rent, followed by how often you eat out and whether you run a car.
+As a planning guide, a single person comfortably budgets around **USD 700–1,200 per month** including rent, while a couple is often in the **USD 1,200–2,000** range. Families and those wanting central, newer housing or frequent dining out will be higher. The single biggest variable is rent, followed by how often you eat out and whether you run a car
 
 ## Rent
 
