@@ -4,7 +4,7 @@ category: "students"
 lang: "en"
 summary: "Georgia is a major destination for international medical students: six-year MD (MBBS) programmes taught in English, tuition typically around USD 4,000–8,000 a year, and degrees from leading universities listed in the World Directory of Medical Schools. Recognition for licensing always depends on your home country's medical board."
 reviewed: 2026-06-27
-checked: 2026-07-03
+checked: 2026-07-04
 order: 3
 sources:
   - name: "National Center for Educational Quality Enhancement (NCEQE)"

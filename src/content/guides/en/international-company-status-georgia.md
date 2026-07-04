@@ -4,7 +4,7 @@ category: "work"
 lang: "en"
 summary: "International Company Status is a preferential tax regime for Georgian companies in qualifying IT and maritime-services activities. It cuts profit (corporate) tax to 5%, salary income tax to 5%, exempts most business property from property tax, and exempts distributed dividends. The status is granted by the Government of Georgia on application through the Revenue Service, requires at least two years of experience in the permitted activity and real substance in Georgia, and is set out in Government Ordinance No 619 (2020) together with the Tax Code."
 reviewed: 2026-06-29
-checked: 2026-07-03
+checked: 2026-07-04
 order: 7
 sources:
   - name: "Government of Georgia — Ordinance No 619 (8 October 2020): On Determining the Status of an International Company, and Approving the List of Permitted Activities and Certain Expenses"

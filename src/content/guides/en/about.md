@@ -4,7 +4,7 @@ category: "about"
 lang: "en"
 summary: "Relocation.ge is an independent, non-commercial project that turns Georgia's official legal provisions into clear, source-based guidance for people moving to the country. Every page cites a primary source and shows when it was last reviewed and checked."
 reviewed: 2026-06-30
-checked: 2026-07-03
+checked: 2026-07-04
 order: 0
 sources:
   - name: "Matsne — Legislative Herald of Georgia"
