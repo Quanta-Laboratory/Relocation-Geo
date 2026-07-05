@@ -4,7 +4,7 @@ category: "work"
 lang: "en"
 summary: "Georgia allows foreigners to register an Individual Entrepreneur (IE) remotely through a Power of Attorney, without travelling to Georgia."
 reviewed: 2026-06-12
-checked: 2026-07-04
+checked: 2026-07-05
 order: 1
 sources:
   - name: "Public Service Hall"

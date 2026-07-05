@@ -4,7 +4,7 @@ category: "students"
 lang: "en"
 summary: "Applying to a Georgian university as an international student means choosing an authorised institution and accredited programme, having your prior qualification recognised by the NCEQE, and preparing apostilled or legalised documents with certified translations. English-taught programmes set their own language requirements."
 reviewed: 2026-06-27
-checked: 2026-07-04
+checked: 2026-07-05
 order: 4
 sources:
   - name: "National Center for Educational Quality Enhancement (NCEQE)"
