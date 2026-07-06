@@ -1,33 +1,35 @@
 ---
-title: "Personal Income Tax and Territorial Taxation in Georgia (2026)"
-category: "tax"
-lang: "en"
+title: Personal Income Tax and Territorial Taxation in Georgia (2026)
+category: tax
+lang: en
 summary: "Georgia taxes personal income at a flat 20% and applies a territorial system to individuals: a resident is generally taxed only on Georgian-source income, while foreign-source income of a resident natural person is exempt under Article 82 of the Tax Code, and non-residents are taxed only on Georgian-source income under Article 79. Article 104 sets out how the source of income is determined — and the practical trap is that work physically performed in Georgia is usually Georgian-source even if the client and the money are abroad. This guide explains the 20% rate, the territorial principle, how income is sourced, and how the low-rate small-business regimes for individual entrepreneurs fit alongside the standard rate, all checked against the primary Georgian law."
 reviewed: 2026-06-30
 checked: 2026-07-06
 order: 2
 sources:
-  - name: "Tax Code of Georgia, Articles 79–82 (income tax, exemptions) and 104 (source of income) — Legislative Herald, consolidated Georgian text"
-    url: "https://matsne.gov.ge/ka/document/view/1043717?publication=224"
-  - name: "Tax Code of Georgia — official English translation (PDF, Legislative Herald)"
-    url: "https://matsne.gov.ge/en/document/download/1043717/93/en/pdf"
-  - name: "Revenue Service of Georgia"
-    url: "https://rs.ge/"
+  - name: Tax Code of Georgia, Articles 79–82 (income tax, exemptions) and 104 (source of income) — Legislative Herald, consolidated Georgian text
+    url: https://matsne.gov.ge/ka/document/view/1043717?publication=224
+  - name: Tax Code of Georgia — official English translation (PDF, Legislative Herald)
+    url: https://matsne.gov.ge/en/document/download/1043717/93/en/pdf
+  - name: Revenue Service of Georgia
+    url: https://rs.ge/
 faq:
-  - q: "What is the personal income tax rate in Georgia?"
-    a: "A flat 20%. Georgia does not use progressive income-tax brackets for individuals; employment income, most self-employment income and other taxable personal income are taxed at the single 20% rate. Separate, lower regimes exist for registered individual entrepreneurs — notably the 1% Small Business Status on turnover — but the standard personal income tax rate is 20%."
-  - q: "What does 'territorial taxation' mean for individuals in Georgia?"
-    a: "It means Georgia generally taxes individuals only on Georgian-source income. Under Article 82 of the Tax Code, income of a resident natural person that is not from a Georgian source is exempt from personal income tax, and under Article 79 a non-resident is taxable only on Georgian-source income. So both residents and non-residents are, in practice, taxed by Georgia on Georgian-source income; genuinely foreign-source income of a resident individual is normally outside the Georgian tax base."
-  - q: "Is my foreign income really tax-free if I live in Georgia?"
-    a: "Only if it is genuinely foreign-source. This is the most common misunderstanding. Under Article 104, the source of income usually follows where the work is performed, not where the client or the bank is. If you are physically in Georgia doing the work, the income is typically Georgian-source and taxable in Georgia even though your customer is abroad. Passive income with a true foreign source — for example, dividends from a foreign company — is more likely to be exempt. The facts decide, so take advice on your own situation."
-  - q: "How is the source of income determined?"
+  - q: What is the personal income tax rate in Georgia?
+    a: A flat 20%. Georgia does not use progressive income-tax brackets for individuals; employment income, most self-employment income and other taxable personal income are taxed at the single 20% rate. Separate, lower regimes exist for registered individual entrepreneurs — notably the 1% Small Business Status on turnover — but the standard personal income tax rate is 20%.
+  - q: What does 'territorial taxation' mean for individuals in Georgia?
+    a: It means Georgia generally taxes individuals only on Georgian-source income. Under Article 82 of the Tax Code, income of a resident natural person that is not from a Georgian source is exempt from personal income tax, and under Article 79 a non-resident is taxable only on Georgian-source income. So both residents and non-residents are, in practice, taxed by Georgia on Georgian-source income; genuinely foreign-source income of a resident individual is normally outside the Georgian tax base.
+  - q: Is my foreign income really tax-free if I live in Georgia?
+    a: Only if it is genuinely foreign-source. This is the most common misunderstanding. Under Article 104, the source of income usually follows where the work is performed, not where the client or the bank is. If you are physically in Georgia doing the work, the income is typically Georgian-source and taxable in Georgia even though your customer is abroad. Passive income with a true foreign source — for example, dividends from a foreign company — is more likely to be exempt. The facts decide, so take advice on your own situation.
+  - q: How is the source of income determined?
     a: "By Article 104 of the Tax Code, which lists categories of Georgian-source income. The guiding ideas are where the activity is carried out and where the payer or asset is located: income from work or services performed in Georgia, income from property located in Georgia, and certain payments made by Georgian residents are Georgian-source. Because the article is detailed and category-specific, the sourcing of a particular stream of income should be checked against the text, not assumed."
-  - q: "Do non-residents pay Georgian income tax?"
-    a: "Yes, but only on Georgian-source income (Article 79). A non-resident with income arising in Georgia — for example, from employment exercised in Georgia or property located there — is taxable on that income, often through withholding at source. Non-residents are not taxed by Georgia on their foreign-source income."
-  - q: "What about the 1% small-business regime — how does it relate to the 20% rate?"
-    a: "Georgia lets resident individuals register as an Individual Entrepreneur and, if eligible, obtain Small Business Status, which taxes qualifying turnover at 1% (rising to 3% above the turnover ceiling) instead of the standard 20% personal income tax on profit. It is a separate, opt-in regime with its own conditions and excluded activities. Many remote workers and freelancers use it precisely because their Georgia-performed work would otherwise fall under the 20% rate. See the dedicated guide for how to register and qualify."
-  - q: "When are income tax returns due in Georgia?"
-    a: "The tax year is the calendar year. Employment income is generally taxed by withholding at source through the employer, while individuals with income that is not taxed at source (for example, many self-employed people) file an annual personal income tax return, due by 1 April of the following year. Deadlines and filing duties depend on your income type, so confirm your obligations with the Revenue Service or an adviser."
+  - q: Do non-residents pay Georgian income tax?
+    a: Yes, but only on Georgian-source income (Article 79). A non-resident with income arising in Georgia — for example, from employment exercised in Georgia or property located there — is taxable on that income, often through withholding at source. Non-residents are not taxed by Georgia on their foreign-source income.
+  - q: What about the 1% small-business regime — how does it relate to the 20% rate?
+    a: Georgia lets resident individuals register as an Individual Entrepreneur and, if eligible, obtain Small Business Status, which taxes qualifying turnover at 1% (rising to 3% above the turnover ceiling) instead of the standard 20% personal income tax on profit. It is a separate, opt-in regime with its own conditions and excluded activities. Many remote workers and freelancers use it precisely because their Georgia-performed work would otherwise fall under the 20% rate. See the dedicated guide for how to register and qualify.
+  - q: When are income tax returns due in Georgia?
+    a: The tax year is the calendar year. Employment income is generally taxed by withholding at source through the employer, while individuals with income that is not taxed at source (for example, many self-employed people) file an annual personal income tax return, due by 1 April of the following year. Deadlines and filing duties depend on your income type, so confirm your obligations with the Revenue Service or an adviser.
+tags:
+  - tax
 ---
 
 Georgia's personal income tax is unusually simple to state and unusually easy to misunderstand. The rate is a **flat 20%**, and the system is **territorial** — Georgia generally taxes individuals only on **Georgian-source income**. The misunderstanding lies in what counts as "foreign" income: for someone living and working in Georgia, far less of it is foreign-source than they expect. This guide sets out the rate, the territorial principle and the all-important **sourcing rules**, checked against the **primary Georgian law** — chiefly Articles 79–82 and 104 of the Tax Code.
