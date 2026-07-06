@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/guides/en/banking-in-georgia.md",
+                "file": "src/content/guides/en/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "banking-in-georgia"
+              "title": "about"
             }
           }
         ]
@@ -164,9 +164,19 @@
               "icon": "lucide-list",
               "title": "Outline of banking-in-georgia"
             }
+          },
+          {
+            "id": "b8113d47d18f0aa1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -186,11 +196,11 @@
   },
   "active": "f8523bfc3103811e",
   "lastOpenFiles": [
+    "src/content/guides/en/banking-in-georgia.md",
     "Untitled.canvas",
     "src/content/guides/en/crypto-tax-georgia.md",
     "src/content/guides/en/cost-of-living-in-georgia.md",
     "src/content/guides/en/buying-property-in-georgia-for-foreigners.md",
-    "src/content/guides/en/banking-in-georgia.md",
     "src/content/guides/en/admissions-and-enrolment-georgia.md",
     "src/content/guides/en/about.md"
   ]
