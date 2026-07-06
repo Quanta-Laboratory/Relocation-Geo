@@ -12,6 +12,10 @@ on:
         description: 'Send a SAMPLE alert — newest matsne doc — to Telegram, then exit'
         type: boolean
         default: false
+      today_list:
+        description: 'Send a LIST of all documents published today to Telegram, then exit'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -41,6 +45,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TEST_TELEGRAM: ${{ github.event.inputs.test_telegram }}
+          TODAY_LIST: ${{ github.event.inputs.today_list }}
         run: python scripts/matsne_monitor/monitor.py
 
       - name: Commit state and log if changed

@@ -37,7 +37,8 @@ import sys
 import time
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 import requests
@@ -76,6 +77,9 @@ TRANSLATE_PAUSE = 1.5
 BASE_DIR = Path(__file__).resolve().parent
 STATE_FILE = BASE_DIR / "state.json"
 LOG_FILE = BASE_DIR / "changes_log.md"
+
+# Tbilisi is UTC+4 all year (no daylight saving) — used to decide "today".
+TBILISI = timezone(timedelta(hours=4))
 
 # Request settings.
 HTTP_TIMEOUT = 30
@@ -333,6 +337,93 @@ def append_log(item: dict, title_en: str, topic_en: str, translated: bool) -> No
 
 
 # --------------------------------------------------------------------------- #
+# On-demand "documents published today" list
+#
+# Triggered from `Run workflow` (TODAY_LIST=true). Unlike digest.py, which reads
+# the history log, this pulls the live feed and filters by today's Tbilisi date,
+# so it works even right after a baseline reset. It changes no state.
+# --------------------------------------------------------------------------- #
+
+def _parse_pub_date(raw: str) -> datetime | None:
+    """Parse an RSS pubDate (RFC 822) into an aware datetime, or None."""
+    if not raw:
+        return None
+    try:
+        dt = parsedate_to_datetime(raw)
+    except (TypeError, ValueError):
+        return None
+    if dt is None:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
+
+
+def _chunk_messages(blocks: list[str], limit: int = 3500) -> list[str]:
+    """Join blocks into as few Telegram messages as possible under `limit`."""
+    messages: list[str] = []
+    current = ""
+    for block in blocks:
+        if current and len(current) + len(block) > limit:
+            messages.append(current)
+            current = block
+        else:
+            current += block
+    if current:
+        messages.append(current)
+    return messages
+
+
+def send_today_list() -> int:
+    """Fetch the feed and send today's (Tbilisi) documents as a list."""
+    if not telegram_enabled():
+        print("Today-list requested, but Telegram secrets are missing.")
+        return 1
+    fetched = fetch_feed()
+    if fetched is None:
+        print("Today-list: feed unavailable. Nothing sent.")
+        return 1
+
+    xml_text, _ = fetched
+    items = parse_feed(xml_text)
+    today = datetime.now(TBILISI).date()
+    todays = [
+        it for it in items
+        if (dt := _parse_pub_date(it.get("pub_date"))) and dt.astimezone(TBILISI).date() == today
+    ]
+    day_s = today.strftime("%d.%m.%Y")
+
+    if not todays:
+        send_telegram(
+            f"📋 <b>Matsne — {day_s}</b>\n\n"
+            "No documents dated today are in the feed yet."
+        )
+        print("Today-list: 0 documents dated today.")
+        return 0
+
+    header = (
+        f"📋 <b>Matsne — documents published today ({day_s})</b>\n"
+        f"Total: {len(todays)}\n"
+    )
+    blocks = [header]
+    for n, it in enumerate(todays, 1):
+        title_en, _ = translate_text(it["title"])
+        if ANTHROPIC_API_KEY:
+            time.sleep(TRANSLATE_PAUSE)
+        line = f"\n{n}. {html.escape(title_en or it['title'] or '—')} (#{html.escape(it['id'])})"
+        if it.get("link"):
+            line += f"\n🔗 {html.escape(it['link'])}"
+        blocks.append(line + "\n")
+
+    messages = _chunk_messages(blocks)
+    ok_all = True
+    for msg in messages:
+        ok_all = send_telegram(msg) and ok_all
+    print(f"Today-list: {len(todays)} document(s) sent in {len(messages)} message(s); ok={ok_all}.")
+    return 0 if ok_all else 1
+
+
+# --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
 
@@ -376,6 +467,11 @@ def main() -> int:
                   "bot is a member of the target chat/channel.")
             return 1
         return 0
+
+    # On-demand list of everything published today (TODAY_LIST=true). Reads the
+    # live feed, changes no state.
+    if os.environ.get("TODAY_LIST", "").strip().lower() in ("1", "true", "yes"):
+        return send_today_list()
 
     state = load_state()
     seen_ids = set(state.get("seen_ids", []))
