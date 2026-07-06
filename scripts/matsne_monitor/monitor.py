@@ -47,7 +47,20 @@ import requests
 # --------------------------------------------------------------------------- #
 
 # Primary data source: matsne's RSS feed of published documents.
-FEED_URL = "https://www.matsne.gov.ge/en/document/feed"
+#
+# We read the GEORGIAN feed because that is where documents actually appear as
+# soon as they are published; the English feed is sparse and updates rarely, so
+# relying on it meant the monitor almost never saw anything "new". Titles/topics
+# arrive in Georgian and are translated to English by translate_text() below.
+#
+# We try several candidates in order and use the first that yields items, so a
+# single URL change on matsne's side does not silently break detection. The
+# winning URL is printed to the run log for easy verification.
+FEED_CANDIDATES = [
+    "https://www.matsne.gov.ge/ka/document/feed",
+    "https://matsne.gov.ge/ka/document/feed",
+    "https://www.matsne.gov.ge/en/document/feed",
+]
 
 # How many of the newest items to consider per run. Guards against a huge diff
 # if the feed ever returns an unusually large payload.
@@ -101,20 +114,36 @@ def save_state(state: dict) -> None:
 # in parse_feed().
 # --------------------------------------------------------------------------- #
 
-def fetch_feed() -> str | None:
-    """Download the raw RSS/XML. Returns text, or None on failure."""
+def _fetch_one(url: str) -> str | None:
+    """Download a single feed URL. Returns text, or None on failure."""
     try:
         resp = requests.get(
-            FEED_URL,
+            url,
             headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml, text/xml"},
             timeout=HTTP_TIMEOUT,
         )
         resp.raise_for_status()
     except requests.RequestException as exc:
-        print(f"ERROR: could not fetch feed: {exc}")
+        print(f"WARN: could not fetch {url}: {exc}")
         return None
     # requests transparently decompresses gzip; .text handles the encoding.
     return resp.text
+
+
+def fetch_feed() -> tuple[str, str] | None:
+    """
+    Try each candidate feed in order; return (xml_text, url) for the first that
+    downloads AND parses into at least one item. Returns None if all fail.
+    """
+    for url in FEED_CANDIDATES:
+        xml_text = _fetch_one(url)
+        if xml_text is None:
+            continue
+        if parse_feed(xml_text):
+            print(f"Feed OK: {url}")
+            return xml_text, url
+        print(f"WARN: {url} returned no parseable items; trying next candidate.")
+    return None
 
 
 def _extract_doc_id(link: str, guid: str) -> str:
@@ -317,18 +346,17 @@ def main() -> int:
     state = load_state()
     seen_ids = set(state.get("seen_ids", []))
 
-    xml_text = fetch_feed()
-    if xml_text is None:
-        print("Aborting: feed unavailable. State left unchanged.")
-        return 1
-
-    items = parse_feed(xml_text)
-    if not items:
+    fetched = fetch_feed()
+    if fetched is None:
         print(
-            "WARN: no documents parsed from the feed. matsne may have changed its "
-            "markup — check FEED_URL / parse_feed(). State left unchanged."
+            "Aborting: no feed candidate returned parseable items. matsne may be "
+            "down or may have changed its feed — check FEED_CANDIDATES / parse_feed(). "
+            "State left unchanged."
         )
         return 1
+
+    xml_text, _feed_url = fetched
+    items = parse_feed(xml_text)
 
     print(f"Parsed {len(items)} items from feed.")
 
