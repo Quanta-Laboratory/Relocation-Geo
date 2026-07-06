@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       test_telegram:
-        description: 'Send a test Telegram message and exit (checks delivery)'
+        description: 'Send a SAMPLE alert — newest matsne doc — to Telegram, then exit'
         type: boolean
         default: false
 

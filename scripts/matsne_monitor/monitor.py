@@ -343,22 +343,37 @@ def main() -> int:
     if not telegram_enabled():
         print("NOTE: Telegram secrets not set — notifications will be skipped.")
 
-    # Manual delivery check: `Run workflow` with "Send a test Telegram message"
-    # ticked sets TEST_TELEGRAM=true. We send one message and exit, without
-    # touching the feed or state — a quick way to confirm the chat is wired up.
+    # Manual preview: `Run workflow` with the sample checkbox ticked sets
+    # TEST_TELEGRAM=true. We take the newest document currently in the feed and
+    # send it formatted exactly like a real alert, then exit. State and the feed
+    # baseline are left untouched — this is purely a sample so you can see how
+    # notifications look without waiting for a fresh publication.
     if os.environ.get("TEST_TELEGRAM", "").strip().lower() in ("1", "true", "yes"):
         if not telegram_enabled():
-            print("TEST_TELEGRAM requested, but Telegram secrets are missing. "
+            print("Preview requested, but Telegram secrets are missing. "
                   "Add TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID.")
             return 1
-        sent = send_telegram(
-            "✅ Matsne Monitor test message — Telegram delivery works. "
-            "You can ignore this."
+        fetched = fetch_feed()
+        if fetched is None:
+            print("Preview: feed unavailable; sending a plain connectivity test instead.")
+            sent = send_telegram("✅ Matsne Monitor test — Telegram delivery works.")
+            print(f"Preview fallback; message sent={sent}.")
+            return 0 if sent else 1
+        xml_text, _ = fetched
+        latest = parse_feed(xml_text)[0]
+        title_en, t1 = translate_text(latest["title"])
+        topic_en, t2 = translate_text(latest["topic"])
+        translated = t1 or t2
+        preview = (
+            "🔎 <b>SAMPLE / PREVIEW</b> — this is how a real alert looks. Showing "
+            "the newest document currently in the matsne feed; nothing was changed.\n\n"
+            + format_message(latest, title_en, topic_en, translated)
         )
-        print(f"TEST_TELEGRAM requested; message sent={sent}.")
+        sent = send_telegram(preview)
+        print(f"Preview of doc {latest['id']} sent={sent}.")
         if not sent:
-            print("Telegram accepted no message — check that the bot token is "
-                  "valid and that the bot is a member of the target chat/channel.")
+            print("Telegram accepted no message — check the bot token and that the "
+                  "bot is a member of the target chat/channel.")
             return 1
         return 0
 
