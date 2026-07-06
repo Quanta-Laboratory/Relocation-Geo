@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: "en"
 summary: "Georgia's Former Citizen Residence Permit is a dedicated route for people who once held Georgian citizenship that has since ended — most often because it was renounced or terminated when they took another nationality. It is issued for up to six years and is renewable, giving former citizens a stable basis to live in Georgia again without having to qualify under the work, investment or family routes. This guide explains who is eligible, the documents that establish former citizenship, the duration, fees and how the permit relates to reacquiring Georgian citizenship, checked against the primary law."
 reviewed: 2026-06-30
-checked: 2026-07-05
+checked: 2026-07-06
 order: 16
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)"
