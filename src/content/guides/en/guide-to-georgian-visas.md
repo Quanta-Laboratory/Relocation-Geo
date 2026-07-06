@@ -1,27 +1,29 @@
 ---
 title: "Guide to Georgian Visas: All Visa Types Explained (2026)"
-category: "immigration"
-lang: "en"
-summary: "Many nationalities can enter Georgia visa-free for up to one year. Those who need a visa choose from short-term categories (diplomatic A, special B, ordinary C, transit) or long-term immigration visas (D1–D6, with D6 in force from 1 September 2026). A long-term visa is the precondition for a residence permit, and since 1 March 2026 working in Georgia also requires a separate work permit."
+category: immigration
+lang: en
+summary: Many nationalities can enter Georgia visa-free for up to one year. Those who need a visa choose from short-term categories (diplomatic A, special B, ordinary C, transit) or long-term immigration visas (D1–D6, with D6 in force from 1 September 2026). A long-term visa is the precondition for a residence permit, and since 1 March 2026 working in Georgia also requires a separate work permit.
 reviewed: 2026-06-27
 checked: 2026-07-06
 order: 1
 sources:
-  - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)"
-    url: "https://matsne.gov.ge/en/document/view/2278806"
-  - name: "Ministry of Foreign Affairs of Georgia — Consular & e-Visa portal (geoconsul)"
-    url: "https://www.geoconsul.gov.ge/en"
+  - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)
+    url: https://matsne.gov.ge/en/document/view/2278806
+  - name: Ministry of Foreign Affairs of Georgia — Consular & e-Visa portal (geoconsul)
+    url: https://www.geoconsul.gov.ge/en
 faq:
-  - q: "Do I need a visa to visit Georgia?"
-    a: "Often not. Citizens of more than 90 countries can enter visa-free and stay up to one year under a Government ordinance. Other visa-exempt travellers may stay 90 days within any 180-day period. Everyone else needs a short-term visa or an e-visa."
-  - q: "What is the difference between short-term and long-term visas?"
-    a: "Short-term visas (diplomatic A, special B, ordinary C, and transit) are for short stays — a single-entry short-term visa is issued for up to 30 days. Long-term immigration visas (D1–D6, with D6 in force from 1 September 2026) are multiple-entry with 90-day or one-year validity and are the precondition for obtaining a residence permit."
-  - q: "Which visa do digital nomads use?"
-    a: "Georgia has no dedicated digital-nomad visa. Remote workers typically rely on visa-free entry (up to a year) or the C5 short-term visa for activity performed only for a non-resident. Note that since 1 March 2026, performing paid work in Georgia generally requires a separate work permit."
-  - q: "What is the D5 visa?"
-    a: "An immigration visa for a person who owns Georgian real estate (other than agricultural land) with a market value of at least the GEL equivalent of USD 150,000, together with their spouse and children. It can be issued with one-year validity."
-  - q: "Do I need a work permit to work in Georgia?"
-    a: "Since 1 March 2026, most foreign nationals need a 'Right to Labour Activity' permit in addition to a D1 visa or work residence permit. Holding a temporary residence permit alone no longer grants the right to work or do business."
+  - q: Do I need a visa to visit Georgia?
+    a: Often not. Citizens of more than 90 countries can enter visa-free and stay up to one year under a Government ordinance. Other visa-exempt travellers may stay 90 days within any 180-day period. Everyone else needs a short-term visa or an e-visa.
+  - q: What is the difference between short-term and long-term visas?
+    a: Short-term visas (diplomatic A, special B, ordinary C, and transit) are for short stays — a single-entry short-term visa is issued for up to 30 days. Long-term immigration visas (D1–D6, with D6 in force from 1 September 2026) are multiple-entry with 90-day or one-year validity and are the precondition for obtaining a residence permit.
+  - q: Which visa do digital nomads use?
+    a: Georgia has no dedicated digital-nomad visa. Remote workers typically rely on visa-free entry (up to a year) or the C5 short-term visa for activity performed only for a non-resident. Note that since 1 March 2026, performing paid work in Georgia generally requires a separate work permit.
+  - q: What is the D5 visa?
+    a: An immigration visa for a person who owns Georgian real estate (other than agricultural land) with a market value of at least the GEL equivalent of USD 150,000, together with their spouse and children. It can be issued with one-year validity.
+  - q: Do I need a work permit to work in Georgia?
+    a: Since 1 March 2026, most foreign nationals need a 'Right to Labour Activity' permit in addition to a D1 visa or work residence permit. Holding a temporary residence permit alone no longer grants the right to work or do business.
+tags:
+  - visa
 ---
 
 Georgia's entry system has two layers: a generous visa-free regime that covers most Western travellers, and a structured set of visa categories for everyone else and for anyone planning a long stay. This guide explains who needs a visa, the full list of categories, and the 2026 change that now affects anyone intending to work.
