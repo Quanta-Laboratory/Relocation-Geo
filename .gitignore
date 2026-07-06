@@ -25,3 +25,4 @@ __pycache__/
 
 # leftover nested clone folder from initial setup (safe to ignore)
 Relocat/
+.wrangler/
