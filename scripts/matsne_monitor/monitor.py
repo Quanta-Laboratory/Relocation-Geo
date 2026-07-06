@@ -343,6 +343,25 @@ def main() -> int:
     if not telegram_enabled():
         print("NOTE: Telegram secrets not set — notifications will be skipped.")
 
+    # Manual delivery check: `Run workflow` with "Send a test Telegram message"
+    # ticked sets TEST_TELEGRAM=true. We send one message and exit, without
+    # touching the feed or state — a quick way to confirm the chat is wired up.
+    if os.environ.get("TEST_TELEGRAM", "").strip().lower() in ("1", "true", "yes"):
+        if not telegram_enabled():
+            print("TEST_TELEGRAM requested, but Telegram secrets are missing. "
+                  "Add TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID.")
+            return 1
+        sent = send_telegram(
+            "✅ Matsne Monitor test message — Telegram delivery works. "
+            "You can ignore this."
+        )
+        print(f"TEST_TELEGRAM requested; message sent={sent}.")
+        if not sent:
+            print("Telegram accepted no message — check that the bot token is "
+                  "valid and that the bot is a member of the target chat/channel.")
+            return 1
+        return 0
+
     state = load_state()
     seen_ids = set(state.get("seen_ids", []))
 

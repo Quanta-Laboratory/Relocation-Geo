@@ -7,6 +7,11 @@ on:
     - cron: '0 8 * * *'
     - cron: '0 16 * * *'
   workflow_dispatch:
+    inputs:
+      test_telegram:
+        description: 'Send a test Telegram message and exit (checks delivery)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -35,6 +40,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TEST_TELEGRAM: ${{ github.event.inputs.test_telegram }}
         run: python scripts/matsne_monitor/monitor.py
 
       - name: Commit state and log if changed
