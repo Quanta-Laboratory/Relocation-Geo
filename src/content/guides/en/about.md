@@ -10,7 +10,6 @@ sources:
   - name: Matsne — Legislative Herald of Georgia
     url: https://matsne.gov.ge/
 tags:
-  - tax
 ---
 
 ## Building the open relocation infrastructure for Georgia
