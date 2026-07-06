@@ -1,21 +1,23 @@
 ---
-title: "Guide to Residence Permits in Georgia"
-category: "immigration"
-lang: "en"
-summary: "Georgia offers several residence permits depending on the purpose of stay — work, IT, investment, study, family and more. Each has its own legal basis, conditions and validity."
+title: Guide to Residence Permits in Georgia
+category: immigration
+lang: en
+summary: Georgia offers several residence permits depending on the purpose of stay — work, IT, investment, study, family and more. Each has its own legal basis, conditions and validity.
 reviewed: 2026-06-12
 checked: 2026-07-06
 order: 2
 sources:
-  - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons"
-    url: "https://www.matsne.gov.ge/en/document/view/2278806"
+  - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons
+    url: https://www.matsne.gov.ge/en/document/view/2278806
 faq:
-  - q: "How long does a residence permit decision take in Georgia?"
-    a: "The Agency must decide within 30 days of receiving all required documents. It may request additional evidence or interviews during that period."
-  - q: "Which residence permit is best for remote workers and IT professionals?"
-    a: "The IT Residence Permit is designed for IT professionals and entrepreneurs with at least 2 years of experience and annual income of at least USD 25,000. It is valid for 3 years."
-  - q: "Can I get residency in Georgia by buying property?"
-    a: "Yes. A Short-Term Residence Permit is available to owners of non-agricultural real estate with a market value above USD 150,000 (threshold from 1 March 2026). Property above USD 300,000 can qualify for an Investment Residence Permit."
+  - q: How long does a residence permit decision take in Georgia?
+    a: The Agency must decide within 30 days of receiving all required documents. It may request additional evidence or interviews during that period.
+  - q: Which residence permit is best for remote workers and IT professionals?
+    a: The IT Residence Permit is designed for IT professionals and entrepreneurs with at least 2 years of experience and annual income of at least USD 25,000. It is valid for 3 years.
+  - q: Can I get residency in Georgia by buying property?
+    a: Yes. A Short-Term Residence Permit is available to owners of non-agricultural real estate with a market value above USD 150,000 (threshold from 1 March 2026). Property above USD 300,000 can qualify for an Investment Residence Permit.
+tags:
+  - RP
 ---
 
 Georgia offers several types of residence permit, depending on the purpose of stay. Each permit is issued for a specific legal basis and has its own conditions, duration and extension rules.
