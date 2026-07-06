@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "0f85460642733164",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d2333f08e8eb800",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8523bfc3103811e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/guides/en/it-residence-permit-georgia.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "it-residence-permit-georgia"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cb4697168330a85d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8710a81963251379",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10975597b2793a76",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8aefccb485226611",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4ca06619df5d3dff",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8461606d5f74e24f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ff4fccebd287139",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "973f2eff2fe8b6f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/content/guides/en/banking-in-georgia.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for banking-in-georgia"
+            }
+          },
+          {
+            "id": "c72e2a277475a087",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/content/guides/en/banking-in-georgia.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from banking-in-georgia"
+            }
+          },
+          {
+            "id": "0b2e00b7ea14b26b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e2817bc8d2ae61a8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "850877c14ee9338a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/content/guides/en/banking-in-georgia.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of banking-in-georgia"
+            }
+          },
+          {
+            "id": "b8113d47d18f0aa1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f8523bfc3103811e",
+  "lastOpenFiles": [
+    "src/content/guides/en/international-company-status-georgia.md",
+    "src/content/guides/en/guide-to-residence-permits.md",
+    "src/content/guides/en/guide-to-georgian-visas.md",
+    "src/content/guides/en/georgia-for-digital-nomads.md",
+    "src/content/guides/en/family-reunification-residence-permit-georgia.md",
+    "src/content/guides/en/former-citizen-residence-permit-georgia.md",
+    "src/content/guides/en/driving-in-georgia.md",
+    "src/content/guides/en/double-tax-treaties-georgia.md",
+    "src/content/guides/en/diplomatic-visa-georgia.md",
+    "src/content/guides/en/d6-visa-georgia.md",
+    "src/content/guides/en/crypto-tax-georgia.md",
+    "src/content/guides/en/about.md",
+    "src/content/guides/en/personal-income-tax-georgia.md",
+    "en/immigration-visa-georgia.md",
+    "en",
+    "src/content/guides/en/cost-of-living-in-georgia.md",
+    "src/content/guides/en/buying-property-in-georgia-for-foreigners.md",
+    "src/content/guides/en/admissions-and-enrolment-georgia.md",
+    "src/content/guides/en/banking-in-georgia.md",
+    "Untitled.canvas"
+  ]
+}

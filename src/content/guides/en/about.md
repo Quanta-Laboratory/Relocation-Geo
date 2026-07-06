@@ -1,21 +1,22 @@
 ---
-title: "About Relocation.ge"
-category: "about"
-lang: "en"
-summary: "Relocation.ge is an independent, non-commercial, open-source project that helps people relocate to Georgia with confidence — providing accurate, transparent and continuously updated information about living, working, investing and doing business in the country."
+title: About Relocation.ge
+category: about
+lang: en
+summary: Relocation.ge is an independent, non-commercial, open-source project that helps people relocate to Georgia with confidence — providing accurate, transparent and continuously updated information about living, working, investing and doing business in the country.
 reviewed: 2026-07-06
 checked: 2026-07-06
 order: 0
 sources:
-  - name: "Matsne — Legislative Herald of Georgia"
-    url: "https://matsne.gov.ge/"
+  - name: Matsne — Legislative Herald of Georgia
+    url: https://matsne.gov.ge/
+tags:
 ---
 
 ## Building the open relocation infrastructure for Georgia
 
-Relocation.ge is an independent, non-commercial, open-source project dedicated to helping people relocate to Georgia with confidence. Our mission is to make relocation simpler by providing accurate, transparent and continuously updated information about living, working, investing and doing business in Georgia.
+Relocation.ge is an independent, non-commercial, open-source project dedicated to helping people relocate to Georgia with confidence. Our mission is to make relocation simpler by providing accurate, transparent and continuously updated information about living, working, investing and doing business in Georgia. 
 
-We believe that access to reliable information should not depend on language, personal connections or expensive consultants. Everyone should be able to understand how relocation works, make informed decisions and build a successful future in Georgia.
+We believe that access to reliable information should not depend on language, personal connections. Everyone should be able to understand how relocation works, make informed decisions and build a successful future in Georgia.
 
 ## Why we created Relocation.ge
 
@@ -35,7 +36,7 @@ We aim to become one of the most trusted sources of relocation knowledge for Geo
 
 **Transparency.** We clearly distinguish between verified facts, practical recommendations and expert opinions, and we cite our primary sources so you can verify everything yourself.
 
-**Independence.** Our editorial decisions are driven by the quality of information rather than commercial interests. Relocation.ge is non-commercial: there are no affiliate deals, no paid placements and no advertiser deciding what we publish.
+**Independence.** Our editorial decisions are driven by the quality of information rather than commercial interests.
 
 **Continuous updates.** Relocation regulations evolve constantly. Our objective is to keep our knowledge base current and regularly reviewed.
 
@@ -75,7 +76,7 @@ We are grateful for this recognition and remain committed to maintaining high st
 
 ## Open and non-commercial
 
-Relocation.ge is a non-commercial, open-source project. We do not sell relocation services, and we do not earn commissions for pointing you anywhere. That independence is what lets us state things plainly — including the inconvenient parts — and answer to our readers rather than to advertisers or partners.
+Relocation.ge is a non-commercial, open-source project.  That independence is what lets us state things plainly — including the inconvenient parts — and answer to our readers rather than to advertisers or partners.
 
 Because the project is open, its content and structure are built to be verified, reused and improved. Every guide links to the primary source it is based on, so you are never more than one click away from the underlying law or regulation.
 

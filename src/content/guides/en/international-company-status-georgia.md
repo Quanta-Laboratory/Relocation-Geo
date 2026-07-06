@@ -1,29 +1,31 @@
 ---
 title: "International Company Status in Georgia: 5% tax regime for IT and maritime firms"
-category: "work"
-lang: "en"
-summary: "International Company Status is a preferential tax regime for Georgian companies in qualifying IT and maritime-services activities. It cuts profit (corporate) tax to 5%, salary income tax to 5%, exempts most business property from property tax, and exempts distributed dividends. The status is granted by the Government of Georgia on application through the Revenue Service, requires at least two years of experience in the permitted activity and real substance in Georgia, and is set out in Government Ordinance No 619 (2020) together with the Tax Code."
+category: work
+lang: en
+summary: International Company Status is a preferential tax regime for Georgian companies in qualifying IT and maritime-services activities. It cuts profit (corporate) tax to 5%, salary income tax to 5%, exempts most business property from property tax, and exempts distributed dividends. The status is granted by the Government of Georgia on application through the Revenue Service, requires at least two years of experience in the permitted activity and real substance in Georgia, and is set out in Government Ordinance No 619 (2020) together with the Tax Code.
 reviewed: 2026-06-29
 checked: 2026-07-06
 order: 7
 sources:
   - name: "Government of Georgia — Ordinance No 619 (8 October 2020): On Determining the Status of an International Company, and Approving the List of Permitted Activities and Certain Expenses"
-    url: "https://matsne.gov.ge/en/document/view/5012362"
-  - name: "Tax Code of Georgia"
-    url: "https://matsne.gov.ge/en/document/view/1043717"
+    url: https://matsne.gov.ge/en/document/view/5012362
+  - name: Tax Code of Georgia
+    url: https://matsne.gov.ge/en/document/view/1043717
 faq:
-  - q: "Who can get International Company Status in Georgia?"
-    a: "A Georgian enterprise that carries out one of the permitted IT or maritime activities and has at least two years of experience in it. The two-year track record can come from the company itself, from a non-resident enterprise it represents in Georgia, or from partner enterprises that each separately own more than 50% of it. The company must also conduct its core income-generating activity in Georgia with adequate qualified staff and real operating costs."
-  - q: "What taxes does an international company pay?"
-    a: "Profit (corporate income) tax is 5% instead of the standard 15%, charged on distribution under Georgia's distributed-profit model. Salaries are taxed at 5% personal income tax instead of 20%. The company is exempt from property tax (except on land) for property used in its permitted activities, and dividends it distributes are not taxed at source and are not included in the recipient's gross income."
-  - q: "Which activities qualify?"
+  - q: Who can get International Company Status in Georgia?
+    a: A Georgian enterprise that carries out one of the permitted IT or maritime activities and has at least two years of experience in it. The two-year track record can come from the company itself, from a non-resident enterprise it represents in Georgia, or from partner enterprises that each separately own more than 50% of it. The company must also conduct its core income-generating activity in Georgia with adequate qualified staff and real operating costs.
+  - q: What taxes does an international company pay?
+    a: Profit (corporate income) tax is 5% instead of the standard 15%, charged on distribution under Georgia's distributed-profit model. Salaries are taxed at 5% personal income tax instead of 20%. The company is exempt from property tax (except on land) for property used in its permitted activities, and dividends it distributes are not taxed at source and are not included in the recipient's gross income.
+  - q: Which activities qualify?
     a: "Two broad groups. IT: software release (including games), computer programming and consulting, delivery of digital products and updates, website development, web hosting, remote system administration and similar online services. Maritime: commercial and technical services connected to ship ownership, such as bareboat chartering, route planning, ship sale-and-purchase brokerage, supervising shipbuilding and repair, and ensuring ISM Code compliance. The full list is in Annex 2 of Ordinance No 619."
-  - q: "How do I apply for the status?"
-    a: "You apply to the Revenue Service (under the Ministry of Finance) on the form set by the Minister of Finance, identifying the permitted activity and where the services are provided, with documents proving the two-year experience. The Revenue Service checks the application within 10 days and, if it complies, forwards it through the Ministry of Finance to the Government of Georgia, which makes the final decision by ordinance."
-  - q: "Can an international company earn income from other, non-permitted activities?"
-    a: "Only within a narrow tolerance. Revenue from activities other than the permitted ones (excluding VAT) must not exceed 2% of total revenue from the permitted activities in a calendar year. Crossing that threshold is a ground to revoke the status — and revocation in that case takes effect retroactively, from the date the status was originally granted."
-  - q: "Is the status permanent?"
-    a: "It is granted for an indefinite term and takes effect from the start of the month in which it is granted. But it can be revoked — on the company's own request, if non-permitted income exceeds the 2% threshold, or if the company stops meeting the eligibility and substance conditions. Voluntary revocation applies from the start of the month of the decision; the other two grounds apply retroactively to the grant date."
+  - q: How do I apply for the status?
+    a: You apply to the Revenue Service (under the Ministry of Finance) on the form set by the Minister of Finance, identifying the permitted activity and where the services are provided, with documents proving the two-year experience. The Revenue Service checks the application within 10 days and, if it complies, forwards it through the Ministry of Finance to the Government of Georgia, which makes the final decision by ordinance.
+  - q: Can an international company earn income from other, non-permitted activities?
+    a: Only within a narrow tolerance. Revenue from activities other than the permitted ones (excluding VAT) must not exceed 2% of total revenue from the permitted activities in a calendar year. Crossing that threshold is a ground to revoke the status — and revocation in that case takes effect retroactively, from the date the status was originally granted.
+  - q: Is the status permanent?
+    a: It is granted for an indefinite term and takes effect from the start of the month in which it is granted. But it can be revoked — on the company's own request, if non-permitted income exceeds the 2% threshold, or if the company stops meeting the eligibility and substance conditions. Voluntary revocation applies from the start of the month of the decision; the other two grounds apply retroactively to the grant date.
+tags:
+  - tax
 ---
 
 Georgia offers a dedicated preferential tax regime — **International Company Status** — for companies working in qualifying **information-technology** and **maritime** services. A company that holds the status pays sharply reduced rates: profit tax and salary income tax both drop to **5%**, most business property is exempt from property tax, and dividends paid out are exempt. The framework is set out in **Government of Georgia Ordinance No 619 of 8 October 2020**, which approves the procedure for granting the status, the list of permitted activities, and the deductible expenses, working together with the **Tax Code of Georgia**.
