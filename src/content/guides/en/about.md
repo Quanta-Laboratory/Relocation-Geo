@@ -55,17 +55,13 @@ Over time, we aim to complement educational content with practical, open tools t
 
 In 2022, Relocation.ge launched an initiative to help Ukrainian citizens in Georgia connect with people offering housing, medical care and material support. The project was covered by Georgian and international media.
 
-<p align="center">
-  <a href="https://news.trust.org/item/20220228165249-sfmj9/"><img src="/logos/reuters.png" alt="Reuters" height="40"></a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.bbc.co.uk/programmes/w3ct31bh"><img src="/logos/bbc.png" alt="BBC" height="40"></a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://mainichi.jp/articles/20220316/k00/00m/030/001000c"><img src="/logos/mainichi.png" alt="Mainichi Shimbun" height="40"></a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://georgiatoday.ge/support-project-for-ukrainian-citizens-in-georgia/"><img src="/logos/georgia-today.png" alt="Georgia Today" height="40"></a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.facebook.com/EntrepreneurGeorgia/"><img src="/logos/Entrepreneur.png" alt="Entrepreneur Georgia" height="40"></a>
-</p>
+<div class="press-logos">
+  <a class="press-logo" href="https://news.trust.org/item/20220228165249-sfmj9/"><img src="/logos/reuters.png" alt="Reuters"></a>
+  <a class="press-logo" href="https://www.bbc.co.uk/programmes/w3ct31bh"><img src="/logos/bbc.png" alt="BBC"></a>
+  <a class="press-logo" href="https://mainichi.jp/articles/20220316/k00/00m/030/001000c"><img src="/logos/mainichi.png" alt="Mainichi Shimbun"></a>
+  <a class="press-logo" href="https://georgiatoday.ge/support-project-for-ukrainian-citizens-in-georgia/"><img src="/logos/georgia-today.png" alt="Georgia Today"></a>
+  <a class="press-logo" href="https://www.facebook.com/EntrepreneurGeorgia/"><img src="/logos/Entrepreneur.png" alt="Entrepreneur Georgia"></a>
+</div>
 
 Selected coverage:
 

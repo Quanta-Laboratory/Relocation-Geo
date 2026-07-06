@@ -86,6 +86,17 @@ h1{font-size:48px; line-height:1.09; font-weight:700; margin:0 0 25px;}
 .sources h2{margin:0 0 8px; font-size:19px;}
 .sources ul{margin:0; padding-inline-start:20px;}
 
+/* Press / "as featured in" logos.
+   Each logo sits on a fixed-size white chip so the marks are visually
+   uniform and dark-ink logos stay legible on both light and dark themes. */
+.press-logos{display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:14px; margin:24px 0 30px; padding:0;}
+.press-logos .press-logo{display:flex; align-items:center; justify-content:center; width:150px; height:56px; padding:10px 16px; background:#fff; border:1px solid var(--grey-4); border-radius:6px; box-shadow:0 1px 3px rgba(0,0,0,.10);}
+.press-logos .press-logo:hover{box-shadow:0 2px 6px rgba(0,0,0,.18);}
+.press-logos .press-logo:focus{outline:3px solid var(--yellow); outline-offset:2px; background:#fff;}
+.press-logos img{max-width:100%; max-height:32px; width:auto; height:auto; object-fit:contain; display:block;}
+@media(max-width:480px){.press-logos{gap:10px;} .press-logos .press-logo{width:132px; height:50px;} .press-logos img{max-height:28px;}}
+html[data-theme="dark"] .press-logos .press-logo{background:#fff; border-color:#d7dadd;}
+
 .related{border-top:2px solid var(--blue); margin-top:40px; padding-top:15px;}
 .related h2{font-size:19px; font-weight:700; margin:0 0 10px;}
 .related ul{list-style:none; margin:0; padding:0;}
