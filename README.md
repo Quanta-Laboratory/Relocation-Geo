@@ -69,8 +69,19 @@ If it is unset, no tags load and no banner shows — the site still works.
 Implementation: `src/components/Analytics.astro` (GTM + consent mode) and
 `src/components/ConsentBanner.astro` (cookie banner).
 
+## Support widget
+Floating "Support" button (`src/components/SupportChat.astro`) with Telegram and
+WhatsApp links, plus an optional **Chatwoot live chat** that lazy-loads only on
+click. Enable chat by setting two env vars in Cloudflare Pages:
+```
+PUBLIC_CHATWOOT_BASE_URL = https://app.chatwoot.com   # or your self-hosted URL
+PUBLIC_CHATWOOT_TOKEN    = <website inbox token>
+```
+Create one Website inbox per domain in Chatwoot; each gives its own token.
+If unset, the live-chat option simply doesn't appear.
+
 ## Before launch
 1. Confirm the domain in `astro.config.mjs` (`SITE`).
-2. Add your live-chat ID in `src/components/SupportChat.astro`.
+2. Set `PUBLIC_CHATWOOT_*` env vars (per-domain website token) to enable live chat.
 3. Set `PUBLIC_GTM_ID` in Cloudflare Pages and wire GA4 + Clarity inside GTM.
 4. Connect the repo to Cloudflare Pages (build: `npm run build`, output: `dist`).

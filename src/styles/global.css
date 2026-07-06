@@ -111,10 +111,11 @@ h1{font-size:48px; line-height:1.09; font-weight:700; margin:0 0 25px;}
 /* Support speed-dial widget */
 .support-fab{position:fixed; inset-inline-end:20px; inset-block-end:20px; z-index:50; display:flex; flex-direction:column; align-items:flex-end; gap:12px;}
 .support-options{display:flex; flex-direction:column; align-items:flex-end; gap:12px;}
-.support-option{width:52px; height:52px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#fff; box-shadow:0 2px 8px rgba(0,0,0,.3); opacity:0; transform:translateY(12px) scale(.8); pointer-events:none; transition:opacity .2s ease, transform .2s ease;}
+.support-option{width:52px; height:52px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#fff; box-shadow:0 2px 8px rgba(0,0,0,.3); opacity:0; transform:translateY(12px) scale(.8); pointer-events:none; transition:opacity .2s ease, transform .2s ease; border:none; cursor:pointer; font:inherit; padding:0;}
 .support-option svg{width:28px; height:28px;}
 .support-tg{background:#229ED9;}
 .support-wa{background:#25D366;}
+.support-chat{background:var(--blue);}
 .support-option:hover{filter:brightness(1.08);}
 .support-option:focus{outline:3px solid var(--yellow); outline-offset:2px;}
 .support-fab[data-open="true"] .support-option{opacity:1; transform:translateY(0) scale(1); pointer-events:auto;}
