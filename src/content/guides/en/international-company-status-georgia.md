@@ -4,7 +4,7 @@ category: "work"
 lang: "en"
 summary: "International Company Status is a preferential tax regime for Georgian companies in qualifying IT and maritime-services activities. It cuts profit (corporate) tax to 5%, salary income tax to 5%, exempts most business property from property tax, and exempts distributed dividends. The status is granted by the Government of Georgia on application through the Revenue Service, requires at least two years of experience in the permitted activity and real substance in Georgia, and is set out in Government Ordinance No 619 (2020) together with the Tax Code."
 reviewed: 2026-06-29
-checked: 2026-07-02
+checked: 2026-07-06
 order: 7
 sources:
   - name: "Government of Georgia — Ordinance No 619 (8 October 2020): On Determining the Status of an International Company, and Approving the List of Permitted Activities and Certain Expenses"
@@ -32,7 +32,7 @@ Georgia offers a dedicated preferential tax regime — **International Company S
 
 For IT companies whose income comes from software supplied abroad, the [Virtual Zone Person](/en/virtual-zone-person-georgia) regime is the main alternative to compare against.
 
-International Company Status is granted to a **Georgian enterprise** that carries out specific permitted activities. It is not a company type you register at the outset — it is a status layered on top of an existing Georgian company, granted by a decision of the **Government of Georgia**. Once granted, it applies for an **indefinite term** and takes effect from the **beginning of the month** in which it is granted. The Revenue Service maintains a unified electronic register of companies that hold the status.
+International Company Status is granted to a **Georgian enterprise** that carries out specific permitted activities. It is not a company type you register at the outset — it is a status layered on top of an existing Georgian company, granted by a decision of the **Government of Georgia**. Once granted, it applies for an **indefinite term** and takes effect from the **beginning of the month** in which it is granted. The Revenue Service maintains a unified electronic register of companies that hold the status
 
 ## The tax benefits
 

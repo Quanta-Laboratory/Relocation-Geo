@@ -4,7 +4,7 @@ category: "live"
 lang: "en"
 summary: "Georgia is inexpensive by European standards. A single person typically budgets around USD 700–1,200 a month including rent, and a couple around USD 1,200–2,000, with Tbilisi and Batumi the priciest. Rent and lifestyle drive most of the difference."
 reviewed: 2026-06-27
-checked: 2026-07-02
+checked: 2026-07-06
 order: 5
 sources:
   - name: "National Statistics Office of Georgia (Geostat) — Prices and inflation"
@@ -26,7 +26,7 @@ One of Georgia's strongest draws is affordability: housing, food and everyday se
 
 ## A rough monthly budget
 
-As a planning guide, a single person comfortably budgets around **USD 700–1,200 per month** including rent, while a couple is often in the **USD 1,200–2,000** range. Families and those wanting central, newer housing or frequent dining out will be higher. The single biggest variable is rent, followed by how often you eat out and whether you run a car.
+As a planning guide, a single person comfortably budgets around **USD 700–1,200 per month** including rent, while a couple is often in the **USD 1,200–2,000** range. Families and those wanting central, newer housing or frequent dining out will be higher. The single biggest variable is rent, followed by how often you eat out and whether you run a car
 
 ## Rent
 
