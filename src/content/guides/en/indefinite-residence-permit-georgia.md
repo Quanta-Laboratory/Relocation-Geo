@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: "en"
 summary: "Georgia's Indefinite Residence Permit is the onward step for investors. It is available to a foreigner who has held an Investment Residence Permit for five years on the basis of a USD 300,000 investment and who, in the fifth year, shows annual turnover of at least USD 120,000 — or who has owned the qualifying non-agricultural real estate for the full five years. Once granted, it removes the renewal cycle and lets the holder and their family live in Georgia indefinitely. The application must be filed before the investment permit expires. This guide explains who qualifies, the fifth-year turnover and property conditions, the timing, fees and how the indefinite permit differs from the permanent permit, checked against the primary law."
 reviewed: 2026-06-30
-checked: 2026-07-06
+checked: 2026-07-07
 order: 14
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)"
