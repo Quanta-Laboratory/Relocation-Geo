@@ -1,12 +1,18 @@
 ---
 import ThemeToggle from './ThemeToggle.astro';
 import LanguageSwitcher from './LanguageSwitcher.astro';
-const { product = 'Guides', translations = [], languageLabel = 'Language' } = Astro.props;
+const { translations = [], languageLabel = 'Language' } = Astro.props;
 ---
 <header class="site-header">
   <div class="site-header__inner">
-    <a href="/en/" class="site-logo">Relocation.ge</a>
-    <span class="site-header__product">{product}</span>
+    <a href="/en/" class="site-logo" aria-label="Relocation.ge — home">
+      <svg class="site-logo__seal" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+        <circle cx="20" cy="20" r="18.5" fill="none" stroke="#fff" stroke-width="2"/>
+        <circle cx="20" cy="20" r="14" fill="none" stroke="#fff" stroke-width="1" opacity="0.6"/>
+        <text x="20" y="20" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="'Public Sans',Arial,sans-serif" font-weight="800" font-size="18">R</text>
+      </svg>
+      <span class="site-logo__word">Relocation<span class="site-logo__ge">.ge</span></span>
+    </a>
     <div class="site-header__tools">
       <LanguageSwitcher links={translations} label={languageLabel} />
       <ThemeToggle />
