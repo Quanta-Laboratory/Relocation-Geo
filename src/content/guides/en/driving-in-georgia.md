@@ -4,7 +4,7 @@ category: "live"
 lang: "en"
 summary: "Foreigners may drive in Georgia on a valid foreign licence for up to one year after their last entry, and can exchange it for a Georgian licence without retaking the driving test. A foreign-plated car can be used for 90 days before customs clearance, and all foreign vehicles must carry compulsory MTPL insurance."
 reviewed: 2026-06-27
-checked: 2026-07-07
+checked: 2026-07-08
 order: 6
 sources:
   - name: "Service Agency of the Ministry of Internal Affairs of Georgia"
