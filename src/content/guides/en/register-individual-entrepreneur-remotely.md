@@ -1,11 +1,11 @@
 ---
 title: "How to Register an Individual Entrepreneur Remotely (2026)"
 category: "work"
+parent: run-a-business-in-georgia
 lang: "en"
 summary: "Georgia allows foreigners to register an Individual Entrepreneur (IE) remotely through a Power of Attorney, without travelling to Georgia."
 reviewed: 2026-06-12
 checked: 2026-07-07
-order: 1
 sources:
   - name: "Public Service Hall"
     url: "https://psh.gov.ge/"
@@ -14,6 +14,7 @@ sources:
 faq:
   - q: "Do I need to travel to Georgia to register an Individual Entrepreneur?"
     a: "No. You can register an IE remotely by issuing a Power of Attorney to a representative in Georgia, who completes the registration at the Public Service Hall on your behalf."
+order: 1
 ---
 
 Georgia allows foreigners to register an Individual Entrepreneur (IE) remotely through a Power of Attorney (PoA). This means you do not need to travel to Georgia to start operating as a sole trader.

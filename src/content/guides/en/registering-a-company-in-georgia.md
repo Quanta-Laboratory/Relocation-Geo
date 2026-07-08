@@ -1,11 +1,11 @@
 ---
 title: "Registering a Company in Georgia: Business Forms and Setup"
 category: "work"
+parent: run-a-business-in-georgia
 lang: "en"
 summary: "Under the Law of Georgia on Entrepreneurs, foreigners can set up a Georgian company on the same terms as locals. Registration is handled by the National Agency of Public Registry, counts as both state and tax registration, and the company exists from the moment it is registered. The LLC is the most common form and has no minimum capital requirement."
 reviewed: 2026-06-27
 checked: 2026-07-07
-order: 3
 sources:
   - name: "Law of Georgia on Entrepreneurs (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/5230186"
@@ -22,6 +22,7 @@ faq:
     a: "No. Registration of an entrepreneur entails both state registration and tax registration at once. The registration authority forwards the data to the Revenue Service automatically."
   - q: "When does the company legally exist?"
     a: "An entrepreneur is deemed established from the moment of its registration. The registration decision takes effect when it is published on the registration authority's central electronic platform."
+order: 2
 ---
 
 Setting up a company in Georgia is governed by the Law of Georgia on Entrepreneurs (No 875 of 2021, in force since 1 January 2022). The law is open to foreigners: foreign individuals and foreign-registered legal entities can found and own a Georgian company on the same terms as locals, and there is no residency requirement to be a partner or a director.

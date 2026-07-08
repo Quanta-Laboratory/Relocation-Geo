@@ -1,11 +1,11 @@
 ---
 title: "Investor Guarantees in Georgia: rights and protections for foreign investors"
 category: "work"
+parent: business-statuses-georgia
 lang: "en"
 summary: "Georgian law guarantees foreign investors no less than the rights of local investors, the free repatriation of profits abroad, and protection against expropriation except by court decision with market-value compensation."
 reviewed: 2026-06-27
 checked: 2026-07-07
-order: 2
 sources:
   - name: "Law of Georgia on Promotion and Guarantees of Investment Activity (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/33304?publication=15"
@@ -20,6 +20,7 @@ faq:
     a: "Citizens of a foreign state, stateless persons who are not permanent residents of Georgia, Georgian citizens permanently living abroad, and legal persons registered abroad."
   - q: "Are there sectors where foreigners cannot invest?"
     a: "Yes. Some activities are prohibited for everyone (such as weapons of mass destruction or narcotic drug production), some are reserved for the State of Georgia (such as printing currency or dispatching electricity), and others require special permits or licences. Rights to land and natural resources are governed by separate laws."
+order: 5
 ---
 
 Georgia treats foreign and local investment under a single framework. The Law of Georgia on Promotion and Guarantees of Investment Activity (Document No 473, in force since 1996 and consolidated through 2019) sets out what an investment is, who qualifies as an investor, and the protections the state guarantees. An investment is broadly defined: money, securities, movable and immovable property, rights to use land or natural resources, patents, licences, know-how and other intellectual values used in entrepreneurial activity in Georgia to earn profit. A sufficiently large investment can also open a residence route — see the [investment residence permit](/en/investment-residence-permit-georgia).

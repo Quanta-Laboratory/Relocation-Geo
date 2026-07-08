@@ -1,11 +1,11 @@
 ---
 title: "International Company Status in Georgia: 5% tax regime for IT and maritime firms"
 category: work
+parent: business-statuses-georgia
 lang: en
 summary: International Company Status is a preferential tax regime for Georgian companies in qualifying IT and maritime-services activities. It cuts profit (corporate) tax to 5%, salary income tax to 5%, exempts most business property from property tax, and exempts distributed dividends. The status is granted by the Government of Georgia on application through the Revenue Service, requires at least two years of experience in the permitted activity and real substance in Georgia, and is set out in Government Ordinance No 619 (2020) together with the Tax Code.
 reviewed: 2026-06-29
 checked: 2026-07-07
-order: 7
 sources:
   - name: "Government of Georgia — Ordinance No 619 (8 October 2020): On Determining the Status of an International Company, and Approving the List of Permitted Activities and Certain Expenses"
     url: https://matsne.gov.ge/en/document/view/5012362
@@ -26,6 +26,7 @@ faq:
     a: It is granted for an indefinite term and takes effect from the start of the month in which it is granted. But it can be revoked — on the company's own request, if non-permitted income exceeds the 2% threshold, or if the company stops meeting the eligibility and substance conditions. Voluntary revocation applies from the start of the month of the decision; the other two grounds apply retroactively to the grant date.
 tags:
   - tax
+order: 1
 ---
 
 Georgia offers a dedicated preferential tax regime — **International Company Status** — for companies working in qualifying **information-technology** and **maritime** services. A company that holds the status pays sharply reduced rates: profit tax and salary income tax both drop to **5%**, most business property is exempt from property tax, and dividends paid out are exempt. The framework is set out in **Government of Georgia Ordinance No 619 of 8 October 2020**, which approves the procedure for granting the status, the list of permitted activities, and the deductible expenses, working together with the **Tax Code of Georgia**.

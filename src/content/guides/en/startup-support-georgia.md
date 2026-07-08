@@ -1,11 +1,11 @@
 ---
 title: "Startup Support in Georgia: Innovation Tax Statuses, Grants & Accelerators (2026)"
 category: "work"
+parent: business-statuses-georgia
 lang: "en"
 summary: "Georgia overhauled its startup support in mid-2025. A reform of the Law on Innovations (Law No 718 of 24 June 2025, in force from late September 2025) created three new tax-advantaged statuses — Innovative Startup, Innovative SME, and R&D Service Provider — administered through GITA's Innovations Registry. The Innovative Startup Status gives up to ten years of relief, beginning with full income-tax exemption on qualifying salaries and later reduced 5% and 10% rates on salary and profit. Alongside the statuses sit GITA grants and the 500 Global acceleration programme, Enterprise Georgia's business and export support, and the established Virtual Zone, International Company and Small Business regimes. This guide maps the tools, their thresholds and how they fit together, all checked against the primary Georgian law."
 reviewed: 2026-06-29
 checked: 2026-07-07
-order: 9
 sources:
   - name: "Law of Georgia No 718 of 24 June 2025 — amendments to the Law on Innovations (Legislative Herald, Georgian)"
     url: "https://matsne.gov.ge/ka/document/view/6531883"
@@ -32,6 +32,7 @@ faq:
     a: "No. The law expressly forbids holding the Innovative Startup Status together with International Company Status or Virtual Zone Person status; if a company with either of those is granted startup status, the older status is cancelled. You should model which regime fits your business before applying, because they target different things — the Virtual Zone and International Company regimes suit established IT exporters, while the startup status suits early-stage, investment- or grant-funded innovation."
   - q: "How do I apply for a startup status, and what does it cost?"
     a: "Applications go to GITA, which reviews the file and forwards it to the Ministry of Economy and Sustainable Development; the Government then grants the status by decree, effective from the first day of the following month. The registry application fee is 200 GEL for an Innovative Startup and 500 GEL for an Innovative SME or R&D Service Provider (and for investment funds, angel networks and accelerators registering in the system). The detailed procedure and supporting documents are set in a government resolution, so check the current rule and the official portal before filing."
+order: 4
 ---
 
 Georgia spent a decade building a reputation as a low-friction base for tech founders through regimes such as the [Virtual Zone Person](https://relocation.ge/en/virtual-zone-person-georgia/), the [International Company status](https://relocation.ge/en/international-company-status-georgia/) and the 1% [Small Business Status](https://relocation.ge/en/register-individual-entrepreneur-remotely/). In **mid-2025 it went further** and built a dedicated framework aimed specifically at **innovative, investment-backed startups**. This guide maps the tools a founder in Georgia can actually use — the new statuses first, then the grants, accelerators and agencies around them — and points to the established regimes that may still fit better depending on the business. The substance below is checked against the **primary Georgian law**; programme figures that come only from agency announcements are flagged as such.

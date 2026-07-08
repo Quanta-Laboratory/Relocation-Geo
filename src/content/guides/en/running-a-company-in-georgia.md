@@ -1,11 +1,11 @@
 ---
 title: "Running a Company in Georgia: Governance and Ongoing Rules"
 category: "work"
+parent: run-a-business-in-georgia
 lang: "en"
 summary: "Once registered, a Georgian company is run through its general meeting and management body, with a supervisory board only where law or the charter requires one. A regular general meeting must be held at least once a year, registry data must be kept up to date, and the Law on Entrepreneurs sets clear rules for reorganisation and creditor protection."
 reviewed: 2026-06-27
 checked: 2026-07-07
-order: 4
 sources:
   - name: "Law of Georgia on Entrepreneurs (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/5230186"
@@ -20,6 +20,7 @@ faq:
     a: "Yes. Changes to registered data must be filed with the registration authority, and the registry remains public. Managers must also report events such as branch closure, liquidation or insolvency."
   - q: "Can a Georgian company be merged, divided or converted?"
     a: "Yes. The law provides for reorganisation by conversion, merger and division, with a three-month window for creditors to require security for their claims after the reorganisation is registered."
+order: 3
 ---
 
 [Registering a company](/en/registering-a-company-in-georgia) is only the start. The Law of Georgia on Entrepreneurs (No 875 of 2021) also sets out how a company is governed day to day and what obligations continue once it is operating. The rules give partners flexibility through the charter, while fixing certain protections that cannot be bargained away.
