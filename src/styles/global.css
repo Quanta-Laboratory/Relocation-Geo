@@ -55,6 +55,17 @@ h1{font-size:clamp(40px,5.5vw,64px); line-height:1.05; font-weight:800; letter-s
 .datestamp{font-family:var(--font-mono); color:var(--grey-1); font-size:14px; margin:0 0 25px;}
 .datestamp strong{color:var(--black);}
 
+/* Status tags — the brand's trust signals (● Verified, ▲ Reform pending). */
+.status-tags{margin:0 0 10px;}
+.status-tag{display:inline-flex; align-items:center; gap:6px; font-family:var(--font-mono); font-weight:600; font-size:12.5px; text-transform:uppercase; letter-spacing:.4px; padding:3px 9px; border:1px solid var(--grey-2); white-space:nowrap;}
+.status-tag--verified{color:var(--green-dark); border-color:var(--green);}
+.status-tag--verified::before{content:"\25CF"; font-size:11px; color:var(--green);}
+.status-tag--pending{color:#8a5a00; border-color:#b58a00;}
+.status-tag--pending::before{content:"\25B2"; font-size:10px; color:#b58a00;}
+html[data-theme="dark"] .status-tag--verified{color:#5bb37f; border-color:#3f7d59;}
+html[data-theme="dark"] .status-tag--verified::before{color:#5bb37f;}
+html[data-theme="dark"] .status-tag--pending{color:#e0b64d; border-color:#8a6d1e;}
+
 /* Important notice banner (GOV.UK-style). Sits at the very top of the page so a
    visitor sees the change immediately. Uses --blue, which is re-pointed for the
    dark theme, so it stays legible in both. */
@@ -87,7 +98,10 @@ html[data-theme="dark"] .diagram{color:#e9ebed;}
 .grid{display:grid; grid-template-columns:1fr 1fr; gap:0 40px;}
 @media(max-width:740px){.grid{grid-template-columns:1fr;} h1{font-size:34px;}}
 .hub{border-top:2px solid var(--blue); padding-top:15px; margin-bottom:35px;}
-.hub h2{margin:0 0 6px; font-size:27px; font-weight:700;}
+.hub h2{margin:0 0 6px; font-size:27px; font-weight:700; display:flex; align-items:center; gap:10px;}
+.hub__icon{display:inline-flex; flex:none; color:var(--navy);}
+.hub__icon svg{width:26px; height:26px; display:block;}
+html[data-theme="dark"] .hub__icon{color:var(--blue);}
 .hub h2 a{text-decoration:none;}
 .hub p.desc{color:var(--grey-1); font-size:16px; margin:0 0 12px;}
 .hub ul{list-style:none; margin:0; padding:0;}
@@ -114,7 +128,7 @@ html[data-theme="dark"] .diagram{color:#e9ebed;}
 .prose li{margin-bottom:8px;}
 .prose table{border-collapse:collapse; width:100%; margin:25px 0; font-size:16px;}
 .prose th,.prose td{border-bottom:1px solid var(--grey-2); padding:11px 18px 11px 0; text-align:start; vertical-align:top;}
-.prose thead th{border-bottom:2px solid var(--black);}
+.prose thead th{border-bottom:2px solid var(--black); font-family:var(--font-mono); font-weight:600; font-size:13px; text-transform:uppercase; letter-spacing:.4px;}
 .inset{border-inline-start:10px solid var(--grey-2); padding:12px 0 12px 20px; padding-inline-start:20px; margin:25px 0; max-width:38em;}
 
 .sources{background:var(--grey-3); padding:15px 20px; margin:30px 0; font-size:16px;}
