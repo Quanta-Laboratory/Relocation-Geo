@@ -4,7 +4,7 @@ category: "students"
 lang: "en"
 summary: "A short overview of studying in Georgia as an international student: choosing an authorised university and accredited programme, getting admitted (and having a prior diploma recognised by the NCEQE), funding your studies through tuition and scholarships, and the D3 student visa and study residence permit that let you stay. This page maps the journey and links to the detailed guide for each step."
 reviewed: 2026-07-08
-checked: 2026-07-08
+checked: 2026-07-09
 order: 1
 sources:
   - name: "NCEQE — National Center for Educational Quality Enhancement"

@@ -5,7 +5,7 @@ parent: studying-in-georgia
 lang: "en"
 summary: "Holding a study residence permit does not by itself give the right to work in Georgia. Since 1 March 2026, most foreign nationals — students included — need a separate 'Right to Labour Activity' work permit to take paid employment or run a business, on top of their study status."
 reviewed: 2026-06-27
-checked: 2026-07-08
+checked: 2026-07-09
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/2278806"

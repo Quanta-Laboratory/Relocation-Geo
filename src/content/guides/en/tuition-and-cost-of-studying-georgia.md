@@ -5,7 +5,7 @@ parent: studying-in-georgia
 lang: "en"
 summary: "Studying in Georgia is affordable by international standards. English-taught degrees commonly cost around USD 3,000–8,000 a year, with medicine at the higher end, and students typically budget another USD 400–700 a month for living. Figures vary by university and city — always confirm current fees directly."
 reviewed: 2026-06-27
-checked: 2026-07-08
+checked: 2026-07-09
 sources:
   - name: "National Center for Educational Quality Enhancement (NCEQE)"
     url: "https://eqe.ge/en"
