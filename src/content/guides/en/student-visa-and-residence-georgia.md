@@ -1,11 +1,11 @@
 ---
 title: "Student Visa & Residence in Georgia (D3)"
 category: "students"
+parent: studying-in-georgia
 lang: "en"
 summary: "International students enter Georgia on the D3 immigration visa, issued for study or research at an authorised institution, and then convert it into a study (temporary) residence permit to stay for the length of their programme. Many nationalities can also enter visa-free first and arrange status from within Georgia."
 reviewed: 2026-06-27
 checked: 2026-07-08
-order: 2
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/2278806"
@@ -22,6 +22,7 @@ faq:
     a: "Applications and extensions are processed through the Public Service Hall and the relevant agency; documents confirming your enrolment at an authorised institution are central to the application."
   - q: "Do I need health insurance?"
     a: "Yes. Since 1 January 2026, entering Georgia requires health and accident insurance with a minimum sum insured of GEL 30,000 — see our health insurance guide."
+order: 4
 ---
 
 Studying in Georgia is treated as a long-term purpose under the Law on the Legal Status of Aliens and Stateless Persons, so it runs on the immigration (D) side of the system rather than a tourist entry. In practice there are two steps: getting the right entry status, then converting it into a residence permit that lasts for your studies.

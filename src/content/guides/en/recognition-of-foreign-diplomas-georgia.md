@@ -1,11 +1,11 @@
 ---
 title: "Recognition of Foreign Diplomas in Georgia (NCEQE)"
 category: "students"
+parent: studying-in-georgia
 lang: "en"
 summary: "The NCEQE is Georgia's official body for recognising foreign qualifications and for legalising or apostilling Georgian educational documents. Recognition verifies a document's authenticity and compares the qualification with Georgian standards — and it is also the route to using a Georgian degree abroad."
 reviewed: 2026-06-27
 checked: 2026-07-08
-order: 5
 sources:
   - name: "National Center for Educational Quality Enhancement (NCEQE)"
     url: "https://eqe.ge/en"
@@ -22,6 +22,7 @@ faq:
     a: "Both make a public document valid internationally. An apostille is used between countries party to the Apostille Convention; consular legalisation is used for other countries. The NCEQE handles these for Georgian educational documents."
   - q: "Does recognition guarantee I can work in a regulated profession?"
     a: "No. Academic recognition is separate from professional licensing. Regulated professions — medicine, law and others — have their own licensing bodies and exams that decide the right to practise."
+order: 3
 ---
 
 If you are bringing a qualification into Georgia, or planning to use a Georgian degree elsewhere, the key institution is the **National Center for Educational Quality Enhancement (NCEQE)**. It is the official body for both directions of recognition, and understanding what it does — and does not — decide will save a lot of confusion.

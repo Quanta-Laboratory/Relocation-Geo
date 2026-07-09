@@ -1,11 +1,11 @@
 ---
 title: "Working While Studying in Georgia"
 category: "students"
+parent: studying-in-georgia
 lang: "en"
 summary: "Holding a study residence permit does not by itself give the right to work in Georgia. Since 1 March 2026, most foreign nationals — students included — need a separate 'Right to Labour Activity' work permit to take paid employment or run a business, on top of their study status."
 reviewed: 2026-06-27
 checked: 2026-07-08
-order: 7
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/2278806"
@@ -22,6 +22,7 @@ faq:
     a: "Work performed entirely remotely for foreign clients, with no Georgian employer or local business, may fall outside the permit requirement — but this point is still being clarified, so confirm your situation before relying on it."
   - q: "What happens if I work without a permit?"
     a: "Working without the required permit carries fines (2,000 GEL for a first offence), applied to the worker and, for employment, the employer."
+order: 7
 ---
 
 A common question from international students is whether they can earn money on the side while studying in Georgia. The short answer changed in 2026: your student status covers studying, but working now needs a separate permission. Here is how the two fit together.

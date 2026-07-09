@@ -1,11 +1,11 @@
 ---
 title: "Universities in Georgia: Higher Education for International Students"
 category: "students"
+parent: studying-in-georgia
 lang: "en"
 summary: "Georgian higher education follows the Bologna three-cycle system and is overseen by the NCEQE, which authorises institutions and accredits programmes. Many universities teach degrees in English — especially medicine, dentistry, business and IT — but international recognition depends on a university holding authorisation and your programme being accredited."
 reviewed: 2026-06-27
 checked: 2026-07-08
-order: 1
 sources:
   - name: "Law of Georgia on Higher Education (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/32830"
@@ -22,6 +22,7 @@ faq:
     a: "Georgian law recognises three types: the university (all three study cycles plus research), the teaching university (up to master's level), and the college (bachelor-level / short-cycle higher education)."
   - q: "Who regulates universities in Georgia?"
     a: "The Ministry of Education and Science sets policy, while external quality assurance — institutional authorisation and programme accreditation — is carried out by the National Center for Educational Quality Enhancement (NCEQE)."
+order: 1
 ---
 
 Georgia has become a popular study destination thanks to affordable tuition, a wide range of English-taught degrees, and a higher-education system aligned with European standards. This page explains how the system is structured and, most importantly, how to make sure a university and programme are properly recognised before you enrol.

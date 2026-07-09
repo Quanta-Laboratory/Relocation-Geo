@@ -1,11 +1,11 @@
 ---
 title: "University Admissions & Enrolment in Georgia for International Students"
 category: "students"
+parent: studying-in-georgia
 lang: "en"
 summary: "Applying to a Georgian university as an international student means choosing an authorised institution and accredited programme, having your prior qualification recognised by the NCEQE, and preparing apostilled or legalised documents with certified translations. English-taught programmes set their own language requirements."
 reviewed: 2026-06-27
 checked: 2026-07-08
-order: 4
 sources:
   - name: "National Center for Educational Quality Enhancement (NCEQE)"
     url: "https://eqe.ge/en"
@@ -22,6 +22,7 @@ faq:
     a: "An apostille certifies a public document for international use. Documents from countries party to the Apostille Convention need an apostille; others need consular legalisation. Most universities require this for your prior qualifications."
   - q: "When are the intakes?"
     a: "Most programmes have an autumn intake, and many universities also offer a spring intake. Deadlines vary by university — apply well ahead to allow time for document recognition and the visa or residence-permit process."
+order: 2
 ---
 
 Getting into a Georgian university as an international student is straightforward once you know the sequence: pick a properly recognised institution and programme, get your existing qualification recognised, prepare your documents in the right legal form, and meet the programme's language requirement. Doing these in the right order avoids the most common delays.
