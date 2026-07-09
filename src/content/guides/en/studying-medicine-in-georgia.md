@@ -2,6 +2,7 @@
 title: "Studying Medicine in Georgia (MD/MBBS) for International Students"
 category: "students"
 lang: "en"
+notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
 summary: "Georgia is a major destination for international medical students: six-year MD (MBBS) programmes taught in English, tuition typically around USD 4,000–8,000 a year, and degrees from leading universities listed in the World Directory of Medical Schools. Recognition for licensing always depends on your home country's medical board."
 reviewed: 2026-06-27
 checked: 2026-07-08

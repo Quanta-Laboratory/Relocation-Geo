@@ -134,6 +134,13 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
       checkedLabel={t.checked}
     />
 
+    {d.notice && (
+      <aside class="notice-banner" role="region" aria-label="Important notice">
+        <p class="notice-banner__title">Important</p>
+        <p class="notice-banner__content" set:html={d.notice} />
+      </aside>
+    )}
+
     <div class="cols">
       <nav class="contents" aria-label={t.contents}>
         <h2>{t.contents}</h2>

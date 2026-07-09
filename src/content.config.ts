@@ -28,6 +28,9 @@ const guides = defineCollection({
     faq: z
       .array(z.object({ q: z.string(), a: z.string() }))
       .default([]),
+    // Optional "Important" notice banner shown at the top of the page. May
+    // contain inline HTML (e.g. a link); it is authored content, rendered as-is.
+    notice: z.string().optional(),
     // Ordering within a hub
     order: z.number().default(99),
     // Hide from navigation if needed
