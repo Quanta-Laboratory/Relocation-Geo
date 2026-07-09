@@ -104,6 +104,10 @@ html[data-theme="dark"] .diagram{color:#e9ebed;}
 html[data-theme="dark"] .hub__icon{color:var(--blue);}
 .hub h2 a{text-decoration:none;}
 .hub p.desc{color:var(--grey-1); font-size:16px; margin:0 0 12px;}
+/* Compact hub notice ("плашка") — small, tidy strip for a section-level alert. */
+.hub-note{display:flex; align-items:baseline; gap:8px; margin:0 0 14px; padding:8px 12px; background:var(--grey-3); border-inline-start:4px solid var(--blue); font-size:15px; line-height:1.35;}
+.hub-note__tag{flex:none; font-family:var(--font-mono); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:#fff; background:var(--blue); padding:1px 7px;}
+.hub-note a{font-weight:700;}
 .hub ul{list-style:none; margin:0; padding:0;}
 .hub li{padding:8px 0; border-bottom:1px solid var(--grey-4); font-size:18px;}
 .hub li a{text-decoration:none;}

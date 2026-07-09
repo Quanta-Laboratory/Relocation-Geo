@@ -64,6 +64,12 @@ const icons: Record<string, string> = {
         <section class="hub" id={h.id}>
           <h2><span class="hub__icon" set:html={icons[h.id]} />{h.title}</h2>
           <p class="desc">{h.desc}</p>
+          {h.id === 'students' && (
+            <p class="hub-note">
+              <span class="hub-note__tag">New</span>
+              <span>From 1 Sep 2026, minor students use the new <a href="/en/d6-visa-georgia">D6 visa</a> (adults keep D3).</span>
+            </p>
+          )}
           <ul>
             {byCat(h.id).length === 0 && <li style="color:var(--grey-1)">Coming soon</li>}
             {byCat(h.id).map((e) => (
