@@ -22,20 +22,20 @@ a:focus{background:var(--yellow); color:var(--black); box-shadow:0 -2px var(--ye
 .skip-link{position:absolute; left:-9999px; top:0; background:var(--yellow); padding:10px 15px; z-index:100;}
 .skip-link:focus{left:0;}
 
-/* Header — navy anchors the brand */
-.site-header{background:var(--navy); color:#fff;}
+/* Header — black bar (nav), with the brand seal + wordmark */
+.site-header{background:var(--black); color:#fff;}
 .site-header__inner{max-width:var(--maxw); margin:0 auto; padding:12px 15px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;}
 /* Seal + wordmark lockup. On the navy header we use the inverse version:
    white seal and "Relocation" in white, with the .ge suffix in focus-yellow. */
 .site-logo{display:inline-flex; align-items:center; gap:11px; color:#fff; text-decoration:none;}
 .site-logo__seal{width:34px; height:34px; flex:none; display:block;}
 .site-logo__word{font-family:var(--font-sans); font-weight:800; font-size:27px; line-height:1; letter-spacing:-.01em; white-space:nowrap;}
-.site-logo__ge{color:var(--yellow);}
+.site-logo__ge{color:var(--red);}
 .site-logo:hover .site-logo__word{text-decoration:underline; text-decoration-thickness:3px; text-underline-offset:3px;}
 .site-logo:focus{background:var(--yellow); color:var(--black); box-shadow:0 -2px var(--yellow),0 4px var(--black); text-decoration:none;}
 .site-logo:focus .site-logo__ge{color:var(--black);}
 
-.site-nav{background:var(--navy); border-top:1px solid rgba(255,255,255,.18);}
+.site-nav{background:var(--black); border-top:1px solid #2e3133;}
 .site-nav__inner{max-width:var(--maxw); margin:0 auto; padding:0 15px;}
 .site-nav ul{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap;}
 .site-nav a{color:#fff; text-decoration:none; display:inline-block; padding:12px; padding-inline-start:0; font-size:19px;}
