@@ -1,11 +1,11 @@
 ---
 title: "Getting a Personal Number & Tax ID in Georgia"
 category: "live"
+parent: everyday-essentials-georgia
 lang: "en"
 summary: "Foreign residents receive an 11-digit personal number with their Georgian ID card, which requires a residence permit and is issued by the Public Service Development Agency. Foreigners without residence can instead get a 9-digit tax identification number (TIN) from the Revenue Service — no residence permit needed."
 reviewed: 2026-06-27
 checked: 2026-07-08
-order: 7
 sources:
   - name: "Public Service Development Agency (PSDA)"
     url: "https://sda.gov.ge/en"
@@ -22,6 +22,7 @@ faq:
     a: "They are used to open bank accounts, sign contracts, register as an Individual Entrepreneur, file taxes and access government services. Most day-to-day administrative steps ask for one of them."
   - q: "Where do I get the ID card and personal number?"
     a: "From the Public Service Development Agency, through Public Service Halls. The residence permit is the prerequisite; the ID card then carries your 11-digit personal number."
+order: 2
 ---
 
 Two different numbers come up constantly when settling in Georgia: the **personal number** on a Georgian ID card, and a **tax identification number (TIN)**. Which one you need depends on whether you hold a residence permit, and knowing the difference saves a wasted trip to the wrong office.

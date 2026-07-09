@@ -1,11 +1,11 @@
 ---
 title: "Cost of Living in Georgia (2026)"
 category: "live"
+parent: everyday-essentials-georgia
 lang: "en"
 summary: "Georgia is inexpensive by European standards. A single person typically budgets around USD 700–1,200 a month including rent, and a couple around USD 1,200–2,000, with Tbilisi and Batumi the priciest. Rent and lifestyle drive most of the difference."
 reviewed: 2026-06-27
 checked: 2026-07-08
-order: 5
 sources:
   - name: "National Statistics Office of Georgia (Geostat) — Prices and inflation"
     url: "https://www.geostat.ge/en/modules/categories/25/price"
@@ -20,6 +20,7 @@ faq:
     a: "Utilities (electricity, water, gas, rubbish) for an apartment are usually modest, and home fibre internet is inexpensive. Bills rise in winter where heating is electric or gas-based."
   - q: "What currency is used and how do I pay?"
     a: "The currency is the Georgian lari (GEL). Cards are widely accepted in cities, and banking is modern — see the banking guide for opening an account."
+order: 5
 ---
 
 One of Georgia's strongest draws is affordability: housing, food and everyday services cost far less than in Western Europe or North America. Actual spending depends heavily on the city and your lifestyle, so treat the figures here as indicative planning ranges rather than fixed prices — local rents in particular move quickly.

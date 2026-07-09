@@ -1,11 +1,11 @@
 ---
 title: "Health Insurance in Georgia for Foreigners (2026)"
 category: "live"
+parent: health-in-georgia
 lang: "en"
 summary: "From 1 January 2026, tourists entering Georgia must hold health and accident insurance with a minimum sum insured of GEL 30,000, valid for their whole stay, under Government Decree No 602. Long-term residents generally rely on private insurance, as the state Universal Healthcare Program offers foreigners only limited free cover."
 reviewed: 2026-06-27
 checked: 2026-07-08
-order: 2
 sources:
   - name: "Government of Georgia, Decree No 602 of 26 December 2025 (mandatory insurance for incoming tourists)"
     url: "https://matsne.gov.ge/ka/document/view/6728816"
@@ -22,6 +22,7 @@ faq:
     a: "The policy can be presented in either paper or electronic form, in Georgian or English, and may be issued by a Georgian or a foreign insurance company. The Patrol Police may check for it at the border crossing point."
   - q: "Can foreigners use Georgia's Universal Healthcare Program?"
     a: "Foreigners with a residence permit can register, but free services are generally limited to vulnerable categories such as low-income residents, pensioners and large families. Most foreign residents use private insurance instead. People with recognised stateless, refugee or humanitarian status are covered on the same terms as citizens."
+order: 2
 ---
 
 Georgia introduced a mandatory entry-insurance rule in 2026, so health cover now matters both for short-term visitors and for people relocating long term. This guide separates the two: the insurance you must hold to enter the country, and how healthcare works once you live here.
