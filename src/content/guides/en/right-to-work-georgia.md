@@ -4,7 +4,7 @@ category: "immigration"
 parent: guide-to-residence-permits
 lang: "en"
 summary: "The 'right to work' is the permission a foreign national needs to take paid employment or run a business for economic benefit in Georgia. Since the 2026 labour-migration reform it is a distinct authorisation, granted by the Ministry of Labour through its electronic labour-migration system, separate from any residence permit. This guide explains who needs it, the fourteen statutory exemptions (including fully remote work and work for foreign clients, both widened by Law No 1509 of 15 April 2026), how an employee and a self-employed person each apply, the GEL 500 fee cap and 30-day review, the grounds for refusal and termination, the fines for working without it, and the 1 January 2027 transitional deadline for people already registered in Georgia."
-reviewed: 2026-06-29
+reviewed: 2026-07-10
 checked: 2026-07-10
 order: 5
 sources:
@@ -16,6 +16,8 @@ sources:
     url: "https://matsne.gov.ge/ka/document/view/6543098"
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons"
     url: "https://matsne.gov.ge/en/document/view/2278806"
+  - name: "Government Ordinance No 70 of 20 February 2026 — Procedure for issuing the right to work to labour immigrants and self-employed foreigners"
+    url: "https://www.matsne.gov.ge/ka/document/view/6791218"
 faq:
   - q: "What is the 'right to work' in Georgia?"
     a: "It is the permission a foreign national needs to take paid employment or carry out entrepreneurial activity for economic benefit in Georgia. Under the Law on Labour Migration, only a foreigner who holds both the right to work and a qualifying immigration status (a work residence permit, an IT-employed residence permit, a D1 immigration visa or another residence permit) may legally work in Georgia, unless one of the statutory exemptions applies. It is granted by the Ministry of Internally Displaced Persons from the Occupied Territories, Labour, Health and Social Affairs through its electronic labour-migration system, and is a separate authorisation from the residence permit itself."
@@ -103,7 +105,17 @@ The right to work **terminates** on events such as: expiry or early termination 
 
 ## The cost of getting it wrong
 
-Working without the right to work is an **administrative offence with real fines**. Carrying out, or organising, labour activity without the required right to work is fined **GEL 2,000 for the employer or organiser** and **GEL 2,000 for the labour immigrant or self-employed person**; a **repeat** offence **doubles** the fine, and a further repeat **triples** it. **Changing employer or field of activity without renewing** the right to work is separately fined **GEL 2,000**. **Obstructing** a labour-migration inspection or **failing to present identity documents** carries its own fines — for employers these are scaled by the size of the business (broadly GEL 1,000 to GEL 7,000), and for a self-employed person around GEL 5,000. These figures make the right to work a compliance issue for employers as much as for individuals.
+Working without the right to work is an **administrative offence with real fines**, and liability falls on both the foreign national and the employer. A foreigner working without the required right to work is treated as engaging in **unlawful labour activity** and cannot rely on the full protection of employment rights under Georgian law. The fines escalate with repetition:
+
+| Violation | First | Repeat | Subsequent |
+| --- | --- | --- | --- |
+| Foreign worker without a permit | GEL 2,000 | GEL 4,000 | GEL 6,000 |
+| Self-employed foreigner (Individual Entrepreneur) without a permit | GEL 2,000 | GEL 4,000 | GEL 6,000 |
+| Employer, per illegally employed foreigner | GEL 2,000 | GEL 4,000 | GEL 6,000 |
+| Violating permit conditions (e.g. changing activity without updating the permit) | GEL 2,000 | GEL 4,000 | GEL 6,000 |
+| Employer failing to report a termination, amendment or extension of a contract | GEL 1,000 | GEL 2,000 | GEL 3,000 |
+
+Enforcement is coordinated. The authority administering work permits may **share information on violations with other state bodies** — including the **Labour Inspection Service** and migration authorities — so a single breach can surface across agencies. This makes the right to work a compliance issue for employers as much as for individuals. The penalty framework is set out in the Law on Labour Migration together with **Government Ordinance No 70 of 20 February 2026** on issuing the right to work.
 
 ## If you already live and work in Georgia
 
