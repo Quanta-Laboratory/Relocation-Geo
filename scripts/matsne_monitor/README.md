@@ -107,3 +107,33 @@ python scripts/matsne_monitor/redaction_check.py --selftest   # offline parser t
 The probe only reads free public pages. Reading the amended consolidated *text*
 (to analyse exactly what changed) still requires a paid matsne account — that is
 a later, separate module.
+
+## Parliament monitor (advance signals)
+
+matsne sees a law only once it is **published**. This watcher looks **upstream**
+at the Parliament of Georgia news stream (parliament.ge), where bills are
+reported as they pass committee and the three readings — weeks to months before
+they reach matsne — so you can prepare and publish "upcoming change"
+announcements early.
+
+| File | Purpose |
+| --- | --- |
+| `parliament_monitor.py` | Fetches parliament.ge news (server-rendered HTML — no RSS/API), keeps only legislative items (draft law / reading / migration / visa / residence permit / citizenship, etc.), and on a new one appends to the log and sends a Telegram alert. |
+| `parliament_state.json` | Seen article slugs. Committed back by the workflow. |
+| `parliament_log.md` | History of detected legislative items. Committed back. |
+| `../../.github/workflows/parliament.yml` | Runs daily (07:00 UTC = 11:00 Tbilisi). |
+
+```bash
+python scripts/matsne_monitor/parliament_monitor.py            # probe + alert
+python scripts/matsne_monitor/parliament_monitor.py --selftest  # offline parser test
+```
+
+Notes:
+- This is an **advance signal, not the final text** — a bill can change between
+  readings or fail. Announcements built from it must say "in progress, not yet
+  in force" (use the site's `notice:` front-matter block, as on the students page).
+- parliament.ge sits behind Cloudflare. If a CI run reports it could not fetch
+  the page, the server may be challenging the runner; the script fails safe
+  (logs a warning, leaves state unchanged) rather than inventing data.
+- The main news feed already surfaces bill items; add committee feeds to `FEEDS`
+  in the script for finer coverage.
