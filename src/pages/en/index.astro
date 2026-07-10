@@ -114,6 +114,12 @@ const icons: Record<string, string> = {
               <span>From 1 Sep 2026, minor students use the new <a href="/en/d6-visa-georgia">D6 visa</a> (adults keep D3).</span>
             </p>
           )}
+          {h.id === 'work' && (
+            <p class="hub-note">
+              <span class="hub-note__tag">New</span>
+              <span>Since the 2026 reform, most work needs a separate <a href="/en/right-to-work-georgia">right to work</a> — a residence permit alone is no longer enough.</span>
+            </p>
+          )}
           <ul>
             {byCat(h.id).length === 0 && <li style="color:var(--grey-1)">Coming soon</li>}
             {byCat(h.id).map((e) => (
