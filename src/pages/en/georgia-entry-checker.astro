@@ -61,11 +61,12 @@ const description =
       </div>
 
       <div class="tool__field" id="hasdocwrap" hidden>
-        <label for="hasdoc">Do you hold a valid visa or residence permit of another country?</label>
-        <select id="hasdoc" name="hasdoc">
-          <option value="no">No</option>
-          <option value="yes">Yes</option>
-        </select>
+        <span class="tool__label" id="hasdoc-label">Do you hold a valid visa or residence permit of another country?</span>
+        <div class="seg-group" role="group" aria-labelledby="hasdoc-label">
+          <button type="button" class="seg is-active" data-val="no" id="hasdoc-no" aria-pressed="true">No</button>
+          <button type="button" class="seg" data-val="yes" id="hasdoc-yes" aria-pressed="false">Yes</button>
+        </div>
+        <input type="hidden" id="hasdoc" value="no" />
         <span class="tool__hint">This can help only if your citizenship is not visa-free.</span>
       </div>
 
@@ -102,8 +103,15 @@ const description =
   <style>
     .tool { display: grid; gap: 18px; margin: 26px 0; max-width: 40em; }
     .tool__field { display: grid; gap: 6px; }
-    .tool__field label { font-weight: 700; font-size: 17px; }
+    .tool__field label, .tool__label { font-weight: 700; font-size: 17px; }
     .tool__hint { font-size: 14px; color: var(--grey-1); }
+    .seg-group { display: inline-flex; border: 1px solid var(--grey-2); width: fit-content; }
+    .seg { font: inherit; font-size: 16px; padding: 10px 26px; background: var(--grey-3); color: var(--black); border: 0; cursor: pointer; }
+    .seg + .seg { border-inline-start: 1px solid var(--grey-2); }
+    .seg.is-active { background: var(--blue); color: #fff; }
+    .seg:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+    html[data-theme='dark'] .seg { color: #e9ebed; }
+    html[data-theme='dark'] .seg.is-active { color: #fff; }
     .tool select {
       font: inherit; font-size: 17px; padding: 10px 12px; background: var(--grey-3);
       color: var(--black); border: 1px solid var(--grey-2); border-radius: 0; width: 100%;
@@ -135,13 +143,21 @@ const description =
 
       function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 
+      // Yes/No segmented buttons write into the hidden #hasdoc input.
+      function setHasdoc(val) {
+        if (els.hasdoc) els.hasdoc.value = val;
+        var nob = $('hasdoc-no'), yesb = $('hasdoc-yes');
+        if (nob) { nob.classList.toggle('is-active', val === 'no'); nob.setAttribute('aria-pressed', String(val === 'no')); }
+        if (yesb) { yesb.classList.toggle('is-active', val === 'yes'); yesb.setAttribute('aria-pressed', String(val === 'yes')); }
+      }
+
       // Show the "visa/residence permit of another country" question only when the
       // chosen citizenship is NOT visa-free (a visa-free national does not need it).
       function syncFields() {
         var cit = els.citizenship.value;
         var showDoc = !!cit && cit !== '__other__' ? !vfSet.has(cit) : !!cit;
         if (els.hasdocwrap) els.hasdocwrap.hidden = !showDoc;
-        if (!showDoc) { els.hasdoc.value = 'no'; if (els.doccountry) els.doccountry.value = ''; }
+        if (!showDoc) { setHasdoc('no'); if (els.doccountry) els.doccountry.value = ''; }
         if (els.docwrap) els.docwrap.hidden = !(showDoc && els.hasdoc.value === 'yes');
       }
 
@@ -227,9 +243,13 @@ const description =
       }
 
       function onChange() { syncFields(); render(); }
-      ['purpose', 'citizenship', 'hasdoc', 'doccountry', 'haspermit'].forEach(function (id) {
+      ['purpose', 'citizenship', 'doccountry', 'haspermit'].forEach(function (id) {
         var el = $(id);
         if (el) { el.addEventListener('change', onChange); }
+      });
+      ['hasdoc-no', 'hasdoc-yes'].forEach(function (id) {
+        var b = $(id);
+        if (b) { b.addEventListener('click', function () { setHasdoc(b.getAttribute('data-val')); onChange(); }); }
       });
       syncFields();
     })();
