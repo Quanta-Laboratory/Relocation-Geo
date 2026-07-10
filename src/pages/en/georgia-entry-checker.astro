@@ -104,6 +104,8 @@ const description =
   <style>
     .tool { display: grid; gap: 18px; margin: 26px 0; max-width: 40em; }
     .tool__field { display: grid; gap: 6px; }
+    /* Author display:grid above overrides the UA [hidden] rule, so restore it. */
+    .tool__field[hidden] { display: none; }
     .tool__field label, .tool__label { font-weight: 700; font-size: 17px; }
     .tool__hint { font-size: 14px; color: var(--grey-1); }
     .seg-group { display: inline-flex; border: 1px solid var(--grey-2); width: fit-content; }
