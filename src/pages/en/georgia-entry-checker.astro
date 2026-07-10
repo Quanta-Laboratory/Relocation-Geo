@@ -1,9 +1,10 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import { visaFreeOneYear, designatedDocCountries, dataAsOf } from '../../data/georgia-entry-data';
+import { visaFreeOneYear, designatedDocCountries, allCountries, dataAsOf } from '../../data/georgia-entry-data';
 
-const citizenships = Array.from(new Set([...visaFreeOneYear, ...designatedDocCountries])).sort((a, b) =>
+// Citizenship selector lists every country; the visa-free / doc lists drive the logic.
+const citizenships = Array.from(new Set([...allCountries, ...visaFreeOneYear])).sort((a, b) =>
   a.localeCompare(b),
 );
 const docCountries = [...designatedDocCountries].sort((a, b) => a.localeCompare(b));
