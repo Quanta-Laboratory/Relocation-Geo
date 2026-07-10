@@ -74,6 +74,22 @@ html[data-theme="dark"] .status-tag--pending{color:#e0b64d; border-color:#8a6d1e
 .notice-banner__title{background:var(--blue); color:#fff; margin:0; padding:8px 15px; font-family:var(--font-mono); font-size:15px; font-weight:600; text-transform:uppercase; letter-spacing:.5px;}
 .notice-banner__content{margin:0; padding:16px 15px; font-size:19px; line-height:1.4; max-width:none;}
 .notice-banner__content a{font-weight:700;}
+.notice-banner__lead{margin:0 0 10px;}
+/* Bulleted list of law changes inside the notice banner. */
+.notice-list{margin:0; padding-inline-start:22px; font-size:17px; line-height:1.45;}
+.notice-list li{margin:0 0 12px;}
+.notice-list li:last-child{margin-bottom:0;}
+.notice-list a{white-space:nowrap;}
+@media(max-width:560px){
+  .notice-banner__content{font-size:17px;}
+  .notice-list{font-size:16px;}
+}
+
+/* Homepage "Georgia at a glance" — the key economic indicators surfaced up top. */
+.home-stats{margin:0 0 35px;}
+.home-stats__title{font-size:clamp(24px,3vw,32px); font-weight:800; letter-spacing:-.01em; margin:0 0 6px;}
+.home-stats__intro{color:var(--grey-1); font-size:17px; margin:0 0 4px; max-width:42em;}
+.home-stats .stat-cards{margin-top:16px;}
 
 /* Inline SVG flowcharts inside articles. All ink is drawn with currentColor and
    theme variables (never a hard-coded dark), so the graphics stay legible in
@@ -110,9 +126,9 @@ html[data-theme="dark"] .hub__icon{color:var(--blue);}
 .hub-note__tag{flex:none; font-family:var(--font-mono); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:#fff; background:var(--blue); padding:1px 7px;}
 .hub-note a{font-weight:700;}
 /* Data components for statistics/country pages. Theme-aware via variables. */
-.stat-cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px; margin:26px 0;}
-.stat-card{border:1px solid var(--grey-4); border-top:3px solid var(--blue); background:var(--grey-3); padding:14px 16px;}
-.stat-card__value{font-size:30px; font-weight:800; line-height:1.1; letter-spacing:-.01em;}
+.stat-cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:14px; margin:26px 0;}
+.stat-card{border:1px solid var(--grey-4); border-top:3px solid var(--blue); background:var(--grey-3); padding:14px 16px; min-width:0;}
+.stat-card__value{font-size:clamp(22px,6vw,30px); font-weight:800; line-height:1.1; letter-spacing:-.01em; overflow-wrap:anywhere;}
 .stat-card__label{font-size:15px; color:var(--grey-1); margin-top:2px;}
 .stat-card__note{font-family:var(--font-mono); font-size:11px; color:var(--grey-1); margin-top:6px; text-transform:uppercase; letter-spacing:.3px;}
 .bar-chart{display:grid; gap:10px; margin:24px 0; max-width:40em;}
@@ -121,6 +137,11 @@ html[data-theme="dark"] .hub__icon{color:var(--blue);}
 .bar-fill{background:var(--blue); height:100%; display:block;}
 .bar-row__val{font-family:var(--font-mono); font-size:14px; color:var(--grey-1); white-space:nowrap;}
 @media(max-width:560px){.bar-row{grid-template-columns:110px 1fr auto; gap:8px; font-size:13px;}}
+/* On phones, put the bar label on its own line above the track + value. */
+@media(max-width:430px){
+  .bar-row{grid-template-columns:1fr auto; gap:4px 10px;}
+  .bar-row > span:first-child{grid-column:1 / -1;}
+}
 
 .hub ul{list-style:none; margin:0; padding:0;}
 .hub li{padding:8px 0; border-bottom:1px solid var(--grey-4); font-size:18px;}
@@ -147,6 +168,15 @@ html[data-theme="dark"] .hub__icon{color:var(--blue);}
 .prose table{border-collapse:collapse; width:100%; margin:25px 0; font-size:16px;}
 .prose th,.prose td{border-bottom:1px solid var(--grey-2); padding:11px 18px 11px 0; text-align:start; vertical-align:top;}
 .prose thead th{border-bottom:2px solid var(--black); font-family:var(--font-mono); font-weight:600; font-size:13px; text-transform:uppercase; letter-spacing:.4px;}
+/* Wide tables (e.g. the country-comparison and top-exports tables on the
+   Georgia in Numbers page) overflow narrow screens. On mobile, let the table
+   scroll horizontally inside its own box instead of pushing the page sideways.
+   display:block turns the table into a scroll container; nowrap keeps its
+   natural width so columns stay aligned instead of collapsing. */
+@media(max-width:740px){
+  .prose table{display:block; overflow-x:auto; -webkit-overflow-scrolling:touch; white-space:nowrap; font-size:15px;}
+  .prose th,.prose td{padding-right:14px;}
+}
 .inset{border-inline-start:10px solid var(--grey-2); padding:12px 0 12px 20px; padding-inline-start:20px; margin:25px 0; max-width:38em;}
 
 .sources{background:var(--grey-3); padding:15px 20px; margin:30px 0; font-size:16px;}

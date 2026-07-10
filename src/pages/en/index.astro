@@ -5,9 +5,17 @@ import { getCollection } from 'astro:content';
 const all = await getCollection('guides', ({ data }) => data.lang === 'en' && !data.draft);
 // Only top-level pages appear on the homepage. Pages that declare a `parent`
 // are nested under their pillar page and are reachable from there.
+// "Georgia in Numbers" is featured at the top of the page, so it is excluded
+// from the hub lists below (it would otherwise appear under About).
+const featuredSlugs = ['georgia-in-numbers'];
 const byCat = (c: string) =>
   all
-    .filter((e) => e.data.category === c && !e.data.parent)
+    .filter(
+      (e) =>
+        e.data.category === c &&
+        !e.data.parent &&
+        !featuredSlugs.includes(e.id.replace(/^en\//, '')),
+    )
     .sort((a, b) => a.data.order - b.data.order);
 const link = (e: { id: string }) => `/en/${e.id.replace(/^en\//, '')}`;
 
@@ -36,26 +44,57 @@ const icons: Record<string, string> = {
   description="Relocation.ge organises official Georgian legal provisions into clear, source-based guidance on visas, residence permits, business, taxes and daily life."
 >
   <main id="main" class="wrap">
-    <aside class="notice-banner" role="region" aria-label="Important notice">
-      <p class="notice-banner__title">Important</p>
-      <p class="notice-banner__content">
-        Georgia’s 2026 labour-migration reform has changed how foreigners may work:
-        a residence permit alone no longer grants the right to work.
-        <a href="/en/right-to-work-georgia">Find out what the new work permit means for you</a>.
-      </p>
-    </aside>
-
     <p class="kicker">Open-source guidance</p>
     <h1>Relocation to Georgia</h1>
     <p class="lede">
-      Relocation.ge is a public, open-source project that organises official legal
-      provisions into clear guidance for international audiences.
+      Relocation.ge is a public, open-source project that organises official Georgian
+      legal provisions into clear, source-based guidance on visas, residence permits,
+      business, taxes and daily life — for international audiences.
     </p>
 
-    <p class="lede-link">
-      New to the country? Start with <a href="/en/georgia-in-numbers"><strong>Georgia in Numbers</strong></a> —
-      the economy, population and trade at a glance.
-    </p>
+    <aside class="notice-banner" role="region" aria-label="Important legal changes in 2026">
+      <p class="notice-banner__title">Important — 2026 legal changes</p>
+      <div class="notice-banner__content">
+        <p class="notice-banner__lead">Several rules that affect foreigners changed in 2026. The key ones:</p>
+        <ul class="notice-list">
+          <li>
+            <strong>Right to work is now separate from your residence permit.</strong>
+            After the 2026 labour-migration reform, a residence permit alone no longer lets you work —
+            you need a distinct work authorisation from the Ministry of Labour. People already registered
+            by 1 March 2026 must obtain it, plus a matching residence permit, by 1 January 2027.
+            <a href="/en/right-to-work-georgia">The right to work explained →</a>
+          </li>
+          <li>
+            <strong>New D6 visa for minor students, from 1 September 2026.</strong>
+            Minors who study move to the new D6 immigration visa, which also covers their parents or
+            legal representatives and minor siblings; the D3 visa is narrowed to adult students and researchers.
+            <a href="/en/d6-visa-georgia">About the D6 visa →</a>
+          </li>
+          <li>
+            <strong>Residence by property now needs USD 150,000, up from USD 100,000.</strong>
+            The short-term residence permit based on real-estate ownership now requires non-agricultural
+            property valued above USD 150,000 (by certified valuation, not purchase price).
+            <a href="/en/short-term-residence-permit-property-georgia">Residence permit by property →</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <section class="home-stats" aria-label="Georgia at a glance">
+      <h2 class="home-stats__title">Georgia at a glance</h2>
+      <p class="home-stats__intro">
+        The economy, population and trade in a snapshot. Full picture in
+        <a href="/en/georgia-in-numbers"><strong>Georgia in Numbers</strong></a>.
+      </p>
+      <div class="stat-cards">
+        <div class="stat-card"><div class="stat-card__value">~3.9m</div><div class="stat-card__label">Population</div><div class="stat-card__note">Geostat, 2024 census</div></div>
+        <div class="stat-card"><div class="stat-card__value">~$34bn</div><div class="stat-card__label">Nominal GDP</div><div class="stat-card__note">Geostat, 2024</div></div>
+        <div class="stat-card"><div class="stat-card__value">~$28,000</div><div class="stat-card__label">GDP per capita (PPP)</div><div class="stat-card__note">IMF/World Bank, 2024</div></div>
+        <div class="stat-card"><div class="stat-card__value">9.7%</div><div class="stat-card__label">Real GDP growth</div><div class="stat-card__note">Geostat, 2024</div></div>
+        <div class="stat-card"><div class="stat-card__value">~1.1%</div><div class="stat-card__label">Inflation (avg)</div><div class="stat-card__note">Geostat, 2024</div></div>
+        <div class="stat-card"><div class="stat-card__value">#35</div><div class="stat-card__label">Economic-freedom rank</div><div class="stat-card__note">Heritage, 2025</div></div>
+      </div>
+    </section>
 
     <a href="#immigration" class="start-button">
       Start now
