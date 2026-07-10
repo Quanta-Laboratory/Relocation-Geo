@@ -120,6 +120,12 @@ const icons: Record<string, string> = {
               <span>Since the 2026 reform, most work needs a separate <a href="/en/right-to-work-georgia">right to work</a> — a residence permit alone is no longer enough.</span>
             </p>
           )}
+          {h.id === 'immigration' && (
+            <p class="hub-note">
+              <span class="hub-note__tag">Tool</span>
+              <span>Not sure how you would enter? Try the interactive <a href="/en/georgia-entry-checker">Georgia Entry Checker</a>.</span>
+            </p>
+          )}
           <ul>
             {byCat(h.id).length === 0 && <li style="color:var(--grey-1)">Coming soon</li>}
             {byCat(h.id).map((e) => (

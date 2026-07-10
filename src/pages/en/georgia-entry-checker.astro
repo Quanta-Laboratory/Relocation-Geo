@@ -1,0 +1,223 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { visaFreeOneYear, designatedDocCountries, dataAsOf } from '../../data/georgia-entry-data';
+
+const citizenships = Array.from(new Set([...visaFreeOneYear, ...designatedDocCountries])).sort((a, b) =>
+  a.localeCompare(b),
+);
+const docCountries = [...designatedDocCountries].sort((a, b) => a.localeCompare(b));
+
+const crumbs = [
+  { href: '/en/', label: 'Home' },
+  { href: '/en/#immigration', label: 'Immigration & Visa' },
+  { label: 'Georgia Entry Checker' },
+];
+const description =
+  'A free interactive tool: choose your purpose and citizenship (and any visa or residence permit you hold of another country) to see the likely entry route to Georgia and how long you can stay. Guidance only — not legal advice.';
+---
+<BaseLayout title="Georgia Entry Checker" description={description}>
+  <Breadcrumbs items={crumbs} />
+  <main id="main" class="wrap">
+    <h1>Georgia Entry Checker</h1>
+    <p class="lede">
+      Answer three quick questions to see the likely way you would enter Georgia, how long you could
+      stay, and the right next steps for your purpose.
+    </p>
+
+    <aside class="notice-banner" role="region" aria-label="Disclaimer">
+      <p class="notice-banner__title">Not legal advice</p>
+      <div class="notice-banner__content">
+        This tool gives general, source-based guidance only. It is not legal or immigration advice, it does
+        not cover every case, and the rules and country lists change. Always confirm your own situation on the
+        official Ministry of Foreign Affairs portal
+        <a href="https://www.geoconsul.gov.ge/en" rel="nofollow noopener" target="_blank">geoconsul.gov.ge</a>
+        before you travel. Country data as of {dataAsOf}.
+      </div>
+    </aside>
+
+    <form id="entry-tool" class="tool" novalidate>
+      <div class="tool__field">
+        <label for="purpose">1. Why are you coming to Georgia?</label>
+        <select id="purpose" name="purpose">
+          <option value="">— Select a purpose —</option>
+          <option value="tourism">Short visit / tourism</option>
+          <option value="work">Work or employment</option>
+          <option value="study">Study</option>
+          <option value="business">Set up or run a business</option>
+          <option value="family">Join family</option>
+          <option value="long_term">Move long-term / settle</option>
+        </select>
+      </div>
+
+      <div class="tool__field">
+        <label for="citizenship">2. What is your citizenship?</label>
+        <select id="citizenship" name="citizenship">
+          <option value="">— Select your country —</option>
+          {citizenships.map((c) => <option value={c}>{c}</option>)}
+          <option value="__other__">Other country / not listed</option>
+        </select>
+      </div>
+
+      <div class="tool__field">
+        <label for="hasdoc">3. Do you hold a valid visa or residence permit of another country?</label>
+        <select id="hasdoc" name="hasdoc">
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
+      </div>
+
+      <div class="tool__field" id="docwrap" hidden>
+        <label for="doccountry">Which country issued that visa or residence permit?</label>
+        <select id="doccountry" name="doccountry">
+          <option value="">— Select the issuing country —</option>
+          {docCountries.map((c) => <option value={c}>{c}</option>)}
+          <option value="__other__">Other country / not listed</option>
+        </select>
+      </div>
+
+      <div class="tool__field">
+        <label for="haspermit">Do you already hold a Georgian residence permit?</label>
+        <select id="haspermit" name="haspermit">
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
+      </div>
+    </form>
+
+    <section id="entry-result" class="tool-result" aria-live="polite" hidden></section>
+
+    <p class="tool-foot">
+      For the mechanics behind this tool, see
+      <a href="/en/entry-rules-by-citizenship-georgia">Entry rules for Georgia by citizenship</a>,
+      the <a href="/en/guide-to-georgian-visas">guide to Georgian visas</a>, and
+      <a href="/en/guide-to-residence-permits">residence permits</a>. The country lists are based on
+      Government Ordinances No 255 and No 256 (5 June 2015); confirm the current position on
+      <a href="https://www.geoconsul.gov.ge/en" rel="nofollow noopener" target="_blank">geoconsul.gov.ge</a>.
+    </p>
+  </main>
+
+  <style>
+    .tool { display: grid; gap: 18px; margin: 26px 0; max-width: 40em; }
+    .tool__field { display: grid; gap: 6px; }
+    .tool__field label { font-weight: 700; font-size: 17px; }
+    .tool select {
+      font: inherit; font-size: 17px; padding: 10px 12px; background: var(--grey-3);
+      color: var(--black); border: 1px solid var(--grey-2); border-radius: 0; width: 100%;
+    }
+    .tool select:focus { outline: 3px solid var(--yellow); outline-offset: 1px; }
+    html[data-theme='dark'] .tool select { color: #e9ebed; }
+    .tool-result { margin: 8px 0 30px; max-width: 40em; }
+    .tool-result__card { border: 1px solid var(--grey-4); border-top: 4px solid var(--blue); background: var(--grey-3); padding: 18px 20px; }
+    .tool-result__verdict { font-size: 22px; font-weight: 800; line-height: 1.2; margin: 0 0 6px; }
+    .tool-result__stay { font-family: var(--font-mono); font-size: 14px; color: var(--grey-1); text-transform: uppercase; letter-spacing: .4px; margin: 0 0 12px; }
+    .tool-result h3 { font-size: 16px; margin: 16px 0 6px; }
+    .tool-result ul { margin: 0; padding-inline-start: 20px; }
+    .tool-result li { margin: 0 0 6px; font-size: 16px; }
+    .tool-result .muted { color: var(--grey-1); font-size: 14px; margin-top: 14px; }
+    .tool-foot { font-size: 15px; color: var(--grey-1); max-width: 40em; }
+  </style>
+
+  <script define:vars={{ visaFreeOneYear, designatedDocCountries, dataAsOf }}>
+    (function () {
+      var $ = function (id) { return document.getElementById(id); };
+      var vfSet = new Set(visaFreeOneYear);
+      var docSet = new Set(designatedDocCountries);
+      var els = {
+        purpose: $('purpose'), citizenship: $('citizenship'), hasdoc: $('hasdoc'),
+        docwrap: $('docwrap'), doccountry: $('doccountry'), haspermit: $('haspermit'),
+        result: $('entry-result'),
+      };
+      if (!els.result) return;
+
+      function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+      var nextSteps = {
+        tourism: '<h3>Next steps for a short visit</h3><ul>' +
+          '<li>Check your maximum stay and keep within it; a visa-free stay does <strong>not</strong> grant the right to work.</li>' +
+          '<li>Hold valid <a href="/en/health-insurance-in-georgia-for-foreigners">travel health insurance</a> (min GEL 30,000, 2026 rule).</li>' +
+          '</ul>',
+        work: '<h3>Next steps to work</h3><ul>' +
+          '<li>Entry is only the first step. To work you generally need the <a href="/en/right-to-work-georgia">right to work</a> and a <a href="/en/work-residence-permit-georgia">work residence permit</a> (or the IT-employed permit).</li>' +
+          '<li>Fully remote work for a foreign employer is often exempt — check the right-to-work guide.</li>' +
+          '</ul>',
+        study: '<h3>Next steps to study</h3><ul>' +
+          '<li>Adults use the <a href="/en/student-visa-and-residence-georgia">D3 student visa</a>; from 1 Sep 2026 minors use the new <a href="/en/d6-visa-georgia">D6 visa</a>.</li>' +
+          '<li>See <a href="/en/studying-in-georgia">studying in Georgia</a> for the full path.</li>' +
+          '</ul>',
+        business: '<h3>Next steps for business</h3><ul>' +
+          '<li>Entry itself is a short stay; registering a business is separate — see <a href="/en/run-a-business-in-georgia">run a business</a>.</li>' +
+          '<li>To live here long-term you will still need a residence permit; carrying out paid activity may need the <a href="/en/right-to-work-georgia">right to work</a>.</li>' +
+          '</ul>',
+        family: '<h3>Next steps to join family</h3><ul>' +
+          '<li>Family members usually apply for a <a href="/en/family-reunification-residence-permit-georgia">family reunification residence permit</a>, tied to the main holder.</li>' +
+          '</ul>',
+        long_term: '<h3>Next steps to settle long-term</h3><ul>' +
+          '<li>A visa-free or e-Visa entry is for short stays. For the long term, obtain a <a href="/en/immigration-visa-georgia">D immigration visa</a> and a <a href="/en/guide-to-residence-permits">residence permit</a>.</li>' +
+          '</ul>',
+      };
+
+      function render() {
+        var purpose = els.purpose.value;
+        var cit = els.citizenship.value;
+        var hasdoc = els.hasdoc.value === 'yes';
+        var docCountry = els.doccountry ? els.doccountry.value : '';
+        var haspermit = els.haspermit.value === 'yes';
+
+        els.docwrap.hidden = !hasdoc;
+
+        if (!purpose || !cit) { els.result.hidden = true; els.result.innerHTML = ''; return; }
+
+        var verdict, stay, notes = [];
+
+        if (haspermit) {
+          verdict = 'You can enter and stay under your Georgian residence permit';
+          stay = 'For the validity of your permit';
+          notes.push('Keep your residence permit valid; re-entry is on the basis of that permit.');
+        } else {
+          var docQualifies = hasdoc && docCountry && docSet.has(docCountry);
+          if (vfSet.has(cit)) {
+            verdict = 'Visa-free entry';
+            stay = 'Up to 1 year (365 days)';
+            notes.push('Your citizenship is on Georgia’s visa-free list (Ordinance No 255), which allows a stay of up to one full year.');
+          } else if (docQualifies) {
+            verdict = 'Likely visa-free entry on your ' + esc(docCountry) + ' document';
+            stay = 'Up to 90 days in any 180-day period';
+            notes.push('Although your citizenship is not on the 1-year visa-free list, holding a valid visa or residence permit of ' + esc(docCountry) + ' generally allows visa-free entry for up to 90 days in any 180 days (Ordinance No 256).');
+          } else {
+            verdict = 'You likely need an e-Visa or a visa';
+            stay = 'Check the category on geoconsul';
+            notes.push('Your citizenship is not on the 1-year visa-free list. Most such travellers need an e-Visa or a visa — confirm your exact category and stay on geoconsul.');
+            if (hasdoc && docCountry === '__other__') {
+              notes.push('If your other-country visa or residence permit is from a qualifying state, you may still enter visa-free for 90/180 — verify the qualifying list on geoconsul.');
+            }
+          }
+          if (cit === '__other__') {
+            notes.push('Your country was not in the list, so this could not be checked automatically — verify on geoconsul.');
+          }
+        }
+
+        var html = '<div class="tool-result__card">';
+        html += '<p class="tool-result__verdict">' + esc(verdict) + '</p>';
+        html += '<p class="tool-result__stay">Likely stay: ' + esc(stay) + '</p>';
+        html += '<ul>' + notes.map(function (n) { return '<li>' + n + '</li>'; }).join('') + '</ul>';
+        html += (nextSteps[purpose] || '');
+        html += '<h3>At the border, in every case</h3><ul>' +
+          '<li>A passport valid for your stay, and proof you meet entry conditions.</li>' +
+          '<li>Tourists must hold <a href="/en/health-insurance-in-georgia-for-foreigners">health insurance</a> of at least GEL 30,000 (since 1 Jan 2026).</li>' +
+          '<li>Do not enter via the occupied territories (Abkhazia / Tskhinvali region) — it is unlawful.</li>' +
+          '</ul>';
+        html += '<p class="muted">Guidance only, not legal advice. Country data as of ' + esc(dataAsOf) + '. Confirm on <a href="https://www.geoconsul.gov.ge/en" rel="nofollow noopener" target="_blank">geoconsul.gov.ge</a>.</p>';
+        html += '</div>';
+
+        els.result.innerHTML = html;
+        els.result.hidden = false;
+      }
+
+      ['purpose', 'citizenship', 'hasdoc', 'doccountry', 'haspermit'].forEach(function (id) {
+        var el = $(id);
+        if (el) { el.addEventListener('change', render); }
+      });
+    })();
+  </script>
+</BaseLayout>

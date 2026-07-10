@@ -37,6 +37,8 @@ tags:
 
 Whether you can enter Georgia, and for how long, depends first on your **citizenship** — but citizenship alone does not settle it. Your **travel document**, any **visa or residence permit you already hold from another country**, and conditions checked **at the border** can all change the outcome. This page explains the mechanics and the categories, and points you to the official sources for the current per-country answer. It deliberately does **not** reproduce a full country list, because those lists are amended regularly and any copy goes out of date.
 
+> **Prefer to answer a few questions?** Try the interactive **[Georgia Entry Checker](/en/georgia-entry-checker)** — pick your purpose and citizenship and it suggests the likely entry route and stay period. Guidance only, not legal advice.
+
 ## Start with your citizenship: three buckets
 
 For entry purposes, every nationality falls into one of three categories:
