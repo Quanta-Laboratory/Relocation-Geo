@@ -155,8 +155,18 @@ def window_entries(entries: list[dict], now_utc: datetime, days: int) -> list[di
     return [e for e in entries if cutoff <= e["utc"].astimezone(TBILISI).date() <= today]
 
 
-def build_message(items: list[dict], now_utc: datetime, days: int,
-                  relevant_only: bool) -> str:
+# Telegram hard limit is 4096 chars/message; stay comfortably under it.
+TG_LIMIT = 3500
+
+
+def build_messages(items: list[dict], now_utc: datetime, days: int,
+                   relevant_only: bool) -> list[str]:
+    """Build one or more Telegram messages, each under TG_LIMIT characters.
+
+    A single long digest (e.g. a 7-day window with 100+ documents) exceeds
+    Telegram's per-message limit and is rejected with HTTP 400, so we split
+    the item list across as few messages as possible.
+    """
     day = now_utc.astimezone(TBILISI).strftime("%d.%m.%Y")
     scope = "today" if days == 1 else f"last {days} days"
     tag = " · relocation-relevant" if relevant_only else ""
@@ -164,16 +174,24 @@ def build_message(items: list[dict], now_utc: datetime, days: int,
 
     if not items:
         none = "documents" if not relevant_only else "relevant documents"
-        return f"{header}\n\nNo new {none} in this window."
+        return [f"{header}\n\nNo new {none} in this window."]
 
-    lines = [header, "", f"New documents: {len(items)}", ""]
+    intro = f"{header}\n\nNew documents: {len(items)}"
+    messages: list[str] = []
+    current = intro
     for n, it in enumerate(items, 1):
         title = html.escape(it["title_en"] or it.get("title_ka") or "—")
         stamp = it["utc"].astimezone(TBILISI).strftime("%d.%m")
-        lines.append(f"{n}. [{stamp}] {title}")
+        block = f"\n\n{n}. [{stamp}] {title}"
         if it["link"]:
-            lines.append(f"🔗 {html.escape(it['link'])}")
-    return "\n".join(lines)
+            block += f"\n🔗 {html.escape(it['link'])}"
+        if len(current) + len(block) > TG_LIMIT:
+            messages.append(current)
+            current = f"{header} (cont.){block}"
+        else:
+            current += block
+    messages.append(current)
+    return messages
 
 
 def send_telegram(text: str) -> bool:
@@ -224,7 +242,10 @@ def main() -> int:
         print("Nothing in window and SEND_IF_EMPTY=0 — nothing sent.")
         return 0
 
-    send_telegram(build_message(items, now_utc, DIGEST_DAYS, RELEVANT_ONLY))
+    messages = build_messages(items, now_utc, DIGEST_DAYS, RELEVANT_ONLY)
+    print(f"Sending {len(messages)} message(s).")
+    for msg in messages:
+        send_telegram(msg)
     return 0
 
 
