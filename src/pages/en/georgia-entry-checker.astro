@@ -60,12 +60,13 @@ const description =
         </select>
       </div>
 
-      <div class="tool__field">
-        <label for="hasdoc">3. Do you hold a valid visa or residence permit of another country?</label>
+      <div class="tool__field" id="hasdocwrap" hidden>
+        <label for="hasdoc">Do you hold a valid visa or residence permit of another country?</label>
         <select id="hasdoc" name="hasdoc">
           <option value="no">No</option>
           <option value="yes">Yes</option>
         </select>
+        <span class="tool__hint">This can help only if your citizenship is not visa-free.</span>
       </div>
 
       <div class="tool__field" id="docwrap" hidden>
@@ -102,6 +103,7 @@ const description =
     .tool { display: grid; gap: 18px; margin: 26px 0; max-width: 40em; }
     .tool__field { display: grid; gap: 6px; }
     .tool__field label { font-weight: 700; font-size: 17px; }
+    .tool__hint { font-size: 14px; color: var(--grey-1); }
     .tool select {
       font: inherit; font-size: 17px; padding: 10px 12px; background: var(--grey-3);
       color: var(--black); border: 1px solid var(--grey-2); border-radius: 0; width: 100%;
@@ -126,12 +128,22 @@ const description =
       var docSet = new Set(designatedDocCountries);
       var els = {
         purpose: $('purpose'), citizenship: $('citizenship'), hasdoc: $('hasdoc'),
-        docwrap: $('docwrap'), doccountry: $('doccountry'), haspermit: $('haspermit'),
-        result: $('entry-result'),
+        hasdocwrap: $('hasdocwrap'), docwrap: $('docwrap'), doccountry: $('doccountry'),
+        haspermit: $('haspermit'), result: $('entry-result'),
       };
       if (!els.result) return;
 
       function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+      // Show the "visa/residence permit of another country" question only when the
+      // chosen citizenship is NOT visa-free (a visa-free national does not need it).
+      function syncFields() {
+        var cit = els.citizenship.value;
+        var showDoc = !!cit && cit !== '__other__' ? !vfSet.has(cit) : !!cit;
+        if (els.hasdocwrap) els.hasdocwrap.hidden = !showDoc;
+        if (!showDoc) { els.hasdoc.value = 'no'; if (els.doccountry) els.doccountry.value = ''; }
+        if (els.docwrap) els.docwrap.hidden = !(showDoc && els.hasdoc.value === 'yes');
+      }
 
       var nextSteps = {
         tourism: '<h3>Next steps for a short visit</h3><ul>' +
@@ -165,8 +177,6 @@ const description =
         var docCountry = els.doccountry ? els.doccountry.value : '';
         var haspermit = els.haspermit.value === 'yes';
 
-        els.docwrap.hidden = !hasdoc;
-
         if (!purpose || !cit) { els.result.hidden = true; els.result.innerHTML = ''; return; }
 
         var verdict, stay, notes = [];
@@ -181,6 +191,7 @@ const description =
             verdict = 'Visa-free entry';
             stay = 'Up to 1 year (365 days)';
             notes.push('Your citizenship is on Georgia’s visa-free list (Ordinance No 255), which allows a stay of up to one full year.');
+            notes.push('Because you can enter visa-free, holding a residence permit or visa of another country makes no difference here.');
           } else if (docQualifies) {
             verdict = 'Likely visa-free entry on your ' + esc(docCountry) + ' document';
             stay = 'Up to 90 days in any 180-day period';
@@ -215,10 +226,12 @@ const description =
         els.result.hidden = false;
       }
 
+      function onChange() { syncFields(); render(); }
       ['purpose', 'citizenship', 'hasdoc', 'doccountry', 'haspermit'].forEach(function (id) {
         var el = $(id);
-        if (el) { el.addEventListener('change', render); }
+        if (el) { el.addEventListener('change', onChange); }
       });
+      syncFields();
     })();
   </script>
 </BaseLayout>
