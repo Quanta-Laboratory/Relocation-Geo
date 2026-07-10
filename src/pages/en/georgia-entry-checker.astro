@@ -80,11 +80,12 @@ const description =
       </div>
 
       <div class="tool__field">
-        <label for="haspermit">Do you already hold a Georgian residence permit?</label>
-        <select id="haspermit" name="haspermit">
-          <option value="no">No</option>
-          <option value="yes">Yes</option>
-        </select>
+        <span class="tool__label" id="haspermit-label">Do you already hold a Georgian residence permit?</span>
+        <div class="seg-group" role="group" aria-labelledby="haspermit-label">
+          <button type="button" class="seg is-active" data-val="no" id="haspermit-no" aria-pressed="true">No</button>
+          <button type="button" class="seg" data-val="yes" id="haspermit-yes" aria-pressed="false">Yes</button>
+        </div>
+        <input type="hidden" id="haspermit" value="no" />
       </div>
     </form>
 
@@ -147,6 +148,12 @@ const description =
       function setHasdoc(val) {
         if (els.hasdoc) els.hasdoc.value = val;
         var nob = $('hasdoc-no'), yesb = $('hasdoc-yes');
+        if (nob) { nob.classList.toggle('is-active', val === 'no'); nob.setAttribute('aria-pressed', String(val === 'no')); }
+        if (yesb) { yesb.classList.toggle('is-active', val === 'yes'); yesb.setAttribute('aria-pressed', String(val === 'yes')); }
+      }
+      function setHaspermit(val) {
+        if (els.haspermit) els.haspermit.value = val;
+        var nob = $('haspermit-no'), yesb = $('haspermit-yes');
         if (nob) { nob.classList.toggle('is-active', val === 'no'); nob.setAttribute('aria-pressed', String(val === 'no')); }
         if (yesb) { yesb.classList.toggle('is-active', val === 'yes'); yesb.setAttribute('aria-pressed', String(val === 'yes')); }
       }
@@ -243,13 +250,17 @@ const description =
       }
 
       function onChange() { syncFields(); render(); }
-      ['purpose', 'citizenship', 'doccountry', 'haspermit'].forEach(function (id) {
+      ['purpose', 'citizenship', 'doccountry'].forEach(function (id) {
         var el = $(id);
         if (el) { el.addEventListener('change', onChange); }
       });
       ['hasdoc-no', 'hasdoc-yes'].forEach(function (id) {
         var b = $(id);
         if (b) { b.addEventListener('click', function () { setHasdoc(b.getAttribute('data-val')); onChange(); }); }
+      });
+      ['haspermit-no', 'haspermit-yes'].forEach(function (id) {
+        var b = $(id);
+        if (b) { b.addEventListener('click', function () { setHaspermit(b.getAttribute('data-val')); onChange(); }); }
       });
       syncFields();
     })();
