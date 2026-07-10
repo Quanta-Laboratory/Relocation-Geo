@@ -52,6 +52,7 @@ a:focus{background:var(--yellow); color:var(--black); box-shadow:0 -2px var(--ye
 h1{font-size:clamp(40px,5.5vw,64px); line-height:1.05; font-weight:800; letter-spacing:-.02em; margin:0 0 25px;}
 .kicker{font-family:var(--font-mono); font-weight:600; font-size:14px; text-transform:uppercase; letter-spacing:1px; color:var(--blue); margin:0 0 12px;}
 .lede{font-size:24px; line-height:1.4; margin:0 0 20px; max-width:42em;}
+.lede-link{font-size:18px; margin:0 0 26px; max-width:42em; color:var(--grey-1);}
 .datestamp{font-family:var(--font-mono); color:var(--grey-1); font-size:14px; margin:0 0 25px;}
 .datestamp strong{color:var(--black);}
 
@@ -108,6 +109,19 @@ html[data-theme="dark"] .hub__icon{color:var(--blue);}
 .hub-note{display:flex; align-items:baseline; gap:8px; margin:0 0 14px; padding:8px 12px; background:var(--grey-3); border-inline-start:4px solid var(--blue); font-size:15px; line-height:1.35;}
 .hub-note__tag{flex:none; font-family:var(--font-mono); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:#fff; background:var(--blue); padding:1px 7px;}
 .hub-note a{font-weight:700;}
+/* Data components for statistics/country pages. Theme-aware via variables. */
+.stat-cards{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px; margin:26px 0;}
+.stat-card{border:1px solid var(--grey-4); border-top:3px solid var(--blue); background:var(--grey-3); padding:14px 16px;}
+.stat-card__value{font-size:30px; font-weight:800; line-height:1.1; letter-spacing:-.01em;}
+.stat-card__label{font-size:15px; color:var(--grey-1); margin-top:2px;}
+.stat-card__note{font-family:var(--font-mono); font-size:11px; color:var(--grey-1); margin-top:6px; text-transform:uppercase; letter-spacing:.3px;}
+.bar-chart{display:grid; gap:10px; margin:24px 0; max-width:40em;}
+.bar-row{display:grid; grid-template-columns:150px 1fr auto; align-items:center; gap:12px; font-size:15px;}
+.bar-track{background:var(--grey-4); height:18px; overflow:hidden;}
+.bar-fill{background:var(--blue); height:100%; display:block;}
+.bar-row__val{font-family:var(--font-mono); font-size:14px; color:var(--grey-1); white-space:nowrap;}
+@media(max-width:560px){.bar-row{grid-template-columns:110px 1fr auto; gap:8px; font-size:13px;}}
+
 .hub ul{list-style:none; margin:0; padding:0;}
 .hub li{padding:8px 0; border-bottom:1px solid var(--grey-4); font-size:18px;}
 .hub li a{text-decoration:none;}
