@@ -1,85 +1,104 @@
 ---
-title: "Work Residence Permit & the Right to Work in Georgia (2026)"
+title: "Work Residence Permit in Georgia (2026)"
 category: "immigration"
 parent: guide-to-residence-permits
 lang: "en"
-summary: "Since the 2026 labour-migration reform, working in Georgia is a two-stage process. First a foreign national obtains the 'right to work' from the Ministry of Labour (the work permit); only then does a work residence permit or IT-employed residence permit follow. A residence permit alone no longer grants the right to work. The work residence permit requires monthly income of at least five times the subsistence minimum and an employer turnover of at least GEL 50,000 per applicant. Amendments of 15 April 2026 broadened the exemptions: people who work completely remotely for a foreign employer, or who serve clients abroad without needing to enter Georgia, fall outside the requirement, as do several other categories."
-reviewed: 2026-06-29
+notice: 'Some foreign nationals must first obtain the <strong>right to work</strong> from the Ministry of Labour before carrying out business or applying for a residence permit in Georgia. <a href="/en/right-to-work-georgia">Check whether it applies to you</a>.'
+summary: "The work residence permit lets a foreign national live in Georgia on the basis of labour activity here — employment with a Georgian employer or self-employment/entrepreneurial activity. The applicant must show monthly income of at least five times the subsistence minimum and employer turnover of at least GEL 50,000 per applicant (GEL 35,000 for education and medical institutions). It is usually issued for 6 months to 1 year and is renewable; state fees run from GEL 300 (30 days) to GEL 600 (10 days). Family members can join through family reunification."
+reviewed: 2026-07-09
 checked: 2026-07-09
 order: 4
 sources:
-  - name: "Law of Georgia on Labour Migration"
-    url: "https://matsne.gov.ge/en/document/view/2806732"
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons"
     url: "https://matsne.gov.ge/en/document/view/2278806"
-  - name: "Law of Georgia on Labour Migration (consolidated Georgian text, version of 15/04/2026, incorporating Law No 1509)"
-    url: "https://matsne.gov.ge/ka/document/view/2806732?publication=7"
-  - name: "Law of Georgia No 862 of 26 June 2025 amending the Law on Labour Migration"
-    url: "https://matsne.gov.ge/ka/document/view/6543098"
+  - name: "Government Resolution No 520 of 1 September 2014 (procedure for issuing residence permits)"
+    url: "https://matsne.gov.ge/en/document/view/2482330"
+  - name: "Public Service Development Agency of Georgia"
+    url: "https://sda.gov.ge/en/"
+  - name: "Law of Georgia on Labour Migration"
+    url: "https://matsne.gov.ge/en/document/view/2806732"
 faq:
-  - q: "Do I need a work permit to work in Georgia?"
-    a: "Yes, in most cases. Under the Law on Labour Migration, only an alien who holds both the 'right to work' given by the Ministry of Labour and a work residence permit, a D1 immigration visa or another qualifying residence permit may legally be employed or carry out entrepreneurial activity for economic benefit in Georgia. Holding a temporary residence permit by itself no longer grants the right to work."
-  - q: "What is the difference between the right to work and the work residence permit?"
-    a: "They are two separate steps. The 'right to work' is the permission to take paid employment or self-employment, granted by the Ministry of Internally Displaced Persons, Labour, Health and Social Affairs through its electronic labour-migration system. The work residence permit is the immigration status you then hold to live in Georgia, issued by the Public Service Development Agency on the basis of that right to work."
+  - q: "Who is eligible for a work residence permit?"
+    a: "A foreign national engaged in labour activity in Georgia — either employed by a company registered in Georgia, or self-employed through entrepreneurial activity such as registering as an Individual Entrepreneur, being a partner or shareholder in a Georgian company, or another lawful business generating income in Georgia."
   - q: "What are the income and turnover thresholds?"
-    a: "For a work residence permit, the applicant must show monthly income or remuneration of at least five times the average subsistence minimum defined in Georgia, and that the annual turnover of the employing or founded enterprise is at least GEL 50,000 per applying alien. Education and medical institutions are exempt from the turnover requirement."
-  - q: "How does the process work for someone already in Georgia?"
-    a: "An employee obtains the right to work through their local employer; a self-employed person obtains it themselves. If you are already in Georgia, you must apply for the work residence permit (or the IT-employed residence permit) no later than 10 calendar days after the right to work is granted. The service fee for the right to work is capped at GEL 500, including expedited handling."
-  - q: "Is fully remote work exempt?"
-    a: "Yes. The Law states that a labour immigrant has no obligation to obtain a work residence permit if they already hold any type of residence permit, or if they carry out their labour activities completely remotely and do not need to enter Georgia to do so. Amendments adopted on 15 April 2026 widened this carve-out, confirming that work performed completely remotely for a foreign employer, and self-employed services supplied to clients located outside Georgia, fall outside the right-to-work requirement. As always, confirm your own situation, because the precise edges are still being worked out in administrative practice."
-  - q: "Who else is exempt from the right-to-work requirement?"
-    a: "Besides fully remote and foreign-client work, the exemptions reach several other categories — among them holders of any other type of residence permit, certain company founders and directors, individual entrepreneurs serving only foreign markets, and people present in Georgia only for short-term professional activity. The exact list and its conditions are set out in the Law on Labour Migration as amended on 15 April 2026 and in the implementing government acts, so confirm the current categories before relying on one."
-  - q: "Who issues these documents?"
-    a: "The right to work is given by the Ministry of Internally Displaced Persons from the Occupied Territories, Labour, Health and Social Affairs of Georgia. The work residence permit (and the IT-employed residence permit) are issued by the Public Service Development Agency under the Ministry of Justice, on the basis of that right to work."
+    a: "The applicant must show monthly income or remuneration of at least five times the average subsistence minimum defined in Georgia, and that the annual turnover of the employing or founded enterprise is at least GEL 50,000 per applying foreign employee — or at least GEL 35,000 per employee for education and medical institutions. If employment documents do not sufficiently prove income, funds held in the applicant's own bank account may be accepted instead."
+  - q: "How long is the permit valid?"
+    a: "A work residence permit is usually issued for 6 months to 1 year. It may be renewed if the foreigner continues their labour activity in Georgia and all legal conditions remain fulfilled."
+  - q: "How much does it cost and how long does it take?"
+    a: "State fees depend on the processing speed: GEL 300 for a 30-day review, GEL 450 for 20 days, and GEL 600 for 10 days. After the permit is granted, the Georgian ID (residence) card costs a further GEL 60 (10 working days) up to GEL 150 (same-day issuance)."
+  - q: "Can my family come with me?"
+    a: "Yes. Family members of a foreign worker may obtain residence permits on the basis of family reunification, tied to the worker's status. See the family reunification residence permit guide for who qualifies and what is required."
+  - q: "What documents do I need?"
+    a: "An application, passport copy, proof of lawful stay, proof of employment or entrepreneurial activity, proof of income (or a bank statement), a Revenue Service turnover confirmation for the employer/company, a statement of the number of foreign employees, a 3×4 photo and the fee receipt. Foreign documents must generally be apostilled/legalised and translated into Georgian and notarised."
 ---
 
-Working in Georgia changed shape with the **2026 labour-migration reform**. What used to be informal — many people simply worked on the strength of a residence permit or a long visa-free stay — is now a regulated, two-stage process. A foreign national first needs the **right to work**, and only then the immigration status that lets them stay: a **work residence permit**, a **D1 immigration visa**, or, for software professionals, an **IT-employed residence permit**. The rules are set out in the **Law of Georgia on Labour Migration** together with the **Law on the Legal Status of Aliens and Stateless Persons**.
+A **work residence permit** is the residence permit granted to a **foreign national who carries out labour activity in Georgia** — whether **employed by a Georgian employer** or **self-employed** through entrepreneurial activity. It is the immigration status under which such a worker lives in the country, and family members may join them through family reunification.
 
-## The core rule
+## Who is eligible
 
-Under the Law on Labour Migration, **only an alien who holds the right to work _and_ a qualifying immigration status** may be employed or carry out entrepreneurial activity in Georgia for economic benefit. The two must go together. Crucially, a **temporary residence permit on its own no longer grants the right to work** — the permission to work is a distinct authorisation that must be obtained separately.
+A foreigner may obtain a work residence permit if they are engaged in **labour activity in Georgia**, in one of two ways.
 
-The two layers are:
+**A. Employment by a Georgian employer.** The foreigner is **employed by a company registered in Georgia** and performs labour activity here. The employer must be registered in Georgia, and the employment relationship must be documented.
 
-- the **right to work** (commonly described as the work permit, or "right to labour activity") — the permission to take paid employment or self-employment; and
-- the **work residence permit** (or another qualifying residence permit / D1 visa) — the status under which you live in Georgia.
+**B. Self-employment / entrepreneurial activity.** The foreigner carries out **independent economic activity in Georgia**, including:
 
-## Who needs the right to work
+- registration as an **[Individual Entrepreneur (IE)](/en/register-individual-entrepreneur-remotely)** in Georgia;
+- participation as a **partner or shareholder in a Georgian company**, with involvement in its activities;
+- other forms of **lawful entrepreneurial activity generating income in Georgia**.
 
-The Law distinguishes a **labour immigrant** — an alien without a permanent-residence permit who is employed by a **local employer** or has a remote employment relationship with one — from a **self-employed alien**, who carries out trade, services or other entrepreneurial activity for financial benefit. An **employee obtains the right to work through the local employer**; a **self-employed person obtains it themselves**.
+## Income and turnover conditions
 
-The right to work is given by the **Ministry of Internally Displaced Persons from the Occupied Territories, Labour, Health and Social Affairs** through its electronic labour-migration system. The **service fee is capped at GEL 500**, including where the right is given on an expedited basis.
+To qualify, the applicant must demonstrate two things:
 
-## The work residence permit
+- **Income:** monthly income or remuneration from the labour or entrepreneurial activity of **at least five times the average subsistence minimum** defined in Georgia. If the employment documents do not sufficiently prove legal income, **funds held in the applicant's personal bank account** (shown by a bank statement) may be accepted instead, provided the amount corresponds to at least five times the subsistence minimum per month for the duration of the requested permit.
+- **Employer / company turnover:** a Revenue Service document confirming that the **annual turnover** of the employer company, or of the enterprise the foreigner established, is **at least GEL 50,000 per applying foreign employee**. For **education and medical institutions** the threshold is **at least GEL 35,000 per employee**. If the employer or company is **not a VAT payer**, a certificate from a competent authority may be submitted instead, confirming both the non-VAT status and that turnover for the previous continuous 12 months met the relevant GEL 50,000 / GEL 35,000 figure.
 
-Once the right to work exists, the immigration status follows. The work residence permit is issued by the **Public Service Development Agency** (under the Ministry of Justice) to a labour immigrant registered with the Ministry of Labour, or to an alien carrying out entrepreneurial activity in Georgia. To qualify, the applicant must submit a document certifying the labour or entrepreneurial activity in Georgia, plus evidence that:
+## Required documents
 
-- **monthly income / remuneration** from that activity is at least **five times the average subsistence minimum** defined in Georgia; and
-- the **annual turnover** of the employing enterprise, or the enterprise the applicant founded, is at least **GEL 50,000 per applying alien** — with **education and medical institutions exempted** from this turnover condition.
+Applications are submitted to the **Public Service Development Agency of Georgia**. The typical document set is:
 
-For software professionals there is a parallel route: the **residence permit of a person employed in the field of Information Technologies (IT)**, issued on the same basis — the right to work given by the Ministry of Labour.
+- the **application** (with the unique registration code assigned to the labour migrant in the Ministry of Labour's electronic system, where required);
+- a **copy of the passport** or travel document;
+- **proof of lawful stay** in Georgia (for example a visa or entry stamp);
+- **proof of employment or entrepreneurial activity** — an employment contract with a Georgian employer, or documents confirming entrepreneurial activity (IE registration, company participation), or another document confirming engagement in work or business;
+- **proof of income** — a document showing monthly income of at least five times the subsistence minimum, or a qualifying bank statement;
+- **employer / company turnover confirmation** from the Revenue Service (the GEL 50,000 / GEL 35,000 figures above);
+- a **statement of the number of foreign employees** at the employer company or the foreigner's enterprise;
+- a **colour photograph, 3×4**, in electronic format;
+- the **receipt** for the residence-permit service fee.
 
-## Timing and obligations
+Foreign documents must generally be **legalised or apostilled** and translated into Georgian and notarised, unless an exemption applies.
 
-The Law sets clear deadlines. After obtaining the right to work, a labour immigrant who is **already in Georgia** must apply for the work residence permit (or IT-employed residence permit) **no later than 10 calendar days** after the right to work is granted. If a local employer wants to **continue** the relationship, it must apply to **extend** the right to work **30 calendar days before** it expires. Employers must also record an early termination of, or change to, an employment agreement in the electronic labour-migration system **within 5 calendar days**.
+## Duration
 
-## The remote-work and other exemptions
+A work residence permit is usually issued for **6 months to 1 year**. It **may be renewed** if the foreigner continues their labour activity in Georgia and all legal conditions remain fulfilled.
 
-The reform is aimed at work performed in and for the Georgian economy, and the Law builds in exemptions for work that is not. A labour immigrant has **no obligation** to obtain a work residence permit if they **already hold any type of residence permit**, or if they **carry out their labour activities completely remotely and do not need to enter Georgia** to do so. This is the legal basis for the widely cited "remote worker" exemption.
+## Processing time and state fees
 
-Amendments adopted on **15 April 2026** (Law No 1509) **broadened and firmed up** these carve-outs. The thrust of the changes is to take work that has no real footprint in the Georgian labour market out of the right-to-work regime. In particular, the amendments make clear that the requirement does **not** apply to:
+The state fee depends on how quickly the application is processed:
 
-- work performed **completely remotely for a foreign (non-Georgian) employer**, where the person does not need to enter Georgia to do it;
-- **self-employed activity supplying services to clients located outside Georgia**;
-- holders of **any other type of residence permit**; and
-- a number of further categories — including certain **company founders and directors**, **individual entrepreneurs serving only foreign markets**, and people present only for **short-term professional activity**.
+| Processing time | State fee |
+| --- | --- |
+| 30 calendar days | GEL 300 |
+| 20 calendar days | GEL 450 |
+| 10 calendar days | GEL 600 |
 
-This is good news for the large population of remote workers and freelancers who live in Georgia but earn entirely from abroad: the reform was widely read at first as sweeping them in, and the April amendments walk that back. The precise categories and their conditions are set out in the amended Law on Labour Migration and the implementing government acts, and the boundary for someone **physically present in Georgia while serving only foreign clients** is still being settled in administrative practice — so confirm your own position before relying on a particular exemption. The tax side of remote work is covered in the [digital nomads guide](https://relocation.ge/en/georgia-for-digital-nomads/).
+## Georgian ID (residence) card
 
-## How this fits the visa system
+After obtaining the residence permit, a foreign national may apply for a **Georgian ID (residence) card** through the Public Service Hall or the Public Registry. The fee depends on the processing time:
 
-The right to work sits alongside, not instead of, the visa and residence-permit framework. For most long-term workers the path is: secure the right to work, then obtain a **D1 immigration visa** (if applying from abroad) and/or a **work residence permit**. The full set of visa categories and the broader entry rules are explained in the [guide to Georgian visas](https://relocation.ge/en/guide-to-georgian-visas/), and the residence-permit types in the [guide to residence permits](https://relocation.ge/en/guide-to-residence-permits/).
+| Issuance time | Fee |
+| --- | --- |
+| 10 working days | GEL 60 |
+| 5 working days | GEL 80 |
+| 3 working days | GEL 100 |
+| 2 working days | GEL 120 |
+| Same day | GEL 150 |
 
-## A note on a new framework
+## Family members
 
-The mandatory right-to-work system is recent and still being implemented in practice. It has already been amended once — by **Law No 1509 of 15 April 2026**, which softened the regime for fully remote workers and the self-employed — and thresholds such as the subsistence minimum are periodically updated. Note too that the **English** consolidated text on the Legislative Herald (matsne.gov.ge) lags the Georgian original by roughly a year, so the English version does not yet reflect the April 2026 amendments; the Georgian text is the authoritative source. Confirm the current requirements, fees, processing times and exemptions through the Ministry of Labour's labour-migration channels and the Public Service Development Agency before acting, and check the current consolidated text of both laws.
+Family members of the foreign worker may also obtain residence permits — not on the basis of work, but through **family reunification**, tied to the worker's status. Who qualifies as a family member, and the documents required, are set out in the dedicated **[family reunification residence permit](/en/family-reunification-residence-permit-georgia)** guide.
+
+## Legal sources
+
+This guide is based on the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government Resolution No 520 of 1 September 2014** on the procedure for issuing residence permits. Thresholds, fees and processing times are periodically updated, so confirm the current requirements with the **Public Service Development Agency** before applying.
