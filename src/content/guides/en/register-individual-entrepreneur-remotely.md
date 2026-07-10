@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: "en"
 summary: "Georgia allows foreigners to register an Individual Entrepreneur (IE) remotely through a Power of Attorney, without travelling to Georgia."
 reviewed: 2026-06-12
-checked: 2026-07-09
+checked: 2026-07-10
 sources:
   - name: "Public Service Hall"
     url: "https://psh.gov.ge/"
