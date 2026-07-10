@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="4" fill="#1d70b8"/>
-  <text x="16" y="22" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">R</text>
+  <rect width="32" height="32" rx="4" fill="#ffffff"/>
+  <circle cx="16" cy="16" r="13.5" fill="none" stroke="#12436d" stroke-width="2"/>
+  <circle cx="16" cy="16" r="10" fill="none" stroke="#12436d" stroke-width="1" opacity="0.55"/>
+  <text x="16" y="16" text-anchor="middle" dominant-baseline="central" font-family="'Public Sans',Arial,sans-serif" font-size="14" font-weight="800" fill="#12436d">R</text>
 </svg>

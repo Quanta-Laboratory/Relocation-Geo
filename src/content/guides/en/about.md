@@ -3,8 +3,8 @@ title: About Relocation.ge
 category: about
 lang: en
 summary: Relocation.ge is an independent, non-commercial, open-source project that helps people relocate to Georgia with confidence — providing accurate, transparent and continuously updated information about living, working, investing and doing business in the country.
-reviewed: 2026-07-06
-checked: 2026-07-06
+reviewed: 2026-07-08
+checked: 2026-07-10
 order: 0
 sources:
   - name: Matsne — Legislative Herald of Georgia
@@ -26,21 +26,29 @@ Unfortunately, this information is often fragmented across dozens of websites, s
 
 Relocation.ge was created to solve this problem. Rather than operating as a relocation agency selling a service, we are building an open, non-commercial knowledge base that combines verified information and practical, source-based guidance in one place. Our goal is not simply to answer questions, but to make relocation understandable.
 
-## Our mission
+## Our mission and vision
 
-We aim to become one of the most trusted sources of relocation knowledge for Georgia, helping individuals, families, entrepreneurs, investors, remote professionals, digital nomads and international companies make informed decisions based on facts rather than assumptions.
+**Our mission** is to remove uncertainty from international relocation. We provide trusted knowledge, verified guidance and open tools that enable people to confidently move, build businesses and create new opportunities across borders.
 
-## Our principles
+**Our vision** is a world where borders no longer limit opportunity — because everyone has access to trusted knowledge, transparent systems and the tools needed to build a life anywhere.
 
-**Accuracy.** Information should be based on official legislation, government publications and reliable primary sources whenever possible.
+Concretely, we aim to become one of the most trusted sources of relocation knowledge for Georgia, helping individuals, families, entrepreneurs, investors, remote professionals, digital nomads and international companies make informed decisions based on facts rather than assumptions. You can read more about why we exist in our [manifesto](/en/manifesto).
 
-**Transparency.** We clearly distinguish between verified facts, practical recommendations and expert opinions, and we cite our primary sources so you can verify everything yourself.
+## Our values
 
-**Independence.** Our editorial decisions are driven by the quality of information rather than commercial interests.
+**Trust first.** Trust is our most valuable asset. We earn it through accuracy, transparency and consistency: every article we publish and every open tool we build should strengthen the confidence people place in Relocation.ge. Trust is not assumed — it is earned through every interaction.
 
-**Continuous updates.** Relocation regulations evolve constantly. Our objective is to keep our knowledge base current and regularly reviewed.
+**Facts over opinions.** Reliable decisions begin with reliable information. We prioritise verified facts over assumptions or speculation, reference official sources, explain uncertainty openly, and clearly distinguish fact from interpretation.
 
-**Accessibility.** Complex legal and administrative procedures should be understandable to everyone, regardless of professional background.
+**Human freedom.** Everyone deserves the freedom to choose where to live, work, build a business and create a future. Our role is not to tell people where they should live, but to help them make informed decisions about their own.
+
+**Transparency.** Complex systems should be understandable. Immigration, taxation, banking and legal processes are difficult to navigate; we explain them clearly and honestly, without unnecessary complexity, and we cite the primary sources so you can verify everything yourself.
+
+**Independence.** Objectivity comes before commercial interests. Relocation.ge is non-commercial — no advertising, no paid placements and no affiliate deals — so our editorial decisions answer to our readers, not to advertisers.
+
+**Accessibility.** Knowledge should be available to everyone. Reliable guidance should not depend on nationality, language or prior experience, so we work to make it understandable and useful for people from every background.
+
+**Long-term responsibility.** We build for lasting impact. Every improvement should strengthen the reliability, sustainability and usefulness of Relocation.ge — not only for today's readers, but for future generations building new lives across borders.
 
 ## Editorial standards
 

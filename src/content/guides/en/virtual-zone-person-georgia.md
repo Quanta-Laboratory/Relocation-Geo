@@ -1,11 +1,11 @@
 ---
 title: "Virtual Zone Person Status in Georgia: 0% tax on exported IT"
 category: "work"
+parent: business-statuses-georgia
 lang: "en"
 summary: "Virtual Zone Person status is a tax regime for Georgian IT companies. Profit earned from supplying information technologies created by the company to customers outside Georgia is exempt from profit tax, that supply is exempt from VAT, and exports of the IT carry no export duty. The status is granted within 10 working days by a body designated by the Government (the Ministry of Finance's Financial-Analytical Service) under the Law on Information Technology Zones and the Tax Code. The exemption covers only IT supplied outside Georgia — domestic sales and employee salaries are taxed normally."
 reviewed: 2026-06-29
-checked: 2026-07-06
-order: 8
+checked: 2026-07-10
 sources:
   - name: "Law of Georgia on Information Technology Zones (No 4064-RS, 15 December 2010)"
     url: "https://matsne.gov.ge/en/document/view/1152405"
@@ -24,6 +24,7 @@ faq:
     a: "Yes. The regime exempts only the foreign-supplied-IT profit, the related VAT and export duty. Employee salaries are still subject to personal income tax and pension contributions, and dividends distributed to owners are taxed under the ordinary dividend rules of the Tax Code. Domestic IT sales and any non-IT income are taxed normally."
   - q: "Do I need real operations in Georgia?"
     a: "The benefit attaches to IT created by the virtual zone person, and activity in the virtual zone is defined as economic activity related to producing IT in the territory of Georgia. In practice the tax authority looks for genuine substance — that the software is actually developed by the company in Georgia — when recognising the exemption. Confirm current expectations with the Revenue Service and the Financial-Analytical Service before relying on the status."
+order: 2
 ---
 
 Georgia runs a long-standing tax regime for software companies: **Virtual Zone Person** status. A company that holds it pays **no profit tax** on the profit it earns from supplying the information technologies it creates to customers **outside Georgia**, that supply is **exempt from VAT**, and exporting the IT carries **no export duty**. The framework is set out in the **Law of Georgia on Information Technology Zones** (No 4064-RS, in force since 1 January 2011), which works together with the **Tax Code of Georgia**.

@@ -123,6 +123,9 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
   <main id="main" class="wrap">
     <h1>{d.title}</h1>
     <p class="lede">{d.summary}</p>
+    <p class="status-tags">
+      <span class="status-tag status-tag--verified">Verified {new Date(d.reviewed).getUTCFullYear()}</span>
+    </p>
     <DateStamp
       reviewed={d.reviewed}
       checked={d.checked}
@@ -130,6 +133,13 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
       reviewedLabel={t.reviewed}
       checkedLabel={t.checked}
     />
+
+    {d.notice && (
+      <aside class="notice-banner" role="region" aria-label="Important notice">
+        <p class="notice-banner__title">Important</p>
+        <p class="notice-banner__content" set:html={d.notice} />
+      </aside>
+    )}
 
     <div class="cols">
       <nav class="contents" aria-label={t.contents}>

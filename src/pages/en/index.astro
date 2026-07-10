@@ -13,18 +13,39 @@ const link = (e: { id: string }) => `/en/${e.id.replace(/^en\//, '')}`;
 
 const hubs = [
   { id: 'immigration', title: 'Immigration & Visa', desc: 'Entry rules, visas, legal status and all residence permit types.' },
-  { id: 'work', title: 'Work & Business', desc: 'Work permits, Individual Entrepreneur, companies and taxes.' },
+  { id: 'work', title: 'Work & Business', desc: 'Running a business, the Individual Entrepreneur, companies and special statuses.' },
   { id: 'tax', title: 'Taxes', desc: 'Tax residency, personal income tax, territorial taxation, crypto and double-tax treaties.' },
-  { id: 'students', title: 'Study in Georgia', desc: 'Universities, student visas, admissions and student life.' },
-  { id: 'live', title: 'Live in Georgia', desc: 'Banking, insurance, cost of living and daily life.' },
+  { id: 'students', title: 'Study in Georgia', desc: 'Choosing a university, admissions, student visa, funding — and studying medicine.' },
+  { id: 'live', title: 'Live in Georgia', desc: 'Housing, health and insurance, and the everyday essentials of daily life.' },
   { id: 'about', title: 'About', desc: 'Methodology, standards and legal information.' },
 ];
+
+// Line icons — 24px grid, 1.75px stroke, square caps, no fills (brand iconography).
+const iconAttrs = 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="square" stroke-linejoin="miter"';
+const icons: Record<string, string> = {
+  immigration: `<svg ${iconAttrs}><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/><path d="M9 12h6"/><path d="M9 16h6"/></svg>`,
+  work: `<svg ${iconAttrs}><rect x="3" y="7" width="18" height="13"/><path d="M8 7V5h8v2"/><path d="M3 12h18"/></svg>`,
+  tax: `<svg ${iconAttrs}><circle cx="8" cy="8" r="2.25"/><circle cx="16" cy="16" r="2.25"/><path d="M6 18 18 6"/></svg>`,
+  students: `<svg ${iconAttrs}><path d="M12 4 22 9l-10 5L2 9z"/><path d="M6 11v5c0 1.2 2.7 2.5 6 2.5s6-1.3 6-2.5v-5"/></svg>`,
+  live: `<svg ${iconAttrs}><path d="M4 11 12 4l8 7"/><path d="M6 10v10h12V10"/></svg>`,
+  about: `<svg ${iconAttrs}><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></svg>`,
+};
 ---
 <BaseLayout
   title={null}
   description="Relocation.ge organises official Georgian legal provisions into clear, source-based guidance on visas, residence permits, business, taxes and daily life."
 >
   <main id="main" class="wrap">
+    <aside class="notice-banner" role="region" aria-label="Important notice">
+      <p class="notice-banner__title">Important</p>
+      <p class="notice-banner__content">
+        Georgia’s 2026 labour-migration reform has changed how foreigners may work:
+        a residence permit alone no longer grants the right to work.
+        <a href="/en/right-to-work-georgia">Find out what the new work permit means for you</a>.
+      </p>
+    </aside>
+
+    <p class="kicker">Open-source guidance</p>
     <h1>Relocation to Georgia</h1>
     <p class="lede">
       Relocation.ge is a public, open-source project that organises official legal
@@ -41,8 +62,14 @@ const hubs = [
     <div class="grid">
       {hubs.map((h) => (
         <section class="hub" id={h.id}>
-          <h2>{h.title}</h2>
+          <h2><span class="hub__icon" set:html={icons[h.id]} />{h.title}</h2>
           <p class="desc">{h.desc}</p>
+          {h.id === 'students' && (
+            <p class="hub-note">
+              <span class="hub-note__tag">New</span>
+              <span>From 1 Sep 2026, minor students use the new <a href="/en/d6-visa-georgia">D6 visa</a> (adults keep D3).</span>
+            </p>
+          )}
           <ul>
             {byCat(h.id).length === 0 && <li style="color:var(--grey-1)">Coming soon</li>}
             {byCat(h.id).map((e) => (

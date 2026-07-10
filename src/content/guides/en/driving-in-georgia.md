@@ -1,11 +1,11 @@
 ---
 title: "Driving in Georgia: Licences & Car Registration for Foreigners"
 category: "live"
+parent: everyday-essentials-georgia
 lang: "en"
 summary: "Foreigners may drive in Georgia on a valid foreign licence for up to one year after their last entry, and can exchange it for a Georgian licence without retaking the driving test. A foreign-plated car can be used for 90 days before customs clearance, and all foreign vehicles must carry compulsory MTPL insurance."
 reviewed: 2026-06-27
-checked: 2026-07-06
-order: 6
+checked: 2026-07-10
 sources:
   - name: "Service Agency of the Ministry of Internal Affairs of Georgia"
     url: "https://sa.gov.ge/en"
@@ -22,6 +22,7 @@ faq:
     a: "Yes. Compulsory third-party liability (MTPL) insurance is required for all foreign-registered vehicles entering Georgia. It can be bought online quickly and covers cars, motorcycles, trucks and buses."
   - q: "Do I need insurance for a Georgian-registered car?"
     a: "The compulsory MTPL regime targets foreign-plated vehicles. For locally registered cars, check the current rules and consider voluntary motor insurance; confirm requirements before driving."
+order: 4
 ---
 
 Georgia is straightforward for foreign drivers in the short term, but there are clear rules once you settle, register a car or stay beyond a year. This guide covers using your licence, swapping it for a Georgian one, and what to do with a car you bring in or buy locally.

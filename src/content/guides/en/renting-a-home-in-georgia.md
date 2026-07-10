@@ -1,11 +1,11 @@
 ---
 title: "Renting a Home in Georgia: Tenant and Landlord Rules"
 category: "live"
+parent: housing-in-georgia
 lang: "en"
 summary: "Residential tenancies in Georgia are governed by the Civil Code (Articles 531–575). Rent and deposits are freely negotiated, a lease with no stated term is treated as indefinite and can be ended on three months' notice, and any termination must be made in writing."
 reviewed: 2026-06-27
-checked: 2026-07-06
-order: 4
+checked: 2026-07-10
 sources:
   - name: "Civil Code of Georgia, Articles 531–575 (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/31702"
@@ -20,6 +20,7 @@ faq:
     a: "Yes. You generally need to give at least one month's notice and offer a solvent replacement tenant acceptable to the landlord. You can leave immediately if the property is not handed over, you lose the right to use it, or it poses a serious health hazard."
   - q: "Does a rent termination have to be in writing?"
     a: "Yes. Under the Civil Code, termination of a tenancy must be made in writing."
+order: 1
 ---
 
 Most people relocating to Georgia rent before they [buy](/en/buying-property-in-georgia-for-foreigners), and residential tenancies are governed by the Civil Code of Georgia (Articles 531–575). The rules give the parties wide freedom to agree terms, but they also set important defaults — especially around notice and termination — that are worth knowing before you sign.

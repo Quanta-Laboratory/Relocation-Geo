@@ -1,11 +1,12 @@
 ---
 title: "Tuition Fees & Cost of Studying in Georgia"
 category: "students"
+parent: studying-in-georgia
 lang: "en"
+notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
 summary: "Studying in Georgia is affordable by international standards. English-taught degrees commonly cost around USD 3,000–8,000 a year, with medicine at the higher end, and students typically budget another USD 400–700 a month for living. Figures vary by university and city — always confirm current fees directly."
 reviewed: 2026-06-27
-checked: 2026-07-06
-order: 6
+checked: 2026-07-10
 sources:
   - name: "National Center for Educational Quality Enhancement (NCEQE)"
     url: "https://eqe.ge/en"
@@ -22,6 +23,7 @@ faq:
     a: "Generally yes. Both tuition and living costs are well below typical Western European or North American levels, which is a large part of Georgia's appeal to international students."
   - q: "Can I pay tuition in instalments?"
     a: "Many universities allow tuition to be paid per semester or in instalments, but policies differ. Check the payment terms with your specific university."
+order: 5
 ---
 
 One of Georgia's biggest attractions for international students is cost. Both tuition and day-to-day living are well below typical Western European or North American levels, which makes a full degree achievable on a modest budget. The figures below are indicative ranges to help you plan — actual fees depend on the university, programme and city, so always confirm the current numbers directly.

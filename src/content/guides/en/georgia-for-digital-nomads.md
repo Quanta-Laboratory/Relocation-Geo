@@ -4,8 +4,8 @@ category: "work"
 lang: "en"
 summary: "Georgia lets citizens of 90+ countries enter visa-free and stay up to a year, taxes individuals only on Georgian-source income, and offers a 1% small-business regime for sole traders. The big 2026 change: earning income from within Georgia now generally requires a work permit."
 reviewed: 2026-06-27
-checked: 2026-07-06
-order: 5
+checked: 2026-07-10
+order: 2
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/2278806"

@@ -1,11 +1,11 @@
 ---
 title: "Healthcare in Georgia: Seeing a Doctor & Pharmacies"
 category: "live"
+parent: health-in-georgia
 lang: "en"
 summary: "Georgia has accessible private clinics and well-stocked pharmacies, concentrated in Tbilisi and Batumi, with the emergency number 112. Most foreigners pay out of pocket or use private insurance, as state cover is limited for non-citizens — so insurance is the practical backbone of healthcare here."
 reviewed: 2026-06-27
-checked: 2026-07-06
-order: 8
+checked: 2026-07-10
 sources:
   - name: "Ministry of IDPs, Labour, Health and Social Affairs of Georgia"
     url: "https://www.moh.gov.ge/en"
@@ -20,6 +20,7 @@ faq:
     a: "Generally not much. The state Universal Healthcare Program is built around Georgian citizens, and foreigners — even with a residence permit — usually get only limited free cover. Private insurance or out-of-pocket payment is the norm."
   - q: "Do I need health insurance?"
     a: "It is strongly advisable, and since 1 January 2026 health and accident insurance (minimum sum insured GEL 30,000) is required just to enter Georgia — see the health insurance guide."
+order: 1
 ---
 
 Day-to-day healthcare in Georgia is more accessible and affordable than many newcomers expect, especially through the private sector in the main cities. The key thing to plan for is payment: the state system does little for most foreigners, so insurance or out-of-pocket spending is how healthcare actually works here.

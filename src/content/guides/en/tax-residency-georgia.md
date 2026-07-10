@@ -2,15 +2,17 @@
 title: "Tax Residency in Georgia: The 183-Day Rule and the HNWI Route (2026)"
 category: "tax"
 lang: "en"
-summary: "Georgia decides individual tax residency mainly on physical presence: under Article 34 of the Tax Code, a person who spends 183 days or more in Georgia in any continuous 12-month period ending in the tax year is a Georgian tax resident for that entire year. There is also a High Net Worth Individual (HNWI) route, set by a joint order of the Minister of Finance, that grants residency without the day count to people who meet a wealth-or-income threshold plus a Georgian-nexus condition. Tax residency matters because Georgia taxes residents only on Georgian-source income and because a residency certificate unlocks Georgia's double-tax treaties. This guide explains both routes, how days are counted, the HNWI thresholds, and how to obtain a tax-residency certificate, checked against the primary Georgian law."
-reviewed: 2026-06-30
-checked: 2026-07-06
+summary: "Georgia decides individual tax residency mainly on physical presence: under Article 34 of the Tax Code, a person who spends 183 days or more in Georgia in any continuous 12-month period ending in the tax year is a Georgian tax resident for that entire year. There is also a High Net Worth Individual (HNWI) route, set by Order of the Minister of Finance No 60 of 1 March 2023, that grants residency without the day count to people who meet a wealth-or-income threshold plus a Georgian-connection condition. Tax residency matters because Georgia taxes residents only on Georgian-source income and because a residency certificate unlocks Georgia's double-tax treaties. This guide explains both routes, how days are counted, the HNWI thresholds, and how to obtain a tax-residency certificate, checked against the primary Georgian law."
+reviewed: 2026-07-10
+checked: 2026-07-10
 order: 1
 sources:
   - name: "Tax Code of Georgia, Article 34 (residence) — Legislative Herald, consolidated Georgian text"
     url: "https://matsne.gov.ge/ka/document/view/1043717?publication=224"
   - name: "Tax Code of Georgia — official English translation (PDF, Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/download/1043717/93/en/pdf"
+  - name: "Order of the Minister of Finance of Georgia No 60 of 1 March 2023 (procedure for issuing a tax-residency certificate to a natural person possessing significant property) — Legislative Herald"
+    url: "https://matsne.gov.ge/"
   - name: "Revenue Service of Georgia (tax-residency certificates)"
     url: "https://rs.ge/"
 faq:
@@ -21,7 +23,7 @@ faq:
   - q: "Does Georgian citizenship make me a tax resident automatically?"
     a: "No. For individuals, Georgia's residency test is based on physical presence (the 183-day rule) or the HNWI route — not on citizenship by itself. A Georgian citizen who lives abroad and spends little time in Georgia is generally not a Georgian tax resident, and a foreigner who meets the day count is."
   - q: "Can I become a Georgian tax resident without living there?"
-    a: "Yes, through the High Net Worth Individual (HNWI) route, set by a joint order of the Minister of Finance. You must meet a wealth-or-income threshold — confirmed property worth more than 3,000,000 GEL, or annual income above 200,000 GEL in each of the three years before applying — and a Georgian-nexus condition: hold a Georgian residence permit or citizenship, or show Georgian-source income of at least 25,000 GEL. HNWI residency is granted for one tax year and must be renewed each year."
+    a: "Yes, through the High Net Worth Individual (HNWI) route, set by Order of the Minister of Finance No 60 of 1 March 2023. You must meet a wealth-or-income threshold — confirmed property worth more than 3,000,000 GEL, or annual income above 200,000 GEL in each of the three years before applying — and show a connection to Georgia, principally ownership of Georgian real estate or other qualifying assets worth at least the GEL equivalent of USD 500,000 on the date of application. An applicant who does not hold a Georgian residence permit or citizenship must additionally show Georgian-source income of at least 25,000 GEL in the preceding calendar year. HNWI residency is granted for one tax year and must be renewed each year."
   - q: "Why does tax residency matter in Georgia?"
     a: "Two main reasons. First, Georgia taxes individuals territorially: a resident pays the 20% personal income tax on Georgian-source income but, in general, not on foreign-source income, so residency status determines what is taxed. Second, a Georgian tax-residency certificate is what lets you claim relief under Georgia's network of double-tax treaties, so that the same income is not taxed twice."
   - q: "How do I prove I am a Georgian tax resident?"
@@ -54,19 +56,29 @@ For individuals, **citizenship does not by itself create Georgian tax residency*
 
 ## The HNWI route: residency without the day count
 
-Georgia also lets certain **High Net Worth Individuals (HNWIs)** obtain tax residency **without** meeting the 183-day count. This route is set not in the Tax Code itself but in a **joint order of the Minister of Finance** that fixes the thresholds and procedure.
+Georgia also lets certain **High Net Worth Individuals (HNWIs)** — described in the legislation as natural persons possessing significant property — obtain tax residency **without** meeting the 183-day count. This route is set not in the Tax Code itself but in **Order of the Minister of Finance of Georgia No 60 of 1 March 2023**, which fixes the thresholds, evidence and procedure.
 
-It works in two limbs, and you must satisfy **both**:
+An applicant must satisfy **both** a financial-capacity threshold and a Georgian-connection requirement.
 
-A **wealth-or-income threshold** — either confirmed ownership of **property worth more than 3,000,000 GEL**, **or** annual income exceeding **200,000 GEL in each of the three years** preceding the application.
+### Financial capacity (meet one)
 
-A **Georgian-nexus condition** — either hold a **Georgian residence permit or Georgian citizenship/ID**, **or** show receipt of **Georgian-source income of at least 25,000 GEL** in the relevant year.
+| Route | Threshold |
+| --- | --- |
+| Assets | Confirmed ownership of property worth **more than GEL 3,000,000** |
+| Income | Annual income **exceeding GEL 200,000** in **each of the three years** preceding the application |
 
-HNWI tax residency is granted for **one tax year at a time** and must be **renewed annually**; if you do not re-apply, the status lapses at the end of the year. Because the figures and supporting documents are set by ministerial order and can be revised, confirm the current thresholds and document list before relying on this route.
+### Connection to Georgia
+
+| Condition | Requirement |
+| --- | --- |
+| Georgian assets | Ownership of **real estate or other qualifying assets in Georgia** worth at least the **GEL equivalent of USD 500,000** on the date of application |
+| Georgian-source income (if no residence permit or citizenship) | An applicant who does **not** hold a **Georgian residence permit or citizenship** must additionally show **Georgian-source income of at least GEL 25,000** in the calendar year preceding the application |
+
+HNWI tax residency is granted for **one tax year at a time** and must be **renewed annually**; if you do not re-apply, the status lapses at the end of the year. Because the figures, qualifying assets and supporting documents are set by ministerial order and can be revised, confirm the current thresholds and document list against the order before relying on this route.
 
 ## Getting a tax-residency certificate
 
-Whichever route applies, the document that proves your status is a **tax-residency certificate** issued by the **Revenue Service of Georgia**. You apply to the Revenue Service, support the application with the relevant evidence (presence records for the day-count route, or the order's documents for the HNWI route), and receive a certificate for the year in question.
+Whichever route applies, the document that proves your status is a **tax-residency certificate** issued by the **Revenue Service of Georgia**. You apply to the Revenue Service, support the application with the relevant evidence (presence records for the day-count route, or the order's documents for the HNWI route), and receive a certificate for the year in question. For the **HNWI route**, the application is submitted to the Revenue Service and the decision is taken following review by the **Ministry of Finance of Georgia**, which may request further documentation before deciding.
 
 That certificate is what a foreign tax authority or a foreign payer will request when you want to be taxed as a Georgian resident — above all when claiming relief under a **[double-tax treaty](https://relocation.ge/en/double-tax-treaties-georgia/)**.
 
@@ -77,3 +89,7 @@ The stakes of the residency question follow directly from how Georgia taxes indi
 Residency also has an international dimension. If another country also treats you as resident for the same year, **dual residency** can arise; where Georgia has a treaty with that country, the treaty's tie-breaker rules allocate the primary taxing right. That is why a Georgian residency certificate and Georgia's treaty network are best understood together.
 
 This guide explains the law as a general matter and is **not personal tax advice**. Residency outcomes — especially dual-residency and treaty questions — depend on the facts, so take professional advice before acting on a specific situation.
+
+## Legal sources
+
+This guide is based on the **Tax Code of Georgia**, principally **Article 34** on residence, and on **Order of the Minister of Finance of Georgia No 60 of 1 March 2023** on the procedure for issuing a tax-residency certificate to a natural person possessing significant property (the HNWI route). Official consolidated texts are published by the **Legislative Herald of Georgia (Matsne)** at [matsne.gov.ge](https://matsne.gov.ge/), and tax-residency certificates are issued by the **Revenue Service of Georgia**. Thresholds, qualifying assets and procedures are periodically updated, so confirm the current requirements against the primary law before applying.

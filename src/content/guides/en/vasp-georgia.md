@@ -1,11 +1,11 @@
 ---
 title: "Virtual Asset Service Providers (VASPs) in Georgia"
 category: "work"
+parent: business-statuses-georgia
 lang: "en"
 summary: "Since 1 January 2023 anyone providing virtual asset (crypto) services in Georgia must register with the National Bank of Georgia and meet Fit-and-Proper and AML/CFT requirements. The framework defines what counts as a virtual asset service, who must register, and what other financial institutions may also offer. Crypto is not legal tender, and paying for goods or services with it is prohibited except in narrow cases."
 reviewed: 2026-06-29
-checked: 2026-07-06
-order: 6
+checked: 2026-07-10
 sources:
   - name: "National Bank of Georgia — Virtual Asset Service Providers (VASPs)"
     url: "https://nbg.gov.ge/en/page/virtual-asset-service-providers-vasps"
@@ -24,6 +24,7 @@ faq:
     a: "No. A virtual asset is not legal tender, and under the Organic Law on the National Bank of Georgia payments with virtual assets are prohibited, except for narrow cases defined by the NBG that are necessary to provide a virtual asset service. A Georgian business or individual entrepreneur generally cannot accept crypto as payment for goods or services."
   - q: "How long does VASP registration take?"
     a: "The NBG reviews a complete application and decides within 60 calendar days, and may extend the period by a further 60 calendar days, notifying the applicant before the original deadline. Requirements are set out in the NBG's registration rule and its annexes."
+order: 3
 ---
 
 Georgia regulates crypto businesses through a dedicated **Virtual Asset Service Provider (VASP)** regime run by the **National Bank of Georgia (NBG)**. If you plan to build or relocate a crypto company here, this is the framework that decides whether you must register, what you can offer, and what compliance obligations follow. The rules are about *services provided for others* — not about individuals simply holding or trading their own coins.
