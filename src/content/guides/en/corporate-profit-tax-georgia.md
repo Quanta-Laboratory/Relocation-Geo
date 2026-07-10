@@ -32,7 +32,7 @@ tags:
   - tax
 ---
 
-Georgia does not tax company profit in the way most countries do. Since **1 January 2017**, most companies have been taxed under a **distribution-based** system — widely called the **"Estonian" model** — in which **retained and reinvested profit is not taxed**, and profit tax falls due **only when profit is distributed** or treated as a deemed distribution. The standard rate is **15%**. This guide explains how the model works, what triggers the tax, the rate, and how filing works, checked against the **Tax Code of Georgia** and the **Revenue Service**.
+Georgia does not tax company profit in the way most countries do. Since **1 January 2017**, most companies have been taxed under a **distribution-based** system — widely called the **"Estonian" model** — in which **retained and reinvested profit is not taxed**, and profit tax falls due **only when profit is distributed** or treated as a deemed distribution. The standard rate is **15%**. 
 
 ## The model: tax on distribution, not on earning
 
