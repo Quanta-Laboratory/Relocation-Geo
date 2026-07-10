@@ -5,6 +5,15 @@ on:
     # 17:00 UTC = 21:00 Tbilisi. Runs after the day's monitor runs.
     - cron: '0 17 * * *'
   workflow_dispatch:
+    inputs:
+      digest_days:
+        description: 'Window in days (1 = today; 7 = last week)'
+        type: string
+        default: '1'
+      relevant_only:
+        description: 'Only relocation-relevant items (immigration, work, tax, residence)'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -28,8 +37,11 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Send daily digest
+      - name: Send digest
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DIGEST_DAYS: ${{ github.event.inputs.digest_days || '1' }}
+          RELEVANT_ONLY: ${{ github.event.inputs.relevant_only == 'true' && '1' || '0' }}
         run: python scripts/matsne_monitor/digest.py
