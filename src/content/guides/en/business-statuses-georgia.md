@@ -66,7 +66,7 @@ The map below shows the main statuses and the profile each one is aimed at.
 
 ## The statuses, and who each is for
 
-**[Small Business Status](/en/register-individual-entrepreneur-remotely)** — for an **Individual Entrepreneur** working solo. Taxes turnover at **1%** up to the statutory cap. The default choice for freelancers, consultants and small service providers.
+**[Small Business Status](/en/register-individual-entrepreneur-remotely)** — for an **Individual Entrepreneur** working solo. Taxes turnover at **1%** up to the statutory cap. Popular choice among freelancers. 
 
 **[International Company Status](/en/international-company-status-georgia)** — for **companies** in qualifying **IT and maritime** activities. Cuts profit tax to **5%** and salary income tax to **5%**, with property-tax relief. Aimed at established companies with real substance and staff in Georgia.
 

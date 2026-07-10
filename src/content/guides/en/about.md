@@ -44,7 +44,7 @@ Concretely, we aim to become one of the most trusted sources of relocation knowl
 
 **Transparency.** Complex systems should be understandable. Immigration, taxation, banking and legal processes are difficult to navigate; we explain them clearly and honestly, without unnecessary complexity, and we cite the primary sources so you can verify everything yourself.
 
-**Independence.** Objectivity comes before commercial interests. Relocation.ge is non-commercial — no advertising, no paid placements and no affiliate deals — so our editorial decisions answer to our readers, not to advertisers.
+**Independence.** Objectivity comes before commercial interests. Relocation.ge is non-commercial, so our editorial decisions answer to our readers, not to advertisers.
 
 **Accessibility.** Knowledge should be available to everyone. Reliable guidance should not depend on nationality, language or prior experience, so we work to make it understandable and useful for people from every background.
 
