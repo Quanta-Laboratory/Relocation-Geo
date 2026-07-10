@@ -37,12 +37,13 @@ Agricultural land is treated differently. Under the Constitution of Georgia and 
 
 ## How ownership transfers under the Civil Code
 
-Ownership of immovable property in Georgia is governed by the Civil Code. Under Article 183, acquiring immovable property by transaction requires two things: a contract in written form, and registration of the acquirer's right in the Public Registry. The key consequence is that ownership passes only on registration — not when the contract is signed and not when the money is paid. Until the transfer is registered, the buyer is not yet the legal owner.
+Acquiring immovable property requires two things: a contract in written form, and registration of the acquirer's right in the Public Registry. The key consequence is that ownership passes only on registration — not when the contract is signed and not when the money is paid. Until the transfer is registered, the buyer is not yet the legal owner.
 
 ## The Public Registry
 
-Registration is handled by the National Agency of Public Registry (NAPR), under the Law of Georgia on Public Registry, and is accessible through Public Service Halls. The registry is the authoritative record of who owns a property and of any encumbrances such as mortgages, which is why checking it is the essential first step in any purchase.
+Registration is handled by the National Agency of Public Registry (NAPR) and is accessible through Public Service Halls. The registry is the authoritative record of who owns a property and of any encumbrances such as mortgages, which is why checking it is the essential first step in any purchase.
 
 ## A typical purchase, step by step
 
-In practice a purchase runs roughly as follows: verify the seller's title and any encumbrances in the Public Registry; agree and sign a written sale contract (commonly notarised); and register the transfer of ownership with NAPR through a Public Service Hall. Your ownership becomes legally effective at the moment of registration. Because the process is registry-based and relatively fast, much of the risk sits in the due-diligence stage rather than the paperwork — confirm the title, the registered area, and that the property is free of claims before you pay.
+In practice a typical purchase runs as follows: first, using cadastral code verify the seller's ownership and any encumbrances in the Public Registry; next, agree on and sign a written sale agreement either before a notary or directly during the registration process; and finally, register the transfer of ownership with the National Agency of Public Registry (NAPR)  through a Public Service Hall. Ownership becomes legally effective at the moment of registration. 
+As the registration process is relatively straightforward and efficient, the greatest legal risks typically arise during the due diligence stage. Before making any payment, confirm the seller's title, verify the registered boundaries and area of the property, and ensure that it is free from mortgages, seizures, easements, or other registered claims that could affect your rights.
