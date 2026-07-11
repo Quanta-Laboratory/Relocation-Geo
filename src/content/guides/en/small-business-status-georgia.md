@@ -5,7 +5,7 @@ parent: special-tax-regimes-georgia
 lang: "en"
 summary: "Small Business Status is a special tax regime for an Individual Entrepreneur that taxes qualifying turnover at 1%, rising to 3% once income exceeds GEL 500,000 in a calendar year (GEL 700,000 for wine tourism and agritourism). The status is granted by the Revenue Service from the date of application, issued for an unlimited term, and can be held even by a VAT payer. It is not available for a list of prohibited activities, and some income — rent, interest, dividends, royalties, property gains and certain construction services to businesses — is always taxed under the ordinary rules. Holders keep a special journal, file monthly declarations by the 15th, and may lose the status by exceeding thresholds for two consecutive years, performing a prohibited activity, or repeated cash-register violations."
 reviewed: 2026-07-10
-checked: 2026-07-10
+checked: 2026-07-11
 order: 1
 sources:
   - name: "Tax Code of Georgia (Legislative Herald)"
