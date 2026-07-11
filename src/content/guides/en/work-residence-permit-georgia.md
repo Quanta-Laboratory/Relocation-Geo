@@ -6,7 +6,7 @@ lang: "en"
 notice: 'Some foreign nationals must first obtain the <strong>right to work</strong> from the Ministry of Labour before carrying out business or applying for a residence permit in Georgia. <a href="/en/right-to-work-georgia">Check whether it applies to you</a>.'
 summary: "The work residence permit lets a foreign national live in Georgia on the basis of labour activity here — employment with a Georgian employer or self-employment/entrepreneurial activity. The applicant must show monthly income of at least five times the subsistence minimum and employer turnover of at least GEL 50,000 per applicant (GEL 35,000 for education and medical institutions). It is usually issued for 6 months to 1 year and is renewable; state fees run from GEL 300 (30 days) to GEL 600 (10 days). Family members can join through family reunification."
 reviewed: 2026-07-09
-checked: 2026-07-09
+checked: 2026-07-11
 order: 4
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons"

@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: "en"
 summary: "Georgia provides a dedicated temporary residence permit for foreign victims of domestic violence and violence against women, issued under the framework of the Law on the Elimination of Violence against Women and/or Domestic Violence. It is available to a foreigner recognised as a victim — for example through a restraining or protective order, an ongoing criminal prosecution, or use of a state shelter — and it deliberately disapplies the usual barriers: the ordinary lawful-stay requirement and the 40-day pre-expiry filing rule do not apply, so a victim whose immigration status has lapsed can still obtain protection. This guide explains who qualifies, how victim status is evidenced, why the normal conditions are waived, and where to seek help, checked against the primary law."
 reviewed: 2026-06-30
-checked: 2026-07-10
+checked: 2026-07-11
 order: 18
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)"

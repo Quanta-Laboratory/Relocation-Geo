@@ -6,7 +6,7 @@ lang: "en"
 notice: 'Hiring a <strong>foreign national</strong>? Since the 2026 labour-migration reform some foreigners must first hold the <strong>right to work</strong> before they can be employed in Georgia. <a href="/en/right-to-work-georgia">Check whether it applies</a> and see the <a href="/en/work-residence-permit-georgia">work residence permit</a> guide.'
 summary: "A Georgian employer hires under the Organic Law – Labour Code of Georgia: a labour agreement may be oral or written but must be in writing where the relationship runs longer than three months, a trial (probation) period may last no more than six months, the workweek must not exceed 40 hours, paid annual leave is at least 24 working days, and termination by the employer requires written notice and severance. On payroll, the employer withholds personal income tax at the flat 20% rate and operates the mandatory funded pension scheme on the 2% + 2% + 2% principle (employee 2%, employer 2%, state up to 2%), declaring and paying both to the Revenue Service, normally by the 15th of the following month. Foreign nationals without permanent residence in Georgia are generally outside the mandatory pension scheme. This guide sets out the mechanics and points you to the official sources."
 reviewed: 2026-07-10
-checked: 2026-07-10
+checked: 2026-07-11
 order: 10
 sources:
   - name: "Organic Law of Georgia – Labour Code of Georgia (Legislative Herald)"

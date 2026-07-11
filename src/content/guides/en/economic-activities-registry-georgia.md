@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: "en"
 summary: "The Economic Activities Registry is a central record of economic activities carried out in Georgia, kept by the National Agency of Public Registry. Registration is voluntary as a rule, but becomes mandatory where sector-specific legislation requires it, and in practice is needed to document an activity for other procedures such as a work permit application. Only activities listed in the National Statistics Office (Geostat) classifier can be registered, each with a code and description. The state fee is GEL 39 for two-working-day registration or GEL 78 for same-day registration; an English-language extract costs a further GEL 26. Registration is valid for one year and must be renewed."
 reviewed: 2026-07-10
-checked: 2026-07-10
+checked: 2026-07-11
 order: 8
 sources:
   - name: "Law of Georgia on Public Registry (Legislative Herald)"

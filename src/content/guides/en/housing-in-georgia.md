@@ -4,7 +4,7 @@ category: "live"
 lang: "en"
 summary: "A short overview of housing in Georgia for foreigners: renting is quick and flexible, with tenancies governed by the Civil Code and rent freely negotiated, while buying is open to foreigners for almost all property except agricultural land. This page explains which route fits whom and links to the detailed guides on renting and on buying property."
 reviewed: 2026-07-08
-checked: 2026-07-10
+checked: 2026-07-11
 order: 1
 sources:
   - name: "Civil Code of Georgia (Legislative Herald)"
