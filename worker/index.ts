@@ -22,7 +22,7 @@
  * Privacy: the request body describes what a person does for a living. It is not
  * logged, not stored, and not sent anywhere except the Anthropic API.
  */
-import { activities } from "../src/data/small-business-activity-data";
+import classifier from "../src/data/activity-classifier.json";
 
 export interface Env {
   ASSETS: Fetcher;
@@ -33,12 +33,22 @@ const MODEL = "claude-haiku-4-5-20251001";
 const MAX_QUERY = 400;
 const CACHE_TTL = 60 * 60 * 24 * 30; // 30 days — the query space is small and repetitive
 
-/** The catalogue the model is allowed to choose from. Code + name only — no verdicts. */
-const CATALOGUE = activities
-  .map((a) => `${a.code} ${a.name}`)
-  .join("\n");
+type Row = { code: string; name_en?: string; name_ka: string; verdict: string };
+const ROWS = classifier.activities as Row[];
 
-const VALID_CODES = new Set(activities.map((a) => a.code));
+/**
+ * The catalogue the model may choose from: the FULL official classifier, 1310 codes.
+ *
+ * Code + name only. The model never sees our verdicts, so it cannot hand a legal
+ * conclusion back to us dressed up as a match.
+ *
+ * At this size the catalogue is ~20k tokens, which would be wasteful to re-send on
+ * every request — so it goes in a cached system block (see cache_control below).
+ * The prompt is static, so after the first call it is nearly free.
+ */
+const CATALOGUE = ROWS.map((a) => `${a.code} ${a.name_en || a.name_ka}`).join("\n");
+
+const VALID_CODES = new Set(ROWS.map((a) => a.code));
 
 const SYSTEM = `You map a person's description of their work onto activity codes from a fixed catalogue.
 
@@ -134,7 +144,15 @@ async function handleMatch(request: Request, env: Env): Promise<Response> {
       body: JSON.stringify({
         model: MODEL,
         max_tokens: 700,
-        system: SYSTEM,
+        // The catalogue is static and large. Cache it: the first call pays for it,
+        // every call after that reads it from cache for a fraction of the price.
+        system: [
+          {
+            type: "text",
+            text: SYSTEM,
+            cache_control: { type: "ephemeral" },
+          },
+        ],
         messages: [{ role: "user", content: query }],
       }),
     });

@@ -1,12 +1,26 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import { activities, prohibitedCategories, aliases, dataAsOf } from '../../data/small-business-activity-data';
+import { prohibitedCategories, aliases, dataAsOf } from '../../data/small-business-activity-data';
+import classifier from '../../data/activity-classifier.json';
 
-const items = [...activities]
-  .sort((a, b) => a.code.localeCompare(b.code))
-  .map((a) => ({ ...a, aliases: aliases[a.code] ?? [] }));
+// The full official classifier — 613 classes and 697 Georgian sub-classes, parsed
+// from the Geostat PDF. We ship a slim projection: the page never needs the
+// Georgian names or the parse metadata.
+const items = classifier.activities
+  .map((a: any) => ({
+    code: a.code,
+    name: a.name_en || a.name_ka,
+    verdict: a.verdict as 'prohibited' | 'grey' | 'clear' | 'unreviewed',
+    category: a.category ?? null,
+    note: a.note || a.rule || null,
+    incomeWarning: a.income_warning || null,
+    aliases: aliases[a.code] ?? [],
+  }))
+  .sort((a, b) => a.code.localeCompare(b.code));
+
 const categories = prohibitedCategories;
+const counts = classifier.counts as Record<string, number>;
 
 const crumbs = [
   { href: '/en/', label: 'Home' },
@@ -33,17 +47,31 @@ const description =
           Georgian law does <strong>not</strong> list prohibited activities by code. Annex 4 to
           Government Ordinance No 415 states seven categories <strong>in words</strong>. Mapping codes
           onto those words is our reading, not the law — so this tool gives you
-          <strong>three</strong> answers, never a bare yes.
+          <strong>four</strong> answers, never a bare yes.
+        </p>
+        <p>
+          The fourth one matters most. We hold all <strong>{items.length}</strong> codes of the official
+          classifier, but we have only individually assessed a fraction of them. Everything else is
+          marked <strong>"not assessed"</strong> — because "we have not checked this" is
+          <strong>not</strong> the same as "you may proceed", and pretending otherwise would make this
+          tool confidently wrong most of the time.
         </p>
         <p>
           Getting it wrong is expensive: if the tax authority later treats your activity as prohibited,
           the status is cancelled <strong>retroactively from the start of that calendar year</strong>,
           turning a 1% year into a 20% year. Where this tool says
-          <strong>"confirm"</strong>, confirm — with the Revenue Service, in writing.
-          This is information, <strong>not tax advice</strong>.
+          <strong>confirm</strong> or <strong>not assessed</strong>, confirm — with the Revenue Service,
+          in writing. This is information, <strong>not tax advice</strong>.
         </p>
       </div>
     </aside>
+
+    <div class="sbc-legend">
+      <span class="sbc-legend__item sbc-legend__item--prohibited"><b>{counts.prohibited}</b> prohibited</span>
+      <span class="sbc-legend__item sbc-legend__item--grey"><b>{counts.grey}</b> confirm first</span>
+      <span class="sbc-legend__item sbc-legend__item--clear"><b>{counts.clear}</b> assessed as clear</span>
+      <span class="sbc-legend__item sbc-legend__item--unreviewed"><b>{counts.unreviewed}</b> not assessed</span>
+    </div>
 
     <section class="tool" aria-label="Activity checker">
       <div class="tool__field">
@@ -82,7 +110,8 @@ const description =
         <button type="button" class="seg is-active" data-f="all">All</button>
         <button type="button" class="seg" data-f="prohibited">Prohibited</button>
         <button type="button" class="seg" data-f="grey">Confirm first</button>
-        <button type="button" class="seg" data-f="clear">Appears clear</button>
+        <button type="button" class="seg" data-f="clear">Assessed clear</button>
+        <button type="button" class="seg" data-f="unreviewed">Not assessed</button>
       </div>
 
       <p class="sbc-count" id="count" aria-live="polite"></p>
@@ -138,10 +167,18 @@ const description =
     </section>
 
     <p class="tool-foot">
-      Data as of {dataAsOf}. Based on Government Ordinance No 415 (Annexes 4 and 5), the Tax Code
-      (Chapter XII) and Order of the Minister of Finance No 999. The consolidated texts of the
-      Ordinance and the Order are paywalled on the Legislative Herald, so the lists above reflect our
-      best reading of the current position. Confirm with the
+      Codes: all {items.length} entries of the official national classifier
+      <strong>SEC 006-2016</strong> (NACE Rev. 2), parsed from the
+      <a href="https://www.geostat.ge/media/70150/NACE-Rev_2_GE_2023.pdf">Geostat publication</a>.
+      Verdicts: Government Ordinance No 415 (Annex 4 — prohibited activities; Annex 5 — excluded
+      income), the Tax Code (Chapter XII) and Order of the Minister of Finance No 999.
+      Data as of {dataAsOf}.
+      <br /><br />
+      Two honest limits. The consolidated texts of the Ordinance and the Order are
+      <strong>paywalled</strong> on the Legislative Herald, so the categories reflect our best reading
+      of the current position. And of {items.length} codes we have individually assessed only
+      {counts.prohibited + counts.grey + counts.clear} — the rest are marked
+      <strong>not assessed</strong> rather than dressed up as safe. Confirm with the
       <a href="https://www.rs.ge/">Revenue Service</a> before relying on any result.
       This tool is information about the law as published — <strong>it is not tax advice</strong>.
     </p>
@@ -165,8 +202,18 @@ const description =
     var LABEL = {
       prohibited: 'Prohibited',
       grey: 'Confirm first',
-      clear: 'Appears clear',
+      clear: 'Assessed clear',
+      unreviewed: 'Not assessed',
     };
+
+    // Shown for every code we have not individually looked at. Saying nothing here,
+    // or implying the code is fine, would be the whole failure of this tool.
+    var UNREVIEWED_NOTE =
+      'We have not individually assessed this code. That is not a green light — it means you have to' +
+      ' do the check yourself: read the seven prohibited categories below, and confirm your activity' +
+      ' code with the Revenue Service before relying on the 1% regime.';
+
+    var MAX_SHOWN = 60;
 
     // Layer 1: deterministic. Code, name, and the hand-written alias dictionary.
     // No model involved — this resolves most real queries on its own.
@@ -192,7 +239,11 @@ const description =
       parts.push('<span class="sbc-card__badge">' + esc(LABEL[it.verdict]) + '</span>');
       parts.push('</div>');
       parts.push('<h3 class="sbc-card__name">' + esc(it.name) + '</h3>');
-      parts.push('<p class="sbc-card__note">' + esc(it.note) + '</p>');
+      parts.push(
+        '<p class="sbc-card__note">' +
+          esc(it.verdict === 'unreviewed' ? UNREVIEWED_NOTE : it.note || '') +
+          '</p>',
+      );
       if (it.category) {
         parts.push(
           '<p class="sbc-card__cat">Annex 4, category ' + esc(it.category) + '</p>',
@@ -218,17 +269,27 @@ const description =
 
       if (!list.length) {
         results.innerHTML =
-          '<p class="sbc-empty">No activity in our list matches that. This tool covers the codes most' +
-          ' relevant to people relocating to Georgia — it is not the full classifier. If your activity' +
-          ' is not here, that is not a green light: check the seven categories below and confirm your' +
-          ' code with the Revenue Service.</p>';
+          '<p class="sbc-empty">Nothing in the classifier matches that wording. Try a different word,' +
+          ' or describe what you do in the box above — and remember that not finding your activity is' +
+          ' never a green light.</p>';
         count.textContent = '0 activities';
         return;
       }
 
-      results.innerHTML = list.map(card).join('');
+      var shown = list.slice(0, MAX_SHOWN);
+      var html = shown.map(card).join('');
+      if (list.length > MAX_SHOWN) {
+        html +=
+          '<p class="sbc-empty">Showing the first ' +
+          MAX_SHOWN +
+          ' of ' +
+          list.length +
+          '. Narrow your search — or describe what you do above and let the assistant find the code.</p>';
+      }
+      results.innerHTML = html;
       count.textContent =
-        list.length + (list.length === 1 ? ' activity' : ' activities');
+        list.length + (list.length === 1 ? ' code' : ' codes') +
+        (list.length > MAX_SHOWN ? ' (showing ' + MAX_SHOWN + ')' : '');
     }
 
     q.addEventListener('input', render);
@@ -411,6 +472,28 @@ const description =
   .sbc-card--prohibited { border-left-color: var(--red); }
   .sbc-card--grey { border-left-color: var(--yellow); }
   .sbc-card--clear { border-left-color: var(--blue); }
+  .sbc-card--unreviewed { border-left-color: var(--grey-1); }
+
+  .sbc-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 16px 0 0;
+    font-size: 15px;
+    color: var(--grey-1);
+  }
+  .sbc-legend__item { display: inline-flex; align-items: center; gap: 6px; }
+  .sbc-legend__item::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    flex: 0 0 auto;
+  }
+  .sbc-legend__item--prohibited::before { background: var(--red); }
+  .sbc-legend__item--grey::before { background: var(--yellow); }
+  .sbc-legend__item--clear::before { background: var(--blue); }
+  .sbc-legend__item--unreviewed::before { background: var(--grey-1); }
+  .sbc-legend b { color: inherit; }
 
   .sbc-card__head {
     display: flex;
@@ -434,6 +517,7 @@ const description =
   .sbc-card--prohibited .sbc-card__badge { background: var(--red); color: #fff; }
   .sbc-card--grey .sbc-card__badge { background: var(--yellow); color: var(--black); }
   .sbc-card--clear .sbc-card__badge { background: var(--blue); color: #fff; }
+  .sbc-card--unreviewed .sbc-card__badge { background: var(--grey-1); color: #fff; }
 
   .sbc-card__name { margin: 8px 0 6px; font-size: 18px; }
   .sbc-card__note { margin: 0; }
