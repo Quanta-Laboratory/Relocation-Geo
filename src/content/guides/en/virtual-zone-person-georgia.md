@@ -5,7 +5,7 @@ parent: business-statuses-georgia
 lang: "en"
 summary: "Virtual Zone Person status is a tax regime for Georgian IT companies. Profit earned from supplying information technologies created by the company to customers outside Georgia is exempt from profit tax, that supply is exempt from VAT, and exports of the IT carry no export duty. The status is granted within 10 working days by a body designated by the Government (the Ministry of Finance's Financial-Analytical Service) under the Law on Information Technology Zones and the Tax Code. The exemption covers only IT supplied outside Georgia — domestic sales and employee salaries are taxed normally."
 reviewed: 2026-06-29
-checked: 2026-07-11
+checked: 2026-07-12
 sources:
   - name: "Law of Georgia on Information Technology Zones (No 4064-RS, 15 December 2010)"
     url: "https://matsne.gov.ge/en/document/view/1152405"
