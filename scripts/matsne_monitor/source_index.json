@@ -170,6 +170,9 @@
         "reviewed": "2026-06-30",
         "checked": "2026-07-12",
         "lang": "uk"
+      },
+      {
+        "path": "data/small-business-activity-data.ts"
       }
     ],
     "2278806": [
@@ -486,6 +489,9 @@
         "reviewed": "2026-07-10",
         "checked": "2026-07-12",
         "lang": "en"
+      },
+      {
+        "path": "data/small-business-activity-data.ts"
       }
     ],
     "1168081": [
@@ -516,6 +522,9 @@
         "reviewed": "2026-07-10",
         "checked": "2026-07-12",
         "lang": "en"
+      },
+      {
+        "path": "data/small-business-activity-data.ts"
       }
     ],
     "2806732": [

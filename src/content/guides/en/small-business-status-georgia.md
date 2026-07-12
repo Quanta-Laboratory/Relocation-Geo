@@ -40,7 +40,7 @@ Among Georgia's **[special tax regimes](/en/special-tax-regimes-georgia)**, **Sm
 
 This guide covers who can obtain the status, the 1%/3% rates and thresholds, which income falls outside the regime, the accounting and filing duties, the rules on hiring people, how to activate the status and how it ends. To register the underlying Individual Entrepreneur, see **[how to register an Individual Entrepreneur remotely](/en/register-individual-entrepreneur-remotely)**.
 
-> **Read the prohibited-activities list before you plan around this regime.** It is longer than most people expect, and **"consulting (including tax consulting)" is on it**. If your intended activity is advisory in nature, do not assume the 1% rate is available to you — check your activity code with the Revenue Service first. The list is set out in full below.
+> **Read the prohibited-activities list before you plan around this regime.** It is longer than most people expect, and **"consulting (including tax consulting)" is on it**. If your intended activity is advisory in nature, do not assume the 1% rate is available to you. Try the **[Small Business Activity Checker](/en/small-business-activity-checker)** — search your activity code and see whether it is prohibited, sits in the grey zone, or appears clear. The full list is set out below.
 
 <svg class="diagram" viewBox="0 0 640 300" role="img" aria-label="How Small Business Status begins, runs and ends.">
   <rect class="box box--key" x="20" y="30" width="150" height="60" rx="6"/>
@@ -179,6 +179,8 @@ Not all economic activities may benefit from Small Business Status. **Annex No 4
 5. **gambling business**;
 6. **provision of personnel (staffing services)**;
 7. **production of excisable goods**.
+
+To see where a specific activity code falls, use the **[Small Business Activity Checker](/en/small-business-activity-checker)**.
 
 **Item 4 is the one that catches people out.** "Consulting" is an ordinary word with a very wide reach, and a great many foreigners register an Individual Entrepreneur precisely to provide advisory services. Whether a particular engagement counts as prohibited "consulting", or as something else the regime does allow — software development, design, copywriting, translation, marketing execution — turns on how the activity is classified, not on what the invoice happens to say. **This is not a detail to guess at:** if the tax authority later treats your activity as prohibited, the status is cancelled retroactively **from the beginning of the calendar year in which you carried it out**, which converts a 1% year into a 20% year. Confirm your activity classification with the **Revenue Service** before you rely on the regime.
 

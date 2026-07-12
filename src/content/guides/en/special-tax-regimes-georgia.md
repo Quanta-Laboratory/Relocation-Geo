@@ -30,6 +30,10 @@ faq:
 
 Georgia's tax system is known for its **simplicity**. Alongside the standard rules, Georgian legislation provides **special tax regimes** for individuals and small entrepreneurs, allowing small-scale activity to be taxed under simplified conditions rather than the full standard system.
 
+> **Not sure whether your activity qualifies?** The prohibited-activities list is longer than
+> most people expect — consulting is on it. Search your activity code in the
+> **[Small Business Activity Checker](/en/small-business-activity-checker)**.
+
 Rather than applying one set of rules to every business, the law creates a **graduated structure** of three regimes. A person can start under the most simplified conditions and move up as the business grows, so that taxation rises **in proportion to the size of the activity** instead of imposing heavy obligations at the earliest stage.
 
 This page is a hub. It sets out what the three regimes are and who each is for, then links to a detailed guide for each. For how these tax regimes sit alongside the standard 20% personal income tax, see **[Personal Income Tax in Georgia](/en/personal-income-tax-georgia)**; for the wider picture of business statuses, including the company-focused ones, see **[Business Statuses in Georgia](/en/business-statuses-georgia)**.
