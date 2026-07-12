@@ -12,7 +12,7 @@ sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons"
     url: "https://matsne.gov.ge/en/document/view/2278806"
   - name: "Government Resolution No 520 of 1 September 2014 (procedure for issuing residence permits)"
-    url: "https://matsne.gov.ge/en/document/view/2482330"
+    url: "https://matsne.gov.ge/en/document/view/2483468"
   - name: "Government Ordinance No 317 of 9 July 2026 — amending Resolution No 520 (Georgian original)"
     url: "https://matsne.gov.ge/ka/document/view/6939703"
   - name: "Public Service Development Agency of Georgia"

@@ -1,6 +1,6 @@
 {
   "generated_from": "src/{content,data,pages}",
-  "doc_count": 33,
+  "doc_count": 32,
   "index": {
     "1043717": [
       {
@@ -398,6 +398,20 @@
         "reviewed": "2026-07-10",
         "checked": "2026-07-12",
         "lang": "en"
+      },
+      {
+        "path": "content/guides/en/student-visa-and-residence-georgia.md",
+        "title": "Student Visa & Residence in Georgia (D3)",
+        "reviewed": "2026-07-10",
+        "checked": "2026-07-12",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/work-residence-permit-georgia.md",
+        "title": "Work Residence Permit in Georgia (2026)",
+        "reviewed": "2026-07-12",
+        "checked": "2026-07-12",
+        "lang": "en"
       }
     ],
     "6940189": [
@@ -614,22 +628,6 @@
         "path": "content/guides/en/renting-a-home-in-georgia.md",
         "title": "Renting a Home in Georgia: Tenant and Landlord Rules",
         "reviewed": "2026-06-27",
-        "checked": "2026-07-12",
-        "lang": "en"
-      }
-    ],
-    "2482330": [
-      {
-        "path": "content/guides/en/student-visa-and-residence-georgia.md",
-        "title": "Student Visa & Residence in Georgia (D3)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-07-12",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/work-residence-permit-georgia.md",
-        "title": "Work Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-12",
         "checked": "2026-07-12",
         "lang": "en"
       }
