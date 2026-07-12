@@ -1,6 +1,6 @@
 {
   "generated_from": "src/{content,data,pages}",
-  "doc_count": 32,
+  "doc_count": 34,
   "index": {
     "1043717": [
       {
@@ -454,6 +454,66 @@
         "path": "content/guides/en/small-business-status-georgia.md",
         "title": "Small Business Status in Georgia (1% Turnover Tax)",
         "reviewed": "2026-07-12",
+        "checked": "2026-07-12",
+        "lang": "en"
+      }
+    ],
+    "1164635": [
+      {
+        "path": "content/guides/en/fixed-taxpayer-status-georgia.md",
+        "title": "Fixed Taxpayer Status in Georgia",
+        "reviewed": "2026-07-10",
+        "checked": "2026-07-12",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/micro-business-status-georgia.md",
+        "title": "Micro Business Status in Georgia (0% Tax)",
+        "reviewed": "2026-07-10",
+        "checked": "2026-07-12",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/small-business-status-georgia.md",
+        "title": "Small Business Status in Georgia (1% Turnover Tax)",
+        "reviewed": "2026-07-12",
+        "checked": "2026-07-12",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/special-tax-regimes-georgia.md",
+        "title": "Special Tax Regimes in Georgia: Small, Micro and Fixed Status",
+        "reviewed": "2026-07-10",
+        "checked": "2026-07-12",
+        "lang": "en"
+      }
+    ],
+    "1168081": [
+      {
+        "path": "content/guides/en/fixed-taxpayer-status-georgia.md",
+        "title": "Fixed Taxpayer Status in Georgia",
+        "reviewed": "2026-07-10",
+        "checked": "2026-07-12",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/micro-business-status-georgia.md",
+        "title": "Micro Business Status in Georgia (0% Tax)",
+        "reviewed": "2026-07-10",
+        "checked": "2026-07-12",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/small-business-status-georgia.md",
+        "title": "Small Business Status in Georgia (1% Turnover Tax)",
+        "reviewed": "2026-07-12",
+        "checked": "2026-07-12",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/special-tax-regimes-georgia.md",
+        "title": "Special Tax Regimes in Georgia: Small, Micro and Fixed Status",
+        "reviewed": "2026-07-10",
         "checked": "2026-07-12",
         "lang": "en"
       }

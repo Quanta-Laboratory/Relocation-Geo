@@ -9,10 +9,10 @@ order: 5
 sources:
   - name: "Tax Code of Georgia (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/1043717"
-  - name: "Government Resolution No. 415 of 29 December 2010 (activities prohibited for special tax regimes)"
-    url: "https://www.matsne.gov.ge/"
-  - name: "Order of the Minister of Finance No. 999 of 31 December 2010 (rules for granting Micro and Small Business Status)"
-    url: "https://www.matsne.gov.ge/"
+  - name: "Government Ordinance No 415 of 29 December 2010 — On Special Taxation Regimes (prohibited activities and excluded income; Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/1164635"
+  - name: "Order of the Minister of Finance No 999 of 31 December 2010 — On the Application of Special Taxation Regimes (procedure, declaration form, expense journal; Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/1168081"
   - name: "Revenue Service of Georgia"
     url: "https://rs.ge/"
 faq:
