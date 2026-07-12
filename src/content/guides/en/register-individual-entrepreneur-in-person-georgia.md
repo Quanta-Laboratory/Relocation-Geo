@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: "en"
 summary: "A foreign national who is physically present in Georgia can register an Individual Entrepreneur (IE) in person at the Public Service Hall, usually within one working day. You need your passport, a Georgian phone number and a legal address; after registration your data is linked to the Revenue Service, where you can apply for Small Business status if you qualify."
 reviewed: 2026-07-10
-checked: 2026-07-10
+checked: 2026-07-12
 order: 5
 sources:
   - name: "Public Service Hall"

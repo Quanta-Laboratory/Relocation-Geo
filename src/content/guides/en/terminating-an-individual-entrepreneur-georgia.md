@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: "en"
 summary: "If you no longer need your Individual Entrepreneur (IE) status in Georgia, you must formally terminate it through the National Agency of Public Registry and close your tax obligations with the Revenue Service. An IE remains active until it is cancelled, so stopping activity alone is not enough. Termination can be completed in person or remotely through a notarised, apostilled Power of Attorney; the Public Registry state fee is GEL 26 (one working day) or GEL 76 (same day)."
 reviewed: 2026-07-10
-checked: 2026-07-10
+checked: 2026-07-12
 order: 6
 sources:
   - name: "Public Service Hall"

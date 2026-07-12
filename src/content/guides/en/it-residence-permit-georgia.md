@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: en
 summary: "Georgia's IT Residence Permit is a dedicated route for foreign IT professionals, founders and company representatives, and their family members. It is issued for three years and renewable. Three categories qualify — IT employees registered in the Ministry's labour-migration database, IT entrepreneurs holding Small Business Status, and representatives of international IT companies. Employees and entrepreneurs must show at least two years of IT experience and annual income of at least USD 25,000 (in GEL), received in at least two instalments 30 days apart. State fees are GEL 500 (90 days) or GEL 750 (60 days). This guide sets out the categories, tests, required documents, the IT-sector definition, fees and how to apply."
 reviewed: 2026-07-10
-checked: 2026-07-10
+checked: 2026-07-12
 order: 10
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)

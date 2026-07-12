@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: "en"
 summary: "Georgia has cheap, fast and widely available connectivity. Three main operators — Magti, Silknet and Cellfie — sell prepaid SIMs on a passport, mobile data is inexpensive, and home fibre internet is common in cities. Coverage is strong in urban areas and along main routes."
 reviewed: 2026-06-27
-checked: 2026-07-10
+checked: 2026-07-12
 sources:
   - name: "Georgian National Communications Commission (ComCom)"
     url: "https://comcom.ge/en/"

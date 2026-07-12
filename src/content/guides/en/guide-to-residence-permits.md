@@ -4,7 +4,7 @@ category: immigration
 lang: en
 summary: Georgia offers several residence permits depending on the purpose of stay — work, IT, investment, study, family and more. Each has its own legal basis, conditions and validity.
 reviewed: 2026-06-12
-checked: 2026-07-10
+checked: 2026-07-12
 order: 2
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons

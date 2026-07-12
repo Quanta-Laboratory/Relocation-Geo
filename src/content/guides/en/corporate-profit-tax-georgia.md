@@ -4,7 +4,7 @@ category: "tax"
 lang: "en"
 summary: "Since 1 January 2017 Georgia has taxed most companies under a distribution-based 'Estonian' profit tax: profit that is retained or reinvested is not taxed, and tax falls due only when profit is distributed or deemed distributed. The standard rate is 15%, applied to the grossed-up value of four taxable events — dividend distributions, costs not related to economic activity, free-of-charge supplies, and representation costs above the legal limit. A higher 20% rate applies to commercial banks, credit unions, microfinance organisations and loan providers. Companies file a monthly profit tax return, generally by the 15th of the following month, only in months when a taxable event occurs. This guide explains the mechanism, the rate, the tax base and filing, checked against the Tax Code and the Revenue Service."
 reviewed: 2026-07-10
-checked: 2026-07-10
+checked: 2026-07-12
 order: 6
 sources:
   - name: "Tax Code of Georgia — official English translation (PDF, Legislative Herald)"
@@ -32,7 +32,7 @@ tags:
   - tax
 ---
 
-Georgia does not tax company profit in the way most countries do. Since **1 January 2017**, most companies have been taxed under a **distribution-based** system — widely called the **"Estonian" model** — in which **retained and reinvested profit is not taxed**, and profit tax falls due **only when profit is distributed** or treated as a deemed distribution. The standard rate is **15%**. This guide explains how the model works, what triggers the tax, the rate, and how filing works, checked against the **Tax Code of Georgia** and the **Revenue Service**.
+Georgia does not tax company profit in the way most countries do. Since **1 January 2017**, most companies have been taxed under a **distribution-based** system — widely called the **"Estonian" model** — in which **retained and reinvested profit is not taxed**, and profit tax falls due **only when profit is distributed** or treated as a deemed distribution. The standard rate is **15%**. 
 
 ## The model: tax on distribution, not on earning
 

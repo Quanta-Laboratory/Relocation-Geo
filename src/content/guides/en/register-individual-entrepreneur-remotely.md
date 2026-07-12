@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: "en"
 summary: "Georgia allows a foreign national to register an Individual Entrepreneur (IE) without travelling to the country, by issuing a notarised and apostilled Power of Attorney to a representative who completes the registration at the Public Service Hall. Registration itself usually takes 1–5 working days once documents are in Georgia; the full process, including courier delivery, translation and notarisation, typically takes 1–3 weeks."
 reviewed: 2026-07-10
-checked: 2026-07-10
+checked: 2026-07-12
 sources:
   - name: "Public Service Hall"
     url: "https://psh.gov.ge/"
