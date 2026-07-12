@@ -1,9 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import { activities, prohibitedCategories, dataAsOf } from '../../data/small-business-activity-data';
+import { activities, prohibitedCategories, aliases, dataAsOf } from '../../data/small-business-activity-data';
 
-const items = [...activities].sort((a, b) => a.code.localeCompare(b.code));
+const items = [...activities]
+  .sort((a, b) => a.code.localeCompare(b.code))
+  .map((a) => ({ ...a, aliases: aliases[a.code] ?? [] }));
 const categories = prohibitedCategories;
 
 const crumbs = [
@@ -54,11 +56,27 @@ const description =
           placeholder="e.g. 62.01, consultancy, design, translation…"
         />
         <p class="tool__hint">
-          Codes follow the national classifier <strong>SEC 006-2016</strong> (based on NACE Rev. 2).
-          The code that governs is the one the Revenue Service holds against your registration —
-          check it there.
+          Search plain words too — "websites", "translation", "recruitment". Codes follow the national
+          classifier <strong>SEC 006-2016</strong> (based on NACE Rev. 2). The code that governs is the
+          one the Revenue Service holds against your registration — check it there.
         </p>
       </div>
+
+      <details class="sbc-ai">
+        <summary class="sbc-ai__summary">Can't find it? Describe what you do instead</summary>
+        <div class="sbc-ai__body">
+          <p class="tool__hint">
+            Write it in your own words and we will suggest which code fits. The suggestion is only a
+            <strong>code match</strong> — the verdict you see afterwards always comes from the law
+            dataset on this page, not from the assistant. Your description is not stored.
+          </p>
+          <label class="tool__label" for="desc">What do you actually do?</label>
+          <textarea id="desc" rows="3" placeholder="e.g. I build websites for clients abroad and sometimes advise them on which tools to use"></textarea>
+          <button type="button" class="sbc-ai__go" id="ai-go">Suggest a code</button>
+          <p class="sbc-ai__status" id="ai-status" aria-live="polite"></p>
+          <div id="ai-out" class="sbc-ai__out"></div>
+        </div>
+      </details>
 
       <div class="sbc-filters" role="group" aria-label="Filter by verdict">
         <button type="button" class="seg is-active" data-f="all">All</button>
@@ -150,13 +168,20 @@ const description =
       clear: 'Appears clear',
     };
 
+    // Layer 1: deterministic. Code, name, and the hand-written alias dictionary.
+    // No model involved — this resolves most real queries on its own.
     function matches(it, term) {
       if (!term) return true;
       var t = term.toLowerCase();
-      return (
-        it.code.toLowerCase().indexOf(t) !== -1 ||
-        it.name.toLowerCase().indexOf(t) !== -1
-      );
+      if (it.code.toLowerCase().indexOf(t) !== -1) return true;
+      if (it.name.toLowerCase().indexOf(t) !== -1) return true;
+      var al = it.aliases || [];
+      for (var i = 0; i < al.length; i++) {
+        // match either direction: "web" finds "web development", and
+        // "i build websites" finds the alias "websites".
+        if (al[i].indexOf(t) !== -1 || t.indexOf(al[i]) !== -1) return true;
+      }
+      return false;
     }
 
     function card(it) {
@@ -218,6 +243,120 @@ const description =
     });
 
     render();
+
+    // ---------------------------------------------------------------------
+    // Layer 2: the assistant. It suggests a CODE and nothing else.
+    // The verdict is never taken from the model — we look the confirmed code up
+    // in the same dataset the page already holds and render that.
+    // ---------------------------------------------------------------------
+    var desc = document.getElementById('desc');
+    var go = document.getElementById('ai-go');
+    var status = document.getElementById('ai-status');
+    var out = document.getElementById('ai-out');
+
+    function byCode(code) {
+      for (var i = 0; i < items.length; i++) {
+        if (items[i].code === code) return items[i];
+      }
+      return null;
+    }
+
+    function showVerdict(it) {
+      // Rendered from local data — identical to the search results above.
+      out.innerHTML =
+        '<p class="sbc-ai__confirmed">Showing the entry for <strong>' +
+        esc(it.code) +
+        '</strong>, from the law dataset:</p>' +
+        card(it);
+    }
+
+    function suggestion(m) {
+      var it = byCode(m.code);
+      if (!it) return '';
+      return (
+        '<div class="sbc-sugg">' +
+        '<p class="sbc-sugg__head">We read that as <strong>' +
+        esc(it.code) +
+        ' — ' +
+        esc(it.name) +
+        '</strong> <span class="sbc-sugg__conf">' +
+        esc(m.confidence) +
+        ' confidence</span></p>' +
+        (m.why ? '<p class="sbc-sugg__why">' + esc(m.why) + '</p>' : '') +
+        '<button type="button" class="sbc-sugg__go" data-code="' +
+        esc(it.code) +
+        '">That\'s me — show the verdict</button>' +
+        '</div>'
+      );
+    }
+
+    function wireSuggestions() {
+      Array.prototype.slice
+        .call(out.querySelectorAll('[data-code]'))
+        .forEach(function (b) {
+          b.addEventListener('click', function () {
+            var it = byCode(b.getAttribute('data-code'));
+            if (it) showVerdict(it);
+          });
+        });
+    }
+
+    if (go) {
+      go.addEventListener('click', function () {
+        var text = (desc.value || '').trim();
+        if (text.length < 3) {
+          status.textContent = 'Write a sentence about what you do.';
+          return;
+        }
+        status.textContent = 'Matching…';
+        out.innerHTML = '';
+        go.disabled = true;
+
+        fetch('/api/match', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ query: text }),
+        })
+          .then(function (r) {
+            if (r.status === 503) throw new Error('offline');
+            if (!r.ok) throw new Error('failed');
+            return r.json();
+          })
+          .then(function (data) {
+            go.disabled = false;
+            status.textContent = '';
+            var html = '';
+
+            if (data.clarifyingQuestion) {
+              html +=
+                '<p class="sbc-ask"><strong>One question first.</strong> ' +
+                esc(data.clarifyingQuestion) +
+                '</p>';
+            }
+            if (data.matches && data.matches.length) {
+              html += data.matches.map(suggestion).join('');
+              html +=
+                '<p class="tool__hint">A suggestion, not a decision. If none of these is what you' +
+                ' actually do, search the list above — and remember the code that governs is the one' +
+                ' the Revenue Service holds for you.</p>';
+            } else if (!data.clarifyingQuestion) {
+              html +=
+                '<p class="sbc-empty">No confident match. That is a real answer, not a failure —' +
+                ' it usually means the description could go several ways. Try the search above, or' +
+                ' ask the Revenue Service to confirm your activity code.</p>';
+            }
+            out.innerHTML = html;
+            wireSuggestions();
+          })
+          .catch(function (e) {
+            go.disabled = false;
+            status.textContent =
+              e && e.message === 'offline'
+                ? 'The assistant is not available right now — use the search above, it covers the same list.'
+                : 'Something went wrong. Use the search above, it covers the same list.';
+          });
+      });
+    }
   })();
 </script>
 
@@ -337,6 +476,66 @@ const description =
     font-size: 15px;
   }
 
+  /* Describe-your-work panel */
+  .sbc-ai { margin: 18px 0 8px; border: 1px solid var(--grey-2); }
+  .sbc-ai__summary {
+    padding: 12px 14px;
+    cursor: pointer;
+    font-weight: 700;
+    background: var(--grey-3);
+  }
+  .sbc-ai__body { padding: 14px; display: grid; gap: 10px; }
+  #desc {
+    width: 100%;
+    padding: 10px 12px;
+    font: inherit;
+    border: 2px solid var(--grey-2);
+    background: transparent;
+    color: inherit;
+    resize: vertical;
+  }
+  #desc:focus { outline: 3px solid var(--yellow); border-color: var(--black); }
+  .sbc-ai__go {
+    justify-self: start;
+    padding: 10px 18px;
+    font: inherit;
+    font-weight: 700;
+    border: 0;
+    background: var(--navy);
+    color: #fff;
+    cursor: pointer;
+  }
+  .sbc-ai__go[disabled] { opacity: 0.6; cursor: default; }
+  .sbc-ai__status { margin: 0; color: var(--grey-1); font-size: 15px; }
+  .sbc-ai__out { display: grid; gap: 12px; }
+  .sbc-ai__confirmed { margin: 0; color: var(--grey-1); font-size: 15px; }
+
+  .sbc-sugg { border: 1px dashed var(--grey-2); padding: 12px 14px; }
+  .sbc-sugg__head { margin: 0 0 6px; }
+  .sbc-sugg__conf {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 13px;
+    color: var(--grey-1);
+  }
+  .sbc-sugg__why { margin: 0 0 10px; color: var(--grey-1); }
+  .sbc-sugg__go {
+    padding: 8px 14px;
+    font: inherit;
+    font-size: 15px;
+    border: 2px solid var(--navy);
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+  .sbc-ask {
+    margin: 0;
+    padding: 10px 12px;
+    background: var(--grey-3);
+    border-left: 3px solid var(--yellow);
+  }
+
+  html[data-theme='dark'] .sbc-ai__summary { background: transparent; }
+  html[data-theme='dark'] .sbc-ask { background: transparent; }
   html[data-theme='dark'] #q { background: transparent; }
   html[data-theme='dark'] .seg { background: transparent; }
   html[data-theme='dark'] .sbc-card__warn { background: transparent; }
