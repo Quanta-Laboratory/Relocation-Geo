@@ -3,11 +3,14 @@ title: "Small Business Status in Georgia (1% Turnover Tax)"
 category: "tax"
 parent: special-tax-regimes-georgia
 lang: "en"
+notice: 'Self-employed foreigners: <strong>Ordinance No 321 of 9 July 2026</strong> changed how the <strong>right to work</strong> is obtained — you must now apply <strong>in person</strong> and pass a <strong>compulsory video interview</strong>, and a turnover test applies. The exemption for serving foreign clients does <strong>not</strong> cover an Individual Entrepreneur who needs a residence permit to stay lawfully. <a href="/en/right-to-work-georgia">Read more</a>.'
 summary: "Small Business Status is a special tax regime for an Individual Entrepreneur that taxes qualifying turnover at 1%, rising to 3% once income exceeds GEL 500,000 in a calendar year (GEL 700,000 for wine tourism and agritourism). The status is granted by the Revenue Service from the date of application, issued for an unlimited term, and can be held even by a VAT payer. It is not available for a list of prohibited activities, and some income — rent, interest, dividends, royalties, property gains and certain construction services to businesses — is always taxed under the ordinary rules. Holders keep a special journal, file monthly declarations by the 15th, and may lose the status by exceeding thresholds for two consecutive years, performing a prohibited activity, or repeated cash-register violations."
-reviewed: 2026-07-10
+reviewed: 2026-07-12
 checked: 2026-07-12
 order: 1
 sources:
+  - name: "Government Ordinance No 321 of 9 July 2026 — right-to-work procedure (Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/6940189"
   - name: "Tax Code of Georgia (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/1043717"
   - name: "Government Resolution No. 415 of 29 December 2010 (activities prohibited for special tax regimes)"
