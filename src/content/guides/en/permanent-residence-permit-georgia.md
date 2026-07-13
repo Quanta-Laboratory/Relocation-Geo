@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: "en"
 summary: "Georgia's Permanent Residence Permit gives foreigners the right to live in the country indefinitely. There are two routes: being a close family member of a Georgian citizen — a spouse, a minor child, or a parent of a minor Georgian citizen — or having lived legally in Georgia for the last ten years on temporary residence permits. Applications go to the Public Service Development Agency and require proof of the qualifying basis (family relationship and legal income, or the ten-year residence record). State fees are GEL 350 for a 30-day decision and GEL 500 for a 20-day decision, plus a Georgian ID (residence) card fee from GEL 60 to GEL 150 by issuance speed. This guide explains the two routes, the required documents, the fees and how the permanent permit compares with the indefinite (investment-based) permit, checked against the primary law."
 reviewed: 2026-07-10
-checked: 2026-07-12
+checked: 2026-07-13
 order: 13
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)"
