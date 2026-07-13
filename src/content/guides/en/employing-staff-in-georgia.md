@@ -64,7 +64,7 @@ Georgian labour law is codified in the **Organic Law – Labour Code of Georgia*
 
 **Leave.** An employee is entitled to **paid annual leave of at least 24 working days** per year, and may also take **unpaid leave of at least 15 calendar days** per year. Notice and carry-forward rules for leave are set out in the Code.
 
-**Public holidays.** On top of annual leave, the Code sets **18 statutory holidays** — fourteen fixed dates plus the four-day Orthodox Easter block. An employee may ask to swap a holiday for another rest day, with the substitution recorded in the employment agreement. See **[Public Holidays in Georgia](/en/public-holidays-in-georgia)**.
+**Public holidays.** On top of annual leave, the Code sets **18 statutory holidays in a typical year** — fourteen fixed dates plus the four-day Orthodox Easter block. An employee may ask to swap a holiday for another rest day, with the substitution recorded in the employment agreement. See **[Public Holidays in Georgia](/en/public-holidays-in-georgia)**.
 
 **Termination and notice.** The Code lists the permitted **grounds for termination** and protects the employee with notice, severance and a right to reasons. At a high level, where the **employer** ends the contract it must either:
 

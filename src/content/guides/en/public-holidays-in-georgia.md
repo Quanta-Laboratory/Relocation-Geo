@@ -3,7 +3,7 @@ title: "Public Holidays in Georgia (2026)"
 category: "live"
 parent: everyday-essentials-georgia
 lang: "en"
-summary: "Georgia has 14 fixed public holidays plus a four-day Easter block, set by Article 30 of the Labour Code — 18 days in total. Fourteen fall on the same date every year, from New Year on 1–2 January to St George's Day on 23 November; the Easter block moves with the Orthodox calendar, falling on 10–13 April in 2026 and 30 April–3 May in 2027. Banks, government offices and most businesses close. An employee may ask to take other rest days instead, if the employment agreement says so, and the Government may declare further days off by ordinance."
+summary: "Georgia has 14 fixed public holidays plus a four-day Easter block, set by Article 30 of the Labour Code — 18 days in a typical year. Fourteen fall on the same date every year, from New Year on 1–2 January to St George's Day on 23 November; the Easter block moves with the Orthodox calendar, falling on 10–13 April in 2026 and 30 April–3 May in 2027. Because Easter moves it can collide with a fixed holiday, as in 2029, when the count drops to 17. Banks, government offices and most businesses close. An employee may ask to take other rest days instead, if the employment agreement says so, and the Government may declare further days off by ordinance. A subscribable calendar feed and JSON API are on the Georgian Holiday Calendar page."
 reviewed: 2026-07-13
 checked: 2026-07-13
 order: 10
@@ -14,7 +14,7 @@ sources:
     url: "https://matsne.gov.ge/en/document/view/1155567"
 faq:
   - q: "How many public holidays does Georgia have?"
-    a: "Eighteen days. Article 30 of the Labour Code lists fourteen holidays on fixed dates, plus the Easter block of four consecutive days — Good Friday, Holy Saturday, Easter Sunday and Easter Monday — which moves with the Orthodox calendar."
+    a: "Eighteen days in a typical year. Article 30 of the Labour Code lists fourteen holidays on fixed dates, plus the Easter block of four consecutive days — Good Friday, Holy Saturday, Easter Sunday and Easter Monday — which moves with the Orthodox calendar. Because Easter moves, it occasionally lands on a fixed holiday: in 2029 Easter Monday falls on 9 April, the Day of National Unity, so that year has seventeen days off rather than eighteen."
   - q: "When is Easter in Georgia in 2026?"
     a: "Georgia follows the Orthodox calendar, so Easter falls later than in most of Western Europe. In 2026 Orthodox Easter Sunday is 12 April, making the four-day holiday block 10–13 April. In 2027 Easter Sunday is 2 May, so the block runs 30 April–3 May. Because the date moves each year, check it before booking travel around that week."
   - q: "Can I work on a public holiday instead and take a different day off?"
@@ -27,7 +27,11 @@ faq:
     a: "Article 30 lists the holidays; it does not itself set the pay rules for them, and the treatment of work performed on a holiday sits elsewhere in the Labour Code and in your employment agreement. Check your contract and confirm the current position before assuming either paid leave or a premium rate."
 ---
 
-Georgia's public holidays are set by **Article 30 of the Labour Code**. There are **fourteen fixed dates** plus an **Easter block of four consecutive days**, which moves with the Orthodox calendar — **eighteen days in all**.
+Georgia's public holidays are set by **Article 30 of the Labour Code**. There are **fourteen fixed dates** plus an **Easter block of four consecutive days**, which moves with the Orthodox calendar — **eighteen days in a typical year**.
+
+Why "typical": because Easter moves, it can land on a fixed holiday. In **2029**, Easter Monday falls on **9 April**, the Day of National Unity — two holidays, one day off, so that year has **seventeen** days rather than eighteen. A calendar that prints a hardcoded 18 is wrong roughly once a decade.
+
+Want the dates rather than the law? The **[Georgian Holiday Calendar](/en/georgia-holiday-calendar)** lists every year with a subscribable `.ics` feed and a JSON API, and computes the moving Easter dates for you.
 
 Two things surprise newcomers. First, **Easter is Orthodox**, so it usually falls later than in Western Europe and lands on a different date each year. Second, the calendar is dense in the first half of the year: between January and May there are twelve holidays, and then a four-month gap until late August.
 

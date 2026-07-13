@@ -1,0 +1,207 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import {
+  holidaysFor, calendarYears, weekdayOf, LABOUR_CODE_URL, dataAsOf,
+} from '../../data/georgia-holidays';
+
+const thisYear = new Date().getUTCFullYear();
+const years = calendarYears(thisYear, 4);
+const table = years.map((y) => ({ year: y, items: holidaysFor(y) }));
+const current = table[0];
+
+// Structured data. This is the part search engines and AI assistants actually read,
+// and the reason this page exists as well as the article: a list of dated Events,
+// each traceable to the statute.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Public holidays in Georgia ${current.year}`,
+  description:
+    `The ${current.items.length} statutory public holidays of Georgia for ${current.year}, set by Article 30 of the Labour Code. Includes the movable Orthodox Easter block.`,
+  numberOfItems: current.items.length,
+  itemListOrder: 'https://schema.org/ItemListOrderAscending',
+  itemListElement: current.items.map((h, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    item: {
+      '@type': 'Event',
+      name: h.name,
+      startDate: h.date,
+      endDate: h.date,
+      eventStatus: 'https://schema.org/EventScheduled',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      description: h.note ?? `Public holiday in Georgia under Labour Code Article ${h.article}.`,
+      location: { '@type': 'Country', name: 'Georgia' },
+    },
+  })),
+};
+
+const crumbs = [
+  { href: '/en/', label: 'Home' },
+  { href: '/en/#live', label: 'Live in Georgia' },
+  { label: 'Georgian Holiday Calendar' },
+];
+const description =
+  `Georgian public holidays for ${current.year} and beyond — all ${current.items.length} statutory days under Article 30 of the Labour Code, including the movable Orthodox Easter block. Subscribe to the calendar feed, download the .ics, or use the JSON API. Free and source-based.`;
+---
+<BaseLayout title={`Georgian Public Holidays — Calendar ${current.year}`} description={description}>
+  <Breadcrumbs items={crumbs} />
+  <main id="main" class="wrap">
+    <h1>Georgian Public Holidays — Calendar</h1>
+    <p class="lede">
+      All <strong>{current.items.length}</strong> statutory public holidays of Georgia, set by
+      <strong>Article 30 of the Labour Code</strong>. Fourteen fall on fixed dates; the four-day
+      <strong>Orthodox Easter</strong> block moves each year, so we compute it rather than
+      hardcode it.
+    </p>
+
+    <div class="hol-actions">
+      <a class="hol-btn hol-btn--primary" href="/georgia-public-holidays.ics">
+        Add to your calendar (.ics)
+      </a>
+      <a class="hol-btn" href="/georgia-public-holidays.json">JSON API</a>
+      <a class="hol-btn" href="/en/public-holidays-in-georgia">What the law says</a>
+    </div>
+    <p class="hol-hint">
+      The <code>.ics</code> is a <strong>subscription</strong> feed, not a one-off download — in
+      Google Calendar use <em>Other calendars → From URL</em>, in Apple Calendar
+      <em>File → New Calendar Subscription</em>. Future years, including the moving Easter dates,
+      then arrive on their own.
+    </p>
+
+    {table.map(({ year, items }) => (
+      <section class="hol-year" id={`y${year}`}>
+        <h2>
+          {year}
+          <span class="hol-year__count">{items.length} days</span>
+        </h2>
+        <table class="hol-table">
+          <thead>
+            <tr><th>Date</th><th>Day</th><th>Holiday</th><th>Article</th></tr>
+          </thead>
+          <tbody>
+            {items.map((h) => (
+              <tr class={h.movable ? 'is-movable' : ''}>
+                <td class="hol-date">
+                  <time datetime={h.date}>
+                    {new Date(h.date + 'T00:00:00Z').toLocaleDateString('en-GB', {
+                      day: 'numeric', month: 'short', timeZone: 'UTC',
+                    })}
+                  </time>
+                </td>
+                <td class="hol-wd">{weekdayOf(h.date).slice(0, 3)}</td>
+                <td>
+                  {h.name}
+                  {h.nameKa && <span class="hol-ka">{h.nameKa}</span>}
+                  {h.movable && <span class="hol-tag">movable</span>}
+                </td>
+                <td class="hol-art">{h.article}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    ))}
+
+    <section class="hol-section">
+      <h2>Two things worth knowing</h2>
+      <p>
+        <strong>Easter is Orthodox, and it moves.</strong> It usually falls later than Western
+        Easter and lands on a different date every year, so a calendar that hardcodes it is wrong
+        within twelve months. The block runs Friday to Monday and produces the longest continuous
+        shutdown of the year outside New Year.
+      </p>
+      <p>
+        <strong>The Government can add days off — and they are weaker.</strong> Article 30(3)
+        lets the Government declare further days off by ordinance, typically to bridge a holiday
+        that falls beside a weekend. But where a day off comes from an ordinance rather than from
+        the Labour Code itself, an employer may require the work to be done instead on the
+        employee's next rest day. Those ordinance days are announced during the year and are
+        <strong>not</strong> in this feed. The full explanation is in
+        <a href="/en/public-holidays-in-georgia">what the law says</a>.
+      </p>
+    </section>
+
+    <p class="tool-foot">
+      Source: <a href={LABOUR_CODE_URL}>Organic Law of Georgia — Labour Code, Article 30</a>
+      (Legislative Herald). Data as of {dataAsOf}. Easter is computed with Meeus's Julian
+      algorithm and verified against the published Orthodox Easter dates for 2023–2028.
+      Free to use and cite — this is a non-commercial, source-based project. Information about the
+      law as published, <strong>not legal advice</strong>.
+    </p>
+  </main>
+</BaseLayout>
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
+
+<style>
+  .hol-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0 10px; }
+  .hol-btn {
+    display: inline-block;
+    padding: 11px 18px;
+    border: 2px solid var(--navy);
+    text-decoration: none;
+    font-weight: 700;
+    color: inherit;
+  }
+  .hol-btn--primary { background: var(--navy); color: #fff; }
+  .hol-btn:hover { text-decoration: underline; }
+  .hol-hint { color: var(--grey-1); font-size: 15px; margin: 0 0 30px; max-width: 46em; }
+  .hol-hint code { font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 14px; }
+
+  .hol-year { margin: 34px 0; }
+  .hol-year h2 { display: flex; align-items: baseline; gap: 12px; margin: 0 0 10px; }
+  .hol-year__count {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--grey-1);
+  }
+
+  .hol-table { width: 100%; border-collapse: collapse; }
+  .hol-table th {
+    text-align: start;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    border-bottom: 2px solid var(--black);
+    padding: 8px 10px 8px 0;
+  }
+  .hol-table td { border-bottom: 1px solid var(--grey-2); padding: 10px 10px 10px 0; vertical-align: top; }
+  .hol-table tr.is-movable td { background: var(--grey-3); }
+
+  .hol-date { white-space: nowrap; font-weight: 700; }
+  .hol-wd { font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 14px; color: var(--grey-1); }
+  .hol-art { font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; color: var(--grey-1); white-space: nowrap; }
+  .hol-ka { display: block; font-size: 15px; color: var(--grey-1); }
+  .hol-tag {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 1px 7px;
+    background: var(--yellow);
+    color: var(--black);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .hol-section { margin: 40px 0; max-width: 46em; }
+  .tool-foot {
+    margin-top: 36px;
+    padding-top: 16px;
+    border-top: 1px solid var(--grey-2);
+    color: var(--grey-1);
+    font-size: 15px;
+  }
+
+  html[data-theme='dark'] .hol-table tr.is-movable td { background: transparent; }
+
+  @media (max-width: 560px) {
+    .hol-table th:nth-child(4), .hol-table td:nth-child(4) { display: none; }
+    .hol-btn { flex: 1 1 auto; text-align: center; }
+  }
+</style>
