@@ -86,42 +86,42 @@ If your work falls outside these classifications, check carefully before applyin
 Applications are submitted to the **Public Service Development Agency of Georgia**. The document set depends on your category.
 
 **A. IT labour migrant registered in the Ministry system:** 
-1. application (including the unique registration code assigned by the State Employment Promotion Agency); 
-2. passport copy; 
-3. proof of lawful stay in Georgia; 
-4. document confirming **at least two years of labour or economic activity in the IT sector**; 
-5. document confirming annual remuneration of at least the **GEL equivalent of USD 25,000** during the previous 12 months (supported by at least two payments received at intervals of no less than 30 days); 
-6. **decision granting the right to work in Georgia; 
-7. 3×4 colour photo (electronic format); 
-8. state fee receipt.
+- application (including the unique registration code assigned by the State Employment Promotion Agency); 
+- passport copy; 
+- proof of lawful stay in Georgia; 
+- document confirming **at least two years of labour or economic activity in the IT sector**; 
+- document confirming annual remuneration of at least the **GEL equivalent of USD 25,000** during the previous 12 months (supported by at least two payments received at intervals of no less than 30 days);
+- decision granting the right to work in Georgia; 
+- 3×4 colour photo (electronic format); 
+- state fee receipt.
 
 **B. IT entrepreneur with Small Business Status:** 
-1. application (including the **unique code assigned by the State Employment Promotion Agency**); 
-2.  documents confirming **Small Business Status and the carrying out of qualifying IT activities**; 
-3. passport copy; 
-4. proof of lawful stay in Georgia; 
-5. document confirming annual remuneration of at least the GEL equivalent of USD 25,000 during the previous 12 months (supported by at least two payments received at intervals of no less than 30 days); 
-6. **decision granting the right to work in Georgia (unless verified electronically by the Agency)**; 
-7. 3×4 colour photo (electronic format); 
-8. state fee receipt.
+- application (including the **unique code assigned by the State Employment Promotion Agency**); 
+-  documents confirming **Small Business Status and the carrying out of qualifying IT activities**; 
+- passport copy; 
+- proof of lawful stay in Georgia; 
+- document confirming annual remuneration of at least the GEL equivalent of USD 25,000 during the previous 12 months (supported by at least two payments received at intervals of no less than 30 days); 
+- **decision granting the right to work in Georgia (unless verified electronically by the Agency)**; 
+- 3×4 colour photo (electronic format); 
+- state fee receipt.
 
 **C. Representative or manager of an international IT company:** 
-1. application (including the **unique code assigned by the State Employment Promotion Agency**); 
-2. passport copy; 
-3. proof of lawful stay in Georgia; 
-4. document confirming authority to manage or represent the International IT Company; 
-5. **decision granting the right to work in Georgia**; 
-6. 3×4 colour photo (electronic format); 
-7. state fee receipt.
+- application (including the **unique code assigned by the State Employment Promotion Agency**); 
+- passport copy; 
+- proof of lawful stay in Georgia; 
+- document confirming authority to manage or represent the International IT Company; 
+- **decision granting the right to work in Georgia**; 
+- 3×4 colour photo (electronic format); 
+- state fee receipt.
 
 **D. Family members** of an IT Residence Permit holder: 
-1. application; 
-2. passport copy; 
-3. proof of lawful stay in Georgia; 
-4. a **copy of the principal applicant's IT Residence Permit**; 
-5. a document confirming the **family relationship**; 
-6. 3×4 colour photograph (electronic format); 
-7. state fee receipt. 
+- application; 
+- passport copy; 
+- proof of lawful stay in Georgia; 
+- a **copy of the principal applicant's IT Residence Permit**; 
+- a document confirming the **family relationship**; 
+- 3×4 colour photograph (electronic format); 
+- state fee receipt. 
 
 See the **[family reunification residence permit](/en/family-reunification-residence-permit-georgia)** guide for how family status works more broadly.
 
