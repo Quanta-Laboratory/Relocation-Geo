@@ -5,8 +5,8 @@ parent: run-a-business-in-georgia
 lang: "en"
 notice: 'Self-employed foreigners: <strong>Ordinance No 321 of 9 July 2026</strong> changed how the <strong>right to work</strong> is obtained — you must now apply <strong>in person</strong> and pass a <strong>compulsory video interview</strong>, and a turnover test applies. The exemption for serving foreign clients does <strong>not</strong> cover an Individual Entrepreneur who needs a residence permit to stay lawfully. <a href="/en/right-to-work-georgia">Read more</a>.'
 summary: "Georgia allows a foreign national to register an Individual Entrepreneur (IE) without travelling to the country, by issuing a notarised and apostilled Power of Attorney to a representative who completes the registration at the Public Service Hall. Registration itself usually takes 1–5 working days once documents are in Georgia; the full process, including courier delivery, translation and notarisation, typically takes 1–3 weeks."
-reviewed: 2026-07-12
-checked: 2026-07-12
+reviewed: 2026-07-13
+checked: 2026-07-13
 sources:
   - name: "Government Ordinance No 321 of 9 July 2026 — right-to-work procedure (Georgian original)"
     url: "https://matsne.gov.ge/ka/document/view/6940189"
@@ -31,6 +31,8 @@ faq:
     a: "Registration at the Public Registry usually takes 1–5 working days after the documents are received in Georgia. Including courier delivery of the originals, translation and notarisation, the full process typically takes 1–3 weeks."
   - q: "How much does it cost?"
     a: "Registration of an Individual Entrepreneur at the Public Service Hall is provided free of charge for the standard timeframe; an expedited same-day service carries a higher fee. Separate costs apply for notarisation and apostille in your country, international courier delivery, and translation and notarisation of the documents in Georgia. Confirm current service fees with the Public Service Hall or the National Agency of Public Registry."
+  - q: "Can I manage the Individual Entrepreneur from abroad after registering?"
+    a: "Only partly, and this catches people out. A representative under a Power of Attorney can complete the registration, but running the business afterwards needs a Georgian mobile number: government and financial services authenticate you with a one-time code sent by SMS to a local number. That gates the Revenue Service portal (rs.ge) — where you activate the taxpayer account, apply for Small Business Status and file the monthly declaration due even in months with no income — the Public Service Hall e-services, and your business bank account. Plan to get a local SIM or eSIM before you try to activate the tax account or open the bank account."
   - q: "Can I apply for Small Business status remotely?"
     a: "Yes. After the IE is registered, an application for Small Business status can be submitted through the Revenue Service of Georgia. If granted, it applies a 1% tax rate on turnover up to GEL 500,000 per year, subject to the conditions in the Tax Code."
   - q: "Do I need a work permit as a foreign entrepreneur?"
@@ -103,6 +105,20 @@ Service fees and timeframes are set by the National Agency of Public Registry an
 Once registered, you receive an identification number and can [open a business bank account](/en/banking-in-georgia), issue invoices, sign contracts and receive payments.
 
 Most foreign entrepreneurs then apply for **Small Business status** through the **Revenue Service of Georgia**, if they qualify. This regime applies a **1% tax on turnover up to GEL 500,000 per year**, subject to the conditions in the Tax Code. See [personal income tax in Georgia](/en/personal-income-tax-georgia) for the qualifying conditions.
+
+## You will need a Georgian phone number to actually run the business
+
+Registering the Individual Entrepreneur remotely is the easy part. **Operating it afterwards is what a Georgian mobile number gates**, and this catches people out — the company exists, but the owner cannot do anything with it.
+
+Georgian government and financial services authenticate you by **SMS one-time code sent to a Georgian number**. In practice that means a local number is what stands between you and:
+
+- the **Revenue Service portal (rs.ge)** — where you activate your taxpayer account, apply for [Small Business Status](/en/small-business-status-georgia), and file the **monthly declaration** that is due even in months with no income;
+- **Public Service Hall** and government e-services, which use the same verification pattern;
+- your **business bank account** — banks send transaction confirmations and login codes to a local number, and a foreign number is often not accepted at all.
+
+A representative acting under your Power of Attorney can complete the **registration**. What they cannot do for you indefinitely is **be you** in these systems: the declarations, the tax account and the bank access are yours to operate, and each of them wants a Georgian number.
+
+So treat the number as part of the setup, not an afterthought. If you registered remotely and have not yet been to Georgia, plan to **get a local SIM or eSIM on your first visit** — before you try to activate the tax account or open the bank account. An **eSIM** can often be arranged without a physical shop, which is the usual route for people still abroad. The options are in the **[Mobile & Internet guide](/en/mobile-and-internet-in-georgia)**.
 
 ## The right to work: what changed for the self-employed
 
