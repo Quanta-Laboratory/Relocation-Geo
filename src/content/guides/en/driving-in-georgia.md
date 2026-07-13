@@ -25,7 +25,7 @@ faq:
 order: 4
 ---
 
-Georgia is straightforward for foreign drivers in the short term, but there are clear rules once you settle, register a car or stay beyond a year. This guide covers using your licence, swapping it for a Georgian one, and what to do with a car you bring in or buy locally.
+Georgia is straightforward for foreign drivers in the short term, but there are clear rules once you settle, register a car or stay beyond a year. 
 
 ## Driving on a foreign licence
 
