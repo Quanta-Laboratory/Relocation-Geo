@@ -59,3 +59,4 @@ Once you have somewhere to live, a handful of practical steps get daily life run
 - **[Getting a Personal Number & Tax ID](/en/personal-number-and-tax-id-georgia)** — the 11-digit personal number that comes with your Georgian ID and residence permit.
 - **[Driving in Georgia](/en/driving-in-georgia)** — driving on a foreign licence, exchanging it, and registering a car.
 - **[Cost of Living in Georgia](/en/cost-of-living-in-georgia)** — realistic monthly budgets for singles, couples and families.
+- **[Public Holidays in Georgia](/en/public-holidays-in-georgia)** — the 18 statutory days, the moveable Orthodox Easter block, and what actually closes.

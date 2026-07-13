@@ -90,7 +90,7 @@
       {
         "path": "content/guides/en/register-individual-entrepreneur-remotely.md",
         "title": "How to Register an Individual Entrepreneur Remotely (2026)",
-        "reviewed": "2026-07-12",
+        "reviewed": "2026-07-13",
         "checked": "2026-07-13",
         "lang": "en"
       },
@@ -442,7 +442,7 @@
       {
         "path": "content/guides/en/register-individual-entrepreneur-remotely.md",
         "title": "How to Register an Individual Entrepreneur Remotely (2026)",
-        "reviewed": "2026-07-12",
+        "reviewed": "2026-07-13",
         "checked": "2026-07-13",
         "lang": "en"
       },
@@ -575,7 +575,7 @@
       {
         "path": "content/guides/en/register-individual-entrepreneur-remotely.md",
         "title": "How to Register an Individual Entrepreneur Remotely (2026)",
-        "reviewed": "2026-07-12",
+        "reviewed": "2026-07-13",
         "checked": "2026-07-13",
         "lang": "en"
       },
@@ -701,6 +701,22 @@
         "lang": "en"
       }
     ],
+    "1155567": [
+      {
+        "path": "content/guides/en/employing-staff-in-georgia.md",
+        "title": "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)",
+        "reviewed": "2026-07-12",
+        "checked": "2026-07-13",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/public-holidays-in-georgia.md",
+        "title": "Public Holidays in Georgia (2026)",
+        "reviewed": "2026-07-13",
+        "checked": "2026-07-13",
+        "lang": "en"
+      }
+    ],
     "32830": [
       {
         "path": "content/guides/en/admissions-and-enrolment-georgia.md",
@@ -738,15 +754,6 @@
         "path": "content/guides/en/virtual-zone-person-georgia.md",
         "title": "Virtual Zone Person Status in Georgia: 0% tax on exported IT",
         "reviewed": "2026-06-29",
-        "checked": "2026-07-13",
-        "lang": "en"
-      }
-    ],
-    "1155567": [
-      {
-        "path": "content/guides/en/employing-staff-in-georgia.md",
-        "title": "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)",
-        "reviewed": "2026-07-12",
         "checked": "2026-07-13",
         "lang": "en"
       }
