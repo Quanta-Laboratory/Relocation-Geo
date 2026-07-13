@@ -35,33 +35,38 @@ An **IT Residence Permit** is the residence permit granted to a **foreign citize
 
 ## Validity
 
-The IT Residence Permit is issued for **3 years** and may be **renewed**, provided the conditions for the permit continue to be met (in three-year steps, up to a maximum of twelve years). That makes it markedly more durable than the standard six-to-twelve-month work permit. After the twelve-year ceiling, a holder who qualifies can move onto a **[permanent residence permit](/en/permanent-residence-permit-georgia)** or another long-term basis.
+The IT Residence Permit is issued for **3 years** and may be extended for additional three-year periods, provided that the applicant continues to satisfy the statutory requirements for the relevant IT category (up to a maximum of twelve years). After the twelve-year ceiling, a foreign national may apply for another type of residence permit, including a  **[permanent residence permit](/en/permanent-residence-permit-georgia)** or another long-term basis provided the statutory requirements for that permit are met. 
 
 ## Who is eligible
 
-A foreigner qualifies if they fall under one of three categories — and their family members may apply on the same basis.
+The IT Residence Permit is available to the following categories of foreign nationals and their family members: 
 
-**A. IT employees.** A foreign citizen **employed in the IT sector**, registered in the unified database of the **Ministry of Internally Displaced Persons from the Occupied Territories, Labour, Health and Social Affairs** as a labour immigrant working in IT. This ties the permit to Georgia's wider **[right-to-work system](/en/right-to-work-georgia)**.
+**A. IT labour migrants.** 
+A foreign citizen **employed in the IT sector**, registered in the unified database of the **Ministry of Internally Displaced Persons from the Occupied Territories, Labour, Health and Social Affairs** as a labour immigrant. Applicants under this category must first obtain the **[right-to-work](/en/right-to-work-georgia)** before applying for an IT Residence Permit. 
 
-**B. IT entrepreneurs.** A foreigner registered in Georgia as an **[Individual Entrepreneur](/en/register-individual-entrepreneur-remotely) with Small Business Status**, carrying out activities in the IT sector as defined by the Government.
+**B. IT entrepreneurs.** 
+A foreigner registered in Georgia as an **[Individual Entrepreneur](/en/register-individual-entrepreneur-remotely) with Small Business Status**, carrying out activities in the IT sector as defined by the Government (see below). 
 
-**C. Representatives of international IT companies.** A **manager or authorised representative** of a company holding **international IT company** status and operating in the IT sector in Georgia.
+**C. Managers and  representatives of international IT companies.** 
+Foreign nationals authorised to manage or represent an organisation holding **International Company Status** in the information technology sector.
+
 
 ## Income and experience tests
 
-For the **employee (A)** and **entrepreneur (B)** categories, applicants must demonstrate:
+For applicants under categories **A** and **B**, the following additional requirements apply:
 
-- **at least two years** of experience in employment or economic activity in the IT sector; and
-- **income of at least the equivalent of USD 25,000** (in GEL) over the **previous year** from IT-related employment or activity.
+- at least **two years'** experience in labour or economic activity in the IT sector;
+- annual remuneration of at least the **GEL equivalent of USD 25,000** during the previous 12 months;
+- remuneration must be evidenced by **at least two payments**, received at intervals of **not less than 30 days**.
 
-A practical detail trips people up: the income must have been received **at least twice**, with a **minimum interval of 30 days between payments** — evidence of ongoing activity rather than a single deposit. Company representatives (C) submit proof of their authority instead of the income and experience tests.
+Applicants under the category C must submit documents confirming their authority to manage or represent the International Company (instead of the income and experience tests).
 
 ## What counts as the "IT sector"
 
-A person employed in the IT sector is defined as:
+For the purposes of the IT Residence Permit, a person working in the information technology sector is:
 
-- a foreigner whose activity falls under **code 25 and its sub-codes** of the International Standard Classification of Occupations (**ISCO-08**) of the ILO; or
-- a foreigner registered as an **Individual Entrepreneur with Small Business Status** whose activity falls under the following codes of the Georgian National Classification of Economic Activities:
+- a foreign national whose **occupation** falls under **ISCO-08 Major Group 25** (Information and Communications Technology Professionals) and its corresponding sub-codes; or
+- a foreign national registered in Georgia as an **Individual Entrepreneur with Small Business Status**, carrying out one of the following **economic activities** under the Georgian National Classification of Economic Activities:
 
 | Code | Activity |
 | --- | --- |
@@ -80,19 +85,53 @@ If your work falls outside these classifications, check carefully before applyin
 
 Applications are submitted to the **Public Service Development Agency of Georgia**. The document set depends on your category.
 
-**A. IT labour migrant registered in the Ministry system:** application (with the unique registration code from the Ministry's labour-migrant system); passport copy; proof of lawful stay; document confirming at least 2 years of IT experience; income certificate (USD 25,000 equivalent over the previous year, received at least twice, 30+ days apart); 3×4 colour photo; fee receipt.
+**A. IT labour migrant registered in the Ministry system:** 
+1. application (including the unique registration code assigned by the State Employment Promotion Agency); 
+2. passport copy; 
+3. proof of lawful stay in Georgia; 
+4. document confirming **at least two years of labour or economic activity in the IT sector**; 
+5. document confirming annual remuneration of at least the **GEL equivalent of USD 25,000** during the previous 12 months (supported by at least two payments received at intervals of no less than 30 days); 
+6. **decision granting the right to work in Georgia; 
+7. 3×4 colour photo (electronic format); 
+8. state fee receipt.
 
-**B. IT entrepreneur with Small Business Status:** application; documents confirming Small Business Status and IT activity; passport copy; proof of lawful stay; proof of 2 years of IT experience; income certificate (as above); 3×4 photo; fee receipt.
+**B. IT entrepreneur with Small Business Status:** 
+1. application (including the **unique code assigned by the State Employment Promotion Agency**); 
+2.  documents confirming **Small Business Status and the carrying out of qualifying IT activities**; 
+3. passport copy; 
+4. proof of lawful stay in Georgia; 
+5. document confirming annual remuneration of at least the GEL equivalent of USD 25,000 during the previous 12 months (supported by at least two payments received at intervals of no less than 30 days); 
+6. **decision granting the right to work in Georgia (unless verified electronically by the Agency)**; 
+7. 3×4 colour photo (electronic format); 
+8. state fee receipt.
 
-**C. Representative/manager of an international IT company:** application; passport copy; proof of lawful stay; document confirming authority to manage or represent the international IT company; 3×4 photo; fee receipt.
+**C. Representative or manager of an international IT company:** 
+1. application (including the **unique code assigned by the State Employment Promotion Agency**); 
+2. passport copy; 
+3. proof of lawful stay in Georgia; 
+4. document confirming authority to manage or represent the International IT Company; 
+5. **decision granting the right to work in Georgia**; 
+6. 3×4 colour photo (electronic format); 
+7. state fee receipt.
 
-**D. Family members** of an IT permit holder: application; passport copy; proof of lawful stay; a **copy of the main IT-sector holder's residence permit**; a document confirming the **family relationship**; 3×4 photo; fee receipt. See the **[family reunification residence permit](/en/family-reunification-residence-permit-georgia)** guide for how family status works more broadly.
+**D. Family members** of an IT Residence Permit holder: 
+1. application; 
+2. passport copy; 
+3. proof of lawful stay in Georgia; 
+4. a **copy of the principal applicant's IT Residence Permit**; 
+5. a document confirming the **family relationship**; 
+6. 3×4 colour photograph (electronic format); 
+7. state fee receipt. 
 
-All foreign documents must generally be **legalised or apostilled** and translated into Georgian and notarised, unless an exemption applies.
+See the **[family reunification residence permit](/en/family-reunification-residence-permit-georgia)** guide for how family status works more broadly.
+
+
+Documents issued abroad must generally be legalised or apostilled (unless an applicable international treaty provides otherwise) and translated into Georgian and notarised. Foreign documents may also be submitted electronically, without the original, where the authenticity of the apostille or legalisation can be verified through an official electronic register or another recognised verification method.
+
 
 ## The absence rule
 
-The IT permit is built around **real residence**. It is **terminated if the holder is absent from Georgia for 183 days or more in any 12-month period**, absent an applicable exception. If your work involves long stretches abroad, keep a careful record of your days in and out of the country — the same discipline that matters for [tax residency](/en/tax-residency-georgia).
+The IT permit may **terminated if the holder is absent from Georgia for 183 days or more in any 12-month period**, unless an exception provided by Georgian law applies. If your work involves extended periods abroad, it is advisable to keep a  record of your entries to and departures from Georgia, as this may also be relevant for determining [tax residency](/en/tax-residency-georgia). 
 
 ## Processing time and state fees
 
@@ -101,18 +140,16 @@ The IT permit is built around **real residence**. It is **terminated if the hold
 | 90 calendar days | GEL 500 |
 | 60 calendar days | GEL 750 |
 
-## Georgian ID (residence) card
+## Georgian residence (ID) card
 
-After obtaining the permit, a foreign national may apply for a **Georgian ID (residence) card** through the Public Service Hall or the Public Registry. The fee depends on the processing time:
+After obtaining the IT Residence Permit, a foreign national must apply for a **Georgian residence (ID) card** within one month. Applications may be submitted  through the Public Service Hall or a territorial office of the Public Service Development Agency. 
 
-| Issuance time | Fee |
-| --- | --- |
-| 10 working days | GEL 60 |
-| 5 working days | GEL 80 |
-| 3 working days | GEL 100 |
-| 2 working days | GEL 120 |
-| Same day | GEL 150 |
+The fee depends on the processing time:
 
-## Legal sources
-
-This guide is based on the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government Resolution No. 520 of 1 September 2014** on the procedure for issuing residence permits. Eligibility classifications and fees can change, so confirm the current position with the **Public Service Development Agency** before applying.
+| Issuance time   | Fee     |
+| --------------- | ------- |
+| 10 working days | GEL 60  |
+| 5 working days  | GEL 80  |
+| 3 working days  | GEL 100 |
+| 2 working days  | GEL 120 |
+| Same day        | GEL 150 |

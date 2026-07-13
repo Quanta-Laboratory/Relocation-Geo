@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/guides/en/economic-activities-registry-georgia.md",
+                "file": "src/content/guides/en/it-residence-permit-georgia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "economic-activities-registry-georgia"
+              "title": "it-residence-permit-georgia"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "az",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,6 +197,18 @@
   },
   "active": "f8523bfc3103811e",
   "lastOpenFiles": [
+    "en/right-to-work-georgia.md",
+    "src/content/guides/en/it-residence-permit-georgia.md",
+    "src/content/guides/en/work-residence-permit-georgia.md",
+    "src/content/guides/en/family-reunification-residence-permit-georgia.md",
+    "worker/index.ts",
+    "worker",
+    "src/pages/en/small-business-activity-checker.astro",
+    "src/data/small-business-activity-data.ts",
+    "src/data/activity-classifier.json",
+    "scripts/build_activity_dataset.py",
+    "src/content/guides/en/everyday-essentials-georgia.md",
+    "src/content/guides/en/economic-activities-registry-georgia.md",
     "src/content/guides/en/driving-in-georgia.md",
     "src/content/guides/en/diplomatic-visa-georgia.md",
     "src/content/guides/en/data-integrity-standard.md",
@@ -213,26 +226,14 @@
     "scripts/matsne_monitor/source_index.json",
     "scripts/matsne_monitor/redaction_state.json",
     "scripts/matsne_monitor/redaction_check.py",
-    "scripts/matsne_monitor/parliament_state.json",
-    "scripts/matsne_monitor/parliament_monitor.py",
     "src/content/guides/en/about.md",
-    "src/pages/en/georgia-entry-checker.astro",
-    "src/data/georgia-entry-data.ts",
-    "src/data",
     "src/content/guides/en/georgia-in-numbers.md",
     "src/content/guides/en/entry-rules-by-citizenship-georgia.md",
     "src/content/guides/en/banking-in-georgia.md",
     "src/content/guides/en/where-to-live-in-georgia.md",
     "src/content/guides/en/vat-in-georgia.md",
     "src/content/guides/en/use-of-materials.md",
-    "src/content/guides/en/terminating-an-individual-entrepreneur-georgia.md",
-    "src/content/guides/en/studying-in-georgia.md",
-    "src/content/guides/en/special-tax-regimes-georgia.md",
-    "src/content/guides/en/small-business-status-georgia.md",
-    "src/content/guides/en/schools-in-georgia-for-children.md",
-    "src/content/guides/en/run-a-business-in-georgia.md",
     "public/og-default.png",
-    "package-lock.json",
     "Untitled.canvas"
   ]
 }
