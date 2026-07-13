@@ -152,6 +152,14 @@ html[data-theme="dark"] .hub__icon{color:var(--blue);}
 
 /* Article two-column */
 .cols{display:grid; grid-template-columns:1fr 2fr; gap:0 50px;}
+/* Grid items default to min-width:auto, which means they refuse to shrink below
+   their min-content width. A table with white-space:nowrap has a min-content width
+   of several hundred pixels, so .prose demanded ~850px, the grid track grew to
+   match, and the whole page overflowed sideways on phones — the table's own
+   overflow-x:auto never got a chance to scroll, because nothing was squeezing it.
+   min-width:0 lets the item shrink to the track; the table then scrolls inside
+   its own box, which is what was intended all along. */
+.cols > *{min-width:0;}
 @media(max-width:740px){.cols{grid-template-columns:1fr;}}
 .contents{border-top:2px solid var(--black); padding-top:15px; align-self:start; position:sticky; top:15px;}
 .contents h2{font-family:var(--font-mono); font-weight:500; font-size:13px; text-transform:uppercase; letter-spacing:1px; margin:0 0 10px;}
