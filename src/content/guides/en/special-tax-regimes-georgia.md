@@ -4,15 +4,15 @@ category: "tax"
 lang: "en"
 summary: "Georgia offers three simplified tax regimes for individuals and small entrepreneurs instead of the standard system. Micro Business Status taxes qualifying activity at 0% up to GEL 30,000 of annual turnover. Small Business Status taxes turnover at 1% (rising to 3% above GEL 500,000). Fixed Taxpayer Status replaces income-based tax with a set monthly amount for a short list of specific activities such as bakeries, hairdressing and car repair. Each regime is granted by the Revenue Service on application, keeps its own conditions and excluded activities, and does not remove VAT obligations. This overview maps the three regimes and links to the detailed guide for each."
 reviewed: 2026-07-10
-checked: 2026-07-11
+checked: 2026-07-13
 order: 5
 sources:
   - name: "Tax Code of Georgia (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/1043717"
-  - name: "Government Resolution No. 415 of 29 December 2010 (activities prohibited for special tax regimes)"
-    url: "https://www.matsne.gov.ge/"
-  - name: "Order of the Minister of Finance No. 999 of 31 December 2010 (rules for granting Micro and Small Business Status)"
-    url: "https://www.matsne.gov.ge/"
+  - name: "Government Ordinance No 415 of 29 December 2010 — On Special Taxation Regimes (prohibited activities and excluded income; Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/1164635"
+  - name: "Order of the Minister of Finance No 999 of 31 December 2010 — On the Application of Special Taxation Regimes (procedure, declaration form, expense journal; Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/1168081"
   - name: "Revenue Service of Georgia"
     url: "https://rs.ge/"
 faq:
@@ -29,6 +29,10 @@ faq:
 ---
 
 Georgia's tax system is known for its **simplicity**. Alongside the standard rules, Georgian legislation provides **special tax regimes** for individuals and small entrepreneurs, allowing small-scale activity to be taxed under simplified conditions rather than the full standard system.
+
+> **Not sure whether your activity qualifies?** The prohibited-activities list is longer than
+> most people expect — consulting is on it. Search your activity code in the
+> **[Small Business Activity Checker](/en/small-business-activity-checker)**.
 
 Rather than applying one set of rules to every business, the law creates a **graduated structure** of three regimes. A person can start under the most simplified conditions and move up as the business grows, so that taxation rises **in proportion to the size of the activity** instead of imposing heavy obligations at the earliest stage.
 

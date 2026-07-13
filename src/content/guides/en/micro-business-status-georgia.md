@@ -5,15 +5,15 @@ parent: special-tax-regimes-georgia
 lang: "en"
 summary: "Micro Business Status is a special tax regime for an individual who carries out small-scale economic activity personally, without hired labour, and whose qualifying gross income does not exceed GEL 30,000 in a calendar year. Qualifying income is exempt from personal income tax (0%). Registration as an Individual Entrepreneur is not required, but a VAT payer cannot hold the status, and a list of prohibited activities — including trade, licensed activities, and medical, legal, auditing or consulting work — is excluded. Some income types (rent, interest, dividends, royalties, property gains and similar) are always taxed under the ordinary rules and do not count toward the GEL 30,000 limit. Holders file an annual income tax declaration by 1 April but pay no current tax during the year; if the business grows beyond GEL 30,000 it can move to Small Business Status."
 reviewed: 2026-07-10
-checked: 2026-07-11
+checked: 2026-07-13
 order: 2
 sources:
   - name: "Tax Code of Georgia (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/1043717"
-  - name: "Government Resolution No. 415 of 29 December 2010 (activities prohibited for special tax regimes)"
-    url: "https://www.matsne.gov.ge/"
-  - name: "Order of the Minister of Finance No. 999 of 31 December 2010 (rules for granting Micro and Small Business Status)"
-    url: "https://www.matsne.gov.ge/"
+  - name: "Government Ordinance No 415 of 29 December 2010 — On Special Taxation Regimes (prohibited activities and excluded income; Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/1164635"
+  - name: "Order of the Minister of Finance No 999 of 31 December 2010 — On the Application of Special Taxation Regimes (procedure, declaration form, expense journal; Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/1168081"
   - name: "Revenue Service of Georgia"
     url: "https://rs.ge/"
 faq:

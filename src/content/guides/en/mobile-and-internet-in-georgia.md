@@ -3,9 +3,9 @@ title: "Mobile & Internet in Georgia"
 category: "live"
 parent: everyday-essentials-georgia
 lang: "en"
-summary: "Georgia has cheap, fast and widely available connectivity. Three main operators — Magti, Silknet and Cellfie — sell prepaid SIMs on a passport, mobile data is inexpensive, and home fibre internet is common in cities. Coverage is strong in urban areas and along main routes."
-reviewed: 2026-06-27
-checked: 2026-07-11
+summary: "Georgia has cheap, fast and widely available connectivity. Three main operators — Magti, Silknet and Cellfie — sell prepaid SIMs on a passport, mobile data is inexpensive, and home fibre internet is common in cities. A Georgian number is more than a convenience: government and banking services authenticate by SMS code sent to a local number, so it gates the Revenue Service portal, the Public Service Hall and your bank account — which matters if you registered a business remotely."
+reviewed: 2026-07-13
+checked: 2026-07-13
 sources:
   - name: "Georgian National Communications Commission (ComCom)"
     url: "https://comcom.ge/en/"
@@ -18,6 +18,8 @@ faq:
     a: "Yes. Fixed fibre broadband is widely available in cities at low prices, mainly through Magti and Silknet. Connection in an apartment is usually fast to arrange."
   - q: "Is there eSIM support?"
     a: "The main operators increasingly support eSIM, which is convenient for arriving travellers. Check current eSIM availability and plans directly with the operator."
+  - q: "Do I need a Georgian number to run a business or use government services?"
+    a: "In practice yes. Georgian government and financial services authenticate you with a one-time code sent by SMS to a Georgian number, and a foreign number is often not accepted. That means a local number gates the Revenue Service portal (rs.ge) — including the monthly declaration that is due even with no income — the Public Service Hall e-services, and your bank account. If you registered an Individual Entrepreneur remotely through a representative, they can complete the registration but cannot operate the tax account or bank access for you indefinitely. Get the SIM or eSIM before the bank and the tax portal, not after."
   - q: "Who regulates telecoms in Georgia?"
     a: "The Georgian National Communications Commission (ComCom) regulates the sector. Operators set their own retail plans, which change frequently."
 order: 3
@@ -35,7 +37,21 @@ Three operators dominate the market: **Magti, Silknet and Cellfie**. You can buy
 
 ## eSIM
 
-The main operators increasingly **support eSIM**, which is handy if your phone is compatible — you can sometimes set up a line without a physical SIM. Availability and plans vary, so confirm directly with the operator.
+The main operators increasingly **support eSIM**, which is handy if your phone is compatible — you can sometimes set up a line without a physical SIM. Availability and plans vary, so confirm directly with the operator. An eSIM is also the usual answer for people who registered a business in Georgia **before** arriving and now need a local number to operate it — see the section below.
+
+## The number is your key to government and banking
+
+This is the part most guides skip, and it is the reason to get a Georgian number **early** rather than when it is convenient.
+
+Georgian government and financial services authenticate you with a **one-time code sent by SMS to a Georgian number**. A foreign number is frequently not accepted. In practice, a local number is what gates:
+
+- the **Revenue Service portal (rs.ge)** — activating your taxpayer account, applying for [Small Business Status](/en/small-business-status-georgia), and filing the **monthly declaration**, which is due even in months with no income;
+- **Public Service Hall** and government e-services;
+- your **bank account** — login codes and transaction confirmations go to a local number.
+
+The trap is specific to people who set things up remotely. You can [register an Individual Entrepreneur from abroad](/en/register-individual-entrepreneur-remotely) through a Power of Attorney, and a representative can complete that registration for you. But they cannot **be you** in these systems afterwards: the tax account, the declarations and the bank access are yours to operate — and each of them wants a Georgian number.
+
+So if you are arriving to finish a business setup, get the SIM or eSIM **first**, before the bank and before the tax portal. It takes minutes and unblocks everything downstream.
 
 ## Home internet
 

@@ -4,7 +4,7 @@ category: "immigration"
 lang: "en"
 summary: "Georgian citizenship is acquired either by birth or by naturalisation, and naturalisation is granted by the President of Georgia on the recommendation of the Public Service Development Agency (PSDA) and the Citizenship Commission. The main routes are regular naturalisation (for adults who have lawfully resided in Georgia for the last 10 consecutive years, know the state language, the history of Georgia and the basics of law, and have a job, property or business here), simplified naturalisation (for a spouse of a Georgian citizen after 5 years of continuous lawful residence, and for repatriates), naturalisation by way of exception (granted by the President for exceptional merit or state interest, including major investment), and restoration for former citizens. Georgia is in principle a single-citizenship country: acquiring a foreign citizenship normally causes loss of Georgian citizenship, and dual citizenship is allowed only in limited cases — naturalisation by way of exception, or where the person obtained the state's consent to retain Georgian citizenship before naturalising abroad. This guide summarises the framework under the Organic Law on Georgian Citizenship; confirm current requirements, fees and the dual-citizenship position with the PSDA before acting."
 reviewed: 2026-07-10
-checked: 2026-07-11
+checked: 2026-07-13
 order: 4
 sources:
   - name: "Organic Law of Georgia on Georgian Citizenship — Legislative Herald of Georgia (matsne), consolidated English text"

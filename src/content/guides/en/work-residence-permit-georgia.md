@@ -3,16 +3,18 @@ title: "Work Residence Permit in Georgia (2026)"
 category: "immigration"
 parent: guide-to-residence-permits
 lang: "en"
-notice: 'Some foreign nationals must first obtain the <strong>right to work</strong> from the Ministry of Labour before carrying out business or applying for a residence permit in Georgia. <a href="/en/right-to-work-georgia">Check whether it applies to you</a>.'
-summary: "The work residence permit lets a foreign national live in Georgia on the basis of labour activity here — employment with a Georgian employer or self-employment/entrepreneurial activity. The applicant must show monthly income of at least five times the subsistence minimum and employer turnover of at least GEL 50,000 per applicant (GEL 35,000 for education and medical institutions). It is usually issued for 6 months to 1 year and is renewable; state fees run from GEL 300 (30 days) to GEL 600 (10 days). Family members can join through family reunification."
-reviewed: 2026-07-09
-checked: 2026-07-11
+notice: 'Two things changed on <strong>9 July 2026</strong> (Ordinance No 317, in force the next day): a newly registered company with <strong>no more than three foreign employees</strong> can skip the turnover certificate for a first work residence permit — but that permit is then issued for only <strong>six months</strong>. Separately, most foreign nationals must first obtain the <strong>right to work</strong> from the Ministry of Labour. <a href="/en/right-to-work-georgia">Check whether it applies to you</a>.'
+summary: "The work residence permit lets a foreign national live in Georgia on the basis of labour activity here — employment with a Georgian employer or self-employment/entrepreneurial activity. The applicant must show monthly income of at least five times the subsistence minimum and employer turnover of at least GEL 50,000 per applicant (GEL 35,000 for education and medical institutions). Ordinance No 317 of 9 July 2026 added an alternative-evidence route for that turnover test and a relief for young companies, at the price of a six-month permit. It is usually issued for 6 months to 1 year and is renewable; state fees run from GEL 300 (30 days) to GEL 600 (10 days). Family members can join through family reunification."
+reviewed: 2026-07-12
+checked: 2026-07-13
 order: 4
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons"
     url: "https://matsne.gov.ge/en/document/view/2278806"
   - name: "Government Resolution No 520 of 1 September 2014 (procedure for issuing residence permits)"
-    url: "https://matsne.gov.ge/en/document/view/2482330"
+    url: "https://matsne.gov.ge/en/document/view/2483468"
+  - name: "Government Ordinance No 317 of 9 July 2026 — amending Resolution No 520 (Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/6939703"
   - name: "Public Service Development Agency of Georgia"
     url: "https://sda.gov.ge/en/"
   - name: "Law of Georgia on Labour Migration"
@@ -23,7 +25,9 @@ faq:
   - q: "What are the income and turnover thresholds?"
     a: "The applicant must show monthly income or remuneration of at least five times the average subsistence minimum defined in Georgia, and that the annual turnover of the employing or founded enterprise is at least GEL 50,000 per applying foreign employee — or at least GEL 35,000 per employee for education and medical institutions. If employment documents do not sufficiently prove income, funds held in the applicant's own bank account may be accepted instead."
   - q: "How long is the permit valid?"
-    a: "A work residence permit is usually issued for 6 months to 1 year. It may be renewed if the foreigner continues their labour activity in Georgia and all legal conditions remain fulfilled."
+    a: "A work residence permit is usually issued for 6 months to 1 year, and may be renewed if the foreigner continues their labour activity and the legal conditions remain fulfilled. One case is fixed at the short end: where a young company relies on the turnover relief introduced by Ordinance No 317 of 9 July 2026, the first work residence permit is issued for six months."
+  - q: "My company is new and has no turnover yet. Can I still apply?"
+    a: "Ordinance No 317 of 9 July 2026 added a relief for exactly this. Where the enterprise has no more than three foreign employees and no more than three months have passed since it was founded or registered, and the work residence permit is being issued for the first time without the certificate, the turnover certificate is not required — instead the person submits a certificate issued by the enterprise stating the number of foreign employees. The trade-off is that the permit is then issued for six months rather than up to a year. Separately, where it is objectively impossible to obtain the standard certificates, any other evidence that indisputably proves the required turnover may be submitted."
   - q: "How much does it cost and how long does it take?"
     a: "State fees depend on the processing speed: GEL 300 for a 30-day review, GEL 450 for 20 days, and GEL 600 for 10 days. After the permit is granted, the Georgian ID (residence) card costs a further GEL 60 (10 working days) up to GEL 150 (same-day issuance)."
   - q: "Can my family come with me?"
@@ -53,6 +57,16 @@ To qualify, the applicant must demonstrate two things:
 - **Income:** monthly income or remuneration from the labour or entrepreneurial activity of **at least five times the average subsistence minimum** defined in Georgia. If the employment documents do not sufficiently prove legal income, **funds held in the applicant's personal bank account** (shown by a bank statement) may be accepted instead, provided the amount corresponds to at least five times the subsistence minimum per month for the duration of the requested permit.
 - **Employer / company turnover:** a Revenue Service document confirming that the **annual turnover** of the employer company, or of the enterprise the foreigner established, is **at least GEL 50,000 per applying foreign employee**. For **education and medical institutions** the threshold is **at least GEL 35,000 per employee**. If the employer or company is **not a VAT payer**, a certificate from a competent authority may be submitted instead, confirming both the non-VAT status and that turnover for the previous continuous 12 months met the relevant GEL 50,000 / GEL 35,000 figure.
 
+### What changed on 9 July 2026
+
+**Ordinance No 317**, in force from 10 July 2026, softened the turnover test in two ways — and attached a condition to the second.
+
+**An alternative-evidence route.** Where it is **objectively impossible** to produce the standard turnover certificates, the applicant may instead submit **any other certificate or evidence that indisputably establishes** the required turnover — GEL 50,000 per foreign national seeking the permit, or GEL 35,000 in the case of an educational or medical institution. This is a route of last resort, not a free choice: the impossibility has to be real.
+
+**A relief for young companies — at the price of a six-month permit.** The turnover certificate is **not required at all** where the enterprise has **no more than three foreign employees**, **no more than three months** have passed since it was founded or registered, and the work residence permit is being issued **for the first time** without that certificate. In place of it, the applicant submits a certificate **issued by the enterprise itself** stating how many foreign employees it has. The catch is written into the same provision: in this case the work residence permit is issued for **six months**, not for the usual period.
+
+**A category check for managerial roles.** Where the application rests on performing managerial or governance functions in a **Category I, II or III enterprise or a public-interest entity**, the applicant must submit information issued by the **accounting, reporting and audit supervision service**, drawn from the financial statements published on **reportal.ge**, confirming the enterprise's size category or its public-interest status.
+
 ## Required documents
 
 Applications are submitted to the **Public Service Development Agency of Georgia**. The typical document set is:
@@ -62,8 +76,10 @@ Applications are submitted to the **Public Service Development Agency of Georgia
 - **proof of lawful stay** in Georgia (for example a visa or entry stamp);
 - **proof of employment or entrepreneurial activity** — an employment contract with a Georgian employer, or documents confirming entrepreneurial activity (IE registration, company participation), or another document confirming engagement in work or business;
 - **proof of income** — a document showing monthly income of at least five times the subsistence minimum, or a qualifying bank statement;
-- **employer / company turnover confirmation** from the Revenue Service (the GEL 50,000 / GEL 35,000 figures above);
+- **employer / company turnover confirmation** from the Revenue Service (the GEL 50,000 / GEL 35,000 figures above), or one of the substitutes described in the section above;
 - a **statement of the number of foreign employees** at the employer company or the foreigner's enterprise;
+- where the applicant carries out one of the activities covered by **Article 1(4) and (5) of the Law on Labour Migration**, a **document confirming that activity** — a requirement added by Ordinance No 317;
+- for managerial or governance roles in a Category I–III enterprise or a public-interest entity, the **enterprise-category confirmation** based on reportal.ge data;
 - a **colour photograph, 3×4**, in electronic format;
 - the **receipt** for the residence-permit service fee.
 
@@ -72,6 +88,8 @@ Foreign documents must generally be **legalised or apostilled** and translated i
 ## Duration
 
 A work residence permit is usually issued for **6 months to 1 year**. It **may be renewed** if the foreigner continues their labour activity in Georgia and all legal conditions remain fulfilled.
+
+Since Ordinance No 317, one case is fixed at the bottom of that range: where a young company relies on the **turnover relief** described above, the first work residence permit is issued for **six months**. Plan the renewal accordingly — by then the company will normally be expected to evidence turnover in the ordinary way.
 
 ## Processing time and state fees
 
@@ -101,4 +119,6 @@ Family members of the foreign worker may also obtain residence permits — not o
 
 ## Legal sources
 
-This guide is based on the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government Resolution No 520 of 1 September 2014** on the procedure for issuing residence permits. Thresholds, fees and processing times are periodically updated, so confirm the current requirements with the **Public Service Development Agency** before applying.
+This guide is based on the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government Resolution No 520 of 1 September 2014** on the procedure for issuing residence permits, as amended by **Government Ordinance No 317 of 9 July 2026** (in force 10 July 2026). That ordinance has **no official English translation**; the account of the July 2026 changes above is our reading of the Georgian original, which is the authoritative text.
+
+Thresholds, fees and processing times are periodically updated, so confirm the current requirements with the **Public Service Development Agency** before applying. This page is information about the law as published, not legal advice.

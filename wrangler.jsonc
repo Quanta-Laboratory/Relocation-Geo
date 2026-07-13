@@ -1,8 +1,18 @@
 {
   "name": "relocation1v",
   "compatibility_date": "2025-05-01",
+  // The Worker serves the static site AND one dynamic endpoint (/api/match).
+  // Everything except /api/* falls through to the built assets, so the site
+  // stays static in every respect that matters.
+  "main": "worker/index.ts",
   "assets": {
     "directory": "./dist",
+    // Binding lets the Worker hand ordinary requests back to the static assets.
+    "binding": "ASSETS",
     "not_found_handling": "404-page"
   }
+  // Secret required by /api/match (set once, never committed):
+  //   npx wrangler secret put ANTHROPIC_API_KEY
+  // Without it the endpoint returns 503 and the page falls back to the
+  // deterministic keyword search — the site keeps working.
 }

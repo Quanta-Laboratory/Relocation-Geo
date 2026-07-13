@@ -3,10 +3,10 @@ title: "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)"
 category: "work"
 parent: run-a-business-in-georgia
 lang: "en"
-notice: 'Hiring a <strong>foreign national</strong>? Since the 2026 labour-migration reform some foreigners must first hold the <strong>right to work</strong> before they can be employed in Georgia. <a href="/en/right-to-work-georgia">Check whether it applies</a> and see the <a href="/en/work-residence-permit-georgia">work residence permit</a> guide.'
+notice: 'Hiring <strong>foreign nationals</strong>? Ordinance No 321 of 9 July 2026 added employer-side duties: an <strong>annual quota</strong> must be agreed if you hire more than five foreign nationals a year (or they exceed 5% of headcount), you must evidence <strong>turnover of GEL 50,000 per foreign hire</strong>, and any <strong>short-term professional activity</strong> must be registered before it starts. See <a href="/en/right-to-work-georgia">the right to work</a>.'
 summary: "A Georgian employer hires under the Organic Law – Labour Code of Georgia: a labour agreement may be oral or written but must be in writing where the relationship runs longer than three months, a trial (probation) period may last no more than six months, the workweek must not exceed 40 hours, paid annual leave is at least 24 working days, and termination by the employer requires written notice and severance. On payroll, the employer withholds personal income tax at the flat 20% rate and operates the mandatory funded pension scheme on the 2% + 2% + 2% principle (employee 2%, employer 2%, state up to 2%), declaring and paying both to the Revenue Service, normally by the 15th of the following month. Foreign nationals without permanent residence in Georgia are generally outside the mandatory pension scheme. This guide sets out the mechanics and points you to the official sources."
-reviewed: 2026-07-10
-checked: 2026-07-11
+reviewed: 2026-07-12
+checked: 2026-07-13
 order: 10
 sources:
   - name: "Organic Law of Georgia – Labour Code of Georgia (Legislative Herald)"
@@ -23,6 +23,10 @@ sources:
     url: "https://www.rs.ge/"
   - name: "Law of Georgia on Labour Migration (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/2806732"
+  - name: "Government Ordinance No 321 of 9 July 2026 — amending the right-to-work procedure (Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/6940189"
+  - name: "Labour-migration electronic system (Ministry of Labour)"
+    url: "https://www.labourmigration.moh.gov.ge/"
 faq:
   - q: "Does an employment contract in Georgia have to be in writing?"
     a: "Not always, but usually in practice. Under the Labour Code a labour agreement may be made orally or in writing, for a definite or an indefinite period, but it must be made in writing where the labour relationship continues for more than three months. An agreement for a trial (probation) period must always be in writing. Most employers use a written contract from the outset."
@@ -37,7 +41,9 @@ faq:
   - q: "What notice and severance apply if the employer ends the contract?"
     a: "The Labour Code sets a high-level framework. On the standard route the employer gives the employee at least 30 calendar days' prior written notice and pays severance of at least one month's salary; alternatively, with at least three calendar days' prior written notice the severance is at least two months' salary. The grounds for termination and the employee's right to request written reasons and to appeal are all set out in the Code, so take advice on a specific dismissal."
   - q: "Do I need to do anything special to hire a foreign worker?"
-    a: "Yes. Beyond the contract and payroll duties, a foreign national must have the right to be employed in Georgia. Since the 2026 labour-migration reform some foreigners must first obtain the right to work, and a foreign employee typically holds a work residence permit to live in Georgia on the basis of that employment. See the Right to Work and Work Residence Permit guides."
+    a: "Yes, and the employer carries most of the burden. Beyond the contract and payroll duties, some foreign nationals must first obtain the right to work — and it is the employer, not the employee, who applies for it through the labour-migration electronic system. Ordinance No 321 of 9 July 2026 added further employer duties: agreeing an annual quota where you hire more than five foreign nationals in a year, evidencing turnover of at least GEL 50,000 per foreign hire, and registering any short-term professional activity before it begins. See the Right to Work and Work Residence Permit guides."
+  - q: "When does my company need a foreign-hire quota?"
+    a: "Where you plan to employ more than five foreign nationals in a calendar year, or where foreign nationals would exceed 5% of your total headcount — unless that 5% comes to fewer than five people. In that case the quota must be agreed with the Agency electronically at least ten working days before you apply for the right to work, supported by a Revenue Service document showing annual turnover of at least GEL 50,000 per foreign national (GEL 35,000 for educational and medical institutions). A quota you leave substantially unused can be reduced the following year."
 tags:
   - work
 ---
@@ -99,9 +105,23 @@ Filing the declaration and transferring the money are **separate steps** — sub
 
 ## Hiring foreign staff: the right to work
 
-Employing a **foreign national** adds an immigration layer on top of the contract and payroll duties. Under the **2026 labour-migration rules**, some foreigners must first obtain the **[right to work](/en/right-to-work-georgia)** before they can lawfully be employed in Georgia, although several categories are exempt. A foreign employee also typically needs the **[work residence permit](/en/work-residence-permit-georgia)** to live in Georgia on the basis of that employment, which brings its own income and employer-turnover conditions.
+Employing a **foreign national** adds an immigration layer on top of the contract and payroll duties. Under the **2026 labour-migration rules**, some foreigners must first obtain the **[right to work](/en/right-to-work-georgia)** before they can lawfully be employed in Georgia, although several categories are exempt. A foreign employee also typically needs the **[work residence permit](/en/work-residence-permit-georgia)** to live in Georgia on the basis of that employment.
 
-Check both guides — and the **[Law on Labour Migration](https://matsne.gov.ge/en/document/view/2806732)** — before making an offer to a candidate who is not already entitled to work in Georgia.
+The key point for an employer is that **you apply, not the candidate**. After the employment contract is concluded, the **local employer** files for the right to work through the Ministry's electronic labour-migration system, and the resulting permission is tied to **your company specifically** — it does not travel with the employee to another job. The Agency decides within a maximum of **30 calendar days** from a complete filing, or **10 working days** under the expedited procedure.
+
+### The duties Ordinance No 321 added
+
+**Government Ordinance No 321 of 9 July 2026**, in force the following day, put three further obligations on the employer.
+
+**An annual quota, if you hire at scale.** If you plan to employ **more than five foreign nationals in a calendar year**, or foreign nationals would exceed **5% of your total headcount** (unless that 5% is fewer than five people), you must **agree an annual quota** with the Agency electronically — **at least ten working days before** you apply for the right to work. Applications then sit inside that quota, which can be raised on a reasoned request. A quota left substantially unused may be **cut the following year**, so do not over-ask.
+
+**A turnover test, per foreign hire.** You must evidence, via the Revenue Service, **annual turnover of at least GEL 50,000 for each foreign national** you are applying for — **GEL 35,000** for educational and medical institutions. A **young company is excused**: no turnover certificate is needed where you have **no more than three foreign employees** and **no more than three months** have passed since founding or registration. If you are not VAT-registered, other competent certificates covering the previous twelve months serve instead.
+
+**Registration of short-term professional activity.** If a foreign national comes in for **short-term professional activity** — an exempt category, but only if handled correctly — the **employer or the organiser of the activity** must register them in the labour-migration system at **labourmigration.moh.gov.ge** **before the activity starts**, submitting the prescribed details. The registration is **free**. Get it wrong — no registration, unconfirmed status, the person staying unlawfully, or an activity that falls under a quota — and it simply **is not** short-term professional activity: the work becomes unauthorised, and liability falls on the employer as well as the worker. Note also the four-month annual cap on this route.
+
+Separately, the employer must record an **early termination of, or change to, the employment agreement** in the electronic system **within 5 calendar days**. Failing to report a termination, amendment or extension is itself fined.
+
+Check both guides — and the **[Law on Labour Migration](https://matsne.gov.ge/en/document/view/2806732)** — before making an offer to a candidate who is not already entitled to work in Georgia. Ordinance No 321 has **no official English translation**; the summary above is our reading of the Georgian original.
 
 ## Getting it right
 

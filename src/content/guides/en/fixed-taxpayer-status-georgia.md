@@ -5,15 +5,15 @@ parent: special-tax-regimes-georgia
 lang: "en"
 summary: "Fixed Taxpayer Status is a special tax regime for a person who is not a VAT payer and carries out one or more specific activities defined by the Government — such as bread-baking ovens (tone), hairdressing, manicure and pedicure, solarium and car repair. Instead of tax on income or profit, the taxpayer pays a set monthly amount per work place or unit (for example GEL 50 per tone or per hairdressing chair, GEL 30 per manicure station, GEL 70 per solarium cabin, GEL 100 per car-repair place). A natural person must be registered as an Individual Entrepreneur to obtain the status. Fixed-tax income is excluded from total income, is not taxed further, and is not counted toward mandatory VAT registration. The status is granted by the Revenue Service on application, with a separate certificate for each location."
 reviewed: 2026-07-10
-checked: 2026-07-11
+checked: 2026-07-13
 order: 3
 sources:
   - name: "Tax Code of Georgia (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/1043717"
-  - name: "Government Resolution No. 415 of 29 December 2010 (activities prohibited for special tax regimes)"
-    url: "https://www.matsne.gov.ge/"
-  - name: "Order of the Minister of Finance No. 999 of 31 December 2010 (rules for granting Micro and Small Business Status)"
-    url: "https://www.matsne.gov.ge/"
+  - name: "Government Ordinance No 415 of 29 December 2010 — On Special Taxation Regimes (prohibited activities and excluded income; Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/1164635"
+  - name: "Order of the Minister of Finance No 999 of 31 December 2010 — On the Application of Special Taxation Regimes (procedure, declaration form, expense journal; Georgian original)"
+    url: "https://matsne.gov.ge/ka/document/view/1168081"
   - name: "Revenue Service of Georgia"
     url: "https://rs.ge/"
 faq:

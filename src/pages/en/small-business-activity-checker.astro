@@ -1,0 +1,632 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { prohibitedCategories, aliases, dataAsOf } from '../../data/small-business-activity-data';
+import classifier from '../../data/activity-classifier.json';
+
+// The full official classifier — 613 classes and 697 Georgian sub-classes, parsed
+// from the Geostat PDF. We ship a slim projection: the page never needs the
+// Georgian names or the parse metadata.
+const items = classifier.activities
+  .map((a: any) => ({
+    code: a.code,
+    name: a.name_en || a.name_ka,
+    verdict: a.verdict as 'prohibited' | 'grey' | 'clear' | 'unreviewed',
+    category: a.category ?? null,
+    note: a.note || a.rule || null,
+    incomeWarning: a.income_warning || null,
+    aliases: aliases[a.code] ?? [],
+  }))
+  .sort((a, b) => a.code.localeCompare(b.code));
+
+const categories = prohibitedCategories;
+const counts = classifier.counts as Record<string, number>;
+
+const crumbs = [
+  { href: '/en/', label: 'Home' },
+  { href: '/en/#tax', label: 'Taxes' },
+  { label: 'Small Business Activity Checker' },
+];
+const description =
+  'A free interactive screener: search your activity code and see whether it is prohibited for Georgia\'s Small Business Status (1% regime), sits in the grey zone, or appears clear. Screening only — not tax advice.';
+---
+<BaseLayout title="Small Business Activity Checker" description={description}>
+  <Breadcrumbs items={crumbs} />
+  <main id="main" class="wrap">
+    <h1>Small Business Activity Checker</h1>
+    <p class="lede">
+      Georgia's <a href="/en/small-business-status-georgia">Small Business Status</a> taxes turnover at
+      <strong>1%</strong> — but only if your activity is not on the prohibited list. Search your
+      activity below to see where it stands.
+    </p>
+
+    <aside class="notice-banner" role="region" aria-label="What this tool can and cannot tell you">
+      <p class="notice-banner__title">This is a screener, not a ruling</p>
+      <div class="notice-banner__content">
+        <p>
+          Georgian law does <strong>not</strong> list prohibited activities by code. Annex 4 to
+          Government Ordinance No 415 states seven categories <strong>in words</strong>. Mapping codes
+          onto those words is our reading, not the law — so this tool gives you
+          <strong>four</strong> answers, never a bare yes.
+        </p>
+        <p>
+          The fourth one matters most. We hold all <strong>{items.length}</strong> codes of the official
+          classifier, but we have only individually assessed a fraction of them. Everything else is
+          marked <strong>"not assessed"</strong> — because "we have not checked this" is
+          <strong>not</strong> the same as "you may proceed", and pretending otherwise would make this
+          tool confidently wrong most of the time.
+        </p>
+        <p>
+          Getting it wrong is expensive: if the tax authority later treats your activity as prohibited,
+          the status is cancelled <strong>retroactively from the start of that calendar year</strong>,
+          turning a 1% year into a 20% year. Where this tool says
+          <strong>confirm</strong> or <strong>not assessed</strong>, confirm — with the Revenue Service,
+          in writing. This is information, <strong>not tax advice</strong>.
+        </p>
+      </div>
+    </aside>
+
+    <div class="sbc-legend">
+      <span class="sbc-legend__item sbc-legend__item--prohibited"><b>{counts.prohibited}</b> prohibited</span>
+      <span class="sbc-legend__item sbc-legend__item--grey"><b>{counts.grey}</b> confirm first</span>
+      <span class="sbc-legend__item sbc-legend__item--clear"><b>{counts.clear}</b> assessed as clear</span>
+      <span class="sbc-legend__item sbc-legend__item--unreviewed"><b>{counts.unreviewed}</b> not assessed</span>
+    </div>
+
+    <section class="tool" aria-label="Activity checker">
+      <div class="tool__field">
+        <label class="tool__label" for="q">Search by activity code or name</label>
+        <input
+          type="search"
+          id="q"
+          name="q"
+          autocomplete="off"
+          placeholder="e.g. 62.01, consultancy, design, translation…"
+        />
+        <p class="tool__hint">
+          Search plain words too — "websites", "translation", "recruitment". Codes follow the national
+          classifier <strong>SEC 006-2016</strong> (based on NACE Rev. 2). The code that governs is the
+          one the Revenue Service holds against your registration — check it there.
+        </p>
+      </div>
+
+      <details class="sbc-ai">
+        <summary class="sbc-ai__summary">Can't find it? Describe what you do instead</summary>
+        <div class="sbc-ai__body">
+          <p class="tool__hint">
+            Write it in your own words and we will suggest which code fits. The suggestion is only a
+            <strong>code match</strong> — the verdict you see afterwards always comes from the law
+            dataset on this page, not from the assistant. Your description is not stored.
+          </p>
+          <label class="tool__label" for="desc">What do you actually do?</label>
+          <textarea id="desc" rows="3" placeholder="e.g. I build websites for clients abroad and sometimes advise them on which tools to use"></textarea>
+          <button type="button" class="sbc-ai__go" id="ai-go">Suggest a code</button>
+          <p class="sbc-ai__status" id="ai-status" aria-live="polite"></p>
+          <div id="ai-out" class="sbc-ai__out"></div>
+        </div>
+      </details>
+
+      <div class="sbc-filters" role="group" aria-label="Filter by verdict">
+        <button type="button" class="seg is-active" data-f="all">All</button>
+        <button type="button" class="seg" data-f="prohibited">Prohibited</button>
+        <button type="button" class="seg" data-f="grey">Confirm first</button>
+        <button type="button" class="seg" data-f="clear">Assessed clear</button>
+        <button type="button" class="seg" data-f="unreviewed">Not assessed</button>
+      </div>
+
+      <p class="sbc-count" id="count" aria-live="polite"></p>
+      <div id="results" class="sbc-results"></div>
+    </section>
+
+    <section class="sbc-section" aria-label="The seven prohibited categories">
+      <h2>The seven prohibited categories</h2>
+      <p>
+        These are the categories themselves, from <strong>Annex 4</strong> to Ordinance No 415. Every
+        verdict above traces back to one of them.
+      </p>
+      <ol class="sbc-cats">
+        {categories.map((c) => (
+          <li><span class="sbc-cats__n">{c.id}</span><span>{c.label}</span></li>
+        ))}
+      </ol>
+      <p class="tool__hint">
+        Note category 1: an activity that needs a <strong>licence or permit</strong> is excluded even
+        if nothing else on the list touches it. That list lives in a separate law and is not reproduced
+        here — so a "clear" result above still assumes your activity is unlicensed.
+      </p>
+    </section>
+
+    <section class="sbc-section" aria-label="Beyond the activity">
+      <h2>Even if your activity qualifies</h2>
+      <p>
+        Passing the activity test is necessary, not sufficient. Three other things decide what you
+        actually pay.
+      </p>
+      <div class="stat-cards">
+        <div class="stat-card">
+          <div class="stat-card__value">1% → 3%</div>
+          <div class="stat-card__label">Rate steps up</div>
+          <div class="stat-card__note">From the month turnover passes GEL 500,000 (GEL 700,000 for wine and agritourism)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__value">Some income</div>
+          <div class="stat-card__label">Never gets 1%</div>
+          <div class="stat-card__note">Rent, interest, dividends, royalties, property gains — taxed under ordinary rules</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card__value">VAT</div>
+          <div class="stat-card__label">Is a separate question</div>
+          <div class="stat-card__note">The status does not exempt you from VAT registration</div>
+        </div>
+      </div>
+      <p>
+        The full picture — activation, the 2-working-day certificate, declarations, hiring, and how the
+        status is lost — is in the
+        <a href="/en/small-business-status-georgia"><strong>Small Business Status guide</strong></a>.
+      </p>
+    </section>
+
+    <p class="tool-foot">
+      Codes: all {items.length} entries of the official national classifier
+      <strong>SEC 006-2016</strong> (NACE Rev. 2), parsed from the
+      <a href="https://www.geostat.ge/media/70150/NACE-Rev_2_GE_2023.pdf">Geostat publication</a>.
+      Verdicts: Government Ordinance No 415 (Annex 4 — prohibited activities; Annex 5 — excluded
+      income), the Tax Code (Chapter XII) and Order of the Minister of Finance No 999.
+      Data as of {dataAsOf}.
+      <br /><br />
+      Two honest limits. The consolidated texts of the Ordinance and the Order are
+      <strong>paywalled</strong> on the Legislative Herald, so the categories reflect our best reading
+      of the current position. And of {items.length} codes we have individually assessed only
+      {counts.prohibited + counts.grey + counts.clear} — the rest are marked
+      <strong>not assessed</strong> rather than dressed up as safe. Confirm with the
+      <a href="https://www.rs.ge/">Revenue Service</a> before relying on any result.
+      This tool is information about the law as published — <strong>it is not tax advice</strong>.
+    </p>
+  </main>
+</BaseLayout>
+
+<script define:vars={{ items }}>
+  (function () {
+    var q = document.getElementById('q');
+    var results = document.getElementById('results');
+    var count = document.getElementById('count');
+    var filterBtns = Array.prototype.slice.call(document.querySelectorAll('[data-f]'));
+    var filter = 'all';
+
+    function esc(s) {
+      return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+
+    var LABEL = {
+      prohibited: 'Prohibited',
+      grey: 'Confirm first',
+      clear: 'Assessed clear',
+      unreviewed: 'Not assessed',
+    };
+
+    // Shown for every code we have not individually looked at. Saying nothing here,
+    // or implying the code is fine, would be the whole failure of this tool.
+    var UNREVIEWED_NOTE =
+      'We have not individually assessed this code. That is not a green light — it means you have to' +
+      ' do the check yourself: read the seven prohibited categories below, and confirm your activity' +
+      ' code with the Revenue Service before relying on the 1% regime.';
+
+    var MAX_SHOWN = 60;
+
+    // Layer 1: deterministic. Code, name, and the hand-written alias dictionary.
+    // No model involved — this resolves most real queries on its own.
+    function matches(it, term) {
+      if (!term) return true;
+      var t = term.toLowerCase();
+      if (it.code.toLowerCase().indexOf(t) !== -1) return true;
+      if (it.name.toLowerCase().indexOf(t) !== -1) return true;
+      var al = it.aliases || [];
+      for (var i = 0; i < al.length; i++) {
+        // match either direction: "web" finds "web development", and
+        // "i build websites" finds the alias "websites".
+        if (al[i].indexOf(t) !== -1 || t.indexOf(al[i]) !== -1) return true;
+      }
+      return false;
+    }
+
+    function card(it) {
+      var parts = [];
+      parts.push('<article class="sbc-card sbc-card--' + it.verdict + '">');
+      parts.push('<div class="sbc-card__head">');
+      parts.push('<span class="sbc-card__code">' + esc(it.code) + '</span>');
+      parts.push('<span class="sbc-card__badge">' + esc(LABEL[it.verdict]) + '</span>');
+      parts.push('</div>');
+      parts.push('<h3 class="sbc-card__name">' + esc(it.name) + '</h3>');
+      parts.push(
+        '<p class="sbc-card__note">' +
+          esc(it.verdict === 'unreviewed' ? UNREVIEWED_NOTE : it.note || '') +
+          '</p>',
+      );
+      if (it.category) {
+        parts.push(
+          '<p class="sbc-card__cat">Annex 4, category ' + esc(it.category) + '</p>',
+        );
+      }
+      if (it.incomeWarning) {
+        parts.push(
+          '<p class="sbc-card__warn"><strong>Income warning.</strong> ' +
+            esc(it.incomeWarning) +
+            '</p>',
+        );
+      }
+      parts.push('</article>');
+      return parts.join('');
+    }
+
+    function render() {
+      var term = (q.value || '').trim();
+      var list = items.filter(function (it) {
+        if (filter !== 'all' && it.verdict !== filter) return false;
+        return matches(it, term);
+      });
+
+      if (!list.length) {
+        results.innerHTML =
+          '<p class="sbc-empty">Nothing in the classifier matches that wording. Try a different word,' +
+          ' or describe what you do in the box above — and remember that not finding your activity is' +
+          ' never a green light.</p>';
+        count.textContent = '0 activities';
+        return;
+      }
+
+      var shown = list.slice(0, MAX_SHOWN);
+      var html = shown.map(card).join('');
+      if (list.length > MAX_SHOWN) {
+        html +=
+          '<p class="sbc-empty">Showing the first ' +
+          MAX_SHOWN +
+          ' of ' +
+          list.length +
+          '. Narrow your search — or describe what you do above and let the assistant find the code.</p>';
+      }
+      results.innerHTML = html;
+      count.textContent =
+        list.length + (list.length === 1 ? ' code' : ' codes') +
+        (list.length > MAX_SHOWN ? ' (showing ' + MAX_SHOWN + ')' : '');
+    }
+
+    q.addEventListener('input', render);
+    filterBtns.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        filter = btn.getAttribute('data-f');
+        filterBtns.forEach(function (b) {
+          b.classList.toggle('is-active', b === btn);
+        });
+        render();
+      });
+    });
+
+    render();
+
+    // ---------------------------------------------------------------------
+    // Layer 2: the assistant. It suggests a CODE and nothing else.
+    // The verdict is never taken from the model — we look the confirmed code up
+    // in the same dataset the page already holds and render that.
+    // ---------------------------------------------------------------------
+    var desc = document.getElementById('desc');
+    var go = document.getElementById('ai-go');
+    var status = document.getElementById('ai-status');
+    var out = document.getElementById('ai-out');
+
+    function byCode(code) {
+      for (var i = 0; i < items.length; i++) {
+        if (items[i].code === code) return items[i];
+      }
+      return null;
+    }
+
+    function showVerdict(it) {
+      // Rendered from local data — identical to the search results above.
+      out.innerHTML =
+        '<p class="sbc-ai__confirmed">Showing the entry for <strong>' +
+        esc(it.code) +
+        '</strong>, from the law dataset:</p>' +
+        card(it);
+    }
+
+    function suggestion(m) {
+      var it = byCode(m.code);
+      if (!it) return '';
+      return (
+        '<div class="sbc-sugg">' +
+        '<p class="sbc-sugg__head">We read that as <strong>' +
+        esc(it.code) +
+        ' — ' +
+        esc(it.name) +
+        '</strong> <span class="sbc-sugg__conf">' +
+        esc(m.confidence) +
+        ' confidence</span></p>' +
+        (m.why ? '<p class="sbc-sugg__why">' + esc(m.why) + '</p>' : '') +
+        '<button type="button" class="sbc-sugg__go" data-code="' +
+        esc(it.code) +
+        '">That\'s me — show the verdict</button>' +
+        '</div>'
+      );
+    }
+
+    function wireSuggestions() {
+      Array.prototype.slice
+        .call(out.querySelectorAll('[data-code]'))
+        .forEach(function (b) {
+          b.addEventListener('click', function () {
+            var it = byCode(b.getAttribute('data-code'));
+            if (it) showVerdict(it);
+          });
+        });
+    }
+
+    if (go) {
+      go.addEventListener('click', function () {
+        var text = (desc.value || '').trim();
+        if (text.length < 3) {
+          status.textContent = 'Write a sentence about what you do.';
+          return;
+        }
+        status.textContent = 'Matching…';
+        out.innerHTML = '';
+        go.disabled = true;
+
+        fetch('/api/match', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ query: text }),
+        })
+          .then(function (r) {
+            if (r.status === 503) throw new Error('offline');
+            if (!r.ok) throw new Error('failed');
+            return r.json();
+          })
+          .then(function (data) {
+            go.disabled = false;
+            status.textContent = '';
+            var html = '';
+
+            if (data.clarifyingQuestion) {
+              html +=
+                '<p class="sbc-ask"><strong>One question first.</strong> ' +
+                esc(data.clarifyingQuestion) +
+                '</p>';
+            }
+            if (data.matches && data.matches.length) {
+              html += data.matches.map(suggestion).join('');
+              html +=
+                '<p class="tool__hint">A suggestion, not a decision. If none of these is what you' +
+                ' actually do, search the list above — and remember the code that governs is the one' +
+                ' the Revenue Service holds for you.</p>';
+            } else if (!data.clarifyingQuestion) {
+              html +=
+                '<p class="sbc-empty">No confident match. That is a real answer, not a failure —' +
+                ' it usually means the description could go several ways. Try the search above, or' +
+                ' ask the Revenue Service to confirm your activity code.</p>';
+            }
+            out.innerHTML = html;
+            wireSuggestions();
+          })
+          .catch(function (e) {
+            go.disabled = false;
+            status.textContent =
+              e && e.message === 'offline'
+                ? 'The assistant is not available right now — use the search above, it covers the same list.'
+                : 'Something went wrong. Use the search above, it covers the same list.';
+          });
+      });
+    }
+  })();
+</script>
+
+<style>
+  .tool { margin: 24px 0; }
+  .tool__field { display: grid; gap: 6px; }
+  .tool__field[hidden] { display: none; }
+  .tool__label { font-weight: 700; }
+  .tool__hint { color: var(--grey-1); font-size: 15px; margin: 6px 0 0; }
+
+  #q {
+    width: 100%;
+    padding: 12px 14px;
+    font: inherit;
+    font-size: 17px;
+    border: 2px solid var(--grey-2);
+    background: var(--white, #fff);
+    color: inherit;
+  }
+  #q:focus { outline: 3px solid var(--yellow); outline-offset: 0; border-color: var(--black); }
+
+  .sbc-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 18px 0 8px;
+    border: 1px solid var(--grey-2);
+    width: fit-content;
+  }
+  .seg {
+    padding: 9px 16px;
+    font: inherit;
+    font-size: 15px;
+    border: 0;
+    border-right: 1px solid var(--grey-2);
+    background: var(--grey-3);
+    color: inherit;
+    cursor: pointer;
+  }
+  .seg:last-child { border-right: 0; }
+  .seg.is-active { background: var(--blue); color: #fff; font-weight: 700; }
+
+  .sbc-count { color: var(--grey-1); font-size: 15px; margin: 4px 0 16px; }
+
+  .sbc-results { display: grid; gap: 14px; }
+
+  .sbc-card {
+    border: 1px solid var(--grey-2);
+    border-left: 6px solid var(--grey-2);
+    padding: 14px 16px;
+  }
+  .sbc-card--prohibited { border-left-color: var(--red); }
+  .sbc-card--grey { border-left-color: var(--yellow); }
+  .sbc-card--clear { border-left-color: var(--blue); }
+  .sbc-card--unreviewed { border-left-color: var(--grey-1); }
+
+  .sbc-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 16px 0 0;
+    font-size: 15px;
+    color: var(--grey-1);
+  }
+  .sbc-legend__item { display: inline-flex; align-items: center; gap: 6px; }
+  .sbc-legend__item::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    flex: 0 0 auto;
+  }
+  .sbc-legend__item--prohibited::before { background: var(--red); }
+  .sbc-legend__item--grey::before { background: var(--yellow); }
+  .sbc-legend__item--clear::before { background: var(--blue); }
+  .sbc-legend__item--unreviewed::before { background: var(--grey-1); }
+  .sbc-legend b { color: inherit; }
+
+  .sbc-card__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .sbc-card__code {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .sbc-card__badge {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 3px 8px;
+    white-space: nowrap;
+  }
+  .sbc-card--prohibited .sbc-card__badge { background: var(--red); color: #fff; }
+  .sbc-card--grey .sbc-card__badge { background: var(--yellow); color: var(--black); }
+  .sbc-card--clear .sbc-card__badge { background: var(--blue); color: #fff; }
+  .sbc-card--unreviewed .sbc-card__badge { background: var(--grey-1); color: #fff; }
+
+  .sbc-card__name { margin: 8px 0 6px; font-size: 18px; }
+  .sbc-card__note { margin: 0; }
+  .sbc-card__cat {
+    margin: 8px 0 0;
+    font-size: 14px;
+    color: var(--grey-1);
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+  }
+  .sbc-card__warn {
+    margin: 10px 0 0;
+    padding: 10px 12px;
+    background: var(--grey-3);
+    border-left: 3px solid var(--black);
+    font-size: 15px;
+  }
+
+  .sbc-empty { color: var(--grey-1); }
+
+  .sbc-section { margin: 40px 0; }
+  .sbc-cats { margin: 16px 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+  .sbc-cats li { display: flex; gap: 12px; align-items: flex-start; }
+  .sbc-cats__n {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    display: grid;
+    place-items: center;
+    background: var(--navy);
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .tool-foot {
+    margin-top: 36px;
+    padding-top: 16px;
+    border-top: 1px solid var(--grey-2);
+    color: var(--grey-1);
+    font-size: 15px;
+  }
+
+  /* Describe-your-work panel */
+  .sbc-ai { margin: 18px 0 8px; border: 1px solid var(--grey-2); }
+  .sbc-ai__summary {
+    padding: 12px 14px;
+    cursor: pointer;
+    font-weight: 700;
+    background: var(--grey-3);
+  }
+  .sbc-ai__body { padding: 14px; display: grid; gap: 10px; }
+  #desc {
+    width: 100%;
+    padding: 10px 12px;
+    font: inherit;
+    border: 2px solid var(--grey-2);
+    background: transparent;
+    color: inherit;
+    resize: vertical;
+  }
+  #desc:focus { outline: 3px solid var(--yellow); border-color: var(--black); }
+  .sbc-ai__go {
+    justify-self: start;
+    padding: 10px 18px;
+    font: inherit;
+    font-weight: 700;
+    border: 0;
+    background: var(--navy);
+    color: #fff;
+    cursor: pointer;
+  }
+  .sbc-ai__go[disabled] { opacity: 0.6; cursor: default; }
+  .sbc-ai__status { margin: 0; color: var(--grey-1); font-size: 15px; }
+  .sbc-ai__out { display: grid; gap: 12px; }
+  .sbc-ai__confirmed { margin: 0; color: var(--grey-1); font-size: 15px; }
+
+  .sbc-sugg { border: 1px dashed var(--grey-2); padding: 12px 14px; }
+  .sbc-sugg__head { margin: 0 0 6px; }
+  .sbc-sugg__conf {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 13px;
+    color: var(--grey-1);
+  }
+  .sbc-sugg__why { margin: 0 0 10px; color: var(--grey-1); }
+  .sbc-sugg__go {
+    padding: 8px 14px;
+    font: inherit;
+    font-size: 15px;
+    border: 2px solid var(--navy);
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+  .sbc-ask {
+    margin: 0;
+    padding: 10px 12px;
+    background: var(--grey-3);
+    border-left: 3px solid var(--yellow);
+  }
+
+  html[data-theme='dark'] .sbc-ai__summary { background: transparent; }
+  html[data-theme='dark'] .sbc-ask { background: transparent; }
+  html[data-theme='dark'] #q { background: transparent; }
+  html[data-theme='dark'] .seg { background: transparent; }
+  html[data-theme='dark'] .sbc-card__warn { background: transparent; }
+
+  @media (max-width: 430px) {
+    .sbc-filters { width: 100%; }
+    .seg { flex: 1 1 auto; text-align: center; padding: 9px 8px; }
+    .sbc-card__head { flex-direction: column; align-items: flex-start; gap: 6px; }
+  }
+</style>
