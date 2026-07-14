@@ -5,7 +5,7 @@ parent: "about"
 lang: "en"
 summary: "How Relocation.ge collects, structures, verifies and maintains legal and regulatory information to keep migration and business guidance accurate, traceable and reliable over time."
 reviewed: 2026-07-10
-checked: 2026-07-13
+checked: 2026-07-14
 order: 2
 sources:
   - name: "Matsne — Legislative Herald of Georgia"
