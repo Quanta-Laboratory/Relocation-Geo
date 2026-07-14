@@ -13,10 +13,20 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      // Add more locales here as they launch (e.g. ru, de, fr ...)
+      // Every locale that has at least one translated page. The sitemap emits
+      // hreflang alternates from this, so a locale missing here is invisible to
+      // search engines even when the page exists.
       i18n: {
         defaultLocale: 'en',
-        locales: { en: 'en' },
+        locales: {
+          en: 'en',
+          ka: 'ka',
+          ru: 'ru',
+          uk: 'uk',
+          de: 'de',
+          fr: 'fr',
+          he: 'he',
+        },
       },
     }),
   ],
