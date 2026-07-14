@@ -4,10 +4,12 @@ category: "work"
 lang: "de"
 notice: 'Selbständige Ausländer: <strong>Verordnung Nr. 321 vom 9. Juli 2026</strong> hat den Erwerb des <strong>Arbeitsrechts</strong> geändert — der Antrag ist nun <strong>persönlich</strong> zu stellen, ein <strong>obligatorisches Video-Interview</strong> ist zu absolvieren, und es gilt eine Umsatzprüfung. Die Ausnahme für die Betreuung ausländischer Kunden gilt <strong>nicht</strong> für einen Einzelunternehmer, der eine Aufenthaltserlaubnis für den rechtmäßigen Aufenthalt benötigt. <a href="/en/right-to-work-georgia">Mehr erfahren</a>.'
 summary: "Georgien erlaubt es Ausländern, einen Einzelunternehmer (Individual Entrepreneur, IE) zu registrieren, ohne einzureisen: Dazu wird eine notariell beglaubigte und mit Apostille versehene Vollmacht an einen Vertreter erteilt, der die Registrierung im Public Service Hall abschließt. Die Registrierung selbst dauert in der Regel 1–5 Werktage, sobald die Unterlagen in Georgien sind; der gesamte Vorgang einschließlich Kurierversand, Übersetzung und Beglaubigung dauert typischerweise 1–3 Wochen."
-reviewed: 2026-07-13
-checked: 2026-07-13
+reviewed: 2026-07-14
+checked: 2026-07-14
 order: 1
 sources:
+  - name: "National Agency of Public Registry — official fee schedule for business registration"
+    url: "https://www.napr.gov.ge/en/page/fees-and-terms/business-registration-fee"
   - name: "Regierungsverordnung Nr. 321 vom 9. Juli 2026 — Verfahren zum Arbeitsrecht (georgisches Original)"
     url: "https://matsne.gov.ge/ka/document/view/6940189"
   - name: "Public Service Hall (Haus der Justiz)"
@@ -30,7 +32,7 @@ faq:
   - q: "Wie lange dauert die Registrierung aus der Ferne?"
     a: "Die Registrierung im öffentlichen Register dauert nach Eingang der Unterlagen in Georgien in der Regel 1–5 Werktage. Einschließlich Kurierversand der Originale, Übersetzung und Beglaubigung dauert der gesamte Vorgang typischerweise 1–3 Wochen."
   - q: "Was kostet das?"
-    a: "Die Registrierung eines Einzelunternehmers im Public Service Hall ist im Standardverfahren kostenlos; ein beschleunigter Service am selben Tag kostet mehr. Gesondert anfallen: notarielle Beglaubigung und Apostille in Ihrem Land, internationaler Kurierversand sowie Übersetzung und Beglaubigung der Unterlagen in Georgien. Aktuelle Gebühren erfragen Sie beim Public Service Hall oder der Nationalen Agentur des öffentlichen Registers."
+    a: "Die Registrierung ist nicht kostenlos. Die staatliche Gebühr des öffentlichen Registers beträgt 26 GEL für die Registrierung innerhalb eines Werktags oder 75 GEL am Tag der Einreichung. Ein englischsprachiger Auszug — den Banken und ausländische Geschäftspartner verlangen — kostet 26 GEL zusätzlich. Mit Auszug und den üblichen Schaltergebühren zahlen Menschen üblicherweise rund 60 GEL zum nächsten Werktag und rund 110 GEL am selben Tag. Gesondert anfallen: notarielle Beglaubigung und Apostille in Ihrem Land, internationaler Kurierversand sowie Übersetzung und Beglaubigung in Georgien. Prüfen Sie die aktuellen Zahlen im Gebührenverzeichnis des öffentlichen Registers."
   - q: "Kann ich den Einzelunternehmer nach der Registrierung aus dem Ausland führen?"
     a: "Nur teilweise — und daran scheitern viele. Ein Vertreter mit Vollmacht kann die Registrierung abschließen, aber der laufende Betrieb erfordert eine georgische Mobilfunknummer: Behörden und Finanzdienstleister authentifizieren Sie mit einem Einmalcode per SMS an eine lokale Nummer. Davon hängen ab: das Portal der Steuerbehörde (rs.ge) — wo Sie das Steuerkonto aktivieren, den Small-Business-Status beantragen und die monatliche Erklärung einreichen, die auch in Monaten ohne Einnahmen fällig ist —, die E-Services des Public Service Hall und Ihr Geschäftskonto. Besorgen Sie sich eine lokale SIM oder eSIM, bevor Sie das Steuerkonto aktivieren oder ein Konto eröffnen."
   - q: "Kann ich den Small-Business-Status aus der Ferne beantragen?"
@@ -91,7 +93,20 @@ Die Gesamtdauer hängt vor allem davon ab, wie schnell die Originale per Kurier 
 
 ## Staatliche Gebühren und Kosten
 
-Die Registrierung eines Einzelunternehmers im Public Service Hall ist **im Standardverfahren kostenlos**; ein **beschleunigter Service am selben Tag** ist gegen höhere Gebühr verfügbar. Zusätzliche Kosten, die keine staatlichen Gebühren sind, umfassen in der Regel:
+**Die Registrierung ist nicht kostenlos.** Das Gegenteil steht auf vielen Seiten — und stand auch hier, bis ein Leser uns korrigierte.
+
+Die **staatliche Gebühr** nach dem veröffentlichten Tarif der **Nationalen Agentur des öffentlichen Registers**:
+
+| Leistung | Gebühr |
+| --- | --- |
+| Registrierung eines Einzelunternehmers — **1 Werktag** | **26 GEL** |
+| Registrierung **am Tag der Einreichung** | **75 GEL** |
+| **Englischsprachiger Auszug** — wird zusammen mit jeder Leistung erstellt | **+ 26 GEL** |
+| Beglaubigung von Unterschriften auf einem eingereichten Dokument | 7 GEL |
+
+**Am Schalter zahlen Sie mehr als die Tarifzahl.** Nahezu jeder ausländische Gründer braucht den **englischsprachigen Auszug** — genau ihn verlangen Banken und ausländische Geschäftspartner —, und das sind 26 GEL zusätzlich. Mit Auszug und den üblichen Schaltergebühren zahlen Menschen üblicherweise rund **60 GEL** für die Registrierung zum nächsten Werktag und **110 GEL** für die Registrierung am selben Tag. Betrachten Sie die Tabelle als gesetzliche Untergrenze und diese Summen als das, was tatsächlich Ihr Portemonnaie verlässt.
+
+Zusätzlich zur staatlichen Gebühr und davon getrennt:
 
 - notarielle Beglaubigung und Apostille bzw. Legalisation in Ihrem Land;
 - internationalen Kurierversand der Originale nach Georgien;

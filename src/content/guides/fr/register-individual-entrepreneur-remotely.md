@@ -4,10 +4,12 @@ category: "work"
 lang: "fr"
 notice: 'Travailleurs indépendants étrangers : <strong>l’Ordonnance n° 321 du 9 juillet 2026</strong> a modifié l’obtention du <strong>droit au travail</strong> — la demande doit désormais être déposée <strong>en personne</strong>, un <strong>entretien vidéo obligatoire</strong> est requis, et un test de chiffre d’affaires s’applique. L’exemption pour les prestations à des clients étrangers <strong>ne couvre pas</strong> l’entrepreneur individuel qui a besoin d’un permis de séjour pour séjourner légalement. <a href="/en/right-to-work-georgia">En savoir plus</a>.'
 summary: "La Géorgie permet à un ressortissant étranger d’enregistrer un entrepreneur individuel (Individual Entrepreneur, IE) sans se rendre dans le pays, en donnant une procuration notariée et apostillée à un représentant qui accomplit l’enregistrement à la Maison de la Justice. L’enregistrement lui-même prend généralement 1 à 5 jours ouvrables une fois les documents en Géorgie ; l’ensemble du processus, y compris l’envoi par coursier, la traduction et la légalisation notariale, prend habituellement 1 à 3 semaines."
-reviewed: 2026-07-13
-checked: 2026-07-13
+reviewed: 2026-07-14
+checked: 2026-07-14
 order: 1
 sources:
+  - name: "National Agency of Public Registry — official fee schedule for business registration"
+    url: "https://www.napr.gov.ge/en/page/fees-and-terms/business-registration-fee"
   - name: "Ordonnance gouvernementale n° 321 du 9 juillet 2026 — procédure du droit au travail (original géorgien)"
     url: "https://matsne.gov.ge/ka/document/view/6940189"
   - name: "Maison de la Justice (Public Service Hall)"
@@ -30,7 +32,7 @@ faq:
   - q: "Combien de temps prend l’enregistrement à distance ?"
     a: "L’enregistrement au registre public prend généralement 1 à 5 jours ouvrables après réception des documents en Géorgie. En incluant l’envoi des originaux par coursier, la traduction et la légalisation notariale, l’ensemble du processus prend habituellement 1 à 3 semaines."
   - q: "Combien cela coûte-t-il ?"
-    a: "L’enregistrement d’un entrepreneur individuel à la Maison de la Justice est gratuit dans le délai standard ; un service accéléré le jour même est plus coûteux. Des frais distincts s’appliquent pour la notarisation et l’apostille dans votre pays, l’envoi international par coursier, ainsi que la traduction et la légalisation des documents en Géorgie. Vérifiez les tarifs actuels auprès de la Maison de la Justice ou de l’Agence nationale du registre public."
+    a: "L’enregistrement n’est pas gratuit. Les frais d’État du registre public s’élèvent à 26 GEL pour un enregistrement en un jour ouvrable, ou 75 GEL le jour du dépôt. Un extrait en anglais — que les banques et les partenaires étrangers réclament — ajoute 26 GEL. Avec l’extrait et les frais habituels de guichet, on paie couramment environ 60 GEL pour le jour ouvrable suivant et environ 110 GEL pour le jour même. Des frais distincts s’appliquent pour la notarisation et l’apostille dans votre pays, l’envoi international par coursier, ainsi que la traduction et la légalisation en Géorgie. Vérifiez les chiffres actuels dans le barème du registre public."
   - q: "Puis-je gérer l’entrepreneur individuel depuis l’étranger après l’enregistrement ?"
     a: "Seulement en partie, et c’est là que beaucoup se font piéger. Un représentant muni d’une procuration peut accomplir l’enregistrement, mais faire fonctionner l’entreprise ensuite exige un numéro de mobile géorgien : les services publics et financiers vous authentifient par un code à usage unique envoyé par SMS à un numéro local. Cela conditionne l’accès au portail du Service des recettes (rs.ge) — où vous activez le compte fiscal, demandez le statut de petite entreprise et déposez la déclaration mensuelle, exigible même les mois sans revenu —, aux services en ligne de la Maison de la Justice et à votre compte bancaire professionnel. Procurez-vous une SIM ou une eSIM locale avant d’activer le compte fiscal ou d’ouvrir le compte bancaire."
   - q: "Puis-je demander le statut de petite entreprise à distance ?"
@@ -91,7 +93,20 @@ La durée totale dépend surtout de la rapidité avec laquelle les originaux par
 
 ## Frais d’État et coûts
 
-L’enregistrement d’un entrepreneur individuel à la Maison de la Justice est **gratuit dans le délai standard** ; un **service accéléré le jour même** est disponible moyennant des frais plus élevés. Les coûts additionnels, qui ne sont pas des frais d’État, comprennent en général :
+**L’enregistrement n’est pas gratuit.** L’affirmation contraire figure sur de nombreux sites — et figurait ici aussi, jusqu’à ce qu’un lecteur nous corrige.
+
+Les **frais d’État** publiés par l’**Agence nationale du registre public** :
+
+| Service | Frais |
+| --- | --- |
+| Enregistrement d’un entrepreneur individuel — **1 jour ouvrable** | **26 GEL** |
+| Enregistrement **le jour du dépôt** | **75 GEL** |
+| **Extrait en anglais** — établi avec n’importe quel service | **+ 26 GEL** |
+| Certification des signatures sur un document déposé | 7 GEL |
+
+**Au guichet, vous paierez plus que le tarif affiché.** Presque tout fondateur étranger a besoin de l’**extrait en anglais** — c’est lui que réclament les banques et les partenaires étrangers —, ce qui ajoute 26 GEL. Avec l’extrait et les frais habituels de guichet, on paie couramment de l’ordre de **60 GEL** pour un enregistrement au jour ouvrable suivant et **110 GEL** pour le jour même. Considérez le tableau comme le plancher légal, et ces totaux comme ce qui quitte réellement votre portefeuille.
+
+En sus des frais d’État, et distincts de ceux-ci :
 
 - la notarisation et l’apostille ou la légalisation dans votre pays ;
 - l’envoi international des originaux par coursier vers la Géorgie ;

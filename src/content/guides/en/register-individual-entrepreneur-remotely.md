@@ -5,9 +5,11 @@ parent: run-a-business-in-georgia
 lang: "en"
 notice: 'Self-employed foreigners: <strong>Ordinance No 321 of 9 July 2026</strong> changed how the <strong>right to work</strong> is obtained — you must now apply <strong>in person</strong> and pass a <strong>compulsory video interview</strong>, and a turnover test applies. The exemption for serving foreign clients does <strong>not</strong> cover an Individual Entrepreneur who needs a residence permit to stay lawfully. <a href="/en/right-to-work-georgia">Read more</a>.'
 summary: "Georgia allows a foreign national to register an Individual Entrepreneur (IE) without travelling to the country, by issuing a notarised and apostilled Power of Attorney to a representative who completes the registration at the Public Service Hall. Registration itself usually takes 1–5 working days once documents are in Georgia; the full process, including courier delivery, translation and notarisation, typically takes 1–3 weeks."
-reviewed: 2026-07-13
+reviewed: 2026-07-14
 checked: 2026-07-14
 sources:
+  - name: "National Agency of Public Registry — official fee schedule for business registration"
+    url: "https://www.napr.gov.ge/en/page/fees-and-terms/business-registration-fee"
   - name: "Government Ordinance No 321 of 9 July 2026 — right-to-work procedure (Georgian original)"
     url: "https://matsne.gov.ge/ka/document/view/6940189"
   - name: "Public Service Hall"
@@ -30,7 +32,7 @@ faq:
   - q: "How long does remote registration take?"
     a: "Registration at the Public Registry usually takes 1–5 working days after the documents are received in Georgia. Including courier delivery of the originals, translation and notarisation, the full process typically takes 1–3 weeks."
   - q: "How much does it cost?"
-    a: "Registration of an Individual Entrepreneur at the Public Service Hall is provided free of charge for the standard timeframe; an expedited same-day service carries a higher fee. Separate costs apply for notarisation and apostille in your country, international courier delivery, and translation and notarisation of the documents in Georgia. Confirm current service fees with the Public Service Hall or the National Agency of Public Registry."
+    a: "Registration is not free. The Public Registry's state fee is GEL 26 for registration within one working day, or GEL 75 on the day of filing. An English-language extract — which banks and foreign counterparties will ask for — adds GEL 26. With the extract and the usual counter charges, people commonly pay around GEL 60 for next-working-day registration and around GEL 110 for same-day. Separate costs apply for notarisation and apostille in your country, international courier delivery, and translation and notarisation in Georgia. Confirm the current figures on the Public Registry fee schedule before applying."
   - q: "Can I manage the Individual Entrepreneur from abroad after registering?"
     a: "Only partly, and this catches people out. A representative under a Power of Attorney can complete the registration, but running the business afterwards needs a Georgian mobile number: government and financial services authenticate you with a one-time code sent by SMS to a local number. That gates the Revenue Service portal (rs.ge) — where you activate the taxpayer account, apply for Small Business Status and file the monthly declaration due even in months with no income — the Public Service Hall e-services, and your business bank account. Plan to get a local SIM or eSIM before you try to activate the tax account or open the bank account."
   - q: "Can I apply for Small Business status remotely?"
@@ -92,7 +94,20 @@ The overall duration depends mainly on how quickly the original documents reach 
 
 ## State fees and costs
 
-Registration of an Individual Entrepreneur at the Public Service Hall is provided **free of charge for the standard timeframe**; an **expedited same-day service** is available for a higher fee. Additional costs, which are not state fees, generally include:
+**Registration is not free.** You will find the opposite claim on many sites — this page carried it too, until a reader corrected us.
+
+The **state fee** published by the **National Agency of Public Registry**:
+
+| Service | Fee |
+| --- | --- |
+| Registration of an Individual Entrepreneur — **1 working day** | **GEL 26** |
+| Registration **on the day of filing** | **GEL 75** |
+| **English-language extract** — prepared together with any service | **+ GEL 26** |
+| Certification of signatures on a submitted document | GEL 7 |
+
+**What you pay at the counter is more than the headline fee.** Nearly every foreign founder needs the **English-language extract** — it is what banks and foreign counterparties ask for — and that adds GEL 26. With the extract and the usual counter charges, people commonly pay in the region of **GEL 60** for next-working-day registration and **GEL 110** for same-day. Treat the table as the statutory floor and those totals as what actually leaves your wallet.
+
+On top of the state fee, and separate from it:
 
 - notarisation and apostille or legalisation in your country;
 - international courier delivery of the originals to Georgia;

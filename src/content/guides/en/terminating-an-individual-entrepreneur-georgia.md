@@ -3,11 +3,13 @@ title: "Terminating an Individual Entrepreneur in Georgia (2026)"
 category: "work"
 parent: run-a-business-in-georgia
 lang: "en"
-summary: "If you no longer need your Individual Entrepreneur (IE) status in Georgia, you must formally terminate it through the National Agency of Public Registry and close your tax obligations with the Revenue Service. An IE remains active until it is cancelled, so stopping activity alone is not enough. Termination can be completed in person or remotely through a notarised, apostilled Power of Attorney; the Public Registry state fee is GEL 26 (one working day) or GEL 76 (same day)."
+summary: "If you no longer need your Individual Entrepreneur (IE) status in Georgia, you must formally terminate it through the National Agency of Public Registry and close your tax obligations with the Revenue Service. An IE remains active until it is cancelled, so stopping activity alone is not enough. Termination can be completed in person or remotely through a notarised, apostilled Power of Attorney; the Public Registry state fee is GEL 26 (one working day) or GEL 75 (same day)."
 reviewed: 2026-07-10
 checked: 2026-07-14
 order: 6
 sources:
+  - name: "National Agency of Public Registry — official fee schedule for business registration"
+    url: "https://www.napr.gov.ge/en/page/fees-and-terms/business-registration-fee"
   - name: "Public Service Hall"
     url: "https://psh.gov.ge/"
   - name: "National Agency of Public Registry"
@@ -28,7 +30,7 @@ faq:
   - q: "Can I terminate my IE remotely?"
     a: "Yes. You can appoint a representative in Georgia and issue a notarised Power of Attorney, apostilled or legalised where required. The representative submits the documents to the Public Service Hall on your behalf. Termination can also be done in person if you are in Georgia."
   - q: "How much does termination cost and how long does it take?"
-    a: "The Public Registry state fee is GEL 26 for standard service (one working day) or GEL 76 for same-day service. The registry reviews the application and issues a decision on termination, usually within one working day."
+    a: "The Public Registry state fee is GEL 26 for standard service (one working day) or GEL 75 for same-day service. The registry reviews the application and issues a decision on termination, usually within one working day."
   - q: "What do I need to do about taxes before terminating?"
     a: "Before termination you should submit all pending declarations, pay any outstanding taxes or penalties, and cancel any special tax status, such as Small Business status, if applicable."
 ---
@@ -93,7 +95,7 @@ The documents are submitted to the **National Agency of Public Registry** at the
 | Service | State fee | Processing time |
 | --- | --- | --- |
 | Standard | GEL 26 | 1 working day |
-| Same-day | GEL 76 | Same day |
+| Same-day | GEL 75 | Same day |
 
 ## Legal sources
 
