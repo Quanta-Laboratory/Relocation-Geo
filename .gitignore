@@ -26,3 +26,12 @@ __pycache__/
 # leftover nested clone folder from initial setup (safe to ignore)
 Relocat/
 .wrangler/
+
+# Obsidian vault noise. Content is authored in Obsidian, whose vault root is the
+# repo root; it writes UI state, scratch notes and empty stubs for unresolved
+# links. None of it is site content (Astro only reads src/content/guides).
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+Untitled*.md
+Untitled*.canvas
+/en/

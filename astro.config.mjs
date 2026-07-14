@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import remarkWikilink from './plugins/remark-wikilink.mjs';
 
 // IMPORTANT: set this to the production domain before launch.
 export const SITE = 'https://relocation.ge';
@@ -30,6 +31,13 @@ export default defineConfig({
       },
     }),
   ],
+  markdown: {
+    // Content is authored in Obsidian, which emits [[wiki links]]. Astro does not
+    // understand that syntax and would print the brackets as literal text, so we
+    // resolve them to real links at build time. A link to a non-existent guide
+    // fails the build rather than shipping a dead link.
+    remarkPlugins: [remarkWikilink],
+  },
   build: {
     format: 'directory',
   },

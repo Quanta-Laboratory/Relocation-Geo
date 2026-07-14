@@ -151,6 +151,8 @@ A person with Small Business Status **does not pay current advance payments**. H
 
 If the person also receives income taxed under the ordinary regime, they may additionally need to file an **annual income tax declaration by 1 April** of the following year.
 
+For the full set of recurring obligations that start once you begin trading — the monthly filing, VAT, hiring and pension duties, and a compliance calendar — see **[tax obligations of a small business](/en/small-business-tax-obligations-georgia)**.
+
 ## VAT registration
 
 Small Business Status does **not** exempt a person from VAT. If the person becomes required to register as a **VAT payer**, they must register under the Tax Code. At that point they must also account for inventory and stock on hand if they want to claim VAT credit and hold the required supporting documents.
