@@ -87,7 +87,7 @@ Once the registration is completed, the **National Agency of Public Registry**�
 Following registration, your Individual Entrepreneur details are **automatically transmitted to the Revenue Service of Georgia**, allowing you to fulfil your tax obligations. You can access your tax account through the Revenue Service's online portal to manage declarations, payments and other tax-related matters.
 ## Small Business status
 
-For many freelancers, consultants, IT specialists and other service providers, **Small Business Status** is the preferred tax regime because it applies a **1% tax rate on annual turnover of up to GEL 500,000**, subject to the statutory conditions. See [[small-business-status-georgia]]  for the eligibility criteria and application process.
+For many freelancers, consultants, IT specialists and other service providers, **Small Business Status** is the preferred tax regime because it applies a **1% tax rate on annual turnover of up to GEL 500,000**, subject to the statutory conditions. See[[small-business-status-georgia]]  for the eligibility criteria and application process.
 
 ## The right to work for self-employed foreign nationals
 
