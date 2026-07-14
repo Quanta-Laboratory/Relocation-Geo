@@ -77,6 +77,15 @@ Because a **Georgian phone number** is required for SMS verification, it is nece
 
 The registration procedure is completed at the **Public Service Hall** and, under the standard procedure, is usually completed **within one working day** (or **on the same day** if the expedited service is selected).
 
+## State fees
+
+| Service                                                       | Fee        |
+| ------------------------------------------------------------- | ---------- |
+| Registration of an Individual Entrepreneur (next working day) | **GEL 26** |
+| Registration of an Individual Entrepreneur (same day)         | **GEL 75** |
+| Registration extract in **English** (optional)                | **GEL 26** |
+| Certification of signatures on a submitted document           | GEL 7      |
+
 ## The registration extract
 
 Once the registration is completed, the **National Agency of Public Registry** issues an **official registration extract** confirming your status as an Individual Entrepreneur and your identification number. The extract is prepared in **Georgian** and, if requested, may also be issued in **English**.
@@ -93,14 +102,6 @@ For many freelancers, consultants, IT specialists and other service providers, 
 Registering as an **Individual Entrepreneur** does **not**, by itself, authorise every foreign national to carry out entrepreneurial activity in Georgia.
 
 In some cases, foreign nationals who intend to carry out **entrepreneurial activity** in Georgia must first obtain the **[right to work](/en/right-to-work-georgia)**. The application is submitted **in person** to the **State Employment Promotion Agency**. 
-
-As part of the procedure, applicants must complete a **mandatory video interview** conducted in **Georgian or English** (an interpreter may participate). During the interview, the applicant must present the **original passport** used for the application. Failure to attend the interview, confirm the application or present the original passport may result in the application being refused.
-
-Self-employed applicants must generally demonstrate:
-
-- an **annual turnover of at least GEL 50,000** per foreign national applying for the right to work;
-- documents confirming their **field of entrepreneurial activity**; and
-- compliance with the other requirements established by Georgian labour migration legislation.
 
 Whether an Individual Entrepreneur must obtain the right to work depends on the nature of the activity carried out and the applicant's migration status. Although Georgian legislation provides exceptions for certain activities falling outside the scope of the Law on Labour Migration, these exceptions are limited and should be assessed on a case-by-case basis. See [[en/right-to-work-georgia|right-to-work-georgia]] guide for a detailed explanation.
 

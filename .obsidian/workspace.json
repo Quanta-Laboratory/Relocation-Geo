@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/guides/en/register-individual-entrepreneur-remotely.md",
+                "file": "src/content/guides/en/register-individual-entrepreneur-in-person-georgia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "register-individual-entrepreneur-remotely"
+              "title": "register-individual-entrepreneur-in-person-georgia"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "f8523bfc3103811e",
   "lastOpenFiles": [
+    "src/content/guides/en/register-individual-entrepreneur-remotely.md",
     "src/content/guides/uk/register-individual-entrepreneur-remotely.md",
     "src/content/guides/en/register-individual-entrepreneur-in-person-georgia.md",
     "en/personal-income-tax-georgia.md",
@@ -233,7 +234,6 @@
     "src/data/small-business-activity-data.ts",
     "src/content/guides/en/everyday-essentials-georgia.md",
     "src/content/guides/en/economic-activities-registry-georgia.md",
-    "src/content/guides/en/driving-in-georgia.md",
     "public/og-default.png",
     "Untitled.canvas"
   ]
