@@ -42,34 +42,35 @@ faq:
 order: 1
 ---
 
-Georgia allows a foreign national to register an **Individual Entrepreneur (IE)** remotely through a **Power of Attorney (PoA)**. This means you do not need to travel to Georgia to begin operating as a sole trader. This guide sets out the step-by-step process for remote IE registration and the documents involved.
+Georgia allows a foreign national to register an **Individual Entrepreneur (IE)** remotely through a **Power of Attorney (PoA)**. This means you do not need to travel to Georgia to complete the registration process. 
 
 Remote registration is commonly used by freelancers, IT specialists, consultants, online entrepreneurs and other remote service providers. See also the guides on [running a business in Georgia](/en/run-a-business-in-georgia) and [business statuses in Georgia](/en/business-statuses-georgia).
 
 ## How remote registration works
 
-Registration is completed by a **representative located in Georgia** — for example a lawyer or legal service provider — acting under a Power of Attorney. The representative submits the documents to the **National Agency of Public Registry** at the **Public Service Hall** and receives the registration extract on your behalf.
+Remote registration is completed through a **representative in Georgia** acting under a Power of Attorney. The representative submits the documents to the **National Agency of Public Registry** at the **Public Service Hall** and completes the registration procedure on your behalf.
 
-| Step | Action | Where |
-| --- | --- | --- |
-| 1 | Appoint a representative in Georgia | — |
-| 2 | Prepare the Power of Attorney (template provided by the representative) | Your country |
-| 3 | Notarise the Power of Attorney and a copy of your passport; apostille or legalise if required | Your country |
-| 4 | Obtain a Georgian phone number or eSIM for communication with agencies and banks | — |
-| 5 | Send the original documents to the representative by international courier | Your country → Tbilisi |
-| 6 | Translate the documents into Georgian and notarise the translation | Georgia |
-| 7 | Submit the documents and register the IE | Public Service Hall |
-| 8 | Receive the official business extract (Georgian and English) | Public Service Hall |
+| Step | Action                                                                                                              | Where                      |
+| ---- | ------------------------------------------------------------------------------------------------------------------- | -------------------------- |
+| 1    | Appoint a representative in Georgia                                                                                 | —                          |
+| 2    | Prepare and sign the Power of Attorney                                                                              | Your country               |
+| 3    | Notarise the Power of Attorney and a copy of your passport; obtain an **apostille or legalisation**, where required | Your country               |
+| 4    | Obtain a Georgian phone number or eSIM                                                                              | Mobile operator in Georgia |
+| 5    | Send the original documents to the representative by international courier                                          | Your country → Georgia     |
+| 6    | The documents are translated into Georgian and  the translation is notarised                                        | Georgia                    |
+| 7    | The registration application is **submitted to the Public Service Hall**.                                           | Public Service Hall        |
+| 8    | Receive the the **Individual Entrepreneur registration extract** (available in Georgian and in English)             | Public Service Hall        |
 
 ## Power of Attorney
 
-The Power of Attorney authorises your representative to:
+To register an Individual Entrepreneur remotely, your representative in Georgia must hold a Power of Attorney (PoA) authorising them to act on your behalf. The Power of Attorney may authorise the representative to: 
 
 - register the Individual Entrepreneur;
-- submit documents to government agencies on your behalf;
-- receive registration extracts and related documents.
+- sign and submit documents to government authorities on your behalf;
+- receive registration extracts and other registration-related documents;
+- carry out other actions necessary to complete the registration process.
 
-The representative typically supplies the template. You sign it before a **notary in your country**, together with a **notarised copy of the main page of your passport**.
+The Power of Attorney is usually prepared by the representative or legal service provider handling the registration. It must be signed before a **notary public** in your country.
 
 ## Apostille, legalisation and translation
 
