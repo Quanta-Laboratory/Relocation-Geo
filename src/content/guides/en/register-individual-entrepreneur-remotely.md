@@ -61,6 +61,15 @@ Remote registration is completed through a **representative in Georgia** acting 
 | 7    | The registration application is **submitted to the Public Service Hall**.                                           | Public Service Hall        |
 | 8    | Receive the the **Individual Entrepreneur registration extract** (available in Georgian and in English)             | Public Service Hall        |
 
+**Georgian Number** 
+Georgian government and financial services authenticate you by **SMS one-time code sent to a Georgian number**. In practice that means a local number is what stands between you and:
+
+- the **Revenue Service portal (rs.ge)** — where you activate your taxpayer account, apply for [Small Business Status](/en/small-business-status-georgia), and file the **monthly declaration** that is due even in months with no income;
+- **Public Service Hall** and government e-services, which use the same verification pattern;
+- your **business bank account** — banks send transaction confirmations and login codes to a local number. 
+
+ An **eSIM** can often be arranged without a physical shop, which is the usual route for people still abroad. The options are in the **[Mobile & Internet guide](/en/mobile-and-internet-in-georgia)**.
+ 
 ## Power of Attorney
 
 To register an Individual Entrepreneur remotely, your representative in Georgia must hold a Power of Attorney (PoA) authorising them to act on your behalf. The Power of Attorney may authorise the representative to: 
@@ -74,92 +83,52 @@ The Power of Attorney is usually prepared by the representative or legal service
 
 ## Apostille, legalisation and translation
 
-Depending on your country, the notarised Power of Attorney and passport copy may need to be **apostilled** (for countries party to the Hague Apostille Convention) or otherwise **legalised** before they are recognised in Georgia.
+Depending on your country, the notarised Power of Attorney and passport copy may need to be **apostilled** (for countries party to the Hague Apostille Convention) or otherwise **legalised** before they can be used in Georgia.
 
-Once the originals arrive in Georgia, the representative arranges an **official translation into Georgian** and **notarisation of the translation**. This translated, notarised set is what is submitted to the Public Registry.
+Once the originals arrive in Georgia, the representative arranges an **official translation into Georgian** and **notarisation of the translation**. The original foreign documents, together with their notarised Georgian translations, are then submitted as part of the registration application.
 
-## Registration and the business extract
+## Registration and the registration extract
 
-The representative submits the documents to the **National Agency of Public Registry** at the **Public Service Hall**. Registration of an Individual Entrepreneur usually takes **1–5 working days**.
+The representative submits the registration application to the **National Agency of Public Registry** through the **Public Service Hall**. Registration is completed within the selected **standard or expedited processing period**.
 
-After registration you receive an **official business extract**, issued in **Georgian and English**, confirming the IE registration and its identification number.
-
-## Timeframes
-
-| Stage | Typical duration |
-| --- | --- |
-| Public Registry registration (once documents are in Georgia) | 1–5 working days |
-| Full process, including courier delivery, translation and notarisation | 1–3 weeks |
-
-The overall duration depends mainly on how quickly the original documents reach Georgia by courier.
+Once the registration is completed, the **National Agency of Public Registry** issues an **Individual Entrepreneur registration extract**, confirming the registration and the Individual Entrepreneur's identification number. The extract is available in **Georgian** and, upon request, **English**.
 
 ## State fees and costs
 
-**Registration is not free.** You will find the opposite claim on many sites — this page carried it too, until a reader corrected us.
+| Service                                                       | Fee        |
+| ------------------------------------------------------------- | ---------- |
+| Registration of an Individual Entrepreneur (next working day) | **GEL 26** |
+| Registration of an Individual Entrepreneur (same day)         | **GEL 75** |
+| Registration extract in **English** (optional)                | **GEL 26** |
+| Certification of signatures on a submitted document           | GEL 7      |
 
-The **state fee** published by the **National Agency of Public Registry**:
-
-| Service | Fee |
-| --- | --- |
-| Registration of an Individual Entrepreneur — **1 working day** | **GEL 26** |
-| Registration **on the day of filing** | **GEL 75** |
-| **English-language extract** — prepared together with any service | **+ GEL 26** |
-| Certification of signatures on a submitted document | GEL 7 |
-
-**What you pay at the counter is more than the headline fee.** Nearly every foreign founder needs the **English-language extract** — it is what banks and foreign counterparties ask for — and that adds GEL 26. With the extract and the usual counter charges, people commonly pay in the region of **GEL 60** for next-working-day registration and **GEL 110** for same-day. Treat the table as the statutory floor and those totals as what actually leaves your wallet.
 
 On top of the state fee, and separate from it:
-
 - notarisation and apostille or legalisation in your country;
-- international courier delivery of the originals to Georgia;
+- international courier delivery of the original documents to Georgia;
 - translation into Georgian and notarisation of the translation in Georgia.
 
 Service fees and timeframes are set by the National Agency of Public Registry and are periodically updated, so confirm the current figures with the **Public Service Hall** or the **National Agency of Public Registry** before applying.
 
-## After registration
+## Using your Individual Entrepreneur
 
-Once registered, you receive an identification number and can [open a business bank account](/en/banking-in-georgia), issue invoices, sign contracts and receive payments.
+Once Individual Entrepreneur has been registered, you receive an identification number and may [open a business bank account](/en/banking-in-georgia), issue invoices, sign contracts, receive payments, carry out your entrepreneurial activity in Georgia, subject to any applicable immigration and labour migration requirements.
 
-Most foreign entrepreneurs then apply for **Small Business status** through the **Revenue Service of Georgia**, if they qualify. This regime applies a **1% tax on turnover up to GEL 500,000 per year**, subject to the conditions in the Tax Code. See [personal income tax in Georgia](/en/personal-income-tax-georgia) for the qualifying conditions.
+If you meet the conditions established by the **Tax Code of Georgia**, you may also apply separately for **Small Business Status** through the **Revenue Service of Georgia**. This regime applies a **1% tax rate on annual turnover of up to GEL 500,000**, subject to the statutory eligibility requirements. See [[small-business-status-georgia]] for further details.
 
-## You will need a Georgian phone number to actually run the business
 
-Registering the Individual Entrepreneur remotely is the easy part. **Operating it afterwards is what a Georgian mobile number gates**, and this catches people out — the company exists, but the owner cannot do anything with it.
+## The right to work for self-employed foreign nationals
 
-Georgian government and financial services authenticate you by **SMS one-time code sent to a Georgian number**. In practice that means a local number is what stands between you and:
+Registering an **Individual Entrepreneur (IE)** does **not**, by itself, authorise every foreign national to carry out entrepreneurial activity in Georgia.
 
-- the **Revenue Service portal (rs.ge)** — where you activate your taxpayer account, apply for [Small Business Status](/en/small-business-status-georgia), and file the **monthly declaration** that is due even in months with no income;
-- **Public Service Hall** and government e-services, which use the same verification pattern;
-- your **business bank account** — banks send transaction confirmations and login codes to a local number, and a foreign number is often not accepted at all.
+In some cases, foreign nationals who intend to carry out entrepreneurial activity in Georgia must first obtain the **[right to work](/en/right-to-work-georgia)**. The application must be submitted **in person** to the **State Employment Promotion Agency**. 
 
-A representative acting under your Power of Attorney can complete the **registration**. What they cannot do for you indefinitely is **be you** in these systems: the declarations, the tax account and the bank access are yours to operate, and each of them wants a Georgian number.
+Foreign nationals carrying out activities that fall outside the scope of the **Law on Labour Migration** may be subject to different rules in the cases established by Georgian legislation. However, these exceptions are limited and should be assessed carefully. In particular, an **Individual Entrepreneur** should not assume that registration alone removes the obligation to obtain the right to work or an appropriate migration status.
 
-So treat the number as part of the setup, not an afterthought. If you registered remotely and have not yet been to Georgia, plan to **get a local SIM or eSIM on your first visit** — before you try to activate the tax account or open the bank account. An **eSIM** can often be arranged without a physical shop, which is the usual route for people still abroad. The options are in the **[Mobile & Internet guide](/en/mobile-and-internet-in-georgia)**.
+For a detailed explanation of the applicable requirements, documentary evidence and statutory exceptions, see our **[Right to Work in Georgia](/en/right-to-work-georgia)** guide.
 
-## The right to work: what changed for the self-employed
 
-Since 1 March 2026, carrying out entrepreneurial activity in Georgia generally requires a separate **[right to work](/en/right-to-work-georgia)** — and **Government Ordinance No 321 of 9 July 2026** rewrote how a self-employed foreigner gets it. Four points are worth knowing before you register.
 
-**You apply in person.** The application must be made **directly by you**, not through a representative or a proxy.
 
-**There is a compulsory video interview.** After filing, you must pass a **video interview** with the Agency, conducted in **Georgian or English** — you may attend with an **interpreter** — while holding the **original of the foreign passport** you applied with. You confirm the electronic application at the end of it. Failing to appear, failing to confirm the application, or failing to produce the original passport is an express ground for **refusal**.
 
-**Turnover is tested.** You must evidence **annual turnover of at least GEL 50,000** for each foreign national seeking the right to work (**GEL 35,000** for educational and medical institutions). A **newly registered IE is excused**: no turnover certificate is required where **no more than three months** have passed since registration. As an Individual Entrepreneur you must also submit a document confirming your **field of activity** — an extract from the register of economic activities, or an activity certificate from the Revenue Service. Your passport must have at least **six months** of validity left when you apply.
 
-**And one trap.** The exemption for foreigners supplying services to **non-resident (foreign) clients** expressly **does not apply** where the foreigner is an **individual entrepreneur who needs a residence permit in order to stay in Georgia lawfully**. Do not assume that an IE serving only clients abroad sits outside the regime — see the [right to work](/en/right-to-work-georgia) and [digital nomads](/en/georgia-for-digital-nomads) guides.
-
-Ordinance No 321 has **no official English translation**; the above is our reading of the Georgian original. Confirm your own position before you start earning income here.
-
-## Legal sources
-
-This guide is based on the following legislation of Georgia:
-
-- **Tax Code of Georgia**;
-- **Law of Georgia on Entrepreneurs**;
-- **Law of Georgia on Public Registry**;
-- **Law of Georgia on the Legal Status of Aliens and Stateless Persons**;
-- **Law of Georgia on Labour Migration**;
-- **Government of Georgia Ordinance No. 415** on Special Taxation Regimes (29 December 2010);
-- **Government of Georgia Ordinance No. 509** on the service fees, payment procedures and service timeframes of the National Agency of Public Registry (29 December 2011).
-
-Official versions are published by the **Legislative Herald of Georgia (Matsne)** at [matsne.gov.ge](https://www.matsne.gov.ge/en). Registration procedures, fees and timeframes are periodically updated, so confirm current requirements with the **Public Service Hall**, the **National Agency of Public Registry** or the **Revenue Service** before applying.
