@@ -61,7 +61,17 @@ The tax itself is **1%** of the turnover under the regime, rising to **3%** once
 
 ## Keeping the expense journal
 
-A small business must keep a **special expense journal** — a running record of business expenses in the form the Ministry of Finance prescribes. It is a light obligation compared with full double-entry bookkeeping, but it is not optional: it is set by the Tax Code and detailed in **Order of the Minister of Finance No 999** (Annex 3). Keep your **primary documents** — invoices, receipts, contracts — alongside it.
+A small business must keep a **special expense journal** — a running record of business expenses in the form the Ministry of Finance prescribes. It is a light obligation compared with full double-entry bookkeeping, but it is **not optional**: it is set by the Tax Code and detailed in **Order of the Minister of Finance No 999** (Annex 3).
+
+Alongside the journal, keep the **primary documents** that evidence your income and expenses:
+
+- **invoices** you issue to clients;
+- **receipts and expense vouchers** for money you spend;
+- **contracts** with clients and suppliers;
+- **bank statements** for your business account;
+- **waybills** where the Tax Code requires one for the movement of goods.
+
+Retention: the Small Business Status guide states these documents should be kept for **3 years**. Some provisions of the Tax Code use a longer period for comparable regimes, so if a long retention matters to you, **confirm the exact period for small business with the Revenue Service** rather than relying on a single figure.
 
 ## VAT: the obligation the 1% rate does not remove
 
