@@ -39,7 +39,7 @@ tags:
 
 Georgia allows a foreign national to register an **Individual Entrepreneur (IE)** **in person** through a fast procedure at the **Public Service Hall**. 
 
-In-person registration is commonly used by freelancers, IT specialists, consultants and other remote service providers. See also the guides on [running a business in Georgia](/en/run-a-business-in-georgia) and [business statuses in Georgia](/en/business-statuses-georgia). If you cannot travel, an IE can also be [registered remotely](/en/register-individual-entrepreneur-remotely) through a Power of Attorney.
+In-person registration is commonly used by freelancers, IT specialists, consultants and other remote service providers. See also the guides on [running a business in Georgia](/en/run-a-business-in-georgia) and [business statuses in Georgia](/en/business-statuses-georgia). If you cannot travel to Georgia, an IE can also be [registered remotely](/en/register-individual-entrepreneur-remotely) through a Power of Attorney.
 
 
 ## Who can register in person
@@ -87,7 +87,7 @@ Once the registration is completed, the **National Agency of Public Registry**�
 Following registration, your Individual Entrepreneur details are **automatically transmitted to the Revenue Service of Georgia**, allowing you to fulfil your tax obligations. You can access your tax account through the Revenue Service's online portal to manage declarations, payments and other tax-related matters.
 ## Small Business status
 
-For many freelancers, consultants, IT specialists and other service providers, **Small Business Status** is the preferred tax regime because it applies a **1% tax rate on annual turnover of up to GEL 500,000**, subject to the statutory conditions. See [personal income tax in Georgia](/en/personal-income-tax-georgia) for the eligibility criteria and application process.
+For many freelancers, consultants, IT specialists and other service providers, **Small Business Status** is the preferred tax regime because it applies a **1% tax rate on annual turnover of up to GEL 500,000**, subject to the statutory conditions. See [[small-business-status-georgia]]  for the eligibility criteria and application process.
 
 ## The right to work for self-employed foreign nationals
 
@@ -103,7 +103,7 @@ Self-employed applicants must generally demonstrate:
 - documents confirming their **field of entrepreneurial activity**; and
 - compliance with the other requirements established by Georgian labour migration legislation.
 
-Whether an Individual Entrepreneur must obtain the right to work depends on the nature of the activity carried out and the applicant's migration status. Although Georgian legislation provides exceptions for certain activities falling outside the scope of the Law on Labour Migration, these exceptions are limited and should be assessed on a case-by-case basis. See  [[en/right-to-work-georgia|right-to-work-georgia]] guide for a detailed explanation.
+Whether an Individual Entrepreneur must obtain the right to work depends on the nature of the activity carried out and the applicant's migration status. Although Georgian legislation provides exceptions for certain activities falling outside the scope of the Law on Labour Migration, these exceptions are limited and should be assessed on a case-by-case basis. See [[en/right-to-work-georgia|right-to-work-georgia]] guide for a detailed explanation.
 
 ## **Using your Individual Entrepreneur**
 
