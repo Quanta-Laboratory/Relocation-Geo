@@ -6,7 +6,7 @@ lang: "en"
 notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
 summary: "Applying to a Georgian university as an international student means choosing an authorised institution and accredited programme, having your prior qualification recognised by the NCEQE, and preparing apostilled or legalised documents with certified translations. English-taught programmes set their own language requirements."
 reviewed: 2026-06-27
-checked: 2026-07-13
+checked: 2026-07-14
 sources:
   - name: "National Center for Educational Quality Enhancement (NCEQE)"
     url: "https://eqe.ge/en"
