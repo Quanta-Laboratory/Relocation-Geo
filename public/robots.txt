@@ -30,3 +30,9 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://relocation.ge/sitemap-index.xml
+
+# Machine-readable indexes for AI assistants.
+# llms.txt is the index; llms-full.txt is the complete text of every page.
+# Both are generated at build time, so they can never drift from the site.
+# llms: https://relocation.ge/llms.txt
+# llms-full: https://relocation.ge/llms-full.txt

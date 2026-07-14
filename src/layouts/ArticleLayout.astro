@@ -68,16 +68,44 @@ const crumbs = [
 const siteUrl = Astro.site ? String(Astro.site) : 'https://relocation.ge';
 const url = new URL(Astro.url.pathname, siteUrl).href;
 
+// dateModified drives the freshness signal that search engines and AI assistants
+// weigh most heavily on legal content. `checked` is the date we last verified the
+// page against the statute and is always at least as recent as `reviewed`, so it is
+// the honest — and stronger — signal of the two.
+const modified = d.checked ?? d.reviewed;
+
 const articleLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: d.title,
   description: d.summary,
   inLanguage: d.lang,
-  dateModified: new Date(d.reviewed).toISOString(),
+  datePublished: new Date(d.reviewed).toISOString(),
+  dateModified: new Date(modified).toISOString(),
   url,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+  image: new URL('/og-default.png', siteUrl).href,
+  // A named author and reviewer is what separates content a model will cite from
+  // content it will only paraphrase. The project is the author; the statute is the
+  // authority; and we say plainly that this is not advice.
+  author: {
+    '@type': 'Organization',
+    name: 'Relocation.ge',
+    url: siteUrl,
+    description:
+      'Independent, non-commercial, open-source project structuring official Georgian legal provisions into source-based guidance.',
+  },
   isPartOf: { '@type': 'WebSite', name: 'Relocation.ge', url: siteUrl },
-  publisher: { '@type': 'Organization', name: 'Relocation.ge' },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Relocation.ge',
+    url: siteUrl,
+    logo: { '@type': 'ImageObject', url: new URL('/og-default.png', siteUrl).href },
+  },
+  isAccessibleForFree: true,
+  license: new URL('/en/use-of-materials', siteUrl).href,
+  // Every claim on the page traces to these. This is the field that makes the
+  // content citable rather than merely readable.
   citation: d.sources.map((s: { name: string; url: string }) => ({
     '@type': 'CreativeWork',
     name: s.name,
