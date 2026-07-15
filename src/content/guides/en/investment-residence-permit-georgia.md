@@ -31,70 +31,100 @@ faq:
     a: "State fees are GEL 300 for a 30-day decision, GEL 450 for 20 days and GEL 600 for 10 days, plus a separate Georgian ID (residence) card fee from GEL 60 (10 working days) up to GEL 150 (same-day). Confirm current figures with the Public Service Development Agency before applying."
 ---
 
-The **Investment Residence Permit** is Georgia's investor route — the closest thing the country has to a "golden visa." It is granted to a foreign citizen, and their family members, who makes a significant investment in the Georgian economy, and it carries a comparatively long term of **up to five years** with a path to **[permanent residence](/en/indefinite-residence-permit-georgia)**. This guide explains the two ways to qualify, the ongoing conditions attached to each route, the required documents, the fees and the onward path — checked against the **Law on the Legal Status of Aliens and Stateless Persons** and **Government Resolution No. 520 of 1 September 2014**.
+The **Investment Residence Permit** is Georgia's investor route — the closest thing the country has to a "golden visa." It may granted to a foreign citizen, who has either **made an investment in Georgia of at least USD 300,000** or **owns qualifying non-agricultural real estate in Georgia with a market value exceeding USD 300,000**, as well as to their eligible family members. It is issued for **up to five years** and provides a pathway to **[permanent residence](/en/indefinite-residence-permit-georgia)**. 
 
 ## Who is eligible
 
-A foreigner is eligible if they meet **one of the following investment criteria**.
+A foreign citizen may obtain an **Investment Residence Permit** if they meet **one of the following criteria**.
 
-**A. Investment in business / economy.** The foreigner has made an investment in Georgia of **at least USD 300,000**. Typical qualifying forms include:
+**A. Business Investment 
+
+The foreigner has made an investment in Georgia of  at least USD 300,000. The law does **not** define an exhaustive list of qualifying investments. Typical qualifying forms include:
 
 - investing in a Georgian business (company or enterprise);
 - other qualified economic investment activities recognised by law.
 
-**B. Ownership of immovable property.** The foreigner owns **non-agricultural real estate in Georgia** with a **market value above USD 300,000**. Market value is established by valuation, not simply the purchase price.
+The investment must be confirmed by an **audit report issued by a certified auditor**.
+
+**B. Ownership of real estate
+The foreigner owns **non-agricultural  immovable property  in Georgia** with a **market value above USD 300,000**. 
+The property **cannot** be agricultural land.
+Market value  must be confirmed by a **valuation report prepared by a certified valuer accredited by the Accreditation Centre of LEPL – Unified National Body of Accreditation**. The purchase price alone is not sufficient.
 
 In both cases the permit extends to the investor's **family members**, who may be included in the application and granted the permit on the same basis.
 
 ## Duration
 
-The Investment Residence Permit is generally issued for **five years**. It may be **renewed**, provided the investment is maintained and the conditions are still met. An investor who maintains the investment across this period can later obtain **[permanent residence](/en/indefinite-residence-permit-georgia)** in Georgia.
+The Investment Residence Permit is generally issued for up to **five years**. It may be **renewed**, provided the statutory requirements continue to be met. 
 
-## Ongoing conditions
+During the validity of the permit, investors who qualified through a **USD 300,000 investment** must satisfy the annual turnover requirements prescribed by law, while those who qualified through **ownership of qualifying real estate** must continue to own the property on which the permit was based (or a replacement property where permitted by law).
 
-The route sets a continuing condition that depends on the basis of the permit.
+After meeting the applicable legal requirements, the holder may apply for **[permanent residence](/en/indefinite-residence-permit-georgia)** in Georgia.
 
-**A. Business / investment route.** After receiving an Investment Residence Permit based on an investment of USD 300,000, the foreigner must demonstrate **annual turnover** from Georgian entrepreneurial activity:
+## Ongoing obligations
 
-- **first year:** at least **USD 50,000**;
-- **second year:** at least **USD 100,000**;
-- **third to fifth years:** at least **USD 120,000** in each year.
+The ongoing obligations depend on the basis on which the Investment Residence Permit was granted. 
 
-These are GEL-equivalent figures. The investment route therefore suits an active, revenue-generating business rather than a passive holding.
+**A. Business investment route.** 
+A foreigner who obtained an Investment Residence Permit on the basis of a **USD 300,000 investment** must, before the end of each year of the permit's validity, submit information from the **Revenue Service** confirming annual turnover from entrepreneurial activity carried out in Georgia of at least:
 
-**B. Real-estate ownership route.** If the permit was granted on the basis of owning property worth over USD 300,000, the foreigner must **hold ownership of that property for at least five years** after the investment permit is issued.
+- **USD 50,000** during the **first year**;
+- **USD 100,000** during the **second year**; and
+- **USD 120,000**  during **each of the third, fourth and fifth years**.
+
+**B. Real-estate ownership route.** 
+A foreigner who obtained an Investment Residence Permit on the basis of qualifying **non-agricultural real estate** must maintain ownership of the property on which the permit was granted throughout the validity of the permit. 
+
+If the property is sold or otherwise disposed of, it may be replaced with another **non-agricultural immovable property in Georgia** that also has a **market value exceeding USD 300,000**, provided the replacement is made in accordance with the procedure prescribed by law.
 
 ## Required documents
 
-Applications are submitted to the **Public Service Development Agency of Georgia**. The typical document set for the main investor is:
+Applications are submitted to the State Services Development Agency of Georgia ("the Agency").
 
-- the **application**;
-- a **copy of the passport** or travel document;
-- **proof of lawful stay** in Georgia (for example a visa or entry stamp);
-- **proof of investment** worth at least USD 300,000 — an **audit report issued by a certified auditor** (business route), or a **property valuation report** confirming the market value of the real estate, issued by a property valuer **accredited by the Accreditation Center of the National Accreditation Body (LEPL)** (property route);
-- a **written recommendation** from either a **member of the Government of Georgia**, or **three Georgian citizens** with authority to represent a Georgian-based business entity;
-- a **colour photograph, 3×4**, in electronic format;
-- the **receipt** for the residence-permit service fee.
+### A. Business investment route
 
-Foreign documents must generally be **legalised or apostilled** and translated into Georgian and notarised, unless an exemption applies.
+An applicant relying on an investment of **at least USD 300,000** in Georgia must submit:
+- the prescribed **application form**;
+- a **copy of the passport**;
+- a copy of a document confirming the applicant's **lawful stay in Georgia**;
+- an **audit report issued by a certified auditor** confirming an investment in Georgia of at least **USD 300,000** (or the equivalent in GEL);
+- **three written recommendations** from either: a **member of the Government of Georgia**; or **three Georgian citizens** who have representative authority in entrepreneurial entities operating in Georgia;
+- a **colour photograph (3×4 cm)** in electronic format; 
+- the **receipt** confirming payment of the applicable state fee.
+
+### B. Real estate route
+
+An applicant relying on ownership of qualifying real estate must submit:
+- the prescribed **application form**;
+- a **copy of the passport**;
+- a copy of a document confirming the applicant's **lawful stay in Georgia**;
+- a document confirming **ownership of non-agricultural immovable property in Georgia**;
+- a **valuation report** confirming that the property's market value exceeds **USD 300,000** (or the equivalent in GEL), prepared by a **certified valuer accredited by the Accreditation Centre of LEPL – Unified National Body of Accreditation**;
+- **three written recommendations** from either: a **member of the Government of Georgia**; or **three Georgian citizens** who have representative authority in entrepreneurial entities operating in Georgia;
+- a **colour photograph (3×4 cm)** in electronic format; 
+- the **receipt** confirming payment of the applicable state fee.
 
 ## Family members
 
-Family members of the investor can be included and granted the permit on the same basis. To obtain an Investment Residence Permit **as a family member of an investor**, the following documents are submitted to the Agency:
+Eligible family members of an Investment Residence Permit holder may obtain an Investment Residence Permit on the same basis. They must submit:
 
-- the **application**;
-- a **copy of the passport** or travel document of the family member;
-- a copy of a document confirming **lawful stay** in Georgia;
-- a copy of the **investor's Investment Residence Permit**;
-- a document confirming the **family relationship** with the permit holder (for example a marriage or birth certificate);
-- a **colour photograph, 3×4**, in electronic format;
-- the **receipt** for the service fee.
+- the prescribed **application form**;
+- a **copy of the passport**;
+- a copy of a document confirming the applicant's **lawful stay in Georgia**;
+- a copy of the investor's **Investment Residence Permit**;
+- a document confirming the **family relationship** with the investor (such as a marriage or birth certificate);
+- a **colour photograph (3×4 cm)** in electronic format; 
+- the **receipt** confirming payment of the applicable state fee.
 
-Where family members instead join a resident through the general family route, the requirements are set out in the **[family reunification residence permit](/en/family-reunification-residence-permit-georgia)** guide.
+This should not be confused with the **[family reunification residence permit](/en/family-reunification-residence-permit-georgia)**, which is a separate residence permit category with its own eligibility requirements.
 
+
+Documents issued abroad must generally be legalised or apostilled (unless an applicable international treaty or Georgian legislation provides otherwise) and translated  into Georgian and notarised in accordance with Georgian legislation.
+
+Where Georgian legislation permits, foreign documents may also be submitted electronically or without the original document, provided the authenticity of the apostille or legalisation can be verified through an official electronic register or another legally recognised verification system. In other cases, the competent authority may require the original document.
 ## Processing time and state fees
 
-The state fee depends on how quickly the application is processed:
+The applicable **state fee** depends on the selected processing time:
 
 | Processing time | State fee |
 | --- | --- |
@@ -104,7 +134,9 @@ The state fee depends on how quickly the application is processed:
 
 ## Georgian ID (residence) card
 
-After obtaining the residence permit, a foreign national may apply for a **Georgian ID (residence) card** through the Public Service Hall or the Public Registry. The fee depends on the processing time:
+After obtaining the IT Residence Permit, a foreign national must apply for a **Georgian residence (ID) card** within one month. Applications may be submitted through the Public Service Hall or a territorial office of the Public Service Development Agency.
+
+The fee depends on the processing time:
 
 | Issuance time | Fee |
 | --- | --- |
@@ -114,10 +146,16 @@ After obtaining the residence permit, a foreign national may apply for a **Georg
 | 2 working days | GEL 120 |
 | Same day | GEL 150 |
 
-## Investment vs. the property Short-Term permit
+## Investment vs.  Short-Term Residence Permit
 
-It is easy to confuse the two real-estate routes. The **[Short-Term Residence Permit](/en/short-term-residence-permit-property-georgia)** needs non-agricultural property worth more than **USD 150,000** (threshold from 1 March 2026) and is issued **one year at a time**. The Investment Residence Permit needs **USD 300,000** and runs for **up to five years** with the permanent-residence pathway. The Investment route also allows a business-based investment, not only real estate. Choose the route that matches the value of your holding and the duration you need. For an overview of all categories, see the **[guide to residence permits](/en/guide-to-residence-permits)**.
+The two real estate-based residence permits are often confused, but they serve different purposes.
 
-## Legal sources
+ The **[Short-Term Residence Permit](/en/short-term-residence-permit-property-georgia)**  is available to a foreigner who owns **non-agricultural immovable property in Georgia** with a **market value exceeding USD 150,000** (or the equivalent in GEL). It is issued for **one year** and may be renewed, provided the statutory requirements continue to be met.
 
-This guide is based on the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government Resolution No. 520 of 1 September 2014** on the procedure for reviewing and deciding on the issuance of residence permits in Georgia. Official versions are published in the **Legislative Herald of Georgia (Matsne)**. Thresholds, turnover conditions, fees and processing times are periodically updated, so confirm the current requirements with the **Public Service Development Agency** before applying.
+The **Investment Residence Permit** requires either:
+- an investment in Georgia of **at least USD 300,000** (or the equivalent in GEL); or
+- ownership of **non-agricultural immovable property** in Georgia with a **market value exceeding USD 300,000** (or the equivalent in GEL).
+ It is issued for **up to five years** and, unlike the Short-Term Residence Permit, may lead to **[permanent residence](/en/indefinite-residence-permit-georgia)**, provided the investor satisfies the statutory conditions throughout the permit period.
+
+The appropriate route therefore depends not only on the **value of the investment**, but also on the applicant's **long-term immigration objectives**. For an overview of all residence permit categories, see the **[guide to residence permits](/en/guide-to-residence-permits)**.
+
