@@ -91,6 +91,3 @@ Confirm the current service fees and document requirements with the **Public Ser
 
 Do not confuse this with the **[Investment Residence Permit](/en/investment-residence-permit-georgia)**. The property Short-Term permit needs real estate above **USD 150,000** and is renewed **yearly**. The Investment permit needs **USD 300,000** (as investment or property), runs **up to five years** and leads to **indefinite residence**. If your holding sits between the two thresholds, the Short-Term route is the one available to you.
 
-## Legal sources
-
-This guide is based on the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government of Georgia Resolution No. 520 of 1 September 2014** on the procedure for reviewing and deciding on the issuance of residence permits in Georgia. Official versions of the legislation are published in the **Legislative Herald of Georgia (Matsne)** at [matsne.gov.ge](https://www.matsne.gov.ge). Thresholds, fees and processing times are periodically updated, so confirm the current requirements with the **Public Service Development Agency** before relying on a particular treatment.
