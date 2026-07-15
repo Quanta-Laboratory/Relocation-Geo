@@ -29,53 +29,74 @@ faq:
     a: "No. The property Short-Term Residence Permit needs real estate above USD 150,000 and is issued yearly. The Investment Residence Permit needs USD 300,000 (investment or property), runs up to five years and leads to indefinite residence. Choose the route that matches your holding."
 ---
 
-A **Short-Term Residence Permit** is the residence permit granted to a **foreigner who owns immovable property in Georgia** of a certain value. It turns qualifying real-estate ownership into a residence right, renewable year by year for as long as the property is held, and the **same type of permit** may also be granted to the holder's **spouse and child/children**. Everything below is checked against the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government Resolution No. 520 of 1 September 2014**.
+A **Short-Term Residence Permit** is the residence permit granted to a **foreigner who owns real estate  in Georgia** of a certain value. It turns qualifying real-estate ownership into a residence right, renewable year by year for as long as the property is held, and the **same type of permit** may also be granted to the holder's **spouse and child/children**. 
+
 
 ## Who is eligible
 
 A foreigner may obtain a Short-Term Residence Permit if:
-
-- they **own immovable property located in Georgia**;
+- they **own real estate located in Georgia**;
 - the property is **not agricultural land**; and
 - the **market value** of the property **exceeds the equivalent of USD 150,000 in GEL**.
 
-## Value is by valuation, not price
+## Market value is determined by valuation, not purchase price
 
-The decisive figure is the **market value confirmed by a certified valuer** of a body accredited by the **National Accreditation Body**, not the price on your contract. If the appraisal comes in **at or below the threshold**, the property cannot support the permit. You may **combine several properties** to reach the figure, provided each is properly registered in the **Public Registry** and valued. See the [buying property guide](/en/buying-property-in-georgia-for-foreigners) for how ownership and registration work, and the [guide to residence permits](/en/guide-to-residence-permits) for how this permit sits alongside the other routes.
+The decisive figure is the **market value confirmed by a certified valuer** of a body accredited by the **National Accreditation Body**, not the price on your contract. If the appraisal comes in **at or below the threshold**, the property cannot support the permit. 
+
+The qualifying threshold is based on the **market value** of the property, **not** the purchase price stated in the sale agreement. The market value must **exceed USD 150,000 and be confirmed by a **valuation report prepared by a certified valuer of a body accredited by the Accreditation Centre of LEPL – Unified National Body of Accreditation**.
+
+If the certified valuation does **not exceed** the statutory threshold, the property does not qualify for a Short-Term Residence Permit, regardless of how much was paid for it.
+
+You may **combine several properties** to reach the figure, provided each is properly registered in the **Public Registry** and valued. 
+
+For more information on acquiring and registering property in Georgia, see the [buying property guide](/en/buying-property-in-georgia-for-foreigners) . For an overview of all residence permit categories, see the [guide to residence permits](/en/guide-to-residence-permits) . 
+
 
 ## Required documents
 
-Applications are submitted to the **Public Service Development Agency of Georgia**. The document set for the property owner is:
+Applications are submitted to the **Public Service Development Agency of Georgia**. The applicant must submit:
 
 - the **application**;
-- a **copy of the foreigner's passport** or travel document;
+- a **copy of the foreigner's passport**;
 - a **document confirming lawful stay** in Georgia;
-- a **document confirming ownership** of immovable property in Georgia (other than agricultural land) whose market value exceeds the equivalent of USD 150,000 in GEL;
-- a **document confirming the market value** of the property, issued by a **certified valuer of a body accredited by the National Accreditation Body (LEPL)**;
-- a **colour photograph, size 3×4**, in electronic format;
-- the **receipt** confirming payment of the service fee.
+- a **document confirming ownership** of real estate  in Georgia (other than agricultural land) with the market value exceeding the equivalent of USD 150,000 in GEL;
+- a **valuation report** confirming the property's market value, prepared by a **certified valuer of a body accredited by the Accreditation Centre of LEPL – Unified National Body of Accreditation**;
+- a **colour photograph (3×4 cm)** in electronic format;
+- the **receipt** confirming payment of the state fee.
 
 ### Documents for family members
 
-To obtain the same type of permit, the **spouse and child/children** of the permit holder submit:
+To obtain the same type of permit, the **spouse and child/children** of the Short-Term Residence Permit  holder must submit:
 
 - the **application**;
-- a **copy of the foreigner's passport** or travel document;
+- a **copy of the foreigner's passport**;
 - a **document confirming lawful stay** in Georgia;
-- a **copy of the short-term residence permit** of the main applicant;
+- a **copy of the short-term residence permit** of the principal applicant;
 - a **document confirming the family relationship** with the permit holder;
-- a **colour photograph, size 3×4**, in electronic format;
-- the **receipt** confirming payment of the service fee.
+- a **colour photograph (3×4 cm)** in electronic format; 
+- the **receipt** confirming payment of the applicable state fee.
 
-Foreign documents must generally be **legalised or apostilled** and translated into Georgian and notarised, unless an exemption applies.
+Documents issued abroad must generally be legalised or apostilled (unless an applicable international treaty or Georgian legislation provides otherwise) and translated into Georgian and notarised in accordance with Georgian legislation.
 
-## Duration and family
+## Duration 
 
-The permit is **short-term** — issued for **one year at a time** and **renewable** for as long as you continue to own qualifying property above the threshold. It can extend to the holder's **spouse and minor children**, so one qualifying property can cover the immediate family.
+A Short-Term Residence Permit is issued for **one year** and may be **renewed**, provided the statutory requirements continue to be met, including continued ownership of qualifying real estate. 
+
+
+## Processing time and state fees
+The applicable **state fee** depends on the selected processing time:
+
+| PROCESSING TIME  | STATE FEE |
+| ---------------- | --------- |
+| 30 calendar days | GEL 300   |
+| 20 calendar days | GEL 450   |
+| 10 calendar days | GEL 600   |
 
 ## Georgian ID (residence) card
 
-After obtaining the residence permit, a foreign national may apply for a **Georgian ID (residence) card** through the Public Service Hall or the Public Registry. The state fee depends on the processing time:
+After obtaining the IT Residence Permit, a foreign national must apply for a **Georgian residence (ID) card** within one month. Applications may be submitted through the Public Service Hall or a territorial office of the Public Service Development Agency.
+
+The fee depends on the processing time:
 
 | Issuance time | Fee |
 | --- | --- |
@@ -85,9 +106,13 @@ After obtaining the residence permit, a foreign national may apply for a **Georg
 | 2 working days | GEL 120 |
 | Same day | GEL 150 |
 
-Confirm the current service fees and document requirements with the **Public Service Development Agency** before applying.
 
-## How it differs from the Investment permit
+## Investment Residence Permit vs. Short-Term Residence Permit
 
-Do not confuse this with the **[Investment Residence Permit](/en/investment-residence-permit-georgia)**. The property Short-Term permit needs real estate above **USD 150,000** and is renewed **yearly**. The Investment permit needs **USD 300,000** (as investment or property), runs **up to five years** and leads to **indefinite residence**. If your holding sits between the two thresholds, the Short-Term route is the one available to you.
+The two property-based residence permits are often confused, but they serve different purposes.
 
+A **Short-Term Residence Permit** is available to a foreigner who owns **non-agricultural immovable property** in Georgia with a **market value exceeding USD 150,000** (or the equivalent in GEL). It is **issued for one year** and may be **renewed** for as long as the statutory requirements continue to be met.
+
+An  **[Investment Residence Permit](/en/investment-residence-permit-georgia)** requires either an investment in Georgia of **at least USD 300,000** or ownership of **non-agricultural immovable property** with a **market value exceeding USD 300,000** (or the equivalent in GEL). It is issued for **up to five years** and may provide a pathway to **[Permanent Residence](/en/indefinite-residence-permit-georgia)**, provided the statutory conditions are satisfied throughout the permit period.
+
+If your property is valued **above USD 150,000 but does not exceed USD 300,000**, the **Short-Term Residence Permit** is the appropriate route. If you meet the **USD 300,000** threshold and are looking for a longer-term immigration solution, the **Investment Residence Permit** may be the more suitable option.
