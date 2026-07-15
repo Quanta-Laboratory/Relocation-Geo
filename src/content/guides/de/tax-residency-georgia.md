@@ -4,7 +4,7 @@ category: "tax"
 lang: "de"
 summary: "Georgien bestimmt die steuerliche Ansässigkeit natürlicher Personen in erster Linie über die physische Anwesenheit: Nach Artikel 34 der Abgabenordnung ist eine Person, die sich in einem beliebigen zusammenhängenden Zeitraum von 12 Monaten, der im Steuerjahr endet, 183 Tage oder mehr in Georgien aufhält, für das gesamte Jahr steuerlich in Georgien ansässig. Daneben gibt es einen Weg für vermögende Privatpersonen (High Net Worth Individual, HNWI), der durch eine gemeinsame Verordnung des Finanzministers festgelegt ist und die Ansässigkeit ohne Tagezählung gewährt, sofern eine Vermögens- oder Einkommensschwelle sowie eine Bedingung des Georgien-Bezugs erfüllt sind. Die steuerliche Ansässigkeit ist wichtig, weil Georgien Ansässige nur auf georgische Einkünfte besteuert und weil eine Ansässigkeitsbescheinigung den Zugang zu den Doppelbesteuerungsabkommen Georgiens eröffnet. Dieser Leitfaden erläutert beide Wege, wie die Tage gezählt werden, die HNWI-Schwellen und wie man eine steuerliche Ansässigkeitsbescheinigung erhält, geprüft anhand des primären georgischen Rechts."
 reviewed: 2026-06-30
-checked: 2026-07-14
+checked: 2026-07-15
 order: 1
 sources:
   - name: "Abgabenordnung Georgiens, Artikel 34 (Ansässigkeit) — Legislative Herald, konsolidierter georgischer Text"

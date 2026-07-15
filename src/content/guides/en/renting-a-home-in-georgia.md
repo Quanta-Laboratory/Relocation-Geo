@@ -5,7 +5,7 @@ parent: housing-in-georgia
 lang: "en"
 summary: "Residential tenancies in Georgia are governed by the Civil Code (Articles 531–575). Rent and deposits are freely negotiated, a lease with no stated term is treated as indefinite and can be ended on three months' notice, and any termination must be made in writing."
 reviewed: 2026-06-27
-checked: 2026-07-14
+checked: 2026-07-15
 sources:
   - name: "Civil Code of Georgia, Articles 531–575 (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/31702"
