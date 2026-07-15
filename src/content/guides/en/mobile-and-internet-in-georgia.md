@@ -29,7 +29,7 @@ Staying connected in Georgia is easy, fast and cheap — one of the quiet advant
 
 ## Getting a SIM
 
-Three operators dominate the market: **Magti, Silknet and Cellfie**. You can buy a **prepaid SIM with just your passport** at the airport on arrival, at operator branches, or in many shops and kiosks. Activation is quick, and you can top up online or in shops. For a longer stay, compare the operators' current data bundles, as plans and promotions change often.
+Three operators dominate the market: **Magti, Silknet and Cellfie**. You can buy a **prepaid SIM with just your passport** at the airport on arrival, at operator branches, or in many shops and kiosks. Activation is quick, and you can top up online or in shops. For a longer stay, compare the operators' current data bundles, as plans and promotions change often. For a side-by-side comparison of the three — coverage, eSIM, home internet and how to choose — see **[mobile operators in Georgia](/en/mobile-operators-georgia)**.
 
 ## Mobile data and coverage
 
