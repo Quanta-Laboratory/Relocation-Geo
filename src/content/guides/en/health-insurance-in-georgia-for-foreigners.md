@@ -33,12 +33,6 @@ Georgia introduced a mandatory entry-insurance rule in 2026, so health cover now
 
 ## Mandatory insurance to enter Georgia
 
-Here's a version that's easier to read for non-lawyers while keeping it accurate:
-
----
-
-## Mandatory insurance to enter Georgia
-
 From **1 January 2026**, anyone travelling to Georgia as a tourist must have **valid health and accident insurance**. This requirement applies to **all foreign visitors**, regardless of their nationality or whether they arrive by **air, land or sea**.
 
 Your insurance must be valid **for your entire stay in Georgia**, from the day you enter until the day you leave. The maximum policy period recognised for this purpose is **one year**.
