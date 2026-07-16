@@ -25,15 +25,25 @@ faq:
     a: "Tbilisi suits people relocating for work, business or family who want the widest choice of jobs, schools, healthcare and services, plus year-round cultural life and the largest community of foreign residents in Georgia. Those set on coastal living may prefer Batumi."
 ---
 
-Tbilisi is Georgia's capital and by far its largest city — the centre of the country's economic, political and cultural life, and the base for most people who relocate to Georgia. In the 2024 census it had about **1.33 million residents**, roughly a third of the national population, and it is the most densely populated part of the country (Geostat). This guide sketches the city's setting, climate, neighbourhoods and connections at a high level; for the practical detail of finding and paying for a home, see the [housing](/en/housing-in-georgia) and [cost-of-living](/en/cost-of-living-in-georgia) guides.
 
-## Setting and character
+Tbilisi is the **capital and largest city of Georgia**, and the place where most foreigners choose to live. It is the country's economic, political and cultural centre, offering the widest choice of jobs, international businesses, universities, healthcare, restaurants and entertainment. With around **1.33 million residents**, it is home to roughly one third of Georgia's population and has by far the country's largest international community.
 
-Tbilisi lies in eastern Georgia along the Mtkvari (Kura) River, spread through a valley and up the surrounding hills at roughly 380–770 metres above sea level. The city mixes a historic old town of churches, sulphur baths and narrow streets with Soviet-era districts and newer developments, and it holds the country's main concentration of offices, universities, hospitals, embassies and government institutions. As the administrative capital, it is also where most official procedures are handled.
+Whether you are moving for work, business, study or retirement, Tbilisi is usually the easiest place to settle thanks to its developed infrastructure and wide range of services. This guide introduces the city's neighbourhoods, climate and lifestyle. For information about renting or buying a home, see our **[Housing in Georgia](/en/housing-in-georgia)** guide, and for typical prices, see **[Cost of Living in Georgia](/en/cost-of-living-in-georgia)**.
+
+
+## The city at a glance
+
+Tbilisi stretches along the **Mtkvari (Kura) River**, surrounded by hills that give many neighbourhoods impressive city views. It is a city of contrasts, where centuries-old churches, traditional balconies and famous sulphur baths stand alongside Soviet-era districts, modern business centres and newly built residential developments.
+
+As Georgia's capital, Tbilisi is home to most government institutions, embassies, international organisations and the country's leading universities, making it the main destination for both locals and foreigners relocating to Georgia.
 
 ## Climate
 
-Tbilisi has a **humid subtropical climate**. Summers are hot — daytime temperatures regularly climb above 30 °C and can exceed 35 °C, with the valley setting trapping heat — while winters are cool, with occasional frost, light snow and grey spells. Spring and autumn are generally the most comfortable seasons. Compared with the Black Sea coast, Tbilisi is drier, with a wider gap between summer and winter temperatures.
+Tbilisi has a **humid subtropical climate** with four distinct seasons.
+
+Summers are **hot and dry**, with temperatures often exceeding **30°C** and occasionally reaching **35°C or more**. Winters are generally mild, although cold periods, frost and occasional snowfall do occur. Spring and autumn are considered the most pleasant seasons, offering comfortable temperatures and sunny weather.
+
+Compared with the Black Sea coast, Tbilisi receives less rainfall and has greater seasonal temperature differences.
 
 ## Neighbourhoods
 
@@ -47,17 +57,27 @@ Newcomers tend to concentrate in a handful of districts, each with a different b
 
 Central and newer housing costs more; older Soviet-era buildings and areas further out cost less. Typical rents by area are set out in the [cost-of-living guide](/en/cost-of-living-in-georgia).
 
-## Getting around and connectivity
+## Safety
 
-Tbilisi is well connected internally. It has a **two-line metro**, an extensive bus network and widely used ride-hailing apps, all inexpensive by international standards. **Tbilisi International Airport**, east of the city, is the country's main gateway, with flights to Europe, the Gulf and neighbouring countries; a city bus and taxis link it to the centre. Long-distance minibuses (marshrutkas) and trains connect Tbilisi to Batumi, Kutaisi and other towns. Everyday transport fares and typical taxi costs are covered in the [cost-of-living guide](/en/cost-of-living-in-georgia).
+Tbilisi is generally considered one of the safer capitals the region. Violent crime is uncommon, and most residents and visitors feel comfortable walking in central areas during the evening. As in any large city, petty theft and scams can occur, so normal precautions should still be taken.
 
-## Who Tbilisi suits
+## Transport
 
-Tbilisi suits most people relocating for work, business, study or family. It offers the country's widest choice of jobs, international schools, universities, hospitals and services, year-round cultural life, and the largest and most established community of foreign residents. People whose priority is living by the sea, or who prefer a smaller and quieter city, may find **[Batumi](/en/living-in-batumi)** a better fit.
+Getting around Tbilisi is straightforward and inexpensive.
 
-## Where to go next
+The city has a **two-line metro**, an extensive network of buses and minibuses, and reliable taxi and ride-hailing services. Most daily journeys are affordable, making it easy to live without owning a car.
 
-- **[Where to Live in Georgia](/en/where-to-live-in-georgia)** — compare Tbilisi with Batumi and other options.
-- **[Living in Batumi](/en/living-in-batumi)** — the Black Sea alternative.
+**Tbilisi International Airport** is about 17 kilometres from the city centre and offers direct flights to many destinations across Europe, the Middle East and neighbouring countries. Trains and intercity buses also connect Tbilisi with **Batumi**, **Kutaisi** and other parts of Georgia.
+
+## Is Tbilisi right for you?
+
+Tbilisi is the best choice for most people relocating to Georgia. It offers the country's largest job market, the widest selection of housing, international schools, universities, healthcare facilities and business opportunities, together with an active cultural and social life.
+
+If, however, your priority is living by the sea, enjoying a milder climate or settling in a smaller and more relaxed city, **[Batumi](/en/living-in-batumi)** may be a better fit.
+
+## Explore further
+
+- **[Where to Live in Georgia](/en/where-to-live-in-georgia)** — compare Tbilisi with Batumi and other cities.
+- **[Living in Batumi](/en/living-in-batumi)** — discover Georgia's Black Sea city.
 - **[Housing in Georgia](/en/housing-in-georgia)** — renting and buying a home.
-- **[Cost of Living in Georgia](/en/cost-of-living-in-georgia)** — budgets and typical rents.
+- **[Cost of Living in Georgia](/en/cost-of-living-in-georgia)** —  typical prices, rents and everyday expenses.
