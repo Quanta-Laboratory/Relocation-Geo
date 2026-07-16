@@ -23,28 +23,44 @@ faq:
 order: 1
 ---
 
-Day-to-day healthcare in Georgia is more accessible and affordable than many newcomers expect, especially through the private sector in the main cities. The key thing to plan for is payment: the state system does little for most foreigners, so insurance or out-of-pocket spending is how healthcare actually works here.
+Healthcare in Georgia is modern, easy to access in the main cities and generally more affordable than many newcomers expect. Most foreigners use the **private healthcare system**, which offers short waiting times, good facilities and comparatively reasonable prices.
 
 ## Seeing a doctor
 
-Most foreigners rely on **private clinics**, which take appointments and frequently accept walk-ins, with comparatively short waits. The best-equipped clinics are in **Tbilisi and Batumi**, and larger private facilities commonly have **English-speaking doctors** and modern diagnostics. Public hospitals exist too, but private clinics are the usual choice for convenience and language.
+Most foreigners choose **private clinics**, where you can usually book an appointment quickly and many clinics also accept walk-in patients.
+
+The best-equipped medical centres are in **Tbilisi** and **Batumi**, and many have **English-speaking doctors**, international departments and modern diagnostic equipment.
+
+Public hospitals are also available, but private clinics are generally preferred for convenience, shorter waiting times and language support.
 
 ## Emergencies
 
-The single emergency number is **112**, covering ambulance, police and fire. Emergency treatment is available when you need it; as with routine care, expect to handle the cost through insurance or payment, so keep your insurance details accessible.
+The national emergency number is **112**, which can be used to call an ambulance, the police or the fire service.
 
+Emergency medical treatment is available regardless of nationality. If you do not have insurance, you will normally be responsible for paying the cost of your treatment yourself.
 ## Pharmacies and medicines
 
-**Pharmacy chains are everywhere** in cities, well stocked and often open long hours, and **many medicines are available over the counter** without the prescriptions some countries require. If you take regular medication, note its **generic (international) name** — brand names differ, and a pharmacist can find the local equivalent. Bring a supply and a doctor's note for anything unusual or controlled.
+Pharmacies are easy to find throughout Georgia, particularly in larger cities, and many are open **late or 24 hours a day**.
 
-## State cover vs paying privately
+Many medicines that require a prescription in other countries can be purchased **over the counter** in Georgia. If you regularly take medication, it is a good idea to know its **generic (international) name**, as brand names may differ. For controlled medicines, bring both an adequate supply and a doctor's prescription or medical letter.
 
-Georgia runs a state **Universal Healthcare Program**, but it is designed around Georgian citizens. Foreigners, even with a residence permit, generally receive only limited free benefits, so in practice you either **pay out of pocket** — routine care is inexpensive by Western standards — or rely on **private insurance**. The trade-offs are set out in the [health insurance guide](/en/health-insurance-in-georgia-for-foreigners).
+## Paying for healthcare 
 
-## Insurance is the backbone
+Most foreign residents are **not fully covered by Georgia's Universal Healthcare Program**, so they usually either pay for treatment themselves or use **private health insurance**.
 
-Because state cover is thin for non-citizens, health insurance is the practical foundation of healthcare in Georgia — and since **1 January 2026 it is also mandatory just to enter**, with a minimum sum insured of GEL 30,000. Arranging appropriate cover before and during your stay protects you against the one real risk: a serious hospitalisation, which can be costly even in an otherwise affordable system.
+Routine consultations and basic medical care are generally affordable compared with many Western countries, but hospital treatment, surgery or emergency care can still be expensive.
 
-## A note
+For more information about insurance requirements, public healthcare eligibility and choosing a policy, see our [health insurance guide](/en/health-insurance-in-georgia-for-foreigners).
 
-Healthcare quality and English availability are strongest in the big cities and more limited in rural areas. For anything serious, the major private clinics in Tbilisi are the usual referral point.
+## Insurance is essential
+
+For most foreigners, **health insurance is an important part of living or travelling in Georgia**, as public healthcare provides only limited coverage for non-citizens.
+
+If you are visiting Georgia as a **tourist**, health insurance is also **mandatory**. Since **1 January 2026**, tourists must have a policy with **at least GEL 30,000** in coverage to enter the country.
+
+For the entry requirements, minimum coverage and exemptions, see our **[Health Insurance in Georgia](/en/health-insurance-in-georgia-for-foreigners)** guide.
+
+## Healthcare outside the main cities
+
+The highest standards of healthcare and the widest choice of specialists are found in **Tbilisi** and **Batumi**. Smaller towns and rural areas have more limited facilities, and patients requiring specialised treatment are often referred to larger hospitals in the major cities.
+
