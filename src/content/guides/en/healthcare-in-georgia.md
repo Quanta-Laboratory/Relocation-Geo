@@ -58,6 +58,8 @@ For most foreigners, **health insurance is an important part of living or trave
 
 If you are visiting Georgia as a **tourist**, health insurance is also **mandatory**. Since **1 January 2026**, tourists must have a policy with **at least GEL 30,000** in coverage to enter the country.
 
+Even though everyday healthcare in Georgia is relatively affordable, emergency treatment or a serious hospital stay can still result in significant costs. Having appropriate insurance protects you financially and gives you access to private healthcare when you need it.
+
 For the entry requirements, minimum coverage and exemptions, see our **[Health Insurance in Georgia](/en/health-insurance-in-georgia-for-foreigners)** guide.
 
 ## Healthcare outside the main cities
