@@ -1,28 +1,29 @@
 ---
 title: "Housing in Georgia: Renting and Buying"
-category: "live"
-lang: "en"
-summary: "A short overview of housing in Georgia for foreigners: renting is quick and flexible, with tenancies governed by the Civil Code and rent freely negotiated, while buying is open to foreigners for almost all property except agricultural land. This page explains which route fits whom and links to the detailed guides on renting and on buying property."
+category: live
+lang: en
+summary: "A short overview of housing in Georgia for foreigners: renting is quick and flexible, while buying is open to foreigners for almost all property except agricultural land. This page explains which route fits whom and links to the detailed guides on renting and on buying property."
 reviewed: 2026-07-08
 checked: 2026-07-16
 order: 1
 sources:
-  - name: "Civil Code of Georgia (Legislative Herald)"
-    url: "https://matsne.gov.ge/en/document/view/31702"
-  - name: "National Agency of Public Registry"
-    url: "https://napr.gov.ge/"
+  - name: Civil Code of Georgia (Legislative Herald)
+    url: https://matsne.gov.ge/en/document/view/31702
+  - name: National Agency of Public Registry
+    url: https://napr.gov.ge/
 faq:
-  - q: "Can foreigners own property in Georgia?"
-    a: "Yes. Foreigners can buy and own almost any real estate in Georgia — apartments, commercial premises, hotels and non-agricultural land — on the same terms as citizens. The main restriction is on agricultural land, which is generally reserved for Georgian citizens and Georgian legal entities."
-  - q: "Should I rent or buy?"
-    a: "Rent if you are staying short-term, want flexibility, or are still deciding where to settle — leases are quick to arrange and rent is freely negotiated. Buy if you plan to stay long-term or invest; ownership is straightforward to register and buying property can also support certain residence-permit routes. See the two guides below."
-  - q: "Does buying property give me residency?"
-    a: "Property ownership above a set value can support a short-term residence permit application, but it is not automatic and the thresholds and conditions change. Treat it as a possible route, not a guarantee, and confirm the current rules before relying on it."
-  - q: "How are tenancies regulated?"
-    a: "Residential tenancies are governed by the Civil Code (Articles 531–575). Rent and deposits are freely negotiated between the parties, and a written lease is strongly recommended. The Renting a Home guide covers tenant and landlord rights in detail."
+  - q: Can foreigners own property in Georgia?
+    a: Yes. Foreigners can buy and own almost any real estate in Georgia — apartments, commercial premises, hotels and non-agricultural land — on the same terms as citizens. The main restriction is on agricultural land, which is generally reserved for Georgian citizens and Georgian legal entities.
+  - q: Should I rent or buy?
+    a: Rent if you are staying short-term, want flexibility, or are still deciding where to settle — leases are quick to arrange and rent is freely negotiated. Buy if you plan to stay long-term or invest; ownership is straightforward to register and buying property can also support certain residence-permit routes. See the two guides below.
+  - q: Does buying property give me residency?
+    a: Property ownership above a set value can support a short-term residence permit application, but it is not automatic and the thresholds and conditions change. Treat it as a possible route, not a guarantee, and confirm the current rules before relying on it.
+  - q: How are tenancies regulated?
+    a: Residential tenancies are governed by the Civil Code (Articles 531–575). Rent and deposits are freely negotiated between the parties, and a written lease is strongly recommended. The Renting a Home guide covers tenant and landlord rights in detail.
+tags:
 ---
 
-Housing is usually the first thing to sort out after arriving. In Georgia you have two clear routes: **rent** — fast, flexible and governed by the Civil Code — or **buy**, which is open to foreigners for almost all property except agricultural land.
+Housing is one of the first things to arrange after moving to Georgia. Most foreigners either **rent a home** or **buy property**. Renting is the quickest and most flexible option, while buying is popular with long-term residents and investors. Foreigners can purchase almost all types of real estate in Georgia, with the main exception being **agricultural land**.
 
 <svg class="diagram" viewBox="0 0 640 250" role="img" aria-label="Choose between renting and buying a home in Georgia.">
   <rect class="box box--key" x="230" y="10" width="180" height="48" rx="6"/>
@@ -46,13 +47,15 @@ Housing is usually the first thing to sort out after arriving. In Georgia you ha
   <text class="t-sub" x="320" y="210" text-anchor="middle">Ownership is registered at the Public Registry. Agricultural land is generally reserved for citizens.</text>
 </svg>
 
-## Which route fits whom
+## Renting or buying?
 
-**Renting** suits most newcomers: it is quick, requires little paperwork, and lets you try a neighbourhood before committing. Leases are contracts under the Civil Code, rent and deposit are negotiated freely, and a written agreement protects both sides.
+**Renting** is the best choice if you are new to Georgia or want flexibility. Rental terms are largely agreed between the landlord and tenant, so the rent, deposit and duration of the lease can usually be negotiated. A written agreement is strongly recommended to protect both parties.
 
-**Buying** suits people staying long-term or investing. Foreigners can purchase almost any real estate on the same terms as locals, registration at the Public Registry is fast, and property above a certain value can support some residence routes — but agricultural land is generally off-limits to non-citizens.
+**Buying** is often attractive if you plan to stay in Georgia for the long term or invest in real estate. Foreigners can buy apartments, houses, commercial property and most land on the same terms as Georgian citizens. Ownership is registered with the **Public Registry**, making the process relatively quick and secure. The main exception is **agricultural land**, which foreigners generally cannot own.
 
-## Where to go next
+In some cases, purchasing property above a certain value may also make you eligible to apply for a **Georgian residence permit**.
 
-- **[Renting a Home in Georgia](/en/renting-a-home-in-georgia)** — tenant and landlord rules, leases, deposits and your rights under the Civil Code.
-- **[Buying Property in Georgia](/en/buying-property-in-georgia-for-foreigners)** — what foreigners can own, the purchase and registration process, and the agricultural-land restriction.
+## Learn more
+
+- **[Renting a Home in Georgia](/en/renting-a-home-in-georgia)** — how leases work, deposits, tenant and landlord rights, and practical tips before signing a rental agreement.
+- **[Buying Property in Georgia](/en/buying-property-in-georgia-for-foreigners)** — what foreigners can buy, the purchase process, registration, taxes and restrictions on agricultural land.
