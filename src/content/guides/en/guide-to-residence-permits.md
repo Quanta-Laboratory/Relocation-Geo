@@ -22,17 +22,15 @@ tags:
 
 Georgia offers several types of residence permit, depending on the purpose of stay. Each permit is issued for a specific legal basis and has its own conditions, duration and extension rules.
 
-Foreign documents must be legalised or apostilled unless covered by an international treaty. Documents not in Georgian must be translated and certified unless otherwise allowed.
-
 ## Main residence permit types
 
 **Work Residence Permit** — for foreigners who work or run a business in Georgia. Monthly income must be at least 5× the average subsistence minimum, and employer/company annual turnover at least GEL 50,000 per foreign employee (GEL 35,000 for educational or medical institutions).
 
-**IT Residence Permit** — for IT professionals and entrepreneurs with at least 2 years of experience and annual income of at least USD 25,000. Valid for 3 years; absence of 183 days or more in any 12-month period terminates it.
+**IT Residence Permit** — for IT professionals and entrepreneurs with at least 2 years of experience and annual income of at least USD 25,000. It is issued for **three years** and is terminated if the holder is absent from Georgia for **183 days or more during any 12-month period**.
 
-**Investment Residence Permit** — for those who invest at least USD 300,000, or own non-agricultural real estate with a market value above USD 300,000.
+**Investment Residence Permit** — for foreign nationals who make a **qualifying investment of at least USD 300,000** in Georgia or own **non-agricultural real estate** with a market value of at least **USD 300,000**. It is intended for larger investors and may lead to **indefinite residence** if the statutory conditions continue to be met.
 
-**Short-Term Residence Permit (real estate based)** — for owners of non-agricultural real estate with a market value above USD 150,000 (threshold from 1 March 2026).
+**Short-Term Residence Permit (real estate based)** — for foreign nationals who own **non-agricultural real estate** in Georgia with a market value of at least **USD 150,000**(threshold applicable from **1 March 2026**). It is issued for **one year at a time** and may be **renewed** while the qualifying property is retained.
 
 Eight further types exist: Family Reunification, Study, Indefinite, Permanent, Former Citizen, Stateless Person, Special, and the Domestic / Gender-Based Violence permit.
 
@@ -41,7 +39,7 @@ Eight further types exist: Family Reunification, Study, Indefinite, Permanent, F
 1. **Check eligibility under the Law** — determine the permit type and its legal conditions (income, investment, family ties).
 2. **Collect documents** — supporting documents, translation/legalisation, filed before any current permit expires.
 3. **Submit your application** — online, in person, or through an authorised representative.
-4. **Agency review** — the Agency verifies documents and may request more evidence. It decides within 30 days.
+4. **Agency review** — the Agency verifies documents and may request more evidence. It makes decision within 30 days.
 5. **Decision** — if approved, collect your residence card within one month. If refused, you may re-apply after one month.
 
 ## Comparison of key permits
