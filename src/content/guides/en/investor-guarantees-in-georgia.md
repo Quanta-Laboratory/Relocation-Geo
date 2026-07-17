@@ -23,32 +23,78 @@ faq:
 order: 5
 ---
 
-Georgia treats foreign and local investment under a single framework. The Law of Georgia on Promotion and Guarantees of Investment Activity (Document No 473, in force since 1996 and consolidated through 2019) sets out what an investment is, who qualifies as an investor, and the protections the state guarantees. An investment is broadly defined: money, securities, movable and immovable property, rights to use land or natural resources, patents, licences, know-how and other intellectual values used in entrepreneurial activity in Georgia to earn profit. A sufficiently large investment can also open a residence route — see the [investment residence permit](/en/investment-residence-permit-georgia).
+Georgia welcomes foreign investment and generally treats **foreign and Georgian investors equally**. The legal framework has been in place since **1996** and provides a number of important protections, including equal treatment, protection against unlawful expropriation and the right to transfer investment-related funds abroad.
 
-## Equal treatment with local investors
+The law defines **investment** broadly. It includes not only money, but also **real estate, shares and securities, movable property, intellectual property, licences, patents, know-how, rights to use land or natural resources**, and other assets contributed to a business or investment project in Georgia.
 
-The core guarantee is national treatment. When carrying out investment and entrepreneurial activity, the rights and guarantees of foreign investors may not be less than those enjoyed by Georgian natural and legal persons, except in cases specifically defined by legislation. A foreign investor includes a citizen of a foreign state, a stateless person who is not a permanent resident of Georgia, a Georgian citizen permanently living abroad, or a legal person registered abroad.
+In some cases, making a qualifying investment may also allow a foreign national to apply for an [investment residence permit](/en/investment-residence-permit-georgia).
 
-## Banking, loans and securities
+## Equal treatment for foreign investors
 
-An investor may open current and other accounts in any currency at banks in Georgia. Investors may take loans from banks and financial institutions in Georgia and abroad, or from private persons, and may purchase shares, bonds, other securities and property both in Georgia and abroad.
+One of the key principles of Georgian investment law is **equal treatment**. As a general rule, foreign investors enjoy the same rights and legal protections as Georgian citizens and companies when carrying out investment and business activities. Different treatment is permitted only where it is expressly provided by Georgian law.
 
-## Repatriating profits abroad
+For investment purposes, a **foreign investor** includes:
 
-After paying taxes and obligatory fees, foreign investors have the right to convert profits and other funds at the market rate in Georgian banks and to repatriate them abroad without limit. This covers contributions to the capital of a company, profits and dividends, funds remaining after a full or partial sale or liquidation of the investment, contract payments, and royalties or rent for the use of property and natural resources. A foreign investor may also take property they own out of the country.
+- a foreign citizen;
+- a stateless person who is **not permanently resident in Georgia**;
+- a Georgian citizen who **permanently resides abroad**; and
+- a legal entity established under the laws of another country.
+
+## Banking, financing and investments
+
+Foreign investors are free to **open bank accounts in Georgia** in both **Georgian lari and foreign currencies**, subject to the bank's standard onboarding procedures.
+
+They may also obtain **loans** from banks, financial institutions or private lenders in Georgia or abroad. In addition, foreign investors are free to buy **shares, bonds, other securities and property** both in Georgia and in other countries.
+
+## Transferring money abroad
+
+Georgia allows foreign investors to **freely transfer investment-related funds abroad** after all applicable taxes and mandatory payments have been made.
+
+This includes:
+
+- profits and dividends;
+- money invested in a business;
+- proceeds from the sale or liquidation of an investment;
+- payments received under commercial contracts;
+- royalties and licence fees; and
+- rent or other income from property and natural resources.
+
+Foreign investors may also **export property that they own** in accordance with Georgian law.
 
 ## Protection against expropriation
 
-Investments are fully and unconditionally protected by Georgian legislation. An investment may be taken only in cases directly determined by law, by court decision and under urgency defined by organic law, and only with appropriate compensation. Compensation must match the real market value of the investment at the moment of deprivation, be paid without delay, and cover losses incurred from the moment of deprivation until payment. The decision to deprive and the compensation terms can be appealed in Georgian courts. During martial law or armed conflict, foreign investors who suffer losses may not face worse compensation conditions than local investors.
+Georgian law provides strong protection against the **unlawful expropriation of investments**.
+
+An investment may be expropriated **only in exceptional circumstances provided by law**, following the legally prescribed procedure, and **only in exchange for fair compensation**.
+
+Compensation must reflect the **market value of the investment** at the time of expropriation, be paid **without undue delay**, and include compensation for losses caused by the delay in payment. Investors have the right to challenge both the expropriation decision and the amount of compensation before the Georgian courts.
+
+During **martial law or armed conflict**, foreign investors are also entitled to compensation on terms **no less favourable than those applicable to Georgian investors**.
 
 ## Employing foreign staff
 
-Investors may employ foreign nationals in line with Georgian law — though since 1 March 2026 most foreign staff also need a [work permit](/en/right-to-work-georgia). There is no required minimum number of Georgian citizens in a company's leading bodies. A foreign employee who is not a permanent resident may freely transfer their after-tax earnings abroad, and is not subject to the social insurance, social protection and pension contribution requirements that apply to permanent residents.
+Since **1 March 2026**, most foreign employees must first obtain the **[right to work in Georgia](/en/right-to-work-georgia)** before they can be employed.
 
-## Prohibited and restricted sectors
+Georgia does **not** require companies to appoint a minimum number of Georgian citizens to their management or governing bodies, allowing investors to structure their businesses freely.
 
-Some activities are closed to all investors, including the development of nuclear, biological or chemical weapons, the import of hazardous waste, human cloning research, and the production of narcotic drugs. A second group is reserved for the State of Georgia, such as printing currency and coins, hallmarking precious metals, the wholesale of medicinal narcotic drugs, and dispatching electricity. A third group requires special permits or licences. Acquiring rights to land and other natural resources is regulated separately, including by the Civil Code, the Organic Law on Agricultural Land Ownership and the Law on Subsoil.
+Foreign employees who are **not permanent residents of Georgia** may also **transfer their after-tax earnings abroad without restriction**. In addition, they are not subject to certain social insurance, social protection and pension contribution requirements that apply to permanent residents.
+
+## Restricted business activities
+
+Georgia is open to foreign investment across most sectors of the economy. However, some activities are **prohibited**, **reserved to the State**, or **subject to special licences or permits**.
+
+For example:
+
+- certain activities, such as the development of **nuclear, biological or chemical weapons**, the **import of hazardous waste**, **human cloning research** and the **production of narcotic drugs**, are prohibited;
+- some strategic activities, including **issuing currency**, **hallmarking precious metals**, the **wholesale of medicinal narcotic drugs** and **electricity dispatching**, are reserved to the State; and
+- many regulated industries require a **licence or permit** before operations may begin.
+
+Separate legislation also governs the acquisition of **land, agricultural land and natural resources**, which may be subject to additional restrictions.
 
 ## Resolving disputes
 
-Disputes between foreign investors and Georgian-registered enterprises are settled by agreement of the parties or in Georgian courts. Disputes between investors and public authorities are heard in Georgian courts unless the parties' agreement or a relevant international treaty sets another procedure. Where the parties or an international treaty designate a dispute-resolution body, its decision is final and the state ensures enforcement.
+Georgia allows investment disputes to be resolved through **the courts or other agreed dispute resolution mechanisms**, depending on the circumstances.
+
+Disputes between foreign investors and private parties may be resolved by agreement or through the **Georgian courts**. Disputes involving public authorities are also generally heard by the Georgian courts, unless an **international treaty** or an agreement between the parties provides for another forum, such as **international arbitration**.
+
+Where the parties have agreed to arbitration or another recognised dispute resolution procedure, Georgia recognises and enforces the resulting decisions in accordance with applicable law.
