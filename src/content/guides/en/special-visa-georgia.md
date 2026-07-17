@@ -5,7 +5,7 @@ parent: guide-to-georgian-visas
 lang: "en"
 summary: "The special visa (category B) is a short-term Georgian visa for semi-official travel: members of foreign delegations and holders of service/official passports (B1), administrative, technical and service staff of diplomatic missions and international-organisation offices and their families (B2), people arriving under Georgia's international treaties and peacekeeping or military contingents (B3), and other national-interest missions (B4). It is defined in Article 7 of the Law on the Legal Status of Aliens and Stateless Persons. Like the diplomatic visa, it can be extended by the Ministry of Foreign Affairs. Ordinary travellers, relocators and remote workers do not use category B — see the ordinary (C) visa or visa-free entry instead."
 reviewed: 2026-07-02
-checked: 2026-07-16
+checked: 2026-07-17
 order: 3
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons, Article 7 (Legislative Herald)"
