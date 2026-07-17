@@ -92,17 +92,18 @@ Applications are submitted to the **Public Service Development Agency of Georgia
 - document confirming **at least two years of labour or economic activity in the IT sector**; 
 - document confirming annual remuneration of at least the **GEL equivalent of USD 25,000** during the previous 12 months (supported by at least two payments received at intervals of no less than 30 days);
 - decision granting the right to work in Georgia; 
-- 3×4 colour photo (electronic format); 
+- 3×4cm colour photo (electronic format); 
 - state fee receipt.
 
 **B. IT entrepreneur with Small Business Status:** 
 - application (including the **unique code assigned by the State Employment Promotion Agency**); 
--  documents confirming **Small Business Status and the carrying out of qualifying IT activities**; 
+-  documents confirming **Small Business Status and the carrying  out of qualifying labour or economic activity in the IT sector**; 
 - passport copy; 
 - proof of lawful stay in Georgia; 
+-  document confirming **at least two years of labour or economic activity in the IT sector**; 
 - document confirming annual remuneration of at least the GEL equivalent of USD 25,000 during the previous 12 months (supported by at least two payments received at intervals of no less than 30 days); 
-- **decision granting the right to work in Georgia (unless verified electronically by the Agency)**; 
-- 3×4 colour photo (electronic format); 
+- decision granting the right to work in Georgia; 
+- 3×4cm colour photo (electronic format); 
 - state fee receipt.
 
 **C. Representative or manager of an international IT company:** 
@@ -111,7 +112,7 @@ Applications are submitted to the **Public Service Development Agency of Georgia
 - proof of lawful stay in Georgia; 
 - document confirming authority to manage or represent the International IT Company; 
 - **decision granting the right to work in Georgia**; 
-- 3×4 colour photo (electronic format); 
+- 3×4cm colour photo (electronic format); 
 - state fee receipt.
 
 **D. Family members** of an IT Residence Permit holder: 
@@ -120,7 +121,7 @@ Applications are submitted to the **Public Service Development Agency of Georgia
 - proof of lawful stay in Georgia; 
 - a **copy of the principal applicant's IT Residence Permit**; 
 - a document confirming the **family relationship**; 
-- 3×4 colour photograph (electronic format); 
+- 3×4 cm colour photograph (electronic format); 
 - state fee receipt. 
 
 See the **[family reunification residence permit](/en/family-reunification-residence-permit-georgia)** guide for how family status works more broadly.
