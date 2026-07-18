@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: "en"
 summary: "An orientation to the Georgian language for people settling in Georgia. Georgian (kartuli) is the state language and is written in its own 33-letter Mkhedruli alphabet, with no capital letters and a close match between letters and sounds. Most day-to-day life in Tbilisi and Batumi is possible with English and Russian, but Georgian matters for deeper integration and is a formal requirement for naturalisation, where applicants must pass a state-run test on the Georgian language (alongside history and the basics of law). Learning options range from state and civic-integration programmes — such as the Zurab Zhvania School of Public Administration's state-language courses and the university '1+4' preparatory programme (aimed mainly at citizens from minority-language communities) — to university language centres and independent tutoring. This page describes the framework and options neutrally; it is general information, not legal advice, and course availability and eligibility change, so confirm details with the Ministry of Education and Science and the institution concerned."
 reviewed: 2026-07-10
-checked: 2026-07-17
+checked: 2026-07-18
 order: 9
 sources:
   - name: "Ministry of Education, Science and Youth of Georgia"
