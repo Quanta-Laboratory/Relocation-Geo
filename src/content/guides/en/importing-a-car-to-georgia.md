@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: "en"
 summary: "Importing a car into Georgia means clearing it through customs with the Revenue Service — paying import duty, excise and VAT — and then registering it and getting Georgian plates at the Service Agency of the Ministry of Internal Affairs. Excise is based on engine capacity and vehicle age: GEL 1.5 per cm³ for cars up to 6 years old and GEL 4.5 per cm³ for older cars, with special rates for hybrid and right-hand-drive vehicles. Buying a car already in Georgia is simpler: you re-register (transfer) it at the Service Agency. Registration fees are GEL 20 for inspection, GEL 80 for plates and GEL 100 for the registration certificate."
 reviewed: 2026-07-10
-checked: 2026-07-18
+checked: 2026-07-19
 order: 7
 sources:
   - name: "Revenue Service of Georgia — customs and import"

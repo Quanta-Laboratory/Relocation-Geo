@@ -5,7 +5,7 @@ parent: "about"
 lang: "en"
 summary: "How Relocation.ge's materials may be used — supporting open access to legal information while protecting the intellectual structure, methodology and analytical processing developed within the platform."
 reviewed: 2026-07-10
-checked: 2026-07-18
+checked: 2026-07-19
 order: 3
 sources: []
 faq: []

@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: "en"
 summary: "Georgia's Investment Residence Permit is the country's investor (golden-visa-style) route. It is granted for up to five years to foreigners who invest at least USD 300,000 (in GEL equivalent) in Georgia, or who own non-agricultural real estate with a market value above USD 300,000. The investment route carries annual turnover conditions that rise over the permit's life — at least USD 50,000 in year one, USD 100,000 in year two, and USD 120,000 in years three to five — while the property route requires the qualifying real estate to be held for at least five years. Investors who maintain the investment can later move to permanent residence. State fees run from GEL 300 (30 days) to GEL 600 (10 days), plus a separate residence-card fee. Family members can be included on the same basis."
 reviewed: 2026-07-10
-checked: 2026-07-18
+checked: 2026-07-19
 order: 11
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)"
