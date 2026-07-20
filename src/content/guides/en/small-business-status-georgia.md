@@ -6,7 +6,7 @@ lang: "en"
 notice: 'Self-employed foreigners: <strong>Ordinance No 321 of 9 July 2026</strong> changed how the <strong>right to work</strong> is obtained — you must now apply <strong>in person</strong> and pass a <strong>compulsory video interview</strong>, and a turnover test applies. The exemption for serving foreign clients does <strong>not</strong> cover an Individual Entrepreneur who needs a residence permit to stay lawfully. <a href="/en/right-to-work-georgia">Read more</a>.'
 summary: "Small Business Status is a special tax regime for an Individual Entrepreneur that taxes qualifying turnover at 1%, rising to 3% once income exceeds GEL 500,000 in a calendar year (GEL 700,000 for wine tourism and agritourism). Registering the IE and obtaining the status are two separate steps: you apply to the tax authority, which issues the certificate within 2 working days, and the status then runs with no expiry date. It is not available for a list of prohibited activities — which includes consulting, the trap most advisory freelancers miss — and some income, such as rent, interest, dividends, royalties and property gains, is always taxed under the ordinary rules. Holders keep a special expense journal and file monthly declarations by the 15th. The status ends on request from the first of the next month, or by operation of law — and cancellation for a prohibited activity reaches back to the start of that year."
 reviewed: 2026-07-12
-checked: 2026-07-19
+checked: 2026-07-20
 order: 1
 sources:
   - name: "Government Ordinance No 321 of 9 July 2026 — right-to-work procedure (Georgian original)"

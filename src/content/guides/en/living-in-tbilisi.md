@@ -6,7 +6,7 @@ lang: "en"
 order: 1
 summary: "A factual overview of Tbilisi for people relocating: the capital's size and setting, its humid-subtropical climate, the neighbourhoods newcomers most often choose, how the city connects by metro, bus and air, and who it suits. Tbilisi is Georgia's business, cultural and administrative centre and home to about a third of the country's population."
 reviewed: 2026-07-10
-checked: 2026-07-19
+checked: 2026-07-20
 sources:
   - name: "National Statistics Office of Georgia (Geostat) — 2024 Population Census"
     url: "https://www.geostat.ge/en/modules/categories/316/population-and-demography"
