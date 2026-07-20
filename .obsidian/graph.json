@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:business",
-      "color": {
-        "a": 1,
-        "rgb": 5396192
-      }
-    },
-    {
       "query": "tag:IE",
       "color": {
         "a": 1,
