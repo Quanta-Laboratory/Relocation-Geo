@@ -3,7 +3,7 @@ title: Family Reunification Residence Permit in Georgia (2026)
 category: immigration
 parent: guide-to-residence-permits
 lang: en
-summary: The family reunification residence permit lets the family members of a foreign national who legally resides in Georgia — or of a Georgian citizen — live in the country on the basis of family unity. It is usually issued for 6 months to 1 year and is renewable while the sponsor's status and the family relationship remain valid. Applicants must show legal income of at least twice the subsistence minimum per month (or equivalent funds in a bank account) and proof of the qualifying relationship. This guide explains who counts as a family member, the financial and documentary conditions, the fees and how the permit is renewed, checked against the primary law.
+summary: The family reunification residence permit lets the family members of a foreign national who legally resides in Georgia — or of a Georgian citizen — live in the country on the basis of family unity. It is usually issued for 6 months to 1 year and is renewable while the sponsor's status and the family relationship remain valid. Applicants must show legal income of at least twice the subsistence minimum per month (or equivalent funds in a bank account) and proof of the qualifying relationship.
 reviewed: 2026-07-10
 checked: 2026-07-20
 order: 15
@@ -31,13 +31,13 @@ tags:
   - RP
 ---
 
-A **family reunification residence permit** is granted to the **family members of a foreign national who legally resides in Georgia** — or of a **Georgian citizen** — so that they can live together in the country on the basis of family unity. It is the immigration status under which a spouse, children and other qualifying relatives live in Georgia when they do not have their own separate basis for a permit. This guide explains who counts as a family member, the financial and documentary conditions, the renewal pattern and the fees, checked against the **[Law on the Legal Status of Aliens and Stateless Persons](https://www.matsne.gov.ge/en/document/view/2278806)** and **[Government Resolution No. 520](https://www.matsne.gov.ge/en/document/view/2483468)**.
-
+A **Family Reunification Residence Permit** is granted to the **family members of a Georgian citizen** or of a **foreign national holding a residence permit in Georgia**, allowing them to live together in the country on the basis of family unity. It is the residence status available to a spouse, children and other qualifying family members who do not have their own independent basis for obtaining a residence permit.
 ## Who is eligible
+The permit is available to the **family members** of a **Georgian citizen** or of a **foreign national holding a valid Georgian residence permit or permanent residence permit** (the "sponsor" or main permit holder). The sponsor may hold, for example, a **[Work Residence Permit](/en/work-residence-permit-georgia)**, an **[Investment Residence Permit](/en/investment-residence-permit-georgia)**, a **[Study Residence Permit](/en/study-residence-permit-georgia)**, or another type of Georgian residence permit.
 
-The permit is for the **family members** of a foreigner who already holds a **valid Georgian residence permit** (the "sponsor" or main permit holder), or of a **Georgian citizen**. The main permit holder may hold any lawful residence permit, including a **[work residence permit](/en/work-residence-permit-georgia)**, an investment residence permit, a study residence permit or another type.
 
-**A. Family members of a foreigner or a stateless person with status in Georgia.** This may include:
+**A. Family members of a foreigner or a stateless person with status in Georgia.** 
+This may include:
 
 - spouse;
 - minor child;
@@ -56,34 +56,43 @@ The permit is for the **family members** of a foreigner who already holds a **va
 - minor fully dependent on the Georgian citizen;
 - parent of a minor Georgian citizen.
 
-The sponsor's own status is the anchor: the reunification permit depends on it, and if the main permit lapses the family member's permit is affected.
+The sponsor's residence status is the basis for the Family Reunification Residence Permit. As a result, the family member's right to remain under this permit is linked to the sponsor's status. If the sponsor's residence permit expires, is revoked, or otherwise ceases to be valid, the family member's residence status may also be affected and should be reviewed promptly.
 
 ## Financial conditions
 
-Because the permit is about supporting a family in Georgia, the application must show **legal income in Georgia** of the foreigner, the Georgian citizen, or the sponsoring relative who holds a residence permit. The income must be **at least twice the subsistence minimum of an average consumer per month**, for the duration of the requested permit.
+The applicant must demonstrate **sufficient financial means** to support their stay in Georgia. This requirement may be satisfied by providing a **document confirming legal income** of:
 
-If the required income cannot be demonstrated through employment or other income documents, **funds held in the foreigner's personal bank account** (shown by a bank statement) may be accepted instead. The amount available must correspond to **at least twice the subsistence minimum per month**, taking into account the entire duration of the requested permit.
+- the **foreign national**;
+- the **Georgian citizen**; or
+- the **sponsoring relative residing in Georgia who holds a residence permit**.
 
-## Required documents
+The income must be **at least twice the subsistence minimum of an average consumer in Georgia per month**, calculated for the **entire duration of the requested Family Reunification Residence Permit**.
+
+If this requirement cannot be met through income documents, it may instead be satisfied by submitting a **bank statement for the foreign national's personal bank account** showing funds equivalent to **at least twice the monthly subsistence minimum for the entire requested period of residence**.
+
+## Application
 
 Applications are submitted to the **Public Service Development Agency of Georgia**. The typical document set is:
 
 - the **application**;
 - a **copy of the passport** or travel document;
 - a **document confirming lawful stay** in Georgia;
-- a **copy of the residence permit** of the main foreign applicant (the sponsor), or proof of Georgian citizenship;
+- a **copy of the residence permit** of the principal foreign applicant, or proof of Georgian citizenship;
 - a **document confirming the family relationship** — for example a marriage certificate, birth certificate, or other official document confirming family ties;
-- **proof of legal income** meeting the financial condition above, or a qualifying **bank statement**;
-- a **colour photograph, 3×4**, in electronic format;
-- the **receipt** for the residence-permit service fee.
+- **proof of legal income** meeting the financial condition, or a qualifying **bank statement**;
+- a **colour photograph, 3×4** cm, in electronic format;
+- the **receipt** confirming payment of state fee.
 
-Foreign documents must generally be **legalised or apostilled** and translated into Georgian and notarised, unless an exemption applies.
+
+Foreign documents must generally be **legalised or apostilled** and accompanied by a **Georgian translation certified by a Georgian notary**.
 
 ## Duration and renewal
 
-The permit is usually issued for **6 months to 1 year** and **may be renewed**, provided that the main permit holder continues to reside lawfully in Georgia and the family relationship remains valid. Its validity usually **corresponds to the validity of the main applicant's residence permit**.
+A **Family Reunification Residence Permit** is generally issued for a period that **corresponds to the validity of the sponsor's residence permit**, although the exact duration is determined by the Public Service Development Agency based on the circumstances of the case.
 
-Time spent lawfully on qualifying temporary permits can count toward the **ten years** required for a **[permanent residence permit](/en/permanent-residence-permit-georgia)**; family members of Georgian citizens may also qualify for permanent residence by the family route directly. For an overview of the permit categories, see the **[guide to residence permits](/en/guide-to-residence-permits)**.
+The permit **may be renewed**, provided that the legal grounds for family reunification continue to exist. In particular, the sponsor must continue to hold a valid residence permit (where applicable), and the qualifying family relationship must remain in place.
+
+Time spent lawfully in Georgia under qualifying temporary residence permits may count towards the **ten-year residence requirement** for a **[Permanent Residence Permit](/en/permanent-residence-permit-georgia)**, provided the statutory conditions are met. For an overview of all residence permit categories, see our **[Guide to Residence Permits](/en/guide-to-residence-permits)**.
 
 ## Processing time and state fees
 
@@ -97,7 +106,9 @@ The state fee depends on how quickly the application is processed:
 
 ## Georgian ID (residence) card
 
-After obtaining the residence permit, a foreign national may apply for a **Georgian ID (residence) card** through the Public Service Hall or the Public Registry. The fee depends on the processing time:
+After obtaining the Family Reunification Residence Permit, a foreign national must apply for a **Georgian residence (ID) card** within one month. Applications may be submitted through the Public Service Hall or a territorial office of the Public Service Development Agency.
+
+The fee depends on the processing time:
 
 | Issuance time | Fee |
 | --- | --- |
@@ -107,6 +118,3 @@ After obtaining the residence permit, a foreign national may apply for a **Georg
 | 2 working days | GEL 120 |
 | Same day | GEL 150 |
 
-## Legal sources
-
-This guide is based on the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government of Georgia Resolution No. 520 of 1 September 2014** on the procedure for reviewing and deciding on the issuance of residence permits. Official versions are published by the **Legislative Herald of Georgia (Matsne)**. The list of qualifying family members, the financial test, fees and processing times are periodically updated, so confirm the current requirements with the **Public Service Development Agency** before applying.
