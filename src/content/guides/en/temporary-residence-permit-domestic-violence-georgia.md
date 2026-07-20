@@ -1,5 +1,5 @@
 ---
-title: Residence Permit for Victims of Domestic Violence in Georgia (2026)
+title: Temporary Residence Permit for Victims of Domestic Violence in Georgia (2026)
 category: immigration
 parent: guide-to-residence-permits
 lang: en
