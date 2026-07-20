@@ -31,7 +31,7 @@ tags:
   - RP
 ---
 
-A **Former Citizen Residence Permit** is the residence permit granted to a **foreign national who previously held Georgian citizenship** but has since lost or renounced it. It lets former Georgian citizens live in Georgia again on the strength of that history, on a **long-term basis**, without having to satisfy the work, investment or family criteria. This guide explains who qualifies, the evidence that establishes former citizenship, the duration, documents and fees, and how the permit relates to regaining citizenship — checked against the **Law on the Legal Status of Aliens and Stateless Persons** and **Government Resolution No. 520 of 1 September 2014**.
+A **Former Citizen Residence Permit** is the residence permit granted to a **foreign national who previously held Georgian citizenship** but has since lost or renounced it. It lets former Georgian citizens live in Georgia again on the strength of that history, on a **long-term basis**, without having to satisfy the work, investment or family criteria. 
 
 ## Who is eligible
 
@@ -40,7 +40,7 @@ A foreigner may obtain a Former Citizen Residence Permit if:
 - they **previously held Georgian citizenship**, and
 - their Georgian citizenship was **terminated in accordance with Georgian legislation**.
 
-The permit is available **regardless of the applicant's current citizenship**, provided the person can demonstrate their **former Georgian citizenship status**. That former citizenship is the qualifying fact, which is why this route exists separately from the standard permit categories.
+The permit is available **regardless of the applicant's current citizenship**, provided the person can demonstrate their **former Georgian citizenship status**. 
 
 ## Duration
 
@@ -51,10 +51,10 @@ The Former Citizen Residence Permit is generally issued for **six years** — a 
 Applications are submitted to the **Public Service Development Agency of Georgia**. The typical document set is:
 
 - the **application**;
-- a **copy of the passport** or travel document;
+- a **copy of the passport**;
 - a **document confirming lawful stay** in Georgia;
 - a **document confirming that the applicant previously held Georgian citizenship** — for example archival citizenship records, an old Georgian passport or ID card, or a confirmation from the competent authority;
-- a **colour photograph, 3×4**, in electronic format;
+- a **colour photograph, 3×4** cm, in electronic format;
 - the **receipt** confirming payment of the residence-permit service fee.
 
 Foreign documents must generally be **legalised or apostilled**, and translated into Georgian and notarised, unless an exemption applies.
@@ -71,7 +71,9 @@ The state fee depends on how quickly the application is processed:
 
 ## Georgian ID (residence) card
 
-After obtaining the residence permit, a foreign national may apply for a **Georgian ID (residence) card** through the Public Service Hall or the Public Registry. The fee depends on the processing time:
+After obtaining the residence permit, a foreign national must apply for a **Georgian residence (ID) card** within one month. Applications may be submitted through the Public Service Hall or a territorial office of the Public Service Development Agency.
+
+The fee depends on the processing time:
 
 | Issuance time | Fee |
 | --- | --- |
@@ -85,6 +87,9 @@ After obtaining the residence permit, a foreign national may apply for a **Georg
 
 This is a **residence permit**, not a restoration of citizenship. **Reacquiring Georgian citizenship** is a separate process under the citizenship rules. The former-citizen permit gives a **lawful, long-term basis to live in Georgia** while you decide on — or pursue — any citizenship route. Time spent lawfully on qualifying temporary permits can also count toward the **ten years** for a **[permanent residence permit](/en/permanent-residence-permit-georgia)**. For an overview of how this permit sits alongside the other categories, see the **[guide to residence permits](/en/guide-to-residence-permits)**.
 
-## Legal sources
 
-This guide is based on the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government of Georgia Resolution No. 520 of 1 September 2014** on the procedure for reviewing and deciding on the issuance of residence permits in Georgia. Official versions are published by the **Legislative Herald of Georgia (Matsne)**. Fees, documents and processing times are periodically updated, so confirm the current requirements with the **Public Service Development Agency** before applying.
+This is a **residence permit**, not a restoration of citizenship. **Reacquiring Georgian citizenship** is a separate legal process governed by the citizenship legislation.
+
+A **Former Citizen Residence Permit** allows eligible former Georgian citizens to **live lawfully in Georgia on a long-term basis**. If you later decide to restore or reacquire Georgian citizenship, you must apply through the separate citizenship procedure.
+
+Time spent lawfully in Georgia on qualifying temporary residence permits may also count towards the **ten-year residence requirement** for a [**Permanent Residence Permit**](/en/permanent-residence-permit-georgia). To compare this permit with other residence categories, see the [**Guide to Residence Permits**](/en/guide-to-residence-permits).
