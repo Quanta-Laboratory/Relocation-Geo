@@ -125,6 +125,4 @@ Unlike the **[work](/en/work-residence-permit-georgia)**, **[investment](/en/inv
 
 Human-trafficking protection is a sensitive matter. If you or someone you know may be affected, contact the relevant authorities and support services. This guide is **general information, not legal advice**, and the categories, issuance times and fees can change.
 
-## Legal sources
 
-This guide is based on the **Law of Georgia on the Legal Status of Aliens and Stateless Persons** and **Government of Georgia Resolution No. 520 of 1 September 2014** on the procedure for reviewing and deciding on the issuance of residence permits in Georgia. Official versions of the legislation are published by the **Legislative Herald of Georgia (Matsne)** at [matsne.gov.ge](https://www.matsne.gov.ge). Categories, thresholds, fees and processing times are periodically updated, so confirm the current position with the **Public Service Development Agency** before relying on a particular treatment.
