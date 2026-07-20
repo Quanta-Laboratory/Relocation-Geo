@@ -1,7 +1,7 @@
-# Matsne redaction staleness — 2026-07-13
+# Matsne redaction staleness — 2026-07-20
 
 ## New redactions since last probe
-_None._
+- **შრომით იმიგრანტსა და თვითდასაქმებულ უცხოელზე შრომითი საქმიანობის უფლების გაცემის წესის დამტკიცების შესახებ** (`6791218`): 2026-03-13 → **2026-07-09**
 
 ## Laws amended after the citing page was last checked
 _None — every citing page was checked at or after its law's latest redaction._
