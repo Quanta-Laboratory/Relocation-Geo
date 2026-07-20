@@ -8,10 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:business ",
+      "query": "tag:business",
       "color": {
         "a": 1,
         "rgb": 5396192
+      }
+    },
+    {
+      "query": "tag:IE",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
       }
     }
   ],
@@ -26,5 +33,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.3562794838614032,
-  "close": true
+  "close": false
 }
