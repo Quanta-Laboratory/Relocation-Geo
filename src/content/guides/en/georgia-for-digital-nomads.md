@@ -31,45 +31,69 @@ faq:
     a: "Possibly not, and this is the trap. The foreign-client exemption expressly does not apply where the foreigner is an individual entrepreneur who needs a residence permit in order to stay in Georgia lawfully. If you are relying on a residence permit to be in the country, do not assume that serving only foreign clients through an IE keeps you outside the right-to-work regime. If your stay is lawful on another basis — visa-free entry, for example — the analysis differs. Confirm your situation before relying on either reading."
 ---
 
-Georgia has been one of the most accessible bases in the world for remote workers: a long visa-free stay, a territorial tax system, low costs and fast company setup. In 2026 the rules tightened around working, so the picture is still attractive but needs more planning than before. This guide pulls the key pieces together and links to the detailed pages.
+Georgia remains one of the world's most attractive destinations for **digital nomads and remote workers**. Its generous visa-free regime, territorial tax system, relatively low cost of living and straightforward business registration continue to make it an appealing base for location-independent professionals. 
 
 ## Why Georgia suits remote workers
 
-Citizens of more than 90 countries can enter visa-free and stay up to a year, which removes the usual visa pressure of nomad life. Living costs are low by European standards, the banking system is modern, and a sole trader can be set up quickly with a preferential tax rate. The combination of a long legal stay and a light tax regime is what built Georgia's reputation as a remote-work hub.
+Nationals of **more than 90 countries** can enter Georgia **visa-free** and, in most cases, stay for **up to one year**, removing much of the immigration uncertainty faced by digital nomads elsewhere. Georgia also offers a relatively affordable cost of living by European standards, a modern banking system, and a straightforward process for registering as an individual entrepreneur, with access to a preferential tax regime for eligible activities.
+
+Combined with its **territorial tax system**, these advantages have made Georgia a popular destination for remote workers, freelancers and online entrepreneurs. Nevertheless, since the introduction of the **right-to-work** regime in 2026, remote workers should ensure that they comply with both the immigration and employment rules that apply to their particular situation.
 
 ## Entry and how long you can stay
 
-Most Western nomads enter under the visa-free regime and can remain for up to one year; others who are visa-exempt may stay 90 days in any 180-day period. There is no dedicated digital-nomad visa, but the C5 short-term visa exists for activity carried out only for a non-resident. The full breakdown is in the [guide to Georgian visas](https://relocation.ge/en/guide-to-georgian-visas/).
+Georgia does **not** have a dedicated **digital nomad visa**. Instead, many remote workers rely on the country's generous visa-free regime.
 
-## The 2026 work-permit change — and the exemptions that rescue it
+Citizens of **more than 90 countries**, including most EU Member States, the United Kingdom, the United States, Canada and Australia, may enter **visa-free for up to one year**. Other visa-exempt nationalities may instead be entitled to stay for **90 days within any 180-day period**, depending on the applicable rules. Before travelling, always check the visa regime that applies to your nationality.
 
-This is the most important update for nomads. Since 1 March 2026, under the Law on Labour Migration, most foreign nationals must obtain the **right to work** before doing paid employment, self-employment or entrepreneurial activity from within Georgia — and then hold a D1 visa or work residence permit. A residence permit alone no longer grants the right to work.
+Since **2026**, Georgia also offers the **C5 ordinary visa**. It is designed for foreign nationals who carry out activities **exclusively for the benefit of a non-resident person or company**, where those activities relate to operations conducted **outside Georgia**. Although it is not a digital nomad visa, it may be relevant for some remote workers whose activities fall within its scope.
 
-Read on its own, that rule looked as if it swept in every remote worker. It does not. **Law No 1509 of 15 April 2026** widened the exemptions, and **Government Ordinance No 321 of 9 July 2026** wrote them into the procedure the authorities actually apply. Two of them are aimed squarely at this audience:
+For a detailed explanation of visa-free entry, visa categories and eligibility, see our **[Guide to Georgian Visas](/en/guide-to-georgian-visas/)**.
 
-- you work **completely remotely for an employer** and **do not need to enter Georgia** to perform the work;
-- you supply **labour or services to a non-resident**, in connection with that non-resident's activity carried on **outside Georgia** — the classic freelancer with foreign clients.
+## The 2026 right-to-work reform — what digital nomads need to know
 
-**The Individual Entrepreneur carve-out.** The second exemption comes with an express exception, and it is the one to read carefully: it does **not** apply where the foreigner is an **individual entrepreneur who needs a residence permit in order to stay in Georgia lawfully**. Since the IE with small-business status is the standard nomad structure, this matters. If you are in Georgia on a **residence permit** and run an IE serving foreign clients, do not assume the foreign-client exemption covers you. If your stay is lawful on another basis — visa-free entry, for example — the position is different.
+The most significant change for digital nomads came into force on **1 March 2026**. Under the **Law on Labour Migration**, most foreign nationals who carry out **employment, self-employment or entrepreneurial activity** in Georgia must first obtain the **right to work**. Where required by law, they must then also hold the appropriate immigration status, such as a **D1 visa** or a **Work Residence Permit**. A residence permit alone no longer grants the right to work.
 
-Also new: **short-term professional activity** is now defined, and capped at **four months in total per calendar year**, with compulsory advance registration by the local employer or organiser. Full detail is in the [right to work guide](https://relocation.ge/en/right-to-work-georgia/).
+At first glance, these rules appeared to affect virtually all remote workers. However, **Law of 15 April 2026** introduced important exemptions. In particular, the right-to-work requirement does **not** apply where a foreign national:
 
-None of this is settled at the edges. The ordinance has no official English text, administrative practice is young, and the boundary for someone **physically present in Georgia while serving only foreign clients** is exactly where the uncertainty sits. Treat the exemptions as a strong basis, not a guarantee, and confirm your own case before relying on one.
+- works **entirely remotely for an employer**, without needing to enter Georgia to perform that work; or
+- provides **labour or services to a non-resident person**, where those services relate to the non-resident's activities carried on **outside Georgia**.
 
-## Tax: the 1% small-business regime
+### The Individual Entrepreneur exception
 
-Georgia's headline attraction for freelancers is the Individual Entrepreneur (IE) with small-business status, which pays 1% income tax on annual turnover up to GEL 500,000. Turnover above that threshold is taxed at 3%, and the status is revoked if you exceed the cap for two consecutive years. Very small operations under GEL 30,000 of turnover can instead use micro-business status at 0%. A monthly tax declaration is required even in months with no income. Registering the IE is covered in [how to register an Individual Entrepreneur remotely](https://relocation.ge/en/register-individual-entrepreneur-remotely/); note that the IE route now also interacts with the work-permit rules above.
+As the legislation and administrative practice continue to develop, anyone whose circumstances fall close to the boundary between an exempt and a non-exempt activity should confirm how the rules apply before relying on an exemption.
+
+For more information, see our [**Right to Work in Georgia**](/en/right-to-work-georgia/) guide.
+
+## Tax: the 1% Small Business regime
+
+One of Georgia's biggest attractions for freelancers and independent professionals is the **Individual Entrepreneur (IE) regime with **Small Business Status**. Eligible activities are taxed at **1% of annual turnover** up to **GEL 500,000**. If annual turnover exceeds **GEL 500,000**, the excess is generally taxed at **3%**, while continued eligibility for Small Business Status depends on the rules governing the regime.
+
+For very small businesses with annual turnover of up to **GEL 30,000**, **Micro Business Status** may be available, allowing qualifying income to be taxed at **0%**.
+
+Individual Entrepreneurs must submit a **monthly tax declaration**, even if no income was earned during the reporting period.
+
+For a step-by-step guide, see **[How to Register an Individual Entrepreneur Remotely](/en/register-individual-entrepreneur-remotely/)**.
 
 ## Tax residency and foreign income
 
-Georgia taxes individuals on a territorial basis: foreign-source income is generally not taxed. You become a Georgian tax resident by spending 183 days or more in any rolling 12-month period, but residency does not by itself bring foreign-source income into the Georgian tax net. This is why many remote workers can live in Georgia without local tax on income earned from clients abroad — though your home country's rules may still apply, so check both sides.
+Georgia applies a **territorial system of taxation**, meaning that income which is treated as **foreign-source under the Georgian Tax Code** is generally **not subject to Georgian income tax**. Whether particular income is considered Georgian-source or foreign-source depends on the rules of the Tax Code.
+
+An individual generally becomes a **Georgian tax resident** after spending **183 days or more in any continuous 12-month period** ending in the relevant tax year. Becoming a tax resident does **not**, by itself, mean that all foreign income becomes taxable in Georgia.
+
+For many digital nomads, freelancers and remote workers, Georgia's territorial tax system can be an important advantage. However, the tax treatment of remote-work income depends on the nature of the work, the source of the income and the applicable tax rules. You should also consider the tax laws of your home country and any applicable double taxation treaty.
+
 
 ## Setting up day-to-day life
 
-Beyond entry and tax, the practical building blocks are straightforward. You can open an account with a major bank — see [banking in Georgia](https://relocation.ge/en/banking-in-georgia/). Health cover matters both at the border and for living here — see [health insurance in Georgia](https://relocation.ge/en/health-insurance-in-georgia-for-foreigners/). And most nomads rent before committing, so the [renting a home](https://relocation.ge/en/renting-a-home-in-georgia/) guide covers the lease rules.
+Once you've decided that Georgia is the right base for you, the practical side is relatively straightforward. Most digital nomads start by opening a local bank account — see **[Banking in Georgia](/en/banking-in-georgia/)**. Health insurance is also important, both for meeting immigration requirements where applicable and for everyday life — see **[Health Insurance in Georgia](/en/health-insurance-in-georgia-for-foreigners/)**. As many newcomers rent before buying property, our **[Renting a Home in Georgia](/en/renting-a-home-in-georgia/)** guide explains the key rules and practical considerations.
 
 ## The bottom line
 
-Georgia remains a strong base for remote workers: a year-long stay, territorial taxation and a 1% sole-trader regime are hard to beat. The difference in 2026 is that working from within the country is a **regulated** activity rather than an informal one — but the exemptions added in April and confirmed in July 2026 mean that genuinely remote work, and work for clients abroad, largely stays outside the regime. The one place to look hard is the **Individual Entrepreneur** structure combined with a **residence permit**, where the foreign-client exemption is expressly switched off.
+Georgia continues to offer many of the advantages that have made it a popular destination for digital nomads and remote workers: generous visa-free entry for many nationalities, a territorial tax system, relatively low living costs and a favourable tax regime for eligible Individual Entrepreneurs.
 
-Work out which side of that line you are on before you build your setup around it, keep your tax position clear in both Georgia and your home country, and the rest is quick. This page is information about the law as published, not legal advice.
+The main change since **2026** is that the **right to work** is now regulated separately from immigration status. While the legislation provides important exemptions for many forms of genuine remote work and services provided to foreign clients, anyone planning to work from Georgia should first understand how the new rules apply to their particular circumstances.
+
+This is especially important if you intend to operate as an **Individual Entrepreneur**, as the legislation contains a specific qualification to one of the main exemptions.
+
+With a clear understanding of the immigration, employment and tax rules, Georgia remains one of the most attractive places in Europe and the wider region to live and work remotely.
+
