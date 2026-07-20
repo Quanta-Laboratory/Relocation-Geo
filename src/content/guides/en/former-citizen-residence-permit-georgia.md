@@ -3,7 +3,7 @@ title: Former Citizen Residence Permit in Georgia (2026)
 category: immigration
 parent: guide-to-residence-permits
 lang: en
-summary: The Former Citizen Residence Permit is granted to a foreign national who previously held Georgian citizenship that has since ended — most often renounced or terminated when the person acquired another nationality. It is generally issued for six years and is renewable, giving former citizens a long-term basis to live in Georgia without qualifying under the work, investment or family routes. This guide explains who is eligible, the duration, required documents, state fees and how the permit relates to reacquiring Georgian citizenship, checked against the primary law and Government Resolution No. 520.
+summary: The Former Citizen Residence Permit is granted to a foreign national who previously held Georgian citizenship that has since ended — most often renounced or terminated when the person acquired another nationality. It is generally issued for six years and is renewable, giving former citizens a long-term basis to live in Georgia without qualifying under the work, investment or family routes.
 reviewed: 2026-07-10
 checked: 2026-07-20
 order: 16
@@ -84,9 +84,6 @@ The fee depends on the processing time:
 | Same day | GEL 150 |
 
 ## A residence permit, not citizenship
-
-This is a **residence permit**, not a restoration of citizenship. **Reacquiring Georgian citizenship** is a separate process under the citizenship rules. The former-citizen permit gives a **lawful, long-term basis to live in Georgia** while you decide on — or pursue — any citizenship route. Time spent lawfully on qualifying temporary permits can also count toward the **ten years** for a **[permanent residence permit](/en/permanent-residence-permit-georgia)**. For an overview of how this permit sits alongside the other categories, see the **[guide to residence permits](/en/guide-to-residence-permits)**.
-
 
 This is a **residence permit**, not a restoration of citizenship. **Reacquiring Georgian citizenship** is a separate legal process governed by the citizenship legislation.
 
