@@ -5,7 +5,7 @@ parent: guide-to-georgian-visas
 lang: "en"
 summary: "D6 is a new immigration (D) sub-category added to the Law on the Legal Status of Aliens and Stateless Persons and coming into force on 1 September 2026. It is for a minor foreign national studying at an authorised Georgian institution — a higher or vocational school, or a general-education school until they finish full general education — and, where the student is a minor, for their parents or legal representatives and minor siblings until the student turns 18. Like D5, D6 is a long-term, multiple-entry visa that can be issued with one-year validity and is a precondition for a residence permit. From the same date, D3 is limited to adult students and researchers, so minors use D6 instead."
 reviewed: 2026-07-02
-checked: 2026-07-20
+checked: 2026-07-21
 order: 7
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons, Article 7 (Legislative Herald)"

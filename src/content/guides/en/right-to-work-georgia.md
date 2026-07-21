@@ -6,7 +6,7 @@ lang: "en"
 notice: 'Government Ordinance No 321 of 9 July 2026, in force since 10 July 2026, substantially rewrote the procedure. It now defines <strong>short-term professional activity</strong> (up to 4 months a year, with compulsory advance registration by the employer), imposes a <strong>mandatory video interview</strong> on self-employed applicants, and moves <strong>employer quotas</strong> and <strong>turnover thresholds</strong> into the right-to-work stage itself. No official English text exists yet — the Georgian original governs.'
 summary: "The 'right to work' is the permission a foreign national needs to take paid employment or run a business for economic benefit in Georgia. Since the 2026 labour-migration reform it is a distinct authorisation, granted by the Ministry of Labour through its electronic labour-migration system, separate from any residence permit. This guide explains who needs it, the statutory exemptions (including fully remote work and work for foreign clients, both widened by Law No 1509 of 15 April 2026), the short-term professional activity regime and employer quotas introduced by Ordinance No 321 of 9 July 2026, how an employee and a self-employed person each apply (the latter now through a compulsory video interview), the GEL 500 fee cap, the 30-day review and 10-working-day expedited track, the grounds for refusal and termination, the fines for working without it, and the 1 January 2027 transitional deadline for people already registered in Georgia."
 reviewed: 2026-07-12
-checked: 2026-07-20
+checked: 2026-07-21
 order: 5
 sources:
   - name: "Law of Georgia on Labour Migration (consolidated, English)"
