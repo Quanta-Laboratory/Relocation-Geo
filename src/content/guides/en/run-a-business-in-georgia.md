@@ -78,15 +78,15 @@ Once you are registered, you may qualify for a **special status** that lowers or
 
 ## Which route fits whom
 
-**Individual Entrepreneur (IE)** suits people who work on their own — freelancers, consultants, remote professionals and small traders. It is the cheapest and simplest form, can be registered remotely, and is the only route to **Small Business Status**, which taxes turnover at **1%** up to the statutory cap. The trade-off is that there is no separation between you and the business: you are personally liable for its obligations.
+An **Individual Entrepreneur (IE)** is usually the best choice for people working on their own — freelancers, consultants, remote professionals, content creators and other self-employed individuals. It is the simplest and most cost-effective business structure, can be registered remotely, and is the only form eligible for **Small Business Status**, under which qualifying businesses are taxed at **1% of turnover** up to the statutory threshold. The main trade-off is that an Individual Entrepreneur is **personally liable** for the obligations of the business.
 
-**Company (LLC)** suits anyone with partners, outside investors, higher revenue, or a need to limit personal liability. The LLC is the most common form and has **no minimum capital requirement**. Only a company can hold the more specialised statuses — such as **International Company Status** or **Virtual Zone Person** — that are aimed at IT, service-export and similar activities.
+A **Limited Liability Company (LLC)** is generally more suitable for businesses with partners, outside investors, higher growth plans or anyone wishing to separate personal and business liability. It is the most common company form in Georgia and **does not require any minimum share capital**. Certain preferential regimes, such as **International Company Status** and **Virtual Zone Person Status**, are available only to companies and are designed primarily for eligible IT and export-oriented businesses.
 
-## Where to go next
+## What to explore further 
 
 - **[How to Register an Individual Entrepreneur Remotely](/en/register-individual-entrepreneur-remotely)** — the IE route, step by step, including registration by Power of Attorney.
 - **[Registering a Company in Georgia](/en/registering-a-company-in-georgia)** — business forms, the LLC, capital, founders and the registration procedure.
 - **[Running a Company in Georgia](/en/running-a-company-in-georgia)** — what happens after registration: directors, accounting, reporting and compliance.
 - **[Business Statuses in Georgia](/en/business-statuses-georgia)** — the special tax statuses available to businesses, and who each one is for.
 
-Use the guides above to go from "which form do I need" to the exact procedure for your situation.
+Use the guides above to find the business structure that suits you and follow the registration process for your situation.
