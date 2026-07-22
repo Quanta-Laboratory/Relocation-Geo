@@ -76,6 +76,7 @@ In 2022, Relocation.ge launched an initiative to help Ukrainian citizens in Geor
   <a class="press-logo" href="https://pmcg-i.com/app/uploads/2023/03/Study-of-the-Needs-of-Ukrainian-Refugees-in-Georgia.pdf"><img src="/logos/pmc-research.png" alt="PMC Research"></a>
   <a class="press-logo" href="https://www.netnewsledger.com/2022/03/01/russian-invasion-five-ways-tech-is-being-used-to-help-ukraine/"><img src="/logos/netnewsledger.png" alt="NetNewsLedger"></a>
   <a class="press-logo" href="https://www.global-imi.com/blog/virtual-battlefield-tech-and-ukraine"><img src="/logos/imi.png" alt="IMI"></a>
+  <a class="press-logo" href="https://www.weforum.org/stories/technological-innovation/russia-tech-business-conflict-ukraine/"><img src="/logos/wef.png" alt="World Economic Forum"></a>
 </div>
 
 Selected coverage:
@@ -92,6 +93,7 @@ Selected coverage:
 - **Georgia Today** — [18 Months of War: How Has Georgia Helped Ukraine So Far?](https://georgiatoday.ge/18-months-of-war-how-has-georgia-helped-ukraine-so-far/)
 - **NetNewsLedger** — [Five ways tech is being used to help Ukraine](https://www.netnewsledger.com/2022/03/01/russian-invasion-five-ways-tech-is-being-used-to-help-ukraine/) (1 March 2022)
 - **IMI (Global-IMI)** — [The virtual battlefield: tech and Ukraine](https://www.global-imi.com/blog/virtual-battlefield-tech-and-ukraine)
+- **World Economic Forum** — [How tech and business are responding to the conflict in Ukraine](https://www.weforum.org/stories/technological-innovation/russia-tech-business-conflict-ukraine/)
 
 We are grateful for this recognition and remain committed to maintaining high standards of accuracy, transparency and editorial integrity.
 
