@@ -70,7 +70,12 @@ In 2022, Relocation.ge launched an initiative to help Ukrainian citizens in Geor
   <a class="press-logo" href="https://mainichi.jp/articles/20220316/k00/00m/030/001000c"><img src="/logos/mainichi.png" alt="Mainichi Shimbun"></a>
   <a class="press-logo" href="https://georgiatoday.ge/support-project-for-ukrainian-citizens-in-georgia/"><img src="/logos/georgia-today.png" alt="Georgia Today"></a>
   <a class="press-logo" href="https://www.facebook.com/EntrepreneurGeorgia/"><img src="/logos/Entrepreneur.png" alt="Entrepreneur Georgia"></a>
-  <a class="press-logo" href="https://dev.ua/news/yak-dopomohty-hromadianam-ukrainy-v-hruzii-1647515150"><img src="/logos/dev-ua.png" alt="dev.ua"></a>
+  <a class="press-logo" href="https://dev.ua/en/news/how-to-help-ukrainian-citizens-in-georgia"><img src="/logos/dev-ua.png" alt="dev.ua"></a>
+  <a class="press-logo" href="https://euneighbourseast.eu/standwithukraine/refugees/"><img src="/logos/eu-neighbours-east.png" alt="EU Neighbours East"></a>
+  <a class="press-logo" href="https://georgia.unfpa.org/sites/default/files/pub-pdf/2-info_for_ukr_citizens.pdf"><img src="/logos/unfpa.png" alt="UNFPA Georgia"></a>
+  <a class="press-logo" href="https://pmcg-i.com/app/uploads/2023/03/Study-of-the-Needs-of-Ukrainian-Refugees-in-Georgia.pdf"><img src="/logos/pmc-research.png" alt="PMC Research"></a>
+  <a class="press-logo" href="https://www.netnewsledger.com/2022/03/01/russian-invasion-five-ways-tech-is-being-used-to-help-ukraine/"><img src="/logos/netnewsledger.png" alt="NetNewsLedger"></a>
+  <a class="press-logo" href="https://www.global-imi.com/blog/virtual-battlefield-tech-and-ukraine"><img src="/logos/imi.png" alt="IMI"></a>
 </div>
 
 Selected coverage:
@@ -80,7 +85,13 @@ Selected coverage:
 - **Mainichi Shimbun** — [Article on the support project](https://mainichi.jp/articles/20220316/k00/00m/030/001000c)
 - **Georgia Today** — [Support Project for Ukrainian Citizens in Georgia](https://georgiatoday.ge/support-project-for-ukrainian-citizens-in-georgia/) (25 February 2022)
 - **Entrepreneur Georgia** — [Publication on the initiative](https://www.facebook.com/EntrepreneurGeorgia/) · [video report](https://www.facebook.com/watch/?v=345804527456094)
-- **dev.ua** — [How to help citizens of Ukraine in Georgia](https://dev.ua/news/yak-dopomohty-hromadianam-ukrainy-v-hruzii-1647515150) (17 March 2022)
+- **dev.ua** — [How to help Ukrainian citizens in Georgia](https://dev.ua/en/news/how-to-help-ukrainian-citizens-in-georgia) (17 March 2022)
+- **EU Neighbours East** — [Stand With Ukraine: support for refugees](https://euneighbourseast.eu/standwithukraine/refugees/)
+- **UNFPA Georgia** — [Information for Ukrainian citizens in Georgia](https://georgia.unfpa.org/sites/default/files/pub-pdf/2-info_for_ukr_citizens.pdf)
+- **PMC Research Center / Konrad-Adenauer-Stiftung** — [Study of the Needs of Ukrainian Refugees in Georgia](https://pmcg-i.com/app/uploads/2023/03/Study-of-the-Needs-of-Ukrainian-Refugees-in-Georgia.pdf) (2023)
+- **Georgia Today** — [18 Months of War: How Has Georgia Helped Ukraine So Far?](https://georgiatoday.ge/18-months-of-war-how-has-georgia-helped-ukraine-so-far/)
+- **NetNewsLedger** — [Five ways tech is being used to help Ukraine](https://www.netnewsledger.com/2022/03/01/russian-invasion-five-ways-tech-is-being-used-to-help-ukraine/) (1 March 2022)
+- **IMI (Global-IMI)** — [The virtual battlefield: tech and Ukraine](https://www.global-imi.com/blog/virtual-battlefield-tech-and-ukraine)
 
 We are grateful for this recognition and remain committed to maintaining high standards of accuracy, transparency and editorial integrity.
 
