@@ -91,30 +91,33 @@ Before relying on this exemption, always verify that **both the issuing country
 
 ## Your travel-document type also matters
 
-Entry rules attach to the **document you travel on**, not only to the state that issued it.
+Your right to enter Georgia depends not only on your **citizenship**, but also on the **travel document** you use. Different rules may apply depending on the type of passport or travel document you present at the border.
 
-- **Ordinary vs diplomatic/service passports.** Georgia maintains separate visa-free arrangements for holders of **diplomatic** and **service (official)** passports under bilateral agreements. A country whose ordinary-passport holders need a visa may still have a diplomatic/service-passport visa waiver, and vice versa — so the answer for the same nationality can differ by passport type. Diplomatic and special entry is handled under the **A** and **B** visa categories described in the [Guide to Georgian Visas](/en/guide-to-georgian-visas).
-- **Refugee and stateless travel documents.** Holders of a refugee or stateless person's travel document are assessed on the document and its issuing state, not on an ordinary nationality rule. Ordinance No 255 also grants the same one-year visa-free entry to holders of a **UN Laissez-Passer**.
+- **Ordinary, diplomatic, and service passports.** Georgia has concluded separate bilateral visa-waiver agreements for holders of **diplomatic** and **service (official)** passports with a number of countries. As a result, the entry rules for holders of diplomatic or service passports may differ from those applicable to holders of ordinary passports of the same country. Diplomatic and official travel is also reflected in the **A** and **B** visa categories explained in the [Guide to Georgian Visas](/en/guide-to-georgian-visas).
+- **Refugee and stateless persons' travel documents.** Entry rules for holders of refugee and stateless persons' travel documents are governed by the applicable legislation and may differ from those applicable to ordinary passports. In addition, **Government Ordinance No. 255** grants the same **one-year visa-free stay** to holders of a **United Nations Laissez-Passer**.
 
-Because these sub-rules are specific, check the exact document type on the geoconsul checker rather than assuming it follows the ordinary-passport rule.
+Because these rules depend on the **type of travel document**, rather than nationality alone, always verify the requirements for your particular document through the official **geoconsul** checker before travelling.
 
 ## Requirements that apply at the border regardless of citizenship
 
-Meeting the visa-free or visa condition gets you to the counter; a border officer still decides admission under the Law on Aliens. Cross-cutting requirements that apply to most travellers include:
+Meeting the applicable visa or visa-free entry requirements does **not** guarantee admission to Georgia. The final decision is made by the border authorities in accordance with the **Law of Georgia on the Legal Status of Aliens and Stateless Persons**.
 
-- **A valid travel document.** Your passport (or, for EU citizens under Ordinance No 255, a national ID card) must be valid and genuine.
-- **Sufficient funds and a plausible purpose.** You may be asked to show that you can support your stay and that your stated purpose matches your documents.
-- **Mandatory tourist insurance (2026).** From **1 January 2026**, a tourist entering Georgia must hold **health and accident insurance with a minimum sum insured of GEL 30,000**, valid for the whole stay, under Government Decree No 602. The policy can be checked at the border and entry can be refused without it — see [health insurance in Georgia for foreigners](/en/health-insurance-in-georgia-for-foreigners).
-- **Lawful point of entry.** Enter only through officially controlled crossing points. Under the **Law of Georgia on Occupied Territories**, entering the occupied territories — **Abkhazia** or the **Tskhinvali region (former South Ossetian Autonomous Region)** — from any direction other than those Georgia designates is **unlawful** and can carry criminal liability.
+Regardless of your nationality, the following requirements commonly apply:
 
-Admission can still be refused on the grounds set out in the Law on Aliens (for example, an invalid document, a prior overstay, or grounds of public order or security), independently of the visa-free or visa rule.
+- **A valid travel document.** You must present a valid and genuine travel document. In certain cases provided by law, some foreign nationals (such as citizens of specified EU Member States) may enter using a national identity card instead of a passport.
+- **A genuine purpose of travel and sufficient means of support.** Border authorities may ask you to demonstrate the purpose of your visit and that you have sufficient financial means for your intended stay.
+- **Mandatory tourist insurance (from 2026).** Since **1 January 2026**, most tourists entering Georgia must hold **health and accident insurance** with a minimum insured amount of **GEL 30,000**, valid for the entire period of stay, in accordance with **Government Decree No. 602**. Compliance may be checked at the border, and failure to meet this requirement may result in refusal of entry. See [Health Insurance in Georgia for Foreigners](/en/health-insurance-in-georgia-for-foreigners).
+- **Lawful entry into Georgia.** Entry should take place through officially designated border crossing points. Under the **Law of Georgia on Occupied Territories**, entering Georgia through the occupied territories of **Abkhazia** or the **Tskhinvali Region (former South Ossetian Autonomous Region)** other than via the routes authorised by Georgian law is unlawful and may give rise to criminal or administrative liability, depending on the circumstances.
+
+Even where all visa or visa-free requirements are met, entry may still be refused on the grounds provided by the **Law of Georgia on the Legal Status of Aliens and Stateless Persons**, including where a traveller presents an invalid travel document, has previously violated Georgian immigration law, or poses a threat to public order, public health, national security, or other legally protected interests.
 
 ## Short stay versus long stay
 
-The three buckets above, and the residence-permit modifier, all concern **short stays** — visiting, testing the waters, or (for the one-year regime) a stretch of up to a year with no local work. They do **not** by themselves let you settle.
+The categories described above, including the visa exemption for holders of certain foreign visas and residence permits, relate primarily to **short stays**. They allow foreign nationals to visit Georgia for the period permitted under the applicable visa or visa-free regime, but do **not** by themselves grant the right to reside in Georgia on a long-term basis.
 
-To live in Georgia on a stable, renewable basis you move to the **long-stay** track: a **long-term D immigration visa** and/or a **residence permit**. The D visa is the precondition for a residence permit. See the [Guide to Georgian Visas](/en/guide-to-georgian-visas), the [Immigration (D) Visa guide](/en/immigration-visa-georgia) and the [Guide to Residence Permits](/en/guide-to-residence-permits). Note also that since **1 March 2026**, doing paid work, self-employment or entrepreneurial activity generally requires a separate work permit, whichever way you entered.
+Foreign nationals wishing to live in Georgia on a longer-term or renewable basis will generally need to obtain an appropriate **immigration (D) visa** and/or a **residence permit**, depending on their circumstances and the applicable legal requirements. Further guidance is available in the [Guide to Georgian Visas](/en/guide-to-georgian-visas), the [Immigration (D) Visa Guide](/en/immigration-visa-georgia), and the [Guide to Residence Permits](/en/guide-to-residence-permits).
 
+Please also note that, since **1 March 2026**, foreign nationals who intend to carry out paid employment, self-employment, or entrepreneurial activity in Georgia generally require a **work permit**, regardless of whether they entered the country under a visa, a visa-free regime, or another lawful basis of entry.
 ## How to check your own case
 
 Because the lists are amended regularly, treat any summary — including this one — as a starting point, and verify shortly before you travel:
@@ -126,4 +129,5 @@ A caution on the legal texts: the **English version on matsne can lag the Georgi
 
 ---
 
-*This is general information, not legal or immigration advice. Entry rules, lists and figures change; confirm the current position on geoconsul and the Legislative Herald before you travel.*
+This guide provides general information only and does not constitute legal or immigration advice. Immigration laws, visa requirements, and official lists may change over time. Before travelling, always verify the current requirements through the official_ [Geoconsul](https://geoconsul.gov.ge/en?utm_source=chatgpt.com) _portal and the Legislative Herald (Matsne).
+
