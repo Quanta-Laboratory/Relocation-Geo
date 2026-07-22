@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: "en"
 summary: "Georgia is inexpensive by European standards. In Tbilisi, a single person typically budgets around USD 900–1,200 a month with rent, a couple around USD 1,300–1,800, and a family with one child around USD 1,650–2,500. Rent is the largest expense, with central Tbilisi and the Batumi seafront the priciest; food, transport and utilities are modest."
 reviewed: 2026-07-10
-checked: 2026-07-21
+checked: 2026-07-22
 sources:
   - name: "National Statistics Office of Georgia (Geostat) — Prices and inflation"
     url: "https://www.geostat.ge/en/modules/categories/25/price"

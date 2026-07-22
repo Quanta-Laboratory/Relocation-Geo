@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: "en"
 summary: "How marriages and births are registered in Georgia through the Public Service Development Agency (PSDA) and Public Service Hall. A marriage can be registered between two foreign nationals as well as between a foreigner and a Georgian citizen: the couple file a joint application, present identity documents and — for anyone previously married — proof that the earlier marriage ended, and two adult witnesses attend. Marriage is permitted from age 18, and registration at a PSDA office or Public Service Hall branch is free of charge (special ceremony services are extra). A birth in Georgia is subject to compulsory registration: the maternity institution notifies the PSDA electronically, the birth is registered no later than the next working day, and the birth certificate is issued free. Birth in Georgia does not by itself grant Georgian citizenship — citizenship follows mainly from having a Georgian-citizen parent (jus sanguinis), with only limited exceptions. Foreign documents generally need an apostille or legalisation and a notarised Georgian translation. This page is general information, not legal advice; confirm current requirements with the Public Service Hall or the PSDA (Civil Registry)."
 reviewed: 2026-07-10
-checked: 2026-07-21
+checked: 2026-07-22
 order: 8
 sources:
   - name: "Law of Georgia on Civil Status Acts — Legislative Herald of Georgia (matsne), consolidated English text"

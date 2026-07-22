@@ -4,7 +4,7 @@ category: "tax"
 lang: "en"
 summary: "Georgia's standard VAT rate is 18%. A person must register for VAT once taxable turnover exceeds GEL 100,000 in any continuous 12-month period; below that, registration is voluntary. Supplies can be taxable at 18%, exempt (for example many financial, medical and education services), or zero-rated (notably exports). VAT on services bought from non-residents is accounted for by the Georgian recipient under the reverse-charge mechanism, and non-resident providers of digital services to Georgian consumers must register and pay VAT here. Registered payers file monthly, generally by the 15th of the following month, through rs.ge. This guide sets out the rate, the registration threshold, the categories of supply, reverse charge and filing, checked against the Tax Code and the Revenue Service."
 reviewed: 2026-07-10
-checked: 2026-07-21
+checked: 2026-07-22
 order: 7
 sources:
   - name: "Tax Code of Georgia — official English translation (PDF, Legislative Herald)"
