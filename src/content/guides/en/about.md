@@ -70,6 +70,7 @@ In 2022, Relocation.ge launched an initiative to help Ukrainian citizens in Geor
   <a class="press-logo" href="https://mainichi.jp/articles/20220316/k00/00m/030/001000c"><img src="/logos/mainichi.png" alt="Mainichi Shimbun"></a>
   <a class="press-logo" href="https://georgiatoday.ge/support-project-for-ukrainian-citizens-in-georgia/"><img src="/logos/georgia-today.png" alt="Georgia Today"></a>
   <a class="press-logo" href="https://www.facebook.com/EntrepreneurGeorgia/"><img src="/logos/Entrepreneur.png" alt="Entrepreneur Georgia"></a>
+  <a class="press-logo" href="https://dev.ua/news/yak-dopomohty-hromadianam-ukrainy-v-hruzii-1647515150"><img src="/logos/dev-ua.png" alt="dev.ua"></a>
 </div>
 
 Selected coverage:
@@ -79,6 +80,7 @@ Selected coverage:
 - **Mainichi Shimbun** — [Article on the support project](https://mainichi.jp/articles/20220316/k00/00m/030/001000c)
 - **Georgia Today** — [Support Project for Ukrainian Citizens in Georgia](https://georgiatoday.ge/support-project-for-ukrainian-citizens-in-georgia/) (25 February 2022)
 - **Entrepreneur Georgia** — [Publication on the initiative](https://www.facebook.com/EntrepreneurGeorgia/) · [video report](https://www.facebook.com/watch/?v=345804527456094)
+- **dev.ua** — [How to help citizens of Ukraine in Georgia](https://dev.ua/news/yak-dopomohty-hromadianam-ukrainy-v-hruzii-1647515150) (17 March 2022)
 
 We are grateful for this recognition and remain committed to maintaining high standards of accuracy, transparency and editorial integrity.
 
