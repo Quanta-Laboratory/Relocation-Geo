@@ -35,7 +35,9 @@ tags:
   - visa
 ---
 
-Whether you can enter Georgia, and for how long, depends first on your **citizenship** — but citizenship alone does not settle it. Your **travel document**, any **visa or residence permit you already hold from another country**, and conditions checked **at the border** can all change the outcome. This page explains the mechanics and the categories, and points you to the official sources for the current per-country answer. It deliberately does **not** reproduce a full country list, because those lists are amended regularly and any copy goes out of date.
+
+Whether you can enter Georgia, and for how long, depends primarily on your **citizenship** — but citizenship alone does not determine the answer. Your **travel document**, any **visa or residence permit issued by another country** that you hold, and the conditions assessed **at the border** may also affect your right to enter and the permitted period of stay.
+
 
 > **Prefer to answer a few questions?** Try the interactive **[Georgia Entry Checker](/en/georgia-entry-checker)** — pick your purpose and citizenship and it suggests the likely entry route and stay period. Guidance only, not legal advice.
 
@@ -43,19 +45,23 @@ Whether you can enter Georgia, and for how long, depends first on your **citizen
 
 For entry purposes, every nationality falls into one of three categories:
 
-1. **Visa-free — up to one full year.** Citizens of the countries listed in the annex to **Ordinance of the Government of Georgia No 255 of 5 June 2015** may enter and stay without a visa for **one full year** (365 days) per entry. This is the regime that covers most Western travellers. How the year works — including the "border-hop" reset and its limits — is covered in [Visa-Free Entry & the One-Year Rule](/en/visa-free-entry-georgia).
-2. **e-Visa.** Nationals who are not on the visa-free list but are eligible can apply online through the Ministry of Foreign Affairs and receive an **electronic visa** without visiting a consulate.
-3. **Visa required.** Everyone else needs a Georgian visa — a short-term (C) visa for a visit, or a long-term (D) immigration visa for a stay that leads to a residence permit. See the [Guide to Georgian Visas](/en/guide-to-georgian-visas).
+1. **Visa-free — up to one  year.** Citizens of the countries listed in the annex to **Ordinance of the Government of Georgia No 255 of 5 June 2015** may enter and stay without a visa for **one  year** per entry. This is the regime that covers most Western travellers. How the year works — including the "border-runs" and their practical limitations — is covered in [Visa-Free Entry & the One-Year Rule](/en/visa-free-entry-georgia).
+2. **e-Visa.**  Foreign nationals who are eligible for Georgia's e-Visa programme may apply online for a **Georgian electronic (e-) visa**, without visiting a Georgian diplomatic mission or consular office. Eligibility depends on the applicant's citizenship, travel document, and, in some cases, other supporting documents or immigration status.
+3. **Visa required.** Foreign nationals who are neither visa-exempt nor eligible for an e-Visa must obtain a Georgian visa before travelling. Depending on the purpose of travel, this may be a **short-term (C) visa** or a **long-term (D) immigration visa**, the latter generally being required for those intending to apply for a residence permit after arrival. See the [Guide to Georgian Visas](/en/guide-to-georgian-visas).
 
-The legal basis for all three is the **Law of Georgia on the Legal Status of Aliens and Stateless Persons**, which empowers the Government to set the visa-free list. Rather than repeat that list here, check your nationality against the current text of **Ordinance No 255** on the Legislative Herald (matsne.gov.ge) and against the official checker on **[geoconsul.gov.ge](https://www.geoconsul.gov.ge/en)**, which returns the entry conditions for a given citizenship.
+he framework for Georgia's visa regime is set out in the **Law of Georgia on the Legal Status of Aliens and Stateless Persons**, while the detailed rules on visa exemptions are established by **Government of Georgia Ordinance No. 255 of 5 June 2015**. You can check your nationality against the current text of the Ordinance on the Legislative Herald (matsne.gov.ge) and against the official checker on **[geoconsul.gov.ge](https://www.geoconsul.gov.ge/en)**, which allows you to check the entry requirements applicable to your citizenship.
 
-## The residence-permit / visa modifier
+## **Visa-free entry based on a foreign visa or residence permit** 
 
-Here is the part travellers most often miss. Even if your nationality sits in the **"visa required"** bucket, you may still enter Georgia **visa-free for a short stay** if you already hold a **valid visa or residence permit of a designated country**.
+One important exception is often overlooked. Even if your nationality would normally require a Georgian visa, you may still qualify for **visa-free entry** if you hold a **valid visa or residence permit issued by a designated country**.
 
-This is a **separate** legal instrument from the main visa-free list: it is set by **Ordinance of the Government of Georgia No 256 of 5 June 2015**, "On Approval of the List of Countries Whose Visa and/or Residence Permit Holders May Enter Georgia without a Visa". Under that ordinance, an alien holding a visa or residence permit of a listed country may enter and stay **without a Georgian visa for 90 calendar days in any 180-day period**. The document must be **valid on the day you cross the border**, and you must be able to evidence it.
+This visa exemption is governed by a **different legal regime** from Georgia's main visa-free country list. It is established by **Government of Georgia Ordinance No. 256 of 5 June 2015**, which approves the list of countries whose valid visas and/or residence permits allow their holders to enter Georgia without obtaining a Georgian visa.
 
-The designated countries are broadly the major destinations — **EU / EEA / Schengen states, the United States, the United Kingdom, Canada, Australia, Japan, the Gulf states** and others — but the No 256 list is **not identical** to the No 255 visa-free list, so do not assume the two overlap. Confirm the current qualifying list, and whether your particular document counts, on **geoconsul** before you rely on this route.
+Under this Ordinance, an eligible foreign national may enter Georgia **without a Georgian visa** and stay for **up to 90 calendar days within any 180-day period**. The qualifying visa or residence permit must be **valid at the time of entry**, and you should be able to present evidence of it if requested by the border authorities.
+
+The list includes, among others, **EU and EEA Member States, Schengen States, the United States, the United Kingdom, Canada, Australia, Japan, and several Gulf States**. However, the countries covered by **Ordinance No. 256**are **not identical** to those covered by **Ordinance No. 255**, so you should not assume that the two regimes overlap.
+
+Before relying on this exemption, always verify that **both the issuing country and your particular visa or residence permit** qualify under the current version of **Ordinance No. 256**. The easiest way to do this is by checking the official guidance available through **geoconsul**, which provides the applicable entry requirements based on your nationality and travel documents.
 
 <svg class="diagram" viewBox="0 0 640 340" role="img" aria-label="Decision path for a nationality that requires a visa: holding a designated country's valid visa or residence permit allows visa-free entry for a short stay, otherwise a Georgian visa or e-Visa is required.">
   <rect class="box box--key" x="195" y="20" width="250" height="56" rx="6"/>
