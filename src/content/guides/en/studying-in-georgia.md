@@ -5,7 +5,7 @@ lang: "en"
 notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
 summary: "A short overview of studying in Georgia as an international student: choosing an authorised university and accredited programme, getting admitted (and having a prior diploma recognised by the NCEQE), funding your studies through tuition and scholarships, and the D3 student visa and study residence permit that let you stay. This page maps the journey and links to the detailed guide for each step."
 reviewed: 2026-07-08
-checked: 2026-07-22
+checked: 2026-07-23
 order: 1
 sources:
   - name: "NCEQE — National Center for Educational Quality Enhancement"

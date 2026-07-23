@@ -5,7 +5,7 @@ lang: "he"
 notice: 'לעצמאים זרים: <strong>תקנה מס׳ 321 מ־9 ביולי 2026</strong> שינתה את אופן קבלת <strong>הזכות לעבוד</strong> — יש להגיש את הבקשה <strong>באופן אישי</strong>, לעבור <strong>ראיון וידאו חובה</strong>, ומופעל מבחן מחזור. הפטור עבור מתן שירות ללקוחות זרים <strong>אינו חל</strong> על עוסק יחיד הזקוק לאישור שהייה כדי לשהות כחוק. <a href="/en/right-to-work-georgia">מידע נוסף</a>.'
 summary: "גאורגיה מאפשרת לאזרח זר לרשום עוסק יחיד (Individual Entrepreneur, IE) בלי להגיע למדינה, באמצעות ייפוי כוח מאושר נוטריונית ועם אפוסטיל, שניתן לנציג המשלים את הרישום בבית הצדק. הרישום עצמו נמשך בדרך כלל 1–5 ימי עסקים לאחר שהמסמכים מגיעים לגאורגיה; התהליך המלא, כולל משלוח בשליח, תרגום ואישור נוטריוני, נמשך בדרך כלל 1–3 שבועות."
 reviewed: 2026-07-14
-checked: 2026-07-22
+checked: 2026-07-23
 order: 1
 sources:
   - name: "National Agency of Public Registry — official fee schedule for business registration"

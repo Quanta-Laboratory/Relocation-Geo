@@ -5,7 +5,7 @@ lang: en
 notice: The remote-work exemptions are now explicit. Working <strong>fully remotely</strong>, or supplying services to a <strong>non-resident</strong> for their activity outside Georgia, falls outside the right-to-work requirement — but <strong>not</strong> if you are an Individual Entrepreneur who needs a residence permit to stay lawfully. See <a href="/en/right-to-work-georgia">the right to work</a>.
 summary: "Georgia lets citizens of 90+ countries enter visa-free and stay up to a year, taxes individuals only on Georgian-source income, and offers a 1% small-business regime for sole traders. The big 2026 change: earning income from within Georgia generally requires the right to work — though fully remote work and work for foreign (non-resident) clients are generally exempt"
 reviewed: 2026-07-12
-checked: 2026-07-22
+checked: 2026-07-23
 order: 2
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)
