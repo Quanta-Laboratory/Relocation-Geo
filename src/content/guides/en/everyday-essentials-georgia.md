@@ -1,27 +1,30 @@
 ---
 title: "Everyday Essentials in Georgia: Setting Up Daily Life"
-category: "live"
-lang: "en"
-summary: "A short overview of the practical basics for settling into Georgia: getting a mobile SIM and internet, opening a bank account, receiving a personal number and tax ID with your residence permit, driving on a foreign or Georgian licence, and budgeting for the low cost of living. This page maps the setup order and links to the detailed guide for each."
+category: live
+lang: en
+summary: "A short overview of the practical basics for settling into Georgia: getting a mobile SIM and internet, opening a bank account, receiving a personal number and tax ID with your residence permit, driving on a foreign or Georgian licence, and budgeting for the low cost of living."
 reviewed: 2026-07-08
 checked: 2026-07-23
 order: 3
 sources:
-  - name: "Public Service Hall"
-    url: "https://psh.gov.ge/"
-  - name: "National Bank of Georgia"
-    url: "https://nbg.gov.ge/en"
+  - name: Public Service Hall
+    url: https://psh.gov.ge/
+  - name: National Bank of Georgia
+    url: https://nbg.gov.ge/en
 faq:
-  - q: "What should I set up first when I arrive in Georgia?"
-    a: "A local SIM and internet are the quickest wins, then a bank account. Your personal number and Georgian ID come with a residence permit, and you can drive on a valid foreign licence for up to a year while you settle in. Each of these has a detailed guide below."
-  - q: "Can I open a bank account as a foreigner?"
-    a: "Yes. Major banks such as Bank of Georgia, TBC and Liberty open accounts for foreigners, though required documents and remote options vary by bank and change over time. See the Banking guide for current requirements."
-  - q: "How do I get a personal number and tax ID?"
-    a: "Foreign residents receive an 11-digit personal number with their Georgian ID card, which requires a residence permit and is issued by the Public Service Hall. The Personal Number & Tax ID guide walks through the process."
-  - q: "Can I drive in Georgia on my foreign licence?"
-    a: "Foreigners may drive on a valid foreign licence for up to one year after their last entry, and can exchange it for a Georgian licence. The Driving guide covers licences and car registration."
-  - q: "How much does it cost to live in Georgia?"
-    a: "Georgia is inexpensive by European standards — a single person typically budgets around USD 700–1,200 a month including rent. The Cost of Living guide breaks the numbers down."
+  - q: What should I set up first when I arrive in Georgia?
+    a: A local SIM and internet are the quickest wins, then a bank account. Your personal number and Georgian ID come with a residence permit, and you can drive on a valid foreign licence for up to a year while you settle in. Each of these has a detailed guide below.
+  - q: Can I open a bank account as a foreigner?
+    a: Yes. Major banks such as Bank of Georgia, TBC and Liberty open accounts for foreigners, though required documents and remote options vary by bank and change over time. See the Banking guide for current requirements.
+  - q: How do I get a personal number and tax ID?
+    a: Foreign residents receive an 11-digit personal number with their Georgian ID card, which requires a residence permit and is issued by the Public Service Hall. The Personal Number & Tax ID guide walks through the process.
+  - q: Can I drive in Georgia on my foreign licence?
+    a: Foreigners may drive on a valid foreign licence for up to one year after their last entry, and can exchange it for a Georgian licence. The Driving guide covers licences and car registration.
+  - q: How much does it cost to live in Georgia?
+    a: Georgia is inexpensive by European standards — a single person typically budgets around USD 700–1,200 a month including rent. The Cost of Living guide breaks the numbers down.
+tags:
+  - living
+  - livingingeorgia
 ---
 
 Once you have somewhere to live, a handful of practical steps get daily life running: **connectivity**, a **bank account**, your **personal number and tax ID**, **driving**, and a sense of the **cost of living**. Most can be done in your first weeks, roughly in this order.
