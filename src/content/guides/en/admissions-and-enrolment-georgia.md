@@ -1,29 +1,31 @@
 ---
-title: "University Admissions & Enrolment in Georgia for International Students"
-category: "students"
+title: University Admissions & Enrolment in Georgia for International Students
+category: students
 parent: studying-in-georgia
-lang: "en"
+lang: en
 notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
-summary: "Applying to a Georgian university as an international student means choosing an authorised institution and accredited programme, having your prior qualification recognised by the NCEQE, and preparing apostilled or legalised documents with certified translations. English-taught programmes set their own language requirements."
+summary: Applying to a Georgian university as an international student means choosing an authorised institution and accredited programme, having your prior qualification recognised by the NCEQE, and preparing apostilled or legalised documents with certified translations. English-taught programmes set their own language requirements.
 reviewed: 2026-06-27
 checked: 2026-07-23
 sources:
-  - name: "National Center for Educational Quality Enhancement (NCEQE)"
-    url: "https://eqe.ge/en"
-  - name: "Law of Georgia on Higher Education (Legislative Herald)"
-    url: "https://matsne.gov.ge/en/document/view/32830"
+  - name: National Center for Educational Quality Enhancement (NCEQE)
+    url: https://eqe.ge/en
+  - name: Law of Georgia on Higher Education (Legislative Herald)
+    url: https://matsne.gov.ge/en/document/view/32830
 faq:
-  - q: "What documents do I need to apply?"
-    a: "Typically your school-leaving certificate or prior degree and transcripts, a valid passport, proof of financial means, and a medical certificate. Foreign documents usually need an apostille or legalisation and a certified translation into Georgian or English."
-  - q: "Does my previous diploma need to be recognised?"
-    a: "Yes. Foreign qualifications generally must be recognised by the NCEQE, which verifies authenticity and compares your qualification with Georgian standards before you can enrol."
-  - q: "What are the language requirements?"
-    a: "It depends on the programme. English-taught programmes set their own English requirements (often an English test or equivalent); Georgian-taught programmes require Georgian. Check the specific programme."
-  - q: "What is an apostille and do I need one?"
-    a: "An apostille certifies a public document for international use. Documents from countries party to the Apostille Convention need an apostille; others need consular legalisation. Most universities require this for your prior qualifications."
-  - q: "When are the intakes?"
-    a: "Most programmes have an autumn intake, and many universities also offer a spring intake. Deadlines vary by university — apply well ahead to allow time for document recognition and the visa or residence-permit process."
+  - q: What documents do I need to apply?
+    a: Typically your school-leaving certificate or prior degree and transcripts, a valid passport, proof of financial means, and a medical certificate. Foreign documents usually need an apostille or legalisation and a certified translation into Georgian or English.
+  - q: Does my previous diploma need to be recognised?
+    a: Yes. Foreign qualifications generally must be recognised by the NCEQE, which verifies authenticity and compares your qualification with Georgian standards before you can enrol.
+  - q: What are the language requirements?
+    a: It depends on the programme. English-taught programmes set their own English requirements (often an English test or equivalent); Georgian-taught programmes require Georgian. Check the specific programme.
+  - q: What is an apostille and do I need one?
+    a: An apostille certifies a public document for international use. Documents from countries party to the Apostille Convention need an apostille; others need consular legalisation. Most universities require this for your prior qualifications.
+  - q: When are the intakes?
+    a: Most programmes have an autumn intake, and many universities also offer a spring intake. Deadlines vary by university — apply well ahead to allow time for document recognition and the visa or residence-permit process.
 order: 2
+tags:
+  - study
 ---
 
 Getting into a Georgian university as an international student is relatively straightforward once you understand the process. The key is to follow the correct sequence: choose a properly recognised institution and programme, obtain recognition of your existing qualification where required, prepare your documents in the correct legal form, and satisfy the programme's language requirements. Completing these steps in the right order helps avoid the most common delays.
