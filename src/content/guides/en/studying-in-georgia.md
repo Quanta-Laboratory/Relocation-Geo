@@ -1,28 +1,30 @@
 ---
 title: "Studying in Georgia: A Guide for International Students"
-category: "students"
-lang: "en"
+category: students
+lang: en
 notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
-summary: "A short overview of studying in Georgia as an international student: choosing an authorised university and accredited programme, getting admitted (and having a prior diploma recognised by the NCEQE), funding your studies through tuition and scholarships, and the D3 student visa and study residence permit that let you stay. This page maps the journey and links to the detailed guide for each step."
+summary: "A short overview of studying in Georgia as an international student: choosing an authorised university and accredited programme, getting admitted (and having a prior diploma recognised by the NCEQE), funding your studies through tuition and scholarships, and the D3 student visa and study residence permit that let you stay."
 reviewed: 2026-07-08
 checked: 2026-07-23
 order: 1
 sources:
-  - name: "NCEQE — National Center for Educational Quality Enhancement"
-    url: "https://eqe.ge/en"
-  - name: "Ministry of Internal Affairs of Georgia"
-    url: "https://mia.gov.ge/en"
+  - name: NCEQE — National Center for Educational Quality Enhancement
+    url: https://eqe.ge/en
+  - name: Ministry of Internal Affairs of Georgia
+    url: https://mia.gov.ge/en
 faq:
-  - q: "Can international students study in Georgia in English?"
-    a: "Yes. Many Georgian universities run full degree programmes taught in English, especially in medicine, business and IT. Programmes must be offered by an authorised institution and be accredited; you can verify this through the NCEQE before you apply."
-  - q: "What are the main steps to study in Georgia?"
-    a: "Choose an authorised university and an accredited programme; apply and get admitted (having your previous qualification recognised where required); secure funding through tuition payment or a scholarship; obtain a D3 student visa; and after arrival convert it into a study residence permit. Each step has its own detailed guide linked below."
-  - q: "Do I need a visa to study in Georgia?"
-    a: "International students normally enter on the D3 immigration visa, issued for study at an authorised institution, and then apply for a study residence permit after arrival. Citizens of some countries can enter visa-free but still need the study residence permit to stay for the full course. See the Student Visa & Residence guide for details."
-  - q: "How much does it cost to study in Georgia?"
-    a: "English-taught degrees commonly cost around USD 3,000–8,000 per year, with medicine at the higher end. Living costs are low by international standards. The Tuition & Cost guide breaks down fees, and the Scholarships guide covers the funding that is available."
-  - q: "Can I work while studying in Georgia?"
-    a: "A study residence permit does not by itself grant the right to work. Since 1 March 2026 most foreign nationals — students included — need separate authorisation to work. The Working While Studying guide explains what is and is not allowed."
+  - q: Can international students study in Georgia in English?
+    a: Yes. Many Georgian universities run full degree programmes taught in English, especially in medicine, business and IT. Programmes must be offered by an authorised institution and be accredited; you can verify this through the NCEQE before you apply.
+  - q: What are the main steps to study in Georgia?
+    a: Choose an authorised university and an accredited programme; apply and get admitted (having your previous qualification recognised where required); secure funding through tuition payment or a scholarship; obtain a D3 student visa; and after arrival convert it into a study residence permit. Each step has its own detailed guide linked below.
+  - q: Do I need a visa to study in Georgia?
+    a: International students normally enter on the D3 immigration visa, issued for study at an authorised institution, and then apply for a study residence permit after arrival. Citizens of some countries can enter visa-free but still need the study residence permit to stay for the full course. See the Student Visa & Residence guide for details.
+  - q: How much does it cost to study in Georgia?
+    a: English-taught degrees commonly cost around USD 3,000–8,000 per year, with medicine at the higher end. Living costs are low by international standards. The Tuition & Cost guide breaks down fees, and the Scholarships guide covers the funding that is available.
+  - q: Can I work while studying in Georgia?
+    a: A study residence permit does not by itself grant the right to work. Since 1 March 2026 most foreign nationals — students included — need separate authorisation to work. The Working While Studying guide explains what is and is not allowed.
+tags:
+  - study
 ---
 
 Studying in Georgia is an increasingly popular route for international students: degrees taught in English, affordable tuition, low living costs, and a straightforward student-visa path. Whatever you plan to study, the journey follows the same few steps — and each one has a detailed guide in this section.
@@ -63,7 +65,7 @@ The essentials are simple. You choose an **authorised university** and an **accr
   <text class="t-sub" x="320" y="176" text-anchor="middle">Every step below links to a detailed, source-based guide. Medicine (MD/MBBS) has its own guide.</text>
 </svg>
 
-## Where to go next
+## What to explore further
 
 **Choosing where to study**
 
