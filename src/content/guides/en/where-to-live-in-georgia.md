@@ -1,25 +1,28 @@
 ---
 title: "Where to Live in Georgia: Cities & Regions"
-category: "live"
-lang: "en"
-summary: "A short, factual overview of where newcomers settle in Georgia. Most foreign residents choose between Tbilisi — the capital and the country's business, cultural and administrative hub — and Batumi, the Black Sea resort city and port. This page compares the two, notes what else the country offers, and links to detailed city guides and to the housing and cost-of-living pages."
+category: live
+lang: en
+summary: A short, factual overview of where newcomers settle in Georgia. Most foreign residents choose between Tbilisi — the capital and the country's business, cultural and administrative hub — and Batumi, the Black Sea resort city and port.
 reviewed: 2026-07-10
 checked: 2026-07-23
 order: 4
 sources:
-  - name: "National Statistics Office of Georgia (Geostat) — 2024 Population Census"
-    url: "https://www.geostat.ge/en/modules/categories/316/population-and-demography"
+  - name: National Statistics Office of Georgia (Geostat) — 2024 Population Census
+    url: https://www.geostat.ge/en/modules/categories/316/population-and-demography
 faq:
-  - q: "Where do most foreigners live in Georgia?"
-    a: "The great majority settle in Tbilisi, the capital, which offers the widest choice of jobs, schools, healthcare and services. The second most common choice is Batumi, the main Black Sea resort and port. Smaller numbers live in Kutaisi, mountain towns such as Bakuriani or Gudauri, or wine-country towns like Telavi and Sighnaghi."
-  - q: "Is Tbilisi or Batumi better for relocating?"
-    a: "It depends on what you need. Tbilisi is the business, cultural and administrative centre, with year-round activity, the largest expat community and the widest range of services. Batumi is smaller and seasonal, built around the coast and tourism, with milder winters but very wet weather and a quieter off-season. Tbilisi suits most people relocating for work or family; Batumi suits those who want the seaside and a slower pace."
-  - q: "How big are Georgia's main cities?"
-    a: "In the 2024 census, Tbilisi had about 1.33 million residents — roughly a third of the country's population — while Batumi had about 236,000. Kutaisi, the third city, is smaller still. Georgia's total population was about 3.93 million (Geostat, 2024 census)."
-  - q: "Do I need to speak Georgian to live in these cities?"
-    a: "You can manage day to day in Tbilisi and Batumi with English, as many younger people and those in tourism, hospitality and IT speak it, and Russian is also widely understood. Learning some Georgian helps with officialdom and everyday life, especially outside the two main cities."
-  - q: "How much does it cost to live in Georgia's cities?"
-    a: "Both cities are inexpensive by European standards, with rent the largest variable. Central Tbilisi and the Batumi seafront are the priciest areas. See the cost-of-living guide for indicative monthly budgets and typical rents."
+  - q: Where do most foreigners live in Georgia?
+    a: The great majority settle in Tbilisi, the capital, which offers the widest choice of jobs, schools, healthcare and services. The second most common choice is Batumi, the main Black Sea resort and port. Smaller numbers live in Kutaisi, mountain towns such as Bakuriani or Gudauri, or wine-country towns like Telavi and Sighnaghi.
+  - q: Is Tbilisi or Batumi better for relocating?
+    a: It depends on what you need. Tbilisi is the business, cultural and administrative centre, with year-round activity, the largest expat community and the widest range of services. Batumi is smaller and seasonal, built around the coast and tourism, with milder winters but very wet weather and a quieter off-season. Tbilisi suits most people relocating for work or family; Batumi suits those who want the seaside and a slower pace.
+  - q: How big are Georgia's main cities?
+    a: In the 2024 census, Tbilisi had about 1.33 million residents — roughly a third of the country's population — while Batumi had about 236,000. Kutaisi, the third city, is smaller still. Georgia's total population was about 3.93 million (Geostat, 2024 census).
+  - q: Do I need to speak Georgian to live in these cities?
+    a: You can manage day to day in Tbilisi and Batumi with English, as many younger people and those in tourism, hospitality and IT speak it, and Russian is also widely understood. Learning some Georgian helps with officialdom and everyday life, especially outside the two main cities.
+  - q: How much does it cost to live in Georgia's cities?
+    a: Both cities are inexpensive by European standards, with rent the largest variable. Central Tbilisi and the Batumi seafront are the priciest areas. See the cost-of-living guide for indicative monthly budgets and typical rents.
+tags:
+  - livingingeorgia
+  - living
 ---
 
 Deciding where to live is one of the first practical questions after choosing Georgia. For most newcomers the choice comes down to two cities — **Tbilisi**, the capital and the country's business and cultural hub, and **Batumi**, the Black Sea resort and port — with a handful of smaller towns and mountain resorts as alternatives. This page compares the main options at a high level and points you to the detailed city guides.
@@ -55,11 +58,13 @@ Deciding where to live is one of the first practical questions after choosing Ge
 
 ## Tbilisi vs Batumi vs elsewhere
 
-The two main cities suit different priorities. **Tbilisi** is where the country's economic, political and cultural life is concentrated: it holds about a third of Georgia's population, has the largest job market, the widest choice of international schools, hospitals, universities and government offices, and the most established community of foreign residents. Its inland, valley setting brings hot summers and cool winters, and life continues at the same pace year-round.
+Georgia's two largest cities offer distinctly different lifestyles.
 
-**Batumi** is smaller and shaped by the sea. It is Georgia's main coastal resort and a significant port, with a compact, modern seafront, mild winters and warm, humid summers — but also very heavy rainfall and a pronounced seasonal rhythm, busy in summer and quiet out of season. It appeals to people who want to live by the coast and accept a smaller city with fewer services than the capital.
+**Tbilisi**, the capital and largest city, is the country's economic, political and cultural centre. It has the largest job market, the widest choice of international schools, universities, hospitals and government services, as well as the largest community of foreign residents and expatriates. Located inland in the Mtkvari River valley, Tbilisi experiences hot summers and cool winters, and economic and social life remains active throughout the year.
 
-**Elsewhere**, options are more specialised: **Kutaisi**, the third-largest city, is a lower-cost inland base with its own international airport; the **wine regions** of Kakheti (Telavi, Sighnaghi) attract those wanting small-town or rural life; and mountain resorts such as **Bakuriani** and **Gudauri** draw seasonal and outdoor-focused residents. These places are cheaper and quieter but offer fewer jobs, schools and services than Tbilisi or Batumi.
+**Batumi**, the capital of the Autonomous Republic of Adjara, is Georgia's principal Black Sea resort and an important port city. It offers a modern seafront, a milder winter climate than Tbilisi and warm, humid summers. Batumi also receives some of the highest rainfall in Georgia and has a more seasonal economy, becoming significantly busier during the summer tourist season. It is well suited to those who prefer coastal living and are comfortable with a smaller city offering fewer services than the capital.
+
+**Elsewhere**, the choice depends largely on lifestyle. **Kutaisi**, Georgia's third-largest city, offers a lower-cost inland alternative with its own international airport. The wine-producing region of **Kakheti**, including towns such as **Telavi** and **Sighnaghi**, appeals to those seeking a quieter small-town or rural environment. Mountain towns and ski resorts such as **Bakuriani** and **Gudauri** attract outdoor enthusiasts and seasonal residents. Although these locations generally offer a lower cost of living and a slower pace of life, they also have fewer employment opportunities, educational institutions and specialised services than Tbilisi or Batumi.
 
 | Factor | Tbilisi | Batumi |
 | --- | --- | --- |
@@ -70,13 +75,13 @@ The two main cities suit different priorities. **Tbilisi** is where the country'
 | Rhythm | Year-round | Seasonal (summer peak) |
 | Best for | Work, family, full range of services | Coastal living, tourism, hospitality |
 
-Rents in both cities are modest by European standards; the highest prices are in central Tbilisi and along the Batumi seafront. For indicative budgets and typical rents, see the [cost-of-living guide](/en/cost-of-living-in-georgia).
+Rental prices in both cities are generally modest by European standards, although they vary significantly depending on the neighbourhood, property type and season. The highest rents are typically found in central **Tbilisi** and along the **Batumi**seafront. For indicative budgets and typical housing costs, see our **[Cost of Living in Georgia](/en/cost-of-living-in-georgia)** guide.
 
 ## A note on general information
 
-Population figures on this page are from Geostat's 2024 Population Census. Climate, cost and lifestyle points are general and indicative — treat them as planning context, not precise or current market data. Rents in particular move with season and demand, so verify current prices through up-to-date local listings before budgeting.
+Population information on this page is based on the **2024 Population and Agricultural Census** published by the **National Statistics Office of Georgia (Geostat)**. Climate, cost and lifestyle descriptions are intended as general guidance only and should not be treated as precise or current market data. Rental prices, in particular, can change considerably depending on the season, location and market conditions, so always verify current prices through recent local listings before making financial decisions or signing a tenancy agreement.
 
-## Where to go next
+## What to explore further
 
 - **[Living in Tbilisi](/en/living-in-tbilisi)** — the capital's neighbourhoods, climate, connectivity and who the city suits.
 - **[Living in Batumi](/en/living-in-batumi)** — the Black Sea resort city: coast, climate, districts and seasonal life.
