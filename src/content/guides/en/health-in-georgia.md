@@ -45,7 +45,7 @@ Staying healthy in Georgia has two sides: **getting care** — private clinics, 
 
 **Insurance.** Since 1 January 2026 tourists must carry health and accident insurance of at least GEL 30,000 for their stay. Residents are not covered by the state programme and typically buy private insurance for routine and major care alike.
 
-## Where to go next
+## What to explore further
 
 - **[Healthcare in Georgia](/en/healthcare-in-georgia)** — seeing a doctor, clinics, pharmacies and emergencies.
 - **[Health Insurance in Georgia for Foreigners](/en/health-insurance-in-georgia-for-foreigners)** — the 2026 tourist requirement, what a policy must cover, and options for residents.
