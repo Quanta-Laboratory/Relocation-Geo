@@ -83,8 +83,6 @@ If you are renting, discuss this with the landlord **before signing the lease**
 
 It is good practice to record this expressly in the tenancy agreement to avoid misunderstandings later.
 
-For more information, see our **[Residential (Legal) Address in Georgia](/en/legal-address-georgia)** guide.
-
 ## Form, condition and disputes
 
 Notice terminating a residential lease must be given **in writing**.
