@@ -1,120 +1,146 @@
 ---
-title: "Marriage & Birth Registration in Georgia"
-category: "live"
+title: Marriage & Birth Registration in Georgia
+category: live
 parent: everyday-essentials-georgia
-lang: "en"
+lang: en
 summary: "How marriages and births are registered in Georgia through the Public Service Development Agency (PSDA) and Public Service Hall. A marriage can be registered between two foreign nationals as well as between a foreigner and a Georgian citizen: the couple file a joint application, present identity documents and — for anyone previously married — proof that the earlier marriage ended, and two adult witnesses attend. Marriage is permitted from age 18, and registration at a PSDA office or Public Service Hall branch is free of charge (special ceremony services are extra). A birth in Georgia is subject to compulsory registration: the maternity institution notifies the PSDA electronically, the birth is registered no later than the next working day, and the birth certificate is issued free. Birth in Georgia does not by itself grant Georgian citizenship — citizenship follows mainly from having a Georgian-citizen parent (jus sanguinis), with only limited exceptions. Foreign documents generally need an apostille or legalisation and a notarised Georgian translation. This page is general information, not legal advice; confirm current requirements with the Public Service Hall or the PSDA (Civil Registry)."
 reviewed: 2026-07-10
 checked: 2026-07-23
 order: 8
 sources:
-  - name: "Law of Georgia on Civil Status Acts — Legislative Herald of Georgia (matsne), consolidated English text"
-    url: "https://matsne.gov.ge/en/document/view/1541247"
-  - name: "Public Service Development Agency — Registration of marriage"
-    url: "https://sda.gov.ge/en/products/marriage-registration/"
-  - name: "Public Service Development Agency — Registration of birth"
-    url: "https://sda.gov.ge/en/products/birth-registration/"
-  - name: "Organic Law of Georgia on Georgian Citizenship (matsne)"
-    url: "https://matsne.gov.ge/en/document/view/2342552"
-  - name: "Public Service Hall"
-    url: "https://psh.gov.ge/"
+  - name: Law of Georgia on Civil Status Acts — Legislative Herald of Georgia (matsne), consolidated English text
+    url: https://matsne.gov.ge/en/document/view/1541247
+  - name: Public Service Development Agency — Registration of marriage
+    url: https://sda.gov.ge/en/products/marriage-registration/
+  - name: Public Service Development Agency — Registration of birth
+    url: https://sda.gov.ge/en/products/birth-registration/
+  - name: Organic Law of Georgia on Georgian Citizenship (matsne)
+    url: https://matsne.gov.ge/en/document/view/2342552
+  - name: Public Service Hall
+    url: https://psh.gov.ge/
 faq:
-  - q: "Can two foreigners get married in Georgia?"
-    a: "Yes. Georgian law does not require either party to be a Georgian citizen. Two foreign nationals — or a foreigner and a Georgian — can register a marriage at a Public Service Development Agency (PSDA) territorial office, a Public Service Hall branch or a Wedding House. They file a joint application, present valid identity documents, and each person who was previously married submits a document proving the earlier marriage ended. A foreign national must also show a document proving they are staying in Georgia on legal grounds. Confirm the exact document set for your nationalities with the PSDA or Public Service Hall before travelling."
-  - q: "Do I need a 'certificate of no impediment' or single-status certificate?"
-    a: "The PSDA's published document list for marriage does not include a certificate of no impediment. The couple declare in the joint application that no legal obstacle to the marriage exists, and anyone previously married must submit a document proving that marriage was terminated (for example a divorce or death certificate), duly apostilled or legalised and translated. Because your home country may still ask for proof of the Georgian marriage — and rules change — confirm what your own authorities require with your embassy, and confirm the Georgian side with the PSDA."
-  - q: "How long does marriage registration take, and what does it cost?"
-    a: "Registration at a PSDA territorial office or Public Service Hall branch, without special ceremony services, is free of charge; ceremony services at a Wedding House are charged separately. The PSDA does not publish a fixed waiting period, and registration is often completed quickly once the paperwork is in order. Confirm current timing, any expedited options and ceremony fees with the Public Service Hall or the PSDA."
-  - q: "My child was born in Georgia — how do I register the birth, and is it free?"
-    a: "Birth is subject to compulsory registration. When a child is born in a medical institution, that institution sends an electronic birth notification to the PSDA, which registers the birth and issues the certificate. Parents can also apply at a PSDA territorial office, a Public Service Hall or through the PSDA's Distance (online) Service. Married parents present their marriage certificate and identity documents; an unmarried mother presents her identity document. The birth is registered no later than the next working day after the documents are submitted, and the birth certificate is issued free of charge."
-  - q: "Does a child born in Georgia automatically become a Georgian citizen?"
+  - q: Can two foreigners get married in Georgia?
+    a: Yes. Georgian law does not require either party to be a Georgian citizen. Two foreign nationals — or a foreigner and a Georgian — can register a marriage at a Public Service Development Agency (PSDA) territorial office, a Public Service Hall branch or a Wedding House. They file a joint application, present valid identity documents, and each person who was previously married submits a document proving the earlier marriage ended. A foreign national must also show a document proving they are staying in Georgia on legal grounds. Confirm the exact document set for your nationalities with the PSDA or Public Service Hall before travelling.
+  - q: Do I need a 'certificate of no impediment' or single-status certificate?
+    a: The PSDA's published document list for marriage does not include a certificate of no impediment. The couple declare in the joint application that no legal obstacle to the marriage exists, and anyone previously married must submit a document proving that marriage was terminated (for example a divorce or death certificate), duly apostilled or legalised and translated. Because your home country may still ask for proof of the Georgian marriage — and rules change — confirm what your own authorities require with your embassy, and confirm the Georgian side with the PSDA.
+  - q: How long does marriage registration take, and what does it cost?
+    a: Registration at a PSDA territorial office or Public Service Hall branch, without special ceremony services, is free of charge; ceremony services at a Wedding House are charged separately. The PSDA does not publish a fixed waiting period, and registration is often completed quickly once the paperwork is in order. Confirm current timing, any expedited options and ceremony fees with the Public Service Hall or the PSDA.
+  - q: My child was born in Georgia — how do I register the birth, and is it free?
+    a: Birth is subject to compulsory registration. When a child is born in a medical institution, that institution sends an electronic birth notification to the PSDA, which registers the birth and issues the certificate. Parents can also apply at a PSDA territorial office, a Public Service Hall or through the PSDA's Distance (online) Service. Married parents present their marriage certificate and identity documents; an unmarried mother presents her identity document. The birth is registered no later than the next working day after the documents are submitted, and the birth certificate is issued free of charge.
+  - q: Does a child born in Georgia automatically become a Georgian citizen?
     a: "No, not automatically. Georgia primarily follows jus sanguinis (citizenship by descent): a child is a Georgian citizen by birth if at least one parent is a Georgian citizen at the time of birth, wherever the child is born. Being born on Georgian soil to foreign-citizen parents does not by itself confer Georgian citizenship. Only limited jus soli exceptions exist — mainly to prevent statelessness, such as a child born in Georgia to stateless persons holding a status here, or a child found in Georgia whose parents are unknown. Registering the birth records the fact of birth; it is separate from citizenship. See the citizenship guide and confirm your child's status with the PSDA."
-  - q: "How do I get an apostille or use a Georgian certificate abroad?"
-    a: "Civil-status certificates issued in Georgia (marriage, birth) are issued by the PSDA / Public Service Hall and can be verified online using the code printed on them. To use a Georgian certificate abroad you will usually need an apostille, which is issued through the PSDA / Public Service Hall for countries party to the Apostille Convention (other countries may require consular legalisation). In the other direction, a foreign document you submit in Georgia — other than an identity document — generally must be apostilled or legalised and accompanied by a notarised Georgian translation. Confirm the current apostille procedure and fees with the Public Service Hall."
+  - q: How do I get an apostille or use a Georgian certificate abroad?
+    a: Civil-status certificates issued in Georgia (marriage, birth) are issued by the PSDA / Public Service Hall and can be verified online using the code printed on them. To use a Georgian certificate abroad you will usually need an apostille, which is issued through the PSDA / Public Service Hall for countries party to the Apostille Convention (other countries may require consular legalisation). In the other direction, a foreign document you submit in Georgia — other than an identity document — generally must be apostilled or legalised and accompanied by a notarised Georgian translation. Confirm the current apostille procedure and fees with the Public Service Hall.
+tags:
+  - marriage
 ---
 
-Two of the most common civil-registration tasks for people building a life in Georgia are **registering a marriage** and **registering the birth of a child**. Both are handled by the **Public Service Development Agency (PSDA)** — the body that runs Georgia's **Civil Registry** — and can be started at a **Public Service Hall** branch or a PSDA territorial office. This guide summarises the framework under the **Law of Georgia on Civil Status Acts** and the services the PSDA publishes. It is **general information, not legal advice**; requirements and fees change, so confirm the current position with the **Public Service Hall** or the **PSDA** before acting.
+Two of the most common civil-registration matters for people building a life in Georgia are **registering a marriage** and **registering the birth of a child**. Both fall within the competence of the **Public Service Development Agency (PSDA)**, which maintains Georgia's **Civil Registry**. In practice, applications can generally be submitted through a **Public Service Hall** branch or a **PSDA territorial office**.
 
-## Where registration happens
+This guide provides an overview of the framework established by the **Law of Georgia on Civil Status Acts** and the administrative services published by the **PSDA**. It is intended as general information only and does not constitute legal advice. As legal requirements, administrative procedures and state fees may change, always confirm the current position with the **Public Service Development Agency** or the **Public Service Hall** before applying.
 
-Civil-status acts are registered by the **PSDA**. In practice you can deal with:
+## Where registration takes place
 
-- a **Public Service Hall** branch (the "House of Justice" one-stop offices);
-- a **PSDA territorial office** (civil registry office);
-- a **Wedding House**, for a marriage ceremony; and
-- the PSDA's **Distance (online) Service** for certain applications, such as a birth certificate.
+Civil-status acts are registered by the **Public Service Development Agency (PSDA)**. In practice, civil-registration services are available through:
 
-Record-keeping at the registration authority is conducted in the **Georgian language**, which is why foreign documents generally need a **notarised Georgian translation**.
+- a **Public Service Hall** branch;
+- a **PSDA territorial office** (civil registry office);
+- a **Wedding House**, where a marriage ceremony may be conducted; and
+- the PSDA's **Distance (online) Service**, for certain applications, such as requesting a birth certificate.
+
+Civil-status records are maintained in the **Georgian language**. Accordingly, foreign-language documents submitted in support of an application will generally need to be accompanied by a **notarised Georgian translation**, unless an exception applies.
 
 ## Registering a marriage
 
-A marriage in Georgia is a voluntary union entered into by two people who are of marriageable age and who file an application in person. **Georgian citizenship is not required of either party** — a marriage can be registered **between two foreign nationals**, or between a foreigner and a Georgian.
+Under Georgian law, marriage is a voluntary union entered into by two people who have reached the legal age for marriage and who submit a joint application in person.
+
+**Neither party is required to be a Georgian citizen.** A marriage may therefore be registered between **two foreign nationals**, or between **a Georgian citizen and a foreign national**, provided the legal requirements are met.
 
 ### Who can marry
 
-- **Marriage is permitted from the age of 18.**
-- The couple must file a **joint application** and attend in person — the PSDA states that **registration of marriage through a representative is not permitted**.
-- **Two legally capable adult witnesses** attend the registration.
+- Both parties must be **at least 18 years old**.
+- The parties must submit a **joint application** and attend the registration **in person**. The **PSDA** does not permit the registration of a marriage through a representative or proxy.
+- **Two legally capable adult witnesses** must attend the registration.
 
-A marriage is **not allowed** where, among other bars set out by the PSDA, at least one person is **already married**, or the parties are **direct ascendants and descendants**, **siblings** (biological or not), or an **adoptive parent and adoptee**.
+Marriage is **not permitted** in circumstances prohibited by the **Law of Georgia on Civil Status Acts**, including where one of the parties is **already married**, or where the parties are **direct ascendants or descendants**, **siblings** (including adoptive siblings, where applicable under the law), or an **adoptive parent and adoptee**.
 
 ### Documents for a marriage
 
-The PSDA lists the following for registration of a marriage:
+According to the **Public Service Development Agency (PSDA)**, the following documents are generally required to register a marriage:
 
-- a **joint written application** of the persons wishing to marry;
-- **identity documents** of the persons wishing to marry and of the **witnesses**;
-- if a person was **previously married**, a **document proving that the previous marriage ended** (for example a divorce certificate or a death certificate of the former spouse);
-- a foreign national must also submit a **document proving they are staying in Georgia on legal grounds**.
+- a **joint written application** signed by both persons wishing to marry;
+- valid **identity documents** of the persons wishing to marry and of the **witnesses**;
+- if either person was **previously married**, a document confirming that the previous marriage has ended (for example, a **divorce certificate** or the **death certificate** of the former spouse); and
+- where applicable, a document confirming that the **foreign national is lawfully staying in Georgia**.
 
-**On translations and legalisation.** The PSDA states it may accept a **foreign passport without a Georgian translation** if the passport contains a **Latin transliteration** of the holder's personal data. Any **other document issued abroad** (that is, other than an identity document) must be submitted **duly apostilled or legalised, with a notarised Georgian translation**.
+#### Foreign documents
+
+The **PSDA** may accept a **foreign passport without a Georgian translation** where it contains a **Latin transliteration** of the holder's personal details.
+
+Any **other document issued abroad** (that is, other than an identity document) must generally be **apostilled or legalised**, as applicable, and accompanied by a **notarised Georgian translation**.
 
 ### Cost and timing
 
-Registration of a marriage at a **PSDA territorial office or Public Service Hall branch, without special ceremony services, is free of charge.** Ceremony services at a Wedding House are charged separately. The PSDA does not publish a fixed statutory waiting period; confirm current timing and any expedited or ceremony options with the **Public Service Hall / PSDA (Civil Registry)**.
+Registration of a marriage at a **PSDA territorial office** or **Public Service Hall** is **free of charge**, provided no additional ceremony services are requested.
+
+Marriage ceremonies conducted at a **Wedding House** are subject to separate service fees.
+
+The legislation does not prescribe a fixed waiting period before a marriage may be registered. Processing times and the availability of ceremony appointments or expedited services may vary, so it is advisable to confirm the current arrangements with the **Public Service Hall** or the **PSDA**.
 
 ## Registering a birth
 
-**Birth is a fact of legal significance subject to compulsory registration.** The PSDA registers the birth of a child **born in Georgia**, as well as certain births abroad of children of Georgian citizens or of stateless persons holding a status in Georgia.
+The birth of a child is a **civil-status act that is subject to compulsory registration**.
 
-### How a birth in Georgia is registered
+The **PSDA** registers the birth of a child **born in Georgia**, as well as certain births registered outside Georgia where this is permitted under the **Law of Georgia on Civil Status Acts**.
 
-- When a child is born in a **medical institution**, that institution sends an **electronic birth notification** to the PSDA territorial office, which **registers the birth and issues the birth certificate**.
-- If a child is **born outside a medical institution** or **abroad**, a **parent** (or an authorised person) may apply to the registration authority.
-- An application for a birth certificate can be filed at a **PSDA territorial office**, a **Public Service Hall**, or **electronically** through the PSDA's Distance Service.
+### How a birth is registered
 
-### Documents for a birth
+- If a child is born in a **medical institution**, the institution submits an **electronic birth notification** to the **PSDA**, which registers the birth and issues the **birth certificate**.
+- If a child is **born outside a medical institution**, or where the law permits registration of a birth that occurred **outside Georgia**, a **parent** or another authorised person may apply directly to the registration authority.
+- An application for a **birth certificate** may be submitted at a **PSDA territorial office**, a **Public Service Hall**, or electronically through the PSDA's **Distance (online) Service**, where available.
 
-| Situation | What the PSDA lists |
-| --- | --- |
-| **Married parents** | Marriage certificate; identity documents |
-| **Unmarried parents / mother** | Identity documents (an unmarried mother submits her identity document) |
-| **A parent is a minor** | Additionally, the birth certificate of the child's mother and/or father and written consent of the parent or legal representative |
+### Documents for birth registration
 
-As with marriage, a **document issued abroad** (other than an identity document) must be **apostilled or legalised and accompanied by a notarised Georgian translation**. If the information is already held in the PSDA's electronic database, the corresponding document need not be resubmitted.
+|Situation|Documents generally required|
+|---|---|
+|**Married parents**|Marriage certificate and identity documents|
+|**Unmarried parents / mother**|Identity document(s) of the parent(s); where only the mother applies, her identity document|
+|**A parent is a minor**|In addition to the above, the birth certificate of the child's mother and/or father, together with the written consent of the relevant parent or legal representative|
+
+As with marriage registration, any **document issued abroad** (other than an identity document) must generally be **apostilled or legalised**, as applicable, and accompanied by a **notarised Georgian translation**.
+
+Where the required information is already available in the **PSDA's electronic database**, the corresponding document does not normally need to be submitted again.
 
 ### Cost and timing
 
-A birth is **registered no later than the next working day** after the required documents are submitted, and the **birth certificate is issued free of charge**.
+Once all required documents have been submitted, the **PSDA** registers the birth **no later than the next working day**.
 
-## Does birth in Georgia grant citizenship?
+The **birth certificate is issued free of charge**.
 
-**Registering a birth is not the same as granting citizenship**, and **birth on Georgian territory does not by itself make a child a Georgian citizen.**
+## Does birth in Georgia grant Georgian citizenship?
 
-- **Jus sanguinis (citizenship by descent) is the main rule.** Under the **Organic Law of Georgia on Georgian Citizenship**, a child is a Georgian citizen **by birth** if **at least one parent is a Georgian citizen** at the time of birth — regardless of where the child is born.
-- **Jus soli is limited.** Being born in Georgia to **foreign-citizen parents** does **not** confer Georgian citizenship. The narrow territorial exceptions exist mainly to **prevent statelessness** — for example a child born in Georgia to **stateless persons holding a status here**, or a child **found in Georgia whose parents are unknown**.
+**Registering a child's birth is separate from acquiring Georgian citizenship.** As a general rule, **being born in Georgia does not, by itself, make a child a Georgian citizen.**
 
-So a child born in Georgia to two foreign parents will normally take the **parents' nationality** according to those countries' laws. For how citizenship is actually acquired and the routes open to foreign nationals, see **[Georgian Citizenship & Naturalisation](/en/georgian-citizenship-and-naturalisation)**.
+- **Citizenship by descent (jus sanguinis) is the primary rule.** Under the **Organic Law of Georgia on Georgian Citizenship**, a child acquires **Georgian citizenship by birth** if **at least one parent is a Georgian citizen** at the time of the child's birth, regardless of where the child is born.
+- **Citizenship by birth on Georgian territory (jus soli) applies only in limited circumstances.** A child born in Georgia to **foreign-national parents** does **not** ordinarily acquire Georgian citizenship solely because of their place of birth. The principal exceptions are intended to **prevent statelessness**, for example where a child is born in Georgia to **stateless persons holding the relevant legal status in Georgia**, or where a child is **found in Georgia and the parents are unknown**, as provided by law.
 
-## Certificates, apostille and using documents abroad
+Accordingly, a child born in Georgia to two foreign-national parents will generally acquire the nationality (or nationalities) available under the laws of the parents' country or countries of citizenship, rather than Georgian citizenship.
 
-Civil-status certificates issued in Georgia can be **verified online** using the code printed on them. To use a Georgian marriage or birth certificate **abroad**, you will usually need an **apostille** (for countries party to the Apostille Convention) or **consular legalisation** (for others), obtained through the **PSDA / Public Service Hall**. Confirm the current procedure and fees before you rely on a specific timeframe.
+For a detailed explanation of how Georgian citizenship is acquired by birth, descent or naturalisation, see our **[Georgian Citizenship & Naturalisation](/en/georgian-citizenship-and-naturalisation)** guide.
+
+## Certificates, apostille and use abroad
+
+Civil-status certificates issued in Georgia can generally be **verified online** using the verification code printed on the certificate.
+
+If you intend to use a Georgian **marriage certificate** or **birth certificate** abroad, you will generally need either:
+
+- an **apostille**, if the destination country is a party to the **Hague Apostille Convention**; or
+- **consular legalisation**, where the destination country is not a party to the Convention.
+
+These services are available through the **Public Service Development Agency (PSDA)** and the **Public Service Hall**. As procedures, processing times and state fees may change, always confirm the current requirements before relying on a certificate for use abroad.
 
 ## Related guides
 
 - **[Family Reunification Residence Permit](/en/family-reunification-residence-permit-georgia)** — the residence route for a foreign spouse or family member, which a Georgian marriage certificate helps support.
 - **[Georgian Citizenship & Naturalisation](/en/georgian-citizenship-and-naturalisation)** — how citizenship is acquired by birth or naturalisation.
 
-## Legal sources
-
-This guide is based on the **Law of Georgia on Civil Status Acts**, the **Organic Law of Georgia on Georgian Citizenship**, and the services published by the **Public Service Development Agency** and **Public Service Hall**. Requirements, fees and processing times are periodically updated — confirm the current position with the **Public Service Hall or the PSDA (Civil Registry)** before acting.
