@@ -14,9 +14,9 @@ tags:
 
 ## Building the open relocation infrastructure for Georgia
 
-Relocation.ge is an independent, non-commercial, open-source project dedicated to helping people relocate to Georgia with confidence. Our mission is to make relocation simpler by providing accurate, transparent and continuously updated information about living, working, investing and doing business in Georgia. 
+Relocation.ge is an independent, non-commercial, open-source project dedicated to helping people relocate to Georgia with confidence. Our mission is to make relocation simpler by providing accurate, transparent and continuously updated information about living, working, investing and doing business in Georgia.
 
-We believe that access to reliable information should not depend on language, personal connections. Everyone should be able to understand how relocation works, make informed decisions and build a successful future in Georgia.
+We believe that access to reliable information should not depend on language or personal connections. Everyone should be able to understand how relocation works and make informed decisions about moving to Georgia.
 
 ## Why we created Relocation.ge
 
@@ -26,13 +26,11 @@ Unfortunately, this information is often fragmented across dozens of websites, s
 
 Relocation.ge was created to solve this problem. Rather than operating as a relocation agency selling a service, we are building an open, non-commercial knowledge base that combines verified information and practical, source-based guidance in one place. Our goal is not simply to answer questions, but to make relocation understandable.
 
-## Our mission and vision
+## Our mission
 
-**Our mission** is to remove uncertainty from international relocation. We provide trusted knowledge, verified guidance and open tools that enable people to confidently move, build businesses and create new opportunities across borders.
+Our mission is to remove uncertainty from relocating to Georgia — providing verified, source-based guidance and open tools so people can make informed decisions about moving, working and doing business here.
 
-**Our vision** is a world where borders no longer limit opportunity — because everyone has access to trusted knowledge, transparent systems and the tools needed to build a life anywhere.
-
-Concretely, we aim to become one of the most trusted sources of relocation knowledge for Georgia, helping individuals, families, entrepreneurs, investors, remote professionals, digital nomads and international companies make informed decisions based on facts rather than assumptions. You can read more about why we exist in our [manifesto](/en/manifesto).
+We aim to be one of the most reliable sources of relocation knowledge for Georgia, useful to individuals, families, entrepreneurs, investors, remote professionals and companies alike. You can read more about why we exist in our [manifesto](/en/manifesto).
 
 ## Our values
 
@@ -48,7 +46,7 @@ Concretely, we aim to become one of the most trusted sources of relocation knowl
 
 **Accessibility.** Knowledge should be available to everyone. Reliable guidance should not depend on nationality, language or prior experience, so we work to make it understandable and useful for people from every background.
 
-**Long-term responsibility.** We build for lasting impact. Every improvement should strengthen the reliability, sustainability and usefulness of Relocation.ge — not only for today's readers, but for future generations building new lives across borders.
+**Long-term responsibility.** We build for lasting impact. Every improvement should strengthen the reliability and usefulness of Relocation.ge — not only for today's readers, but for those who arrive later.
 
 ## Editorial standards
 
@@ -62,7 +60,7 @@ Over time, we aim to complement educational content with practical, open tools t
 
 ## In the media
 
-In 2022, Relocation.ge launched an initiative to help Ukrainian citizens in Georgia connect with people offering housing, medical care and material support. The project was covered by Georgian and international media.
+In 2022, Relocation.ge launched an initiative to help Ukrainian citizens in Georgia connect with people offering housing, medical care and material support. The project was reported on by Georgian and international media, and referenced by international organisations and research on the response in Georgia.
 
 <div class="press-logos">
   <a class="press-logo" href="https://www.bbc.co.uk/programmes/w3ct31bh"><img src="/logos/bbc.png" alt="BBC"></a>
@@ -79,39 +77,40 @@ In 2022, Relocation.ge launched an initiative to help Ukrainian citizens in Geor
   <a class="press-logo" href="https://www.facebook.com/EntrepreneurGeorgia/"><img src="/logos/Entrepreneur.png" alt="Entrepreneur Georgia"></a>
 </div>
 
-Selected coverage:
+Press coverage:
 
 - **BBC World Service** — [Programme featuring the initiative](https://www.bbc.co.uk/programmes/w3ct31bh)
 - **Reuters (Thomson Reuters Foundation)** — [Coverage of the Relocation.ge support initiative](https://news.trust.org/item/20220228165249-sfmj9/)
-- **World Economic Forum** — [How tech and business are responding to the conflict in Ukraine](https://www.weforum.org/stories/technological-innovation/russia-tech-business-conflict-ukraine/)
-- **UNFPA Georgia** — [Information for Ukrainian citizens in Georgia](https://georgia.unfpa.org/sites/default/files/pub-pdf/2-info_for_ukr_citizens.pdf)
 - **Mainichi Shimbun** — [Article on the support project](https://mainichi.jp/articles/20220316/k00/00m/030/001000c)
-- **EU Neighbours East** — [Stand With Ukraine: support for refugees](https://euneighbourseast.eu/standwithukraine/refugees/)
-- **PMC Research Center / Konrad-Adenauer-Stiftung** — [Study of the Needs of Ukrainian Refugees in Georgia](https://pmcg-i.com/app/uploads/2023/03/Study-of-the-Needs-of-Ukrainian-Refugees-in-Georgia.pdf) (2023)
 - **dev.ua** — [How to help Ukrainian citizens in Georgia](https://dev.ua/en/news/how-to-help-ukrainian-citizens-in-georgia) (17 March 2022)
-- **NetNewsLedger** — [Five ways tech is being used to help Ukraine](https://www.netnewsledger.com/2022/03/01/russian-invasion-five-ways-tech-is-being-used-to-help-ukraine/) (1 March 2022)
-- **IMI (Global-IMI)** — [The virtual battlefield: tech and Ukraine](https://www.global-imi.com/blog/virtual-battlefield-tech-and-ukraine)
 - **Georgia Today** — [Support Project for Ukrainian Citizens in Georgia](https://georgiatoday.ge/support-project-for-ukrainian-citizens-in-georgia/) (25 February 2022) · [18 Months of War: How Has Georgia Helped Ukraine So Far?](https://georgiatoday.ge/18-months-of-war-how-has-georgia-helped-ukraine-so-far/)
 - **Entrepreneur Georgia** — [Publication on the initiative](https://www.facebook.com/EntrepreneurGeorgia/) · [video report](https://www.facebook.com/watch/?v=345804527456094)
+
+Referenced and listed by:
+
+- **World Economic Forum** — [How tech and business are responding to the conflict in Ukraine](https://www.weforum.org/stories/technological-innovation/russia-tech-business-conflict-ukraine/)
+- **UNFPA Georgia** — [Information for Ukrainian citizens in Georgia](https://georgia.unfpa.org/sites/default/files/pub-pdf/2-info_for_ukr_citizens.pdf)
+- **EU Neighbours East** — [Stand With Ukraine: support for refugees](https://euneighbourseast.eu/standwithukraine/refugees/)
+- **PMC Research Center / Konrad-Adenauer-Stiftung** — [Study of the Needs of Ukrainian Refugees in Georgia](https://pmcg-i.com/app/uploads/2023/03/Study-of-the-Needs-of-Ukrainian-Refugees-in-Georgia.pdf) (2023)
+- **NetNewsLedger** — [Five ways tech is being used to help Ukraine](https://www.netnewsledger.com/2022/03/01/russian-invasion-five-ways-tech-is-being-used-to-help-ukraine/) (1 March 2022)
+- **IMI (Global-IMI)** — [The virtual battlefield: tech and Ukraine](https://www.global-imi.com/blog/virtual-battlefield-tech-and-ukraine)
 
 We are grateful for this recognition and remain committed to maintaining high standards of accuracy, transparency and editorial integrity.
 
 ## Open and non-commercial
 
-Relocation.ge is a non-commercial, open-source project.  That independence is what lets us state things plainly — including the inconvenient parts — and answer to our readers rather than to advertisers or partners.
+Relocation.ge is a non-commercial, open-source project. That independence is what lets us state things plainly — including the inconvenient parts — and answer to our readers rather than to advertisers or partners.
 
 Because the project is open, its content and structure are built to be verified, reused and improved. Every guide links to the primary source it is based on, so you are never more than one click away from the underlying law or regulation.
 
 ## Looking forward
 
-Global mobility is transforming the way people live and work. More professionals work remotely, more entrepreneurs build international businesses, and more families choose countries that offer safety, opportunity and long-term stability. As this movement continues, trustworthy information becomes increasingly valuable.
+We aim to build an open, source-based reference for relocating to Georgia — reliable knowledge and practical tools in one place, kept current as the rules change.
 
-Our vision is to build the open relocation infrastructure for Georgia — a non-commercial reference where reliable, source-based knowledge and open tools come together to make relocation simpler for everyone.
-
-Whether you are planning your first visit, moving with your family, launching a business or investing in Georgia, we hope Relocation.ge becomes a trusted companion throughout your journey. Thank you for being part of our community.
+Whether you are planning a first visit, moving with your family, launching a business or investing in Georgia, we hope Relocation.ge is a useful companion along the way. Thank you for being part of our community.
 
 ## What this is — and what it is not
 
-Relocation.ge provides **structured information about the law and relocation as published. It is not legal, tax, immigration or financial advice.** Thresholds, fees, deadlines and procedures change, and individual situations differ. Use our pages to understand the framework and to find the primary source, then confirm the current position with the relevant authority or a qualified adviser before you rely on it.
+Relocation.ge provides structured information about the law and relocation as published. **It is not legal, tax, immigration or financial advice.** Thresholds, fees, deadlines and procedures change, and individual situations differ. Use our pages to understand the framework and to find the primary source, then confirm the current position with the relevant authority or a qualified adviser before you rely on it.
 
 Relocation.ge is an independent, non-commercial, open-source project. It is not affiliated with, or endorsed by, any government body.
