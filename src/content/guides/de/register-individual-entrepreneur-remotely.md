@@ -5,7 +5,7 @@ lang: "de"
 notice: 'Selbständige Ausländer: <strong>Verordnung Nr. 321 vom 9. Juli 2026</strong> hat den Erwerb des <strong>Arbeitsrechts</strong> geändert — der Antrag ist nun <strong>persönlich</strong> zu stellen, ein <strong>obligatorisches Video-Interview</strong> ist zu absolvieren, und es gilt eine Umsatzprüfung. Die Ausnahme für die Betreuung ausländischer Kunden gilt <strong>nicht</strong> für einen Einzelunternehmer, der eine Aufenthaltserlaubnis für den rechtmäßigen Aufenthalt benötigt. <a href="/en/right-to-work-georgia">Mehr erfahren</a>.'
 summary: "Georgien erlaubt es Ausländern, einen Einzelunternehmer (Individual Entrepreneur, IE) zu registrieren, ohne einzureisen: Dazu wird eine notariell beglaubigte und mit Apostille versehene Vollmacht an einen Vertreter erteilt, der die Registrierung im Public Service Hall abschließt. Die Registrierung selbst dauert in der Regel 1–5 Werktage, sobald die Unterlagen in Georgien sind; der gesamte Vorgang einschließlich Kurierversand, Übersetzung und Beglaubigung dauert typischerweise 1–3 Wochen."
 reviewed: 2026-07-14
-checked: 2026-07-22
+checked: 2026-07-23
 order: 1
 sources:
   - name: "National Agency of Public Registry — official fee schedule for business registration"
