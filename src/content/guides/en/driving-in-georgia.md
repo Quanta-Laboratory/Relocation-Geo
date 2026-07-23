@@ -29,23 +29,29 @@ Georgia is straightforward for foreign drivers in the short term, but there are 
 
 ## Driving on a foreign licence
 
-A foreigner may drive in Georgia on a **valid foreign driving licence for up to one year after their last entry** into the country — or until the licence's own expiry date, if that comes first. This one-year window runs from your last border crossing, much like the [visa-free one-year stay](/en/visa-free-entry-georgia). If your licence is not in Georgian or English, carry an International Driving Permit (IDP) alongside it to avoid problems with police or car-rental firms.
+A foreigner may drive in Georgia on a **valid foreign driving licence for up to one year after their last entry** into the country — or until the licence's own expiry date, if that comes first. This one-year window runs from your last border crossing, much like the [visa-free one-year stay](/en/visa-free-entry-georgia). If your licence is not issued in **Georgian or English (or another readily readable script accepted in practice)**, it is advisable to carry an **International Driving Permit (IDP)** or an official translation, as this may be required by police or vehicle rental companies.
 
 ## Exchanging for a Georgian licence
 
-If you stay longer or simply prefer a local licence, you can **exchange a valid foreign licence for a Georgian one at the Service Agency of the Ministry of Internal Affairs without retaking the driving test**. You surrender the foreign licence to the Agency as part of the swap. This is the simplest route for residents who drive regularly.
+If you intend to drive in Georgia on a long-term basis, you may be able to **exchange a valid foreign driving licence for a Georgian one without taking the standard driving test**, provided the statutory requirements are met. As part of the exchange procedure, the foreign driving licence is generally surrendered to the **Service Agency of the Ministry of Internal Affairs**. The documents required for the exchange may vary depending on the country that issued the licence and the circumstances of the application.
+
+To exchange a foreign driving licence, you must also satisfy the applicable eligibility requirements, including providing valid identification and evidence of your lawful stay in Georgia.
 
 ## Bringing a car with foreign plates
 
-You can drive a **foreign-registered car in Georgia for 90 days** from the moment you cross the border. After that, you must either take the vehicle out of the country or put it through a customs procedure with the Revenue Service — either **full import (customs clearance)**, which involves import duties and excise depending on the vehicle, or **temporary admission**. Plan this before the 90 days run out to avoid penalties.
+You can drive a **foreign-registered car in Georgia for 90 days** from the moment you cross the border. After that, you must either take the vehicle out of the country or put it through a customs procedure with the Revenue Service — either **full import (customs clearance)**, which involves import duties and excise depending on the vehicle, or **temporary admission**. Plan this before the expiry of the 90-day period to avoid penalties.
 
 ## Compulsory MTPL insurance for foreign vehicles
 
-All **foreign-registered vehicles entering Georgia must carry compulsory third-party liability (MTPL) insurance**. It is quick to buy online, applies to cars, motorcycles, trucks and buses, and is checked in connection with border crossing. Keep proof of the policy with the vehicle.
+All **foreign-registered vehicles entering Georgia must carry compulsory third-party liability (MTPL) insurance**. It is quick to buy online, applies to cars, motorcycles, trucks and buses. Compliance may be checked at the border and by the competent authorities during the vehicle's stay in Georgia. Keep proof of the policy with the vehicle.
 
 ## Buying and registering a car in Georgia
 
-If you buy a car locally, ownership and plates are handled through the Service Agency, which manages vehicle registration. Budget for registration steps and any transfer formalities, and confirm the car's history and that it is free of encumbrances before paying.
+If you buy a car locally, ownership and plates are handled through the Service Agency, which manages vehicle registration. Budget for registration steps and any transfer formalities, and confirm the car's history and that it is free of encumbrances and verify that all registration documents are in order before paying.
+
+## Selling or leaving Georgia
+
+If you later leave Georgia permanently, remember that any vehicle registered in your name remains your legal responsibility until ownership is formally transferred or the vehicle is deregistered.
 
 ## A note on changing rules
 
