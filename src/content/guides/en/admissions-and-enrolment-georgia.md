@@ -26,28 +26,51 @@ faq:
 order: 2
 ---
 
-Getting into a Georgian university as an international student is straightforward once you know the sequence: pick a properly recognised institution and programme, get your existing qualification recognised, prepare your documents in the right legal form, and meet the programme's language requirement. Doing these in the right order avoids the most common delays.
+Getting into a Georgian university as an international student is relatively straightforward once you understand the process. The key is to follow the correct sequence: choose a properly recognised institution and programme, obtain recognition of your existing qualification where required, prepare your documents in the correct legal form, and satisfy the programme's language requirements. Completing these steps in the right order helps avoid the most common delays.
 
-## Step 1 — Choose an authorised institution and accredited programme
+## Step 1 — Choose an authorised institution and, where required, an accredited programme
 
-Before anything else, confirm the university holds **NCEQE authorisation** and that your chosen programme is **accredited**. This is not a formality: a diploma from an unauthorised institution or an unaccredited programme may not be recognised in Georgia or abroad, and it will not support a study residence permit. The [universities guide](https://relocation.ge/en/universities-in-georgia/) explains these checks.
+Before anything else, confirm that the university holds current **NCEQE institutional authorisation** and that your chosen programme is **accredited**, where accreditation is required by Georgian law. This is more than a formality. Studying at an unauthorised institution—or, where accreditation is legally required, on an unaccredited programme—may affect the recognition of your qualification and your future professional opportunities.
 
-## Step 2 — Get your prior qualification recognised
+The [Universities in Georgia Guide](https://relocation.ge/en/universities-in-georgia/) explains these checks in more detail.
 
-International applicants normally need their previous qualification (a school-leaving certificate for a bachelor's, or a degree for a master's) recognised by the NCEQE. The Center verifies the document's authenticity and compares the qualification with Georgian standards. Start this early, as it can take time and is often a precondition for enrolment.
+## Step 2 — Obtain recognition of your previous qualification
 
-## Step 3 — Prepare documents: apostille, legalisation, translation
+Depending on the programme and your previous education, international applicants will generally need to have their existing qualification recognised by the **National Center for Educational Quality Enhancement (NCEQE)**. This may involve a secondary school qualification for admission to a bachelor's programme, or a university degree for admission to a master's programme.
 
-Foreign public documents must usually be made valid for use in Georgia. If your country is party to the Apostille Convention, your documents need an **apostille**; otherwise they need **consular legalisation**. In both cases you will typically also need a **certified translation** into Georgian or English. Common documents include your academic certificate and transcripts, passport, proof of financial means, and a medical certificate.
+During the recognition process, the NCEQE verifies the authenticity of the qualification and assesses its equivalence under the Georgian education system. Because this procedure may take some time and is often required before enrolment, it is advisable to begin it as early as possible.
 
-## Step 4 — Meet the language requirement
+## Step 3 — Prepare your documents: apostille, legalisation and translation
 
-Requirements depend on the programme. English-medium programmes — common in medicine, business and IT — set their own English-language conditions, often an English test or an accepted equivalent. Georgian-taught programmes require Georgian. Always read the specific programme's admission page.
+Foreign public documents generally need to be made legally valid for use in Georgia. If your country is a party to the **Hague Apostille Convention**, your documents will normally require an **apostille**. If not, they will generally require **consular legalisation**.
 
-## Step 5 — Apply, then arrange entry and stay
+You will also usually need certified translations into **Georgian** or another language accepted by the receiving institution or the relevant authority.
 
-Most universities have an autumn intake and many also offer a spring one; deadlines vary, so apply early. Once admitted, arrange your entry and stay through the [student visa and residence process](https://relocation.ge/en/student-visa-and-residence-georgia/), and make sure you hold the [health insurance](https://relocation.ge/en/health-insurance-in-georgia-for-foreigners/) required to enter Georgia.
+Depending on the university and programme, the required documents commonly include:
 
-## A note on changing rules
+- your academic certificates and transcripts;
+    
+- your passport;
+    
+- proof of financial means; and
+    
+- a medical certificate or other health documentation, where required.
+    
 
-Admission policy for international applicants is under review and can change between intakes. Confirm current requirements and deadlines directly with the university and the NCEQE before applying.
+## Step 4 — Meet the language requirements
+
+Language requirements depend on the programme you choose. Many programmes in medicine, business and information technology are taught entirely in English.
+
+Each university establishes its own admission requirements, which may include an English-language proficiency test, previous education completed in English, or another form of evidence accepted by the institution. Programmes taught in Georgian generally require applicants to demonstrate sufficient knowledge of the Georgian language.
+
+Always review the specific admission requirements published by your chosen university.
+
+## Step 5 — Apply, then arrange your entry and stay
+
+Most Georgian universities have an autumn intake, while many also offer a spring intake. Application deadlines vary between institutions, so it is advisable to apply well in advance.
+
+Once you have been admitted, you should arrange your lawful entry and stay in Georgia through the [Student Visa and Residence Guide](https://relocation.ge/en/student-visa-and-residence-georgia/) and ensure that you comply with the applicable health insurance requirements for entering and studying in Georgia. Further information is available in our [Health Insurance in Georgia for Foreigners](https://relocation.ge/en/health-insurance-in-georgia/) guide.
+
+## A note on changing requirements
+
+Admission requirements, application procedures and deadlines may change between academic intakes. Before applying, always confirm the current requirements directly with the university and, where relevant, the **National Center for Educational Quality Enhancement (NCEQE)**.
