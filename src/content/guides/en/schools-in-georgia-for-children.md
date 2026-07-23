@@ -29,75 +29,90 @@ faq:
   - q: "How can I check that a school is properly accredited?"
     a: "General education is overseen by the Ministry of Education, and quality assurance (authorisation of schools and recognition of qualifications) runs through the NCEQE. Before enrolling — especially at a private or international school — ask the school for its authorisation status and check it against the Ministry of Education and NCEQE rather than relying on marketing claims."
 ---
+This guide is intended for parents relocating to Georgia with school-age children (approximately **6–18 years old**). It explains how the Georgian school system is organised, the main types of schools, whether foreign children may enrol in public schools, the school calendar, and how previous education completed abroad may be recognised.
 
-This guide is for parents relocating to Georgia with school-age children (roughly ages 6–18). It explains how the school system is organised, the main types of school, whether foreign children can join state schools, the school calendar, and how to have schooling from abroad recognised. It is general information; confirm current rules and any school's accreditation with the Ministry of Education.
+This guide provides general information only. Before making any decisions, always confirm the current legal requirements with the **Ministry of Education, Science and Youth of Georgia** and, where relevant, verify that the school is authorised to operate.
 
-For higher education (universities), see **[Studying in Georgia](/en/studying-in-georgia)**. For getting a foreign qualification formally recognised, see **[Recognition of Foreign Diplomas](/en/recognition-of-foreign-diplomas-georgia)**.
+For higher education, see our **[Studying in Georgia](/en/studying-in-georgia)** guide. For the recognition of foreign educational qualifications, see **[Recognition of Foreign Diplomas](/en/recognition-of-foreign-diplomas-georgia)**.
 
 ## How the school system is structured
 
-In Georgia, primary and secondary schooling together are called **general education**. Complete general education spans **12 years** and is delivered in three levels:
+General schooling in Georgia is referred to as **general education** and consists of **12 years** of study divided into three stages:
 
-- **Primary level** — grades I–VI (six years).
-- **Basic level** — grades VII–IX (three years).
-- **Secondary level** — grades X–XII (three years).
+- **Primary education** — Grades I–VI (six years);
+    
+- **Basic education** — Grades VII–IX (three years); and
+    
+- **Secondary education** — Grades X–XII (three years).
+    
 
-Primary and basic education are **compulsory**. After the basic level a pupil receives a basic general education certificate; after completing the full course, a full general education certificate is issued, which is the qualification that allows a person to go on to higher education. General education can be provided by either a public or a private institution, and both follow the **national curriculum** developed under the Ministry of Education. (Source: NCEQE — Education System.)
+Primary and basic education are compulsory. Upon successful completion of the basic level, pupils receive a **Basic General Education Certificate**. Completion of all twelve years leads to a **Full General Education Certificate**, which provides the educational qualification required for admission to higher education.
 
-Children are typically admitted to the first grade at around **age six**, but treat the exact starting age and the upper limit of compulsory schooling as points to **confirm with the Ministry of Education**, because these details are set in law and can be amended.
+General education may be provided by both **public** and **private** schools. Public schools follow the **National Curriculum**, while private schools operate under Georgian education legislation and may offer the National Curriculum, internationally recognised curricula, or a combination of both, depending on their authorisation.
 
-State general education in Georgia is funded by the state through a per-pupil "voucher" mechanism, so tuition at ordinary public schools is not charged to families in the way private-school fees are. (Source: NCEQE — Education System.)
+Children are generally admitted to the first grade at around **six years of age**. However, admission age requirements and the period of compulsory schooling are governed by legislation and may change over time. Parents should therefore confirm the current rules with the **Ministry of Education, Science and Youth of Georgia** before applying.
+
+Public general education is financed by the state through a per-pupil voucher system. As a result, tuition is generally not charged by ordinary public schools, although parents may still incur costs for items such as textbooks, uniforms, transport, meals or extracurricular activities.
 
 ## Types of school: public, private and international
 
 Foreign families generally choose between three broad categories. The table below compares them at a high level; it does not endorse or rank any specific school.
 
-| Feature | State (public) schools | Private (national) schools | International schools |
-|---|---|---|---|
-| Who runs them | The state | Private providers | Private providers |
-| Fees | State-funded (no standard tuition) | Fee-paying | Fee-paying, often the highest |
-| Main curriculum | Georgian national curriculum | Georgian national curriculum (often with extra languages/subjects) | Foreign or international programme (British, IB, American), sometimes combined with the national curriculum |
-| Usual language of instruction | Mainly Georgian | Georgian (sometimes bilingual) | English or another foreign language |
-| Leaving qualification | Georgian general education certificate | Georgian general education certificate | International/foreign qualification (e.g. IGCSE, IB Diploma, US high-school diploma), sometimes plus the Georgian certificate |
-| Typical fit for relocating families | Immersion, longer-term stay, no fees | Local system with smaller classes or added languages | Continuity with a UK/US/IB pathway, easier onward transfer abroad |
+| Feature                             | State (public) schools                                                       | Private (national) schools                                                  | International schools                                                                                                                                    |
+| ----------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Who runs them                       | The state                                                                    | Private providers                                                           | Private providers                                                                                                                                        |
+| Fees                                | State-funded (no  tuition)                                                   | Fee-paying                                                                  | Fee-paying, often the highest                                                                                                                            |
+| Main curriculum                     | Georgian national curriculum                                                 | Georgian national curriculum (often with extra languages/subjects)          | International or foreign curriculum (e.g. Cambridge, IB, American), sometimes alongside the Georgian National Curriculum                                 |
+| Usual language of instruction       | Mainly Georgian                                                              | Georgian (sometimes bilingual)                                              | English or another foreign language                                                                                                                      |
+| Leaving qualification               | Georgian general education certificate                                       | Georgian general education certificate                                      | International/foreign qualification (e.g. IGCSE, IB Diploma, US high-school diploma), in some cases also the Georgian Full General Education Certificate |
+| Typical fit for relocating families | Families planning longer-term integration into the Georgian education system | Georgian curriculum with enhanced facilities or additional language options | Families seeking continuity with an international curriculum and an easier transfer to schools abroad                                                    |
 
-**International-school curricula.** Among international and English-medium schools in Georgia (concentrated mainly in Tbilisi, with some in Batumi and other cities), the common programmes are:
 
-- **British** — based on the National Curriculum for England, often leading to IGCSE and A-Level or IB qualifications.
-- **International Baccalaureate (IB)** — some schools are authorised IB World Schools offering the Primary Years, Middle Years and/or Diploma Programme.
-- **American / US** — an American-style K-12 programme, sometimes with Advanced Placement (AP) courses and a US high-school diploma.
+**International-school curricula.** International and English-medium schools in Georgia—most of which are located in Tbilisi, with others in Batumi and several other cities—commonly offer one of the following educational programmes:
 
-Some schools deliberately combine a foreign programme with the Georgian national curriculum so a graduate can hold both a Georgian certificate and an international qualification. Because this is a non-commercial guide, we do not list or rank individual schools. Instead, shortlist schools yourself and then **verify each one's authorisation and the qualification it awards** with the Ministry of Education and the NCEQE before you enrol.
+- **British** — typically based on the English education system and often following **Cambridge International** or **Pearson Edexcel** pathways, leading to qualifications such as **IGCSEs** and **A Levels**.
+- **International Baccalaureate (IB)** — some schools are authorised **IB World Schools**, offering the **Primary Years Programme (PYP)**, **Middle Years Programme (MYP)** and/or the **Diploma Programme (DP)**.
+- **American (US)** — an American-style K–12 curriculum leading to a US High School Diploma, with **Advanced Placement (AP)** courses available at some schools.
+
+Some schools also teach the **Georgian National Curriculum** alongside an international programme, allowing eligible graduates to obtain both a Georgian qualification and an international one.
+
+As this is a non-commercial guide, we do not recommend or rank individual schools. Instead, create your own shortlist and verify each school's authorisation, curriculum and qualifications directly with the school and, where appropriate, the **National Center for Educational Quality Enhancement (NCEQE)**.
 
 ## Can foreign children enrol, and in what language?
 
-In practice, foreign children resident in Georgia do enrol in state general education schools. Enrolment is arranged with the school under Ministry of Education rules, and the set of documents required (such as identity documents and evidence of prior schooling) is defined by a Ministry order. Documents issued abroad in another language generally have to be **translated into Georgian**. As the precise document list and any conditions tied to residence status can change, **confirm the current requirements with the Ministry of Education** or the school.
+Foreign children living in Georgia may enrol in public general education schools. Admission is arranged directly with the school in accordance with the rules established by the **Ministry of Education, Science and Youth of Georgia**. Applicants are typically required to provide identity documents and evidence of previous education, together with certified translations of foreign-language documents where required.
 
-State schools teach mainly in **Georgian** under the national curriculum. A minority of schools teach in another community language, but where instruction is not in Georgian, **Georgian is still taught as a compulsory subject**. Families who need an English-medium education from day one usually turn to private or international schools. Always confirm the actual language of instruction with the individual school.
+Because admission requirements may change, always confirm the current document list directly with the school or the Ministry before applying.
+
+Public schools teach mainly in **Georgian** under the National Curriculum. A limited number of schools provide instruction in **Armenian, Azerbaijani or Russian**, but **Georgian remains a compulsory subject**. Families wishing their children to study in English from the outset generally choose private or international schools. In every case, confirm the actual language of instruction directly with the school.
 
 ## The school year
 
-According to the Ministry of Education, the academic year has traditionally run from **15 September to 15 June**, with pupils in the 1st and 12th grades finishing earlier (around 20 May), plus winter holidays and spring (Easter) holidays. (Source: Ministry of Education, Science and Youth of Georgia.) Exact dates are set for each academic year and individual schools — especially international schools following a different calendar — may differ, so **confirm the current calendar with the Ministry of Education or the school** before booking travel or planning your arrival.
+The Georgian academic year traditionally runs from **15 September to 15 June**. Pupils in the **1st and 12th grades** usually complete the school year earlier (typically around **20 May**). The academic calendar also includes winter and spring (Easter) holidays.
 
-## Recognising prior schooling from abroad
+The exact dates are determined for each academic year by the **Ministry of Education, Science and Youth of Georgia**, and individual schools—particularly international schools following a foreign curriculum—may operate on a different calendar. Before making travel arrangements or planning your relocation, always confirm the current school calendar directly with the school.
 
-If your child has already been in school elsewhere, recognition of that education is handled by the **National Center for Educational Quality Enhancement (NCEQE)**. This is the official route for having a foreign school record, leaving certificate or diploma recognised so the child can continue in the Georgian system or move on to higher education. The NCEQE also notes that where documents proving education received abroad cannot be verified, a pupil may be enrolled at an **age-appropriate level**, or in a lower grade with the parent's consent. (Source: NCEQE — Recognition of Education Received Abroad.)
+## Recognition of previous education completed abroad
 
-For the full recognition process, including apostille/legalisation and translation of documents, see **[Recognition of Foreign Diplomas](/en/recognition-of-foreign-diplomas-georgia)**.
+If your child has already attended school in another country, their previous education may need to be recognised before they can continue their studies in Georgia. Recognition is carried out by the **National Center for Educational Quality Enhancement (NCEQE)**, which assesses foreign educational qualifications and school records in accordance with Georgian legislation.
+
+Where the documents confirming education completed abroad cannot be verified, Georgian legislation allows a pupil to be enrolled in a grade appropriate to their age or, with the consent of a parent or legal representative, in a lower grade.
+
+For detailed guidance on the recognition procedure, including document requirements, apostilles or consular legalisation, and certified translations, see our **[Recognition of Foreign Educational Qualifications in Georgia](/en/recognition-of-foreign-diplomas-georgia)** guide.
 
 ## Practical checklist for parents
 
-- Decide between the state system (immersion, no fees) and a private/international school (continuity with a UK/US/IB pathway).
-- Shortlist schools and **verify authorisation and the leaving qualification** with the Ministry of Education and NCEQE.
-- Prepare your child's prior school records and arrange **certified Georgian translations**; check apostille/legalisation needs.
-- Start the **NCEQE recognition** step early if your child is mid-way through schooling or approaching graduation.
-- Confirm the **school calendar and enrolment documents** directly with the school for the coming year.
+- Decide whether a **public school**, **private Georgian school**, or **international school** best suits your child's educational needs and your family's long-term plans.
+- Shortlist schools and verify that they are **authorised to operate**, as well as the curriculum and leaving qualification they offer.
+- Prepare your child's previous school records and arrange any required **certified translations**, together with an **apostille** or **consular legalisation**, where applicable.
+- If recognition of previous education is required, begin the **NCEQE recognition procedure** as early as possible.
+- Confirm the current **academic calendar**, **admission requirements**, and **document list** directly with the school before applying.
 
-## Where to go next
+## What to explore further 
 
-- **[Studying in Georgia](/en/studying-in-georgia)** — higher education and the route from school to university.
-- **[Recognition of Foreign Diplomas (NCEQE)](/en/recognition-of-foreign-diplomas-georgia)** — getting a prior qualification recognised, with apostille/legalisation.
+- **[Studying in Georgia](/en/studying-in-georgia)** — higher education and the transition from school to university.
+- **[Recognition of Foreign Educational Qualifications](/en/recognition-of-foreign-diplomas-georgia)** — recognition procedures, including apostilles, legalisation and certified translations.
 
 ---
 
-This page is general information and does not constitute legal or educational advice. Rules on compulsory ages, enrolment, the school year and school accreditation are set by the authorities and can change. Confirm current rules and any school's accreditation with the **Ministry of Education** (mes.gov.ge) and the **NCEQE** (eqe.ge) before making decisions.
+_This guide provides general information only and does not constitute legal or educational advice. Admission requirements, compulsory education rules, the academic calendar and other school regulations may change over time. Before making any decisions, always confirm the current requirements directly with the **Ministry of Education, Science and Youth of Georgia**, the relevant school and, where appropriate, the **National Center for Educational Quality Enhancement (NCEQE)**._
