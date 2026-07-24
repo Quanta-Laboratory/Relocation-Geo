@@ -14,23 +14,13 @@ tags:
 
 ## Building the open relocation infrastructure for Georgia
 
-Relocation.ge is an independent, non-commercial, open-source project dedicated to helping people relocate to Georgia with confidence. Our mission is to make relocation simpler by providing accurate, transparent and continuously updated information about living, working, investing and doing business in Georgia.
-
-We believe that access to reliable information should not depend on language or personal connections. Everyone should be able to understand how relocation works and make informed decisions about moving to Georgia.
+Relocation.ge is an independent, non-commercial, open-source project that helps people relocate to Georgia with confidence. We make relocation simpler by providing accurate, transparent and continuously updated information about living, working, investing and doing business in Georgia — and we believe access to that information should not depend on language or personal connections.
 
 ## Why we created Relocation.ge
 
-Relocating to another country is one of the most significant decisions a person or family can make. It involves immigration rules, taxation, banking, healthcare, education, real estate, company formation and many other topics that frequently change.
+Relocating to another country is one of the most significant decisions a person or family can make. It touches immigration, taxation, banking, healthcare, education, real estate and company formation — topics that change often, and whose guidance is scattered across dozens of websites, social-media groups and unofficial sources that quickly go out of date.
 
-Unfortunately, this information is often fragmented across dozens of websites, social media groups and unofficial sources. Regulations change, articles become outdated and practical guidance is difficult to verify.
-
-Relocation.ge was created to solve this problem. Rather than operating as a relocation agency selling a service, we are building an open, non-commercial knowledge base that combines verified information and practical, source-based guidance in one place. Our goal is not simply to answer questions, but to make relocation understandable.
-
-## Our mission
-
-Our mission is to remove uncertainty from relocating to Georgia — providing verified, source-based guidance and open tools so people can make informed decisions about moving, working and doing business here.
-
-We aim to be one of the most reliable sources of relocation knowledge for Georgia, useful to individuals, families, entrepreneurs, investors, remote professionals and companies alike. You can read more about why we exist in our [manifesto](/en/manifesto).
+Rather than operating as a relocation agency selling a service, we build an open, non-commercial knowledge base that brings verified, source-based guidance into one place, with the aim of removing uncertainty from relocating to Georgia. We want to be one of the most reliable sources of relocation knowledge for the country, useful to individuals, families, entrepreneurs, investors, remote professionals and companies alike. You can read more about why we exist in our [manifesto](/en/manifesto).
 
 ## Our values
 
@@ -105,9 +95,7 @@ Because the project is open, its content and structure are built to be verified,
 
 ## Looking forward
 
-We aim to build an open, source-based reference for relocating to Georgia — reliable knowledge and practical tools in one place, kept current as the rules change.
-
-Whether you are planning a first visit, moving with your family, launching a business or investing in Georgia, we hope Relocation.ge is a useful companion along the way. Thank you for being part of our community.
+Whether you are planning a first visit, moving with your family, launching a business or investing in Georgia, we hope Relocation.ge is a useful companion along the way — reliable, source-based, and kept current as the rules change. Thank you for being part of our community.
 
 ## What this is — and what it is not
 
