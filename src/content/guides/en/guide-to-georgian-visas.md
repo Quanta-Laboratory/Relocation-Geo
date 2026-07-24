@@ -2,7 +2,7 @@
 title: "Guide to Georgian Visas: All Visa Types Explained (2026)"
 category: immigration
 lang: en
-summary: Many nationalities can enter Georgia visa-free for up to one year. Those who need a visa choose from short-term categories (diplomatic A, special B, ordinary C, transit) or long-term immigration visas (D1–D6, with D6 in force from 1 September 2026). A long-term visa is the precondition for a residence permit, and since 1 March 2026 working in Georgia also requires a separate work permit.
+summary: Many nationalities can enter Georgia visa-free for up to one year. Those who need a visa choose from short-term categories (diplomatic A, special B, ordinary C, transit) or long-term immigration visas (D1–D6, with D6 in force from 1 September 2026).
 reviewed: 2026-06-27
 checked: 2026-07-24
 order: 1
@@ -26,62 +26,122 @@ tags:
   - visa
 ---
 
-Georgia's entry system has two layers: a generous visa-free regime that covers most Western travellers, and a structured set of visa categories for everyone else and for anyone planning a long stay. This guide explains who needs a visa, the full list of categories, and the 2026 change that now affects anyone intending to work.
+Georgia's immigration system combines a generous visa-free regime with a structured visa system for travellers who do not qualify for visa-free entry or who intend to stay in the country for a specific purpose. 
 
 ## Do you even need a visa?
 
-For many people the answer is no. Citizens of more than 90 countries — including the EU, the United Kingdom, the United States, Canada, Australia and many others — can enter Georgia visa-free and stay for up to one year under a Government of Georgia ordinance. EU and UK citizens may even enter on a national ID card rather than a passport. See [Visa-Free Entry & the One-Year Rule](/en/visa-free-entry-georgia) for the full list and how the year works.
+For many travellers, the answer is **no**. Citizens of numerous countries and territories—including all **EU Member States**, the **United Kingdom**, the **United States**, **Canada**, **Australia** and many others—may enter Georgia **without a visa**. 
 
-Travellers who are visa-exempt but not on the one-year list may stay for up to 90 calendar days within any 180-day period. In addition, holders of a valid visa or residence permit from certain countries (such as the EU, US and others) can enter visa-free for short stays even if their nationality would normally require a visa. If none of these apply to you, you will need a Georgian visa or an e-visa.
+For most of those nationalities, the visa-free period is **one full year** from the date of entry. An important exception is **Chinese citizens**, who may enter visa-free for **up to 30 days**, and only for **tourism purposes**.
+
+Citizens of **EU Member States** may enter Georgia using either a valid passport or a national identity card that contains their name, surname, date of birth and photograph. Similar rules apply to citizens of **Switzerland** and **Liechtenstein**.
+
+For a detailed explanation of the visa-free regime, including the list of eligible countries and how the one-year period works in practice, see [[visa-free-entry-georgia]]. 
+
+If you are **not** eligible for visa-free entry, you may still qualify to enter Georgia **without a visa**if you hold a qualifying visa or residence permit issued by certain countries. This separate regime in most cases, permits a stay of **up to 90 days within any 180-day period**.
+
+If neither visa-free regime applies to you, you will generally need to obtain a **Georgian visa** before travelling.
 
 ## Short-term visas
 
-Short-term visas cover short visits. A single-entry short-term visa is issued for up to 30 days; multiple-entry short-term visas can be issued with validity up to five years. The categories are:
+Short-term visas are intended for temporary visits to Georgia. They may be issued as either:
 
-- **[A — Diplomatic visa (A1–A5)](/en/diplomatic-visa-georgia):** for heads of state and senior officials, accredited diplomats and their families, diplomatic couriers, honorary consuls, and similar official visitors.
-- **[B — Special visa (B1–B4)](/en/special-visa-georgia):** for members of official delegations and holders of service passports, administrative and technical staff of missions, persons arriving under international treaties or as peacekeepers, and certain national-interest missions.
-- **[C — Ordinary visa (C1–C5)](/en/ordinary-visa-georgia):** the everyday categories — see below.
-- **[Transit visa](/en/transit-visa-georgia):** for transiting Georgia (up to 10 days) on the way to a third country.
+- **a single-entry visa**, allowing one entry and a stay of up to **30 calendar days**; or
+- **a multiple-entry visa**, with a validity period of up to **five years**. The permitted duration of each stay depends on the applicable legal rules and the conditions of the visa.
 
-## The ordinary (C) categories
+Georgia issues the following categories of short-term visas:
 
-Most ordinary travellers who need a visa fall under category C:
+- **[A — Diplomatic visa (A1–A5)](/en/diplomatic-visa-georgia):** issued to heads of state and government, members of official state delegations, diplomatic and consular personnel, diplomatic couriers, family members accompanying eligible officials, and other persons entitled to diplomatic status under Georgian law.
+- **[B — Special visa (B1–B4)](/en/special-visa-georgia):** issued to holders of service and official passports, members of official delegations and administrative or technical staff of diplomatic missions, as well as persons travelling under international agreements, peacekeeping missions or other missions serving Georgia's national interests.
+- **[C — Ordinary visa (C1–C5)](/en/ordinary-visa-georgia):** the standard visa category for most travellers, covering tourism, business, family visits, short-term study, cultural, scientific, sporting and other private purposes.
+- **[Transit visa (T)](/en/transit-visa-georgia):** issued to foreign nationals transiting through Georgia on their way to a third country. A transit visa may permit a stay in Georgia of **up to 10 calendar days**.
 
-- **C1** — tourism.
-- **C2** — visiting relatives and friends.
-- **C3** — business meetings and negotiations; conferences and scientific, cultural or sporting events; journalism; ship crews; international cargo and passenger drivers.
-- **C4** — humanitarian and charitable work; medical treatment; guardianship; visiting graves; pilgrimage and religious contacts.
-- **C5** — short-term tourism for a person who, while in Georgia, carries out activities only for a non-resident, where that work relates to the non-resident's activity outside Georgia. This is the closest fit to a "remote worker" visa and can be issued with five-year validity and a one-year stay; it also covers the holder's spouse and minor children.
+## The ordinary (C) visa categories
 
+
+Most foreign nationals who require a Georgian visa will apply for one of the **ordinary (C)** visa categories.
+
+- **C1 – Tourism:** for leisure travel and other tourism-related purposes.
+- **C2 – Private visits:** for visiting relatives or friends in Georgia.
+- **C3 – Business and professional visits:** for business meetings and negotiations, participation in conferences, scientific, cultural or sporting events, journalistic activities, and for members of ship crews and international cargo or passenger transport crews.
+- **C4 – Humanitarian and other special purposes:** for humanitarian or charitable activities, medical treatment, guardianship or care, visiting graves, and religious or pilgrimage-related visits.
+- **C5 – Activities for a non-resident employer or client:** for foreign nationals who carry out labour activity or provide services solely for a **non-resident**, where that activity is connected with the non-resident's operations **outside Georgia**. The category also covers the applicant's spouse and minor children.
+
+A **C5 visa** may be issued as a **multiple-entry visa** with a validity period of up to **five years**, allowing its holder to stay in Georgia for **up to one year** on each entry, subject to the conditions of the visa.
 ## Long-term (immigration) visas
 
-Long-term, or immigration, visas are category D. They are multiple-entry, issued with 90-day or one-year validity, and — importantly — a long-term visa is the precondition for obtaining a Georgian residence permit. See [Immigration (D) Visa: D1–D5 Explained](/en/immigration-visa-georgia) for the full detail. The sub-categories are:
+Long-term visas are issued under **category D**. They are **multiple-entry visas** and may be issued with a validity period of **90 calendar days** or **one year**, depending on the applicable category and the circumstances of the application.
 
-- **D1** — for a person who has obtained the right to labour activity, and for those coming to carry out entrepreneurial activity under the Law on Entrepreneurs.
-- **D2** — scientific, sporting, cultural or educational missions; freelancers; interns and volunteers; media workers on assignment.
-- **D3** — study or research at an authorised educational institution, or study under international programmes.
-- **D4** — family reunification.
-- **D5** — for an owner of Georgian real estate (other than agricultural land) worth at least the GEL equivalent of USD 150,000, plus spouse and children. The market value must be confirmed by a certified assessor.
-- **D6** — for a minor studying at an authorised Georgian institution, plus their parents or legal representatives and minor siblings. New from 1 September 2026 — see the block below.
+A **D visa** is primarily intended for foreign nationals who plan to relocate to Georgia for work, study, family reunification, investment or other long-term purposes. In many cases, it also serves as the basis for applying for a **Georgian residence permit**, although certain residence permits may also be applied for from within Georgia by persons who are already lawfully present in the country.
+
+For a detailed explanation of each category, see **[Immigration (D) Visa: D1–D6 Explained](/en/immigration-visa-georgia)**.
+
+The D-visa categories are:
+
+- **D1** — for foreign nationals who have obtained the **Right to Labour Activity** in Georgia, as well as those coming to carry out entrepreneurial activity in accordance with the **Law of Georgia on Entrepreneurs**.
+- **D2** — for persons arriving to carry out scientific, cultural, educational or sporting activities; freelancers; interns and volunteers; and representatives of the media carrying out professional assignments.
+- **D3** — for study or research at an authorised educational institution in Georgia, including studies conducted under international programmes.
+- **D4** — for family reunification.
+- **D5** — for owners of immovable property in Georgia (other than agricultural land) with a market value of at least the **GEL equivalent of USD 150,000**, as confirmed by a certified property valuer, as well as their spouse and children.
+- **D6** — for a minor enrolled at an authorised educational institution in Georgia, as well as the minor's parents or other legal representatives and minor siblings. This category takes effect on **1 September 2026**.
 
 ## New from 1 September 2026: the D6 student visa
 
-A new immigration sub-category, **D6**, comes into force on **1 September 2026**. It is built for **minor foreign nationals who come to Georgia to study** — at an authorised higher or vocational institution, or at a general-education school until they finish full general education — and it also covers the **parents or legal representatives and minor siblings** accompanying that minor, until the student turns 18. Like D5, D6 is a long-term, multiple-entry visa that can be issued with **one-year validity** and is a precondition for a residence permit. The same amendment narrows **D3** to **adult** students and researchers, so from that date minors use D6 instead. Full detail is in the [D6 visa guide](/en/d6-visa-georgia).
+A new immigration visa category, **D6**, takes effect on **1 September 2026**.
+
+The D6 visa is designed for **minor foreign nationals who come to Georgia for education** at an authorised educational institution. It covers pupils enrolled in a general education school until they complete full general education, as well as minors studying at authorised vocational or higher education institutions where permitted by law. The category also extends to the student's **parents or other legal representatives and minor siblings**, until the student reaches the age of 18.
+
+Like the other D-visa categories, **D6** is a **multiple-entry immigration visa** that may be issued with a validity period of **up to one year**. It is intended for foreign nationals relocating to Georgia for long-term educational purposes and may also serve as the basis for applying for a Georgian residence permit where the statutory requirements are met.
+
+The same legislative amendment also limits the scope of the **D3** visa to **adult** students and researchers. From **1 September 2026**, minor students will instead fall under the new **D6** category.
+
+For a detailed explanation of the eligibility requirements and supporting documents, see the **[D6 Visa Guide](/en/d6-visa-georgia)**.
 
 ## E-visa
 
-Nationals who need a visa but are eligible can apply online through the Ministry of Foreign Affairs e-visa portal, receiving an electronic visa without visiting a consulate. The portal also handles consular applications and sets out current eligibility and fees.
 
-## Important 2026 change: working now needs a work permit
+Foreign nationals who require a visa and are eligible for the **e-Visa** programme may apply online through the **Ministry of Foreign Affairs' e-Visa Portal**, without visiting a Georgian embassy or consulate.
 
-This is the single biggest recent change for relocators. Since 1 March 2026, under amendments to the Law on Labour Migration, most foreign nationals must obtain a "Right to Labour Activity" work permit before doing any paid employment, self-employment or entrepreneurial activity in Georgia. The process is two-stage: you first secure the work permit (a review of up to 30 days), and only then apply for the D1 visa or a work residence permit. Crucially, a temporary residence permit by itself no longer gives the right to work.
+The portal allows applicants to submit their visa application electronically, pay the consular fee online and receive an electronic visa by email. An e-Visa has the same legal effect as a visa issued in the form of a visa sticker and is intended for **short-term visits**.
 
-Exemptions apply to holders of permanent or investment residence permits, recognised refugees and asylum seekers, accredited diplomatic staff and accredited foreign journalists. Working without the required permit carries fines (2,000 GEL for a first offence). If your plan involves earning income from within Georgia — including as an Individual Entrepreneur — factor this permit into your timeline.
+The e-Visa Portal also enables applicants to check whether their nationality is eligible for an e-Visa and provides up-to-date information on the application process, required documents and applicable consular fees.
+
+## Important 2026 change: most foreign nationals now need a work permit
+
+One of the most significant recent changes to Georgia's immigration system is the introduction of the **Right to Labour Activity**.
+
+Since **1 March 2026**, most foreign nationals who wish to engage in employment, self-employment or entrepreneurial activity in Georgia must first obtain a **Right to Labour Activity** (work permit) under the **Law of Georgia on Labour Migration**.
+
+In most cases, the process is completed in two stages. First, the foreign national obtains the **Right to Labour Activity**from the competent authority. Once it has been granted, the applicant may then apply for the appropriate **D1 immigration visa** (if applying from abroad) or, where eligible, for a **work residence permit**.
+
+A temporary residence permit **does not, by itself, confer the right to work**. Where a work permit is required, it must be obtained separately.
+
+The legislation also provides a number of important exemptions. For example, the requirement does not generally apply to holders of **permanent residence permits** or **investment residence permits**, recognised refugees and asylum seekers, accredited diplomatic personnel, accredited foreign journalists, or foreign nationals who carry out labour activity or provide services **solely for a non-resident**, where that activity is connected with the non-resident's operations **outside Georgia**. Additional statutory exemptions also apply.
+
+Working without the required **Right to Labour Activity** may result in administrative liability, including fines. If you intend to work, register as an **Individual Entrepreneur**, or otherwise earn income from activities that require a work permit, you should ensure that the permit is obtained before commencing the activity.
 
 ## What about digital nomads?
 
-Georgia is popular with remote workers but has no dedicated digital-nomad visa in force. In practice, remote workers rely on the one-year visa-free regime or the C5 short-term visa. Anyone whose work is performed entirely remotely with no Georgian clients or local business registration may fall outside the work-permit requirement, but this point is still being clarified — check your specific situation before relying on it.
+Georgia does **not** currently have a dedicated **digital nomad visa**.
+
+Many remote workers can nevertheless spend extended periods in Georgia by relying on the country's generous **visa-free regime** or, where applicable, a **C5 ordinary visa**.
+
+Whether a remote worker requires a **Right to Labour Activity** depends on the nature of the activity being carried out. In particular, foreign nationals who perform labour activity or provide services **solely for a non-resident**, where that activity is connected with the non-resident's operations **outside Georgia**, fall within a statutory exemption from the work-permit requirement. Other remote-working arrangements should be assessed on their own facts to determine whether a work permit is required.
 
 ## Validity and length of stay at a glance
 
-A single-entry short-term visa is issued for up to 30 days. Multiple-entry short-term visas can run up to five years. Long-term D visas are multiple-entry with 90-day or one-year validity (one year for D5, and for D6 from 1 September 2026). Visa-free visitors stay either up to one year (listed nationalities) or up to 90 days in any 180-day period. To stay and live in Georgia beyond a visa, you convert a long-term visa into a residence permit.
+
+- **Single-entry short-term visas** may be issued for a stay of **up to 30 calendar days**.
+- **Multiple-entry short-term visas** may be issued with a validity period of **up to five years**. In most cases, they allow stays of **up to 90 days within any 180-day period**. An exception applies to the **C5 ordinary visa**, which may be issued with a validity period of up to **five years** and permits a stay in Georgia for **up to one year** on each entry.
+- **Long-term (D) visas** are **multiple-entry visas** issued with either **90-day** or **one-year** validity. A **one-year validity period** is available for **D5** visas and, from **1 September 2026**, for **D6** visas.
+- **Visa-free visitors** may generally stay for **one full year** if they are nationals of a country listed in **Government Ordinance No. 255**, or, where eligible under **Government Ordinance No. 256**, for **up to 90 days within any 180-day period**.
+
+If you intend to remain in Georgia beyond the period permitted by your visa or visa-free stay, you should apply for an appropriate **residence permit**, provided you meet the relevant legal requirements.
+
+## Disclaimer
+
+This guide provides a general overview of Georgia's visa rules as in force on the date of publication. It is intended for informational purposes only and does not constitute legal advice.
+
+Immigration legislation, visa policies and administrative practice may change over time. In particular, the list of visa-free countries, eligibility for visa-free entry, visa categories and documentary requirements may be amended by law or government ordinance.
+
+Before making travel or relocation plans, you should always verify the latest requirements with the **Ministry of Foreign Affairs of Georgia**, the relevant **Georgian embassy or consulate**, or seek professional advice where your circumstances are complex.
