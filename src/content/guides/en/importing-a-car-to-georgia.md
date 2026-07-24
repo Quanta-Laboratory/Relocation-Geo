@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: en
 summary: Importing a car into Georgia means clearing it through customs with the Revenue Service — paying import duty, excise and VAT — and then registering it and getting Georgian plates at the Service Agency of the Ministry of Internal Affairs.
 reviewed: 2026-07-10
-checked: 2026-07-23
+checked: 2026-07-24
 order: 7
 sources:
   - name: Revenue Service of Georgia — customs and import
