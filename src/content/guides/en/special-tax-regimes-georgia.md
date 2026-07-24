@@ -1,31 +1,33 @@
 ---
 title: "Special Tax Regimes in Georgia: Small, Micro and Fixed Status"
-category: "tax"
-lang: "en"
-summary: "Georgia offers three simplified tax regimes for individuals and small entrepreneurs instead of the standard system. Micro Business Status taxes qualifying activity at 0% up to GEL 30,000 of annual turnover. Small Business Status taxes turnover at 1% (rising to 3% above GEL 500,000). Fixed Taxpayer Status replaces income-based tax with a set monthly amount for a short list of specific activities such as bakeries, hairdressing and car repair. Each regime is granted by the Revenue Service on application, keeps its own conditions and excluded activities, and does not remove VAT obligations. This overview maps the three regimes and links to the detailed guide for each."
+category: tax
+lang: en
+summary: Georgia offers three simplified tax regimes for individuals and small entrepreneurs instead of the standard system. Micro Business Status taxes qualifying activity at 0% up to GEL 30,000 of annual turnover. Small Business Status taxes turnover at 1% (rising to 3% above GEL 500,000). Fixed Taxpayer Status replaces income-based tax with a set monthly amount for a short list of specific activities such as bakeries, hairdressing and car repair. Each regime is granted by the Revenue Service on application, keeps its own conditions and excluded activities, and does not remove VAT obligations. This overview maps the three regimes and links to the detailed guide for each.
 reviewed: 2026-07-10
 checked: 2026-07-24
 order: 5
 sources:
-  - name: "Tax Code of Georgia (Legislative Herald)"
-    url: "https://matsne.gov.ge/en/document/view/1043717"
-  - name: "Government Ordinance No 415 of 29 December 2010 — On Special Taxation Regimes (prohibited activities and excluded income; Georgian original)"
-    url: "https://matsne.gov.ge/ka/document/view/1164635"
-  - name: "Order of the Minister of Finance No 999 of 31 December 2010 — On the Application of Special Taxation Regimes (procedure, declaration form, expense journal; Georgian original)"
-    url: "https://matsne.gov.ge/ka/document/view/1168081"
-  - name: "Revenue Service of Georgia"
-    url: "https://rs.ge/"
+  - name: Tax Code of Georgia (Legislative Herald)
+    url: https://matsne.gov.ge/en/document/view/1043717
+  - name: Government Ordinance No 415 of 29 December 2010 — On Special Taxation Regimes (prohibited activities and excluded income; Georgian original)
+    url: https://matsne.gov.ge/ka/document/view/1164635
+  - name: Order of the Minister of Finance No 999 of 31 December 2010 — On the Application of Special Taxation Regimes (procedure, declaration form, expense journal; Georgian original)
+    url: https://matsne.gov.ge/ka/document/view/1168081
+  - name: Revenue Service of Georgia
+    url: https://rs.ge/
 faq:
-  - q: "What are the special tax regimes in Georgia?"
-    a: "They are simplified tax regimes for small-scale economic activity that replace the standard taxation system. The three main ones are Micro Business Status (0% income tax up to GEL 30,000 of qualifying turnover), Small Business Status (1% of turnover, rising to 3% above GEL 500,000), and Fixed Taxpayer Status (a set monthly amount for specific listed activities). Each has its own eligibility conditions, excluded activities and reporting rules."
-  - q: "Who can use a special tax regime?"
-    a: "These regimes are designed for natural persons carrying out economic activity — freelancers, independent professionals, small traders and artisans. Micro Business Status can be held by a registered taxpayer without being an Individual Entrepreneur, while Small Business Status and Fixed Taxpayer Status require the individual to be registered as an Individual Entrepreneur. Companies (LLCs) cannot use these regimes; they are taxed under the standard corporate system."
-  - q: "Do the special regimes remove VAT obligations?"
-    a: "No. A special tax regime concerns income tax, not VAT. If a person becomes liable to register for VAT under the Tax Code, they must do so. A person registered as a VAT payer cannot hold Micro Business Status or Fixed Taxpayer Status, whereas Small Business Status can be held alongside VAT registration."
-  - q: "Can I move from one regime to another as my business grows?"
-    a: "Yes. The regimes form a graduated structure. A micro business whose income exceeds GEL 30,000 can transition to Small Business Status, and a business that outgrows the small-business thresholds moves to the standard system. This lets taxation rise in proportion to the size of the business rather than creating a barrier at the start."
-  - q: "Is this page tax advice?"
-    a: "No. This is a neutral, source-based overview of the special tax regimes drawn from the Tax Code of Georgia and the related government legislation. Thresholds, rates and excluded activities are updated periodically and individual facts matter, so confirm the current position with the Revenue Service or a qualified adviser before relying on any regime."
+  - q: What are the special tax regimes in Georgia?
+    a: They are simplified tax regimes for small-scale economic activity that replace the standard taxation system. The three main ones are Micro Business Status (0% income tax up to GEL 30,000 of qualifying turnover), Small Business Status (1% of turnover, rising to 3% above GEL 500,000), and Fixed Taxpayer Status (a set monthly amount for specific listed activities). Each has its own eligibility conditions, excluded activities and reporting rules.
+  - q: Who can use a special tax regime?
+    a: These regimes are designed for natural persons carrying out economic activity — freelancers, independent professionals, small traders and artisans. Micro Business Status can be held by a registered taxpayer without being an Individual Entrepreneur, while Small Business Status and Fixed Taxpayer Status require the individual to be registered as an Individual Entrepreneur. Companies (LLCs) cannot use these regimes; they are taxed under the standard corporate system.
+  - q: Do the special regimes remove VAT obligations?
+    a: No. A special tax regime concerns income tax, not VAT. If a person becomes liable to register for VAT under the Tax Code, they must do so. A person registered as a VAT payer cannot hold Micro Business Status or Fixed Taxpayer Status, whereas Small Business Status can be held alongside VAT registration.
+  - q: Can I move from one regime to another as my business grows?
+    a: Yes. The regimes form a graduated structure. A micro business whose income exceeds GEL 30,000 can transition to Small Business Status, and a business that outgrows the small-business thresholds moves to the standard system. This lets taxation rise in proportion to the size of the business rather than creating a barrier at the start.
+  - q: Is this page tax advice?
+    a: No. This is a neutral, source-based overview of the special tax regimes drawn from the Tax Code of Georgia and the related government legislation. Thresholds, rates and excluded activities are updated periodically and individual facts matter, so confirm the current position with the Revenue Service or a qualified adviser before relying on any regime.
+tags:
+  - visa
 ---
 
 Georgia's tax system is known for its **simplicity**. Alongside the standard rules, Georgian legislation provides **special tax regimes** for individuals and small entrepreneurs, allowing small-scale activity to be taxed under simplified conditions rather than the full standard system.
