@@ -5,6 +5,8 @@ const support = [
   { href: '/en/use-of-materials', label: 'Use of Materials' },
   { href: '/en/ai-compliance-disclosure', label: 'AI Compliance Disclosure' },
   { href: '/sitemap-index.xml', label: 'Sitemap' },
+  // AGPL-3.0 §13: a public deployment must offer users the source.
+  { href: 'https://github.com/Quanta-Laboratory/Relocation-Geo', label: 'Source code (AGPL-3.0)', external: true },
 ];
 ---
 <footer class="site-footer">
@@ -12,7 +14,11 @@ const support = [
     <h3>Support links</h3>
     <ul>
       {support.map((s) => (
-        <li><a href={s.href}>{s.label}</a></li>
+        <li>
+          {s.external
+            ? <a href={s.href} target="_blank" rel="noopener noreferrer">{s.label}</a>
+            : <a href={s.href}>{s.label}</a>}
+        </li>
       ))}
     </ul>
     <div class="non-commercial">
