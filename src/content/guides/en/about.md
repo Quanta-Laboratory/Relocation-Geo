@@ -93,6 +93,8 @@ Relocation.ge is a non-commercial, open-source project. That independence is wha
 
 Because the project is open, its content and structure are built to be verified, reused and improved. Every guide links to the primary source it is based on, so you are never more than one click away from the underlying law or regulation.
 
+To be precise about what "open-source" means here: the **software** that runs Relocation.ge — the site engine, tools and scripts — is released under the **AGPL-3.0** licence, so anyone can inspect, run and build on it. The **content** — the guide text and datasets — is a separate matter, published under our [Use of Materials](/en/use-of-materials) terms rather than an open-content licence. Open code, clearly-licensed content.
+
 ## Looking forward
 
 Whether you are planning a first visit, moving with your family, launching a business or investing in Georgia, we hope Relocation.ge is a useful companion along the way — reliable, source-based, and kept current as the rules change. Thank you for being part of our community.
