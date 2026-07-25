@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: "en"
 summary: "Georgia's Short-Term Residence Permit lets owners of Georgian real estate live in the country on the strength of their property. To qualify, a foreigner must own non-agricultural immovable property in Georgia whose market value exceeds the equivalent of USD 150,000 in GEL, confirmed by a certified valuer. The permit is issued for one year at a time and is renewable while the qualifying ownership continues, and it can extend to the holder's spouse and minor children. Value is set by accredited market valuation, not purchase price, and multiple properties can be combined to reach the threshold. This guide sets out eligibility, the required documents, fees and how the permit differs from the Investment Residence Permit, checked against the primary law."
 reviewed: 2026-07-10
-checked: 2026-07-24
+checked: 2026-07-25
 order: 12
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)"
