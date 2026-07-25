@@ -5,7 +5,7 @@ parent: about
 lang: en
 summary: "Why Relocation.ge exists: a short manifesto on removing uncertainty from relocation. We believe trusted information creates opportunity, transparency builds confidence, and knowledge empowers freedom — and that borders should never become barriers to human potential because of missing information."
 reviewed: 2026-07-08
-checked: 2026-07-24
+checked: 2026-07-25
 order: 1
 sources: []
 ---
