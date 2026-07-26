@@ -5,7 +5,7 @@ parent: mobile-and-internet-in-georgia
 lang: "en"
 summary: "Georgia has three mobile network operators: Magti (Magticom), Silknet — whose mobile brand is Geocell — and Cellfie Mobile, formerly Beeline. All three run 4G and 5G and support eSIM, so an arriving traveller can be online in minutes. Magti markets the widest coverage and sells a Welcome SIM at the airport; Magti and Silknet also provide fixed home internet, while Cellfie is mobile-only. You normally register a SIM with your passport, and Georgia has operated mobile number portability since 2011, so you can keep your number if you switch. This guide compares the three operators and explains how to choose, buy and register — checked against official sources."
 reviewed: 2026-07-15
-checked: 2026-07-25
+checked: 2026-07-26
 order: 4
 sources:
   - name: "Magticom (Magti) — official site"

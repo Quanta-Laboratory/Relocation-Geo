@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: en
 summary: The family reunification residence permit lets the family members of a foreign national who legally resides in Georgia — or of a Georgian citizen — live in the country on the basis of family unity. It is usually issued for 6 months to 1 year and is renewable while the sponsor's status and the family relationship remain valid. Applicants must show legal income of at least twice the subsistence minimum per month (or equivalent funds in a bank account) and proof of the qualifying relationship.
 reviewed: 2026-07-10
-checked: 2026-07-25
+checked: 2026-07-26
 order: 15
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)
