@@ -1,46 +1,48 @@
 ---
-title: "Small Business Status in Georgia (1% Turnover Tax)"
-category: "tax"
+title: Small Business Status in Georgia (1% Turnover Tax)
+category: tax
 parent: special-tax-regimes-georgia
-lang: "en"
+lang: en
 notice: 'Self-employed foreigners: <strong>Ordinance No 321 of 9 July 2026</strong> changed how the <strong>right to work</strong> is obtained — you must now apply <strong>in person</strong> and pass a <strong>compulsory video interview</strong>, and a turnover test applies. The exemption for serving foreign clients does <strong>not</strong> cover an Individual Entrepreneur who needs a residence permit to stay lawfully. <a href="/en/right-to-work-georgia">Read more</a>.'
-summary: "Small Business Status is a special tax regime for an Individual Entrepreneur that taxes qualifying turnover at 1%, rising to 3% once income exceeds GEL 500,000 in a calendar year (GEL 700,000 for wine tourism and agritourism). Registering the IE and obtaining the status are two separate steps: you apply to the tax authority, which issues the certificate within 2 working days, and the status then runs with no expiry date. It is not available for a list of prohibited activities — which includes consulting, the trap most advisory freelancers miss — and some income, such as rent, interest, dividends, royalties and property gains, is always taxed under the ordinary rules. Holders keep a special expense journal and file monthly declarations by the 15th. The status ends on request from the first of the next month, or by operation of law — and cancellation for a prohibited activity reaches back to the start of that year."
+summary: "Small Business Status is a special tax regime for an Individual Entrepreneur that taxes qualifying turnover at 1%, rising to 3% once income exceeds GEL 500,000 in a calendar year (GEL 700,000 for wine tourism and agritourism). Registering the IE and obtaining the status are two separate steps: you apply to the tax authority, which issues the certificate within 2 working days, and the status then runs with no expiry date. It is not available for a list of prohibited activities — which includes consulting and some income, such as rent, interest, dividends, royalties and property gains, is always taxed under the ordinary rules. Holders keep a special expense journal and file monthly declarations by the 15th."
 reviewed: 2026-07-12
 checked: 2026-07-25
 order: 1
 sources:
-  - name: "Government Ordinance No 321 of 9 July 2026 — right-to-work procedure (Georgian original)"
-    url: "https://matsne.gov.ge/ka/document/view/6940189"
-  - name: "Tax Code of Georgia (Legislative Herald)"
-    url: "https://matsne.gov.ge/en/document/view/1043717"
-  - name: "Government Ordinance No 415 of 29 December 2010 — On Special Taxation Regimes (prohibited activities and excluded income; Georgian original)"
-    url: "https://matsne.gov.ge/ka/document/view/1164635"
-  - name: "Order of the Minister of Finance No 999 of 31 December 2010 — On the Application of Special Taxation Regimes (procedure, declaration form, expense journal; Georgian original)"
-    url: "https://matsne.gov.ge/ka/document/view/1168081"
-  - name: "Revenue Service of Georgia"
-    url: "https://rs.ge/"
+  - name: Government Ordinance No 321 of 9 July 2026 — right-to-work procedure (Georgian original)
+    url: https://matsne.gov.ge/ka/document/view/6940189
+  - name: Tax Code of Georgia (Legislative Herald)
+    url: https://matsne.gov.ge/en/document/view/1043717
+  - name: Government Ordinance No 415 of 29 December 2010 — On Special Taxation Regimes (prohibited activities and excluded income; Georgian original)
+    url: https://matsne.gov.ge/ka/document/view/1164635
+  - name: Order of the Minister of Finance No 999 of 31 December 2010 — On the Application of Special Taxation Regimes (procedure, declaration form, expense journal; Georgian original)
+    url: https://matsne.gov.ge/ka/document/view/1168081
+  - name: Revenue Service of Georgia
+    url: https://rs.ge/
 faq:
-  - q: "What is the tax rate under Small Business Status?"
-    a: "The ordinary rate is 1% of income that falls under the special regime. If income from economic activity exceeds GEL 500,000 in a calendar year, the rate becomes 3%. For wine tourism and agritourism the threshold is GEL 700,000. The 3% rate applies from the beginning of the month in which the threshold is crossed and runs to the end of that year; it does not retroactively recalculate the earlier months at 3%."
-  - q: "Who can obtain Small Business Status?"
-    a: "A natural person who carries out entrepreneurial activity independently and is registered with the tax authority as an entrepreneurial natural person (an Individual Entrepreneur). It cannot be a company. The status can be held even by a person registered as a VAT payer, but not by a person carrying out an activity that is prohibited for small business."
-  - q: "How do I activate the status, and how long does it take?"
-    a: "Registering the Individual Entrepreneur and obtaining the status are two separate steps. Once you are registered as an entrepreneurial natural person and on the tax register, you apply to the tax authority at your place of tax registration. If the application is granted, the tax authority issues the Small Business certificate within 2 working days, and the status runs from the date recorded on that certificate. The certificate has no expiry date and needs no renewal — it stays valid until the status is cancelled."
-  - q: "I want to work as a consultant. Can I use the 1% regime?"
+  - q: What is the tax rate under Small Business Status?
+    a: The ordinary rate is 1% of income that falls under the special regime. If income from economic activity exceeds GEL 500,000 in a calendar year, the rate becomes 3%. For wine tourism and agritourism the threshold is GEL 700,000. The 3% rate applies from the beginning of the month in which the threshold is crossed and runs to the end of that year; it does not retroactively recalculate the earlier months at 3%.
+  - q: Who can obtain Small Business Status?
+    a: A natural person who carries out entrepreneurial activity independently and is registered with the tax authority as an entrepreneurial natural person (an Individual Entrepreneur). It cannot be a company. The status can be held even by a person registered as a VAT payer, but not by a person carrying out an activity that is prohibited for small business.
+  - q: How do I activate the status, and how long does it take?
+    a: Registering the Individual Entrepreneur and obtaining the status are two separate steps. Once you are registered as an entrepreneurial natural person and on the tax register, you apply to the tax authority at your place of tax registration. If the application is granted, the tax authority issues the Small Business certificate within 2 working days, and the status runs from the date recorded on that certificate. The certificate has no expiry date and needs no renewal — it stays valid until the status is cancelled.
+  - q: I want to work as a consultant. Can I use the 1% regime?
     a: "Be careful here. 'Consulting (including tax consulting)' appears on the list of activities for which Small Business Status cannot be granted, alongside medical, architectural, legal, notarial and auditing work. Whether your particular work counts as prohibited consulting, or as something the regime does allow, depends on how the activity is classified rather than on the wording of your invoices. The consequence of getting it wrong is severe: the status is cancelled retroactively from the start of the calendar year in which the prohibited activity was carried out. Confirm your activity classification with the Revenue Service before relying on the regime."
-  - q: "Can I get the status back after it is cancelled?"
-    a: "Yes. A person whose status has been cancelled may apply again, and a fresh certificate is issued with a new registration number. The conditions are set by Article 89 of the Tax Code and depend on your turnover in the intervening period and on whether you are registered for VAT, so if you left the regime by crossing a threshold, plan the return around that."
-  - q: "Does Small Business Status exempt me from VAT?"
-    a: "No. The status concerns income tax only. If you become required to register as a VAT payer under the Tax Code, you must do so, and at that point you must also account for inventory and stock on hand if you want to claim VAT credit and hold the required documents."
-  - q: "When is the status cancelled?"
-    a: "Mainly if income exceeds GEL 500,000 (or GEL 700,000 for wine/agritourism) in each of two consecutive years, if a prohibited activity is performed, if the person is fined three times in one year for cash-register violations, on voluntary request, if the Individual Entrepreneur registration is cancelled, or on the death of the person."
+  - q: Can I get the status back after it is cancelled?
+    a: Yes. A person whose status has been cancelled may apply again, and a fresh certificate is issued with a new registration number. The conditions are set by Article 89 of the Tax Code and depend on your turnover in the intervening period and on whether you are registered for VAT, so if you left the regime by crossing a threshold, plan the return around that.
+  - q: Does Small Business Status exempt me from VAT?
+    a: No. The status concerns income tax only. If you become required to register as a VAT payer under the Tax Code, you must do so, and at that point you must also account for inventory and stock on hand if you want to claim VAT credit and hold the required documents.
+  - q: When is the status cancelled?
+    a: Mainly if income exceeds GEL 500,000 (or GEL 700,000 for wine/agritourism) in each of two consecutive years, if a prohibited activity is performed, if the person is fined three times in one year for cash-register violations, on voluntary request, if the Individual Entrepreneur registration is cancelled, or on the death of the person.
+tags:
+  - tax
 ---
 
-Among Georgia's **[special tax regimes](/en/special-tax-regimes-georgia)**, **Small Business Status (SBS)** is one of the most widely used. It lets an eligible Individual Entrepreneur operate with **significantly reduced tax rates and simplified accounting**, which makes it popular with freelancers, traders, IT contractors and small service providers.
+Among Georgia's **[special tax regimes](/en/special-tax-regimes-georgia)**, **Small Business Status (SBS)** is one of the most popular. Available to eligible Individual Entrepreneurs, it combines **low turnover tax rates with simplified accounting and reporting**, making it an attractive option for freelancers, IT professionals, digital entrepreneurs, traders and many other small businesses.
 
-This guide covers who can obtain the status, the 1%/3% rates and thresholds, which income falls outside the regime, the accounting and filing duties, the rules on hiring people, how to activate the status and how it ends. To register the underlying Individual Entrepreneur, see **[how to register an Individual Entrepreneur remotely](/en/register-individual-entrepreneur-remotely)**.
+This guide explains who qualifies for the status, the **1% and 3% tax rates**, turnover thresholds, which activities and income fall outside the regime, accounting and reporting obligations, the rules on employing staff, how to obtain the status, and the circumstances in which it may be terminated. If you have not yet registered as an Individual Entrepreneur, see **[how to register an Individual Entrepreneur remotely](/en/register-individual-entrepreneur-remotely)**.
 
-> **Read the prohibited-activities list before you plan around this regime.** It is longer than most people expect, and **"consulting (including tax consulting)" is on it**. If your intended activity is advisory in nature, do not assume the 1% rate is available to you. Try the **[Small Business Activity Checker](/en/small-business-activity-checker)** — search your activity code and see whether it is prohibited, sits in the grey zone, or appears clear. The full list is set out below.
+> **Review the list of prohibited activities before choosing this tax regime.** It is broader than many people expect and includes **consulting (including tax consulting)**. If your intended activity involves providing advice or consultancy services, do not assume that **Small Business Status** or the **1% tax rate** will be available. Try the **[Small Business Activity Checker](/en/small-business-activity-checker)** — search your activity code and see whether it is prohibited, sits in the grey zone, or appears clear. The full list is set out below.
 
 <svg class="diagram" viewBox="0 0 640 300" role="img" aria-label="How Small Business Status begins, runs and ends.">
   <rect class="box box--key" x="20" y="30" width="150" height="60" rx="6"/>
@@ -74,64 +76,71 @@ This guide covers who can obtain the status, the 1%/3% rates and thresholds, whi
 
 ## Who can obtain it
 
-Small Business Status may be granted to a **natural person who carries out entrepreneurial activity and is registered with the tax authority as an entrepreneurial natural person**. In practice the person must:
 
-- be a **natural person**, not a company;
-- carry out **economic activity independently**;
-- be **registered for tax purposes** with the tax authority.
+**Small Business Status** may be granted to a **natural person who carries out entrepreneurial activity and is registered with the tax authority as an entrepreneurial natural person (Individual Entrepreneur)**.
 
-A person may hold the status **even if they are registered as a VAT payer**. A person **cannot** obtain it if they carry out an activity that is prohibited for small business (see below); if such an activity is carried out, the status may be refused or cancelled.
+In practice, the applicant must:
+
+- be a **natural person**, rather than a company or other legal entity;
+- carry out **entrepreneurial activity independently**;
+- be **registered with the Revenue Service** as an Individual Entrepreneur.
+
+Holding **VAT registration** does **not** prevent a person from obtaining or retaining Small Business Status.
+
+However, a person is **not eligible** if they carry out an activity that is prohibited under the Small Business Status regime (see below). If a prohibited activity is undertaken, the Revenue Service may refuse to grant the status or revoke it.
 
 ## How to activate the status
 
-Registering the Individual Entrepreneur and obtaining Small Business Status are **two separate steps**, and the second does not happen automatically. The procedure sits in the instruction approved by **Order of the Minister of Finance No 999**.
+Registering the Individual Entrepreneur and obtaining Small Business Status are **two separate steps**, and the second does not happen automatically. 
 
 **Step 1 — be an Individual Entrepreneur.** The status can be granted only to a **natural person who is an entrepreneurial natural person and is on the tax register**. If you are not yet registered, register the IE first — see [remotely](/en/register-individual-entrepreneur-remotely) or [in person](/en/register-individual-entrepreneur-in-person-georgia).
 
-**Step 2 — apply to the tax authority.** The application is made on the prescribed form to the tax authority **at the place of your tax registration**. In practice this goes through the Revenue Service (rs.ge).
+**Step 2 — apply to the Revenue Service.** Submit the prescribed application form to the **Revenue Service** at the place of your tax registration. In practice, the application is filed through the Revenue Service (**rs.ge**).
 
-**Step 3 — the certificate.** The tax authority reviews the application and, if it is granted, **issues the Small Business certificate within 2 working days** of receiving it. The **date the status takes effect is recorded on the certificate**, and the status runs **from the day the certificate is issued**.
+**Step 3 — receive the Small Business certificate.** The Revenue Service reviews the application and, if approved, **issues the Small Business certificate within 2 working days** of receiving it. The certificate specifies **the date on which the status takes effect**, and the status is effective **from the date of issue**.
 
-The certificate has **no expiry date**: it stays valid for subsequent reporting periods for as long as the status is not cancelled. There is nothing to renew.
+The certificate **does not expire**. Once granted, **Small Business Status remains valid for subsequent reporting periods until it is cancelled or revoked in accordance with the law**. There is **no renewal requirement**.
 
-**Moving up from Micro Business Status.** A person who already holds [Micro Business Status](/en/micro-business-status-georgia) and wants Small Business Status applies in the same way — the micro status is cancelled and the small business status granted through the same application.
+**Moving up from Micro Business Status.** A person who already holds **[Micro Business Status](/en/micro-business-status-georgia)** may apply for **Small Business Status** using the same procedure. Upon approval, the **Micro Business Status is cancelled and the Small Business Status is granted** through the same application.
 
 ## The tax rate
 
-The ordinary rate under Small Business Status is **1%** of income that falls under the special regime.
+The standard tax rate under **Small Business Status** is **1%** of income that falls within the special tax regime.
 
-If income from economic activity exceeds **GEL 500,000** during the calendar year, the rate becomes **3%**. For **wine tourism and agritourism**, the relevant threshold is **GEL 700,000**.
+If **annual income from economic activity** exceeds **GEL 500,000** during a calendar year, the rate increases to **3%**. For persons engaged in **wine tourism** or **agritourism**, the relevant threshold is **GEL 700,000**.
 
-An important detail: the **3% rate applies from the beginning of the month in which the threshold is exceeded**, and it remains in force until the end of that calendar year. It does not retroactively recalculate the earlier months of the same year at 3%.
+The higher rate **does not apply retroactively**. Instead, the **3% rate applies from the beginning of the month in which the relevant threshold is exceeded** and remains in force **until the end of that calendar year**.
 
-| Situation | Rate |
-| --- | --- |
-| Qualifying income within the threshold | 1% |
-| From the month income exceeds GEL 500,000 (general) | 3% |
-| From the month income exceeds GEL 700,000 (wine tourism / agritourism) | 3% |
+| Annual income from economic activity               | Tax rate |
+| -------------------------------------------------- | -------- |
+| Up to **GEL 500,000** (general rule)               | **1%**   |
+| Over **GEL 500,000** (general rule)*               | **3%**   |
+| Up to **GEL 700,000** (wine tourism / agritourism) | **1%**   |
+| Over **GEL 700,000** (wine tourism / agritourism)* | **3%**   |
+
+The 3% rate applies from the beginning of the month in which the relevant threshold is exceeded and remains in force until the end of that calendar year.
 
 ## Which income is taxed under the regime
 
-The special regime generally applies to **Georgian-source income from economic activity**. **Salary is not included.**
+The special tax regime applies to **qualifying Georgian-source income from economic activity**. **Employment income (salary) is not covered by the regime** and is taxed under the ordinary rules.
 
-Not all income of a small-business person is taxed at 1% or 3%. The law separates income into:
+Not all income earned by a person holding **Small Business Status** is taxed at **1% or 3%**. The law distinguishes between:
 
-- income taxed under the **special small-business regime**;
-- income listed by the Government that is taxed under the **ordinary regime**;
-- other income also taxed under the **ordinary rules**.
+- **qualifying income** taxed under the **Small Business Status regime**;
+- income specified by the Government that is **excluded from the regime** and taxed under the **ordinary rules**; and
+- other income that is likewise taxed under the **ordinary tax rules**.
 
-So a person may hold Small Business Status and still receive some income taxed normally. In particular, the following are **not** taxed under the small-business regime and are **not** counted toward its total income:
+Accordingly, a person may hold **Small Business Status** while also receiving income that is taxed under the ordinary rules. The following types of income **are not taxed under the Small Business Status regime** and **are not counted when calculating the annual gross income threshold for the regime**:
 
-- income from **leasing or renting out immovable property**;
-- income from **granting a loan**;
-- **winnings from gambling**;
-- **gifts**;
-- **excess income from selling** immovable property, a motor vehicle or securities;
-- income in the form of **inherited property**;
-- income in the form of **dividends**, **interest** or **royalties**;
-- income from **forgiveness of debt**;
-- **excess income from selling a partner's share**;
-- income from **construction, civil-engineering and specialised construction services** (Group 41.2 of the National Classifier SEC 006-2016) where the recipient is an enterprise, organisation or entrepreneurial natural person.
+**Activities, performance of which prevents the granting of Small Business Status to an entrepreneurial natural person**
+
+- Activities that **require licensing or a permit**, except for the activity provided for in **the Law of Georgia “On Licenses and Permits”** (“permit for transportation of passengers by light automobile – taxi (M1 category) in the capital city of Georgia”)
+- Activities whose performance **requires significant investment** (production of excisable goods)
+- Carrying out **foreign currency operations**
+- **Medical, architectural, legal advocacy or notarial, auditing, consulting (including tax consulting)** activities
+- **Gambling business**
+- **Provision of personnel (staffing services)**
+- **Production of excisable goods**
 
 For how this interacts with the standard rate and territorial taxation, see **[Personal Income Tax in Georgia](/en/personal-income-tax-georgia)**.
 
@@ -205,17 +214,7 @@ Cancellation is not permanent. A person whose Small Business Status has been can
 
 Small Business Status is one of three **[special tax regimes](/en/special-tax-regimes-georgia)**. If your activity is below the micro threshold and you work alone, compare it with **[Micro Business Status (0% tax)](/en/micro-business-status-georgia)**; if you carry out a specific listed activity such as hairdressing or car repair, see **[Fixed Taxpayer Status](/en/fixed-taxpayer-status-georgia)**. For the broader map of business statuses, see **[Business Statuses in Georgia](/en/business-statuses-georgia)**.
 
-## Legal sources
 
-Three instruments govern this status, and it is worth knowing which one answers which question.
-
-| Instrument | What it settles | Document |
-| --- | --- | --- |
-| **Tax Code of Georgia**, Chapter XII | The status itself (Art. 88), how it is granted, cancelled and re-granted (Art. 89), the rate and the taxable base | matsne doc 1043717 |
-| **Government Ordinance No 415** of 29 December 2010 — *On Special Taxation Regimes* | **Annex 4:** the prohibited activities. **Annex 5:** the income types that fall outside the regime | matsne doc 1164635 |
-| **Order of the Minister of Finance No 999** of 31 December 2010 — *On the Application of Special Taxation Regimes* | The procedure: the application, the 2-working-day certificate, the declaration form, and the special expense journal | matsne doc 1168081 |
-
-Both the Ordinance and the Order are amended often — Ordinance No 415 has run to fifteen consolidated versions (most recently 24 January 2025) and Order No 999 to twenty (most recently 5 February 2026).
 
 ## A note on verification
 
