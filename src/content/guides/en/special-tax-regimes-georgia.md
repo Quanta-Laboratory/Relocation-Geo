@@ -4,7 +4,7 @@ category: tax
 lang: en
 summary: Georgia offers three simplified tax regimes for individuals and small entrepreneurs instead of the standard system. Micro Business Status taxes qualifying activity at 0% up to GEL 30,000 of annual turnover. Small Business Status taxes turnover at 1% (rising to 3% above GEL 500,000). Fixed Taxpayer Status replaces income-based tax with a set monthly amount for a short list of specific activities such as bakeries, hairdressing and car repair. Each regime is granted by the Revenue Service on application, keeps its own conditions and excluded activities, and does not remove VAT obligations. This overview maps the three regimes and links to the detailed guide for each.
 reviewed: 2026-07-10
-checked: 2026-07-26
+checked: 2026-07-27
 order: 5
 sources:
   - name: Tax Code of Georgia (Legislative Herald)
