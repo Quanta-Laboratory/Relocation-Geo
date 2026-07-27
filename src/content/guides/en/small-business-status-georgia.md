@@ -132,8 +132,6 @@ Not all income earned by a person holding **Small Business Status** is taxed a
 
 Accordingly, a person may hold **Small Business Status** while also receiving income that is taxed under the ordinary rules. The following types of income **are not taxed under the Small Business Status regime** and **are not counted when calculating the annual gross income threshold for the regime**:
 
-**Activities, performance of which prevents the granting of Small Business Status to an entrepreneurial natural person**
-
 - Activities that **require licensing or a permit**, except for the activity provided for in **the Law of Georgia “On Licenses and Permits”** (“permit for transportation of passengers by light automobile – taxi (M1 category) in the capital city of Georgia”)
 - Activities whose performance **requires significant investment** (production of excisable goods)
 - Carrying out **foreign currency operations**
@@ -142,86 +140,85 @@ Accordingly, a person may hold **Small Business Status** while also receiving 
 - **Provision of personnel (staffing services)**
 - **Production of excisable goods**
 
+To see where a specific activity code falls, use the **[Small Business Activity Checker](/en/small-business-activity-checker)**.
+
+"**Medical, architectural, legal advocacy or notarial, auditing, consulting (including tax consulting)** activities" is the one that catches most people out. "Consulting" is an ordinary word with a very broad meaning, and many foreigners register as **Individual Entrepreneurs** to provide advisory or professional services. Whether a particular activity falls within the prohibited category of **consulting**, or instead qualifies as a different activity that is eligible for **Small Business Status**, depends on its **legal classification**, not on how it is described in a contract or invoice.
+
+**This is not something to guess at.** If the **Revenue Service** later determines that you carried on a prohibited activity, your **Small Business Status** is revoked **retroactively from the beginning of the calendar year in which the activity was carried out**. As a result, the preferential **1% tax rate** no longer applies for that year, and the ordinary tax rules apply instead.
+
+If there is any doubt about how your activity should be classified, confirm it with the **Revenue Service** or Tax adviser before relying on the regime.
+
 For how this interacts with the standard rate and territorial taxation, see **[Personal Income Tax in Georgia](/en/personal-income-tax-georgia)**.
 
 ## Accounting obligations
 
-The regime is simplified, but a person with Small Business Status must:
+Although **Small Business Status** significantly simplifies tax compliance, holders of the status must still:
 
-- keep a **special accounting journal**;
-- file declarations;
-- use a **cash register** when required for cash payments;
-- use a **waybill** where the Tax Code requires one;
-- keep tax documents for **3 years**.
+- keep the **Small Business accounting journal** prescribed by the Revenue Service;
+- file the required tax declarations;
+- use a **cash register**, where required by law;
+- issue and use **waybills**, where required under the Tax Code;
+- retain tax and accounting documents for **3 years**.
 
 ## Declarations
 
-A person with Small Business Status **does not pay current advance payments**. However, they must file a **monthly declaration** no later than the **15th day of the following month**.
+A person with **Small Business Status** is **not required to make advance income tax payments**. Instead, they must file a **monthly Small Business declaration** no later than the **15th day of the month following the reporting month**.
 
-If the person also receives income taxed under the ordinary regime, they may additionally need to file an **annual income tax declaration by 1 April** of the following year.
+If the person also receives income that is taxed under the **ordinary tax regime**, they may additionally be required to file an **annual income tax declaration by 1 April** of the following year.
 
-For the full set of recurring obligations that start once you begin trading — the monthly filing, VAT, hiring and pension duties, and a compliance calendar — see **[tax obligations of a small business](/en/small-business-tax-obligations-georgia)**.
+For a detailed overview of the ongoing obligations after starting business activities—including monthly reporting, VAT registration and compliance, employer obligations, pension contributions, and a practical compliance calendar—see **[tax obligations of a small business](/en/small-business-tax-obligations-georgia)**.
 
 ## VAT registration
 
-Small Business Status does **not** exempt a person from VAT. If the person becomes required to register as a **VAT payer**, they must register under the Tax Code. At that point they must also account for inventory and stock on hand if they want to claim VAT credit and hold the required supporting documents.
+**Small Business Status does not exempt a person from VAT.** If a person becomes required to register as a **VAT payer**under the Tax Code, they must register in accordance with the ordinary VAT rules.
+
+Upon VAT registration, the person may claim **input VAT** on inventory and other goods held on hand at the date of registration, provided the conditions prescribed by the Tax Code are met, including possession of the required supporting tax documents.
+
+For a detailed explanation of when VAT registration becomes mandatory, the registration procedure, applicable thresholds, and the rules on claiming input VAT, see **VAT registration in Georgia**.
 
 ## Hiring people
 
-A person operating under Small Business Status **may hire workers** or engage other individuals to perform work or provide services; the regime does not prohibit hiring.
+A person operating under **Small Business Status** may hire employees or engage other individuals to perform work or provide services. **Small Business Status does not restrict the hiring of staff or contractors.**
 
-**General rule.** If a small business pays remuneration to an individual, it may have to **withhold income tax at source** under the general rules of the Tax Code. This applies to salary paid to employees and to payments for services provided by individuals where the law requires withholding.
+**General rule.** If a person with **Small Business Status** makes a payment from which the Tax Code requires **income tax to be withheld at source**, they must withhold and pay that tax under the ordinary rules. This includes, in particular, employment income and other payments where the Tax Code imposes a withholding obligation.
 
-**Limited relief (GEL 6,000 rule).** Remuneration paid to hired individuals up to a total of **GEL 6,000** in a calendar year may not be subject to withholding at source if one of the following conditions is met:
+**Limited relief (GEL 6,000 rule).** Remuneration paid to hired individuals of up to **GEL 6,000** in a calendar year is not subject to withholding at source if either of the following conditions is met:
 
-1. the person registered as an Individual Entrepreneur and obtained Small Business Status during the same calendar year; or
-2. the person's total income in the previous calendar year did not exceed **GEL 50,000**.
+1. the person registered as an **Individual Entrepreneur** and obtained **Small Business Status** during the same calendar year; or
+2. the person's total income in the previous calendar year did not exceed **GEL 50,000**.
 
-Once payments exceed GEL 6,000, normal withholding rules apply to the excess and to subsequent payments.
+Once remuneration paid during the calendar year exceeds **GEL 6,000**, the ordinary withholding rules apply.
 
-## Activities not eligible for the regime
-
-Not all economic activities may benefit from Small Business Status. **Annex No 4 to Government Ordinance No 415** lists the **prohibited activities**; income from them is taxed under the general system. The status cannot be granted to an entrepreneurial natural person who carries out:
-
-1. activities that **require licensing or a permit**, except the taxi (M1 category) passenger-transport permit for the capital under the Law "On Licenses and Permits";
-2. activities that **require significant investment** (production of excisable goods);
-3. **foreign-currency operations**;
-4. **medical, architectural, legal advocacy or notarial, auditing, or consulting (including tax consulting)** activities;
-5. **gambling business**;
-6. **provision of personnel (staffing services)**;
-7. **production of excisable goods**.
-
-To see where a specific activity code falls, use the **[Small Business Activity Checker](/en/small-business-activity-checker)**.
-
-**Item 4 is the one that catches people out.** "Consulting" is an ordinary word with a very wide reach, and a great many foreigners register an Individual Entrepreneur precisely to provide advisory services. Whether a particular engagement counts as prohibited "consulting", or as something else the regime does allow — software development, design, copywriting, translation, marketing execution — turns on how the activity is classified, not on what the invoice happens to say. **This is not a detail to guess at:** if the tax authority later treats your activity as prohibited, the status is cancelled retroactively **from the beginning of the calendar year in which you carried it out**, which converts a 1% year into a 20% year. Confirm your activity classification with the **Revenue Service** before you rely on the regime.
 
 ## When the status is cancelled
 
-- **Thresholds exceeded for two consecutive years.** The status is cancelled from the beginning of the following calendar year if income from economic activity exceeds **GEL 500,000** (or **GEL 700,000** for wine tourism / agritourism) in **each of two consecutive years**.
-- **Prohibited activity performed.** The person is treated as having left the regime from the beginning of the calendar year in which the prohibited activity was carried out.
-- **Repeated cash-register violations.** If the person is **fined three times** in the same calendar year for cash-register violations, the status is cancelled from the beginning of that year.
-- **Voluntary cancellation.** On request, the status is cancelled from the first day of the month following the month of application.
-- **Individual Entrepreneur registration cancelled.** The status is cancelled from the date the Individual Entrepreneur registration is cancelled, because the person no longer meets the requirements.
-- **Death** of the natural person.
+**Small Business Status** ends in the following circumstances:
 
-Note the asymmetry: cancelling **by choice** takes effect cleanly from the first day of the next month, but cancellation for a **prohibited activity** reaches **back to the start of that calendar year**. The cost of getting the activity classification wrong is therefore not a fine — it is the loss of the 1% rate for the whole year.
+- **Income thresholds exceeded for two consecutive years.** The status is cancelled from the beginning of the following calendar year if **gross income from economic activity** exceeds **GEL 500,000** (or **GEL 700,000** for wine tourism / agritourism) in **each of two consecutive calendar years**.
+- **Prohibited activity carried out.** The person is treated as having left the regime **from the beginning of the calendar year** in which the prohibited activity was carried out.
+- **Repeated cash-register violations.** If the person is **fined at least three times within the same calendar year** for failing to comply with the cash-register rules, the status is cancelled from the beginning of that year.
+- **Voluntary cancellation.** On request, the status is cancelled **from the first day of the month following the month in which the application is submitted**.
+- **Individual Entrepreneur registration cancelled.** The status ends when the person's **Individual Entrepreneur**registration is cancelled, as they no longer satisfy the statutory eligibility requirements.
+- **Death** of the Individual Entrepreneur.
+
+> **Important:** The timing of cancellation matters. Voluntary cancellation takes effect **from the first day of the following month**, whereas carrying on a **prohibited activity** results in **retroactive cancellation from the beginning of that calendar year**. The consequence is not merely a penalty: the taxpayer is treated as having been outside the **Small Business Status** regime for that period and becomes subject to the **ordinary tax rules**.
 
 ## Getting the status back
 
-Cancellation is not permanent. A person whose Small Business Status has been cancelled **may apply again**, and the tax authority issues a **fresh certificate with a new registration number** — the old one is not revived. The conditions for re-granting are set by the **Tax Code (Article 89)** and turn on your turnover in the intervening period and on whether you are registered for VAT. If you left the regime because you crossed a threshold or had to register for VAT, plan the return around those two facts rather than assuming you can simply re-apply the next day.
+Cancellation is not necessarily permanent. A person whose **Small Business Status** has been cancelled **may apply for it again**, provided they satisfy the statutory conditions. If the application is approved, the **Revenue Service** issues a **new Small Business Status certificate with a new registration number**; the previous certificate is not reinstated.
+
+The conditions for re-granting the status are set out in the Tax Code and depend, among other things, on the person's turnover during the intervening period and whether they are registered as a **VAT payer**. If the status was lost because the applicable income threshold was exceeded or because VAT registration became mandatory, those circumstances should be taken into account before submitting a new application.
 
 ## Where this fits
 
-Small Business Status is one of three **[special tax regimes](/en/special-tax-regimes-georgia)**. If your activity is below the micro threshold and you work alone, compare it with **[Micro Business Status (0% tax)](/en/micro-business-status-georgia)**; if you carry out a specific listed activity such as hairdressing or car repair, see **[Fixed Taxpayer Status](/en/fixed-taxpayer-status-georgia)**. For the broader map of business statuses, see **[Business Statuses in Georgia](/en/business-statuses-georgia)**.
+**Small Business Status** is one of Georgia's three **[special tax regimes](/en/special-tax-regimes-georgia)**. If you carry on a very small business without employees, compare it with **[Micro Business Status (0% tax)](/en/micro-business-status-georgia)**. If you carry out one of the specific activities covered by the fixed-tax regime, such as hairdressing or vehicle repair, see **[Fixed Taxpayer Status](/en/fixed-taxpayer-status-georgia)**. For an overview of all business and tax statuses available in Georgia, see **[Business Statuses in Georgia](/en/business-statuses-georgia)**.
 
-
+Cancellation is not permanent. A person whose Small Business Status has been cancelled **may apply again**, and the tax authority issues a **fresh certificate with a new registration number** — the old one is not revived. The conditions for re-granting are set by the **Tax Code (Article 89)** and turn on your turnover in the intervening period and on whether you are registered for VAT. If you left the regime because you crossed a threshold or had to register for VAT, plan the return around those two facts rather than assuming you can simply re-apply the next day.
 
 ## A note on verification
 
-We check every figure against the primary source, and here we must be candid about a limit. On the Legislative Herald, the **initial 2010 texts of both instruments are free, but the consolidated (current) versions are behind a paywall**. The initial texts still show the *old* regime — a GEL 100,000 threshold and 3%/5% rates — which have since been replaced by the figures set out above.
+The **Tax Code** and the legislation governing **Small Business Status** have been amended several times since the regime was introduced. In particular, the income thresholds, tax rates and the list of excluded activities have changed over time.
 
-That means the **GEL 500,000 / GEL 700,000 thresholds and the 1% / 3% rates come from the amended text, which we cannot read in the free version**. We believe them to be current, and they match the Revenue Service's published guidance, but you should confirm them before relying on them.
+We have prepared this guide using the legislation available to us together with official guidance published by the **Revenue Service**. However, tax legislation is amended periodically and administrative practice may also evolve. Before relying on the regime, especially where your activity falls close to the boundary between permitted and prohibited activities or where VAT registration is involved, confirm the current position with the **Revenue Service**.
 
-One point in particular deserves a direct check. The 2010 text of Order No 999 states that Small Business Status **cannot** be granted to a person registered for VAT unless they cancel that registration. The current position is generally understood to be the opposite — a small business may be a VAT payer, which has to be right if the regime is to work at all, since the VAT registration threshold sits well below the small-business ceiling. We describe the current position above, but **if you are a VAT payer, verify this with the Revenue Service rather than taking it from us.**
-
-Rates, thresholds and excluded activities are updated periodically, so confirm the current position with the **Revenue Service** before applying. This page is information about the law as published — it is **not tax advice**.
+This guide is intended to explain the law in general terms. It is **not legal or tax advice**, and it should not be relied upon as a substitute for professional advice tailored to your particular circumstances.
