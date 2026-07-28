@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: en
 summary: You may bring cats, dogs and ferrets into Georgia as a non-commercial movement if each animal is identified by an ISO microchip, has a valid rabies vaccination and rabies antibody titration test, has been treated against parasites, and travels with a completed veterinary Health Certificate (an EU pet passport or equivalent is accepted). Up to five animals may accompany one owner. The rules are set by Government Resolution No 551 (2018) and enforced at the border by the Revenue Service, under the veterinary control of the National Food Agency.
 reviewed: 2026-07-10
-checked: 2026-07-27
+checked: 2026-07-28
 order: 6
 sources:
   - name: National Food Agency of Georgia (competent veterinary authority)
