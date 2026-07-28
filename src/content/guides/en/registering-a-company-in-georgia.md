@@ -27,6 +27,7 @@ faq:
 order: 2
 tags:
   - business
+  - company
 ---
 
 
