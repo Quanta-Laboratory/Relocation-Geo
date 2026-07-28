@@ -2,7 +2,7 @@
 title: "Double Tax Treaties (DTAA) in Georgia: The Full Country List and How They Work (2026)"
 category: tax
 lang: en
-summary: Georgia has 58 double-taxation treaties in force, all based on the OECD Model Convention. They stop the same income being taxed twice by allocating taxing rights between Georgia and the treaty partner, capping withholding tax on dividends, interest and royalties, and providing tie-breaker rules where a person is resident in both countries. To use a treaty you generally need a Georgian tax-residency certificate, and benefits are claimed under the procedure in the Minister of Finance's Decree N633. Thirty-four of the 58 treaties are also modified by the multilateral BEPS instrument (MLI), which adds anti-abuse rules. This guide lists every treaty partner, explains how relief works in practice, and points to the official texts and withholding-rate table, checked against the Ministry of Finance's primary source.
+summary: Georgia has 58 double-taxation treaties in force, all based on the OECD Model Convention. They stop the same income being taxed twice by allocating taxing rights between Georgia and the treaty partner, capping withholding tax on dividends, interest and royalties, and providing tie-breaker rules where a person is resident in both countries. To use a treaty you generally need a Georgian tax-residency certificate, and benefits are claimed under the procedure in the Minister of Finance's Decree. Thirty-four of the 58 treaties are also modified by the multilateral BEPS instrument (MLI), which adds anti-abuse rules.
 reviewed: 2026-06-30
 checked: 2026-07-28
 order: 4
@@ -31,49 +31,60 @@ faq:
 tags:
   - tax
 ---
+A **double taxation treaty (DTT)** (also referred to as a **double taxation agreement (DTA)** or **double taxation avoidance agreement (DTAA)**) is an agreement between two countries that prevents the **same income from being taxed twice** and allocates taxing rights between them to reduce double taxation and combat tax evasion.
 
-A double-taxation treaty (a **DTA**, also called a **DTAA**) is an agreement between two countries that stops the **same income being taxed twice** and sets rules to prevent tax evasion. Georgia has built a wide network: **58 treaties are in force**, all modelled on the **OECD Model Tax Convention**. For anyone with income, assets or business spanning Georgia and another country, these treaties are what make the [territorial tax system](https://relocation.ge/en/personal-income-tax-georgia/) workable across borders. This guide lists every partner, explains how the relief actually works, and points to the official texts — checked against the **Ministry of Finance's primary source**.
+Georgia has an extensive treaty network, with **58 double taxation treaties currently in force**, all broadly based on the **OECD Model Tax Convention**. These treaties are an important complement to Georgia's  [territorial tax system](https://relocation.ge/en/personal-income-tax-georgia/)  for individuals and businesses with cross-border income, investments or commercial activities.
+
 
 ## What a treaty does
 
-Georgia's treaties follow the OECD model, so they all work in broadly the same way and do three things.
+Although each treaty differs in its details, Georgia's double taxation treaties are all broadly based on the **OECD Model Tax Convention** and serve the same core purposes.
 
-They **allocate taxing rights** between the two countries for each type of income — employment, business profits, dividends, interest, royalties, capital gains and so on — deciding whether the **source** country, the **residence** country, or both may tax it.
+They:
 
-They **cap withholding tax** that the source country can levy on cross-border **dividends, interest and royalties**. These caps are often well below domestic rates and in a number of Georgian treaties fall to **0%**.
+- **allocate taxing rights** between the two countries for different categories of income, such as employment income, business profits, dividends, interest, royalties and capital gains, determining whether the **source state**, the **state of residence**, or both may tax the income;
+- **limit withholding tax** on cross-border **dividends, interest and royalties**, often reducing the applicable rate below domestic law and, under some Georgian treaties, to **0%**; and
+- **prevent double taxation** by providing **tie-breaker rules** where an individual is treated as resident in both countries and by requiring the residence state to grant relief—typically through a **foreign tax credit**—where the same income is taxed in both jurisdictions.
 
-They provide **tie-breaker rules** to settle a **single country of residence** where a person would otherwise be resident in both — and, where income remains taxable in both states, they give **relief**, usually a **credit** in the residence country for tax paid at source.
+The key point is that a treaty **does not eliminate tax**. It determines **which country has the right to tax particular income** and ensures that the same income is **not taxed twice**.
 
-The key point: a treaty **prevents double taxation; it does not abolish tax**. It decides who taxes what.
+## Georgia's double taxation treaty network
 
-## The full list of treaty partners
+Georgia currently has **58 double taxation treaties** in force with the following countries:
 
-Georgia has double-taxation treaties in force with the following **58 countries**:
+Armenia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Bulgaria, China, Croatia, Cyprus, Czech Republic, Denmark, Egypt, Estonia, Finland, France, Germany, Greece, Hong Kong, Hungary, Iceland, India, Iran, Ireland, Israel, Italy, Japan, Kazakhstan, South Korea, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Netherlands, Norway, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, and Uzbekistan.
 
-Armenia, Austria, Azerbaijan, Bahrain, Belarus, Belgium, Bulgaria, China, Croatia, Cyprus, Czech Republic, Denmark, Egypt, Estonia, Finland, France, Germany, Greece, Hong Kong, Hungary, Iceland, India, Iran, Ireland, Israel, Italy, Japan, Kazakhstan, Korea (South), Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Netherlands, Norway, Poland, Portugal, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, and Uzbekistan.
+The applicable **withholding tax rates** and **permanent establishment thresholds** vary from treaty to treaty and depend on the type of income concerned.
 
-Withholding rates and permanent-establishment thresholds **vary by country and by income type**. Several treaties — among them **Cyprus, Bahrain, Estonia, Liechtenstein, Malta, Qatar, San Marino, Singapore and the United Arab Emirates** — reduce withholding on dividends, interest and royalties to **0%** in common cases, while others keep rates of 5%, 10% or higher. The Ministry of Finance publishes a **per-country rate table** alongside each treaty text; always check the specific figures for your situation rather than assuming a rate.
+Several treaties—including those with **Bahrain, Cyprus, Estonia, Liechtenstein, Malta, Qatar, San Marino, Singapore, and the United Arab Emirates**—provide for **0% withholding tax** on certain categories of dividends, interest or royalties where the relevant treaty conditions are met. Other treaties prescribe rates of **5%, 10% or higher**.
 
-## How to claim treaty benefits
+The **Ministry of Finance** publishes the text of each treaty together with a **country-specific summary of the applicable withholding tax rates**. Always check the relevant treaty before relying on a particular rate, as the applicable treatment depends on both the treaty provisions and the facts of the particular case.
 
-Claiming relief is a procedural matter governed by **Decree N633 of the Minister of Finance, dated 28 December 2011**, which sets the rules for benefiting from relief under a double-taxation treaty and for repaying tax paid by non-residents in Georgia.
+## Claiming treaty benefits
 
-In practice the steps are:
+The procedure for claiming relief under a double taxation treaty is governed by **Order No. 633 of the Minister of Finance of 28 December 2011**, which regulates the application of treaty benefits and the refund of tax overpaid by non-residents in Georgia.
 
-Establish **residency** — obtain a **tax-residency certificate** (from the Revenue Service for the Georgian side) proving which country you are resident in. This is almost always the gateway document; see the **[tax residency guide](https://relocation.ge/en/tax-residency-georgia/)**.
+In practice, the process usually involves two steps:
 
-Apply the **right rate at source** — for cross-border payments such as dividends, interest or royalties, the payer can often apply the **reduced treaty rate** directly if the recipient provides the residency certificate and the documentation the decree requires; otherwise tax is withheld at the domestic rate and a **refund** is claimed afterward under N633.
+1. **Obtain a tax residency certificate.** The taxpayer must obtain a **tax residency certificate** from the competent tax authority of their country of residence (or from the **Revenue Service**, where Georgian tax residence is being claimed). This certificate confirms eligibility to claim treaty benefits. See **[Tax Residency in Georgia](/en/tax-residency-georgia)**.
+2. **Claim the treaty benefit.** Where the necessary documentation is available, the payer may apply the **reduced treaty withholding tax rate** when making the payment. If the domestic withholding tax has already been deducted, the recipient may instead apply for a **refund** under **Order No. 633**, subject to the prescribed conditions and procedures.
 
-Because the documentation and timing requirements are specific, work through them with an adviser for anything material.
+As the required documentation and procedural deadlines vary depending on the circumstances, taxpayers should verify the applicable requirements before relying on treaty relief.
 
-## The MLI: anti-abuse rules on top
+## The Multilateral Instrument (MLI)
 
-Georgia's treaties do not stand entirely still. Georgia signed the **Multilateral Convention to Implement Tax Treaty Related Measures to Prevent Base Erosion and Profit Shifting (the MLI)** on **7 June 2017**, and the **Parliament ratified it on 27 December 2018**.
+Georgia's tax treaty network is also affected by the **Multilateral Convention to Implement Tax Treaty Related Measures to Prevent Base Erosion and Profit Shifting (MLI)**.
 
-The MLI **modifies 34 of the 58 treaties**, layering in BEPS minimum-standard **anti-abuse rules** — most importantly a **principal-purpose test** that can **deny treaty benefits** to an arrangement whose main purpose was to obtain those benefits. For any MLI-covered treaty, the operative rules are the treaty **as modified by the MLI**, which the Ministry of Finance publishes as a **"synthesised text."** Read the two together.
+The MLI currently **modifies 34 of Georgia's 58 double taxation treaties** by introducing internationally agreed **anti-abuse rules** without requiring each treaty to be renegotiated individually.
 
-## Using treaties sensibly
+The most significant change is the **Principal Purpose Test (PPT)**. Under this rule, treaty benefits may be **denied** where obtaining those benefits was one of the principal purposes of an arrangement or transaction, unless granting the benefit is consistent with the object and purpose of the treaty.
 
-A treaty is a tool for **avoiding double taxation**, not a standalone way to pay no tax. It can reduce or eliminate withholding, settle dual residency and give credit relief — but it can still leave you taxable in one or both countries, and its anti-abuse rules increasingly defeat purely artificial structures. The right approach is to read the **specific treaty** (and the **MLI text** where it applies), secure the **residency certificate**, and take advice on the **N633** procedure.
+For treaties covered by the MLI, the applicable rules are the **original treaty as modified by the MLI**. The **Ministry of Finance** publishes these consolidated versions as **"synthesised texts"**, which should be consulted alongside the original treaty.
 
-This guide is general information, **not personal tax advice**. Treaty outcomes are country- and fact-specific, and the treaty network and its rates change over time, so confirm the current position from the **[Ministry of Finance list](https://www.mof.ge/en/doubleTaxation)** and a professional before acting.
+## Final points
+
+A double taxation treaty is designed to **prevent double taxation**, not to eliminate tax altogether. While a treaty may reduce withholding taxes, resolve dual tax residence or provide relief through a foreign tax credit, income may still be taxable in one or both countries.
+
+Before relying on a treaty, check the **relevant treaty**, the **MLI** (where applicable), and ensure you have the necessary **tax residency certificate** and supporting documentation.
+
+This guide provides **general information only** and **does not constitute legal or tax advice**. As treaty provisions, MLI modifications and administrative practice may change, always verify the current position using the **Ministry of Finance's official publications** **[Ministry of Finance list](https://www.mof.ge/en/doubleTaxation)** before taking actions. 
