@@ -147,7 +147,7 @@ The following income is excluded from the special tax regime:
 - Income from certain construction services, including residential and non-residential building construction, civil engineering and specialised construction services, where the recipient is an enterprise, organisation or entrepreneurial natural person.
 
 
-##Prohibited activities
+## Prohibited activities
 
 - **Activities requiring a licence or permit**, except for the activity provided for in the Law of Georgia on Licences and Permits ("Permit for the transportation of passengers by passenger car – taxi (Category M1) in the capital of Georgia").
 - Activities requiring significant investment (production of excisable goods).
