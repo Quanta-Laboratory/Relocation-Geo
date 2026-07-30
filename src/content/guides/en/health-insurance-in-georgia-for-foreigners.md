@@ -5,7 +5,7 @@ parent: health-in-georgia
 lang: en
 summary: From 1 January 2026, tourists entering Georgia — regardless of nationality or whether they arrive by air, land or sea — must hold health and accident insurance with a minimum sum insured of GEL 30,000, valid for their whole stay. Border authorities may check the policy and entry can be refused without it. Long-term residents generally rely on private insurance, as the state Universal Healthcare Program offers foreigners only limited free cover.
 reviewed: 2026-07-10
-checked: 2026-07-29
+checked: 2026-07-30
 sources:
   - name: Government of Georgia, Decree No 602 of 26 December 2025 (mandatory insurance for incoming tourists)
     url: https://matsne.gov.ge/ka/document/view/6728816
