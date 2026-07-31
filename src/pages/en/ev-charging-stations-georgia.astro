@@ -1,0 +1,380 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+// This page reads its data at runtime from /data/ev-charging-stations.json,
+// a snapshot aggregated from Open Charge Map + OpenStreetMap by
+// scripts/fetch-ev-stations.mjs (refreshed via a reviewed PR, not auto-merged).
+
+const checked = new Date().toISOString().slice(0, 10);
+
+const crumbs = [
+  { href: '/en/', label: 'Home' },
+  { href: '/en/#live', label: 'Live in Georgia' },
+  { label: 'EV Charging Map' },
+];
+
+const description =
+  'Interactive map of electric-vehicle charging stations across Georgia, aggregated from open data (Open Charge Map + OpenStreetMap), plus a practical guide to operators, connectors, apps and charging etiquette. Free and source-based.';
+
+const datasetLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'EV charging stations in Georgia',
+  description:
+    'Aggregated snapshot of public electric-vehicle charging stations in the country of Georgia, compiled from open community data.',
+  creator: { '@type': 'Organization', name: 'Relocation.ge' },
+  isBasedOn: ['https://openchargemap.org', 'https://www.openstreetmap.org'],
+  license: 'https://opendatacommons.org/licenses/odbl/1-0/',
+  spatialCoverage: { '@type': 'Place', name: 'Georgia' },
+};
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'What connector do most fast chargers in Georgia use?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Most DC fast chargers in Georgia use the CCS Combo 2 (CCS2) plug. CHAdeMO is available at some stations, and public AC chargers use the Type 2 connector.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How do you pay for EV charging in Georgia?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Most networks (E-Space, EcoCars, Da-tene, Charger Plus and others) require their own smartphone app to start a session and pay per kWh. Aggregator apps such as PlugShare help you find stations but cannot always start charging.',
+      },
+    },
+  ],
+};
+---
+<BaseLayout
+  title="EV Charging Stations in Georgia — Interactive Map"
+  description={description}
+  jsonLd={[datasetLd, faqLd]}
+>
+  <Breadcrumbs items={crumbs} />
+  <main id="main" class="wrap">
+    <h1>EV Charging Stations in Georgia</h1>
+    <p class="lede">
+      An interactive map of public electric-vehicle chargers across Georgia, built from
+      <strong>open community data</strong> — plus a practical guide to networks, connectors and
+      how charging actually works here.
+    </p>
+
+    <div class="hub-note">
+      <span class="hub-note__tag">Open data</span>
+      <span>
+        Points come from the <a href="https://www.emotors.ge/en/map" target="_blank" rel="noopener noreferrer">E-Motors / E-Space operator map</a>,
+        with <a href="https://openchargemap.org" target="_blank" rel="noopener noreferrer">Open Charge Map</a>
+        and <a href="https://www.openstreetmap.org" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> merged in.
+        There is no official government register of chargers, so coverage and accuracy vary —
+        always confirm a station in its operator app before you rely on it.
+      </span>
+    </div>
+
+    <!-- Filters -->
+    <form class="ev-controls" id="ev-controls" aria-label="Filter charging stations">
+      <div class="ev-controls__group" role="group" aria-label="Current type">
+        <label><input type="checkbox" class="f-current" value="DC" checked /> <span class="dot dot--dc"></span> DC fast</label>
+        <label><input type="checkbox" class="f-current" value="AC" checked /> <span class="dot dot--ac"></span> AC</label>
+        <label><input type="checkbox" class="f-current" value="unknown" checked /> <span class="dot dot--unk"></span> Unspecified</label>
+      </div>
+      <div class="ev-controls__group" role="group" aria-label="Connector type">
+        <label><input type="checkbox" class="f-conn" value="CCS2" checked /> CCS2</label>
+        <label><input type="checkbox" class="f-conn" value="CHAdeMO" checked /> CHAdeMO</label>
+        <label><input type="checkbox" class="f-conn" value="Type 2" checked /> Type 2</label>
+        <label><input type="checkbox" class="f-conn" value="__other" checked /> Other</label>
+      </div>
+      <label class="ev-search">
+        <span class="visually-hidden">Search by town or operator</span>
+        <input type="search" id="ev-search" placeholder="Search town or operator…" autocomplete="off" />
+      </label>
+      <p class="ev-count" id="ev-count" aria-live="polite"></p>
+    </form>
+
+    <div id="ev-map" role="application" aria-label="Map of EV charging stations in Georgia"></div>
+
+    <p class="ev-empty" id="ev-empty" hidden>
+      The station dataset has not been populated yet. Run
+      <code>npm run fetch:ev</code> (with a free Open Charge Map API key) or trigger the weekly
+      refresh workflow, then reload this page.
+    </p>
+
+    <p class="ev-attrib" id="ev-attrib"></p>
+
+    <!-- Practical guide -->
+    <section class="ev-section">
+      <h2>How EV charging works in Georgia</h2>
+      <p>
+        Georgia’s charging network has grown quickly and now reaches every major city and the main
+        highways, including the full <strong>Tbilisi–Batumi</strong> corridor. Coverage is thinnest
+        in remote mountain areas (for example Svaneti), so on those routes plan around known
+        chargers and carry a cable for a standard socket as a backup.
+      </p>
+    </section>
+
+    <section class="ev-section">
+      <h2>Charging networks</h2>
+      <p>
+        Several operators run public chargers, each with its own app for starting a session and
+        paying. The main ones people mention are:
+      </p>
+      <ul class="ev-list">
+        <li><strong>E-Space</strong> — Georgia’s first and largest network, with fast DC chargers on the highways and coverage in areas others skip (Kazbegi/Stepantsminda, Zugdidi, Kakheti). Many sit at SOCAR fuel stations.</li>
+        <li><strong>EcoCars</strong> — DC fast chargers in cities and along major routes, including spots such as Gudauri and central Kutaisi.</li>
+        <li><strong>Da-tene</strong> — fast chargers with good reach in Kakheti and around Akhaltsikhe (e.g. Telavi, Kvareli), plus Tbilisi, Batumi and the highway.</li>
+        <li><strong>Charger Plus</strong> — a newer network with locations including Gudauri and Lagodekhi.</li>
+        <li><strong>MOVEO</strong> — building out DC fast and ultra-fast chargers.</li>
+        <li><strong>ProCredit</strong> — a set of free-to-use chargers; its app does not show live availability, so check on arrival.</li>
+      </ul>
+      <p>
+        Aggregator apps — <a href="https://www.plugshare.com/" target="_blank" rel="noopener noreferrer">PlugShare</a> and
+        <a href="https://chargemap.com/" target="_blank" rel="noopener noreferrer">Chargemap</a> — are useful for
+        finding stations and reading driver reviews across networks, but they cannot always start a
+        charge on your behalf. Operator lists here come from the operators and aggregators, not a
+        government register, and change over time.
+      </p>
+    </section>
+
+    <section class="ev-section">
+      <h2>Connectors and charging levels</h2>
+      <p>Three levels are worth knowing, and which plug goes with each:</p>
+      <ul class="ev-list">
+        <li><strong>Level 1 — domestic socket (~220 V).</strong> Slowest; an emergency top-up only, using the portable cable that comes with most cars.</li>
+        <li><strong>Level 2 — AC, Type 2.</strong> The most common public AC charger (hotels, malls, car parks), typically 7–22 kW. Bring your own Type 2 cable, as these are often untethered.</li>
+        <li><strong>Level 3 — DC fast, CCS2.</strong> The quickest option on highways and at some fuel stations. Most modern EVs here use <strong>CCS Combo 2</strong>; <strong>CHAdeMO</strong> exists at some sites. Older cars may use Type 1 for AC.</li>
+      </ul>
+    </section>
+
+    <section class="ev-section">
+      <h2>Paying, etiquette and the cable rule</h2>
+      <p>
+        You generally pay per kWh through the network’s own app; some networks add an idle fee if
+        you stay plugged in after charging finishes, so check the app for the specific station. Free
+        options exist (e.g. ProCredit) but without live status.
+      </p>
+      <p>
+        Basic etiquette matters at busy sites: only occupy a stall while actively charging, and move
+        on once you are done — especially at fast chargers on road trips. Note a specific local rule:
+        an EV that occupies a designated charging space <strong>without a charging cable connected</strong>
+        can be fined <strong>100 GEL</strong>. As with all figures and rules on this page, confirm the
+        current position before you rely on it.
+      </p>
+    </section>
+
+    <p class="ev-crosslink">
+      See also: <a href="/en/driving-in-georgia">Driving in Georgia — licences &amp; car registration</a>
+      · <a href="/en/importing-a-car-to-georgia">Importing a car to Georgia</a>
+    </p>
+
+    <div class="sources">
+      <strong>Sources &amp; data</strong>
+      <ul>
+        <li><a href="https://www.emotors.ge/en/map" target="_blank" rel="noopener noreferrer">E-Motors / E-Space</a> — operator charger map (base layer)</li>
+        <li><a href="https://openchargemap.org" target="_blank" rel="noopener noreferrer">Open Charge Map</a> — station data (community-maintained, open licence)</li>
+        <li><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a> — station data (ODbL)</li>
+      </ul>
+    </div>
+
+    <p class="tool-foot">
+      <strong>Not legal, tax or safety advice.</strong> This map and guide structure publicly
+      available, community-maintained information; there is no official register of chargers in
+      Georgia, so networks, connectors, fees and rules change and individual stations may be
+      offline. Always confirm in the operator’s app before relying on a station. Last checked {checked}.
+    </p>
+  </main>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <script is:inline src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script is:inline>
+    const KNOWN_CONNECTORS = ['CCS2', 'CHAdeMO', 'Type 2'];
+    const COLORS = { DC: '#00703c', AC: '#1d70b8', unknown: '#505a5f' };
+
+    const map = L.map('ev-map', { scrollWheelZoom: false }).setView([42.0, 43.6], 7);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap contributors',
+    }).addTo(map);
+    map.on('focus', () => map.scrollWheelZoom.enable());
+    map.on('blur', () => map.scrollWheelZoom.disable());
+
+    const layer = L.layerGroup().addTo(map);
+    let stations = [];
+    let markers = [];
+
+    const esc = (s) =>
+      String(s == null ? '' : s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+    function popupHtml(s) {
+      const power = s.power_kw ? ` · ${s.power_kw} kW` : '';
+      const conns = s.connectors && s.connectors.length ? s.connectors.join(', ') : '—';
+      return (
+        `<strong>${esc(s.name || 'Charging station')}</strong><br>` +
+        `${esc(s.operator || 'Unknown operator')}${esc(s.town ? ' · ' + s.town : '')}<br>` +
+        `${esc(s.current)}${esc(power)}<br>` +
+        `Connectors: ${esc(conns)}<br>` +
+        (s.source_url ? `<a href="${esc(s.source_url)}" target="_blank" rel="noopener noreferrer">Details (${esc(s.source)})</a>` : '')
+      );
+    }
+
+    function build() {
+      markers = stations.map((s) => {
+        const m = L.circleMarker([s.lat, s.lng], {
+          radius: 6,
+          weight: 1,
+          color: '#fff',
+          fillColor: COLORS[s.current] || COLORS.unknown,
+          fillOpacity: 0.9,
+        }).bindPopup(popupHtml(s));
+        m._station = s;
+        return m;
+      });
+      applyFilters();
+    }
+
+    function currentFilters() {
+      const cur = [...document.querySelectorAll('.f-current:checked')].map((el) => el.value);
+      const conn = [...document.querySelectorAll('.f-conn:checked')].map((el) => el.value);
+      const q = (document.getElementById('ev-search').value || '').trim().toLowerCase();
+      return { cur, conn, q };
+    }
+
+    function matches(s, f) {
+      if (!f.cur.includes(s.current)) return false;
+      const list = s.connectors || [];
+      const hasKnown = list.some((c) => KNOWN_CONNECTORS.includes(c) && f.conn.includes(c));
+      const hasOther = (list.length === 0 || list.some((c) => !KNOWN_CONNECTORS.includes(c))) && f.conn.includes('__other');
+      if (!(hasKnown || hasOther)) return false;
+      if (f.q) {
+        const hay = `${s.name || ''} ${s.operator || ''} ${s.town || ''}`.toLowerCase();
+        if (!hay.includes(f.q)) return false;
+      }
+      return true;
+    }
+
+    function applyFilters() {
+      const f = currentFilters();
+      layer.clearLayers();
+      let shown = 0;
+      for (const m of markers) {
+        if (matches(m._station, f)) {
+          layer.addLayer(m);
+          shown++;
+        }
+      }
+      const total = stations.length;
+      const countEl = document.getElementById('ev-count');
+      countEl.textContent = total ? `Showing ${shown} of ${total} stations` : '';
+    }
+
+    async function load() {
+      try {
+        const res = await fetch('/data/ev-charging-stations.json', { cache: 'no-cache' });
+        const data = await res.json();
+        stations = Array.isArray(data.stations) ? data.stations : [];
+        const attrib = document.getElementById('ev-attrib');
+        if (data.meta && data.meta.generated) {
+          attrib.textContent = `Snapshot ${data.meta.generated.slice(0, 10)} · ${stations.length} stations · sources: ${(data.meta.sources || []).join(', ')}`;
+        }
+        if (!stations.length) {
+          document.getElementById('ev-empty').hidden = false;
+        } else {
+          const bounds = L.latLngBounds(stations.map((s) => [s.lat, s.lng]));
+          map.fitBounds(bounds.pad(0.1));
+        }
+        build();
+      } catch (e) {
+        document.getElementById('ev-empty').hidden = false;
+        document.getElementById('ev-empty').textContent =
+          'Could not load the station dataset. Please try again later.';
+      }
+    }
+
+    document.getElementById('ev-controls').addEventListener('change', applyFilters);
+    document.getElementById('ev-search').addEventListener('input', applyFilters);
+    load();
+  </script>
+
+  <style>
+    #ev-map {
+      height: 540px;
+      width: 100%;
+      border: 1px solid var(--grey-2);
+      background: var(--grey-3);
+      z-index: 0;
+    }
+    .ev-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px 22px;
+      margin: 10px 0 12px;
+      padding: 12px 14px;
+      background: var(--grey-3);
+      border: 1px solid var(--grey-4);
+    }
+    .ev-controls__group { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+    .ev-controls label { display: inline-flex; align-items: center; gap: 6px; font-size: 15px; cursor: pointer; }
+    .ev-controls input[type='checkbox'] { width: 16px; height: 16px; }
+    .ev-search { flex: 1 1 220px; }
+    .ev-search input {
+      width: 100%;
+      padding: 7px 10px;
+      font: inherit;
+      border: 1px solid var(--grey-2);
+      background: #fff;
+      color: var(--black);
+    }
+    .ev-count {
+      width: 100%;
+      margin: 0;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--grey-1);
+    }
+    .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; border: 1px solid #fff; box-shadow: 0 0 0 1px var(--grey-2); }
+    .dot--dc { background: var(--green); }
+    .dot--ac { background: var(--blue); }
+    .dot--unk { background: var(--grey-1); }
+
+    .ev-empty {
+      margin: 12px 0;
+      padding: 12px 14px;
+      background: var(--grey-3);
+      border-inline-start: 4px solid var(--blue);
+      font-size: 15px;
+    }
+    .ev-empty code { font-family: var(--font-mono); font-size: 14px; }
+    .ev-attrib { margin: 8px 0 0; font-family: var(--font-mono); font-size: 12px; color: var(--grey-1); }
+
+    .ev-section { max-width: 46em; margin: 30px 0; }
+    .ev-list { max-width: 46em; padding-inline-start: 20px; }
+    .ev-list li { margin: 8px 0; line-height: 1.45; }
+    .ev-crosslink { max-width: 46em; font-size: 15px; color: var(--grey-1); }
+
+    .sources { max-width: 46em; }
+    .sources ul { margin: 8px 0 0; padding-inline-start: 20px; }
+    .tool-foot {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid var(--grey-2);
+      color: var(--grey-1);
+      font-size: 15px;
+      max-width: 46em;
+    }
+    .visually-hidden {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+    }
+    html[data-theme='dark'] .ev-search input { background: #1b1b1b; color: #fff; }
+
+    @media (max-width: 560px) {
+      #ev-map { height: 420px; }
+    }
+  </style>
+</BaseLayout>

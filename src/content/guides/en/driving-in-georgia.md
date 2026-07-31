@@ -53,6 +53,10 @@ If you buy a car locally, ownership and plates are handled through the Service A
 
 If you later leave Georgia permanently, remember that any vehicle registered in your name remains your legal responsibility until ownership is formally transferred or the vehicle is deregistered.
 
+## Driving an electric car
+
+If you drive an EV, Georgia has a growing charging network covering the major cities and highways. See our [interactive map of EV charging stations in Georgia](/en/ev-charging-stations-georgia) for locations, connectors and a practical guide to networks and apps.
+
 ## A note on changing rules
 
 Customs treatment of imported vehicles and insurance requirements can change. Confirm the current licence-exchange procedure, import duties and insurance rules with the Service Agency and the Revenue Service before relying on them.

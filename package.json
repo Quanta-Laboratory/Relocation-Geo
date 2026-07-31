@@ -8,7 +8,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "stamp": "node scripts/update-checked-date.mjs"
+    "stamp": "node scripts/update-checked-date.mjs",
+    "fetch:ev": "node scripts/fetch-ev-stations.mjs"
   },
   "dependencies": {
     "astro": "^5.6.0",

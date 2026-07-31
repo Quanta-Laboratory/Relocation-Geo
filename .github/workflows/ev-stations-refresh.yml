@@ -1,0 +1,58 @@
+name: EV stations refresh
+
+# Rebuilds the EV charging snapshot from open data (Open Charge Map + OpenStreetMap)
+# and opens a PULL REQUEST when it changes. Nothing is committed to the live branch
+# automatically — a human reviews and merges the diff (the "manual confirmation" gate).
+#
+# Requires (optional but recommended) repository secret:
+#   OCM_API_KEY  — free key from https://openchargemap.org/site/loginprovider/beginlogin
+# Without it, the refresh still runs using OpenStreetMap only.
+
+on:
+  schedule:
+    - cron: '0 4 * * 1' # 04:00 UTC every Monday (~08:00 Tbilisi)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ev-stations-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch and aggregate stations
+        env:
+          OCM_API_KEY: ${{ secrets.OCM_API_KEY }}
+        run: npm run fetch:ev
+
+      - name: Open a pull request if the snapshot changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: public/data/ev-charging-stations.json
+          branch: bot/ev-stations-refresh
+          delete-branch: true
+          commit-message: 'data: refresh EV charging stations snapshot'
+          title: 'Data: refresh EV charging stations'
+          body: |
+            Automated weekly refresh of `public/data/ev-charging-stations.json`
+            from Open Charge Map + OpenStreetMap.
+
+            **Review before merging.** Skim the diff for obviously wrong points
+            (coordinates outside Georgia, garbage names) and confirm the station
+            count looks sane, then merge to publish. Closing this PR discards the update.
+          labels: |
+            data
+            automated
