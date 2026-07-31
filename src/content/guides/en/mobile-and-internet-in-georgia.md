@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: en
 summary: "Georgia has cheap, fast and widely available connectivity. Three main operators — Magti, Silknet and Cellfie — sell prepaid SIMs on a passport, mobile data is inexpensive, and home fibre internet is common in cities. A Georgian number is more than a convenience: government and banking services authenticate by SMS code sent to a local number, so it gates the Revenue Service portal, the Public Service Hall and your bank account — which matters if you registered a business remotely."
 reviewed: 2026-07-13
-checked: 2026-07-30
+checked: 2026-07-31
 sources:
   - name: Georgian National Communications Commission (ComCom)
     url: https://comcom.ge/en/

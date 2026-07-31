@@ -6,7 +6,7 @@ lang: en
 notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
 summary: Holding a study residence permit does not by itself give the right to work in Georgia. Since 1 March 2026, most foreign nationals — students included — need a separate 'Right to Labour Activity' work permit to take paid employment or run a business, on top of their study status.
 reviewed: 2026-06-27
-checked: 2026-07-30
+checked: 2026-07-31
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)
     url: https://matsne.gov.ge/en/document/view/2278806

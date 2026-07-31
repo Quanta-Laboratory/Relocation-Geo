@@ -4,7 +4,7 @@ category: live
 lang: en
 summary: "A short overview of the practical basics for settling into Georgia: getting a mobile SIM and internet, opening a bank account, receiving a personal number and tax ID with your residence permit, driving on a foreign or Georgian licence, and budgeting for the low cost of living."
 reviewed: 2026-07-08
-checked: 2026-07-30
+checked: 2026-07-31
 order: 3
 sources:
   - name: Public Service Hall
