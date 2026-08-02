@@ -4,7 +4,7 @@ category: live
 lang: en
 summary: A short, factual overview of where newcomers settle in Georgia. Most foreign residents choose between Tbilisi — the capital and the country's business, cultural and administrative hub — and Batumi, the Black Sea resort city and port.
 reviewed: 2026-07-10
-checked: 2026-08-01
+checked: 2026-08-02
 order: 4
 sources:
   - name: National Statistics Office of Georgia (Geostat) — 2024 Population Census

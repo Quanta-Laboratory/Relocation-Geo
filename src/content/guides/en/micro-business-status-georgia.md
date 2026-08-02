@@ -5,7 +5,7 @@ parent: special-tax-regimes-georgia
 lang: en
 summary: Micro Business Status is a special tax regime for an individual who carries out small-scale economic activity personally, without hired labour, and whose qualifying gross income does not exceed GEL 30,000 in a calendar year. Qualifying income is exempt from personal income tax (0%). A VAT payer cannot hold the status, and a list of prohibited activities — including trade, licensed activities, and medical, legal, auditing or consulting work — is excluded. Some income types (rent, interest, dividends, royalties, property gains and similar) are always taxed under the ordinary rules and do not count toward the GEL 30,000 limit.
 reviewed: 2026-07-10
-checked: 2026-08-01
+checked: 2026-08-02
 order: 2
 sources:
   - name: Tax Code of Georgia (Legislative Herald)
