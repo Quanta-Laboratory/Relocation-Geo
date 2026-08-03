@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: "en"
 summary: "A Free Industrial Zone (FIZ) is a delimited part of Georgia with a special tax and customs regime. A company registered inside a FIZ is exempt from profit (corporate income) tax on its permitted in-zone activities, from VAT on transactions within the zone and on foreign goods brought in, from property tax on property located in the zone, and from import duty on foreign goods entering the zone. In return it pays income tax on employees by declaration and — when it supplies goods to a person in the rest of Georgia that is not another FIZ enterprise — a 4% payment on the value of that supply. FIZs suit manufacturing, processing, assembly and re-export businesses rather than local services. This is general information, not legal or tax advice."
 reviewed: 2026-07-10
-checked: 2026-08-02
+checked: 2026-08-03
 order: 11
 sources:
   - name: "Law of Georgia on Free Industrial Zones (Legislative Herald)"

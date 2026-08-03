@@ -5,7 +5,7 @@ parent: guide-to-georgian-visas
 lang: en
 summary: Citizens of more than 90 countries can enter Georgia without a visa and stay for one full year — 365 days — under Government of Georgia Ordinance No 255. The list covers the EU, the UK, the US, Canada, Australia, the Gulf states and many others, and EU/UK nationals may enter on a national ID card. The one-year clock runs per stay, so leaving and re-entering starts a fresh period, though border officers keep discretion. Visa-free status lets you live in Georgia but is not a residence permit and does not by itself make you a tax resident (that turns on 183 days) or grant the right to work, which since 1 March 2026 needs a separate permit. This page explains who qualifies, how the one-year rule works, the border-hop reset and its limits, and what visa-free entry does and does not give you.
 reviewed: 2026-07-02
-checked: 2026-08-02
+checked: 2026-08-03
 order: 1
 sources:
   - name: Ordinance of the Government of Georgia No 255 (5 June 2015) — On Approval of the List of Countries Whose Citizens May Enter Georgia without a Visa (Legislative Herald)

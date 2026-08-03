@@ -5,7 +5,7 @@ lang: "fr"
 notice: 'Travailleurs indépendants étrangers : <strong>l’Ordonnance n° 321 du 9 juillet 2026</strong> a modifié l’obtention du <strong>droit au travail</strong> — la demande doit désormais être déposée <strong>en personne</strong>, un <strong>entretien vidéo obligatoire</strong> est requis, et un test de chiffre d’affaires s’applique. L’exemption pour les prestations à des clients étrangers <strong>ne couvre pas</strong> l’entrepreneur individuel qui a besoin d’un permis de séjour pour séjourner légalement. <a href="/en/right-to-work-georgia">En savoir plus</a>.'
 summary: "La Géorgie permet à un ressortissant étranger d’enregistrer un entrepreneur individuel (Individual Entrepreneur, IE) sans se rendre dans le pays, en donnant une procuration notariée et apostillée à un représentant qui accomplit l’enregistrement à la Maison de la Justice. L’enregistrement lui-même prend généralement 1 à 5 jours ouvrables une fois les documents en Géorgie ; l’ensemble du processus, y compris l’envoi par coursier, la traduction et la légalisation notariale, prend habituellement 1 à 3 semaines."
 reviewed: 2026-07-14
-checked: 2026-08-02
+checked: 2026-08-03
 order: 1
 sources:
   - name: "National Agency of Public Registry — official fee schedule for business registration"
