@@ -6,7 +6,7 @@ lang: "en"
 order: 2
 summary: "A factual overview of Batumi for people relocating: Georgia's main Black Sea resort city and port, its mild but very wet subtropical climate, its compact seafront districts, how it connects by road, rail and air, and who it suits. Batumi is smaller and more seasonal than Tbilisi, built around the coast and tourism."
 reviewed: 2026-07-10
-checked: 2026-08-03
+checked: 2026-08-04
 sources:
   - name: "National Statistics Office of Georgia (Geostat) — 2024 Population Census"
     url: "https://www.geostat.ge/en/modules/categories/316/population-and-demography"
