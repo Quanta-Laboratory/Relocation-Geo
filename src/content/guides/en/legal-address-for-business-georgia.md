@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: en
 summary: Under Georgian law, every registered business must have a legal address — the official point of communication between the business and public authorities, courts and third parties. It applies to companies and to individual entrepreneurs alike, is recorded in the Entrepreneurial Registry maintained by the National Agency of Public Registry, and is publicly accessible. The address need not be where the business operates, but it must be real, identifiable and properly registered.
 reviewed: 2026-07-10
-checked: 2026-08-04
+checked: 2026-08-05
 order: 7
 sources:
   - name: National Agency of Public Registry
