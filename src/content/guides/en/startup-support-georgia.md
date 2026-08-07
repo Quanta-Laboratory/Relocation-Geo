@@ -5,7 +5,7 @@ parent: business-statuses-georgia
 lang: en
 summary: Georgia overhauled its startup support in mid-2025. A reform of the Law on Innovations (Law No 718 of 24 June 2025, in force from late September 2025) created three new tax-advantaged statuses — Innovative Startup, Innovative SME, and R&D Service Provider — administered through GITA's Innovations Registry. The Innovative Startup Status gives up to ten years of relief, beginning with full income-tax exemption on qualifying salaries and later reduced 5% and 10% rates on salary and profit. Alongside the statuses sit GITA grants and the 500 Global acceleration programme, Enterprise Georgia's business and export support, and the established Virtual Zone, International Company and Small Business regimes. This guide maps the tools, their thresholds and how they fit together, all checked against the primary Georgian law.
 reviewed: 2026-06-29
-checked: 2026-08-06
+checked: 2026-08-07
 sources:
   - name: Law of Georgia No 718 of 24 June 2025 — amendments to the Law on Innovations (Legislative Herald, Georgian)
     url: https://matsne.gov.ge/ka/document/view/6531883
