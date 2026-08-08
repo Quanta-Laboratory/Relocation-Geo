@@ -6,7 +6,7 @@ lang: en
 notice: 'Two things changed on <strong>9 July 2026</strong> (Ordinance No 317, in force the next day): a newly registered company with <strong>no more than three foreign employees</strong> can skip the turnover certificate for a first work residence permit — but that permit is then issued for only <strong>six months</strong>. Separately, most foreign nationals must first obtain the <strong>right to work</strong> from the Ministry of Labour. <a href="/en/right-to-work-georgia">Check whether it applies to you</a>.'
 summary: The work residence permit lets a foreign national live in Georgia on the basis of labour activity here — employment with a Georgian employer or self-employment/entrepreneurial activity. The applicant must show sufficient monthly income. Family members can join through family reunification.
 reviewed: 2026-07-12
-checked: 2026-08-07
+checked: 2026-08-08
 order: 4
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons
