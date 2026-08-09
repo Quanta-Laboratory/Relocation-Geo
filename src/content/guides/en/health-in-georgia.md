@@ -4,7 +4,7 @@ category: "live"
 lang: "en"
 summary: "A short overview of health in Georgia for foreigners: accessible private clinics and well-stocked pharmacies (emergency number 112), and the insurance you need — since 1 January 2026 tourists must hold health and accident cover of at least GEL 30,000, while residents typically buy private insurance. This page links to the detailed guides on healthcare and on health insurance."
 reviewed: 2026-07-08
-checked: 2026-08-08
+checked: 2026-08-09
 order: 2
 sources:
   - name: "Ministry of Internally Displaced Persons, Labour, Health and Social Affairs of Georgia"
