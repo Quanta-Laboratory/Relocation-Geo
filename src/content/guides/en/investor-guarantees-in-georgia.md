@@ -5,7 +5,7 @@ parent: business-statuses-georgia
 lang: "en"
 summary: "Georgian law guarantees foreign investors no less than the rights of local investors, the free repatriation of profits abroad, and protection against expropriation except by court decision with market-value compensation."
 reviewed: 2026-06-27
-checked: 2026-08-11
+checked: 2026-08-12
 sources:
   - name: "Law of Georgia on Promotion and Guarantees of Investment Activity (Legislative Herald)"
     url: "https://matsne.gov.ge/en/document/view/33304?publication=15"
