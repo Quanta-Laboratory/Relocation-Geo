@@ -5,7 +5,7 @@ parent: guide-to-georgian-visas
 lang: en
 summary: "The diplomatic visa (category A) is a short-term Georgian visa for official visitors: heads of state and senior delegations (A1), accredited diplomats and their families (A2), diplomatic couriers and special missions (A3), Georgia's honorary consuls who are foreign nationals (A4), and other national-interest or diplomatic-passport visits (A5). It is defined in Article 7 of the Law on the Legal Status of Aliens and Stateless Persons. A1 holders enjoy diplomatic immunity for the visa's validity. Diplomatic and special visas can be extended by the Ministry of Foreign Affairs. This category is not used by ordinary travellers, relocators or remote workers — if that is you, see the ordinary (C) visa or visa-free entry instead."
 reviewed: 2026-07-02
-checked: 2026-08-16
+checked: 2026-08-17
 order: 2
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons, Article 7 (Legislative Herald)

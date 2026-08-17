@@ -4,7 +4,7 @@ category: immigration
 lang: en
 summary: Many nationalities can enter Georgia visa-free for up to one year. Those who need a visa choose from short-term categories (diplomatic A, special B, ordinary C, transit) or long-term immigration visas (D1–D6, with D6 in force from 1 September 2026).
 reviewed: 2026-06-27
-checked: 2026-08-16
+checked: 2026-08-17
 order: 1
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)
