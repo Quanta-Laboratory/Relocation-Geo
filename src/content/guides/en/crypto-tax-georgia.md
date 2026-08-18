@@ -4,7 +4,7 @@ category: tax
 lang: en
 summary: "For individuals, Georgia does not tax the profit from selling cryptocurrency. The position comes from Public Ruling N201 of the Minister of Finance, issued on 28 June 2019: a natural person is exempt from personal income tax on gains from selling crypto-assets, and exchanging cryptocurrency into national currency is exempt from VAT for both individuals and companies. Selling computing (hash) power abroad is also VAT-exempt with the input-VAT credit retained, while a domestic resident-to-resident sale of hash power is VAT-taxable. The exemption is a capital-gains-style relief on disposing of crypto — it does not turn crypto received as payment for Georgia-performed work into tax-free income, and companies are taxed differently. This guide explains the ruling, its limits and how it sits beside Georgia's VASP regime, checked against the primary source."
 reviewed: 2026-06-30
-checked: 2026-08-17
+checked: 2026-08-18
 order: 3
 sources:
   - name: Public Ruling N201 of the Minister of Finance of Georgia, 28 June 2019 (taxation of crypto-assets) — Legislative Herald public rulings
