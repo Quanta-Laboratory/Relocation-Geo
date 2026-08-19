@@ -4,7 +4,7 @@ category: tax
 lang: en
 summary: Georgia has 58 double-taxation treaties in force, all based on the OECD Model Convention. They stop the same income being taxed twice by allocating taxing rights between Georgia and the treaty partner, capping withholding tax on dividends, interest and royalties, and providing tie-breaker rules where a person is resident in both countries. To use a treaty you generally need a Georgian tax-residency certificate, and benefits are claimed under the procedure in the Minister of Finance's Decree. Thirty-four of the 58 treaties are also modified by the multilateral BEPS instrument (MLI), which adds anti-abuse rules.
 reviewed: 2026-06-30
-checked: 2026-08-18
+checked: 2026-08-19
 order: 4
 sources:
   - name: Ministry of Finance of Georgia — Double Taxation Avoidance Treaties (official list, withholding-rate table and treaty texts)
