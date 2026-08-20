@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: en
 summary: "Georgia's Permanent Residence Permit gives foreigners the right to live in the country indefinitely. There are two routes: being a close family member of a Georgian citizen — a spouse, a minor child, or a parent of a minor Georgian citizen — or having lived legally in Georgia for the last ten years on temporary residence permits. Applications go to the Public Service Development Agency and require proof of the qualifying basis (family relationship and legal income, or the ten-year residence record)."
 reviewed: 2026-07-10
-checked: 2026-08-19
+checked: 2026-08-20
 order: 13
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)
