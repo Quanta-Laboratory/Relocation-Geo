@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: "en"
 summary: "A Joint-Stock Company (JSC) is a company whose capital is divided into shares, governed by the Law of Georgia on Entrepreneurs. Shareholders have limited liability, restricted to the value of their shares, and shares can be transferred, sold and in some cases publicly traded, which makes the form suited to larger businesses, investment projects and companies raising capital. A JSC has a more formal governance structure than an LLC — a general meeting of shareholders, an optional supervisory board and a management board — and must have a Charter. Registration is handled by the National Agency of Public Registry; the state fee is GEL 200 for next-business-day registration or GEL 400 for same-day registration."
 reviewed: 2026-07-10
-checked: 2026-08-20
+checked: 2026-08-21
 order: 9
 sources:
   - name: "Law of Georgia on Entrepreneurs (Legislative Herald)"

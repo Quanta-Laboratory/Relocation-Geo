@@ -4,7 +4,7 @@ category: "tax"
 lang: "en"
 summary: "Property tax in Georgia is a local tax under the Tax Code. For individuals it depends on household income: a resident's taxable property is exempt where the family's annual income in the preceding year does not exceed GEL 40,000; above that, the rate is set by income band and applied to the market value of the property (0.05%–0.2% for family income up to GEL 100,000, and 0.8%–1% for family income of GEL 100,000 or more). Companies and other entities pay up to 1% on the annual average book (residual) value of their fixed assets and investment property. Land tax is charged separately at fixed rates per hectare or per square metre, adjusted by local coefficients. Individuals declare and pay by 15 November. This is general information, not legal or tax advice."
 reviewed: 2026-07-10
-checked: 2026-08-20
+checked: 2026-08-21
 order: 8
 sources:
   - name: "Tax Code of Georgia (Legislative Herald, doc. 1043717)"

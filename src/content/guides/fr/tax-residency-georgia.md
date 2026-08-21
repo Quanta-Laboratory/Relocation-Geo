@@ -4,7 +4,7 @@ category: "tax"
 lang: "fr"
 summary: "La Géorgie détermine la résidence fiscale des personnes physiques principalement sur le critère de la présence physique : en vertu de l'article 34 du Code des impôts, une personne qui séjourne 183 jours ou plus en Géorgie au cours de toute période continue de 12 mois se terminant dans l'année fiscale est résidente fiscale géorgienne pour l'ensemble de cette année. Il existe également une voie destinée aux personnes à patrimoine élevé (High Net Worth Individual, HNWI), instaurée par un arrêté conjoint du ministre des Finances, qui accorde la résidence sans décompte de jours aux personnes qui remplissent un seuil de patrimoine ou de revenu ainsi qu'une condition de rattachement à la Géorgie. La résidence fiscale importe parce que la Géorgie n'impose les résidents que sur les revenus de source géorgienne et parce qu'un certificat de résidence permet de bénéficier des conventions fiscales de non-double imposition de la Géorgie. Ce guide explique les deux voies, la manière dont les jours sont décomptés, les seuils HNWI et la façon d'obtenir un certificat de résidence fiscale, le tout vérifié au regard du droit géorgien de premier rang."
 reviewed: 2026-06-30
-checked: 2026-08-20
+checked: 2026-08-21
 order: 1
 sources:
   - name: "Code des impôts de Géorgie, article 34 (résidence) — Journal officiel législatif, texte géorgien consolidé"

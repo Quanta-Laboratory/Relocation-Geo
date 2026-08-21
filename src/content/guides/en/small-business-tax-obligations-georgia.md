@@ -5,7 +5,7 @@ parent: small-business-status-georgia
 lang: "en"
 summary: "Once an Individual Entrepreneur with Small Business Status begins economic activity, a set of recurring obligations starts running. The core one is a monthly turnover declaration filed by the 15th of the following month, with the 1% tax paid on the same date (3% above GEL 500,000 in a calendar year). Alongside it you keep a special expense journal, and three obligations sit outside the 1% regime entirely: VAT registration becomes mandatory once turnover passes GEL 100,000 in any continuous 12 months — Small Business Status does not exempt you from it — and if you hire staff you must withhold 20% income tax as a tax agent and file for it monthly. Mandatory pension contributions generally do not apply to foreign nationals without permanent residence. This guide sets out what begins, and when, checked against the primary Georgian law."
 reviewed: 2026-07-15
-checked: 2026-08-20
+checked: 2026-08-21
 order: 2
 sources:
   - name: "Tax Code of Georgia — Chapter XII (special regimes), VAT (Art. 157, 169), taxation at source (Art. 154) — Legislative Herald"
