@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: "en"
 summary: "Georgia has 14 fixed public holidays plus a four-day Easter block, set by Article 30 of the Labour Code — 18 days in a typical year. Fourteen fall on the same date every year, from New Year on 1–2 January to St George's Day on 23 November; the Easter block moves with the Orthodox calendar, falling on 10–13 April in 2026 and 30 April–3 May in 2027. Because Easter moves it can collide with a fixed holiday, as in 2029, when the count drops to 17. Banks, government offices and most businesses close. An employee may ask to take other rest days instead, if the employment agreement says so, and the Government may declare further days off by ordinance. A subscribable calendar feed and JSON API are on the Georgian Holiday Calendar page."
 reviewed: 2026-07-13
-checked: 2026-08-21
+checked: 2026-08-22
 order: 10
 sources:
   - name: "Organic Law of Georgia — Labour Code of Georgia, Article 30 (Holidays), consolidated English text"

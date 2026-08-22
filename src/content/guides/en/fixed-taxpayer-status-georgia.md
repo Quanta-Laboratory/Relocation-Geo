@@ -5,7 +5,7 @@ parent: special-tax-regimes-georgia
 lang: en
 summary: Fixed Taxpayer Status is a special tax regime for a person who is not a VAT payer and carries out one or more specific activities defined by the Government — such as bread-baking ovens (tone), hairdressing, manicure and pedicure, solarium and car repair. Instead of tax on income or profit, the taxpayer pays a set monthly amount per work place or unit (for example GEL 50 per tone or per hairdressing chair, GEL 30 per manicure station, GEL 70 per solarium cabin, GEL 100 per car-repair place). A natural person must be registered as an Individual Entrepreneur to obtain the status. Fixed-tax income is excluded from total income, is not taxed further, and is not counted toward mandatory VAT registration. The status is granted by the Revenue Service on application, with a separate certificate for each location.
 reviewed: 2026-07-10
-checked: 2026-08-21
+checked: 2026-08-22
 order: 3
 sources:
   - name: Tax Code of Georgia (Legislative Herald)
