@@ -5,7 +5,7 @@ parent: guide-to-georgian-visas
 lang: en
 summary: The immigration visa (category D) is Georgia's long-term visa and the precondition for a residence permit. D1 is for those with the right to labour activity or entrepreneurs; D2 for scientific, sporting, cultural or educational missions, freelancers, interns, volunteers and media workers; D3 for study or research at an authorised institution; D4 for family reunification; and D5 for owners of Georgian real estate (other than agricultural land) worth at least USD 150,000 in GEL, plus spouse and children. D visas are multiple-entry with 90-day or one-year validity — one year only for D5.
 reviewed: 2026-07-02
-checked: 2026-08-23
+checked: 2026-08-24
 order: 5
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons, Article 7 (Legislative Herald)

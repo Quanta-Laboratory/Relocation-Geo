@@ -5,7 +5,7 @@ parent: guide-to-georgian-visas
 lang: en
 summary: "The ordinary visa (category C) is the everyday short-term Georgian visa for people who need a visa to visit: C1 for tourism, C2 for visiting relatives and friends, C3 for business meetings, conferences, journalism, ship crews and international drivers, C4 for humanitarian, medical, guardianship and pilgrimage visits, and C5 for short-term visitors who work only for a non-resident (the closest thing Georgia has to a remote-worker visa). It is defined in Article 7 of the Law on the Legal Status of Aliens and Stateless Persons. A single-entry short-term visa runs up to 30 days; multiple-entry versions up to five years, and C5 can be issued with five-year validity and a one-year stay. If your nationality is on the visa-free list you usually will not need a C visa at all. Since 1 March 2026, paid work in Georgia also requires a separate work permit."
 reviewed: 2026-07-02
-checked: 2026-08-23
+checked: 2026-08-24
 order: 4
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons, Article 7 (Legislative Herald)
