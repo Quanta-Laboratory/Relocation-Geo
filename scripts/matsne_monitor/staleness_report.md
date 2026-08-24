@@ -1,4 +1,4 @@
-# Matsne redaction staleness — 2026-08-17
+# Matsne redaction staleness — 2026-08-24
 
 ## New redactions since last probe
 _None._
