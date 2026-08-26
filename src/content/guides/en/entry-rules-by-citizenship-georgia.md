@@ -5,7 +5,7 @@ parent: guide-to-georgian-visas
 lang: "en"
 summary: "Whether you may enter Georgia depends first on your citizenship, which places you in one of three buckets: visa-free entry (up to one full year), e-Visa, or visa required. But citizenship is not the whole story. Even a national of a visa-required country can usually enter visa-free for a short stay — typically up to 90 days in any 180-day period — if they hold a valid visa or residence permit of a designated country such as an EU/EEA/Schengen state, the US, the UK, Canada, Australia, Japan or a Gulf state. The categories are set by Government Ordinance No 255 (visa-free list) and Ordinance No 256 (visa/residence-permit holders); the definitive per-country answer is the Ministry of Foreign Affairs checker on geoconsul. This page explains the mechanics rather than publishing a country list that would go stale."
 reviewed: 2026-07-10
-checked: 2026-08-25
+checked: 2026-08-26
 order: 0
 sources:
   - name: "Law of Georgia on the Legal Status of Aliens and Stateless Persons (Legislative Herald)"

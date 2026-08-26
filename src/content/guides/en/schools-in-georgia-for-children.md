@@ -4,7 +4,7 @@ category: "students"
 lang: "en"
 summary: "A practical overview for relocating families of K-12 schooling in Georgia: how general education is structured into primary, basic and secondary levels; the difference between state (public), private and international schools and the curricula they follow (Georgian national, British, IB and American); whether foreign children can enrol in public schools and the language of instruction; the school year; and how prior schooling from abroad is recognised. This is general information — confirm current rules and any school's accreditation with the Ministry of Education."
 reviewed: 2026-07-10
-checked: 2026-08-25
+checked: 2026-08-26
 order: 3
 sources:
   - name: "NCEQE — Education System (general education structure)"
