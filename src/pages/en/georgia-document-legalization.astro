@@ -1,0 +1,247 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import {
+  COUNTRIES, COUNTS, DATA_AS_OF, SOURCES, ALWAYS_REQUIRED_NOTE, HAGUE_PARTIES_TOTAL,
+} from '../../data/document-legalization-georgia';
+
+const checked = new Date().toISOString().slice(0, 10);
+
+const treaty = COUNTRIES.filter((c) => c.basis === 'bilateral_treaty');
+const minsk = COUNTRIES.filter((c) => c.basis === 'minsk_convention');
+const apostille = COUNTRIES.filter((c) => c.regime === 'apostille');
+const special = COUNTRIES.filter((c) => c.effectiveFrom || c.code === 'XK');
+
+// Compact map for the client-side checker.
+const lookup = Object.fromEntries(
+  COUNTRIES.map((c) => [c.code, { name: c.name, regime: c.regime, basis: c.basis, caveat: c.caveat ?? null, note: c.note ?? null, effectiveFrom: c.effectiveFrom ?? null }]),
+);
+
+const crumbs = [
+  { href: '/en/', label: 'Home' },
+  { href: '/en/guide-to-residence-permits', label: 'Residence permits' },
+  { label: 'Document Legalization' },
+];
+
+const description =
+  'Does a foreign document need an apostille, consular legalization, or nothing, to be used in Georgia? Country-by-country checker plus an open, CORS-enabled JSON API you can build on. Source-based.';
+
+const datasetLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Document authentication for use in Georgia (apostille / legalization / exempt)',
+  description,
+  creator: { '@type': 'Organization', name: 'Relocation.ge' },
+  isBasedOn: ['https://www.hcch.net/en/instruments/conventions/status-table/?cid=41', 'https://www.notary.ge/geo-2334-saertashoriso-samartlebrivi-aqtebi'],
+  license: 'https://creativecommons.org/licenses/by/4.0/',
+  dateModified: DATA_AS_OF,
+  spatialCoverage: { '@type': 'Country', name: 'Georgia' },
+  distribution: [
+    {
+      '@type': 'DataDownload',
+      encodingFormat: 'application/json',
+      contentUrl: 'https://relocation.ge/georgia-document-legalization.json',
+    },
+  ],
+};
+---
+<BaseLayout title="Apostille, Legalization or Nothing? Documents for Georgia" description={description} jsonLd={[datasetLd]}>
+  <Breadcrumbs items={crumbs} />
+  <main id="main" class="wrap">
+    <h1>Documents for Georgia: apostille, legalization or nothing</h1>
+    <p class="lede">
+      Before a foreign document (a power of attorney, a certificate) can be used in Georgia, it may
+      need an <strong>apostille</strong>, full <strong>consular legalization</strong>, or
+      <strong>nothing extra</strong> — depending on the country it comes from. Check yours below.
+    </p>
+
+    <div class="hub-note">
+      <span class="hub-note__tag">Always</span>
+      <span>{ALWAYS_REQUIRED_NOTE}</span>
+    </div>
+
+    <!-- Checker -->
+    <section class="dl-checker" aria-label="Country checker">
+      <label for="dl-country"><strong>Where was the document issued?</strong></label>
+      <select id="dl-country">
+        <option value="">— select a country —</option>
+        {COUNTRIES.map((c) => (
+          <option value={c.code}>{c.name}</option>
+        ))}
+        <option value="__other">My country is not listed</option>
+      </select>
+      <div id="dl-result" class="dl-result" hidden></div>
+    </section>
+
+    <!-- Group 1 -->
+    <section class="dl-section">
+      <h2><span class="dot dot--none"></span> Nothing beyond a notarized translation</h2>
+      <p>A legal-assistance treaty exempts official documents from apostille and legalization. You still translate + notarize in Georgia.</p>
+      <h3>By bilateral treaty ({treaty.length}) — well-supported</h3>
+      <ul class="dl-tags">
+        {treaty.map((c) => <li>{c.name}</li>)}
+      </ul>
+      <h3>By the 1993 Minsk Convention ({minsk.length}) — applied in practice</h3>
+      <p class="dl-warn">
+        Accepted by Georgian notaries in practice, but Georgia left the CIS in 2009 and the strict
+        treaty status is debated. Treat as “applied in practice”, not a hard guarantee, and confirm
+        for high-stakes documents.
+      </p>
+      <ul class="dl-tags">
+        {minsk.map((c) => <li>{c.name}</li>)}
+      </ul>
+    </section>
+
+    <!-- Group 2 -->
+    <section class="dl-section">
+      <h2><span class="dot dot--apo"></span> Apostille ({apostille.length})</h2>
+      <p>
+        Georgia is a party to the Hague Apostille Convention (since 2007). For a document from any of
+        these members, a single apostille from the country of origin is enough — no consular
+        legalization. Of {HAGUE_PARTIES_TOTAL} Convention parties, these are the ones not already
+        covered by a treaty above.
+      </p>
+      <ul class="dl-tags dl-tags--dense">
+        {apostille.map((c) => <li>{c.name}</li>)}
+      </ul>
+    </section>
+
+    <!-- Group 3 -->
+    <section class="dl-section">
+      <h2><span class="dot dot--leg"></span> Consular legalization (everything else)</h2>
+      <p>
+        If a country is <strong>not</strong> in the lists above — not a Hague member and no treaty
+        with Georgia — documents need full consular legalization. This covers most of Africa, the
+        Middle East and parts of Asia (e.g. Iran, UAE, Egypt, Iraq, Nigeria).
+      </p>
+      <h3>Special cases</h3>
+      <ul class="dl-list">
+        {special.map((c) => <li><strong>{c.name}:</strong> {c.note}</li>)}
+        <li><strong>Abkhazia &amp; “South Ossetia”:</strong> documents from the de-facto authorities are not apostilled or accepted by Georgia.</li>
+      </ul>
+    </section>
+
+    <!-- API / reuse -->
+    <section class="dl-section" id="api">
+      <h2>Use this data (open JSON API)</h2>
+      <p>
+        This page is backed by a stable, CORS-enabled JSON feed, free to reuse with attribution — so
+        you can build your own checker, form or bot on top of it without scraping.
+      </p>
+      <p class="dl-endpoint"><a href="/georgia-document-legalization.json">/georgia-document-legalization.json</a></p>
+      <pre class="dl-code"><code>const res = await fetch(
+  "https://relocation.ge/georgia-document-legalization.json"
+);
+const data = await res.json();
+
+// regime for a country (ISO 3166-1 alpha-2); anything
+// not listed defaults to data.defaultRegime ("legalization")
+const rule = data.countries.find(c =&gt; c.code === "DE")
+             ?? {'{'} regime: data.defaultRegime {'}'};
+console.log(rule.regime); // "apostille"</code></pre>
+      <p class="dl-hint">
+        Response includes <code>meta</code> (dates, counts, sources, licence), <code>regimes</code>
+        and <code>bases</code> label maps, <code>defaultRegime</code>, and <code>countries[]</code>
+        with <code>code, name, regime, basis, caveat?, effectiveFrom?, note?</code>. Cache is one day;
+        <code>dataAsOf</code> tells you the underlying source date. Please attribute to Relocation.ge.
+      </p>
+    </section>
+
+    <div class="sources">
+      <strong>Sources</strong>
+      <ul>
+        {SOURCES.map((s) => <li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a></li>)}
+      </ul>
+    </div>
+
+    <p class="tool-foot">
+      <strong>Not legal advice.</strong> This structures publicly available rules; Convention
+      membership and treaty statuses change, and individual authorities may ask for more. Confirm the
+      current requirement with the receiving Georgian authority or a notary before you rely on it.
+      Last checked {checked}; underlying sources as of {DATA_AS_OF}.
+    </p>
+  </main>
+
+  <script type="application/json" id="dl-data" set:html={JSON.stringify(lookup)}></script>
+  <script is:inline>
+    (function () {
+      var data = JSON.parse(document.getElementById('dl-data').textContent || '{}');
+      var sel = document.getElementById('dl-country');
+      var box = document.getElementById('dl-result');
+      var LABEL = {
+        none: 'Nothing beyond a notarized Georgian translation',
+        apostille: 'Apostille (from the country of origin)',
+        legalization: 'Full consular legalization',
+      };
+      var BASIS = {
+        bilateral_treaty: 'Bilateral legal-assistance treaty with Georgia',
+        minsk_convention: '1993 Minsk Convention (applied in practice)',
+        hague_1961: 'Hague Apostille Convention 1961',
+        default: 'No treaty or apostille — consular legalization',
+      };
+      var esc = function (s) {
+        return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+        });
+      };
+      function render() {
+        var v = sel.value;
+        if (!v) { box.hidden = true; return; }
+        var r = v === '__other'
+          ? { name: 'Your country', regime: 'legalization', basis: 'default', note: 'Not covered by an apostille or a treaty with Georgia — full consular legalization applies.' }
+          : data[v];
+        if (!r) { box.hidden = true; return; }
+        var cls = r.regime === 'none' ? 'is-none' : r.regime === 'apostille' ? 'is-apo' : 'is-leg';
+        var html = '<div class="dl-badge ' + cls + '">' + esc(LABEL[r.regime]) + '</div>';
+        html += '<p class="dl-basis">' + esc(BASIS[r.basis]) + '</p>';
+        if (r.effectiveFrom) html += '<p class="dl-warn">Apostille becomes effective ' + esc(r.effectiveFrom) + '. Until then, consular legalization.</p>';
+        if (r.caveat) html += '<p class="dl-warn">' + esc(r.caveat) + '</p>';
+        if (r.note) html += '<p class="dl-note">' + esc(r.note) + '</p>';
+        html += '<p class="dl-always">You still translate the document into Georgian and notarize the translation in Georgia.</p>';
+        box.innerHTML = html;
+        box.hidden = false;
+      }
+      sel.addEventListener('change', render);
+    })();
+  </script>
+
+  <style>
+    .dl-checker { margin: 18px 0 8px; padding: 16px; background: var(--grey-3); border: 1px solid var(--grey-4); max-width: 46em; }
+    .dl-checker label { display: block; margin-bottom: 8px; }
+    #dl-country { width: 100%; padding: 10px; font: inherit; border: 1px solid var(--grey-2); background: #fff; color: var(--black); }
+    .dl-result { margin-top: 14px; }
+    .dl-badge { display: inline-block; font-weight: 700; padding: 6px 12px; color: #fff; }
+    .dl-badge.is-none { background: var(--green); }
+    .dl-badge.is-apo { background: var(--blue); }
+    .dl-badge.is-leg { background: #b58a00; }
+    .dl-basis { margin: 10px 0 4px; font-weight: 600; }
+    .dl-note { margin: 4px 0; color: var(--grey-1); font-size: 15px; }
+    .dl-warn { margin: 6px 0; padding: 8px 12px; background: var(--yellow); color: var(--black); font-size: 15px; max-width: 46em; }
+    .dl-always { margin: 8px 0 0; font-size: 14px; color: var(--grey-1); border-top: 1px solid var(--grey-2); padding-top: 8px; }
+
+    .dl-section { margin: 34px 0; max-width: 52em; }
+    .dl-section h2 { display: flex; align-items: center; gap: 10px; }
+    .dl-section h3 { font-size: 16px; margin: 18px 0 8px; }
+    .dot { width: 14px; height: 14px; border-radius: 50%; display: inline-block; flex: none; }
+    .dot--none { background: var(--green); }
+    .dot--apo { background: var(--blue); }
+    .dot--leg { background: #b58a00; }
+
+    .dl-tags { list-style: none; padding: 0; margin: 8px 0; display: flex; flex-wrap: wrap; gap: 6px; }
+    .dl-tags li { background: var(--grey-3); border: 1px solid var(--grey-4); padding: 3px 9px; font-size: 15px; }
+    .dl-tags--dense li { font-size: 14px; padding: 2px 8px; }
+    .dl-list { max-width: 52em; padding-inline-start: 20px; }
+    .dl-list li { margin: 6px 0; line-height: 1.45; }
+
+    .dl-endpoint { font-family: var(--font-mono); font-size: 16px; }
+    .dl-code { background: var(--black); color: #e7e6e5; padding: 14px 16px; overflow-x: auto; font-family: var(--font-mono); font-size: 13px; line-height: 1.5; }
+    .dl-code code { font-family: inherit; }
+    .dl-hint { color: var(--grey-1); font-size: 15px; max-width: 46em; }
+    .dl-hint code { font-family: var(--font-mono); font-size: 13px; }
+
+    .sources { max-width: 52em; }
+    .sources ul { margin: 8px 0 0; padding-inline-start: 20px; }
+    .tool-foot { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--grey-2); color: var(--grey-1); font-size: 15px; max-width: 52em; }
+    html[data-theme='dark'] #dl-country { background: #1b1b1b; color: #fff; }
+  </style>
+</BaseLayout>

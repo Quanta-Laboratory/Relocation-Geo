@@ -58,3 +58,5 @@ Eight further types exist: Family Reunification, Study, Indefinite, Permanent, F
 | Stateless Person | Recognised stateless status in Georgia | Temporary |
 | [Permanent](https://relocation.ge/en/permanent-residence-permit-georgia/) | Close relative of a citizen OR 10 years legal residence | Permanent |
 | [Indefinite](https://relocation.ge/en/indefinite-residence-permit-georgia/) | 5 years investment permit + Year-5 turnover ≥ USD 120,000 | Indefinite |
+
+Foreign documents used in any of these applications may need an apostille, consular legalization, or nothing beyond a notarized Georgian translation, depending on the issuing country. Check yours with the [document legalization tool for Georgia](/en/georgia-document-legalization).
