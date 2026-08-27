@@ -5,7 +5,7 @@ parent: housing-in-georgia
 lang: en
 summary: Foreigners can buy and own almost any real estate in Georgia — apartments, commercial space, hotels and non-agricultural land — on the same terms as citizens, with no residency required. Ownership transfers only when the buyer's right is registered in the Public Registry. Agricultural land is the main exception.
 reviewed: 2026-06-27
-checked: 2026-08-26
+checked: 2026-08-27
 sources:
   - name: Civil Code of Georgia (Legislative Herald)
     url: https://matsne.gov.ge/en/document/view/31702
