@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: en
 summary: The Economic Activities Registry is a central record of economic activities carried out in Georgia, kept by the National Agency of Public Registry. Registration is voluntary as a rule, but becomes mandatory where sector-specific legislation requires it, and in practice is needed to document an activity for other procedures such as a work permit application. Only activities listed in the National Statistics Office (Geostat) classifier can be registered, each with a code and description.
 reviewed: 2026-07-10
-checked: 2026-08-28
+checked: 2026-08-29
 order: 8
 sources:
   - name: Law of Georgia on Public Registry (Legislative Herald)
