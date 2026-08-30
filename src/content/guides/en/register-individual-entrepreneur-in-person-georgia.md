@@ -6,7 +6,7 @@ lang: en
 notice: 'Self-employed foreigners: <strong>Ordinance No 321 of 9 July 2026</strong> changed how the <strong>right to work</strong> is obtained — you must now apply <strong>in person</strong> and pass a <strong>compulsory video interview</strong>, and a turnover test applies. The exemption for serving foreign clients does <strong>not</strong> cover an Individual Entrepreneur who needs a residence permit to stay lawfully. <a href="/en/right-to-work-georgia">Read more</a>.'
 summary: A foreign national who is physically present in Georgia can register an Individual Entrepreneur (IE) in person at the Public Service Hall, usually within one working day. You need your passport, a Georgian phone number and a legal address; after registration your data is linked to the Revenue Service, where you can apply for Small Business status if you qualify.
 reviewed: 2026-07-12
-checked: 2026-08-29
+checked: 2026-08-30
 order: 5
 sources:
   - name: Government Ordinance No 321 of 9 July 2026 — right-to-work procedure (Georgian original)

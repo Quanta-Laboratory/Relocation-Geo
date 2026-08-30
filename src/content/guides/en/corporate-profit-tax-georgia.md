@@ -4,7 +4,7 @@ category: "tax"
 lang: "en"
 summary: "Since 1 January 2017 Georgia has taxed most companies under a distribution-based 'Estonian' profit tax: profit that is retained or reinvested is not taxed, and tax falls due only when profit is distributed or deemed distributed. The standard rate is 15%, applied to the grossed-up value of four taxable events — dividend distributions, costs not related to economic activity, free-of-charge supplies, and representation costs above the legal limit. A higher 20% rate applies to commercial banks, credit unions, microfinance organisations and loan providers. Companies file a monthly profit tax return, generally by the 15th of the following month, only in months when a taxable event occurs. This guide explains the mechanism, the rate, the tax base and filing, checked against the Tax Code and the Revenue Service."
 reviewed: 2026-07-10
-checked: 2026-08-29
+checked: 2026-08-30
 order: 6
 sources:
   - name: "Tax Code of Georgia — official English translation (PDF, Legislative Herald)"
