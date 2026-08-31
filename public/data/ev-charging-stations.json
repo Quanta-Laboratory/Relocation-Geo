@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated": "2026-07-26T13:58:18.896Z",
+    "generated": "2026-08-31T10:44:45.011Z",
     "sources": [
       "E-Motors"
     ],
     "counts": {
-      "total": 96,
+      "total": 95,
       "by_current": {
-        "unknown": 81,
+        "unknown": 80,
         "DC": 15
       }
     },
@@ -16,7 +16,7 @@
       "Open Charge Map": "Data © Open Charge Map contributors — https://openchargemap.org",
       "OpenStreetMap": "Data © OpenStreetMap contributors, ODbL — https://www.openstreetmap.org/copyright"
     },
-    "note": "Base layer from the E-Motors / E-Space operator map; Open Charge Map + OpenStreetMap are merged in by the weekly refresh. Community/operator data — confirm a station in its app before relying on it. Not an official government register."
+    "note": "Community-maintained open data. Coverage and accuracy vary; always confirm a station in its operator app before relying on it. Not an official government register."
   },
   "stations": [
     {
@@ -41,9 +41,15 @@
       "town": "Argveta",
       "connectors": [],
       "power_kw": null,
-      "current": "unknown",
+      "current": "DC",
       "source": "E-Motors",
-      "source_url": "https://www.emotors.ge/en/map"
+      "source_url": "https://www.emotors.ge/en/map",
+      "also_listed_in": [
+        {
+          "source": "E-Motors",
+          "source_url": "https://www.emotors.ge/en/map"
+        }
+      ]
     },
     {
       "id": "emotors-017",
@@ -55,19 +61,6 @@
       "connectors": [],
       "power_kw": null,
       "current": "unknown",
-      "source": "E-Motors",
-      "source_url": "https://www.emotors.ge/en/map"
-    },
-    {
-      "id": "emotors-038",
-      "name": "Fast Charger, 'Neogas', Argveta",
-      "lat": 42.148872,
-      "lng": 42.963478,
-      "operator": "E-Motors (E-Space)",
-      "town": "Argveta",
-      "connectors": [],
-      "power_kw": null,
-      "current": "DC",
       "source": "E-Motors",
       "source_url": "https://www.emotors.ge/en/map"
     },
