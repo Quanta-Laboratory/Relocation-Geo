@@ -3,7 +3,7 @@ title: About Relocation.ge
 category: about
 lang: en
 summary: Relocation.ge is an independent, non-commercial, open-source project that helps people relocate to Georgia with confidence — providing accurate, transparent and continuously updated information about living, working, investing and doing business in the country.
-reviewed: 2026-07-08
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 0
 sources:

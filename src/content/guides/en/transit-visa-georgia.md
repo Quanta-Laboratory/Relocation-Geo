@@ -4,7 +4,7 @@ category: immigration
 parent: guide-to-georgian-visas
 lang: en
 summary: The transit visa (category T) is a short-term Georgian visa for passing through Georgia — up to 10 days — on the way to a third country. It is one of the five visa categories. You only need it if your nationality requires a visa and you are genuinely transiting rather than visiting; travellers on the visa-free list do not need a transit visa. For an actual stay, use the ordinary (C) visa or visa-free entry instead.
-reviewed: 2026-07-02
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 6
 sources:

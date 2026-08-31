@@ -3,7 +3,7 @@ title: "Run a Business in Georgia: IE, LLC and Statuses"
 category: "work"
 lang: "en"
 summary: "A short overview of how to do business in Georgia: register as an Individual Entrepreneur (IE) for solo and freelance activity, or set up a company (usually an LLC) when you have partners or want limited liability. Both can then apply for special tax statuses. This page explains which route fits whom, and links to the detailed guides on IE, company registration, and business statuses."
-reviewed: 2026-07-08
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 1
 sources:

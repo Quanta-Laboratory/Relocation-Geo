@@ -4,7 +4,7 @@ category: work
 parent: run-a-business-in-georgia
 lang: en
 summary: Once a business is registered in Georgia, it may qualify for a special status that lowers or simplifies its tax. This overview explains the main statuses — Small Business Status for Individual Entrepreneurs, and International Company, Virtual Zone Person, VASP registration and the innovation/startup statuses for companies — with a simple map of who each one is for, and links to the detailed guide for each.
-reviewed: 2026-07-08
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 4
 sources:

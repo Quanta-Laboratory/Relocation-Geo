@@ -4,7 +4,7 @@ category: live
 parent: everyday-essentials-georgia
 lang: en
 summary: Foreigners can open accounts at major Georgian banks such as Bank of Georgia, TBC and Liberty. Requirements, documents and remote options vary by bank and residency status.
-reviewed: 2026-06-12
+reviewed: 2026-08-31
 checked: 2026-08-30
 sources:
   - name: National Bank of Georgia

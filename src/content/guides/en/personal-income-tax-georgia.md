@@ -3,7 +3,7 @@ title: Personal Income Tax and Territorial Taxation in Georgia (2026)
 category: tax
 lang: en
 summary: "Georgia taxes personal income at a flat 20% and applies a territorial system to individuals: a resident is generally taxed only on Georgian-source income, while foreign-source income of a resident natural person is exempt under Article 82 of the Tax Code, and non-residents are taxed only on Georgian-source income under Article 79. Article 104 sets out how the source of income is determined — and the practical trap is that work physically performed in Georgia is usually Georgian-source even if the client and the money are abroad. This guide explains the 20% rate, the territorial principle, how income is sourced, and how the low-rate small-business regimes for individual entrepreneurs fit alongside the standard rate, all checked against the primary Georgian law."
-reviewed: 2026-06-30
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 2
 sources:

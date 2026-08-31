@@ -3,7 +3,7 @@ title: "Where to Live in Georgia: Cities & Regions"
 category: live
 lang: en
 summary: A short, factual overview of where newcomers settle in Georgia. Most foreign residents choose between Tbilisi — the capital and the country's business, cultural and administrative hub — and Batumi, the Black Sea resort city and port.
-reviewed: 2026-07-10
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 4
 sources:

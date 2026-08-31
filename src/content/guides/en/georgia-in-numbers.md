@@ -3,7 +3,7 @@ title: "Georgia in Numbers: Economy, Population & Trade (2026)"
 category: "about"
 lang: "en"
 summary: "Georgia is a small, open, upper-middle-income economy in the South Caucasus. Its population was about 3.9 million at the 2024 census (Geostat), nominal GDP reached roughly GEL 93 billion (about USD 34 billion) in 2024, and the economy grew 9.7% in real terms that year — among the fastest rates in the wider region (Geostat, 2024)."
-reviewed: 2026-07-10
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 5
 sources:

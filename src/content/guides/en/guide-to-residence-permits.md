@@ -3,7 +3,7 @@ title: Guide to Residence Permits in Georgia
 category: immigration
 lang: en
 summary: Georgia offers several residence permits depending on the purpose of stay — work, IT, investment, study, family and more. Each has its own legal basis, conditions and validity.
-reviewed: 2026-06-12
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 2
 sources:

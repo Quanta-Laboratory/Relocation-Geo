@@ -4,7 +4,7 @@ category: "about"
 parent: "about"
 lang: "en"
 summary: "How Relocation.ge collects, structures, verifies and maintains legal and regulatory information to keep migration and business guidance accurate, traceable and reliable over time."
-reviewed: 2026-07-10
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 2
 sources:

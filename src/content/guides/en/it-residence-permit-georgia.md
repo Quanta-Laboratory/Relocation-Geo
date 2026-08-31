@@ -4,7 +4,7 @@ category: immigration
 parent: guide-to-residence-permits
 lang: en
 summary: Georgia's IT Residence Permit is a dedicated route for foreign IT professionals, founders and company representatives, and their family members. It is issued for three years and renewable. Three categories qualify — IT migrants, IT entrepreneurs holding Small Business Status, and representatives of international IT companies. This guide sets out the categories, tests, required documents, the IT-sector definition, fees and how to apply.
-reviewed: 2026-07-10
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 10
 sources:

@@ -3,7 +3,7 @@ title: "Migration to Georgia: What the Official Data Shows (2012–2024)"
 category: "immigration"
 lang: "en"
 summary: "Official figures show two opposite trends: Georgian citizens have left in net terms for most of the past decade, while foreign citizens have consistently moved in. Russia's 2022 invasion of Ukraine drove a sharp surge of arrivals from Russia, Ukraine and Belarus that eased through 2023–2024."
-reviewed: 2026-06-27
+reviewed: 2026-08-31
 checked: 2026-08-30
 order: 3
 sources:
