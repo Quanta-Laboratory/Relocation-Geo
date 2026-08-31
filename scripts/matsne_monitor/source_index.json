@@ -1,626 +1,1652 @@
 {
   "generated_from": "src/{content,data,pages}",
-  "doc_count": 34,
+  "doc_count": 35,
   "index": {
+    "2278806": [
+      {
+        "path": "content/guides/de/family-reunification-residence-permit-georgia.md",
+        "title": "Aufenthaltstitel zur Familienzusammenführung in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/former-citizen-residence-permit-georgia.md",
+        "title": "Aufenthaltserlaubnis für ehemalige Staatsbürger Georgiens (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/guide-to-residence-permits.md",
+        "title": "Leitfaden zu Aufenthaltstiteln in Georgien",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/indefinite-residence-permit-georgia.md",
+        "title": "Unbefristete Aufenthaltserlaubnis in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/investment-residence-permit-georgia.md",
+        "title": "Investitions-Aufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/it-residence-permit-georgia.md",
+        "title": "IT-Aufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/permanent-residence-permit-georgia.md",
+        "title": "Unbefristete Aufenthaltserlaubnis in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/right-to-work-georgia.md",
+        "title": "Das Recht auf Arbeit in Georgien: Die Arbeitsmigrationsgenehmigung erklärt (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/short-term-residence-permit-property-georgia.md",
+        "title": "Kurzzeit-Aufenthaltstitel in Georgien durch Immobilien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/special-residence-permit-georgia.md",
+        "title": "Sonderaufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/student-visa-and-residence-georgia.md",
+        "title": "Studentenvisum & Aufenthalt in Georgien (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Befristeter Aufenthaltstitel für Opfer häuslicher Gewalt in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/work-residence-permit-georgia.md",
+        "title": "Arbeitsaufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/en/d6-visa-georgia.md",
+        "title": "D6 Visa for Georgia: Immigration Visa for Minor Students (from 1 September 2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/diplomatic-visa-georgia.md",
+        "title": "Diplomatic (A) Visa for Georgia: A1–A5 Explained (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/entry-rules-by-citizenship-georgia.md",
+        "title": "Entry Rules for Georgia by Citizenship (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/family-reunification-residence-permit-georgia.md",
+        "title": "Family Reunification Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/former-citizen-residence-permit-georgia.md",
+        "title": "Former Citizen Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/georgia-for-digital-nomads.md",
+        "title": "Georgia for Digital Nomads (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/guide-to-georgian-visas.md",
+        "title": "Guide to Georgian Visas: All Visa Types Explained (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/guide-to-residence-permits.md",
+        "title": "Guide to Residence Permits in Georgia",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/immigration-visa-georgia.md",
+        "title": "Immigration (D) Visa for Georgia: D1–D5 Explained (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/indefinite-residence-permit-georgia.md",
+        "title": "Indefinite Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/investment-residence-permit-georgia.md",
+        "title": "Investment Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/it-residence-permit-georgia.md",
+        "title": "IT Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/ordinary-visa-georgia.md",
+        "title": "Ordinary (C) Visa for Georgia: C1–C5 Explained (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/permanent-residence-permit-georgia.md",
+        "title": "Permanent Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/right-to-work-georgia.md",
+        "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/short-term-residence-permit-property-georgia.md",
+        "title": "Short-Term Residence Permit in Georgia by Property (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/special-residence-permit-georgia.md",
+        "title": "Special Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/special-visa-georgia.md",
+        "title": "Special (B) Visa for Georgia: B1–B4 Explained (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/student-visa-and-residence-georgia.md",
+        "title": "Student Visa & Residence in Georgia (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Temporary Residence Permit for Victims of Domestic Violence in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/transit-visa-georgia.md",
+        "title": "Transit (T) Visa for Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/visa-free-entry-georgia.md",
+        "title": "Visa-Free Entry & the One-Year Rule in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/work-residence-permit-georgia.md",
+        "title": "Work Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/working-while-studying-georgia.md",
+        "title": "Working While Studying in Georgia",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/fr/family-reunification-residence-permit-georgia.md",
+        "title": "Permis de séjour pour regroupement familial en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/former-citizen-residence-permit-georgia.md",
+        "title": "Permis de séjour pour ancien citoyen de Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/guide-to-residence-permits.md",
+        "title": "Guide des permis de séjour en Géorgie",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/indefinite-residence-permit-georgia.md",
+        "title": "Permis de séjour à durée indéterminée en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/investment-residence-permit-georgia.md",
+        "title": "Permis de séjour pour investissement en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/it-residence-permit-georgia.md",
+        "title": "Permis de séjour IT en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/permanent-residence-permit-georgia.md",
+        "title": "Permis de séjour permanent en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/right-to-work-georgia.md",
+        "title": "Le droit de travailler en Géorgie : le permis de migration de travail expliqué (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/short-term-residence-permit-property-georgia.md",
+        "title": "Permis de séjour de courte durée en Géorgie par la propriété (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/special-residence-permit-georgia.md",
+        "title": "Permis de séjour spécial en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/student-visa-and-residence-georgia.md",
+        "title": "Visa étudiant & titre de séjour en Géorgie (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Permis de séjour temporaire pour les victimes de violence domestique en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/work-residence-permit-georgia.md",
+        "title": "Permis de séjour pour travail en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/he/family-reunification-residence-permit-georgia.md",
+        "title": "אשרת שהייה לאיחוד משפחות בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/former-citizen-residence-permit-georgia.md",
+        "title": "אישור שהייה לאזרח לשעבר בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/guide-to-residence-permits.md",
+        "title": "מדריך לאשרות תושבות בגאורגיה",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/indefinite-residence-permit-georgia.md",
+        "title": "רישיון ישיבה בלתי מוגבל בזמן בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/investment-residence-permit-georgia.md",
+        "title": "אשרת שהייה על בסיס השקעה בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/it-residence-permit-georgia.md",
+        "title": "אשרת שהייה ל-IT בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/permanent-residence-permit-georgia.md",
+        "title": "אשרת תושבות קבע בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/right-to-work-georgia.md",
+        "title": "הזכות לעבוד בגאורגיה: היתר הגירת עבודה בהסבר (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/short-term-residence-permit-property-georgia.md",
+        "title": "היתר שהייה קצר טווח בגאורגיה על בסיס נכס (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/special-residence-permit-georgia.md",
+        "title": "אישור שהייה מיוחד בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/student-visa-and-residence-georgia.md",
+        "title": "ויזת סטודנט ורישיון ישיבה בגאורגיה (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "אישור שהייה זמני לנפגעי אלימות במשפחה בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/work-residence-permit-georgia.md",
+        "title": "אישור שהייה לצורך עבודה בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/ru/family-reunification-residence-permit-georgia.md",
+        "title": "Вид на жительство для воссоединения семьи в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/former-citizen-residence-permit-georgia.md",
+        "title": "Вид на жительство для бывшего гражданина Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/guide-to-residence-permits.md",
+        "title": "Руководство по видам на жительство в Грузии",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/indefinite-residence-permit-georgia.md",
+        "title": "Бессрочный вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/investment-residence-permit-georgia.md",
+        "title": "Инвестиционный вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/it-residence-permit-georgia.md",
+        "title": "IT вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/permanent-residence-permit-georgia.md",
+        "title": "Постоянный вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/right-to-work-georgia.md",
+        "title": "Право на работу в Грузии: разрешение на трудовую миграцию (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/short-term-residence-permit-property-georgia.md",
+        "title": "Краткосрочный вид на жительство в Грузии по недвижимости (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/special-residence-permit-georgia.md",
+        "title": "Специальный вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/student-visa-and-residence-georgia.md",
+        "title": "Студенческая виза и вид на жительство в Грузии (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Временный вид на жительство для жертв домашнего насилия в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/work-residence-permit-georgia.md",
+        "title": "Рабочий вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/uk/family-reunification-residence-permit-georgia.md",
+        "title": "Посвідка на проживання для возз'єднання сім'ї в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/former-citizen-residence-permit-georgia.md",
+        "title": "Посвідка на проживання для колишнього громадянина Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/guide-to-residence-permits.md",
+        "title": "Посібник з посвідок на проживання в Грузії",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/indefinite-residence-permit-georgia.md",
+        "title": "Безстрокова посвідка на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/investment-residence-permit-georgia.md",
+        "title": "Інвестиційний вид на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/it-residence-permit-georgia.md",
+        "title": "IT посвідка на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/permanent-residence-permit-georgia.md",
+        "title": "Постійний вид на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/right-to-work-georgia.md",
+        "title": "Право на роботу в Грузії: пояснення дозволу на трудову міграцію (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/short-term-residence-permit-property-georgia.md",
+        "title": "Короткостроковий вид на проживання в Грузії на підставі нерухомості (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/special-residence-permit-georgia.md",
+        "title": "Спеціальний вид на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/student-visa-and-residence-georgia.md",
+        "title": "Студентська віза та вид на проживання в Грузії (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Тимчасовий дозвіл на проживання для жертв домашнього насильства в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/work-residence-permit-georgia.md",
+        "title": "Робочий дозвіл на проживання у Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      }
+    ],
+    "2483468": [
+      {
+        "path": "content/guides/de/family-reunification-residence-permit-georgia.md",
+        "title": "Aufenthaltstitel zur Familienzusammenführung in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/former-citizen-residence-permit-georgia.md",
+        "title": "Aufenthaltserlaubnis für ehemalige Staatsbürger Georgiens (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/indefinite-residence-permit-georgia.md",
+        "title": "Unbefristete Aufenthaltserlaubnis in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/investment-residence-permit-georgia.md",
+        "title": "Investitions-Aufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/it-residence-permit-georgia.md",
+        "title": "IT-Aufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/permanent-residence-permit-georgia.md",
+        "title": "Unbefristete Aufenthaltserlaubnis in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/short-term-residence-permit-property-georgia.md",
+        "title": "Kurzzeit-Aufenthaltstitel in Georgien durch Immobilien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/special-residence-permit-georgia.md",
+        "title": "Sonderaufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/student-visa-and-residence-georgia.md",
+        "title": "Studentenvisum & Aufenthalt in Georgien (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/work-residence-permit-georgia.md",
+        "title": "Arbeitsaufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/en/family-reunification-residence-permit-georgia.md",
+        "title": "Family Reunification Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/former-citizen-residence-permit-georgia.md",
+        "title": "Former Citizen Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/indefinite-residence-permit-georgia.md",
+        "title": "Indefinite Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/investment-residence-permit-georgia.md",
+        "title": "Investment Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/it-residence-permit-georgia.md",
+        "title": "IT Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/permanent-residence-permit-georgia.md",
+        "title": "Permanent Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/short-term-residence-permit-property-georgia.md",
+        "title": "Short-Term Residence Permit in Georgia by Property (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/special-residence-permit-georgia.md",
+        "title": "Special Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/student-visa-and-residence-georgia.md",
+        "title": "Student Visa & Residence in Georgia (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/work-residence-permit-georgia.md",
+        "title": "Work Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/fr/family-reunification-residence-permit-georgia.md",
+        "title": "Permis de séjour pour regroupement familial en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/former-citizen-residence-permit-georgia.md",
+        "title": "Permis de séjour pour ancien citoyen de Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/indefinite-residence-permit-georgia.md",
+        "title": "Permis de séjour à durée indéterminée en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/investment-residence-permit-georgia.md",
+        "title": "Permis de séjour pour investissement en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/it-residence-permit-georgia.md",
+        "title": "Permis de séjour IT en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/permanent-residence-permit-georgia.md",
+        "title": "Permis de séjour permanent en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/short-term-residence-permit-property-georgia.md",
+        "title": "Permis de séjour de courte durée en Géorgie par la propriété (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/special-residence-permit-georgia.md",
+        "title": "Permis de séjour spécial en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/student-visa-and-residence-georgia.md",
+        "title": "Visa étudiant & titre de séjour en Géorgie (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/work-residence-permit-georgia.md",
+        "title": "Permis de séjour pour travail en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/he/family-reunification-residence-permit-georgia.md",
+        "title": "אשרת שהייה לאיחוד משפחות בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/former-citizen-residence-permit-georgia.md",
+        "title": "אישור שהייה לאזרח לשעבר בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/indefinite-residence-permit-georgia.md",
+        "title": "רישיון ישיבה בלתי מוגבל בזמן בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/investment-residence-permit-georgia.md",
+        "title": "אשרת שהייה על בסיס השקעה בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/it-residence-permit-georgia.md",
+        "title": "אשרת שהייה ל-IT בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/permanent-residence-permit-georgia.md",
+        "title": "אשרת תושבות קבע בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/short-term-residence-permit-property-georgia.md",
+        "title": "היתר שהייה קצר טווח בגאורגיה על בסיס נכס (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/special-residence-permit-georgia.md",
+        "title": "אישור שהייה מיוחד בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/student-visa-and-residence-georgia.md",
+        "title": "ויזת סטודנט ורישיון ישיבה בגאורגיה (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/work-residence-permit-georgia.md",
+        "title": "אישור שהייה לצורך עבודה בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/ru/family-reunification-residence-permit-georgia.md",
+        "title": "Вид на жительство для воссоединения семьи в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/former-citizen-residence-permit-georgia.md",
+        "title": "Вид на жительство для бывшего гражданина Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/indefinite-residence-permit-georgia.md",
+        "title": "Бессрочный вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/investment-residence-permit-georgia.md",
+        "title": "Инвестиционный вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/it-residence-permit-georgia.md",
+        "title": "IT вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/permanent-residence-permit-georgia.md",
+        "title": "Постоянный вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/short-term-residence-permit-property-georgia.md",
+        "title": "Краткосрочный вид на жительство в Грузии по недвижимости (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/special-residence-permit-georgia.md",
+        "title": "Специальный вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/student-visa-and-residence-georgia.md",
+        "title": "Студенческая виза и вид на жительство в Грузии (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/work-residence-permit-georgia.md",
+        "title": "Рабочий вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/uk/family-reunification-residence-permit-georgia.md",
+        "title": "Посвідка на проживання для возз'єднання сім'ї в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/former-citizen-residence-permit-georgia.md",
+        "title": "Посвідка на проживання для колишнього громадянина Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/indefinite-residence-permit-georgia.md",
+        "title": "Безстрокова посвідка на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/investment-residence-permit-georgia.md",
+        "title": "Інвестиційний вид на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/it-residence-permit-georgia.md",
+        "title": "IT посвідка на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/permanent-residence-permit-georgia.md",
+        "title": "Постійний вид на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/short-term-residence-permit-property-georgia.md",
+        "title": "Короткостроковий вид на проживання в Грузії на підставі нерухомості (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/special-residence-permit-georgia.md",
+        "title": "Спеціальний вид на проживання в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/student-visa-and-residence-georgia.md",
+        "title": "Студентська віза та вид на проживання в Грузії (D3)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/work-residence-permit-georgia.md",
+        "title": "Робочий дозвіл на проживання у Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      }
+    ],
     "1043717": [
       {
         "path": "content/guides/de/register-individual-entrepreneur-remotely.md",
         "title": "Einzelunternehmer in Georgien aus der Ferne registrieren (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "de"
       },
       {
         "path": "content/guides/de/tax-residency-georgia.md",
         "title": "Steuerliche Ansässigkeit in Georgien: Die 183-Tage-Regel und der HNWI-Weg (2026)",
-        "reviewed": "2026-06-30",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "de"
       },
       {
         "path": "content/guides/en/business-statuses-georgia.md",
         "title": "Business Statuses in Georgia: Which One Fits You",
-        "reviewed": "2026-07-08",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/corporate-profit-tax-georgia.md",
         "title": "Corporate (Profit) Tax in Georgia: The Estonian Model (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/employing-staff-in-georgia.md",
         "title": "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/fixed-taxpayer-status-georgia.md",
         "title": "Fixed Taxpayer Status in Georgia",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/free-industrial-zones-georgia.md",
         "title": "Free Industrial Zones in Georgia (FIZ)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/importing-a-car-to-georgia.md",
         "title": "Importing & Registering a Car in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/international-company-status-georgia.md",
         "title": "International Company Status in Georgia: 5% tax regime for IT and maritime firms",
-        "reviewed": "2026-06-29",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/micro-business-status-georgia.md",
         "title": "Micro Business Status in Georgia (0% Tax)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/personal-income-tax-georgia.md",
         "title": "Personal Income Tax and Territorial Taxation in Georgia (2026)",
-        "reviewed": "2026-06-30",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/property-tax-georgia.md",
         "title": "Property Tax in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/register-individual-entrepreneur-in-person-georgia.md",
         "title": "How to Register an Individual Entrepreneur in Person in Georgia (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/register-individual-entrepreneur-remotely.md",
         "title": "How to Register an Individual Entrepreneur Remotely (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/small-business-status-georgia.md",
         "title": "Small Business Status in Georgia (1% Turnover Tax)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/small-business-tax-obligations-georgia.md",
         "title": "Tax Obligations of a Small Business in Georgia: What Starts When You Begin Trading",
-        "reviewed": "2026-07-15",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/special-tax-regimes-georgia.md",
         "title": "Special Tax Regimes in Georgia: Small, Micro and Fixed Status",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/tax-residency-georgia.md",
         "title": "Tax Residency in Georgia: The 183-Day Rule and the HNWI Route (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/terminating-an-individual-entrepreneur-georgia remotely.md",
         "title": "Terminating an Individual Entrepreneur in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/vat-in-georgia.md",
         "title": "VAT in Georgia: Rates, Registration & Reverse Charge (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/virtual-zone-person-georgia.md",
         "title": "Virtual Zone Person Status in Georgia: 0% tax on exported IT",
-        "reviewed": "2026-06-29",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/fr/register-individual-entrepreneur-remotely.md",
         "title": "Enregistrer un entrepreneur individuel en Géorgie à distance (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "fr"
       },
       {
         "path": "content/guides/fr/tax-residency-georgia.md",
         "title": "La résidence fiscale en Géorgie : la règle des 183 jours et la voie HNWI (2026)",
-        "reviewed": "2026-06-30",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "fr"
       },
       {
         "path": "content/guides/he/register-individual-entrepreneur-remotely.md",
         "title": "כיצד לרשום עוסק יחיד בגאורגיה מרחוק (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "he"
       },
       {
         "path": "content/guides/he/tax-residency-georgia.md",
         "title": "תושבות מס בגאורגיה: כלל 183 הימים ומסלול בעלי ההון הגבוה (HNWI) (2026)",
-        "reviewed": "2026-06-30",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "he"
       },
       {
         "path": "content/guides/ka/register-individual-entrepreneur-remotely.md",
         "title": "როგორ დავარეგისტრიროთ ინდივიდუალური მეწარმე საქართველოში დისტანციურად (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "ka"
       },
       {
         "path": "content/guides/ka/tax-residency-georgia.md",
         "title": "საგადასახადო რეზიდენტობა საქართველოში: 183 დღის წესი და HNWI გზა (2026)",
-        "reviewed": "2026-06-30",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "ka"
       },
       {
         "path": "content/guides/ru/register-individual-entrepreneur-remotely.md",
         "title": "Как зарегистрировать ИП в Грузии удалённо (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "ru"
       },
       {
         "path": "content/guides/ru/tax-residency-georgia.md",
         "title": "Налоговое резидентство в Грузии: правило 183 дней и режим для состоятельных лиц (HNWI) (2026)",
-        "reviewed": "2026-06-30",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "ru"
       },
       {
         "path": "content/guides/uk/register-individual-entrepreneur-remotely.md",
         "title": "Як зареєструвати ФОП у Грузії дистанційно (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "uk"
       },
       {
         "path": "content/guides/uk/tax-residency-georgia.md",
         "title": "Податкове резидентство в Грузії: правило 183 днів і шлях для заможних осіб (HNWI) (2026)",
-        "reviewed": "2026-06-30",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "uk"
       },
       {
         "path": "data/small-business-activity-data.ts"
       }
     ],
-    "2278806": [
-      {
-        "path": "content/guides/en/d6-visa-georgia.md",
-        "title": "D6 Visa for Georgia: Immigration Visa for Minor Students (from 1 September 2026)",
-        "reviewed": "2026-07-02",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/diplomatic-visa-georgia.md",
-        "title": "Diplomatic (A) Visa for Georgia: A1–A5 Explained (2026)",
-        "reviewed": "2026-07-02",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/entry-rules-by-citizenship-georgia.md",
-        "title": "Entry Rules for Georgia by Citizenship (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/family-reunification-residence-permit-georgia.md",
-        "title": "Family Reunification Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/former-citizen-residence-permit-georgia.md",
-        "title": "Former Citizen Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/georgia-for-digital-nomads.md",
-        "title": "Georgia for Digital Nomads (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/guide-to-georgian-visas.md",
-        "title": "Guide to Georgian Visas: All Visa Types Explained (2026)",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/guide-to-residence-permits.md",
-        "title": "Guide to Residence Permits in Georgia",
-        "reviewed": "2026-06-12",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/immigration-visa-georgia.md",
-        "title": "Immigration (D) Visa for Georgia: D1–D5 Explained (2026)",
-        "reviewed": "2026-07-02",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/indefinite-residence-permit-georgia.md",
-        "title": "Indefinite Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/investment-residence-permit-georgia.md",
-        "title": "Investment Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/it-residence-permit-georgia.md",
-        "title": "IT Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/ordinary-visa-georgia.md",
-        "title": "Ordinary (C) Visa for Georgia: C1–C5 Explained (2026)",
-        "reviewed": "2026-07-02",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/permanent-residence-permit-georgia.md",
-        "title": "Permanent Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/right-to-work-georgia.md",
-        "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/short-term-residence-permit-property-georgia.md",
-        "title": "Short-Term Residence Permit in Georgia by Property (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/special-residence-permit-georgia.md",
-        "title": "Special Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/special-visa-georgia.md",
-        "title": "Special (B) Visa for Georgia: B1–B4 Explained (2026)",
-        "reviewed": "2026-07-02",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/student-visa-and-residence-georgia.md",
-        "title": "Student Visa & Residence in Georgia (D3)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/temporary-residence-permit-domestic-violence-georgia.md",
-        "title": "Temporary Residence Permit for Victims of Domestic Violence in Georgia (2026)",
-        "reviewed": "2026-06-30",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/transit-visa-georgia.md",
-        "title": "Transit (T) Visa for Georgia (2026)",
-        "reviewed": "2026-07-02",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/visa-free-entry-georgia.md",
-        "title": "Visa-Free Entry & the One-Year Rule in Georgia (2026)",
-        "reviewed": "2026-07-02",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/work-residence-permit-georgia.md",
-        "title": "Work Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/working-while-studying-georgia.md",
-        "title": "Working While Studying in Georgia",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
-        "lang": "en"
-      }
-    ],
     "6940189": [
       {
         "path": "content/guides/de/register-individual-entrepreneur-remotely.md",
         "title": "Einzelunternehmer in Georgien aus der Ferne registrieren (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/right-to-work-georgia.md",
+        "title": "Das Recht auf Arbeit in Georgien: Die Arbeitsmigrationsgenehmigung erklärt (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "de"
       },
       {
         "path": "content/guides/en/employing-staff-in-georgia.md",
         "title": "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/georgia-for-digital-nomads.md",
         "title": "Georgia for Digital Nomads (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/register-individual-entrepreneur-in-person-georgia.md",
         "title": "How to Register an Individual Entrepreneur in Person in Georgia (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/register-individual-entrepreneur-remotely.md",
         "title": "How to Register an Individual Entrepreneur Remotely (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/right-to-work-georgia.md",
         "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/small-business-status-georgia.md",
         "title": "Small Business Status in Georgia (1% Turnover Tax)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/fr/register-individual-entrepreneur-remotely.md",
         "title": "Enregistrer un entrepreneur individuel en Géorgie à distance (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/right-to-work-georgia.md",
+        "title": "Le droit de travailler en Géorgie : le permis de migration de travail expliqué (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "fr"
       },
       {
         "path": "content/guides/he/register-individual-entrepreneur-remotely.md",
         "title": "כיצד לרשום עוסק יחיד בגאורגיה מרחוק (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/right-to-work-georgia.md",
+        "title": "הזכות לעבוד בגאורגיה: היתר הגירת עבודה בהסבר (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "he"
       },
       {
         "path": "content/guides/ka/register-individual-entrepreneur-remotely.md",
         "title": "როგორ დავარეგისტრიროთ ინდივიდუალური მეწარმე საქართველოში დისტანციურად (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "ka"
       },
       {
         "path": "content/guides/ru/register-individual-entrepreneur-remotely.md",
         "title": "Как зарегистрировать ИП в Грузии удалённо (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/right-to-work-georgia.md",
+        "title": "Право на работу в Грузии: разрешение на трудовую миграцию (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "ru"
       },
       {
         "path": "content/guides/uk/register-individual-entrepreneur-remotely.md",
         "title": "Як зареєструвати ФОП у Грузії дистанційно (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/right-to-work-georgia.md",
+        "title": "Право на роботу в Грузії: пояснення дозволу на трудову міграцію (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "uk"
       }
     ],
-    "2483468": [
+    "2806732": [
       {
-        "path": "content/guides/en/family-reunification-residence-permit-georgia.md",
-        "title": "Family Reunification Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "path": "content/guides/de/right-to-work-georgia.md",
+        "title": "Das Recht auf Arbeit in Georgien: Die Arbeitsmigrationsgenehmigung erklärt (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/work-residence-permit-georgia.md",
+        "title": "Arbeitsaufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/en/employing-staff-in-georgia.md",
+        "title": "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
-        "path": "content/guides/en/former-citizen-residence-permit-georgia.md",
-        "title": "Former Citizen Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "path": "content/guides/en/georgia-for-digital-nomads.md",
+        "title": "Georgia for Digital Nomads (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
-        "path": "content/guides/en/indefinite-residence-permit-georgia.md",
-        "title": "Indefinite Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/investment-residence-permit-georgia.md",
-        "title": "Investment Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/it-residence-permit-georgia.md",
-        "title": "IT Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/permanent-residence-permit-georgia.md",
-        "title": "Permanent Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/short-term-residence-permit-property-georgia.md",
-        "title": "Short-Term Residence Permit in Georgia by Property (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/special-residence-permit-georgia.md",
-        "title": "Special Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/student-visa-and-residence-georgia.md",
-        "title": "Student Visa & Residence in Georgia (D3)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "path": "content/guides/en/right-to-work-georgia.md",
+        "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/work-residence-permit-georgia.md",
         "title": "Work Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
+      },
+      {
+        "path": "content/guides/fr/right-to-work-georgia.md",
+        "title": "Le droit de travailler en Géorgie : le permis de migration de travail expliqué (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/work-residence-permit-georgia.md",
+        "title": "Permis de séjour pour travail en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/he/right-to-work-georgia.md",
+        "title": "הזכות לעבוד בגאורגיה: היתר הגירת עבודה בהסבר (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/work-residence-permit-georgia.md",
+        "title": "אישור שהייה לצורך עבודה בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/ru/right-to-work-georgia.md",
+        "title": "Право на работу в Грузии: разрешение на трудовую миграцию (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/work-residence-permit-georgia.md",
+        "title": "Рабочий вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/uk/right-to-work-georgia.md",
+        "title": "Право на роботу в Грузії: пояснення дозволу на трудову міграцію (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/work-residence-permit-georgia.md",
+        "title": "Робочий дозвіл на проживання у Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      }
+    ],
+    "6939703": [
+      {
+        "path": "content/guides/de/right-to-work-georgia.md",
+        "title": "Das Recht auf Arbeit in Georgien: Die Arbeitsmigrationsgenehmigung erklärt (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/de/work-residence-permit-georgia.md",
+        "title": "Arbeitsaufenthaltstitel in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/en/right-to-work-georgia.md",
+        "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/en/work-residence-permit-georgia.md",
+        "title": "Work Residence Permit in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "en"
+      },
+      {
+        "path": "content/guides/fr/right-to-work-georgia.md",
+        "title": "Le droit de travailler en Géorgie : le permis de migration de travail expliqué (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/fr/work-residence-permit-georgia.md",
+        "title": "Permis de séjour pour travail en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/he/right-to-work-georgia.md",
+        "title": "הזכות לעבוד בגאורגיה: היתר הגירת עבודה בהסבר (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/he/work-residence-permit-georgia.md",
+        "title": "אישור שהייה לצורך עבודה בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/ru/right-to-work-georgia.md",
+        "title": "Право на работу в Грузии: разрешение на трудовую миграцию (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/ru/work-residence-permit-georgia.md",
+        "title": "Рабочий вид на жительство в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/uk/right-to-work-georgia.md",
+        "title": "Право на роботу в Грузії: пояснення дозволу на трудову міграцію (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      },
+      {
+        "path": "content/guides/uk/work-residence-permit-georgia.md",
+        "title": "Робочий дозвіл на проживання у Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
       }
     ],
     "5142530": [
       {
         "path": "content/guides/de/register-individual-entrepreneur-remotely.md",
         "title": "Einzelunternehmer in Georgien aus der Ferne registrieren (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "de"
       },
       {
         "path": "content/guides/en/legal-address-for-business-georgia.md",
         "title": "Legal Address for a business in Georgia",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/register-individual-entrepreneur-in-person-georgia.md",
         "title": "How to Register an Individual Entrepreneur in Person in Georgia (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/register-individual-entrepreneur-remotely.md",
         "title": "How to Register an Individual Entrepreneur Remotely (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/terminating-an-individual-entrepreneur-georgia remotely.md",
         "title": "Terminating an Individual Entrepreneur in Georgia (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/fr/register-individual-entrepreneur-remotely.md",
         "title": "Enregistrer un entrepreneur individuel en Géorgie à distance (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "fr"
       },
       {
         "path": "content/guides/he/register-individual-entrepreneur-remotely.md",
         "title": "כיצד לרשום עוסק יחיד בגאורגיה מרחוק (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "he"
       },
       {
         "path": "content/guides/ka/register-individual-entrepreneur-remotely.md",
         "title": "როგორ დავარეგისტრიროთ ინდივიდუალური მეწარმე საქართველოში დისტანციურად (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "ka"
       },
       {
         "path": "content/guides/ru/register-individual-entrepreneur-remotely.md",
         "title": "Как зарегистрировать ИП в Грузии удалённо (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "ru"
       },
       {
         "path": "content/guides/uk/register-individual-entrepreneur-remotely.md",
         "title": "Як зареєструвати ФОП у Грузії дистанційно (2026)",
-        "reviewed": "2026-07-14",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "uk"
       }
     ],
@@ -628,36 +1654,36 @@
       {
         "path": "content/guides/en/fixed-taxpayer-status-georgia.md",
         "title": "Fixed Taxpayer Status in Georgia",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/micro-business-status-georgia.md",
         "title": "Micro Business Status in Georgia (0% Tax)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/small-business-status-georgia.md",
         "title": "Small Business Status in Georgia (1% Turnover Tax)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/small-business-tax-obligations-georgia.md",
         "title": "Tax Obligations of a Small Business in Georgia: What Starts When You Begin Trading",
-        "reviewed": "2026-07-15",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/special-tax-regimes-georgia.md",
         "title": "Special Tax Regimes in Georgia: Small, Micro and Fixed Status",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
@@ -668,99 +1694,201 @@
       {
         "path": "content/guides/en/fixed-taxpayer-status-georgia.md",
         "title": "Fixed Taxpayer Status in Georgia",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/micro-business-status-georgia.md",
         "title": "Micro Business Status in Georgia (0% Tax)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/small-business-status-georgia.md",
         "title": "Small Business Status in Georgia (1% Turnover Tax)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/small-business-tax-obligations-georgia.md",
         "title": "Tax Obligations of a Small Business in Georgia: What Starts When You Begin Trading",
-        "reviewed": "2026-07-15",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/special-tax-regimes-georgia.md",
         "title": "Special Tax Regimes in Georgia: Small, Micro and Fixed Status",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "data/small-business-activity-data.ts"
       }
     ],
-    "2806732": [
+    "26422": [
       {
-        "path": "content/guides/en/employing-staff-in-georgia.md",
-        "title": "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "path": "content/guides/de/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Befristeter Aufenthaltstitel für Opfer häuslicher Gewalt in Georgien (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/en/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Temporary Residence Permit for Victims of Domestic Violence in Georgia (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
-        "path": "content/guides/en/georgia-for-digital-nomads.md",
-        "title": "Georgia for Digital Nomads (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
-        "lang": "en"
+        "path": "content/guides/fr/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Permis de séjour temporaire pour les victimes de violence domestique en Géorgie (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/he/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "אישור שהייה זמני לנפגעי אלימות במשפחה בגאורגיה (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/ru/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Временный вид на жительство для жертв домашнего насилия в Грузии (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/uk/temporary-residence-permit-domestic-violence-georgia.md",
+        "title": "Тимчасовий дозвіл на проживання для жертв домашнього насильства в Грузії (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      }
+    ],
+    "6543098": [
+      {
+        "path": "content/guides/de/right-to-work-georgia.md",
+        "title": "Das Recht auf Arbeit in Georgien: Die Arbeitsmigrationsgenehmigung erklärt (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
       },
       {
         "path": "content/guides/en/right-to-work-georgia.md",
         "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
-        "path": "content/guides/en/work-residence-permit-georgia.md",
-        "title": "Work Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "path": "content/guides/fr/right-to-work-georgia.md",
+        "title": "Le droit de travailler en Géorgie : le permis de migration de travail expliqué (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/he/right-to-work-georgia.md",
+        "title": "הזכות לעבוד בגאורגיה: היתר הגירת עבודה בהסבר (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/ru/right-to-work-georgia.md",
+        "title": "Право на работу в Грузии: разрешение на трудовую миграцию (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/uk/right-to-work-georgia.md",
+        "title": "Право на роботу в Грузії: пояснення дозволу на трудову міграцію (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
+      }
+    ],
+    "6791218": [
+      {
+        "path": "content/guides/de/right-to-work-georgia.md",
+        "title": "Das Recht auf Arbeit in Georgien: Die Arbeitsmigrationsgenehmigung erklärt (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "de"
+      },
+      {
+        "path": "content/guides/en/right-to-work-georgia.md",
+        "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
+      },
+      {
+        "path": "content/guides/fr/right-to-work-georgia.md",
+        "title": "Le droit de travailler en Géorgie : le permis de migration de travail expliqué (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "fr"
+      },
+      {
+        "path": "content/guides/he/right-to-work-georgia.md",
+        "title": "הזכות לעבוד בגאורגיה: היתר הגירת עבודה בהסבר (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "he"
+      },
+      {
+        "path": "content/guides/ru/right-to-work-georgia.md",
+        "title": "Право на работу в Грузии: разрешение на трудовую миграцию (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "ru"
+      },
+      {
+        "path": "content/guides/uk/right-to-work-georgia.md",
+        "title": "Право на роботу в Грузії: пояснення дозволу на трудову міграцію (2026)",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
+        "lang": "uk"
       }
     ],
     "5230186": [
       {
         "path": "content/guides/en/joint-stock-company-georgia.md",
         "title": "Joint-Stock Company (JSC) in Georgia",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/registering-a-company-in-georgia.md",
         "title": "Registering a Company in Georgia: Business Forms and Setup",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/run-a-business-in-georgia.md",
         "title": "Run a Business in Georgia: IE, LLC and Statuses",
-        "reviewed": "2026-07-08",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/running-a-company-in-georgia.md",
         "title": "Running a Company in Georgia: Governance and Ongoing Rules",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -768,15 +1896,15 @@
       {
         "path": "content/guides/en/employing-staff-in-georgia.md",
         "title": "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/public-holidays-in-georgia.md",
         "title": "Public Holidays in Georgia (2026)",
-        "reviewed": "2026-07-13",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
@@ -787,22 +1915,22 @@
       {
         "path": "content/guides/en/georgian-citizenship-and-naturalisation.md",
         "title": "Georgian Citizenship & Naturalisation (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/learning-georgian-language.md",
         "title": "Learning Georgian: Language & Integration",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/marriage-and-birth-registration-georgia.md",
         "title": "Marriage & Birth Registration in Georgia",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -810,15 +1938,15 @@
       {
         "path": "content/guides/en/entry-rules-by-citizenship-georgia.md",
         "title": "Entry Rules for Georgia by Citizenship (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/visa-free-entry-georgia.md",
         "title": "Visa-Free Entry & the One-Year Rule in Georgia (2026)",
-        "reviewed": "2026-07-02",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
@@ -829,15 +1957,15 @@
       {
         "path": "content/guides/en/entry-rules-by-citizenship-georgia.md",
         "title": "Entry Rules for Georgia by Citizenship (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/visa-free-entry-georgia.md",
         "title": "Visa-Free Entry & the One-Year Rule in Georgia (2026)",
-        "reviewed": "2026-07-02",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
@@ -848,22 +1976,22 @@
       {
         "path": "content/guides/en/buying-property-in-georgia-for-foreigners.md",
         "title": "Buying Property in Georgia: Real Estate Ownership for Foreigners",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/housing-in-georgia.md",
         "title": "Housing in Georgia: Renting and Buying",
-        "reviewed": "2026-07-08",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/renting-a-home-in-georgia.md",
         "title": "Renting a Home in Georgia: Tenant and Landlord Rules",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -871,15 +1999,15 @@
       {
         "path": "content/guides/en/admissions-and-enrolment-georgia.md",
         "title": "University Admissions & Enrolment in Georgia for International Students",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/universities-in-georgia.md",
         "title": "Universities in Georgia: Higher Education for International Students",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -887,31 +2015,15 @@
       {
         "path": "content/guides/en/employing-staff-in-georgia.md",
         "title": "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       },
       {
         "path": "content/guides/en/small-business-tax-obligations-georgia.md",
         "title": "Tax Obligations of a Small Business in Georgia: What Starts When You Begin Trading",
-        "reviewed": "2026-07-15",
-        "checked": "2026-08-24",
-        "lang": "en"
-      }
-    ],
-    "6939703": [
-      {
-        "path": "content/guides/en/right-to-work-georgia.md",
-        "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
-        "lang": "en"
-      },
-      {
-        "path": "content/guides/en/work-residence-permit-georgia.md",
-        "title": "Work Residence Permit in Georgia (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -919,8 +2031,8 @@
       {
         "path": "content/guides/en/virtual-zone-person-georgia.md",
         "title": "Virtual Zone Person Status in Georgia: 0% tax on exported IT",
-        "reviewed": "2026-06-29",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -928,8 +2040,8 @@
       {
         "path": "content/guides/en/marriage-and-birth-registration-georgia.md",
         "title": "Marriage & Birth Registration in Georgia",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -937,8 +2049,8 @@
       {
         "path": "content/guides/en/entry-rules-by-citizenship-georgia.md",
         "title": "Entry Rules for Georgia by Citizenship (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -946,8 +2058,8 @@
       {
         "path": "content/guides/en/buying-property-in-georgia-for-foreigners.md",
         "title": "Buying Property in Georgia: Real Estate Ownership for Foreigners",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -955,17 +2067,8 @@
       {
         "path": "content/guides/en/free-industrial-zones-georgia.md",
         "title": "Free Industrial Zones in Georgia (FIZ)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      }
-    ],
-    "26422": [
-      {
-        "path": "content/guides/en/temporary-residence-permit-domestic-violence-georgia.md",
-        "title": "Temporary Residence Permit for Victims of Domestic Violence in Georgia (2026)",
-        "reviewed": "2026-06-30",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -973,17 +2076,22 @@
       {
         "path": "content/guides/en/investor-guarantees-in-georgia.md",
         "title": "Investor Guarantees in Georgia: rights and protections for foreign investors",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
+      }
+    ],
+    "37708": [
+      {
+        "path": "data/document-legalization-georgia.ts"
       }
     ],
     "4367880": [
       {
         "path": "content/guides/en/bringing-pets-to-georgia.md",
         "title": "Bringing Pets to Georgia: Import Rules for Cats & Dogs (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -991,8 +2099,8 @@
       {
         "path": "content/guides/en/international-company-status-georgia.md",
         "title": "International Company Status in Georgia: 5% tax regime for IT and maritime firms",
-        "reviewed": "2026-06-29",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -1000,8 +2108,8 @@
       {
         "path": "content/guides/en/health-insurance-in-georgia-for-foreigners.md",
         "title": "Health Insurance in Georgia for Foreigners (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -1009,17 +2117,8 @@
       {
         "path": "content/guides/en/startup-support-georgia.md",
         "title": "Startup Support in Georgia: Innovation Tax Statuses, Grants & Accelerators (2026)",
-        "reviewed": "2026-06-29",
-        "checked": "2026-08-24",
-        "lang": "en"
-      }
-    ],
-    "6543098": [
-      {
-        "path": "content/guides/en/right-to-work-georgia.md",
-        "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -1027,8 +2126,8 @@
       {
         "path": "content/guides/en/startup-support-georgia.md",
         "title": "Startup Support in Georgia: Innovation Tax Statuses, Grants & Accelerators (2026)",
-        "reviewed": "2026-06-29",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -1036,17 +2135,8 @@
       {
         "path": "content/guides/en/health-insurance-in-georgia-for-foreigners.md",
         "title": "Health Insurance in Georgia for Foreigners (2026)",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
-        "lang": "en"
-      }
-    ],
-    "6791218": [
-      {
-        "path": "content/guides/en/right-to-work-georgia.md",
-        "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
-        "reviewed": "2026-07-12",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -1054,8 +2144,8 @@
       {
         "path": "content/guides/en/legal-address-for-business-georgia.md",
         "title": "Legal Address for a business in Georgia",
-        "reviewed": "2026-07-10",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ],
@@ -1063,8 +2153,8 @@
       {
         "path": "content/guides/en/recognition-of-foreign-diplomas-georgia.md",
         "title": "Recognition of Foreign Diplomas in Georgia (NCEQE)",
-        "reviewed": "2026-06-27",
-        "checked": "2026-08-24",
+        "reviewed": "2026-08-31",
+        "checked": "2026-08-31",
         "lang": "en"
       }
     ]
