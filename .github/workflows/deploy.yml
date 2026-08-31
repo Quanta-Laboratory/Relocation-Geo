@@ -1,0 +1,57 @@
+name: Deploy to Cloudflare Workers
+
+# Publishes the site to production (Worker "relocation1v").
+#
+# Triggers:
+#   - push to main        → deploy immediately after a human push.
+#   - daily schedule      → 05:30 UTC, right after the "daily checked-date stamp"
+#                           (05:00 UTC). The bot's stamp commits carry [skip ci],
+#                           so a push event does NOT fire for them — this daily
+#                           run is what carries the fresh date to production.
+#   - manual dispatch     → deploy on demand from the Actions tab.
+#
+# Requires ONE repository secret:
+#   CLOUDFLARE_API_TOKEN  — a Cloudflare API token with "Edit Cloudflare Workers"
+#                           permission on the Dev@quanta.ge account.
+# The account id is in wrangler.jsonc; the worker's ANTHROPIC_API_KEY secret is
+# set on the Worker itself and is untouched by deploys.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '30 5 * * *' # 05:30 UTC — after the daily checked-date stamp
+  workflow_dispatch: {}
+
+# Never run two production deploys at once; a newer one supersedes an in-flight one.
+concurrency:
+  group: deploy-production
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build the static site
+        run: npm run build
+
+      - name: Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: deploy

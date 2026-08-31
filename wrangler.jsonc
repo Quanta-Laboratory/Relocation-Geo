@@ -1,5 +1,8 @@
 {
   "name": "relocation1v",
+  // Cloudflare account that owns this Worker (Dev@quanta.ge). Not secret; lets CI
+  // deploy without an accountId input. The API token is the only secret needed.
+  "account_id": "df161cb8bd90d83e39c31aeca74ff386",
   "compatibility_date": "2025-05-01",
   // The Worker serves the static site AND one dynamic endpoint (/api/match).
   // Everything except /api/* falls through to the built assets, so the site

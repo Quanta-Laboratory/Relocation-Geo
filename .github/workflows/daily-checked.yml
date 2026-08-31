@@ -1,7 +1,8 @@
 name: Daily checked-date stamp
 
-# Updates the "Last checked" date on every page once per day, commits the
-# change, and lets Cloudflare Pages rebuild automatically.
+# Updates the "Last checked" date on every page once per day and commits the
+# change. Publishing to production is handled separately by deploy.yml, whose
+# 05:30 UTC scheduled run carries this stamp to the live Worker.
 on:
   schedule:
     - cron: '0 5 * * *' # 05:00 UTC daily
