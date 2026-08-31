@@ -94,7 +94,7 @@ The applicable **state fee** depends on the selected processing time:
 
 ## Georgian ID (residence) card
 
-After obtaining the IT Residence Permit, a foreign national must apply for a **Georgian residence (ID) card** within one month. Applications may be submitted through the Public Service Hall or a territorial office of the Public Service Development Agency.
+After obtaining the Short-Term Residence Permit, a foreign national must apply for a **Georgian residence (ID) card** within one month. Applications may be submitted through the Public Service Hall or a territorial office of the Public Service Development Agency.
 
 The fee depends on the processing time:
 

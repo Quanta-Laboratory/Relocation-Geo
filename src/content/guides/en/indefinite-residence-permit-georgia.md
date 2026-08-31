@@ -69,7 +69,7 @@ Applicants generally submit:
 - the **application**;
 - a **copy of the passport**;
 - a **copy of the Investment Residence Permit (or residence card)** issued on the basis of an investment of **USD 300,000 (or the equivalent in GEL)**;
-- information confirming that the applicant's **turnover from entrepreneurial activity in Georgia during the fifth year**after the Investment Residence Permit was granted was **not less than the GEL equivalent of USD 120,000**;
+- information confirming that the applicant's **turnover from entrepreneurial activity in Georgia during the fifth year** after the Investment Residence Permit was granted was **not less than the GEL equivalent of USD 120,000**;
 - a **colour photograph, 3×4** cm, in electronic format;
 - the **receipt** confirming payment of the service fee.
 
@@ -111,7 +111,7 @@ Georgia has two residence permits that allow a foreign national to **reside in 
 
 The **Indefinite Residence Permit** is available to eligible holders of an **Investment Residence Permit** who have satisfied the statutory investment requirements over the required five-year period. Eligible family members of the investment-permit holder may also qualify.
 
-By contrast, the **[Permanent Residence Permit](/en/permanent-residence-permit-georgia)** is available primarily to **certain family members of Georgian citizens**and to foreign nationals who have **lawfully lived in Georgia for the last ten years on the basis of a temporary residence permit**.
+By contrast, the **[Permanent Residence Permit](/en/permanent-residence-permit-georgia)** is available primarily to **certain family members of Georgian citizens** and to foreign nationals who have **lawfully lived in Georgia for the last ten years on the basis of a temporary residence permit**.
 
 Both permits provide an **indefinite right of residence**, but the **eligibility criteria differ**.
 

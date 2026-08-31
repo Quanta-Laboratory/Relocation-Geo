@@ -85,7 +85,7 @@ Applications for a **Permanent Residence Permit** are submitted to the **Publ
 
 A **Permanent Residence Permit** allows its holder to **live in Georgia indefinitely**, without the need to renew their residence permit at regular intervals.
 
-However, **permanent residence is not the same as Georgian citizenship**. A Permanent Residence Permit does **not**entitle its holder to a **Georgian passport**, the **right to vote**, or any other rights reserved exclusively to Georgian citizens.
+However, **permanent residence is not the same as Georgian citizenship**. A Permanent Residence Permit does **not** entitle its holder to a **Georgian passport**, the **right to vote**, or any other rights reserved exclusively to Georgian citizens.
 
 Permanent residence may also be **terminated** in the circumstances prescribed by law, including certain periods of absence from Georgia or other statutory grounds.
 

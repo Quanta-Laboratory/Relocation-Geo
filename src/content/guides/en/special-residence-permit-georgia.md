@@ -143,4 +143,4 @@ Unlike **[Work](/en/work-residence-permit-georgia)**, **[Investment](/en/inves
 
 If you believe you may qualify under one of these categories, you should contact the **Public Service Development Agency (PSDA)** or the competent authority responsible for the relevant procedure.
 
-Human trafficking is a sensitive matter. If you or someone you know may be a victim of human trafficking, contact the competent authorities or an organisation providing assistance to victims. This guide provides **general information only**and does **not constitute legal advice**. Residence permit requirements, procedures and state fees may change over time.
+Human trafficking is a sensitive matter. If you or someone you know may be a victim of human trafficking, contact the competent authorities or an organisation providing assistance to victims. This guide provides **general information only** and does **not constitute legal advice**. Residence permit requirements, procedures and state fees may change over time.

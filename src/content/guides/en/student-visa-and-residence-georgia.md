@@ -4,7 +4,7 @@ category: students
 parent: studying-in-georgia
 lang: en
 notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
-summary: International students enter Georgia on the D3 immigration visa, issued for study or research at an authorised institution, and then convert it into a study (temporary) residence permit to stay for the length of their programme. The study residence permit is issued by the Public Service Development Agency, usually for 6 months to 1 year and renewable for the duration of the studies;  Applicants must show enrolment at an authorised institution and legal income or bank funds of at least twice the subsistence minimum per month. Many nationalities can also enter visa-free first and arrange status from within Georgia.
+summary: International students enter Georgia on the D3 immigration visa, issued for study or research at an authorised institution, and then convert it into a study (temporary) residence permit to stay for the length of their programme. The study residence permit is issued by the Public Service Development Agency, usually for 6 months to 1 year and renewable for the duration of the studies. Applicants must show enrolment at an authorised institution and legal income or bank funds of at least twice the subsistence minimum per month. Many nationalities can also enter visa-free first and arrange status from within Georgia.
 reviewed: 2026-08-31
 checked: 2026-08-30
 sources:
@@ -53,7 +53,7 @@ For an overview of all visa categories, see the **[Guide to Georgian Visas](htt
 
 **Not always.**
 
-Many foreign students do **not** need to obtain a D3 visa before travelling. Citizens of countries eligible for **visa-free entry**may lawfully enter Georgia, enrol at an authorised educational institution and, if they meet the legal requirements, apply for a **study residence permit** from within Georgia.
+Many foreign students do **not** need to obtain a D3 visa before travelling. Citizens of countries eligible for **visa-free entry** may lawfully enter Georgia, enrol at an authorised educational institution and, if they meet the legal requirements, apply for a **study residence permit** from within Georgia.
 
 Foreign nationals whose nationality **requires a visa** will generally need to obtain a **D3 visa** before travelling to Georgia by applying through the appropriate **Georgian embassy or consulate** in accordance with the Ministry of Foreign Affairs' visa procedures.
 
