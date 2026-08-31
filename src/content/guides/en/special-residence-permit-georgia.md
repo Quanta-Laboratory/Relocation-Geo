@@ -5,7 +5,7 @@ parent: guide-to-residence-permits
 lang: en
 summary: "The Special Residence Permit is a discretionary and protective category granted to foreigners in specific circumstances. It covers four situations: residence initiated in writing by a member of the Government of Georgia; victims and injured parties of human trafficking; persons who previously held the right of temporary stay under the Law on the Legal Status of Aliens and Stateless Persons; and foreign nationals holding the status of a compatriot living abroad."
 reviewed: 2026-08-31
-checked: 2026-08-30
+checked: 2026-08-31
 order: 17
 sources:
   - name: Law of Georgia on the Legal Status of Aliens and Stateless Persons — Legislative Herald (matsne)

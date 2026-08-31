@@ -6,7 +6,7 @@ lang: en
 notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
 summary: Georgian higher education follows the Bologna three-cycle system and is overseen by the NCEQE, which authorises institutions and accredits programmes. Many universities teach degrees in English — especially medicine, dentistry, business and IT — but international recognition depends on a university holding authorisation and your programme being accredited.
 reviewed: 2026-08-31
-checked: 2026-08-30
+checked: 2026-08-31
 sources:
   - name: Law of Georgia on Higher Education (Legislative Herald)
     url: https://matsne.gov.ge/en/document/view/32830

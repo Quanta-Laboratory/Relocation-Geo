@@ -6,7 +6,7 @@ lang: "en"
 notice: 'Self-employed foreigners: <strong>Ordinance No 321 of 9 July 2026</strong> changed how the <strong>right to work</strong> is obtained — you must now apply <strong>in person</strong> and pass a <strong>compulsory video interview</strong>, and a turnover test applies. The exemption for serving foreign clients does <strong>not</strong> cover an Individual Entrepreneur who needs a residence permit to stay lawfully. <a href="/en/right-to-work-georgia">Read more</a>.'
 summary: "Georgia allows a foreign national to register an Individual Entrepreneur (IE) without travelling to the country, by issuing a notarised and apostilled Power of Attorney to a representative who completes the registration at the Public Service Hall. Registration itself usually takes 1–5 working days once documents are in Georgia; the full process, including courier delivery, translation and notarisation, typically takes 1–3 weeks."
 reviewed: 2026-08-31
-checked: 2026-08-30
+checked: 2026-08-31
 sources:
   - name: "National Agency of Public Registry — official fee schedule for business registration"
     url: "https://www.napr.gov.ge/en/page/fees-and-terms/business-registration-fee"

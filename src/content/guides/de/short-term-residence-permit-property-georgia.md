@@ -4,7 +4,7 @@ category: "immigration"
 lang: "de"
 summary: "Der georgische Kurzzeit-Aufenthaltstitel erlaubt Eigentümern georgischer Immobilien, aufgrund ihres Eigentums im Land zu leben. Um sich zu qualifizieren, muss ein Ausländer nicht-landwirtschaftliches unbewegliches Eigentum in Georgien besitzen, dessen Marktwert den Gegenwert von 150.000 USD in GEL übersteigt, bestätigt durch einen zertifizierten Gutachter. Der Titel wird jeweils für ein Jahr erteilt und ist verlängerbar, solange das qualifizierende Eigentum fortbesteht, und kann auf den Ehepartner und die minderjährigen Kinder des Inhabers ausgeweitet werden. Der Wert wird durch akkreditierte Marktbewertung festgelegt, nicht durch den Kaufpreis, und mehrere Immobilien können kombiniert werden, um die Schwelle zu erreichen. Dieser Leitfaden erläutert die Voraussetzungen, die erforderlichen Unterlagen, die Gebühren und worin sich der Titel vom Investitions-Aufenthaltstitel unterscheidet, geprüft anhand des primären Gesetzes."
 reviewed: 2026-08-31
-checked: 2026-08-30
+checked: 2026-08-31
 order: 12
 sources:
   - name: "Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen — Gesetzblatt (matsne)"

@@ -4,7 +4,7 @@ category: "about"
 lang: "en"
 summary: "How Relocation.ge structures official legal provisions into clear guidance: sources, review process, versioning and scope."
 reviewed: 2026-08-31
-checked: 2026-08-30
+checked: 2026-08-31
 order: 1
 sources:
   - name: "Matsne — Legislative Herald of Georgia"
