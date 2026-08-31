@@ -16,7 +16,7 @@ order: 1
 tags:
   - bank
 ---
-Foreign nationals may be able to open both **personal** and **business** bank accounts in Georgia. The country's largest retail banks include **Bank of Georgia**, **TBC Bank** and **Liberty Bank**, although each institution applies its own onboarding procedures and compliance policies.
+Foreign nationals may be able to open both **personal** and **business** bank accounts in Georgia. The country's largest retail banks include **Bank of Georgia**, **TBC Bank** and **Liberty Bank**, although each institution applies its own onboarding procedures and compliance policies. For the full list of all 17 licensed banks and what each one offers, see [Banks in Georgia: full list of licensed banks](/en/list-of-banks-in-georgia).
 
 If you register as an **Individual Entrepreneur (IE)**, opening a business account is often the next practical step. Banks will usually request your **personal number** and, where applicable, your **tax identification number (TIN)**.
 
