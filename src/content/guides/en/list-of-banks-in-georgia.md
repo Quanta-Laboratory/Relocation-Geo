@@ -6,7 +6,7 @@ lang: "en"
 notice: 'This is a directory of the banks licensed by the National Bank of Georgia, with each bank''s focus and product range. Specifics — remote onboarding for foreigners, minimum balances, fees and rates — change often and are set by each bank; confirm on the bank''s own site before you rely on them.'
 summary: "The National Bank of Georgia licenses 17 commercial banks. The market is dominated by two universal banks — Bank of Georgia and TBC — with Liberty Bank holding the widest branch network; alongside them are foreign-group banks (ProCredit, Ziraat, Isbank, Halyk, PASHA, Basisbank), the microfinance-origin Credo Bank, and three new digital banks (Paysera, Hash, Pave). This page lists every licensed bank with a short profile and the products it offers."
 reviewed: 2026-08-31
-checked: 2026-08-31
+checked: 2026-09-01
 sources:
   - name: "National Bank of Georgia — register of licensed commercial banks"
     url: "https://nbg.gov.ge/en/licensed-commercial-banks"

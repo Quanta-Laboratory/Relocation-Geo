@@ -4,7 +4,7 @@ category: immigration
 lang: de
 summary: "Die dauerhafte Aufenthaltserlaubnis Georgiens gibt Ausländern das Recht, unbefristet im Land zu leben. Es gibt zwei Wege: enger Familienangehöriger eines georgischen Staatsbürgers zu sein — Ehepartner, minderjähriges Kind oder Elternteil eines minderjährigen georgischen Staatsbürgers — oder in den letzten zehn Jahren rechtmäßig mit befristeten Aufenthaltserlaubnissen in Georgien gelebt zu haben. Anträge werden bei der Agentur für die Entwicklung öffentlicher Dienste gestellt und erfordern den Nachweis der maßgeblichen Grundlage (Familienverhältnis und legales Einkommen oder der zehnjährige Aufenthaltsnachweis)."
 reviewed: 2026-08-31
-checked: 2026-08-31
+checked: 2026-09-01
 order: 13
 sources:
   - name: Gesetz Georgiens über den rechtlichen Status von Ausländern und Staatenlosen — Gesetzblatt (matsne)

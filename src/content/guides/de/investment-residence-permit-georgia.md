@@ -4,7 +4,7 @@ category: "immigration"
 lang: "de"
 summary: "Der Investitions-Aufenthaltstitel ist Georgiens Investorenweg (nach Art eines „Golden Visa\"). Er wird für bis zu fünf Jahre an Ausländer erteilt, die mindestens USD 300,000 (im GEL-Gegenwert) in Georgien investieren oder nichtlandwirtschaftliche Immobilien mit einem Marktwert über USD 300,000 besitzen. Der Investitionsweg ist mit jährlichen Umsatzbedingungen verbunden, die im Laufe der Gültigkeit steigen — mindestens USD 50,000 im ersten Jahr, USD 100,000 im zweiten Jahr und USD 120,000 im dritten bis fünften Jahr —, während der Immobilienweg verlangt, die qualifizierende Immobilie mindestens fünf Jahre zu halten. Investoren, die die Investition aufrechterhalten, können später zur Daueraufenthaltsberechtigung übergehen. Staatliche Gebühren reichen von GEL 300 (30 Tage) bis GEL 600 (10 Tage), zuzüglich einer gesonderten Gebühr für die Aufenthaltskarte. Familienangehörige können auf derselben Grundlage einbezogen werden."
 reviewed: 2026-08-31
-checked: 2026-08-31
+checked: 2026-09-01
 order: 11
 sources:
   - name: "Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen — Gesetzblatt (matsne)"

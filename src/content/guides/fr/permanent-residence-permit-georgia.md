@@ -4,7 +4,7 @@ category: immigration
 lang: fr
 summary: "Le permis de séjour permanent de la Géorgie donne aux étrangers le droit de vivre indéfiniment dans le pays. Il existe deux voies : être un proche parent d'un citoyen géorgien — conjoint, enfant mineur ou parent d'un citoyen géorgien mineur — ou avoir résidé légalement en Géorgie au cours des dix dernières années au titre de permis de séjour temporaires. Les demandes sont déposées auprès de l'Agence de développement des services publics et nécessitent la preuve du fondement qualifiant (lien familial et revenu légal, ou justificatif des dix ans de résidence)."
 reviewed: 2026-08-31
-checked: 2026-08-31
+checked: 2026-09-01
 order: 13
 sources:
   - name: Loi de Géorgie sur le statut juridique des étrangers et des apatrides — Journal législatif (matsne)

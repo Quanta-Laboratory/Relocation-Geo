@@ -6,7 +6,7 @@ lang: en
 notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
 summary: The NCEQE is Georgia's official body for recognising foreign qualifications and for legalising or apostilling Georgian educational documents. Recognition verifies a document's authenticity and compares the qualification with Georgian standards — and it is also the route to using a Georgian degree abroad.
 reviewed: 2026-08-31
-checked: 2026-08-31
+checked: 2026-09-01
 sources:
   - name: National Center for Educational Quality Enhancement (NCEQE)
     url: https://eqe.ge/en

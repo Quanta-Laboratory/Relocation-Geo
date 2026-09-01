@@ -4,7 +4,7 @@ category: immigration
 lang: fr
 summary: Le permis de séjour pour ancien citoyen est accordé à un ressortissant étranger qui a précédemment détenu la citoyenneté géorgienne, désormais éteinte — le plus souvent par renonciation ou par perte lors de l'acquisition d'une autre nationalité. Il est généralement délivré pour six ans et renouvelable, offrant aux anciens citoyens une base à long terme pour vivre en Géorgie sans remplir les critères des voies du travail, de l'investissement ou de la famille.
 reviewed: 2026-08-31
-checked: 2026-08-31
+checked: 2026-09-01
 order: 16
 sources:
   - name: Loi de Géorgie sur le statut juridique des étrangers et des apatrides — Journal législatif (matsne)

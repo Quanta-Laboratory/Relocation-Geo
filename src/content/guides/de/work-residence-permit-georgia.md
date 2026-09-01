@@ -5,7 +5,7 @@ lang: de
 notice: 'Zwei Dinge haben sich am <strong>9. Juli 2026</strong> geändert (Verordnung Nr. 317, am Folgetag in Kraft getreten): Ein neu registriertes Unternehmen mit <strong>höchstens drei ausländischen Beschäftigten</strong> kann für einen ersten Arbeitsaufenthaltstitel auf die Umsatzbescheinigung verzichten — dieser Aufenthaltstitel wird dann jedoch nur für <strong>sechs Monate</strong> erteilt. Darüber hinaus müssen die meisten ausländischen Staatsangehörigen zunächst das <strong>Recht auf Arbeit</strong> beim Arbeitsministerium erlangen. <a href="/en/right-to-work-georgia">Prüfen Sie, ob dies auf Sie zutrifft</a>.'
 summary: Der Arbeitsaufenthaltstitel erlaubt einem ausländischen Staatsangehörigen, auf der Grundlage einer hier ausgeübten Erwerbstätigkeit in Georgien zu leben — Beschäftigung bei einem georgischen Arbeitgeber oder Selbstständigkeit/unternehmerische Tätigkeit. Der Antragsteller muss ein ausreichendes monatliches Einkommen nachweisen. Familienangehörige können über den Familiennachzug hinzukommen.
 reviewed: 2026-08-31
-checked: 2026-08-31
+checked: 2026-09-01
 order: 4
 sources:
   - name: Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen

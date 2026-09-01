@@ -4,7 +4,7 @@ category: "immigration"
 lang: "de"
 summary: "Die unbefristete Aufenthaltserlaubnis Georgiens ist der nächste Schritt für Investoren. Sie steht einem Ausländer offen, der fünf Jahre lang eine Investoren-Aufenthaltserlaubnis besessen hat — entweder auf Grundlage einer Investition von USD 300,000 mit einem Umsatz im fünften Jahr von mindestens dem GEL-Gegenwert von USD 120,000 oder auf Grundlage des Eigentums an einer Immobilie in Georgien im Wert von über USD 300,000 über einen Zeitraum von insgesamt fünf Jahren. Nach der Erteilung entfällt der Verlängerungszyklus, und der Inhaber sowie seine Familie dürfen unbefristet in Georgien leben. Der Antrag muss vor Ablauf der Investoren-Aufenthaltserlaubnis gestellt werden."
 reviewed: 2026-08-31
-checked: 2026-08-31
+checked: 2026-09-01
 order: 14
 sources:
   - name: "Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen — Gesetzesanzeiger (matsne)"
