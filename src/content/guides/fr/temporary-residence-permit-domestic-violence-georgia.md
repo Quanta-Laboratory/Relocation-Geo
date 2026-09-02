@@ -4,7 +4,7 @@ category: immigration
 lang: "fr"
 summary: "La Géorgie prévoit un permis de séjour temporaire dédié aux victimes étrangères de violence domestique et de violence à l'égard des femmes, délivré dans le cadre de la Loi sur l'élimination de la violence à l'égard des femmes et/ou de la violence domestique. Il est ouvert à un étranger reconnu comme victime — par exemple au moyen d'une ordonnance restrictive ou d'une ordonnance de protection, de poursuites pénales en cours ou du recours à un refuge d'État — et écarte délibérément les obstacles habituels : l'exigence ordinaire de séjour régulier et la règle habituelle de dépôt 40 jours avant l'expiration ne s'appliquent pas, de sorte qu'une victime dont le statut d'immigration est devenu caduc peut néanmoins obtenir une protection."
 reviewed: 2026-08-31
-checked: 2026-09-01
+checked: 2026-09-02
 order: 18
 sources:
   - name: "Loi de Géorgie sur le statut juridique des étrangers et des apatrides — Journal législatif (matsne)"

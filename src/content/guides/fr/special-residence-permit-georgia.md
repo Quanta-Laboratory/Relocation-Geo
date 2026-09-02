@@ -4,7 +4,7 @@ category: "immigration"
 lang: "fr"
 summary: "Le permis de séjour spécial est une catégorie discrétionnaire et protectrice accordée aux étrangers dans des circonstances particulières. Il couvre quatre situations : un séjour initié par écrit par un membre du Gouvernement de Géorgie ; les victimes et parties lésées de la traite des êtres humains ; les personnes ayant précédemment détenu un droit de séjour temporaire en vertu de la Loi sur le statut juridique des étrangers et des apatrides ; ainsi que les ressortissants étrangers ayant le statut de compatriote vivant à l'étranger."
 reviewed: 2026-08-31
-checked: 2026-09-01
+checked: 2026-09-02
 order: 17
 sources:
   - name: "Loi de Géorgie sur le statut juridique des étrangers et des apatrides — Journal législatif (matsne)"

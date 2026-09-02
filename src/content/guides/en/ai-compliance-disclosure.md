@@ -5,7 +5,7 @@ parent: "about"
 lang: "en"
 summary: "How artificial intelligence is used within Relocation.ge to structure and present regulatory information, and how human oversight and official sources keep legal reliability intact."
 reviewed: 2026-08-31
-checked: 2026-09-01
+checked: 2026-09-02
 order: 4
 sources: []
 faq: []

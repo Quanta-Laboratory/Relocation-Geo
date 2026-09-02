@@ -5,7 +5,7 @@ lang: "fr"
 notice: L'ordonnance gouvernementale No 321 du 9 juillet 2026, en vigueur depuis le 10 juillet 2026, a profondément réécrit la procédure. Elle définit désormais l'<strong>activité professionnelle de courte durée</strong> (jusqu'à 4 months par an, avec enregistrement préalable obligatoire par l'employeur), impose un <strong>entretien vidéo obligatoire</strong> aux demandeurs indépendants, et fait entrer les <strong>quotas d'employeur</strong> et les <strong>seuils de chiffre d'affaires</strong> dans l'étape du droit de travailler elle-même. Aucun texte officiel en anglais n'existe encore — c'est l'original géorgien qui fait foi.
 summary: Le « droit de travailler » est l'autorisation dont un ressortissant étranger a besoin pour occuper un emploi rémunéré ou exercer une activité économique en Géorgie. Depuis la réforme de la migration de travail de 2026, il s'agit d'une autorisation distincte, accordée par le Ministère du Travail via son système électronique de migration de travail, séparée de tout permis de séjour.
 reviewed: 2026-08-31
-checked: 2026-09-01
+checked: 2026-09-02
 order: 5
 sources:
   - name: Loi de Géorgie sur la migration de travail (version consolidée, anglais)

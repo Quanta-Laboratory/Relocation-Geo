@@ -4,7 +4,7 @@ category: immigration
 lang: "de"
 summary: "Georgien bietet einen eigenen befristeten Aufenthaltstitel für ausländische Opfer häuslicher Gewalt und von Gewalt gegen Frauen, der im Rahmen des Gesetzes über die Beseitigung von Gewalt gegen Frauen und/oder häuslicher Gewalt erteilt wird. Er steht einem als Opfer anerkannten Ausländer offen — etwa durch eine einstweilige Verfügung oder Schutzanordnung, ein laufendes Strafverfahren oder die Nutzung eines staatlichen Schutzhauses — und hebt bewusst die üblichen Hürden auf: Das gewöhnliche Erfordernis des rechtmäßigen Aufenthalts und die übliche 40-Tage-Frist vor Ablauf gelten nicht, sodass ein Opfer, dessen Aufenthaltsstatus erloschen ist, dennoch Schutz erlangen kann."
 reviewed: 2026-08-31
-checked: 2026-09-01
+checked: 2026-09-02
 order: 18
 sources:
   - name: "Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen — Gesetzblatt (matsne)"

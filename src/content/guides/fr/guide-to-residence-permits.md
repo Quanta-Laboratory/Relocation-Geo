@@ -4,7 +4,7 @@ category: immigration
 lang: fr
 summary: La Géorgie propose plusieurs permis de séjour selon le motif du séjour — travail, informatique, investissement, études, famille et plus encore. Chacun a sa propre base juridique, ses conditions et sa durée de validité.
 reviewed: 2026-08-31
-checked: 2026-09-01
+checked: 2026-09-02
 order: 2
 sources:
   - name: Loi de Géorgie sur le statut juridique des étrangers et des apatrides
