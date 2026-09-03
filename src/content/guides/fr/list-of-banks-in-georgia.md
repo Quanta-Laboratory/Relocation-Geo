@@ -5,7 +5,7 @@ lang: "fr"
 notice: 'Ceci est un annuaire des banques agréées par la Banque nationale de Géorgie, avec la spécialisation et la gamme de produits de chaque banque. Les modalités précises — ouverture de compte à distance pour les étrangers, soldes minimums, frais et taux — changent souvent et sont fixées par chaque banque ; vérifiez-les sur le site de la banque elle-même avant de vous y fier.'
 summary: "La Banque nationale de Géorgie agrée 17 banques commerciales. Le marché est dominé par deux banques universelles — Bank of Georgia et TBC — Liberty Bank détenant le réseau d'agences le plus étendu ; à leurs côtés se trouvent des banques appartenant à des groupes étrangers (ProCredit, Ziraat, Isbank, Halyk, PASHA, Basisbank), Credo Bank issue de la microfinance, et trois nouvelles banques numériques (Paysera, Hash, Pave). Cette page répertorie chaque banque agréée avec un profil succinct et les produits qu'elle propose."
 reviewed: 2026-08-31
-checked: 2026-08-31
+checked: 2026-09-03
 sources:
   - name: "Banque nationale de Géorgie — registre des banques commerciales agréées"
     url: "https://nbg.gov.ge/en/licensed-commercial-banks"

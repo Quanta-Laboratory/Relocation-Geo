@@ -4,7 +4,7 @@ category: immigration
 lang: fr
 summary: Le permis de séjour IT de la Géorgie est une voie dédiée aux professionnels de l'informatique étrangers, aux fondateurs et représentants d'entreprise, ainsi qu'aux membres de leur famille. Il est délivré pour trois ans et renouvelable. Trois catégories sont éligibles — les migrants IT, les entrepreneurs IT titulaires du statut de petite entreprise et les représentants de sociétés informatiques internationales. Ce guide présente les catégories, les critères, les documents requis, la définition du secteur informatique, les frais et la procédure de demande.
 reviewed: 2026-08-31
-checked: 2026-09-02
+checked: 2026-09-03
 order: 10
 sources:
   - name: Loi de la Géorgie sur le statut juridique des étrangers et des apatrides — Journal législatif (matsne)
