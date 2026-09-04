@@ -4,7 +4,7 @@ category: immigration
 lang: de
 summary: Die Aufenthaltserlaubnis für ehemalige Staatsbürger wird einem ausländischen Staatsangehörigen erteilt, der zuvor die georgische Staatsbürgerschaft besaß, die inzwischen erloschen ist — meist durch Verzicht oder Beendigung beim Erwerb einer anderen Staatsangehörigkeit. Sie wird in der Regel für sechs Jahre ausgestellt und ist verlängerbar und gibt ehemaligen Staatsbürgern eine langfristige Grundlage, in Georgien zu leben, ohne die Voraussetzungen der Arbeits-, Investitions- oder Familienschiene erfüllen zu müssen.
 reviewed: 2026-08-31
-checked: 2026-09-03
+checked: 2026-09-04
 order: 16
 sources:
   - name: Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen — Gesetzesanzeiger (matsne)

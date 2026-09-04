@@ -4,7 +4,7 @@ category: immigration
 lang: de
 summary: Der IT-Aufenthaltstitel Georgiens ist ein eigener Weg für ausländische IT-Fachkräfte, Gründer und Unternehmensvertreter sowie deren Familienangehörige. Er wird für drei Jahre erteilt und ist verlängerbar. Drei Kategorien sind berechtigt — IT-Migranten, IT-Unternehmer mit Kleinunternehmerstatus und Vertreter internationaler IT-Unternehmen. Dieser Leitfaden erläutert die Kategorien, die Voraussetzungen, die erforderlichen Dokumente, die Definition des IT-Sektors, die Gebühren und das Antragsverfahren.
 reviewed: 2026-08-31
-checked: 2026-09-03
+checked: 2026-09-04
 order: 10
 sources:
   - name: Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen — Gesetzblatt (matsne)

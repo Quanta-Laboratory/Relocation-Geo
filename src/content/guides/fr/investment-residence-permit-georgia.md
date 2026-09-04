@@ -4,7 +4,7 @@ category: "immigration"
 lang: "fr"
 summary: "Le permis de séjour pour investissement est la voie investisseur de la Géorgie (de type « golden visa »). Il est accordé pour une durée maximale de cinq ans aux étrangers qui investissent au moins USD 300,000 (en équivalent GEL) en Géorgie, ou qui possèdent un bien immobilier non agricole d'une valeur marchande supérieure à USD 300,000. La voie de l'investissement comporte des conditions de chiffre d'affaires annuel qui augmentent au cours de la validité du permis — au moins USD 50,000 la première année, USD 100,000 la deuxième année et USD 120,000 de la troisième à la cinquième année —, tandis que la voie immobilière exige que le bien qualifiant soit conservé pendant au moins cinq ans. Les investisseurs qui maintiennent l'investissement peuvent ensuite accéder à la résidence permanente. Les frais d'État vont de GEL 300 (30 jours) à GEL 600 (10 jours), plus des frais distincts pour la carte de séjour. Les membres de la famille peuvent être inclus sur la même base."
 reviewed: 2026-08-31
-checked: 2026-09-03
+checked: 2026-09-04
 order: 11
 sources:
   - name: "Loi de Géorgie sur le statut juridique des étrangers et des apatrides — Journal législatif (matsne)"

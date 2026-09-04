@@ -5,7 +5,7 @@ lang: "de"
 notice: 'Dies ist ein Verzeichnis der von der Nationalbank Georgiens lizenzierten Banken mit dem jeweiligen Schwerpunkt und Produktangebot jeder Bank. Details — Fern-Onboarding für Ausländer, Mindestguthaben, Gebühren und Zinssätze — ändern sich häufig und werden von jeder Bank selbst festgelegt; prüfen Sie diese auf der eigenen Website der Bank, bevor Sie sich darauf verlassen.'
 summary: "Die Nationalbank Georgiens lizenziert 17 Geschäftsbanken. Der Markt wird von zwei Universalbanken dominiert — Bank of Georgia und TBC —, wobei Liberty Bank das dichteste Filialnetz besitzt; daneben gibt es Banken ausländischer Gruppen (ProCredit, Ziraat, Isbank, Halyk, PASHA, Basisbank), die aus dem Mikrofinanzsektor stammende Credo Bank sowie drei neue Digitalbanken (Paysera, Hash, Pave). Diese Seite listet jede lizenzierte Bank mit einem kurzen Profil und den angebotenen Produkten auf."
 reviewed: 2026-08-31
-checked: 2026-09-03
+checked: 2026-09-04
 sources:
   - name: "Nationalbank Georgiens — Register der lizenzierten Geschäftsbanken"
     url: "https://nbg.gov.ge/en/licensed-commercial-banks"

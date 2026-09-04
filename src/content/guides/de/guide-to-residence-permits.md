@@ -4,7 +4,7 @@ category: immigration
 lang: de
 summary: Georgien bietet je nach Aufenthaltszweck mehrere Aufenthaltstitel — Arbeit, IT, Investition, Studium, Familie und mehr. Jeder hat seine eigene Rechtsgrundlage, Bedingungen und Gültigkeit.
 reviewed: 2026-08-31
-checked: 2026-09-03
+checked: 2026-09-04
 order: 2
 sources:
   - name: Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen

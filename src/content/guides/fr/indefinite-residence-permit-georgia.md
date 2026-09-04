@@ -4,7 +4,7 @@ category: "immigration"
 lang: "fr"
 summary: "Le permis de séjour à durée indéterminée de la Géorgie est l'étape suivante pour les investisseurs. Il est accessible à un étranger qui a détenu un permis de séjour d'investisseur pendant cinq ans — soit sur la base d'un investissement de USD 300,000, avec un chiffre d'affaires de la cinquième année au moins égal à l'équivalent en GEL de USD 120,000, soit sur la base de la propriété d'un bien immobilier en Géorgie d'une valeur supérieure à USD 300,000 pendant une durée totale de cinq ans. Une fois accordé, il supprime le cycle de renouvellement et permet au titulaire et à sa famille de vivre en Géorgie de manière indéterminée. La demande doit être déposée avant l'expiration du permis d'investisseur."
 reviewed: 2026-08-31
-checked: 2026-09-03
+checked: 2026-09-04
 order: 14
 sources:
   - name: "Loi de Géorgie sur le statut juridique des étrangers et des apatrides — Journal législatif (matsne)"

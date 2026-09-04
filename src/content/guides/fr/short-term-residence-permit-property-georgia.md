@@ -4,7 +4,7 @@ category: "immigration"
 lang: "fr"
 summary: "Le permis de séjour de courte durée de la Géorgie permet aux propriétaires de biens immobiliers géorgiens de vivre dans le pays sur la base de leur propriété. Pour être éligible, un étranger doit posséder un bien immobilier non agricole en Géorgie dont la valeur marchande dépasse l'équivalent de 150 000 USD en GEL, confirmée par un évaluateur certifié. Le permis est délivré pour un an à la fois et est renouvelable tant que la propriété qualifiante subsiste, et il peut être étendu au conjoint et aux enfants mineurs du titulaire. La valeur est fixée par une évaluation marchande accréditée, et non par le prix d'achat, et plusieurs biens peuvent être combinés pour atteindre le seuil. Ce guide expose les conditions d'éligibilité, les documents requis, les frais et en quoi le permis diffère du permis de séjour pour investissement, vérifié au regard de la loi primaire."
 reviewed: 2026-08-31
-checked: 2026-09-03
+checked: 2026-09-04
 order: 12
 sources:
   - name: "Loi de la Géorgie sur le statut juridique des étrangers et des apatrides — Journal législatif (matsne)"
