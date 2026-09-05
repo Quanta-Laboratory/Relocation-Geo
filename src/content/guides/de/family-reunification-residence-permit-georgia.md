@@ -4,7 +4,7 @@ category: "immigration"
 lang: "de"
 summary: "Der Aufenthaltstitel zur Familienzusammenführung ermöglicht es den Familienangehörigen eines ausländischen Staatsangehörigen, der sich rechtmäßig in Georgien aufhält — oder eines georgischen Staatsbürgers —, auf der Grundlage der Familieneinheit im Land zu leben. Er wird in der Regel für 6 Monate bis 1 Jahr ausgestellt und ist verlängerbar, solange der Status des Sponsors und die familiäre Beziehung gültig bleiben. Antragsteller müssen ein legales Einkommen von mindestens dem Zweifachen des Existenzminimums pro Monat (oder entsprechende Mittel auf einem Bankkonto) sowie einen Nachweis der qualifizierenden Beziehung vorlegen."
 reviewed: 2026-08-31
-checked: 2026-09-04
+checked: 2026-09-05
 order: 15
 sources:
   - name: "Gesetz Georgiens über den rechtlichen Status von Ausländern und Staatenlosen — Gesetzblatt (matsne)"

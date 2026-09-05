@@ -5,7 +5,7 @@ lang: fr
 notice: 'À partir du 1er septembre 2026, la Géorgie répartit le visa étudiant selon l''âge : les étudiants et chercheurs majeurs utilisent le visa D3, tandis que les <strong>étudiants mineurs</strong> — ainsi que leurs parents accompagnants et leurs frères et sœurs mineurs — utilisent le nouveau <a href="/en/d6-visa-georgia">visa D6</a>. Vérifiez lequel s''applique à votre situation.'
 summary: Les étudiants internationaux entrent en Géorgie avec le visa d'immigration D3, délivré pour des études ou des recherches dans un établissement autorisé, puis le convertissent en titre de séjour d'études (temporaire) afin de rester pendant toute la durée de leur programme. Le titre de séjour d'études est délivré par l'Agence de développement des services publics, généralement pour 6 mois à 1 an, et renouvelable pendant toute la durée des études ; Les demandeurs doivent justifier de leur inscription dans un établissement autorisé et d'un revenu légal ou de fonds bancaires équivalant à au moins deux fois le minimum vital par mois. De nombreuses nationalités peuvent aussi entrer d'abord sans visa et régler leur statut depuis la Géorgie.
 reviewed: 2026-08-31
-checked: 2026-09-04
+checked: 2026-09-05
 sources:
   - name: Loi de Géorgie sur le statut juridique des étrangers et des apatrides (Journal législatif)
     url: https://matsne.gov.ge/en/document/view/2278806

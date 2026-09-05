@@ -4,7 +4,7 @@ category: "immigration"
 lang: "de"
 summary: "Der Sonderaufenthaltstitel ist eine Ermessens- und Schutzkategorie, die Ausländern unter bestimmten Umständen gewährt wird. Er umfasst vier Situationen: einen Aufenthalt, der schriftlich von einem Mitglied der Regierung Georgiens veranlasst wird; Opfer und Geschädigte des Menschenhandels; Personen, die zuvor ein Recht auf vorübergehenden Aufenthalt nach dem Gesetz über den Rechtsstatus von Ausländern und Staatenlosen besaßen; sowie ausländische Staatsangehörige mit dem Status eines im Ausland lebenden Landsmanns."
 reviewed: 2026-08-31
-checked: 2026-09-04
+checked: 2026-09-05
 order: 17
 sources:
   - name: "Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen — Gesetzblatt (matsne)"

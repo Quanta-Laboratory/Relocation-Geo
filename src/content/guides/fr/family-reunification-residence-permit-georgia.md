@@ -4,7 +4,7 @@ category: "immigration"
 lang: "fr"
 summary: "Le permis de séjour pour regroupement familial permet aux membres de la famille d'un ressortissant étranger résidant légalement en Géorgie — ou d'un citoyen géorgien — de vivre dans le pays sur la base de l'unité familiale. Il est généralement délivré pour une durée de 6 mois à 1 an et est renouvelable tant que le statut du parrain et le lien familial restent valides. Les demandeurs doivent justifier d'un revenu légal d'au moins deux fois le minimum vital par mois (ou de fonds équivalents sur un compte bancaire) ainsi que d'une preuve du lien admissible."
 reviewed: 2026-08-31
-checked: 2026-09-04
+checked: 2026-09-05
 order: 15
 sources:
   - name: "Loi de Géorgie sur le statut juridique des étrangers et des apatrides — Journal législatif (matsne)"

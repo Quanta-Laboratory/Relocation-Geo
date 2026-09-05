@@ -5,7 +5,7 @@ lang: "de"
 notice: Die Regierungsverordnung No 321 vom 9. Juli 2026, in Kraft seit dem 10. Juli 2026, hat das Verfahren grundlegend neu gefasst. Sie definiert nun die <strong>kurzfristige berufliche Tätigkeit</strong> (bis zu 4 months pro Jahr, mit obligatorischer vorheriger Registrierung durch den Arbeitgeber), schreibt selbständigen Antragstellern ein <strong>obligatorisches Videointerview</strong> vor und verlagert <strong>Arbeitgeberquoten</strong> und <strong>Umsatzschwellen</strong> in die Phase des Rechts auf Arbeit selbst. Ein offizieller englischer Text existiert noch nicht — maßgeblich ist das georgische Original.
 summary: Das „Recht auf Arbeit“ ist die Genehmigung, die ein ausländischer Staatsangehöriger benötigt, um in Georgien eine bezahlte Beschäftigung aufzunehmen oder ein Unternehmen zum wirtschaftlichen Nutzen zu betreiben. Seit der Arbeitsmigrationsreform 2026 handelt es sich um eine eigenständige Genehmigung, die vom Arbeitsministerium über sein elektronisches Arbeitsmigrationssystem erteilt wird und von jeder Aufenthaltserlaubnis getrennt ist.
 reviewed: 2026-08-31
-checked: 2026-09-04
+checked: 2026-09-05
 order: 5
 sources:
   - name: Gesetz Georgiens über die Arbeitsmigration (konsolidiert, Englisch)

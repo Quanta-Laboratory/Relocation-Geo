@@ -5,7 +5,7 @@ lang: de
 notice: 'Ab dem 1. September 2026 unterteilt Georgien das Studentenvisum nach Alter: volljährige Studierende und Forschende nutzen das D3-Visum, während <strong>minderjährige Studierende</strong> — sowie deren begleitende Eltern und minderjährige Geschwister — das neue <a href="/en/d6-visa-georgia">D6-Visum</a> nutzen. Prüfen Sie, welches für Sie zutrifft.'
 summary: Internationale Studierende reisen mit dem Einwanderungsvisum D3 nach Georgien ein, das für Studium oder Forschung an einer autorisierten Einrichtung ausgestellt wird, und wandeln es anschließend in eine Studien-Aufenthaltserlaubnis (befristet) um, um für die Dauer ihres Programms zu bleiben. Die Studien-Aufenthaltserlaubnis wird von der Agentur für die Entwicklung öffentlicher Dienstleistungen ausgestellt, in der Regel für 6 Monate bis 1 Jahr, und ist für die Dauer des Studiums verlängerbar; Antragstellende müssen die Einschreibung an einer autorisierten Einrichtung sowie ein legales Einkommen oder Bankguthaben in Höhe von mindestens dem Zweifachen des Existenzminimums pro Monat nachweisen. Angehörige vieler Nationalitäten können auch zunächst visumfrei einreisen und den Status von Georgien aus regeln.
 reviewed: 2026-08-31
-checked: 2026-09-04
+checked: 2026-09-05
 sources:
   - name: Gesetz Georgiens über den Rechtsstatus von Ausländern und Staatenlosen (Gesetzblatt)
     url: https://matsne.gov.ge/en/document/view/2278806

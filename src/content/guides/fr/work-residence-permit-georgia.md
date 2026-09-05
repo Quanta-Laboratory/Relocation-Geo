@@ -5,7 +5,7 @@ lang: fr
 notice: 'Deux choses ont changé le <strong>9 juillet 2026</strong> (Ordonnance n° 317, entrée en vigueur le lendemain) : une société nouvellement enregistrée comptant <strong>au plus trois employés étrangers</strong> peut se dispenser du certificat de chiffre d''affaires pour un premier permis de séjour pour travail — mais ce permis n''est alors délivré que pour <strong>six mois</strong>. Par ailleurs, la plupart des ressortissants étrangers doivent d''abord obtenir le <strong>droit au travail</strong> auprès du ministère du Travail. <a href="/en/right-to-work-georgia">Vérifiez si cela s''applique à vous</a>.'
 summary: Le permis de séjour pour travail permet à un ressortissant étranger de vivre en Géorgie sur la base d'une activité professionnelle exercée ici — emploi auprès d'un employeur géorgien ou travail indépendant/activité entrepreneuriale. Le demandeur doit justifier d'un revenu mensuel suffisant. Les membres de la famille peuvent le rejoindre par le regroupement familial.
 reviewed: 2026-08-31
-checked: 2026-09-04
+checked: 2026-09-05
 order: 4
 sources:
   - name: Loi de Géorgie sur le statut juridique des étrangers et des apatrides
