@@ -1,14 +1,16 @@
 {
   "meta": {
-    "generated": "2026-07-26T13:58:18.896Z",
+    "generated": "2026-09-07T09:12:15.153Z",
     "sources": [
-      "E-Motors"
+      "E-Motors",
+      "OpenStreetMap"
     ],
     "counts": {
-      "total": 96,
+      "total": 290,
       "by_current": {
-        "unknown": 81,
-        "DC": 15
+        "unknown": 246,
+        "DC": 31,
+        "AC": 13
       }
     },
     "attribution": {
@@ -16,7 +18,7 @@
       "Open Charge Map": "Data © Open Charge Map contributors — https://openchargemap.org",
       "OpenStreetMap": "Data © OpenStreetMap contributors, ODbL — https://www.openstreetmap.org/copyright"
     },
-    "note": "Base layer from the E-Motors / E-Space operator map; Open Charge Map + OpenStreetMap are merged in by the weekly refresh. Community/operator data — confirm a station in its app before relying on it. Not an official government register."
+    "note": "Community-maintained open data. Coverage and accuracy vary; always confirm a station in its operator app before relying on it. Not an official government register."
   },
   "stations": [
     {
@@ -41,9 +43,15 @@
       "town": "Argveta",
       "connectors": [],
       "power_kw": null,
-      "current": "unknown",
+      "current": "DC",
       "source": "E-Motors",
-      "source_url": "https://www.emotors.ge/en/map"
+      "source_url": "https://www.emotors.ge/en/map",
+      "also_listed_in": [
+        {
+          "source": "E-Motors",
+          "source_url": "https://www.emotors.ge/en/map"
+        }
+      ]
     },
     {
       "id": "emotors-017",
@@ -55,19 +63,6 @@
       "connectors": [],
       "power_kw": null,
       "current": "unknown",
-      "source": "E-Motors",
-      "source_url": "https://www.emotors.ge/en/map"
-    },
-    {
-      "id": "emotors-038",
-      "name": "Fast Charger, 'Neogas', Argveta",
-      "lat": 42.148872,
-      "lng": 42.963478,
-      "operator": "E-Motors (E-Space)",
-      "town": "Argveta",
-      "connectors": [],
-      "power_kw": null,
-      "current": "DC",
       "source": "E-Motors",
       "source_url": "https://www.emotors.ge/en/map"
     },
@@ -91,11 +86,20 @@
       "lng": 42.965574,
       "operator": "E-Motors (E-Space)",
       "town": "Argveta",
-      "connectors": [],
+      "connectors": [
+        "CHAdeMO",
+        "CCS2"
+      ],
       "power_kw": null,
       "current": "DC",
       "source": "E-Motors",
-      "source_url": "https://www.emotors.ge/en/map"
+      "source_url": "https://www.emotors.ge/en/map",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/11867269415"
+        }
+      ]
     },
     {
       "id": "emotors-073",
@@ -104,11 +108,25 @@
       "lng": 42.965675,
       "operator": "E-Motors (E-Space)",
       "town": "Argveta",
-      "connectors": [],
+      "connectors": [
+        "CHAdeMO",
+        "CCS2",
+        "Type 2"
+      ],
       "power_kw": null,
       "current": "DC",
       "source": "E-Motors",
-      "source_url": "https://www.emotors.ge/en/map"
+      "source_url": "https://www.emotors.ge/en/map",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/11867269416"
+        },
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/11867269417"
+        }
+      ]
     },
     {
       "id": "emotors-083",
@@ -576,7 +594,13 @@
       "power_kw": null,
       "current": "unknown",
       "source": "E-Motors",
-      "source_url": "https://www.emotors.ge/en/map"
+      "source_url": "https://www.emotors.ge/en/map",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/12205107101"
+        }
+      ]
     },
     {
       "id": "emotors-024",
@@ -641,7 +665,13 @@
       "power_kw": null,
       "current": "unknown",
       "source": "E-Motors",
-      "source_url": "https://www.emotors.ge/en/map"
+      "source_url": "https://www.emotors.ge/en/map",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/13369585402"
+        }
+      ]
     },
     {
       "id": "emotors-029",
@@ -927,7 +957,13 @@
       "power_kw": null,
       "current": "unknown",
       "source": "E-Motors",
-      "source_url": "https://www.emotors.ge/en/map"
+      "source_url": "https://www.emotors.ge/en/map",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/10814839090"
+        }
+      ]
     },
     {
       "id": "emotors-077",
@@ -1151,6 +1187,19 @@
       "source_url": "https://www.emotors.ge/en/map"
     },
     {
+      "id": "osm-node-11511474382",
+      "name": "A+",
+      "lat": 41.708926,
+      "lng": 44.7749155,
+      "operator": "A+",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11511474382"
+    },
+    {
       "id": "emotors-015",
       "name": "Airport Settlement, Isani-Samgori region",
       "lat": 41.67054,
@@ -1162,6 +1211,34 @@
       "current": "unknown",
       "source": "E-Motors",
       "source_url": "https://www.emotors.ge/en/map"
+    },
+    {
+      "id": "osm-node-13827648191",
+      "name": "Autel EV Charger",
+      "lat": 41.7396167,
+      "lng": 44.7813434,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13827648191"
+    },
+    {
+      "id": "osm-node-13364213539",
+      "name": "Autoenterprise",
+      "lat": 41.6854796,
+      "lng": 44.832945,
+      "operator": "Autoenterprise",
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13364213539"
     },
     {
       "id": "emotors-019",
@@ -1177,6 +1254,45 @@
       "source_url": "https://www.emotors.ge/en/map"
     },
     {
+      "id": "osm-node-13240653103",
+      "name": "C+",
+      "lat": 41.6965286,
+      "lng": 44.8184238,
+      "operator": "C+",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13240653103"
+    },
+    {
+      "id": "osm-node-13330692003",
+      "name": "Charge2Moov",
+      "lat": 41.7064828,
+      "lng": 44.7789847,
+      "operator": "Charge2Moov",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13330692003"
+    },
+    {
+      "id": "osm-node-8147976137",
+      "name": "ChargePoint",
+      "lat": 41.7255762,
+      "lng": 44.7583617,
+      "operator": "ChargePoint",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/8147976137"
+    },
+    {
       "id": "emotors-037",
       "name": "Dafnar, Gas Station \"Socar\"",
       "lat": 42.106692,
@@ -1188,6 +1304,435 @@
       "current": "unknown",
       "source": "E-Motors",
       "source_url": "https://www.emotors.ge/en/map"
+    },
+    {
+      "id": "osm-node-10157611420",
+      "name": "e-space",
+      "lat": 41.6432963,
+      "lng": 41.6175837,
+      "operator": "e-space",
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10157611420"
+    },
+    {
+      "id": "osm-node-10692771969",
+      "name": "e-space",
+      "lat": 41.6536646,
+      "lng": 41.6383514,
+      "operator": "e-space",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10692771969"
+    },
+    {
+      "id": "osm-node-12734054741",
+      "name": "e-space",
+      "lat": 41.723973,
+      "lng": 44.731841,
+      "operator": "e-space",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12734054741"
+    },
+    {
+      "id": "osm-node-12921370503",
+      "name": "e-Space",
+      "lat": 41.7008499,
+      "lng": 44.766721,
+      "operator": "e-Space",
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12921370503"
+    },
+    {
+      "id": "osm-node-13188628134",
+      "name": "E-space",
+      "lat": 41.5541509,
+      "lng": 41.5651943,
+      "operator": "E-space",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13188628134"
+    },
+    {
+      "id": "osm-node-10696731009",
+      "name": "E-Space",
+      "lat": 41.7513511,
+      "lng": 44.7872841,
+      "operator": "E-Space",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10696731009"
+    },
+    {
+      "id": "osm-node-12856967899",
+      "name": "E-Space",
+      "lat": 41.6545301,
+      "lng": 44.8519119,
+      "operator": "E-Space",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12856967899"
+    },
+    {
+      "id": "osm-node-12856976382",
+      "name": "E-Space",
+      "lat": 41.6564996,
+      "lng": 44.8287824,
+      "operator": "E-Space",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12856976382"
+    },
+    {
+      "id": "osm-node-11913662787",
+      "name": "EcoCars",
+      "lat": 41.7129277,
+      "lng": 44.7668708,
+      "operator": "EcoCars",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11913662787"
+    },
+    {
+      "id": "osm-node-12696269225",
+      "name": "Electrify Georgia",
+      "lat": 41.7310206,
+      "lng": 44.7741928,
+      "operator": "Electrify Georgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12696269225"
+    },
+    {
+      "id": "osm-node-13390553801",
+      "name": "Electrify Georgia",
+      "lat": 41.554447,
+      "lng": 44.9850007,
+      "operator": "Electrify Georgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13390553801"
+    },
+    {
+      "id": "osm-node-13565991801",
+      "name": "Electrify Georgia",
+      "lat": 41.787205,
+      "lng": 44.7758783,
+      "operator": "Electrify Georgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13565991801"
+    },
+    {
+      "id": "osm-node-13774163501",
+      "name": "Electrify Georgia",
+      "lat": 41.67357,
+      "lng": 44.9618736,
+      "operator": "Electrify Georgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13774163501"
+    },
+    {
+      "id": "osm-node-13852483639",
+      "name": "Electrify Georgia",
+      "lat": 42.5041164,
+      "lng": 41.8678571,
+      "operator": "Electrify Georgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13852483639"
+    },
+    {
+      "id": "osm-node-14065743001",
+      "name": "Electrify Georgia",
+      "lat": 41.7746391,
+      "lng": 44.7700324,
+      "operator": "Electrify Georgia",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14065743001",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/14065743101"
+        }
+      ]
+    },
+    {
+      "id": "osm-node-10106626865",
+      "name": "ElectroGeorgia",
+      "lat": 41.6373459,
+      "lng": 41.6135657,
+      "operator": "ElectroGeorgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10106626865"
+    },
+    {
+      "id": "osm-node-10566191318",
+      "name": "ElectroUA Georgia",
+      "lat": 41.6281732,
+      "lng": 41.601297,
+      "operator": "ElectroUA Georgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10566191318",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/10579221073"
+        }
+      ]
+    },
+    {
+      "id": "osm-node-10579221070",
+      "name": "ElectroUA Georgia",
+      "lat": 41.628315,
+      "lng": 41.6014546,
+      "operator": "ElectroUA Georgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10579221070"
+    },
+    {
+      "id": "osm-node-10579221071",
+      "name": "ElectroUA Georgia",
+      "lat": 41.6282672,
+      "lng": 41.6014073,
+      "operator": "ElectroUA Georgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10579221071"
+    },
+    {
+      "id": "osm-node-10579221072",
+      "name": "ElectroUA Georgia",
+      "lat": 41.6282324,
+      "lng": 41.6013689,
+      "operator": "ElectroUA Georgia",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10579221072"
+    },
+    {
+      "id": "osm-node-13355250428",
+      "name": "ev power",
+      "lat": 41.7274012,
+      "lng": 44.7448789,
+      "operator": "ev power",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13355250428"
+    },
+    {
+      "id": "osm-node-12999554482",
+      "name": "EV Power",
+      "lat": 41.6934789,
+      "lng": 44.9272088,
+      "operator": "EV Power",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12999554482"
+    },
+    {
+      "id": "osm-node-13340050801",
+      "name": "EV Power",
+      "lat": 41.704467,
+      "lng": 44.7798273,
+      "operator": "EV Power",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13340050801"
+    },
+    {
+      "id": "osm-node-13569566929",
+      "name": "EV Power",
+      "lat": 41.7486155,
+      "lng": 44.7867807,
+      "operator": "EV Power",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13569566929"
+    },
+    {
+      "id": "osm-node-13852896801",
+      "name": "EV Power",
+      "lat": 41.7059409,
+      "lng": 44.7703631,
+      "operator": "EV Power",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13852896801"
+    },
+    {
+      "id": "osm-node-13911632902",
+      "name": "EV Power",
+      "lat": 41.7465291,
+      "lng": 44.7912846,
+      "operator": "EV Power",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13911632902"
+    },
+    {
+      "id": "osm-node-13913217101",
+      "name": "EV Power",
+      "lat": 41.7067854,
+      "lng": 44.8021822,
+      "operator": "EV Power",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13913217101"
+    },
+    {
+      "id": "osm-node-13914530002",
+      "name": "EV Power",
+      "lat": 41.7102579,
+      "lng": 44.7987408,
+      "operator": "EV Power",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13914530002"
+    },
+    {
+      "id": "osm-node-14041456701",
+      "name": "EV Power",
+      "lat": 41.7157773,
+      "lng": 44.8024025,
+      "operator": "EV Power",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14041456701"
+    },
+    {
+      "id": "osm-node-14137968901",
+      "name": "EV Power",
+      "lat": 41.708008,
+      "lng": 44.7733375,
+      "operator": "EV Power",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14137968901"
+    },
+    {
+      "id": "osm-node-11816302969",
+      "name": "Free charger type 2",
+      "lat": 41.7096734,
+      "lng": 44.7720057,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11816302969"
     },
     {
       "id": "emotors-058",
@@ -1214,6 +1759,466 @@
       "current": "unknown",
       "source": "E-Motors",
       "source_url": "https://www.emotors.ge/en/map"
+    },
+    {
+      "id": "osm-node-10916464331",
+      "name": "mart ev",
+      "lat": 41.7257268,
+      "lng": 44.7460288,
+      "operator": "mart ev",
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10916464331"
+    },
+    {
+      "id": "osm-node-11245580511",
+      "name": "mart ev",
+      "lat": 41.6926575,
+      "lng": 44.8019514,
+      "operator": "mart ev",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11245580511"
+    },
+    {
+      "id": "osm-node-13107405749",
+      "name": "Mart EV",
+      "lat": 41.7449678,
+      "lng": 44.7779115,
+      "operator": "Mart EV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13107405749"
+    },
+    {
+      "id": "osm-node-13827648190",
+      "name": "Mart EV",
+      "lat": 41.7431835,
+      "lng": 44.7910418,
+      "operator": "Mart EV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13827648190"
+    },
+    {
+      "id": "osm-node-13827648198",
+      "name": "Mart EV",
+      "lat": 41.750225,
+      "lng": 44.7806292,
+      "operator": "Mart EV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13827648198"
+    },
+    {
+      "id": "osm-node-10816637105",
+      "name": "martEV",
+      "lat": 41.7073104,
+      "lng": 44.7719026,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10816637105"
+    },
+    {
+      "id": "osm-node-13208842911",
+      "name": "martEV",
+      "lat": 41.7274771,
+      "lng": 44.7388781,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13208842911"
+    },
+    {
+      "id": "osm-node-13234872703",
+      "name": "martEV",
+      "lat": 41.689707,
+      "lng": 44.8016299,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13234872703"
+    },
+    {
+      "id": "osm-node-13650274103",
+      "name": "martEV",
+      "lat": 41.7275752,
+      "lng": 44.7679374,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13650274103"
+    },
+    {
+      "id": "osm-node-13650274201",
+      "name": "martEV",
+      "lat": 41.7274354,
+      "lng": 44.7679536,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13650274201"
+    },
+    {
+      "id": "osm-node-13664587501",
+      "name": "martEV",
+      "lat": 41.7085398,
+      "lng": 44.7690353,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13664587501"
+    },
+    {
+      "id": "osm-node-13674653601",
+      "name": "martEV",
+      "lat": 41.7402723,
+      "lng": 44.7383417,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13674653601"
+    },
+    {
+      "id": "osm-node-13675097301",
+      "name": "martEV",
+      "lat": 41.7242899,
+      "lng": 44.7660025,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13675097301"
+    },
+    {
+      "id": "osm-node-13778891501",
+      "name": "martEV",
+      "lat": 41.7060156,
+      "lng": 44.7708979,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13778891501"
+    },
+    {
+      "id": "osm-node-13805828702",
+      "name": "martEV",
+      "lat": 41.7062381,
+      "lng": 44.7794778,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13805828702"
+    },
+    {
+      "id": "osm-node-13827611901",
+      "name": "martEV",
+      "lat": 41.6954686,
+      "lng": 44.7921334,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13827611901"
+    },
+    {
+      "id": "osm-node-13852896701",
+      "name": "martEV",
+      "lat": 41.7072311,
+      "lng": 44.7709835,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13852896701"
+    },
+    {
+      "id": "osm-node-13917523720",
+      "name": "martEV",
+      "lat": 41.7217505,
+      "lng": 44.7358031,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13917523720"
+    },
+    {
+      "id": "osm-node-14084028814",
+      "name": "martEV",
+      "lat": 41.7248306,
+      "lng": 44.7733544,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14084028814"
+    },
+    {
+      "id": "osm-node-14108319570",
+      "name": "martEV",
+      "lat": 41.692568,
+      "lng": 44.8158593,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14108319570"
+    },
+    {
+      "id": "osm-node-14125722301",
+      "name": "martEV",
+      "lat": 41.7015349,
+      "lng": 44.75407,
+      "operator": "martEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14125722301"
+    },
+    {
+      "id": "osm-node-13328430801",
+      "name": "MartEv",
+      "lat": 41.7082896,
+      "lng": 44.7708275,
+      "operator": "MartEv",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13328430801"
+    },
+    {
+      "id": "osm-node-13285629992",
+      "name": "MartEV",
+      "lat": 41.6956793,
+      "lng": 44.9274312,
+      "operator": "Joint",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": 30,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13285629992"
+    },
+    {
+      "id": "osm-node-13414068301",
+      "name": "MartEV",
+      "lat": 41.7024017,
+      "lng": 44.7919683,
+      "operator": "MartEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13414068301"
+    },
+    {
+      "id": "osm-node-13756659757",
+      "name": "MartEV",
+      "lat": 41.6971812,
+      "lng": 44.804362,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13756659757"
+    },
+    {
+      "id": "osm-node-13773846701",
+      "name": "MartEV",
+      "lat": 41.6856302,
+      "lng": 44.8315508,
+      "operator": "MartEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13773846701"
+    },
+    {
+      "id": "osm-node-13871799800",
+      "name": "MartEV",
+      "lat": 41.729114,
+      "lng": 44.7624413,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13871799800"
+    },
+    {
+      "id": "osm-node-13917553701",
+      "name": "MartEV",
+      "lat": 41.7086971,
+      "lng": 44.7560441,
+      "operator": "MartEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13917553701"
+    },
+    {
+      "id": "osm-node-13917553702",
+      "name": "MartEV",
+      "lat": 41.7085557,
+      "lng": 44.7559908,
+      "operator": "MartEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13917553702"
+    },
+    {
+      "id": "osm-node-13918205987",
+      "name": "MartEV",
+      "lat": 41.7020725,
+      "lng": 44.8070468,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13918205987"
+    },
+    {
+      "id": "osm-node-13923492293",
+      "name": "MartEV",
+      "lat": 41.6991423,
+      "lng": 44.7959707,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13923492293"
+    },
+    {
+      "id": "osm-node-14072743301",
+      "name": "MartEV",
+      "lat": 41.7086604,
+      "lng": 44.8032417,
+      "operator": "MartEV",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14072743301"
+    },
+    {
+      "id": "osm-node-11247872004",
+      "name": "ProCredit Bank",
+      "lat": 41.7258367,
+      "lng": 44.7592217,
+      "operator": "ProCredit Bank",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11247872004"
+    },
+    {
+      "id": "osm-node-10034060945",
+      "name": "ProCredit Charging Stations",
+      "lat": 41.6501834,
+      "lng": 41.6347972,
+      "operator": "ProCredit Charging Stations",
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10034060945",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/11001649481"
+        }
+      ]
     },
     {
       "id": "emotors-071",
@@ -1255,6 +2260,19 @@
       "source_url": "https://www.emotors.ge/en/map"
     },
     {
+      "id": "osm-node-13909515203",
+      "name": "Tesla Destination Charger",
+      "lat": 41.7268915,
+      "lng": 44.769236,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13909515203"
+    },
+    {
       "id": "emotors-093",
       "name": "Turtle lake",
       "lat": 41.70931,
@@ -1266,6 +2284,1655 @@
       "current": "unknown",
       "source": "E-Motors",
       "source_url": "https://www.emotors.ge/en/map"
+    },
+    {
+      "id": "osm-node-995920337",
+      "name": null,
+      "lat": 41.689342,
+      "lng": 44.8338755,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/995920337"
+    },
+    {
+      "id": "osm-node-5382940285",
+      "name": null,
+      "lat": 41.6886237,
+      "lng": 44.8969392,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/5382940285"
+    },
+    {
+      "id": "osm-node-5681277452",
+      "name": null,
+      "lat": 41.7362288,
+      "lng": 44.7713564,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/5681277452"
+    },
+    {
+      "id": "osm-node-7113068329",
+      "name": null,
+      "lat": 41.9514044,
+      "lng": 45.7956424,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/7113068329"
+    },
+    {
+      "id": "osm-node-9909605333",
+      "name": null,
+      "lat": 41.7884135,
+      "lng": 44.8233361,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/9909605333"
+    },
+    {
+      "id": "osm-node-9968602350",
+      "name": null,
+      "lat": 41.7363715,
+      "lng": 44.8390082,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/9968602350"
+    },
+    {
+      "id": "osm-node-10244394049",
+      "name": null,
+      "lat": 41.6500865,
+      "lng": 41.6669357,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10244394049"
+    },
+    {
+      "id": "osm-node-10284999962",
+      "name": null,
+      "lat": 41.9051505,
+      "lng": 42.743893,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10284999962",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/10285165615"
+        }
+      ]
+    },
+    {
+      "id": "osm-node-10284999963",
+      "name": null,
+      "lat": 41.9044365,
+      "lng": 42.7434009,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10284999963"
+    },
+    {
+      "id": "osm-node-10285165616",
+      "name": null,
+      "lat": 41.9052102,
+      "lng": 42.7439591,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10285165616"
+    },
+    {
+      "id": "osm-node-10644359493",
+      "name": null,
+      "lat": 41.683284,
+      "lng": 44.8406659,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10644359493"
+    },
+    {
+      "id": "osm-node-10692771967",
+      "name": null,
+      "lat": 41.6539912,
+      "lng": 41.6368686,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10692771967"
+    },
+    {
+      "id": "osm-node-10712606236",
+      "name": null,
+      "lat": 41.7201362,
+      "lng": 44.7145947,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10712606236"
+    },
+    {
+      "id": "osm-node-10738956909",
+      "name": null,
+      "lat": 41.7966963,
+      "lng": 44.8217319,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10738956909"
+    },
+    {
+      "id": "osm-node-10792479603",
+      "name": null,
+      "lat": 41.6492913,
+      "lng": 41.6262466,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10792479603"
+    },
+    {
+      "id": "osm-node-10933838298",
+      "name": null,
+      "lat": 41.701085,
+      "lng": 44.8080167,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10933838298"
+    },
+    {
+      "id": "osm-node-10947366609",
+      "name": null,
+      "lat": 41.7102509,
+      "lng": 44.7846276,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10947366609"
+    },
+    {
+      "id": "osm-node-10969468577",
+      "name": null,
+      "lat": 41.7102954,
+      "lng": 44.7621246,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10969468577"
+    },
+    {
+      "id": "osm-node-10982116218",
+      "name": null,
+      "lat": 41.7255598,
+      "lng": 44.7536889,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10982116218"
+    },
+    {
+      "id": "osm-node-10983623413",
+      "name": null,
+      "lat": 42.1489064,
+      "lng": 42.9635589,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10983623413"
+    },
+    {
+      "id": "osm-node-11001641315",
+      "name": null,
+      "lat": 42.2587188,
+      "lng": 42.6683321,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11001641315"
+    },
+    {
+      "id": "osm-node-11019904616",
+      "name": null,
+      "lat": 41.69271,
+      "lng": 44.9273641,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11019904616"
+    },
+    {
+      "id": "osm-node-11150441195",
+      "name": null,
+      "lat": 42.2715754,
+      "lng": 42.7050304,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11150441195",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/11150441196"
+        }
+      ]
+    },
+    {
+      "id": "osm-node-11185535601",
+      "name": null,
+      "lat": 41.7698663,
+      "lng": 44.7824794,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11185535601"
+    },
+    {
+      "id": "osm-node-11192467855",
+      "name": null,
+      "lat": 41.7542499,
+      "lng": 44.7804427,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11192467855"
+    },
+    {
+      "id": "osm-node-11212266400",
+      "name": null,
+      "lat": 41.7143767,
+      "lng": 44.7935767,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11212266400"
+    },
+    {
+      "id": "osm-node-11253253717",
+      "name": null,
+      "lat": 41.7157591,
+      "lng": 44.7726228,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11253253717"
+    },
+    {
+      "id": "osm-node-11271534146",
+      "name": null,
+      "lat": 41.723312,
+      "lng": 44.7437804,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11271534146"
+    },
+    {
+      "id": "osm-node-11293429525",
+      "name": null,
+      "lat": 41.703272,
+      "lng": 44.7923706,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11293429525"
+    },
+    {
+      "id": "osm-node-11293429526",
+      "name": null,
+      "lat": 41.7035143,
+      "lng": 44.7934891,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11293429526"
+    },
+    {
+      "id": "osm-node-11304910021",
+      "name": null,
+      "lat": 41.722138,
+      "lng": 44.7679717,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11304910021"
+    },
+    {
+      "id": "osm-node-11358652517",
+      "name": null,
+      "lat": 41.7099267,
+      "lng": 44.798251,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11358652517"
+    },
+    {
+      "id": "osm-node-11361739236",
+      "name": null,
+      "lat": 41.7037254,
+      "lng": 44.7918018,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11361739236"
+    },
+    {
+      "id": "osm-node-11375080743",
+      "name": null,
+      "lat": 41.7269722,
+      "lng": 44.7693688,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "Type 1"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11375080743"
+    },
+    {
+      "id": "osm-node-11375288568",
+      "name": null,
+      "lat": 41.70596,
+      "lng": 44.800231,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11375288568"
+    },
+    {
+      "id": "osm-node-11375291669",
+      "name": null,
+      "lat": 41.709977,
+      "lng": 44.7589479,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11375291669"
+    },
+    {
+      "id": "osm-node-11381310269",
+      "name": null,
+      "lat": 41.7394043,
+      "lng": 44.7541188,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11381310269"
+    },
+    {
+      "id": "osm-node-11381312169",
+      "name": null,
+      "lat": 41.7403596,
+      "lng": 44.753328,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11381312169"
+    },
+    {
+      "id": "osm-node-11530634323",
+      "name": null,
+      "lat": 41.7704685,
+      "lng": 44.8012772,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11530634323"
+    },
+    {
+      "id": "osm-node-11534003047",
+      "name": null,
+      "lat": 41.6889776,
+      "lng": 44.8774481,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11534003047"
+    },
+    {
+      "id": "osm-node-11536767645",
+      "name": null,
+      "lat": 41.7090412,
+      "lng": 44.7534083,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11536767645"
+    },
+    {
+      "id": "osm-node-11560839769",
+      "name": null,
+      "lat": 41.7249946,
+      "lng": 44.7138987,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11560839769"
+    },
+    {
+      "id": "osm-node-11582032770",
+      "name": null,
+      "lat": 41.7174776,
+      "lng": 44.717673,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11582032770"
+    },
+    {
+      "id": "osm-node-11602960752",
+      "name": null,
+      "lat": 41.7119271,
+      "lng": 44.7534034,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11602960752"
+    },
+    {
+      "id": "osm-node-11659601069",
+      "name": null,
+      "lat": 41.7013382,
+      "lng": 44.7864686,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11659601069"
+    },
+    {
+      "id": "osm-node-11734602198",
+      "name": null,
+      "lat": 41.7165355,
+      "lng": 44.7847611,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11734602198"
+    },
+    {
+      "id": "osm-node-11736249440",
+      "name": null,
+      "lat": 41.7408704,
+      "lng": 44.7948626,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11736249440"
+    },
+    {
+      "id": "osm-node-11773557300",
+      "name": null,
+      "lat": 41.7293042,
+      "lng": 44.734292,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11773557300"
+    },
+    {
+      "id": "osm-node-11795493371",
+      "name": null,
+      "lat": 41.7964102,
+      "lng": 44.7621372,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11795493371"
+    },
+    {
+      "id": "osm-node-11804738252",
+      "name": null,
+      "lat": 41.7214831,
+      "lng": 44.7885871,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11804738252"
+    },
+    {
+      "id": "osm-node-11816734957",
+      "name": null,
+      "lat": 41.7033369,
+      "lng": 44.8486971,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11816734957"
+    },
+    {
+      "id": "osm-node-11867269418",
+      "name": null,
+      "lat": 42.1477171,
+      "lng": 42.9657849,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "CHAdeMO",
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11867269418"
+    },
+    {
+      "id": "osm-node-11872370069",
+      "name": null,
+      "lat": 42.1728022,
+      "lng": 42.9329474,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11872370069"
+    },
+    {
+      "id": "osm-node-11942968953",
+      "name": null,
+      "lat": 42.0161328,
+      "lng": 44.064799,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "CHAdeMO",
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11942968953",
+      "also_listed_in": [
+        {
+          "source": "OpenStreetMap",
+          "source_url": "https://www.openstreetmap.org/node/11942968954"
+        }
+      ]
+    },
+    {
+      "id": "osm-node-12269228501",
+      "name": null,
+      "lat": 41.7136372,
+      "lng": 44.8031253,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12269228501"
+    },
+    {
+      "id": "osm-node-12302201002",
+      "name": null,
+      "lat": 41.7084313,
+      "lng": 44.7700537,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12302201002"
+    },
+    {
+      "id": "osm-node-12369746501",
+      "name": null,
+      "lat": 41.7202724,
+      "lng": 44.7789205,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12369746501"
+    },
+    {
+      "id": "osm-node-12393414968",
+      "name": null,
+      "lat": 41.7454837,
+      "lng": 44.7766194,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12393414968"
+    },
+    {
+      "id": "osm-node-12480196145",
+      "name": null,
+      "lat": 41.7439168,
+      "lng": 44.7741063,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12480196145"
+    },
+    {
+      "id": "osm-node-12585832831",
+      "name": null,
+      "lat": 42.1065879,
+      "lng": 42.3256284,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12585832831"
+    },
+    {
+      "id": "osm-node-12590632201",
+      "name": null,
+      "lat": 41.7214876,
+      "lng": 44.7444186,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12590632201"
+    },
+    {
+      "id": "osm-node-12698789998",
+      "name": null,
+      "lat": 41.7142663,
+      "lng": 44.7969266,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12698789998"
+    },
+    {
+      "id": "osm-node-12709800201",
+      "name": null,
+      "lat": 42.0324422,
+      "lng": 45.3756927,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12709800201"
+    },
+    {
+      "id": "osm-node-12738888213",
+      "name": null,
+      "lat": 41.7402679,
+      "lng": 44.7776153,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12738888213"
+    },
+    {
+      "id": "osm-node-12738888214",
+      "name": null,
+      "lat": 41.7408213,
+      "lng": 44.7773688,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12738888214"
+    },
+    {
+      "id": "osm-node-12768307246",
+      "name": null,
+      "lat": 41.6931321,
+      "lng": 45.0002685,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12768307246"
+    },
+    {
+      "id": "osm-node-12768307248",
+      "name": null,
+      "lat": 41.6837534,
+      "lng": 44.8807047,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12768307248"
+    },
+    {
+      "id": "osm-node-12768307261",
+      "name": null,
+      "lat": 41.6917129,
+      "lng": 45.0023549,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12768307261"
+    },
+    {
+      "id": "osm-node-12777245158",
+      "name": null,
+      "lat": 41.7019342,
+      "lng": 44.8813404,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12777245158"
+    },
+    {
+      "id": "osm-node-12787647638",
+      "name": null,
+      "lat": 41.689294,
+      "lng": 44.8753455,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12787647638"
+    },
+    {
+      "id": "osm-node-12802597881",
+      "name": null,
+      "lat": 41.7268846,
+      "lng": 44.7906093,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12802597881"
+    },
+    {
+      "id": "osm-node-12802650907",
+      "name": null,
+      "lat": 41.7341788,
+      "lng": 44.7820827,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12802650907"
+    },
+    {
+      "id": "osm-node-12862773654",
+      "name": null,
+      "lat": 41.9901117,
+      "lng": 43.6216716,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12862773654"
+    },
+    {
+      "id": "osm-node-12919494731",
+      "name": null,
+      "lat": 41.6876682,
+      "lng": 44.8578337,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12919494731"
+    },
+    {
+      "id": "osm-node-12958814301",
+      "name": null,
+      "lat": 41.7195614,
+      "lng": 44.7595832,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12958814301"
+    },
+    {
+      "id": "osm-node-13068202101",
+      "name": null,
+      "lat": 42.2715275,
+      "lng": 42.7050291,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13068202101"
+    },
+    {
+      "id": "osm-node-13169500675",
+      "name": null,
+      "lat": 41.9464953,
+      "lng": 45.8142309,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13169500675"
+    },
+    {
+      "id": "osm-node-13173377601",
+      "name": null,
+      "lat": 41.7283215,
+      "lng": 44.7166729,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13173377601"
+    },
+    {
+      "id": "osm-node-13173418001",
+      "name": null,
+      "lat": 41.7314703,
+      "lng": 44.7314984,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13173418001"
+    },
+    {
+      "id": "osm-node-13192839601",
+      "name": null,
+      "lat": 41.7272207,
+      "lng": 44.7363714,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "Type 2"
+      ],
+      "power_kw": null,
+      "current": "AC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13192839601"
+    },
+    {
+      "id": "osm-node-13232743559",
+      "name": null,
+      "lat": 41.6807893,
+      "lng": 44.8240441,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13232743559"
+    },
+    {
+      "id": "osm-node-13287285401",
+      "name": null,
+      "lat": 41.7083265,
+      "lng": 44.7787267,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13287285401"
+    },
+    {
+      "id": "osm-node-13353152450",
+      "name": null,
+      "lat": 41.6937149,
+      "lng": 44.8147412,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13353152450"
+    },
+    {
+      "id": "osm-node-13382157304",
+      "name": null,
+      "lat": 41.9270412,
+      "lng": 45.4731771,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13382157304"
+    },
+    {
+      "id": "osm-node-13382157305",
+      "name": null,
+      "lat": 41.9168913,
+      "lng": 45.4762282,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13382157305"
+    },
+    {
+      "id": "osm-node-13382157306",
+      "name": null,
+      "lat": 41.9194551,
+      "lng": 45.4685457,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13382157306"
+    },
+    {
+      "id": "osm-node-13382159831",
+      "name": null,
+      "lat": 42.4701754,
+      "lng": 44.4930546,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13382159831"
+    },
+    {
+      "id": "osm-node-13420823202",
+      "name": null,
+      "lat": 41.6723332,
+      "lng": 44.8842377,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13420823202"
+    },
+    {
+      "id": "osm-node-13506519450",
+      "name": null,
+      "lat": 41.7034009,
+      "lng": 44.789908,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13506519450"
+    },
+    {
+      "id": "osm-node-13506676195",
+      "name": null,
+      "lat": 41.7092086,
+      "lng": 44.7614995,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13506676195"
+    },
+    {
+      "id": "osm-node-13514406001",
+      "name": null,
+      "lat": 41.7389168,
+      "lng": 44.7800737,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13514406001"
+    },
+    {
+      "id": "osm-node-13573950101",
+      "name": null,
+      "lat": 41.7071793,
+      "lng": 44.7730424,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13573950101"
+    },
+    {
+      "id": "osm-node-13609171802",
+      "name": null,
+      "lat": 41.7135313,
+      "lng": 44.7150737,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13609171802"
+    },
+    {
+      "id": "osm-node-13609373701",
+      "name": null,
+      "lat": 41.7179563,
+      "lng": 44.7356803,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13609373701"
+    },
+    {
+      "id": "osm-node-13650274101",
+      "name": null,
+      "lat": 41.72909,
+      "lng": 44.7703769,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13650274101"
+    },
+    {
+      "id": "osm-node-13705536804",
+      "name": null,
+      "lat": 41.6772596,
+      "lng": 44.829806,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13705536804"
+    },
+    {
+      "id": "osm-node-13723541701",
+      "name": null,
+      "lat": 41.6197475,
+      "lng": 45.9223318,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13723541701"
+    },
+    {
+      "id": "osm-node-13760361201",
+      "name": null,
+      "lat": 41.7305585,
+      "lng": 44.7575212,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13760361201"
+    },
+    {
+      "id": "osm-node-13771188101",
+      "name": null,
+      "lat": 41.7063548,
+      "lng": 44.7727977,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13771188101"
+    },
+    {
+      "id": "osm-node-13790252730",
+      "name": null,
+      "lat": 41.776226,
+      "lng": 44.8217301,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13790252730"
+    },
+    {
+      "id": "osm-node-13790716601",
+      "name": null,
+      "lat": 41.7101279,
+      "lng": 44.7536426,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13790716601"
+    },
+    {
+      "id": "osm-node-13839926788",
+      "name": null,
+      "lat": 41.7008972,
+      "lng": 44.7891403,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13839926788"
+    },
+    {
+      "id": "osm-node-13908064101",
+      "name": null,
+      "lat": 41.7088322,
+      "lng": 44.7674062,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13908064101"
+    },
+    {
+      "id": "osm-node-13950164301",
+      "name": null,
+      "lat": 41.709044,
+      "lng": 44.7117094,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13950164301"
+    },
+    {
+      "id": "osm-node-13969921902",
+      "name": null,
+      "lat": 41.7012005,
+      "lng": 44.8813072,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13969921902"
+    },
+    {
+      "id": "osm-node-13969936302",
+      "name": null,
+      "lat": 41.7088921,
+      "lng": 44.8746775,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13969936302"
+    },
+    {
+      "id": "osm-node-14026836502",
+      "name": null,
+      "lat": 42.0162602,
+      "lng": 44.0263851,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14026836502"
+    },
+    {
+      "id": "osm-node-14045282501",
+      "name": null,
+      "lat": 41.6899597,
+      "lng": 44.8306967,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14045282501"
+    },
+    {
+      "id": "osm-node-14075417521",
+      "name": null,
+      "lat": 41.7782503,
+      "lng": 44.8066845,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14075417521"
+    },
+    {
+      "id": "osm-node-14087952599",
+      "name": null,
+      "lat": 41.7299063,
+      "lng": 44.7600293,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14087952599"
+    },
+    {
+      "id": "osm-way-1474330371",
+      "name": null,
+      "lat": 41.730136,
+      "lng": 43.5299477,
+      "operator": null,
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/way/1474330371"
+    },
+    {
+      "id": "osm-node-12772777459",
+      "name": "და-ტენე",
+      "lat": 41.6854983,
+      "lng": 44.8545655,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/12772777459"
+    },
+    {
+      "id": "osm-node-13140472125",
+      "name": "და-ტენე",
+      "lat": 41.6854958,
+      "lng": 44.8545277,
+      "operator": null,
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13140472125"
+    },
+    {
+      "id": "osm-node-11019904617",
+      "name": "ელექტრიფაი საქართველო",
+      "lat": 41.6886282,
+      "lng": 44.9243384,
+      "operator": "ელექტრიფაი საქართველო",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11019904617"
+    },
+    {
+      "id": "osm-node-13330693601",
+      "name": "ივი ფაუერ",
+      "lat": 41.7070798,
+      "lng": 44.7771436,
+      "operator": "ივი ფაუერ",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13330693601"
+    },
+    {
+      "id": "osm-node-13955810901",
+      "name": "ივი ფაუერ",
+      "lat": 41.7177199,
+      "lng": 44.7789292,
+      "operator": "ივი ფაუერ",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13955810901"
+    },
+    {
+      "id": "osm-node-14108319571",
+      "name": "ივი ფაუერ",
+      "lat": 41.709437,
+      "lng": 44.7534898,
+      "operator": "ივი ფაუერ",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/14108319571"
+    },
+    {
+      "id": "osm-node-10735957302",
+      "name": "მარტივი",
+      "lat": 41.7213342,
+      "lng": 44.7246398,
+      "operator": "მარტივი",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/10735957302"
+    },
+    {
+      "id": "osm-node-11212331562",
+      "name": "მარტივი",
+      "lat": 41.7067071,
+      "lng": 44.7872818,
+      "operator": "მარტივი",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11212331562"
+    },
+    {
+      "id": "osm-node-13446195901",
+      "name": "მარტივი",
+      "lat": 41.7091575,
+      "lng": 44.7828914,
+      "operator": "მარტივი",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13446195901"
+    },
+    {
+      "id": "osm-node-13546574001",
+      "name": "მარტივი",
+      "lat": 41.7069268,
+      "lng": 44.7888638,
+      "operator": "მარტივი",
+      "town": null,
+      "connectors": [
+        "CCS2"
+      ],
+      "power_kw": null,
+      "current": "DC",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13546574001"
+    },
+    {
+      "id": "osm-node-11362756370",
+      "name": "სოკარი",
+      "lat": 41.6693677,
+      "lng": 44.8563302,
+      "operator": "სოკარი",
+      "town": null,
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/11362756370"
+    },
+    {
+      "id": "osm-node-13169503934",
+      "name": "Da-tene",
+      "lat": 41.925317,
+      "lng": 45.8248877,
+      "operator": "Da-tene",
+      "town": "ყვარელი",
+      "connectors": [],
+      "power_kw": null,
+      "current": "unknown",
+      "source": "OpenStreetMap",
+      "source_url": "https://www.openstreetmap.org/node/13169503934"
     }
   ]
 }
