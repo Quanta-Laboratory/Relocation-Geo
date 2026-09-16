@@ -31,3 +31,9 @@ Legislative items detected on parliament.ge news, before the law reaches matsne.
 - **Parliament date:** 15 Sep 2026
 - **Link:** https://parliament.ge/en/media/news/regionuli-politikisa-da-tvitmmartvelobis-komitetma-ori-saministros-gaertianebis-shesakheb-momzadebuli-kanonproekti-ganikhila
 
+
+## 2026-09-16 12:27 UTC — Parliament Supported Legislative Amendments Providing for the Exemption of Employers from Fines Imposed by the Pension Fund
+
+- **Parliament date:** 16 Sep 2026
+- **Link:** https://parliament.ge/en/media/news/parlamentma-mkhari-dauchira-sakanonmdeblo-tsvlilebas-romelits-sapensio-fondis-mier-dakisrebuli-jarimebisgan-damsakmebelta-gatavisuflebas-itvalistsinebs
+
