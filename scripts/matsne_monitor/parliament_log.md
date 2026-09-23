@@ -37,3 +37,9 @@ Legislative items detected on parliament.ge news, before the law reaches matsne.
 - **Parliament date:** 16 Sep 2026
 - **Link:** https://parliament.ge/en/media/news/parlamentma-mkhari-dauchira-sakanonmdeblo-tsvlilebas-romelits-sapensio-fondis-mier-dakisrebuli-jarimebisgan-damsakmebelta-gatavisuflebas-itvalistsinebs
 
+
+## 2026-09-23 12:36 UTC — The Economic Policy Committee discussed the Government’s legislative initiative
+
+- **Parliament date:** 22 Sep 2026
+- **Link:** https://parliament.ge/en/media/news/ekonomikuri-politikis-komitetma-mtavrobis-sakanonmdeblo-initsiativebi-ganikhila-1
+
