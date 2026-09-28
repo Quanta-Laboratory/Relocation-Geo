@@ -43,3 +43,9 @@ Legislative items detected on parliament.ge news, before the law reaches matsne.
 - **Parliament date:** 22 Sep 2026
 - **Link:** https://parliament.ge/en/media/news/ekonomikuri-politikis-komitetma-mtavrobis-sakanonmdeblo-initsiativebi-ganikhila-1
 
+
+## 2026-09-28 15:01 UTC — 28 სექტემბერი 2026 Amendments Initiated in Parliament to the Tax Code of Georgia Establish a GEL 100,000 Income Threshold for Full Exemption of Individuals from Property Tax
+
+- **Parliament date:** —
+- **Link:** https://parliament.ge/en/media/news/parlamentshi-initsiirebuli-sakartvelos-sagadasakhado-kodeksshi-tsvlilebit-tsesdeba-ertiani-100-000-laris-odenobis-zghvari-romlis-farglebshi-fizikuri-piri-srulad-tavisufldeba
+
