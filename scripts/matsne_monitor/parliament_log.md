@@ -49,3 +49,9 @@ Legislative items detected on parliament.ge news, before the law reaches matsne.
 - **Parliament date:** —
 - **Link:** https://parliament.ge/en/media/news/parlamentshi-initsiirebuli-sakartvelos-sagadasakhado-kodeksshi-tsvlilebit-tsesdeba-ertiani-100-000-laris-odenobis-zghvari-romlis-farglebshi-fizikuri-piri-srulad-tavisufldeba
 
+
+## 2026-09-30 13:22 UTC — Parliament Adopted Draft Tax Code of Georgia
+
+- **Parliament date:** 30 Sep 2026
+- **Link:** https://parliament.ge/en/media/news/parlamentma-sakartvelos-sagadasakhado-kodeksshi-tsvlilebis-shetanis-shesakheb-kanonproekti-miigho
+
