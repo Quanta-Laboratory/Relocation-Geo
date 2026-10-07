@@ -55,3 +55,9 @@ Legislative items detected on parliament.ge news, before the law reaches matsne.
 - **Parliament date:** 30 Sep 2026
 - **Link:** https://parliament.ge/en/media/news/parlamentma-sakartvelos-sagadasakhado-kodeksshi-tsvlilebis-shetanis-shesakheb-kanonproekti-miigho
 
+
+## 2026-10-07 14:16 UTC — The Healthcare and Social Issues Committee discussed the draft law on “The 2027 State Budget of Georgia”
+
+- **Parliament date:** 07 Oct 2026
+- **Link:** https://parliament.ge/en/media/news/janmrtelobis-datsvisa-da-sotsialur-sakitkhta-komitetma-sakartvelos-2027-tslis-sakhelmtsifo-biujetis-shesakheb-kanonproekti-ganikhila
+
