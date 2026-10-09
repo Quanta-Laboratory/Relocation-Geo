@@ -4,6 +4,8 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 
 const checked = new Date().toISOString().slice(0, 10);
 const DATA_AS_OF = '2026-10-09';
+const curY = new Date().getFullYear();
+const taxYears = [curY - 1, curY];
 
 // Municipal rates are set by each Sakrebulo's decree and are NOT published in one
 // place; these are read from the official decrees (links below). "Other" falls
@@ -27,7 +29,7 @@ const crumbs = [
 ];
 
 const description =
-  'Estimate property tax and land tax in Georgia: individual residential property by household-income band, plus agricultural and non-agricultural land, with the exact municipal rate for Tbilisi, Batumi, Kutaisi, Rustavi and Poti. Based on the Tax Code and the municipalities’ decrees. Not tax advice.';
+  'Build a Georgia property-tax estimate asset by asset: real estate, cars, yachts, boats, aircraft and land. Pick your income band, each item’s region, ownership dates and market value (or land area and type). Based on the Tax Code and the municipalities’ decrees. Not tax advice.';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -45,100 +47,63 @@ const jsonLd = {
   <main id="main" class="wrap">
     <h1>Georgia Property Tax Calculator</h1>
     <p class="lede">
-      Estimate <strong>property tax</strong> and <strong>land tax</strong> in Georgia from the
-      figures you enter. It applies the <strong>Tax Code</strong>'s bands and, where known, your
-      <strong>municipality's exact rate</strong>.
+      Build your estimate <strong>asset by asset</strong>. Add each property you own — real estate, a car, a
+      yacht or boat, an aircraft, or land — set its region, ownership dates and value, and the calculator applies
+      the <strong>Tax Code</strong>'s rules and, where known, your <strong>municipality's exact rate</strong>.
     </p>
 
     <div class="hub-note">
       <span class="hub-note__tag">How it works</span>
       <span>
-        Property tax is a <strong>local</strong> tax: the Tax Code sets the exemption and the rate
-        <em>ranges</em>, and each municipality's council (Sakrebulo) fixes the exact percentage and
-        land coefficient. We've loaded the confirmed rates for the main cities; for other
-        municipalities, or for an exact land figure, see the
+        Property tax is a <strong>local</strong> tax. For an individual, real estate and vehicles (cars, yachts,
+        boats, aircraft) are exempt if <strong>family income is GEL 100,000 or less</strong>; above that they are
+        taxed at 0.8%–1% of market value. <strong>Land tax is separate</strong> and is <em>not</em> covered by that
+        income exemption. Part-year ownership is pro-rated. For an exact land figure use the
         <a href={RS_LAND} target="_blank" rel="noopener noreferrer">Revenue Service calculators</a>.
       </span>
     </div>
 
-    <!-- Municipality selector (drives property % and land coefficient) -->
+    <!-- Global inputs -->
     <div class="pt-muni">
-      <label for="pt-muni"><strong>Your municipality</strong>
-        <select id="pt-muni">
-          {municipalities.map((m) => <option value={m.code}>{m.name}</option>)}
-          <option value="__other" selected>Other / I don’t know</option>
-        </select>
-      </label>
-      <p class="pt-muni-src" id="pt-muni-src"></p>
+      <div class="pt-global">
+        <label>Family income last year
+          <select id="pt-income">
+            <option value="le">GEL 100,000 or less</option>
+            <option value="gt" selected>More than GEL 100,000</option>
+          </select>
+        </label>
+        <label>Tax year
+          <select id="pt-year">
+            {taxYears.map((y, i) => <option value={y} selected={i === 0}>{y}</option>)}
+          </select>
+        </label>
+      </div>
+      <p class="pt-muni-src" id="pt-income-src"></p>
     </div>
 
-    <!-- 1. Residential property (individuals) -->
-    <section class="pt-card">
-      <h2>Residential property (individuals)</h2>
-      <p class="pt-help">
-        For a resident individual, liability depends on <strong>household income in the previous year</strong>,
-        applied to the <strong>market value</strong>. Family income <strong>up to GEL 100,000 is exempt</strong>
-        (threshold raised from GEL 40,000 on 1 October 2026); above that the rate is 0.8%–1%.
-      </p>
-      <div class="pt-grid">
-        <label>Family income last year (GEL)
-          <input type="number" id="pt-income" min="0" step="1000" inputmode="numeric" placeholder="e.g. 120000" />
-        </label>
-        <label>Property market value (GEL)
-          <input type="number" id="pt-value" min="0" step="1000" inputmode="numeric" placeholder="e.g. 250000" />
-        </label>
-      </div>
-      <div class="pt-result" id="pt-res-prop" hidden></div>
-    </section>
+    <!-- Asset list -->
+    <div id="pt-assets"></div>
+    <button type="button" id="pt-add" class="pt-add">+ Add property</button>
 
-    <!-- 2. Non-agricultural land -->
-    <section class="pt-card">
-      <h2>Non-agricultural land</h2>
-      <p class="pt-help">
-        Base rate <strong>GEL 0.24 per m²</strong> per year, multiplied by the local territorial
-        coefficient (up to 1.5). The coefficient varies <strong>by zone within a city</strong>, so this
-        is a range — use the <a href={RS_LAND} target="_blank" rel="noopener noreferrer">Revenue Service Land Calculator</a>
-        for your parcel's exact figure.
-      </p>
-      <div class="pt-grid">
-        <label>Land area (m²)
-          <input type="number" id="pt-nonag-area" min="0" step="1" inputmode="numeric" placeholder="e.g. 600" />
-        </label>
-      </div>
-      <div class="pt-result" id="pt-res-nonag" hidden></div>
-    </section>
-
-    <!-- 3. Agricultural land -->
-    <section class="pt-card">
-      <h2>Agricultural land</h2>
-      <p class="pt-help">
-        Base rate <strong>GEL 5–100 per hectare</strong> (set per land type in the municipality's decree),
-        times a local coefficient of up to 1.5. Enter your plot's base rate for a tighter estimate, or leave
-        it blank to see the full statutory span. For an exact figure use the
-        <a href={RS_LAND} target="_blank" rel="noopener noreferrer">Revenue Service Land Calculator</a>.
-      </p>
-      <div class="pt-grid pt-grid--3">
-        <label>Area (hectares)
-          <input type="number" id="pt-ag-ha" min="0" step="0.01" inputmode="decimal" placeholder="e.g. 2" />
-        </label>
-        <label>Base rate per hectare (GEL, 5–100) — optional
-          <input type="number" id="pt-ag-rate" min="5" max="100" step="1" inputmode="numeric" placeholder="blank = 5–100" />
-        </label>
-      </div>
-      <div class="pt-result" id="pt-res-ag" hidden></div>
+    <!-- Summary -->
+    <section class="pt-card pt-summary" id="pt-summary" hidden>
+      <h2>Estimated annual tax</h2>
+      <div id="pt-summary-body"></div>
     </section>
 
     <p class="pt-foot-note">
-      Individuals declare and pay property tax and land tax by <strong>15 November</strong> on the basis of a
-      declaration to the Revenue Service. Taxable property can also include cars, boats and aircraft — this
-      calculator covers real estate and land only.
+      Individuals file the property-tax declaration (covering both taxable property and land) to the Revenue Service
+      by <strong>1 November</strong> and pay by <strong>15 November</strong>. Taxable property is valued as at
+      <strong>31 December</strong> of the previous year; land is assessed by ownership as at <strong>1 April</strong>.
+      A family with more than one owner can file a single joint declaration.
     </p>
 
     <div class="sources">
       <strong>Sources</strong>
       <ul>
-        <li><a href="https://matsne.gov.ge/en/document/view/1043717" target="_blank" rel="noopener noreferrer">Tax Code of Georgia</a> — property-tax and land-tax provisions (doc. 1043717)</li>
-        <li>Municipal rates from each Sakrebulo decree: Tbilisi, Batumi, Kutaisi, Rustavi, Poti (linked in the municipality selector); as of {DATA_AS_OF}</li>
+        <li><a href="https://matsne.gov.ge/en/document/view/1043717" target="_blank" rel="noopener noreferrer">Tax Code of Georgia</a> — taxable objects, rates, the GEL 100,000 exemption and part-year pro-rating (arts. 201, 202, 206; doc. 1043717)</li>
+        <li><a href="https://taxsummaries.pwc.com/georgia/individual/other-taxes" target="_blank" rel="noopener noreferrer">PwC Worldwide Tax Summaries — Georgia, Individual: Other taxes</a> — objects of individual property tax (real estate, yachts, motorboats, aircraft, helicopters, cars from 2018)</li>
+        <li>Municipal rates from each Sakrebulo decree: Tbilisi, Batumi, Kutaisi, Rustavi, Poti (shown per asset when you pick the region); as of {DATA_AS_OF}</li>
         <li><a href={RS_LAND} target="_blank" rel="noopener noreferrer">Revenue Service — Land / property tax calculators</a> (exact parcel figures)</li>
         <li><a href="/en/property-tax-georgia">Property tax in Georgia</a> — the full guide behind this calculator</li>
       </ul>
@@ -158,119 +123,242 @@ const jsonLd = {
       var MUNIS = JSON.parse(document.getElementById('pt-muni-data').textContent || '[]');
       var byCode = {};
       MUNIS.forEach(function (m) { byCode[m.code] = m; });
-      var OTHER = { code: '__other', name: 'your municipality', propertyRate: null, landMin: 1.0, landMax: 1.5, decree: null, asOf: null, note: 'Not loaded — using the Tax Code statutory spans. Find your Sakrebulo decree on matsne.gov.ge or use the Revenue Service calculators.' };
+      var OTHER = { code: '__other', name: 'your municipality', propertyRate: null, landMin: 1.0, landMax: 1.5, decree: null, asOf: null, note: '' };
+      function muni(code) { return byCode[code] || OTHER; }
 
       var fmt = function (n) { return 'GEL ' + Math.round(n).toLocaleString('en-US'); };
       var pct = function (r) { return (r * 100).toString().replace(/\.0+$/, '') + '%'; };
-      var num = function (id) { var v = parseFloat(document.getElementById(id).value); return isFinite(v) && v >= 0 ? v : null; };
-      var show = function (el, html) { el.innerHTML = html; el.hidden = false; };
-      var hide = function (el) { el.hidden = true; };
-      var range = function (lo, hi) {
-        if (Math.round(lo) === Math.round(hi)) return '<strong>' + fmt(lo) + '</strong> / year';
-        return '<strong>' + fmt(lo) + ' – ' + fmt(hi) + '</strong> / year';
+      var rangeTxt = function (lo, hi) {
+        if (Math.round(lo) === Math.round(hi)) return fmt(lo);
+        return fmt(lo) + ' – ' + fmt(hi);
       };
-      var sel = document.getElementById('pt-muni');
-      function muni() { return byCode[sel.value] || OTHER; }
-      function srcTag(m) {
-        if (!m.decree) return '';
-        return ' <a href="' + m.decree + '" target="_blank" rel="noopener noreferrer">decree</a>, as of ' + m.asOf;
+
+      // region <option>s
+      var muniOpts = MUNIS.map(function (m) { return '<option value="' + m.code + '">' + m.name + '</option>'; }).join('')
+        + '<option value="__other" selected>Other / I don’t know</option>';
+
+      var incomeSel = document.getElementById('pt-income');
+      var yearSel = document.getElementById('pt-year');
+      var incomeSrc = document.getElementById('pt-income-src');
+      var list = document.getElementById('pt-assets');
+      var summary = document.getElementById('pt-summary');
+      var summaryBody = document.getElementById('pt-summary-body');
+
+      function yearBounds() {
+        var y = parseInt(yearSel.value, 10);
+        var start = Date.UTC(y, 0, 1), end = Date.UTC(y, 11, 31);
+        var days = (end - start) / 86400000 + 1; // 365 or 366
+        return { start: start, end: end, days: days, y: y };
+      }
+      // fraction of the tax year the asset was owned
+      function ownFraction(buyStr, soldChecked, saleStr) {
+        var yb = yearBounds();
+        var start = buyStr ? Date.parse(buyStr) : yb.start;
+        var end = (soldChecked && saleStr) ? Date.parse(saleStr) : yb.end;
+        if (isNaN(start)) start = yb.start;
+        if (isNaN(end)) end = yb.end;
+        if (start < yb.start) start = yb.start;
+        if (end > yb.end) end = yb.end;
+        if (end < start) return 0;
+        var days = (end - start) / 86400000 + 1;
+        if (days < 0) days = 0;
+        if (days > yb.days) days = yb.days;
+        return days / yb.days;
       }
 
-      // selector summary line
-      var src = document.getElementById('pt-muni-src');
-      function updateSrc() {
-        var m = muni();
-        if (m.code === '__other') { src.innerHTML = 'Using the Tax Code statutory ranges. Pick a listed city for its exact property-tax rate, or find your municipality’s decree on matsne.gov.ge.'; }
-        else {
-          var pr = m.propertyRate ? 'property-tax rate ' + pct(m.propertyRate) : 'property-tax rate 0.8%–1%';
-          src.innerHTML = m.name + ': ' + pr + '; land coefficient ' + (m.landMin === m.landMax ? m.landMin : m.landMin + '–' + m.landMax) + '.' + (m.note ? ' ' + m.note : '') + ' (' + srcTag(m).replace(/^ /, '') + ')';
+      function assetRow() {
+        var row = document.createElement('div');
+        row.className = 'as-row';
+        row.innerHTML =
+          '<div class="as-grid">' +
+            '<label>Property type<select class="f-type">' +
+              '<option value="re">Real estate</option>' +
+              '<option value="car">Car</option>' +
+              '<option value="boat">Yacht / motorboat</option>' +
+              '<option value="air">Aircraft / helicopter</option>' +
+              '<option value="land">Land</option>' +
+            '</select></label>' +
+            '<label>Region / municipality<select class="f-region">' + muniOpts + '</select></label>' +
+            '<label>Purchase date<input type="date" class="f-buy"></label>' +
+            '<label class="f-sold-wrap"><span>Sold during the year?</span>' +
+              '<span class="as-check"><input type="checkbox" class="f-sold"><input type="date" class="f-saledate" hidden></span></label>' +
+            '<label class="f-value-wrap">Market value (GEL)<input type="number" class="f-value" min="0" step="1000" inputmode="numeric" placeholder="e.g. 250000"></label>' +
+            '<label class="f-landkind-wrap" hidden>Land type<select class="f-landkind"><option value="nonag">Non-agricultural</option><option value="ag">Agricultural</option></select></label>' +
+            '<label class="f-size-wrap" hidden>Area<span class="as-size"><input type="number" class="f-size" min="0" step="0.01" inputmode="decimal" placeholder="e.g. 600"><select class="f-unit"><option value="m2">m²</option><option value="ha">hectares</option></select></span></label>' +
+            '<label class="f-agrate-wrap" hidden>Base rate /ha (GEL 5–100, optional)<input type="number" class="f-agrate" min="5" max="100" step="1" inputmode="numeric" placeholder="blank = 5–100"></label>' +
+          '</div>' +
+          '<div class="as-foot"><span class="as-amount"></span><button type="button" class="as-remove">Remove</button></div>';
+
+        var type = row.querySelector('.f-type');
+        var sold = row.querySelector('.f-sold');
+        var saledate = row.querySelector('.f-saledate');
+        var landkind = row.querySelector('.f-landkind');
+
+        function syncType() {
+          var isLand = type.value === 'land';
+          row.querySelector('.f-value-wrap').hidden = isLand;
+          row.querySelector('.f-landkind-wrap').hidden = !isLand;
+          row.querySelector('.f-size-wrap').hidden = !isLand;
+          row.querySelector('.f-agrate-wrap').hidden = !(isLand && landkind.value === 'ag');
+          // sensible default unit per land kind
+          if (isLand) {
+            var unit = row.querySelector('.f-unit');
+            unit.value = landkind.value === 'ag' ? 'ha' : 'm2';
+          }
         }
+        type.addEventListener('change', function () { syncType(); recompute(); });
+        landkind.addEventListener('change', function () { syncType(); recompute(); });
+        sold.addEventListener('change', function () { saledate.hidden = !sold.checked; recompute(); });
+        row.addEventListener('input', recompute);
+        row.querySelector('.as-remove').addEventListener('click', function () {
+          row.remove();
+          if (!list.querySelector('.as-row')) addRow();
+          recompute();
+        });
+        syncType();
+        return row;
       }
 
-      // 1. Residential
-      var resProp = document.getElementById('pt-res-prop');
-      function calcProp() {
-        var inc = num('pt-income'), val = num('pt-value'), m = muni();
-        if (inc === null || val === null) { hide(resProp); return; }
-        if (inc <= 100000) {
-          show(resProp, '<div class="pt-badge pt-badge--ok">Exempt</div>' +
-            '<p class="pt-note">Family income is GEL 100,000 or less, so a resident individual’s taxable property (other than land) is exempt (threshold raised from GEL 40,000, effective 1 October 2026).</p>');
-          return;
+      function addRow() { list.appendChild(assetRow()); }
+
+      // compute one asset -> {cat:'property'|'land'|null, exempt, lo, hi, label, note}
+      function computeAsset(row) {
+        var type = row.querySelector('.f-type').value;
+        var m = muni(row.querySelector('.f-region').value);
+        var buy = row.querySelector('.f-buy').value;
+        var sold = row.querySelector('.f-sold').checked;
+        var saleStr = row.querySelector('.f-saledate').value;
+        var f = ownFraction(buy, sold, saleStr);
+        var fTxt = f < 0.999 ? ' × ' + Math.round(f * 100) + '% of the year' : '';
+        var incomeLow = incomeSel.value === 'le';
+
+        if (type === 'land') {
+          var kind = row.querySelector('.f-landkind').value;
+          var size = parseFloat(row.querySelector('.f-size').value);
+          var unit = row.querySelector('.f-unit').value;
+          if (!isFinite(size) || size <= 0) return null;
+          if (kind === 'nonag') {
+            var m2 = unit === 'ha' ? size * 10000 : size;
+            var base = m2 * 0.24;
+            var lo = base * m.landMin * f, hi = base * m.landMax * f;
+            var coefTxt = (m.landMin === m.landMax) ? ('coefficient ' + m.landMin) : ('coefficient ' + m.landMin + '–' + m.landMax + ' (varies by zone)');
+            return { cat: 'land', exempt: false, lo: lo, hi: hi,
+              label: 'Non-agricultural land, ' + m.name,
+              note: 'GEL 0.24/m² × ' + Math.round(m2).toLocaleString('en-US') + ' m² × ' + coefTxt + fTxt + '.' };
+          } else {
+            var ha = unit === 'm2' ? size / 10000 : size;
+            var rate = parseFloat(row.querySelector('.f-agrate').value);
+            var loR, hiR, rTxt;
+            if (isFinite(rate) && rate >= 5 && rate <= 100) { loR = rate; hiR = rate; rTxt = 'GEL ' + rate + '/ha'; }
+            else { loR = 5; hiR = 100; rTxt = 'GEL 5–100/ha (base rate unknown)'; }
+            var alo = ha * loR * 1.0 * f, ahi = ha * hiR * 1.5 * f;
+            return { cat: 'land', exempt: false, lo: alo, hi: ahi,
+              label: 'Agricultural land, ' + m.name,
+              note: (Math.round(ha * 100) / 100).toLocaleString('en-US') + ' ha × ' + rTxt + ' × coefficient up to 1.5' + fTxt + '. Per-ha rates are set by land type in the municipal decree.' };
+          }
         }
-        var html = '<div class="pt-badge">Estimated property tax</div>';
+
+        // taxable property: real estate / car / boat / aircraft
+        var labels = { re: 'Real estate', car: 'Car', boat: 'Yacht / motorboat', air: 'Aircraft / helicopter' };
+        var val = parseFloat(row.querySelector('.f-value').value);
+        if (!isFinite(val) || val <= 0) return null;
+        if (incomeLow) {
+          return { cat: 'property', exempt: true, lo: 0, hi: 0,
+            label: labels[type] + ', ' + m.name,
+            note: 'family income GEL 100,000 or less.' };
+        }
         if (m.propertyRate) {
-          html += '<p class="pt-amount">' + range(val * m.propertyRate, val * m.propertyRate) + '</p>' +
-            '<p class="pt-note">' + m.name + ' rate ' + pct(m.propertyRate) + ' of market value (income over GEL 100,000).' + srcTag(m) + '</p>';
-        } else {
-          html += '<p class="pt-amount">' + range(val * 0.008, val * 0.01) + '</p>' +
-            '<p class="pt-note">Rate 0.8%–1% of market value (income over GEL 100,000); ' + m.name + ' sets the exact % within this band.</p>';
+          var p = val * m.propertyRate * f;
+          return { cat: 'property', exempt: false, lo: p, hi: p,
+            label: labels[type] + ', ' + m.name,
+            note: fmt(val) + ' × ' + pct(m.propertyRate) + ' (' + m.name + ' rate)' + fTxt + '.' };
         }
-        show(resProp, html);
+        return { cat: 'property', exempt: false, lo: val * 0.008 * f, hi: val * 0.01 * f,
+          label: labels[type] + ', ' + m.name,
+          note: fmt(val) + ' × 0.8%–1% (municipality sets the exact rate)' + fTxt + '.' };
       }
 
-      // 2. Non-agricultural land
-      var resNonag = document.getElementById('pt-res-nonag');
-      function calcNonag() {
-        var a = num('pt-nonag-area'), m = muni();
-        if (a === null || a === 0) { hide(resNonag); return; }
-        var base = a * 0.24;
-        var lo = base * m.landMin, hi = base * m.landMax;
-        var note = (m.landMin === m.landMax)
-          ? ('GEL 0.24/m² × ' + a.toLocaleString('en-US') + ' m² × ' + m.landMin + ' (' + m.name + ' city-wide coefficient).' + srcTag(m))
-          : ('GEL 0.24/m² × ' + a.toLocaleString('en-US') + ' m² × local coefficient ' + m.landMin + '–' + m.landMax + ' (varies by zone' + (m.code !== '__other' ? ' in ' + m.name : '') + ' — use the Revenue Service Land Calculator for the exact zone).' + srcTag(m));
-        show(resNonag, '<div class="pt-badge">Estimated land tax</div><p class="pt-amount">' + range(lo, hi) + '</p><p class="pt-note">' + note + '</p>');
+      function recompute() {
+        var rows = Array.prototype.slice.call(list.querySelectorAll('.as-row'));
+        var propLo = 0, propHi = 0, landLo = 0, landHi = 0, anyProp = false, anyLand = false, anyExempt = false, counted = 0;
+        rows.forEach(function (row) {
+          var r = computeAsset(row);
+          var amt = row.querySelector('.as-amount');
+          if (!r) { amt.textContent = ''; return; }
+          counted++;
+          if (r.exempt) { amt.innerHTML = '<span class="as-ok">Exempt</span> — ' + r.note; anyExempt = true; anyProp = true; return; }
+          amt.innerHTML = '<strong>' + rangeTxt(r.lo, r.hi) + '</strong> / year — ' + r.note;
+          if (r.cat === 'property') { propLo += r.lo; propHi += r.hi; anyProp = true; }
+          else { landLo += r.lo; landHi += r.hi; anyLand = true; }
+        });
+
+        if (counted === 0) { summary.hidden = true; return; }
+        var html = '';
+        if (anyProp) {
+          html += '<div class="pt-line"><span>Property tax (real estate, cars, yachts, aircraft)</span><span>' +
+            ((propLo === 0 && propHi === 0 && incomeSel.value === 'le') ? 'Exempt' : rangeTxt(propLo, propHi)) + '</span></div>';
+        }
+        if (anyLand) {
+          html += '<div class="pt-line"><span>Land tax</span><span>' + rangeTxt(landLo, landHi) + '</span></div>';
+        }
+        var totLo = propLo + landLo, totHi = propHi + landHi;
+        html += '<div class="pt-line pt-line--total"><span>Total estimate</span><span>' + rangeTxt(totLo, totHi) + ' / year</span></div>';
+        summaryBody.innerHTML = html;
+        summary.hidden = false;
       }
 
-      // 3. Agricultural land
-      var resAg = document.getElementById('pt-res-ag');
-      function calcAg() {
-        var ha = num('pt-ag-ha');
-        if (ha === null || ha === 0) { hide(resAg); return; }
-        var rate = parseFloat(document.getElementById('pt-ag-rate').value);
-        var loRate, hiRate, rateNote;
-        if (isFinite(rate) && rate >= 5 && rate <= 100) { loRate = rate; hiRate = rate; rateNote = 'GEL ' + rate + '/ha'; }
-        else { loRate = 5; hiRate = 100; rateNote = 'GEL 5–100/ha (base rate unknown)'; }
-        var min = ha * loRate * 1.0, max = ha * hiRate * 1.5;
-        show(resAg, '<div class="pt-badge">Estimated land tax</div><p class="pt-amount">' + range(min, max) + '</p>' +
-          '<p class="pt-note">' + ha.toLocaleString('en-US') + ' ha × ' + rateNote + ' × local coefficient (up to 1.5). Agricultural per-ha rates are set by land type in the municipal decree — use the Revenue Service Land Calculator for an exact figure.</p>');
+      function updateIncomeSrc() {
+        incomeSrc.innerHTML = incomeSel.value === 'le'
+          ? 'Real estate and vehicles are exempt at this income level. Land tax still applies — add any land below.'
+          : 'Real estate and vehicles are taxed at 0.8%–1% of market value (your municipality sets the exact rate).';
       }
+      incomeSel.addEventListener('change', function () { updateIncomeSrc(); recompute(); });
+      yearSel.addEventListener('change', recompute);
+      document.getElementById('pt-add').addEventListener('click', function () { addRow(); });
 
-      function recalcAll() { updateSrc(); calcProp(); calcNonag(); }
-      sel.addEventListener('change', recalcAll);
-      document.getElementById('pt-income').addEventListener('input', calcProp);
-      document.getElementById('pt-value').addEventListener('input', calcProp);
-      document.getElementById('pt-nonag-area').addEventListener('input', calcNonag);
-      document.getElementById('pt-ag-ha').addEventListener('input', calcAg);
-      document.getElementById('pt-ag-rate').addEventListener('input', calcAg);
-      updateSrc();
+      updateIncomeSrc();
+      addRow(); // start with one asset
     })();
   </script>
 
   <style>
     .pt-muni { margin: 16px 0; padding: 14px 16px; background: var(--navy); color: #fff; max-width: 46em; }
+    .pt-global { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
     .pt-muni label { display: flex; flex-direction: column; gap: 6px; font-size: 15px; }
-    .pt-muni select { padding: 9px 11px; font: inherit; border: 1px solid var(--grey-2); background: #fff; color: var(--black); max-width: 24em; }
+    .pt-muni select { padding: 9px 11px; font: inherit; border: 1px solid var(--grey-2); background: #fff; color: var(--black); }
     .pt-muni-src { margin: 10px 0 0; font-size: 13px; opacity: 0.92; }
-    .pt-muni-src a { color: #fff; text-decoration: underline; }
+
+    .as-row { margin: 14px 0; padding: 14px 16px; background: var(--grey-3); border: 1px solid var(--grey-4); max-width: 46em; }
+    .as-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
+    .as-grid > label { display: flex; flex-direction: column; gap: 5px; font-size: 14px; font-weight: 600; }
+    .as-grid input, .as-grid select { padding: 9px 11px; font: inherit; border: 1px solid var(--grey-2); background: #fff; color: var(--black); }
+    .as-check { display: flex; align-items: center; gap: 10px; }
+    .as-check input[type=checkbox] { width: 18px; height: 18px; }
+    .as-size { display: flex; gap: 8px; }
+    .as-size input { flex: 1 1 auto; min-width: 0; }
+    .as-size select { flex: 0 0 auto; }
+    .as-foot { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--grey-2); }
+    .as-amount { font-size: 14px; color: var(--grey-1); }
+    .as-amount strong { color: var(--black); font-size: 16px; }
+    .as-ok { font-family: var(--font-mono); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; color: #fff; background: var(--green); padding: 2px 8px; }
+    .as-remove { font: inherit; font-size: 13px; padding: 5px 12px; border: 1px solid var(--grey-2); background: #fff; color: var(--black); cursor: pointer; }
+    .as-remove:hover { background: var(--grey-3); }
+
+    .pt-add { font: inherit; font-weight: 600; padding: 10px 18px; margin: 4px 0 8px; border: 1px solid var(--navy); background: var(--navy); color: #fff; cursor: pointer; }
+    .pt-add:hover { opacity: .9; }
 
     .pt-card { margin: 18px 0; padding: 16px 18px; background: var(--grey-3); border: 1px solid var(--grey-4); max-width: 46em; }
     .pt-card h2 { margin: 0 0 6px; font-size: 20px; }
-    .pt-help { margin: 0 0 12px; color: var(--grey-1); font-size: 15px; }
-    .pt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
-    .pt-grid label { display: flex; flex-direction: column; gap: 5px; font-size: 15px; font-weight: 600; }
-    .pt-grid input { padding: 9px 11px; font: inherit; border: 1px solid var(--grey-2); background: #fff; color: var(--black); }
-    .pt-result { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--grey-2); }
-    .pt-badge { display: inline-block; font-family: var(--font-mono); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; color: #fff; background: var(--blue); padding: 2px 9px; }
-    .pt-badge--ok { background: var(--green); }
-    .pt-amount { margin: 10px 0 4px; font-size: 24px; line-height: 1.2; }
-    .pt-note { margin: 4px 0 0; font-size: 14px; color: var(--grey-1); }
-    .pt-note a { color: var(--blue); }
+    .pt-summary { background: var(--navy); color: #fff; border-color: var(--navy); }
+    .pt-line { display: flex; justify-content: space-between; gap: 16px; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,.2); font-size: 15px; }
+    .pt-line--total { border-bottom: 0; font-weight: 700; font-size: 18px; padding-top: 12px; }
 
     .pt-foot-note { max-width: 46em; font-size: 15px; color: var(--grey-1); }
     .sources { max-width: 46em; }
     .sources ul { margin: 8px 0 0; padding-inline-start: 20px; }
     .tool-foot { margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--grey-2); color: var(--grey-1); font-size: 15px; max-width: 46em; }
-    html[data-theme='dark'] .pt-grid input, html[data-theme='dark'] .pt-muni select { background: #1b1b1b; color: #fff; }
-    @media (max-width: 520px) { .pt-grid, .pt-grid--3 { grid-template-columns: 1fr; } }
+    html[data-theme='dark'] .as-grid input, html[data-theme='dark'] .as-grid select,
+    html[data-theme='dark'] .pt-muni select, html[data-theme='dark'] .as-remove { background: #1b1b1b; color: #fff; }
+    @media (max-width: 520px) { .pt-global, .as-grid { grid-template-columns: 1fr; } }
   </style>
 </BaseLayout>
