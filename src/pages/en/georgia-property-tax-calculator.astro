@@ -1,0 +1,237 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+const checked = new Date().toISOString().slice(0, 10);
+
+const crumbs = [
+  { href: '/en/', label: 'Home' },
+  { href: '/en/#tax', label: 'Taxes' },
+  { label: 'Property Tax Calculator' },
+];
+
+const description =
+  'Estimate property tax and land tax in Georgia: individual residential property by household-income band, plus agricultural and non-agricultural land. Results are statutory-range estimates based on the Tax Code — the exact rate is set locally. Not tax advice.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Georgia property tax calculator',
+  applicationCategory: 'FinanceApplication',
+  operatingSystem: 'Web',
+  offers: { '@type': 'Offer', price: '0', priceCurrency: 'GEL' },
+  description,
+  isBasedOn: 'https://matsne.gov.ge/en/document/view/1043717',
+};
+---
+<BaseLayout title="Georgia Property Tax Calculator (2026)" description={description} jsonLd={[jsonLd]}>
+  <Breadcrumbs items={crumbs} />
+  <main id="main" class="wrap">
+    <h1>Georgia Property Tax Calculator</h1>
+    <p class="lede">
+      Estimate <strong>property tax</strong> and <strong>land tax</strong> in Georgia from the
+      figures you enter. It applies the <strong>Tax Code</strong>'s statutory rate bands.
+    </p>
+
+    <div class="hub-note">
+      <span class="hub-note__tag">Estimate</span>
+      <span>
+        Property tax is a <strong>local</strong> tax: the Tax Code sets only the <strong>ranges</strong>,
+        and your municipality fixes the exact percentage and land coefficient within them. So this tool
+        shows a <strong>range (minimum–maximum)</strong>, not an official figure — confirm the actual rate
+        with the <a href="https://www.rs.ge/" target="_blank" rel="noopener noreferrer">Revenue Service</a>.
+      </span>
+    </div>
+
+    <!-- 1. Residential property (individuals) -->
+    <section class="pt-card">
+      <h2>Residential property (individuals)</h2>
+      <p class="pt-help">
+        For a resident individual, liability depends on <strong>household income in the previous year</strong>,
+        applied to the <strong>market value</strong> of the property. Family income <strong>up to GEL 100,000 is
+        exempt</strong> (threshold raised from GEL 40,000 on 1 October 2026); above that the rate is 0.8%–1%.
+      </p>
+      <div class="pt-grid">
+        <label>Family income last year (GEL)
+          <input type="number" id="pt-income" min="0" step="1000" inputmode="numeric" placeholder="e.g. 60000" />
+        </label>
+        <label>Property market value (GEL)
+          <input type="number" id="pt-value" min="0" step="1000" inputmode="numeric" placeholder="e.g. 250000" />
+        </label>
+      </div>
+      <div class="pt-result" id="pt-res-prop" hidden></div>
+    </section>
+
+    <!-- 2. Non-agricultural land -->
+    <section class="pt-card">
+      <h2>Non-agricultural land</h2>
+      <p class="pt-help">
+        Base rate <strong>GEL 0.24 per m²</strong> per year, multiplied by a local territorial coefficient
+        of <strong>up to 1.5</strong> (150%).
+      </p>
+      <div class="pt-grid">
+        <label>Land area (m²)
+          <input type="number" id="pt-nonag-area" min="0" step="1" inputmode="numeric" placeholder="e.g. 600" />
+        </label>
+      </div>
+      <div class="pt-result" id="pt-res-nonag" hidden></div>
+    </section>
+
+    <!-- 3. Agricultural land -->
+    <section class="pt-card">
+      <h2>Agricultural land</h2>
+      <p class="pt-help">
+        Base rate <strong>GEL 5–100 per hectare</strong> (depends on the administrative unit and land quality),
+        multiplied by a local coefficient of <strong>up to 1.5</strong>. If you know your plot's base rate,
+        enter it for a tighter estimate; otherwise leave it blank to see the full statutory span.
+      </p>
+      <div class="pt-grid pt-grid--3">
+        <label>Area (hectares)
+          <input type="number" id="pt-ag-ha" min="0" step="0.01" inputmode="decimal" placeholder="e.g. 2" />
+        </label>
+        <label>Base rate per hectare (GEL, 5–100) — optional
+          <input type="number" id="pt-ag-rate" min="5" max="100" step="1" inputmode="numeric" placeholder="blank = 5–100" />
+        </label>
+      </div>
+      <div class="pt-result" id="pt-res-ag" hidden></div>
+    </section>
+
+    <p class="pt-foot-note">
+      Individuals declare and pay property tax and land tax by <strong>15 November</strong> on the basis of a
+      declaration to the Revenue Service. Taxable property can also include cars, boats and aircraft — this
+      calculator covers real estate and land only.
+    </p>
+
+    <div class="sources">
+      <strong>Sources</strong>
+      <ul>
+        <li><a href="https://matsne.gov.ge/en/document/view/1043717" target="_blank" rel="noopener noreferrer">Tax Code of Georgia</a> — property-tax and land-tax provisions (doc. 1043717)</li>
+        <li><a href="/en/property-tax-georgia">Property tax in Georgia</a> — the full guide behind this calculator</li>
+        <li><a href="https://www.rs.ge/" target="_blank" rel="noopener noreferrer">Revenue Service of Georgia</a></li>
+      </ul>
+    </div>
+
+    <p class="tool-foot">
+      <strong>Not legal or tax advice.</strong> This is an estimate based on the Tax Code's statutory ranges.
+      The exact rate and land coefficient are fixed locally, thresholds and figures change, and individual
+      situations differ — confirm your actual liability with the Revenue Service before relying on it.
+      Last checked {checked}.
+    </p>
+  </main>
+
+  <script is:inline>
+    (function () {
+      var fmt = function (n) {
+        return 'GEL ' + Math.round(n).toLocaleString('en-US');
+      };
+      var num = function (id) {
+        var v = parseFloat(document.getElementById(id).value);
+        return isFinite(v) && v >= 0 ? v : null;
+      };
+      var show = function (el, html) { el.innerHTML = html; el.hidden = false; };
+      var hide = function (el) { el.hidden = true; };
+      var range = function (min, max) {
+        if (Math.round(min) === Math.round(max)) return '<strong>' + fmt(min) + '</strong> / year';
+        return '<strong>' + fmt(min) + ' – ' + fmt(max) + '</strong> / year';
+      };
+
+      // 1. Residential property
+      var income = document.getElementById('pt-income');
+      var value = document.getElementById('pt-value');
+      var resProp = document.getElementById('pt-res-prop');
+      function calcProp() {
+        var inc = num('pt-income');
+        var val = num('pt-value');
+        if (inc === null || val === null) { hide(resProp); return; }
+        if (inc <= 100000) {
+          show(resProp, '<div class="pt-badge pt-badge--ok">Exempt</div>' +
+            '<p class="pt-note">Family income is GEL 100,000 or less, so a resident individual’s taxable property (other than land) is exempt from property tax. The threshold was raised from GEL 40,000 to GEL 100,000, effective 1 October 2026.</p>');
+          return;
+        }
+        var lo = 0.008, hi = 0.01;
+        show(resProp, '<div class="pt-badge">Estimated property tax</div>' +
+          '<p class="pt-amount">' + range(val * lo, val * hi) + '</p>' +
+          '<p class="pt-note">Family income over GEL 100,000: rate 0.8%–1% of the market value. The exact % within the band is set locally.</p>');
+      }
+      income.addEventListener('input', calcProp);
+      value.addEventListener('input', calcProp);
+
+      // 2. Non-agricultural land
+      var nonagArea = document.getElementById('pt-nonag-area');
+      var resNonag = document.getElementById('pt-res-nonag');
+      function calcNonag() {
+        var a = num('pt-nonag-area');
+        if (a === null || a === 0) { hide(resNonag); return; }
+        var base = a * 0.24;
+        show(resNonag, '<div class="pt-badge">Estimated land tax</div>' +
+          '<p class="pt-amount">' + range(base, base * 1.5) + '</p>' +
+          '<p class="pt-note">GEL 0.24/m² × ' + a.toLocaleString('en-US') + ' m², then × local coefficient (1.0 to 1.5).</p>');
+      }
+      nonagArea.addEventListener('input', calcNonag);
+
+      // 3. Agricultural land
+      var agHa = document.getElementById('pt-ag-ha');
+      var agRate = document.getElementById('pt-ag-rate');
+      var resAg = document.getElementById('pt-res-ag');
+      function calcAg() {
+        var ha = num('pt-ag-ha');
+        if (ha === null || ha === 0) { hide(resAg); return; }
+        var rate = parseFloat(agRate.value);
+        var loRate, hiRate, rateNote;
+        if (isFinite(rate) && rate >= 5 && rate <= 100) { loRate = rate; hiRate = rate; rateNote = 'GEL ' + rate + '/ha'; }
+        else { loRate = 5; hiRate = 100; rateNote = 'GEL 5–100/ha (base rate unknown)'; }
+        // min = lowest base rate, coefficient 1.0; max = highest base rate, coefficient 1.5
+        var min = ha * loRate * 1.0;
+        var max = ha * hiRate * 1.5;
+        show(resAg, '<div class="pt-badge">Estimated land tax</div>' +
+          '<p class="pt-amount">' + range(min, max) + '</p>' +
+          '<p class="pt-note">' + ha.toLocaleString('en-US') + ' ha × ' + rateNote + ', then × local coefficient (up to 1.5). Get your plot’s base rate from the Revenue Service for an exact figure.</p>');
+      }
+      agHa.addEventListener('input', calcAg);
+      agRate.addEventListener('input', calcAg);
+    })();
+  </script>
+
+  <style>
+    .pt-card {
+      margin: 18px 0;
+      padding: 16px 18px;
+      background: var(--grey-3);
+      border: 1px solid var(--grey-4);
+      max-width: 46em;
+    }
+    .pt-card h2 { margin: 0 0 6px; font-size: 20px; }
+    .pt-help { margin: 0 0 12px; color: var(--grey-1); font-size: 15px; }
+    .pt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
+    .pt-grid--3 { grid-template-columns: 1fr 1fr; }
+    .pt-grid label { display: flex; flex-direction: column; gap: 5px; font-size: 15px; font-weight: 600; }
+    .pt-grid input {
+      padding: 9px 11px;
+      font: inherit;
+      border: 1px solid var(--grey-2);
+      background: #fff;
+      color: var(--black);
+    }
+    .pt-result { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--grey-2); }
+    .pt-badge {
+      display: inline-block; font-family: var(--font-mono); font-size: 12px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: .5px; color: #fff; background: var(--blue);
+      padding: 2px 9px;
+    }
+    .pt-badge--ok { background: var(--green); }
+    .pt-amount { margin: 10px 0 4px; font-size: 24px; line-height: 1.2; }
+    .pt-note { margin: 4px 0 0; font-size: 14px; color: var(--grey-1); }
+
+    .pt-foot-note { max-width: 46em; font-size: 15px; color: var(--grey-1); }
+    .sources { max-width: 46em; }
+    .sources ul { margin: 8px 0 0; padding-inline-start: 20px; }
+    .tool-foot {
+      margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--grey-2);
+      color: var(--grey-1); font-size: 15px; max-width: 46em;
+    }
+    html[data-theme='dark'] .pt-grid input { background: #1b1b1b; color: #fff; }
+    @media (max-width: 520px) {
+      .pt-grid, .pt-grid--3 { grid-template-columns: 1fr; }
+    }
+  </style>
+</BaseLayout>
