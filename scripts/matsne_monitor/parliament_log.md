@@ -61,3 +61,15 @@ Legislative items detected on parliament.ge news, before the law reaches matsne.
 - **Parliament date:** 07 Oct 2026
 - **Link:** https://parliament.ge/en/media/news/janmrtelobis-datsvisa-da-sotsialur-sakitkhta-komitetma-sakartvelos-2027-tslis-sakhelmtsifo-biujetis-shesakheb-kanonproekti-ganikhila
 
+
+## 2026-10-10 13:19 UTC — 09 ოქტომბერი 2026 The Defence and Security, the Human Rights and Civil Integration, and the Legal Issues Committees Discussed the Draft Law on the State Budget of Georgia for 2027 at a Joint Meeting
+
+- **Parliament date:** —
+- **Link:** https://parliament.ge/en/media/news/tavdatsvisa-da-usafrtkhoebis-adamianis-uflebata-datsvisa-da-samokalako-integratsiis-da-iuridiul-sakitkhta-komitetebma-ertobliv-skhdomaze-sakartvelos-2027-tslis-sakhelmtsifo
+
+
+## 2026-10-10 13:19 UTC — 09 ოქტომბერი 2026 The Human Rights and Civil Integration Committee Supported Amendments to the Law on Enforcement Proceedings
+
+- **Parliament date:** —
+- **Link:** https://parliament.ge/en/media/news/adamianis-uflebata-datsvisa-da-samokalako-integratsiis-komitetma-saaghsrulebo-tsarmoebata-shesakheb-kanonshi-tsvlilebas-mkhari-dauchira
+
