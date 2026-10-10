@@ -5,7 +5,7 @@ lang: "en"
 notice: 'From 1 October 2026 the property-tax exemption threshold for individuals rose from GEL 40,000 to GEL 100,000: a resident family with annual income up to GEL 100,000 is now fully exempt, and the former 0.05–0.2% band was abolished. The change applies to property tax declared in 2026.'
 summary: "Property tax in Georgia is a local tax under the Tax Code. For individuals it depends on household income: a resident's taxable property is exempt where the family's annual income in the preceding year does not exceed GEL 100,000 (the threshold was raised from GEL 40,000, effective 1 October 2026); above GEL 100,000 the rate is 0.8%–1%, applied to the market value of the property. Companies and other entities pay up to 1% on the annual average book (residual) value of their fixed assets and investment property. Land tax is charged separately at fixed rates per hectare or per square metre, adjusted by local coefficients. Individuals declare and pay by 15 November. This is general information, not legal or tax advice."
 reviewed: 2026-10-09
-checked: 2026-10-09
+checked: 2026-10-10
 order: 8
 sources:
   - name: "Tax Code of Georgia (Legislative Herald, doc. 1043717)"
