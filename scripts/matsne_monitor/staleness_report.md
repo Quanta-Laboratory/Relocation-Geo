@@ -1,7 +1,7 @@
-# Matsne redaction staleness — 2026-10-05
+# Matsne redaction staleness — 2026-10-12
 
 ## New redactions since last probe
-- **TAX CODE OF GEORGIA** (`1043717`): 2026-06-25 → **2026-09-30**
+_None._
 
 ## Laws amended after the citing page was last checked
 _None — every citing page was checked at or after its law's latest redaction._
