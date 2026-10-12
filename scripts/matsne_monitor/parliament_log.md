@@ -73,3 +73,21 @@ Legislative items detected on parliament.ge news, before the law reaches matsne.
 - **Parliament date:** —
 - **Link:** https://parliament.ge/en/media/news/adamianis-uflebata-datsvisa-da-samokalako-integratsiis-komitetma-saaghsrulebo-tsarmoebata-shesakheb-kanonshi-tsvlilebas-mkhari-dauchira
 
+
+## 2026-10-12 16:32 UTC — The Budget and Finance Committee Discussed the Draft Law on the 2027 State Budget of Georgia
+
+- **Parliament date:** 12 Oct 2026
+- **Link:** https://parliament.ge/en/media/news/safinanso-sabiujeto-komitetma-sakartvelos-2027-tslis-sakhelmtsifo-biujetis-shesakheb-kanonproekti-ganikhila
+
+
+## 2026-10-12 16:32 UTC — The Economic Policy Committee Discussed the Government’s Legislative Initiatives
+
+- **Parliament date:** 12 Oct 2026
+- **Link:** https://parliament.ge/en/media/news/ekonomikuri-politikis-komitetma-mtavrobis-sakanonmdeblo-initsiativebi-ganikhila-2
+
+
+## 2026-10-12 16:32 UTC — The Legal Issues Committee Supported Amendments to the Law on Mental Health
+
+- **Parliament date:** 12 Oct 2026
+- **Link:** https://parliament.ge/en/media/news/iuridiul-sakitkhta-komitetma-fsikikuri-janmrtelobis-shesakheb-kanonshi-tsvlilebas-mkhari-dauchira
+
