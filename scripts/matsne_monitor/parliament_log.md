@@ -91,3 +91,27 @@ Legislative items detected on parliament.ge news, before the law reaches matsne.
 - **Parliament date:** 12 Oct 2026
 - **Link:** https://parliament.ge/en/media/news/iuridiul-sakitkhta-komitetma-fsikikuri-janmrtelobis-shesakheb-kanonshi-tsvlilebas-mkhari-dauchira
 
+
+## 2026-10-13 14:50 UTC — Parliament Adopted Amendments to the Organic Law on the National Bank of Georgia at I Reading
+
+- **Parliament date:** 13 Oct 2026
+- **Link:** https://parliament.ge/en/media/news/parlamentma-sakartvelos-erovnuli-bankis-shesakheb-organul-kanonshi-tsvlilebebi-pirveli-mosmenit-miigho
+
+
+## 2026-10-13 14:50 UTC — Parliament Adopted Amendments to the Law on Mental Health at I Reading
+
+- **Parliament date:** 13 Oct 2026
+- **Link:** https://parliament.ge/en/media/news/parlamentma-fsikikuri-janmrtelobis-shesakheb-kanonshi-tsvlileba-pirveli-mosmenit-miigho
+
+
+## 2026-10-13 14:50 UTC — Parliament Supported Amendments to the Law on Enforcement Proceedings at I Reading
+
+- **Parliament date:** 13 Oct 2026
+- **Link:** https://parliament.ge/en/media/news/parlamentma-saaghsrulebo-tsarmoebata-shesakheb-kanonshi-tsvlilebas-pirveli-mosmenit-mkhari-dauchira
+
+
+## 2026-10-13 14:50 UTC — Parliament Supported Amendments to the Tax Code at I Reading
+
+- **Parliament date:** 13 Oct 2026
+- **Link:** https://parliament.ge/en/media/news/parlamentma-sagadasakhado-kodeksshi-tsvlilebas-pirveli-mosmenit-mkhari-dauchira
+
