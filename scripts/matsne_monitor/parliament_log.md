@@ -115,3 +115,9 @@ Legislative items detected on parliament.ge news, before the law reaches matsne.
 - **Parliament date:** 13 Oct 2026
 - **Link:** https://parliament.ge/en/media/news/parlamentma-sagadasakhado-kodeksshi-tsvlilebas-pirveli-mosmenit-mkhari-dauchira
 
+
+## 2026-10-16 12:07 UTC — The Parliament approved the draft organic law on the National Bank of Georgia at the III reading
+
+- **Parliament date:** 15 Oct 2026
+- **Link:** https://parliament.ge/en/media/news/parlamentma-sakartvelos-erovnuli-bankis-shesakheb-organul-kanonshi-tsvlilebas-mesame-mosmenit-mkhari-dauchira
+
