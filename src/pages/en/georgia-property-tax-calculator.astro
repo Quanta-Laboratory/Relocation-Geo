@@ -79,6 +79,24 @@ const jsonLd = {
         </label>
       </div>
       <p class="pt-muni-src" id="pt-income-src"></p>
+      <details class="pt-sbhelp">
+        <summary>Individual entrepreneur with Small Business (1%) status? Work out the income that counts →</summary>
+        <div class="pt-sbgrid">
+          <label>Small Business (1%) income — last year (GEL)
+            <input type="number" id="pt-sb" min="0" step="1000" inputmode="numeric" placeholder="e.g. 300000" />
+          </label>
+          <label>Other family income — salary, rent, non-SB (GEL)
+            <input type="number" id="pt-other" min="0" step="1000" inputmode="numeric" placeholder="e.g. 0" />
+          </label>
+        </div>
+        <p class="pt-sbout" id="pt-sbout"></p>
+        <p class="pt-sbnote">
+          Only <strong>25%</strong> of Small Business-regime income counts toward the GEL 100,000 family limit;
+          income outside the regime counts in full. Some income is excluded entirely (e.g. inheritance or gifts
+          between family members, sale of a home owned over 2 years, micro-business and fixed-tax income). This sets
+          the income band above.
+        </p>
+      </details>
     </div>
 
     <!-- Asset list -->
@@ -314,6 +332,26 @@ const jsonLd = {
       }
       incomeSel.addEventListener('change', function () { updateIncomeSrc(); recompute(); });
       yearSel.addEventListener('change', recompute);
+
+      // Small Business (1%) helper: only 25% of SB-regime income counts toward GEL 100,000
+      var sb = document.getElementById('pt-sb'), other = document.getElementById('pt-other'), sbout = document.getElementById('pt-sbout');
+      function calcSB() {
+        var s = parseFloat(sb.value), o = parseFloat(other.value);
+        var hasS = isFinite(s) && s >= 0, hasO = isFinite(o) && o >= 0;
+        if (!hasS && !hasO) { sbout.innerHTML = ''; return; }
+        var counted = (hasS ? s * 0.25 : 0) + (hasO ? o : 0);
+        var band = counted > 100000 ? 'gt' : 'le';
+        incomeSel.value = band;
+        updateIncomeSrc();
+        var parts = [];
+        if (hasS) parts.push('25% of ' + fmt(s));
+        if (hasO) parts.push(fmt(o) + ' other');
+        sbout.innerHTML = 'Counts as family income: <strong>' + fmt(counted) + '</strong> (' + parts.join(' + ') + ') — ' +
+          (band === 'gt' ? 'over' : 'at/under') + ' GEL 100,000. Income band set above.';
+        recompute();
+      }
+      sb.addEventListener('input', calcSB);
+      other.addEventListener('input', calcSB);
       document.getElementById('pt-add').addEventListener('click', function () { addRow(); });
 
       updateIncomeSrc();
@@ -327,6 +365,13 @@ const jsonLd = {
     .pt-muni label { display: flex; flex-direction: column; gap: 6px; font-size: 15px; }
     .pt-muni select { padding: 9px 11px; font: inherit; border: 1px solid var(--grey-2); background: #fff; color: var(--black); }
     .pt-muni-src { margin: 10px 0 0; font-size: 13px; opacity: 0.92; }
+    .pt-sbhelp { margin: 12px 0 0; font-size: 14px; border-top: 1px solid rgba(255,255,255,.2); padding-top: 10px; }
+    .pt-sbhelp summary { cursor: pointer; font-weight: 600; }
+    .pt-sbgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; margin: 12px 0 0; }
+    .pt-sbgrid label { display: flex; flex-direction: column; gap: 5px; font-size: 14px; }
+    .pt-sbgrid input { padding: 9px 11px; font: inherit; border: 1px solid var(--grey-2); background: #fff; color: var(--black); }
+    .pt-sbout { margin: 10px 0 0; font-size: 14px; }
+    .pt-sbnote { margin: 8px 0 0; font-size: 13px; opacity: 0.9; }
 
     .as-row { margin: 14px 0; padding: 14px 16px; background: var(--grey-3); border: 1px solid var(--grey-4); max-width: 46em; }
     .as-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
@@ -358,7 +403,8 @@ const jsonLd = {
     .sources ul { margin: 8px 0 0; padding-inline-start: 20px; }
     .tool-foot { margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--grey-2); color: var(--grey-1); font-size: 15px; max-width: 46em; }
     html[data-theme='dark'] .as-grid input, html[data-theme='dark'] .as-grid select,
-    html[data-theme='dark'] .pt-muni select, html[data-theme='dark'] .as-remove { background: #1b1b1b; color: #fff; }
+    html[data-theme='dark'] .pt-muni select, html[data-theme='dark'] .pt-sbgrid input,
+    html[data-theme='dark'] .as-remove { background: #1b1b1b; color: #fff; }
     @media (max-width: 520px) { .pt-global, .as-grid { grid-template-columns: 1fr; } }
   </style>
 </BaseLayout>
