@@ -6,7 +6,7 @@ lang: "en"
 notice: 'For the 2026 cycle the income threshold for individuals rose from GEL 40,000 to GEL 100,000 (Tax Code art. 206.1.a): a resident family whose income in the previous year did not exceed GEL 100,000 is exempt from property tax on taxable property other than land, and the former 0.05–0.2% band was abolished. Land tax is separate and is not covered by this exemption.'
 summary: "In 2026 a resident individual in Georgia must declare and pay property tax only if the family's income in the previous calendar year exceeded GEL 100,000; below that, taxable property other than land is exempt (Tax Code art. 206.1.a). The declaration is filed with the Revenue Service by 1 November and the tax paid by 15 November. Taxable property for individuals covers real estate, light cars (HS 8703), yachts, motorboats, aeroplanes and helicopters. For the income test, an individual entrepreneur with Small Business (1%) status counts only 25% of income taxed under that regime, plus income outside the regime in full — so a sole trader with only 1% income becomes liable roughly above GEL 400,000 of turnover. Land tax is separate and is not covered by the income exemption. This is general information, not legal or tax advice."
 reviewed: 2026-10-16
-checked: 2026-10-21
+checked: 2026-10-22
 order: 9
 sources:
   - name: "Tax Code of Georgia — art. 206 (property-tax exemptions) and art. 202 (rate and family-income definition); doc. 1043717"
