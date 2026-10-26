@@ -1,0 +1,179 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import {
+  FEES_AS_OF, MAX_PROCESSING_WORKING_DAYS, FEE_TRACKS, TRANSLATION_FEE,
+  ELIGIBLE, INELIGIBLE, AUTHORITY, APOSTILLE_VS_LEGALIZATION, SOURCES,
+} from '../../data/apostille-georgia';
+
+const checked = new Date().toISOString().slice(0, 10);
+const money = (n: number, c: string) => (c === 'USD' ? `USD ${n}` : `GEL ${n}`);
+
+const crumbs = [
+  { href: '/en/', label: 'Home' },
+  { href: '/en/georgia-document-legalization', label: 'Document legalization' },
+  { label: 'Apostille service' },
+];
+
+const description =
+  'Official apostille and legalization of Georgian documents for use abroad: which documents qualify, the Public Service Development Agency’s processing-time tiers and fees, and where to apply. Source-based, with an open CORS JSON API. Not legal advice.';
+
+const datasetLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Apostille and legalization of Georgian documents for use abroad (document types, fees, processing times)',
+  description,
+  creator: { '@type': 'Organization', name: 'Relocation.ge' },
+  isBasedOn: ['https://sda.gov.ge/en/products/apostille-and-legalization/', 'https://matsne.gov.ge/ka/document/view/3378264'],
+  license: 'https://creativecommons.org/licenses/by/4.0/',
+  dateModified: FEES_AS_OF,
+  spatialCoverage: { '@type': 'Country', name: 'Georgia' },
+  distribution: [
+    {
+      '@type': 'DataDownload',
+      encodingFormat: 'application/json',
+      contentUrl: 'https://relocation.ge/georgia-apostille.json',
+    },
+  ],
+};
+---
+<BaseLayout title="Apostille in Georgia: Documents, Fees & Timeframes (2026)" description={description} jsonLd={[datasetLd]}>
+  <Breadcrumbs items={crumbs} />
+  <main id="main" class="wrap">
+    <h1>Apostille &amp; legalization of Georgian documents</h1>
+    <p class="lede">
+      A document issued in Georgia must be certified with an <strong>apostille</strong> (for
+      Hague Convention countries) or <strong>legalized</strong> (for the rest) before it can be used
+      abroad. The <strong>{AUTHORITY.name}</strong>, under the {AUTHORITY.parent}, handles both.
+      Below are the official <strong>document types, fees and processing times</strong>.
+    </p>
+
+    <div class="hub-note">
+      <span class="hub-note__tag">Direction</span>
+      <span>
+        This page is about <strong>Georgian documents going abroad</strong>. For whether a
+        <em>foreign</em> document needs an apostille or legalization to be used <em>in</em> Georgia,
+        see <a href="/en/georgia-document-legalization">Documents for Georgia: apostille, legalization or nothing</a>.
+      </span>
+    </div>
+
+    <!-- Apostille vs legalization -->
+    <section class="ap-card">
+      <h2>Apostille or legalization?</h2>
+      <p class="ap-row"><span class="ap-badge">Apostille</span>{APOSTILLE_VS_LEGALIZATION.apostille}</p>
+      <p class="ap-row"><span class="ap-badge ap-badge--alt">Legalization</span>{APOSTILLE_VS_LEGALIZATION.legalization}</p>
+    </section>
+
+    <!-- Fees & timeframes -->
+    <h2>Processing times and fees</h2>
+    <p class="ap-muted">
+      You choose how fast you need it; the faster the tier, the higher the fee. The authority must in
+      any case issue an apostille within <strong>{MAX_PROCESSING_WORKING_DAYS} working days</strong> of
+      the application (an e-apostille request is reviewed within 1 working day). Figures as published by
+      the PSDA, as of {FEES_AS_OF}.
+    </p>
+
+    {FEE_TRACKS.map((track) => (
+      <div class="ap-track">
+        <h3>{track.label}</h3>
+        {track.note && <p class="ap-note">{track.note}</p>}
+        <table class="ap-table">
+          <thead><tr><th>Ready by</th><th>Fee</th></tr></thead>
+          <tbody>
+            {track.tiers.map((t) => (
+              <tr><td>{t.deadline}</td><td><strong>{money(t.fee, t.currency)}</strong></td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    ))}
+
+    <div class="ap-track">
+      <h3>Translation into a foreign language</h3>
+      <p class="ap-note">
+        The Agency can also translate the document and certify the translation. Per page (or part of a
+        page): <strong>{money(TRANSLATION_FEE.domestic.fee, TRANSLATION_FEE.domestic.currency)}</strong>
+        (or {money(TRANSLATION_FEE.consular.fee, TRANSLATION_FEE.consular.currency)} at a consular office).
+        Available languages: {TRANSLATION_FEE.languages.join(', ')}.
+      </p>
+    </div>
+
+    <!-- Eligible / ineligible -->
+    <h2>Which documents qualify</h2>
+    <div class="ap-grid">
+      <section class="ap-card ap-card--ok">
+        <h3>Can be apostilled / legalized</h3>
+        <ul>
+          {ELIGIBLE.map((d) => <li>{d}</li>)}
+        </ul>
+      </section>
+      <section class="ap-card ap-card--no">
+        <h3>Cannot be apostilled / legalized</h3>
+        <ul>
+          {INELIGIBLE.map((d) => <li>{d}</li>)}
+        </ul>
+      </section>
+    </div>
+
+    <!-- Where to apply -->
+    <section class="ap-card">
+      <h2>Where to apply</h2>
+      <ul>
+        {AUTHORITY.applyChannels.map((c) => <li>{c}</li>)}
+      </ul>
+      <p class="ap-note">
+        Documents issued by the Ministry of Internal Affairs are apostilled by its own
+        {' '}{AUTHORITY.otherAuthority.replace('Service Agency of the Ministry of Internal Affairs — ', 'Service Agency ')}.
+        You can verify an issued apostille at <a href={AUTHORITY.verify} target="_blank" rel="noopener noreferrer">apostille.cra.ge</a>.
+      </p>
+    </section>
+
+    <!-- JSON API -->
+    <div class="hub-note">
+      <span class="hub-note__tag">For builders</span>
+      <span>
+        This data is also an open, CORS-enabled JSON feed you can build on:
+        <a href="/georgia-apostille.json" target="_blank" rel="noopener noreferrer"><code>/georgia-apostille.json</code></a>.
+        Free to reuse with attribution.
+      </span>
+    </div>
+
+    <div class="sources">
+      <strong>Sources</strong>
+      <ul>
+        {SOURCES.map((s) => <li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a></li>)}
+      </ul>
+    </div>
+
+    <p class="tool-foot">
+      <strong>Not legal advice.</strong> Fees, tiers and procedures are set by the Public Service
+      Development Agency and change from time to time. Confirm the current figures and whether your
+      specific document qualifies with the <a href={AUTHORITY.servicePage} target="_blank" rel="noopener noreferrer">PSDA</a>
+      before relying on this. Figures as of {FEES_AS_OF}; last checked {checked}.
+    </p>
+  </main>
+
+  <style>
+    .ap-card { margin: 18px 0; padding: 16px 18px; background: var(--grey-3); border: 1px solid var(--grey-4); max-width: 46em; }
+    .ap-card h2, .ap-card h3 { margin: 0 0 8px; }
+    .ap-row { display: flex; gap: 10px; align-items: baseline; margin: 10px 0 0; font-size: 15px; }
+    .ap-badge { flex: 0 0 auto; font-family: var(--font-mono); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; color: #fff; background: var(--blue); padding: 2px 9px; }
+    .ap-badge--alt { background: var(--navy); }
+    .ap-muted { max-width: 46em; color: var(--grey-1); font-size: 15px; }
+    .ap-track { margin: 16px 0; max-width: 46em; }
+    .ap-track h3 { margin: 0 0 6px; font-size: 17px; }
+    .ap-note { margin: 4px 0 0; font-size: 14px; color: var(--grey-1); }
+    .ap-table { border-collapse: collapse; width: 100%; max-width: 32em; margin: 8px 0 0; font-size: 15px; }
+    .ap-table th, .ap-table td { text-align: left; padding: 7px 12px; border: 1px solid var(--grey-2); }
+    .ap-table thead th { background: var(--grey-3); }
+    .ap-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 46em; }
+    .ap-card--ok { border-left: 4px solid var(--green); }
+    .ap-card--no { border-left: 4px solid var(--grey-1); }
+    .ap-grid ul, .ap-card ul { margin: 6px 0 0; padding-inline-start: 20px; }
+    .ap-grid li, .ap-card li { margin: 5px 0; font-size: 14px; }
+    .sources { max-width: 46em; }
+    .sources ul { margin: 8px 0 0; padding-inline-start: 20px; }
+    .tool-foot { margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--grey-2); color: var(--grey-1); font-size: 15px; max-width: 46em; }
+    @media (max-width: 560px) { .ap-grid { grid-template-columns: 1fr; } }
+  </style>
+</BaseLayout>
