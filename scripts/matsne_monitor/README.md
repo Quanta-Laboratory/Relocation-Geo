@@ -11,6 +11,8 @@ Georgian original.
 | File | Purpose |
 | --- | --- |
 | `monitor.py` | The script that checks matsne and notifies on each new document. |
+| `watchlist.py` | Priority alerts (🚨) for acts that feed site datasets — e.g. the NBG high-risk jurisdictions list behind `/nbg-high-risk-jurisdictions.json` (used by mono.ge). Matches new feed items by title **and** sweeps matsne search each run, so a change is caught even if it scrolled out of the RSS window. Add a watch = add an entry to `WATCHES`. |
+| `watchlist_state.json` | Document ids already known per watch. Committed back by the workflow. |
 | `digest.py` | Sends one daily summary of the documents detected today. |
 | `state.json` | Saved state (which documents have been seen). Committed back by the workflow. Created automatically. |
 | `changes_log.md` | Human-readable history of every detected document, EN + KA. Committed back by the workflow. Created automatically. |

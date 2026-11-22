@@ -43,6 +43,8 @@ from pathlib import Path
 
 import requests
 
+import watchlist
+
 # --------------------------------------------------------------------------- #
 # Configuration
 # --------------------------------------------------------------------------- #
@@ -424,6 +426,19 @@ def send_today_list() -> int:
 
 
 # --------------------------------------------------------------------------- #
+# Watchlist sweep (priority acts — see watchlist.py)
+# --------------------------------------------------------------------------- #
+
+def run_watchlist_sweep() -> None:
+    """Search matsne for watched acts; never fails the run."""
+    try:
+        n = watchlist.sweep(send_telegram)
+        print(f"Watchlist sweep: {n} alert(s) sent.")
+    except Exception as exc:  # noqa: BLE001 — the sweep must never break the monitor
+        print(f"WARN: watchlist sweep crashed ({exc}).")
+
+
+# --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
 
@@ -506,6 +521,7 @@ def main() -> int:
     if not new_items:
         print("No new documents since last run.")
         save_state(state)
+        run_watchlist_sweep()
         return 0
 
     print(f"Found {len(new_items)} new document(s).")
@@ -519,6 +535,7 @@ def main() -> int:
 
         append_log(item, title_en, topic_en, translated)
         send_telegram(format_message(item, title_en, topic_en, translated))
+        watchlist.check_feed_items([item], send_telegram)
 
         seen_ids.add(item["id"])
         if idx < len(new_items) - 1:
@@ -531,6 +548,7 @@ def main() -> int:
     save_state(state)
 
     print(f"Done. Logged {len(new_items)} new document(s).")
+    run_watchlist_sweep()
     return 0
 
 
