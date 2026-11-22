@@ -1,0 +1,4 @@
+/nbg-high-risk-jurisdictions.json
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Cache-Control: public, max-age=3600

@@ -53,6 +53,12 @@ const DATA_FEEDS: { title: string; path: string; blurb: string }[] = [
       "Machine-readable feed of Georgian public holidays for 12 years. Each date names the subparagraph of Labour Code Article 30 it comes from. CORS enabled.",
   },
   {
+    title: "NBG high-risk jurisdictions — JSON",
+    path: "/nbg-high-risk-jurisdictions.json",
+    blurb:
+      "The National Bank of Georgia's list of high-risk jurisdictions under Article 19 of the AML/CFT Law (Order No 240/04 as restated by Order No 12/04 of 21 Jan 2026), with ISO codes, Georgian/English/Russian names and the Article 19 triggers and exemptions. CORS enabled.",
+  },
+  {
     title: "Public holidays — iCalendar",
     path: "/georgia-public-holidays.ics",
     blurb: "Subscribable calendar feed of Georgian public holidays.",
