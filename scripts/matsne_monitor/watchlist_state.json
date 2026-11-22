@@ -1,0 +1,11 @@
+{
+  "nbg-high-risk-jurisdictions": {
+    "last_sweep": "2026-11-22T20:44:27.776606+00:00",
+    "last_sweep_ok": true,
+    "known_ids": [
+      "4862800",
+      "5030955",
+      "6755467"
+    ]
+  }
+}
