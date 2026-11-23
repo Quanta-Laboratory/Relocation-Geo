@@ -13,7 +13,8 @@ Georgian original.
 | `monitor.py` | The script that checks matsne and notifies on each new document. |
 | `watchlist.py` | Priority alerts (🚨) for acts that feed site datasets — e.g. the NBG high-risk jurisdictions list behind `/nbg-high-risk-jurisdictions.json` (used by mono.ge). Matches new feed items by title **and** sweeps matsne search each run, so a change is caught even if it scrolled out of the RSS window. Add a watch = add an entry to `WATCHES`. |
 | `watchlist_state.json` | Document ids already known per watch. Committed back by the workflow. |
-| `digest.py` | Sends one daily summary of the documents detected today. |
+| `digest.py` | Sends one daily summary of the documents detected since the previous digest. |
+| `digest_state.json` | Digest watermark (newest log entry already digested). Committed back by the digest workflow. |
 | `state.json` | Saved state (which documents have been seen). Committed back by the workflow. Created automatically. |
 | `changes_log.md` | Human-readable history of every detected document, EN + KA. Committed back by the workflow. Created automatically. |
 | `../../.github/workflows/monitor.yml` | Runs `monitor.py` twice a day. |
@@ -24,7 +25,7 @@ Georgian original.
 Cron is always UTC:
 
 - Monitor: `08:00 UTC` → 12:00 Tbilisi, and `16:00 UTC` → 20:00 Tbilisi — checks matsne and sends a notification per new document.
-- Digest: `17:00 UTC` → 21:00 Tbilisi — one message summarising the documents detected today. Reads `changes_log.md` (no extra translation). Sends "No new documents today" on empty days; set the workflow env `SEND_IF_EMPTY: '0'` to stay silent instead.
+- Digest: `17:00 UTC` → 21:00 Tbilisi — one message summarising the documents detected **since the previous digest** (watermark in `digest_state.json`), so a late cron start never drops or repeats documents. Manual runs (`mode=manual`) use a rolling `digest_days × 24 h` window and leave the watermark alone. Reads `changes_log.md` (no extra translation). Sends "No new documents today" on empty days; set the workflow env `SEND_IF_EMPTY: '0'` to stay silent instead.
 
 You can also trigger either from the **Actions** tab (**Run workflow**).
 

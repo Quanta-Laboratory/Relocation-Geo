@@ -3,12 +3,18 @@
 Matsne Monitor — daily digest
 =============================
 
-Sends a single Telegram summary of the documents that were detected *today*
-(Tbilisi time) and recorded in ``changes_log.md`` by ``monitor.py``.
+Sends a single Telegram summary of the documents recorded in ``changes_log.md``
+by ``monitor.py`` since the previous digest.
 
 Intended to run once a day at 21:00 Tbilisi (17:00 UTC), after the day's
-monitor runs (08:00 and 16:00 UTC). It only reads the log — it does not
-translate, does not touch state, and commits nothing.
+monitor runs (08:00 and 16:00 UTC). It reads the log and keeps one small state
+file, ``digest_state.json`` (committed back by the workflow).
+
+Why "since the previous digest" and not "today": GitHub's cron routinely starts
+jobs hours late (7–8 h observed in Nov 2026), so the 21:00 digest often ran
+after midnight Tbilisi and a calendar-day filter returned the new, empty day
+while the previous day's documents were never digested. A watermark makes the
+digest independent of when it actually runs: no gaps, no duplicates.
 
 Environment variables
 ----------------------
@@ -18,8 +24,11 @@ TELEGRAM_CHAT_ID    Telegram chat id  (required to send; otherwise prints only)
 Behaviour
 ---------
 * Parses every entry in ``changes_log.md``.
-* Keeps entries whose timestamp, converted to Tbilisi time (UTC+4), falls on
-  today's Tbilisi date.
+* DIGEST_MODE=scheduled (cron / external scheduler): keeps entries logged after
+  the watermark in ``digest_state.json`` (= newest entry of the previous
+  digest), then advances it. First run without state: last 24 hours.
+* DIGEST_MODE=manual (default, "Run workflow"): rolling window of the last
+  DIGEST_DAYS × 24 hours; the watermark is left untouched.
 * Sends one message. If there were no documents today, sends a short
   "no new documents" line so you know the job is alive. Set SEND_IF_EMPTY=0
   to stay silent on empty days instead.
@@ -28,6 +37,7 @@ Behaviour
 from __future__ import annotations
 
 import html
+import json
 import os
 import re
 import sys
@@ -38,6 +48,7 @@ import requests
 
 BASE_DIR = Path(__file__).resolve().parent
 LOG_FILE = BASE_DIR / "changes_log.md"
+STATE_FILE = BASE_DIR / "digest_state.json"
 
 # Tbilisi is UTC+4 all year (no daylight saving).
 TBILISI = timezone(timedelta(hours=4))
@@ -52,7 +63,14 @@ CLAUDE_MODEL = "claude-sonnet-4-6"
 # Send a message even when there were no documents today.
 SEND_IF_EMPTY = os.environ.get("SEND_IF_EMPTY", "1").strip() != "0"
 
-# Window in days (Tbilisi). Default 1 = today only (original daily behaviour).
+# "scheduled" = since previous digest (watermark); "manual" = rolling window.
+DIGEST_MODE = os.environ.get("DIGEST_MODE", "manual").strip().lower()
+
+# Never reach back further than this, even if the watermark is very old
+# (e.g. the digest was broken for weeks).
+MAX_LOOKBACK = timedelta(days=7)
+
+# Manual mode window, in days of 24 h. Default 1 = last 24 hours.
 # Set DIGEST_DAYS=7 for a weekly digest.
 try:
     DIGEST_DAYS = max(1, int(os.environ.get("DIGEST_DAYS", "1") or "1"))
@@ -148,18 +166,49 @@ def _field(body: str, label: str) -> str:
     return m.group(1).strip() if m else ""
 
 
-def window_entries(entries: list[dict], now_utc: datetime, days: int) -> list[dict]:
-    """Entries whose Tbilisi date falls within the last `days` days (inclusive)."""
-    today = now_utc.astimezone(TBILISI).date()
-    cutoff = today - timedelta(days=days - 1)
-    return [e for e in entries if cutoff <= e["utc"].astimezone(TBILISI).date() <= today]
+def load_state() -> tuple[datetime | None, datetime | None]:
+    """Return (watermark, last_run) from digest_state.json, or (None, None)."""
+    try:
+        data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        wm, lr = data.get("watermark_utc"), data.get("last_run_utc")
+        return (datetime.fromisoformat(wm) if wm else None,
+                datetime.fromisoformat(lr) if lr else None)
+    except (OSError, ValueError, json.JSONDecodeError):
+        return None, None
+
+
+def save_watermark(watermark: datetime, now_utc: datetime, sent: int) -> None:
+    STATE_FILE.write_text(
+        json.dumps(
+            {
+                "watermark_utc": watermark.isoformat(),
+                "last_run_utc": now_utc.isoformat(timespec="seconds"),
+                "last_count": sent,
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+
+
+def window_entries(entries: list[dict], since: datetime, now_utc: datetime) -> list[dict]:
+    """Entries logged strictly after `since` and not after `now_utc`."""
+    return [e for e in entries if since < e["utc"] <= now_utc]
+
+
+def needs_translation(entry: dict) -> bool:
+    """True when the log has no real English title (monitor ran without a key,
+    in which case it stores the Georgian original under "Title (EN)")."""
+    en, ka = entry.get("title_en", ""), entry.get("title_ka", "")
+    return bool(ka) and (not en or en == ka or "_(translation skipped)_" in en)
 
 
 # Telegram hard limit is 4096 chars/message; stay comfortably under it.
 TG_LIMIT = 3500
 
 
-def build_messages(items: list[dict], now_utc: datetime, days: int,
+def build_messages(items: list[dict], shown_from: datetime, now_utc: datetime,
                    relevant_only: bool) -> list[str]:
     """Build one or more Telegram messages, each under TG_LIMIT characters.
 
@@ -167,10 +216,10 @@ def build_messages(items: list[dict], now_utc: datetime, days: int,
     Telegram's per-message limit and is rejected with HTTP 400, so we split
     the item list across as few messages as possible.
     """
-    day = now_utc.astimezone(TBILISI).strftime("%d.%m.%Y")
-    scope = "today" if days == 1 else f"last {days} days"
+    fmt = "%d.%m %H:%M"
+    period = f"{shown_from.astimezone(TBILISI):{fmt}} – {now_utc.astimezone(TBILISI):{fmt}}"
     tag = " · relocation-relevant" if relevant_only else ""
-    header = f"<b>📋 Matsne digest — {scope} ({day}){tag}</b>"
+    header = f"<b>📋 Matsne digest — {period} (Tbilisi){tag}</b>"
 
     if not items:
         none = "documents" if not relevant_only else "relevant documents"
@@ -220,32 +269,50 @@ def send_telegram(text: str) -> bool:
 
 def main() -> int:
     now_utc = datetime.now(timezone.utc)
-    print(f"Digest run at {now_utc.isoformat()} (Tbilisi {now_utc.astimezone(TBILISI):%Y-%m-%d %H:%M})")
+    print(f"Digest run at {now_utc.isoformat()} (Tbilisi {now_utc.astimezone(TBILISI):%Y-%m-%d %H:%M}), mode={DIGEST_MODE}")
 
     text = LOG_FILE.read_text(encoding="utf-8") if LOG_FILE.exists() else ""
-    items = window_entries(parse_entries(text), now_utc, DIGEST_DAYS)
-    if RELEVANT_ONLY:
-        items = [e for e in items if is_relevant(e)]
-    scope = "today" if DIGEST_DAYS == 1 else f"last {DIGEST_DAYS} days"
-    filt = " relevant" if RELEVANT_ONLY else ""
-    print(f"{len(items)}{filt} document(s) logged in {scope} (Tbilisi).")
+    entries = parse_entries(text)
 
-    # For the digest, fill in any missing English titles on the fly (cheap: only
-    # the filtered items). Existing log entries may be Georgian-only if monitor.py
-    # ran without a translation key.
+    scheduled = DIGEST_MODE == "scheduled"
+    if scheduled:
+        watermark, last_run = load_state()
+        since = watermark or (now_utc - timedelta(hours=24))
+        print(f"Watermark: {watermark.isoformat() if watermark else 'none (first run, last 24 h)'}")
+        since = max(since, now_utc - MAX_LOOKBACK)
+        # Header shows "since the previous digest", which reads naturally;
+        # filtering still uses the watermark.
+        shown_from = last_run or since
+    else:
+        since = now_utc - timedelta(days=DIGEST_DAYS)
+        shown_from = since
+
+    window = window_entries(entries, since, now_utc)
+    items = [e for e in window if is_relevant(e)] if RELEVANT_ONLY else window
+    filt = " relevant" if RELEVANT_ONLY else ""
+    print(f"{len(items)}{filt} document(s) logged since {since.isoformat(timespec='minutes')}.")
+
+    # Fill in English titles on the fly when the log only has the Georgian one
+    # (monitor.py ran without a translation key). Only the items being sent.
     if ANTHROPIC_API_KEY:
         for it in items:
-            if not it.get("title_en") and it.get("title_ka"):
-                it["title_en"] = translate_ka_to_en(it["title_ka"])
+            if needs_translation(it):
+                it["title_en"] = translate_ka_to_en(it["title_ka"]) or it["title_en"]
 
-    if not items and not SEND_IF_EMPTY:
+    if items or SEND_IF_EMPTY:
+        messages = build_messages(items, shown_from, now_utc, RELEVANT_ONLY)
+        print(f"Sending {len(messages)} message(s).")
+        for msg in messages:
+            send_telegram(msg)
+    else:
         print("Nothing in window and SEND_IF_EMPTY=0 — nothing sent.")
-        return 0
 
-    messages = build_messages(items, now_utc, DIGEST_DAYS, RELEVANT_ONLY)
-    print(f"Sending {len(messages)} message(s).")
-    for msg in messages:
-        send_telegram(msg)
+    # Advance the watermark to the newest entry this digest saw (not to "now"):
+    # a monitor run still committing while we ran will have later timestamps
+    # and lands in the next digest instead of being skipped.
+    if scheduled:
+        newest = max((e["utc"] for e in window), default=None)
+        save_watermark(newest or since, now_utc, len(items))
     return 0
 
 
