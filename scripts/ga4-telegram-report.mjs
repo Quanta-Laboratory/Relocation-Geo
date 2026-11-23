@@ -10,6 +10,12 @@
 //                             "Viewer" access on the GA4 property
 //   TELEGRAM_BOT_TOKEN      - bot token from @BotFather
 //   TELEGRAM_CHAT_ID        - target chat/channel ID (or @channelusername)
+//
+// Google Search Console (second message, optional — failures never block GA4):
+//   GSC_SITE_URL            - property, default "sc-domain:relocation.ge"
+//   The same service account must be a user (Restricted is enough) on the
+//   Search Console property, and "Google Search Console API" must be enabled
+//   in its Google Cloud project.
 
 import crypto from 'node:crypto';
 
@@ -38,7 +44,10 @@ async function getAccessToken() {
   const header = { alg: 'RS256', typ: 'JWT' };
   const claim = {
     iss: sa.client_email,
-    scope: 'https://www.googleapis.com/auth/analytics.readonly',
+    scope: [
+      'https://www.googleapis.com/auth/analytics.readonly',
+      'https://www.googleapis.com/auth/webmasters.readonly',
+    ].join(' '),
     aud: 'https://oauth2.googleapis.com/token',
     iat: now,
     exp: now + 3600,
@@ -312,6 +321,85 @@ function buildMessage(batch) {
   return msg;
 }
 
+
+// --- Google Search Console ------------------------------------------------
+// Search data lags ~2–3 days, so instead of "yesterday" we report the newest
+// day GSC already has, compared with the same weekday a week earlier, plus the
+// top queries and pages over the last 7 available days.
+const GSC_SITE_URL = process.env.GSC_SITE_URL || 'sc-domain:relocation.ge';
+
+async function gscQuery(token, body) {
+  const res = await fetch(
+    `https://www.googleapis.com/webmasters/v3/sites/${encodeURIComponent(GSC_SITE_URL)}/searchAnalytics/query`,
+    {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    }
+  );
+  if (!res.ok) throw new Error(`GSC API ${res.status}: ${(await res.text()).slice(0, 300)}`);
+  return (await res.json()).rows || [];
+}
+
+const isoDay = (d) => d.toISOString().slice(0, 10);
+const addDays = (s, n) => isoDay(new Date(Date.parse(s + 'T00:00:00Z') + n * 864e5));
+
+async function runSearchConsole(token) {
+  const today = isoDay(new Date());
+  const byDate = await gscQuery(token, {
+    startDate: addDays(today, -21),
+    endDate: today,
+    dimensions: ['date'],
+    rowLimit: 30,
+  });
+  if (!byDate.length) return null;
+  const days = Object.fromEntries(byDate.map((r) => [r.keys[0], r]));
+  const latest = byDate.map((r) => r.keys[0]).sort().at(-1);
+  const weekAgo = addDays(latest, -7);
+  const from7 = addDays(latest, -6);
+  const sum = (a, b) => Object.values(days).filter((r) => r.keys[0] >= a && r.keys[0] <= b)
+    .reduce((t, r) => ({ clicks: t.clicks + r.clicks, impressions: t.impressions + r.impressions }), { clicks: 0, impressions: 0 });
+  const [queries, pages] = await Promise.all([
+    gscQuery(token, { startDate: from7, endDate: latest, dimensions: ['query'], rowLimit: 7 }),
+    gscQuery(token, { startDate: from7, endDate: latest, dimensions: ['page'], rowLimit: 7 }),
+  ]);
+  return {
+    latest, weekAgo,
+    day: days[latest], prev: days[weekAgo],
+    week: sum(from7, latest), prevWeek: sum(addDays(from7, -7), addDays(latest, -7)),
+    queries, pages,
+  };
+}
+
+function delta(cur, prev) {
+  if (!prev) return '';
+  const d = cur - prev;
+  if (d === 0) return ' (=)';
+  return ` (${d > 0 ? '▲' : '▼'}${num(Math.abs(d))})`;
+}
+
+function buildGscMessage(g) {
+  if (!g) return `🔎 <b>Google Search — relocation.ge</b>\n\n— no data in the last 3 weeks`;
+  const pct = (x) => (x * 100).toFixed(1) + '%';
+  const d = g.day;
+  let m = `🔎 <b>Google Search — ${g.latest}</b> <i>(latest day GSC has; vs ${g.weekAgo})</i>\n\n`;
+  m += `🖱 Clicks: <b>${num(d.clicks)}</b>${delta(d.clicks, g.prev?.clicks)}\n`;
+  m += `👁 Impressions: <b>${num(d.impressions)}</b>${delta(d.impressions, g.prev?.impressions)}\n`;
+  m += `🎯 CTR: <b>${pct(d.ctr)}</b> · Avg position: <b>${d.position.toFixed(1)}</b>\n`;
+  m += `\n<b>Last 7 days:</b> ${num(g.week.clicks)} clicks${delta(g.week.clicks, g.prevWeek.clicks)}, `;
+  m += `${num(g.week.impressions)} impressions${delta(g.week.impressions, g.prevWeek.impressions)}\n`;
+  m += `\n<b>Top queries (7 days):</b>\n`;
+  m += g.queries.length
+    ? g.queries.map((r, i) => `${i + 1}. ${escapeHtml(r.keys[0])} — ${num(r.clicks)} / ${num(r.impressions)} · pos ${r.position.toFixed(1)}`).join('\n') + '\n'
+    : '— no data\n';
+  m += `\n<b>Top pages (7 days):</b>\n`;
+  m += g.pages.length
+    ? g.pages.map((r, i) => `${i + 1}. <code>${escapeHtml(r.keys[0].replace(/^https?:\/\/[^/]+/, ''))}</code> — ${num(r.clicks)} / ${num(r.impressions)}`).join('\n') + '\n'
+    : '— no data\n';
+  m += `<i>clicks / impressions</i>`;
+  return m;
+}
+
 // --- Telegram ------------------------------------------------------------
 async function sendTelegram(text) {
   const res = await fetch(
@@ -339,6 +427,15 @@ try {
   const message = buildMessage(batch);
   await sendTelegram(message);
   console.log('Report sent to Telegram.');
+
+  // Search Console: separate message, never fails the GA4 report.
+  try {
+    const gsc = await runSearchConsole(token);
+    await sendTelegram(buildGscMessage(gsc));
+    console.log(`Search Console report sent (latest day: ${gsc?.latest || 'none'}).`);
+  } catch (err) {
+    console.error('Search Console section failed:', err.message);
+  }
 } catch (err) {
   console.error(err);
   process.exit(1);
