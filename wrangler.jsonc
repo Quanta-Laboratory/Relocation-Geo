@@ -17,6 +17,10 @@
   // On-time scheduler for GitHub Actions (worker/scheduler.ts). One trigger,
   // every 30 min; the Worker decides which jobs are due. Needs the secret
   // GH_DISPATCH_TOKEN (set in the dashboard).
+  // Per-IP limit for the site assistant (/api/chat): 8 messages a minute.
+  "ratelimits": [
+    { "name": "CHAT_LIMITER", "namespace_id": "1001", "simple": { "limit": 8, "period": 60 } }
+  ],
   "triggers": {
     "crons": ["0,30 * * * *"]
   }

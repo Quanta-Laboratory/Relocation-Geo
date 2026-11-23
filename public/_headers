@@ -2,3 +2,6 @@
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Methods: GET, OPTIONS
   Cache-Control: public, max-age=3600
+
+/kb/*
+  X-Robots-Tag: noindex

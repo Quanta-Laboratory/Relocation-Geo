@@ -1,7 +1,8 @@
 /**
  * Cloudflare Worker for relocation.ge
  *
- * Serves the static site, plus ONE dynamic endpoint: POST /api/match.
+ * Serves the static site, plus dynamic endpoints: POST /api/match (below) and
+ * POST /api/chat (site assistant, worker/assistant.ts).
  *
  * THE ONE RULE THIS FILE EXISTS TO ENFORCE
  * ----------------------------------------
@@ -24,12 +25,15 @@
  */
 import classifier from "../src/data/activity-classifier.json";
 import { runScheduled } from "./scheduler";
+import { handleChat } from "./assistant";
 
 export interface Env {
   ASSETS: Fetcher;
   ANTHROPIC_API_KEY?: string;
   /** Fine-grained GitHub PAT (Actions: read & write) for the on-time scheduler. */
   GH_DISPATCH_TOKEN?: string;
+  /** Rate limiter for /api/chat (wrangler.jsonc → ratelimits). */
+  CHAT_LIMITER?: { limit(o: { key: string }): Promise<{ success: boolean }> };
 }
 
 const MODEL = "claude-haiku-4-5-20251001";
@@ -198,6 +202,7 @@ export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
     if (url.pathname === "/api/match") return handleMatch(request, env);
+    if (url.pathname === "/api/chat") return handleChat(request, env);
     return env.ASSETS.fetch(request);
   },
 

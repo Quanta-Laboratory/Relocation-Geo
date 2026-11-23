@@ -9,6 +9,7 @@
 // exactly what gets lost when a model paraphrases a page it half-read.
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
+import { isoDate } from "../lib/kb";
 
 export const prerender = true;
 
@@ -59,8 +60,8 @@ export const GET: APIRoute = async () => {
     out.push(`# ${d.title}`);
     out.push(`URL: ${SITE}/en/${slug}/`);
     out.push(`Category: ${d.category}`);
-    if (d.reviewed) out.push(`Last reviewed: ${String(d.reviewed).slice(0, 10)}`);
-    if (d.checked) out.push(`Last checked: ${String(d.checked).slice(0, 10)}`);
+    if (d.reviewed) out.push(`Last reviewed: ${isoDate(d.reviewed)}`);
+    if (d.checked) out.push(`Last checked: ${isoDate(d.checked)}`);
     out.push("");
     if (d.summary) {
       out.push(`Summary: ${String(d.summary).replace(/\s+/g, " ").trim()}`);

@@ -7,6 +7,7 @@ import Footer from '../components/Footer.astro';
 import Analytics from '../components/Analytics.astro';
 import AiReferral from '../components/AiReferral.astro';
 import ConsentBanner from '../components/ConsentBanner.astro';
+import AssistantChat from '../components/AssistantChat.astro';
 
 const {
   title,
@@ -116,6 +117,7 @@ const allLd = [organizationLd, websiteLd, ...jsonLd];
     <Footer />
     {/* Support widget temporarily disabled — re-enable by uncommenting. */}
     {/* <SupportChat /> */}
+    <AssistantChat lang={lang} />
     <ConsentBanner />
   </body>
 </html>
