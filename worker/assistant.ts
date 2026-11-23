@@ -173,7 +173,7 @@ export async function handleChat(request: Request, env: AssistantEnv): Promise<R
   const messages: Msg[] = history.map((m) => ({ role: m.role, content: m.content }));
   const sources = new Map<string, string>();
   let handoff: { topic: string } | null = null;
-  let reply = "";
+  let reply = ""; // text kept across rounds (see below)
 
   for (let round = 0; round < MAX_ROUNDS; round++) {
     const res = await fetch("https://api.anthropic.com/v1/messages", {
@@ -200,9 +200,15 @@ export async function handleChat(request: Request, env: AssistantEnv): Promise<R
     }
     const data: any = await res.json();
     const blocks: any[] = data.content || [];
-    reply += blocks.filter((b) => b.type === "text").map((b) => b.text).join("");
+    const text = blocks.filter((b) => b.type === "text").map((b) => b.text).join("");
     const calls = blocks.filter((b) => b.type === "tool_use");
-    if (data.stop_reason !== "tool_use" || !calls.length) break;
+    if (data.stop_reason !== "tool_use" || !calls.length) {
+      reply += text;
+      break;
+    }
+    // Text next to get_page calls is a preamble ("let me check…") — drop it.
+    // Text next to offer_human_help is usually the actual answer — keep it.
+    if (calls.some((c) => c.name === "offer_human_help")) reply += text + "\n\n";
 
     messages.push({ role: "assistant", content: blocks });
     const results = [];
@@ -227,7 +233,6 @@ export async function handleChat(request: Request, env: AssistantEnv): Promise<R
       results.push({ type: "tool_result", tool_use_id: c.id, content: out });
     }
     messages.push({ role: "user", content: results });
-    reply = ""; // keep only the final round's text
   }
 
   reply = reply.trim();
