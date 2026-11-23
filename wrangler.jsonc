@@ -13,6 +13,12 @@
     // Binding lets the Worker hand ordinary requests back to the static assets.
     "binding": "ASSETS",
     "not_found_handling": "404-page"
+  },
+  // On-time scheduler for GitHub Actions (worker/scheduler.ts). One trigger,
+  // every 30 min; the Worker decides which jobs are due. Needs the secret
+  // GH_DISPATCH_TOKEN (set in the dashboard).
+  "triggers": {
+    "crons": ["0,30 * * * *"]
   }
   // Secret required by /api/match (set once, never committed):
   //   npx wrangler secret put ANTHROPIC_API_KEY

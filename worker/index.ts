@@ -23,10 +23,13 @@
  * logged, not stored, and not sent anywhere except the Anthropic API.
  */
 import classifier from "../src/data/activity-classifier.json";
+import { runScheduled } from "./scheduler";
 
 export interface Env {
   ASSETS: Fetcher;
   ANTHROPIC_API_KEY?: string;
+  /** Fine-grained GitHub PAT (Actions: read & write) for the on-time scheduler. */
+  GH_DISPATCH_TOKEN?: string;
 }
 
 const MODEL = "claude-haiku-4-5-20251001";
@@ -196,5 +199,11 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === "/api/match") return handleMatch(request, env);
     return env.ASSETS.fetch(request);
+  },
+
+  // Cloudflare Cron Trigger (wrangler.jsonc → triggers.crons): starts GitHub
+  // Actions on time. See worker/scheduler.ts.
+  async scheduled(event: ScheduledController, env: Env, ctx: ExecutionContext): Promise<void> {
+    ctx.waitUntil(runScheduled(event.scheduledTime, env.GH_DISPATCH_TOKEN));
   },
 };
