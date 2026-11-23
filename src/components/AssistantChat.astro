@@ -206,7 +206,7 @@ const cfg = { lang: T[lang] ? lang : 'en', t, TELEGRAM, WHATSAPP };
     busy = true; send.disabled = true; input.value = ''; autosize();
     var sug = log.querySelector('.ra-suggest'); if (sug) sug.remove();
     state.messages.push({ role: 'user', content: text }); save();
-    bubble({ role: 'user', content: text });
+    var mine = bubble({ role: 'user', content: text });
     var wait = bubble({ role: 'assistant', content: t.thinking }); wait.classList.add('ra-wait');
     log.scrollTop = log.scrollHeight;
     track('assistant_message', { count: state.messages.filter(function (m) { return m.role === 'user'; }).length });
@@ -224,7 +224,7 @@ const cfg = { lang: T[lang] ? lang : 'en', t, TELEGRAM, WHATSAPP };
       else reply = { role: 'assistant', content: res.status === 429 ? t.limited : t.error, error: true };
     } catch (e) { reply = { role: 'assistant', content: t.error, error: true }; }
     wait.remove();
-    if (reply.error) { state.messages.pop(); input.value = text; } else { state.messages.push(reply); }
+    if (reply.error) { state.messages.pop(); mine.remove(); input.value = text; autosize(); } else { state.messages.push(reply); }
     save(); bubble(reply);
     if (reply.handoff) track('assistant_handoff_offered', { topic: String(reply.handoff.topic || '').slice(0, 100) });
     log.scrollTop = log.scrollHeight;
@@ -262,7 +262,8 @@ const cfg = { lang: T[lang] ? lang : 'en', t, TELEGRAM, WHATSAPP };
 })();
 </script>
 
-<style>
+<style is:global>
+  /* global: messages are created by JS, so Astro's scoped attributes would not match. All classes are ra-prefixed. */
   .ra[hidden] { display: none; }
   .ra { position: fixed; inset-inline-end: 20px; bottom: 20px; z-index: 900; font-size: 16px; line-height: 1.45; }
   .ra-launch { display: flex; align-items: center; gap: 8px; padding: 12px 18px; border: 0; border-radius: 999px;
