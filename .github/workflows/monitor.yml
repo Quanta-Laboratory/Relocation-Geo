@@ -16,6 +16,10 @@ on:
         description: 'Send a LIST of all documents published today to Telegram, then exit'
         type: boolean
         default: false
+      sample_impact:
+        description: 'Send a DEMO impact alert (with buttons) to Telegram, then exit'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -71,7 +75,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Demo impact alert
+        if: github.event.inputs.sample_impact == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/matsne_monitor/impact.py --sample
+
       - name: Run monitor
+        if: github.event.inputs.sample_impact != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -84,6 +96,7 @@ jobs:
         run: python scripts/matsne_monitor/monitor.py
 
       - name: Commit state and log if changed
+        if: github.event.inputs.sample_impact != 'true'
         run: |
           git config user.name "relocation-bot"
           git config user.email "bot@users.noreply.github.com"
@@ -101,7 +114,7 @@ jobs:
       # Relevance filter → proposed edits → PR → Telegram with ✅/❌ buttons.
       # Runs after the state commit so the PR branches start from fresh main.
       - name: Impact analysis (relocation.ge pages)
-        if: github.event.inputs.test_telegram != 'true' && github.event.inputs.today_list != 'true'
+        if: github.event.inputs.test_telegram != 'true' && github.event.inputs.today_list != 'true' && github.event.inputs.sample_impact != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

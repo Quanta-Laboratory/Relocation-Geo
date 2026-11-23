@@ -607,10 +607,13 @@ def main() -> int:
     ap.add_argument("--doc", action="append", help="analyse this matsne doc id (repeatable)")
     ap.add_argument("--dry-run", action="store_true", help="print the proposal; no PR, no Telegram")
     ap.add_argument("--selftest", action="store_true")
+    ap.add_argument("--sample", action="store_true", help="send a demo alert to Telegram (no Claude, no PR)")
     args = ap.parse_args()
 
     if args.selftest:
         return selftest()
+    if args.sample:
+        return send_sample()
     if not ANTHROPIC_API_KEY:
         print("NOTE: ANTHROPIC_API_KEY not set — impact analysis skipped.")
         return 0
@@ -647,6 +650,40 @@ def main() -> int:
         notify_info(doc, None, "Лимит анализа за запуск исчерпан — проверьте вручную.")
         log(doc, "over per-run limit")
     return 0
+
+
+# --------------------------------------------------------------------------- #
+# Demo message (layout check — no Claude, no PR)
+# --------------------------------------------------------------------------- #
+
+def send_sample() -> int:
+    if not (TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID):
+        print("Telegram secrets missing.")
+        return 1
+    rel = "en/renting-a-home-in-georgia.md"
+    find = "Three months, given by either the tenant or the landlord. A lease that does not state a term is treated as indefinite."
+    if find not in read_page(rel):
+        find = read_page(rel).split("\n---", 1)[1].strip().split("\n")[0]
+    doc = {"id": "0000000", "slugs": ["renting-a-home-in-georgia"], "pub_date": ""}
+    prop = {
+        "title_en": "DEMO — amendment to the Civil Code (not a real act)",
+        "effective": "ТЕСТ — с 1 марта 2027",
+        "summary_ru": "Это тестовое сообщение, чтобы проверить формат. Реального изменения закона нет, страница не меняется.",
+        "manual_ru": "",
+    }
+    edits = [{"file": rel, "find": find,
+              "replace": find.replace("Three months", "Two months (DEMO)"), "why_ru": "пример правки"}]
+    text = "🧪 <b>ТЕСТ</b> — так будет выглядеть уведомление. Кнопки заработают после настройки вебхука.\n\n" + \
+        telegram_text(doc, prop, edits, None, [])
+    r = tg("sendMessage", {
+        "text": text[:4000], "parse_mode": "HTML", "disable_web_page_preview": True,
+        "reply_markup": {"inline_keyboard": [
+            [{"text": "✅ Применить", "callback_data": "mx:demo"}, {"text": "❌ Отклонить", "callback_data": "mx:demo"}],
+            [{"text": "👀 Посмотреть изменения", "url": f"https://github.com/{REPO}/pull/1/files"}],
+        ]},
+    })
+    print("sent" if r and r.get("ok") else f"failed: {r}")
+    return 0 if r and r.get("ok") else 1
 
 
 # --------------------------------------------------------------------------- #
