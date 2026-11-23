@@ -144,6 +144,7 @@ const cfg = { lang: T[lang] ? lang : 'en', t, TELEGRAM, WHATSAPP };
       var m = line.match(/^\s*(?:[-*•]|\d+[.)])\s+(.*)$/);
       if (m) { if (!list) { list = []; } list.push('<li>' + inline(m[1]) + '</li>'); return; }
       if (list) { out.push('<ul>' + list.join('') + '</ul>'); list = null; }
+      if (/^\s*([-*_])\1{2,}\s*$/.test(line)) return; // horizontal rule
       if (line.trim()) out.push('<p>' + inline(line.replace(/^#+\s*/, '')) + '</p>');
     });
     if (list) out.push('<ul>' + list.join('') + '</ul>');
