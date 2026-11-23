@@ -423,10 +423,14 @@ async function sendTelegram(text) {
 // --- Main ----------------------------------------------------------------
 try {
   const token = await getAccessToken();
-  const batch = await runReports(token);
-  const message = buildMessage(batch);
-  await sendTelegram(message);
-  console.log('Report sent to Telegram.');
+  if (process.env.GSC_ONLY === '1') {
+    console.log('GSC_ONLY=1 — skipping the GA4 message.');
+  } else {
+    const batch = await runReports(token);
+    const message = buildMessage(batch);
+    await sendTelegram(message);
+    console.log('Report sent to Telegram.');
+  }
 
   // Search Console: separate message, never fails the GA4 report.
   try {

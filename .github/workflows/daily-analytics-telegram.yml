@@ -6,7 +6,12 @@ name: Daily GA4 analytics to Telegram
 on:
   schedule:
     - cron: '0 6 * * *' # 06:00 UTC daily (~10:00 Tbilisi)
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      gsc_only:
+        description: 'Send only the Search Console message (skip GA4)'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -58,4 +63,5 @@ jobs:
           GA_SERVICE_ACCOUNT_JSON: ${{ secrets.GA_SERVICE_ACCOUNT_JSON }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GSC_ONLY: ${{ github.event.inputs.gsc_only == 'true' && '1' || '0' }}
         run: node scripts/ga4-telegram-report.mjs
