@@ -35,7 +35,7 @@ export const JOBS: Job[] = [
   { workflow: "daily-checked.yml", hour: 5, minute: 0 }, // 09:00 TBS
   { workflow: "deploy.yml", hour: 5, minute: 30 }, // 09:30 TBS
   { workflow: "daily-analytics-telegram.yml", hour: 6, minute: 0 }, // 10:00 TBS
-  { workflow: "parliament.yml", hour: 7, minute: 0 }, // 11:00 TBS
+  // parliament.yml paused: info.parliament.ge returns 403 to cloud IPs (Nov 2026).
   { workflow: "monitor.yml", hour: 8, minute: 0 }, // 12:00 TBS
   { workflow: "redaction.yml", hour: 9, minute: 0, weekday: 1 }, // Mon 13:00 TBS
   { workflow: "monitor.yml", hour: 16, minute: 0 }, // 20:00 TBS

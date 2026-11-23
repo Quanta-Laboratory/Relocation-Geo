@@ -1,6 +1,9 @@
 name: Parliament Monitor
 
 on:
+  # Schedule paused (Nov 2026): the official bill registry answers 403 to
+  # GitHub/cloud IPs. Re-enable here and in worker/scheduler.ts once access
+  # is granted by the Parliament.
   schedule:
     # Daily. Times are UTC (GitHub cron is always UTC).
     # 07:00 UTC = 11:00 Tbilisi.
