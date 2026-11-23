@@ -9,8 +9,7 @@ name: EV stations refresh
 # Without it, the refresh still runs using OpenStreetMap only.
 
 on:
-  schedule:
-    - cron: '0 4 * * 1' # 04:00 UTC every Monday (~08:00 Tbilisi)
+  # Scheduled refresh switched off (Nov 2026) — run manually if ever needed.
   workflow_dispatch: {}
 
 permissions:

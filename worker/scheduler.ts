@@ -32,7 +32,6 @@ type Job = {
 
 // Mirrors the `schedule:` crons in .github/workflows/*.yml.
 export const JOBS: Job[] = [
-  { workflow: "ev-stations-refresh.yml", hour: 4, minute: 0, weekday: 1 }, // Mon 08:00 TBS
   { workflow: "daily-checked.yml", hour: 5, minute: 0 }, // 09:00 TBS
   { workflow: "deploy.yml", hour: 5, minute: 30 }, // 09:30 TBS
   { workflow: "daily-analytics-telegram.yml", hour: 6, minute: 0 }, // 10:00 TBS
