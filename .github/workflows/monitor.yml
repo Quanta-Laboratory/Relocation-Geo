@@ -19,6 +19,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: matsne-monitor
@@ -77,6 +78,9 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TEST_TELEGRAM: ${{ github.event.inputs.test_telegram }}
           TODAY_LIST: ${{ github.event.inputs.today_list }}
+          # Only documents that affect relocation.ge are pushed (by impact.py);
+          # the evening digest still lists everything. Set to '1' to get every doc.
+          NOTIFY_EACH: '0'
         run: python scripts/matsne_monitor/monitor.py
 
       - name: Commit state and log if changed
@@ -90,6 +94,24 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: matsne monitor update [skip ci]"
+            git pull --rebase --autostash origin ${{ github.ref_name }} || true
+            git push
+          fi
+
+      # Relevance filter → proposed edits → PR → Telegram with ✅/❌ buttons.
+      # Runs after the state commit so the PR branches start from fresh main.
+      - name: Impact analysis (relocation.ge pages)
+        if: github.event.inputs.test_telegram != 'true' && github.event.inputs.today_list != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/matsne_monitor/impact.py
+          git add scripts/matsne_monitor/impact_log.md 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: matsne impact log [skip ci]"
             git pull --rebase --autostash origin ${{ github.ref_name }} || true
             git push
           fi

@@ -92,6 +92,14 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 
+# Per-document "🆕 New document" pushes. Set NOTIFY_EACH=0 to stay quiet and let
+# impact.py report only documents that affect relocation.ge (the daily digest
+# still lists everything).
+NOTIFY_EACH = os.environ.get("NOTIFY_EACH", "1").strip().lower() not in ("0", "false", "no")
+
+# Hand-off to impact.py (same job, not committed).
+NEW_DOCS_FILE = BASE_DIR / ".new_docs.json"
+
 
 # --------------------------------------------------------------------------- #
 # State helpers
@@ -490,6 +498,7 @@ def main() -> int:
 
     state = load_state()
     seen_ids = set(state.get("seen_ids", []))
+    NEW_DOCS_FILE.write_text("[]", encoding="utf-8")
 
     fetched = fetch_feed()
     if fetched is None:
@@ -534,7 +543,8 @@ def main() -> int:
         translated = t1 or t2
 
         append_log(item, title_en, topic_en, translated)
-        send_telegram(format_message(item, title_en, topic_en, translated))
+        if NOTIFY_EACH:
+            send_telegram(format_message(item, title_en, topic_en, translated))
         watchlist.check_feed_items([item], send_telegram)
 
         seen_ids.add(item["id"])
@@ -547,6 +557,7 @@ def main() -> int:
     state["seen_ids"] = merged[: MAX_ITEMS * 5]
     save_state(state)
 
+    NEW_DOCS_FILE.write_text(json.dumps(new_items, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Done. Logged {len(new_items)} new document(s).")
     run_watchlist_sweep()
     return 0

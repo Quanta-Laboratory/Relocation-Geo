@@ -1,8 +1,9 @@
 /**
  * Cloudflare Worker for relocation.ge
  *
- * Serves the static site, plus dynamic endpoints: POST /api/match (below) and
- * POST /api/chat (site assistant, worker/assistant.ts).
+ * Serves the static site, plus dynamic endpoints: POST /api/match (below),
+ * POST /api/chat (site assistant, worker/assistant.ts) and POST /api/telegram
+ * (matsne impact buttons, worker/telegram.ts).
  *
  * THE ONE RULE THIS FILE EXISTS TO ENFORCE
  * ----------------------------------------
@@ -26,8 +27,9 @@
 import classifier from "../src/data/activity-classifier.json";
 import { runScheduled } from "./scheduler";
 import { handleChat } from "./assistant";
+import { handleTelegram, type TelegramEnv } from "./telegram";
 
-export interface Env {
+export interface Env extends TelegramEnv {
   ASSETS: Fetcher;
   ANTHROPIC_API_KEY?: string;
   /** Fine-grained GitHub PAT (Actions: read & write) for the on-time scheduler. */
@@ -203,6 +205,7 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === "/api/match") return handleMatch(request, env);
     if (url.pathname === "/api/chat") return handleChat(request, env);
+    if (url.pathname === "/api/telegram") return handleTelegram(request, env);
     return env.ASSETS.fetch(request);
   },
 
