@@ -195,7 +195,8 @@ export async function handleChat(request: Request, env: AssistantEnv): Promise<R
     });
     if (!res.ok) {
       console.error(`assistant: Anthropic API ${res.status}`);
-      return json({ error: "upstream" }, 502);
+      // Status only (no body): lets us tell a bad key (401) from no credit (400/403) or overload (529).
+      return json({ error: "upstream", status: res.status }, 502);
     }
     const data: any = await res.json();
     const blocks: any[] = data.content || [];
