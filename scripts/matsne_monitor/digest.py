@@ -46,6 +46,8 @@ from pathlib import Path
 
 import requests
 
+import relevance
+
 BASE_DIR = Path(__file__).resolve().parent
 LOG_FILE = BASE_DIR / "changes_log.md"
 STATE_FILE = BASE_DIR / "digest_state.json"
@@ -126,12 +128,16 @@ def parse_entries(text: str) -> list[dict]:
                 "title_ka": _field(body, "Title (KA)"),
                 "link": link,
                 "published": published,
+                "rel": relevance.parse_log_line(_field(body, "Relevance")),
             }
         )
     return entries
 
 
 def is_relevant(entry: dict) -> bool:
+    # Prefer the monitor's site-aware score (relevance.py); old entries: keywords.
+    if entry.get("rel"):
+        return entry["rel"]["score"] >= relevance.ALERT_MIN_SCORE
     text = f"{entry.get('title_en', '')} {entry.get('title_ka', '')}".lower()
     return any(kw in text for kw in RELEVANT_KEYWORDS)
 
@@ -225,20 +231,38 @@ def build_messages(items: list[dict], shown_from: datetime, now_utc: datetime,
         none = "documents" if not relevant_only else "relevant documents"
         return [f"{header}\n\nNo new {none} in this window."]
 
-    intro = f"{header}\n\nNew documents: {len(items)}"
+    rel = [it for it in items if is_relevant(it)]
+    other = [it for it in items if not is_relevant(it)]
+    # Most important first: score 3 (pages to update), then 2.
+    rel.sort(key=lambda it: -((it.get("rel") or {}).get("score", 2)))
+    intro = (f"{header}\n\nNew documents: {len(items)} · relevant to the site: {len(rel)}")
     messages: list[str] = []
     current = intro
-    for n, it in enumerate(items, 1):
-        title = html.escape(it["title_en"] or it.get("title_ka") or "—")
-        stamp = it["utc"].astimezone(TBILISI).strftime("%d.%m")
-        block = f"\n\n{n}. [{stamp}] {title}"
-        if it["link"]:
-            block += f"\n🔗 {html.escape(it['link'])}"
+
+    def add(block: str) -> None:
+        nonlocal current
         if len(current) + len(block) > TG_LIMIT:
             messages.append(current)
             current = f"{header} (cont.){block}"
         else:
             current += block
+
+    for n, it in enumerate(rel, 1):
+        title = html.escape(it["title_en"] or it.get("title_ka") or "—")
+        stamp = it["utc"].astimezone(TBILISI).strftime("%d.%m")
+        r = it.get("rel") or {}
+        badge = "🔴" if r.get("score") == 3 else "🟠"
+        block = f"\n\n{badge} {n}. [{stamp}] {title}"
+        if r.get("pages"):
+            block += "\n📚 " + ", ".join(
+                f'<a href="{relevance.SITE}/en/{s}/">{html.escape(s)}</a>' for s in r["pages"])
+        elif r.get("gap"):
+            block += "\n✍️ not covered on the site yet"
+        if it["link"]:
+            block += f"\n🔗 {html.escape(it['link'])}"
+        add(block)
+    if other and not relevant_only:
+        add(f"\n\n<i>Not relevant to the site: {len(other)} document(s) — see changes_log.md.</i>")
     messages.append(current)
     return messages
 

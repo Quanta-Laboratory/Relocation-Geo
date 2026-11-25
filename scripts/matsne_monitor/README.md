@@ -11,6 +11,8 @@ Georgian original.
 | File | Purpose |
 | --- | --- |
 | `monitor.py` | The script that checks matsne and notifies on each new document. |
+| `relevance.py` | **Relevance filter.** Scores every new matsne/parliament document 0–3 against the live catalogue of site pages (`/kb/index.json`); only score ≥ 2 (`ALERT_MIN_SCORE`) is pushed to Telegram, with the site pages to check or a ✍️ "not covered yet" flag. New site pages widen the filter automatically and are announced. Backtest: Run workflow → `relevance_backtest: 40`. |
+| `topics_state.json` | Last known catalogue of site topics (for change announcements and offline fallback). |
 | `watchlist.py` | Priority alerts (🚨) for acts that feed site datasets — e.g. the NBG high-risk jurisdictions list behind `/nbg-high-risk-jurisdictions.json` (used by mono.ge). Matches new feed items by title **and** sweeps matsne search each run, so a change is caught even if it scrolled out of the RSS window. Add a watch = add an entry to `WATCHES`. |
 | `watchlist_state.json` | Document ids already known per watch. Committed back by the workflow. |
 | `digest.py` | Sends one daily summary of the documents detected since the previous digest. |
