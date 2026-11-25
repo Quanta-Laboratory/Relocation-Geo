@@ -74,6 +74,10 @@ html[data-theme="dark"] .status-tag--pending{color:#e0b64d; border-color:#8a6d1e
 .notice-banner__title{background:var(--blue); color:#fff; margin:0; padding:8px 15px; font-family:var(--font-mono); font-size:15px; font-weight:600; text-transform:uppercase; letter-spacing:.5px;}
 .notice-banner__content{margin:0; padding:16px 15px; font-size:19px; line-height:1.4; max-width:none;}
 .notice-banner__content a{font-weight:700;}
+.notice-banner--pending{border-color:#f47738;}
+.notice-banner--pending .notice-banner__title{background:#f47738;color:#0b0c0c;}
+.notice-banner--pending .notice-banner__content p{margin:0 0 8px;}
+.notice-banner--pending .notice-banner__content ul{margin:0;padding-left:20px;font-size:17px;}
 .notice-banner__lead{margin:0 0 10px;}
 /* Bulleted list of law changes inside the notice banner. */
 .notice-list{margin:0; padding-inline-start:22px; font-size:17px; line-height:1.45;}

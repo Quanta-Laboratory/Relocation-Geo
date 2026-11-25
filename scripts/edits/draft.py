@@ -19,6 +19,7 @@ from pathlib import Path
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import pending  # noqa: E402
 from lib import (SITE, action_url, claude, extract_json, preview_upload, review_url,  # noqa: E402
                  sh, telegram)
 
@@ -197,6 +198,8 @@ def main() -> int:
             return 1
         out = extract_json(claude(EDIT_SYSTEM, act_block + "\n\n" + "\n\n".join(pages_text), 8000))
         if not out.get("needed") or not out.get("edits"):
+            if pending.remove(DOC_ID) and pending.commit_to_main(f"Resolve pending update for doc {DOC_ID}: no change needed [skip ci]"):
+                pending.deploy()
             telegram(f"✅ <b>Правка не требуется</b> — документ {DOC_ID}\n{html.escape(out.get('reason_ru', ''))}\n"
                      f"🔗 {html.escape(meta['link'])}")
             return 0

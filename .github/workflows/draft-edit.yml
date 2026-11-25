@@ -23,6 +23,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # redeploy when a pending update is resolved
 
 concurrency:
   group: edit-${{ github.event.inputs.doc_id }}
@@ -57,4 +58,5 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: python scripts/edits/draft.py

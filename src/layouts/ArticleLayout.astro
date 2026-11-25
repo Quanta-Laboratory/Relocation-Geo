@@ -4,6 +4,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import DateStamp from '../components/DateStamp.astro';
 import { getCollection } from 'astro:content';
 import { ui, dirFor, localeFor, LANGS } from '../i18n/ui';
+import pendingData from '../data/pending-updates.json';
 
 const { entry, headings = [] } = Astro.props;
 const d = entry.data;
@@ -15,6 +16,22 @@ const t = ui(lang);
 const stripLang = (id: string) => id.replace(/^[a-z]{2}\//, '');
 const slug = stripLang(entry.id);
 const childLink = (e: { id: string }) => `/${lang}/${stripLang(e.id)}`;
+
+// Unresolved legal change flagged for this page by the monitor (see
+// scripts/edits/pending.py). Shown until the update is published or dismissed.
+const pending = Object.values((pendingData as any).items || {}).filter((i: any) =>
+  (i.slugs || []).includes(slug)
+) as { title_en: string; link: string; since: string }[];
+const PENDING_T: Record<string, [string, string]> = {
+  en: ['Update in progress', 'A new legal act may change the information on this page. We are reviewing it:'],
+  ru: ['Готовится обновление', 'Новый правовой акт может изменить информацию на этой странице. Мы его проверяем:'],
+  uk: ['Готується оновлення', 'Новий правовий акт може змінити інформацію на цій сторінці. Ми його перевіряємо:'],
+  ka: ['მიმდინარეობს განახლება', 'ახალმა სამართლებრივმა აქტმა შეიძლება შეცვალოს ამ გვერდის ინფორმაცია. ჩვენ მას ვამოწმებთ:'],
+  de: ['Aktualisierung in Arbeit', 'Ein neuer Rechtsakt kann die Angaben auf dieser Seite ändern. Wir prüfen ihn:'],
+  fr: ['Mise à jour en cours', 'Un nouvel acte juridique peut modifier les informations de cette page. Nous l’examinons :'],
+  he: ['עדכון בתהליך', 'חוק או תקנה חדשים עשויים לשנות את המידע בדף זה. אנו בודקים אותם:'],
+};
+const pendingT = PENDING_T[lang] ?? PENDING_T.en;
 
 // Sibling pages in the same language, used to build the two-level hierarchy:
 // children of this page (for the "In this section" index) and this page's
@@ -161,6 +178,20 @@ const toc = headings.filter((h: { depth: number }) => h.depth === 2);
       reviewedLabel={t.reviewed}
       checkedLabel={t.checked}
     />
+
+    {pending.length > 0 && (
+      <aside class="notice-banner notice-banner--pending" role="region" aria-label={pendingT[0]}>
+        <p class="notice-banner__title">{pendingT[0]}</p>
+        <div class="notice-banner__content">
+          <p>{pendingT[1]}</p>
+          <ul>
+            {pending.map((i) => (
+              <li><a href={i.link} target="_blank" rel="noopener">{i.title_en}</a> ({i.since})</li>
+            ))}
+          </ul>
+        </div>
+      </aside>
+    )}
 
     {d.notice && (
       <aside class="notice-banner" role="region" aria-label="Important notice">

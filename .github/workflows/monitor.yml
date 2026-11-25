@@ -23,6 +23,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # dispatch deploy when a page's pending-update banner changes
 
 concurrency:
   group: matsne-monitor
@@ -97,10 +98,17 @@ jobs:
           git add scripts/matsne_monitor/changes_log.md 2>/dev/null || true
           git add scripts/matsne_monitor/watchlist_state.json 2>/dev/null || true
           git add scripts/matsne_monitor/topics_state.json 2>/dev/null || true
+          git add src/data/pending-updates.json 2>/dev/null || true
+          PENDING_CHANGED=$(git diff --cached --quiet -- src/data/pending-updates.json && echo 0 || echo 1)
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore: matsne monitor update [skip ci]"
             git pull --rebase --autostash origin ${{ github.ref_name }} || true
             git push
+            # A push with GITHUB_TOKEN doesn't trigger deploy — dispatch it so the
+            # "update in progress" banner appears now, not at tomorrow's deploy.
+            if [ "$PENDING_CHANGED" = "1" ]; then gh workflow run deploy.yml --ref main; fi
           fi
+        env:
+          GH_TOKEN: ${{ github.token }}

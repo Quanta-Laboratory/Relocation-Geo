@@ -324,9 +324,13 @@ def edit_buttons(doc_id: str, rel: dict) -> list | None:
     except Exception as exc:  # noqa: BLE001
         print(f"WARN: edit button unavailable ({exc})")
         return None
+    from lib import dismiss_url  # type: ignore
     slugs = rel.get("pages") or []
     label = "✍️ Подготовить правку" if slugs else "✍️ Черновик новой статьи"
-    return [[{"text": label, "url": start_url(doc_id, slugs)}]]
+    rows = [[{"text": label, "url": start_url(doc_id, slugs)}]]
+    if rel.get("score") == 3 and slugs:
+        rows.append([{"text": "✅ Не требует изменений", "url": dismiss_url(doc_id)}])
+    return rows
 
 
 # --------------------------------------------------------------------------- #
@@ -573,6 +577,15 @@ def main() -> int:
         extra = topic_en if topic_en and topic_en != title_en else ""
         rel = relevance.score(item["title"], title_en, pages, extra)
         append_log(item, title_en, topic_en, translated, rel)
+        if rel.get("score") == 3 and rel.get("pages"):
+            # 🔴: hold the pages' "checked" date and show an update banner until resolved.
+            try:
+                sys.path.insert(0, str(BASE_DIR.parent / "edits"))
+                import pending  # type: ignore
+                if pending.add(item["id"], rel["pages"], title_en or item["title"], item.get("link", "")):
+                    print(f"Pending update recorded for {rel['pages']}")
+            except Exception as exc:  # noqa: BLE001
+                print(f"WARN: could not record pending update ({exc})")
         if relevance.is_alert(rel):
             send_telegram(format_message(item, title_en, topic_en, translated,
                                          relevance.format_block(rel, pages)),

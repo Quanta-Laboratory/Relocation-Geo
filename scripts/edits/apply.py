@@ -1,7 +1,7 @@
 """
 Act on a drafted edit (branch edit/doc-<id>): publish, reject, or update text.
 
-Env (from apply-edit.yml): ACTION=publish|reject|update, DOC_ID, CHANGES (JSON
+Env (from apply-edit.yml): ACTION=publish|reject|update|dismiss, DOC_ID, CHANGES (JSON
 list of {"path": "...", "find": "...", "replace": "..."} for ACTION=update),
 plus TELEGRAM_*, ANTHROPIC_API_KEY, CLOUDFLARE_API_TOKEN, GH_TOKEN (to dispatch
 the deploy). Pushes use the workflow's GITHUB_TOKEN.
@@ -17,6 +17,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import pending  # noqa: E402
 from lib import SITE, action_url, preview_upload, review_url, sh, telegram  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -49,6 +50,8 @@ def publish() -> int:
     sh("git", "merge", "--squash", f"origin/{BRANCH}")
     sh("git", "rm", "-r", "-q", "--cached", "--ignore-unmatch", ".edits")
     sh("rm", "-rf", ".edits")
+    if pending.remove(DOC_ID):
+        sh("git", "add", pending.REL)
     title = (prop.get("doc") or {}).get("title_en", "")[:200]
     sh("git", "commit", "-m", f"Content update for matsne doc {DOC_ID}\n\n{title}\n\nApproved via Telegram review.")
     sh("git", "push", "origin", "main")
@@ -61,9 +64,28 @@ def publish() -> int:
     return 0
 
 
+def resolve_pending(reason: str) -> None:
+    """Drop the doc from pending-updates.json on main and redeploy (banner off,
+    'checked' date resumes)."""
+    sh("git", "checkout", "main")
+    sh("git", "pull", "--ff-only", "origin", "main")
+    if pending.remove(DOC_ID) and pending.commit_to_main(f"Resolve pending update for doc {DOC_ID}: {reason} [skip ci]"):
+        pending.deploy()
+
+
 def reject() -> int:
-    sh("git", "push", "origin", "--delete", BRANCH)
-    telegram(f"❌ Правка по документу {DOC_ID} отклонена. Сайт не изменён.")
+    if branch_exists():
+        sh("git", "push", "origin", "--delete", BRANCH)
+    resolve_pending("edit rejected")
+    telegram(f"❌ Правка по документу {DOC_ID} отклонена. Сайт не изменён, пометка «готовится обновление» снята.")
+    return 0
+
+
+def dismiss() -> int:
+    if branch_exists():
+        sh("git", "push", "origin", "--delete", BRANCH, check=False)
+    resolve_pending("no change needed")
+    telegram(f"✅ Документ {DOC_ID}: отмечено «не требует изменений». Дата проверки страниц снова обновляется.")
     return 0
 
 
@@ -115,6 +137,8 @@ def update() -> int:
 
 
 def main() -> int:
+    if ACTION == "dismiss":
+        return dismiss()
     if not branch_exists():
         telegram(f"ℹ️ Правка по документу {DOC_ID} уже опубликована или отклонена — ничего не сделано.")
         return 0

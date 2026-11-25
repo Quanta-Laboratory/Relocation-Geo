@@ -11,7 +11,7 @@ on:
       doc_id:
         required: true
       action:
-        description: 'publish | reject | update'
+        description: 'publish | reject | update | dismiss'
         required: true
       changes:
         description: 'JSON list of {path, find, replace} (update only)'

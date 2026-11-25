@@ -60,6 +60,11 @@ def start_url(doc_id: str, slugs: list[str], source: str = "matsne") -> str:
             f"&exp={exp}&sig={sig}")
 
 
+def dismiss_url(doc: str) -> str:
+    exp, sig = sign("dismiss", doc)
+    return f"{SITE}/api/edits/dismiss?doc={doc}&exp={exp}&sig={sig}"
+
+
 def review_url(doc: str, sha: str) -> str:
     exp, sig = sign("view", doc, sha)
     return f"{SITE}/edits/{doc}?ref={sha}&exp={exp}&sig={sig}"

@@ -101,6 +101,22 @@ export async function handleEdits(request: Request, env: EditsEnv): Promise<Resp
     );
   }
 
+  // ---- "no change needed" for a 🔴 alert (lifts the pending banner) ------------
+  if (url.pathname === "/api/edits/dismiss") {
+    const doc = (p.get("doc") || "").replace(/[^0-9A-Za-z-]/g, "");
+    if (!doc || !(await verify(env, ["dismiss", doc], p.get("exp"), p.get("sig"))))
+      return msgPage("Ссылка недействительна", "Ссылка устарела или повреждена.", 403);
+    return page(
+      "Не требует изменений",
+      `<h1>✅ Не требует изменений</h1><p>Документ ${esc(doc)} не меняет статьи сайта. Пометка «Готовится обновление» будет снята, дата проверки снова начнёт обновляться.</p>
+<button class="btn pub" id="go">Подтвердить</button><p id="st"></p>
+<script>const T=${JSON.stringify({ action: "dismiss", exp: Number(p.get("exp")), sig: p.get("sig") })};
+document.getElementById('go').onclick=async function(){this.disabled=true;const st=document.getElementById('st');st.textContent='Отправляю…';
+const r=await fetch('/edits/${doc}/act',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(T)});
+st.textContent=r.ok?'Готово. Подтверждение придёт в Telegram.':'Ошибка: '+((await r.json().catch(()=>({}))).error||r.status);};</script>`,
+    );
+  }
+
   const m = url.pathname.match(/^\/edits\/([0-9A-Za-z-]+)(\/act)?\/?$/);
   if (!m) return null;
   const doc = m[1];
@@ -116,10 +132,15 @@ export async function handleEdits(request: Request, env: EditsEnv): Promise<Resp
     }
     const action = String(b.action || "");
     const ref = String(b.ref || "");
-    if (!["publish", "reject", "update"].includes(action) || !/^[0-9a-f]{40}$/.test(ref))
-      return Response.json({ ok: false, error: "bad_request" }, { status: 400 });
-    if (!(await verify(env, [action, doc, ref], String(b.exp), String(b.sig))))
-      return Response.json({ ok: false, error: "forbidden" }, { status: 403 });
+    if (action === "dismiss") {
+      if (!(await verify(env, ["dismiss", doc], String(b.exp), String(b.sig))))
+        return Response.json({ ok: false, error: "forbidden" }, { status: 403 });
+    } else {
+      if (!["publish", "reject", "update"].includes(action) || !/^[0-9a-f]{40}$/.test(ref))
+        return Response.json({ ok: false, error: "bad_request" }, { status: 400 });
+      if (!(await verify(env, [action, doc, ref], String(b.exp), String(b.sig))))
+        return Response.json({ ok: false, error: "forbidden" }, { status: 403 });
+    }
     const changes = action === "update" ? JSON.stringify(b.changes || []) : "[]";
     if (changes.length > 60000) return Response.json({ ok: false, error: "too_large" }, { status: 413 });
     try {
