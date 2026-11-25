@@ -60,7 +60,7 @@ HTTP_TIMEOUT = 30
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-CLAUDE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MODEL = "claude-haiku-4-5-20251001"  # titles only — the cheap model is enough
 
 # Send a message even when there were no documents today.
 SEND_IF_EMPTY = os.environ.get("SEND_IF_EMPTY", "1").strip() != "0"

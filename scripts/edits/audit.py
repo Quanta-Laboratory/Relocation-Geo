@@ -32,14 +32,16 @@ sys.path.insert(0, str(ROOT / "scripts/matsne_monitor"))
 
 import relevance  # noqa: E402
 from draft import doc_text  # noqa: E402
-from lib import SITE, claude, extract_json, start_url, telegram  # noqa: E402
+from lib import CHEAP_MODEL, SITE, claude, extract_json, start_url, telegram  # noqa: E402
 
 LOG = ROOT / "scripts/matsne_monitor/changes_log.md"
 GUIDES = ROOT / "src/content/guides"
 OUT_DIR = HERE / "audits"
 SINCE = os.environ.get("AUDIT_SINCE", "")
 BATCH = 25
-MAX_ACTS_PER_PAGE = 6
+MAX_ACTS_PER_PAGE = 4
+ACT_CHARS = 5000  # Georgian text is token-heavy; the first pages hold the operative changes
+CHECK_MIN_SCORE = int(os.environ.get("AUDIT_CHECK_MIN_SCORE", "3"))  # only acts that change a page
 
 
 def entries() -> list[dict]:
@@ -67,7 +69,9 @@ def score_batch(batch: list[dict], pages: list[dict]) -> list[dict]:
         'You will receive SEVERAL documents. Return ONLY a JSON object {"results": [one object per document, same order, each with an extra "id" field]}. Each object: {"score"',
     )
     docs = "\n".join(f'- id={d["id"]} | {d["title_en"][:400]} | {d["title_ka"][:400]}' for d in batch)
-    data = extract_json(claude(system, f"DOCUMENTS:\n{docs}", 4000))
+    # Cheap model + cached catalogue: the ~10k-token system prompt is billed at
+    # ~10% after the first batch.
+    data = extract_json(claude(system, f"DOCUMENTS:\n{docs}", 4000, model=CHEAP_MODEL, cache_system=True))
     known = {p["slug"] for p in pages}
     res = []
     for r in data.get("results", []):
@@ -92,7 +96,7 @@ def check_page(slug: str, acts: list[dict]) -> list[dict]:
         return []
     blocks = []
     for a in acts:
-        txt = doc_text(a["link"])[:6000].encode("utf-8", "ignore").decode("utf-8")
+        txt = doc_text(a["link"])[:ACT_CHARS].encode("utf-8", "ignore").decode("utf-8")
         txt = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", txt)
         blocks.append(f"=== ACT id={a['id']} published={a['published'] or a['date']} ===\n{a['title_en']}\n{a['title_ka']}\n{txt or '(text unavailable)'}")
         time.sleep(1)
@@ -134,10 +138,10 @@ def main() -> int:
     per_page: dict[str, list[dict]] = defaultdict(list)
     gaps = []
     for d, s in relevant:
-        if s["pages"]:
+        if s["pages"] and s["score"] >= CHECK_MIN_SCORE:
             for slug in s["pages"]:
                 per_page[slug].append({**d, "score": s["score"], "topic": s["topic"]})
-        elif s["gap"]:
+        elif not s["pages"] and s["gap"]:
             gaps.append((d, s))
     print(f"Relevant: {len(relevant)} docs; pages to check: {len(per_page)}; gaps: {len(gaps)}")
 

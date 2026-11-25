@@ -71,7 +71,7 @@ FEED_CANDIDATES = [
 MAX_ITEMS = 60
 
 # Claude model used for translation.
-CLAUDE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MODEL = "claude-haiku-4-5-20251001"  # titles only — the cheap model is enough
 
 # Pause (seconds) between Claude calls so we translate one-by-one politely.
 TRANSLATE_PAUSE = 1.5

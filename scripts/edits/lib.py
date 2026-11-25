@@ -32,7 +32,8 @@ import requests
 REPO = "Quanta-Laboratory/Relocation-Geo"
 SITE = "https://relocation.ge"
 LINK_TTL = 14 * 24 * 3600
-MODEL = "claude-sonnet-4-6"
+MODEL = "claude-sonnet-4-6"  # drafting and checking legal text
+CHEAP_MODEL = "claude-haiku-4-5-20251001"  # triage / classification
 
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
@@ -101,12 +102,15 @@ def telegram(text: str, buttons: list[list[dict]] | None = None) -> bool:
 # Claude
 # --------------------------------------------------------------------------- #
 
-def claude(system: str, user: str, max_tokens: int = 8000) -> str:
+def claude(system: str, user: str, max_tokens: int = 8000, model: str = MODEL,
+           cache_system: bool = False) -> str:
     r = requests.post(
         "https://api.anthropic.com/v1/messages",
         headers={"x-api-key": ANTHROPIC_API_KEY, "anthropic-version": "2023-06-01",
                  "content-type": "application/json"},
-        json={"model": MODEL, "max_tokens": max_tokens, "system": system,
+        json={"model": model, "max_tokens": max_tokens,
+              "system": ([{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}]
+                         if cache_system else system),
               "messages": [{"role": "user", "content": user}]},
         timeout=300,
     )
