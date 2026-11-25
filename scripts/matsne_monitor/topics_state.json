@@ -1,0 +1,676 @@
+{
+  "pages": [
+    {
+      "slug": "about",
+      "title": "About Relocation.ge",
+      "category": "about",
+      "summary": "Relocation.ge is an independent, non-commercial, open-source project that helps people relocate to Georgia with confidence — providing accurate, transparent and continuously updated information about living, working, investing and doing business in the country.",
+      "ru": false
+    },
+    {
+      "slug": "admissions-and-enrolment-georgia",
+      "title": "University Admissions & Enrolment in Georgia for International Students",
+      "category": "students",
+      "summary": "Applying to a Georgian university as an international student means choosing an authorised institution and accredited programme, having your prior qualification recognised by the NCEQE, and preparing apostilled or legalised documents with certified translations. English-taught programmes set their own language…",
+      "ru": false
+    },
+    {
+      "slug": "ai-compliance-disclosure",
+      "title": "AI Compliance Disclosure",
+      "category": "about",
+      "summary": "How artificial intelligence is used within Relocation.ge to structure and present regulatory information, and how human oversight and official sources keep legal reliability intact.",
+      "ru": false
+    },
+    {
+      "slug": "banking-in-georgia",
+      "title": "Banking in Georgia: a guide for foreigners",
+      "category": "live",
+      "summary": "Foreigners can open accounts at major Georgian banks such as Bank of Georgia, TBC and Liberty. Requirements, documents and remote options vary by bank and residency status.",
+      "ru": false
+    },
+    {
+      "slug": "bringing-pets-to-georgia",
+      "title": "Bringing Pets to Georgia: Import Rules for Cats & Dogs (2026)",
+      "category": "live",
+      "summary": "You may bring cats, dogs and ferrets into Georgia as a non-commercial movement if each animal is identified by an ISO microchip, has a valid rabies vaccination and rabies antibody titration test, has been treated against parasites, and travels with a completed veterinary Health Certificate (an EU pet passport or…",
+      "ru": false
+    },
+    {
+      "slug": "business-statuses-georgia",
+      "title": "Business Statuses in Georgia: Which One Fits You",
+      "category": "work",
+      "summary": "Once a business is registered in Georgia, it may qualify for a special status that lowers or simplifies its tax. This overview explains the main statuses — Small Business Status for Individual Entrepreneurs, and International Company, Virtual Zone Person, VASP registration and the innovation/startup statuses for…",
+      "ru": false
+    },
+    {
+      "slug": "buying-property-in-georgia-for-foreigners",
+      "title": "Buying Property in Georgia: Real Estate Ownership for Foreigners",
+      "category": "live",
+      "summary": "Foreigners can buy and own almost any real estate in Georgia — apartments, commercial space, hotels and non-agricultural land — on the same terms as citizens, with no residency required. Ownership transfers only when the buyer's right is registered in the Public Registry. Agricultural land is the main exception.",
+      "ru": false
+    },
+    {
+      "slug": "car-insurance-in-georgia",
+      "title": "Car Insurance in Georgia (2026)",
+      "category": "live",
+      "summary": "Georgia has only one compulsory motor insurance: third-party liability (MTPL) for foreign-registered vehicles, required since 1 March 2018 for the whole stay. A 15-day policy for a car costs GEL 30, 30 days GEL 50, 90 days GEL 90 and a year GEL 295; cover is up to GEL 30,000 per injured person (GEL 300,000 per…",
+      "ru": true
+    },
+    {
+      "slug": "corporate-profit-tax-georgia",
+      "title": "Corporate (Profit) Tax in Georgia: The Estonian Model (2026)",
+      "category": "tax",
+      "summary": "Since 1 January 2017 Georgia has taxed most companies under a distribution-based 'Estonian' profit tax: profit that is retained or reinvested is not taxed, and tax falls due only when profit is distributed or deemed distributed. The standard rate is 15%, applied to the grossed-up value of four taxable events — dividend…",
+      "ru": false
+    },
+    {
+      "slug": "cost-of-living-in-georgia",
+      "title": "Cost of Living in Georgia (2026)",
+      "category": "live",
+      "summary": "Georgia is inexpensive by European standards. In Tbilisi, a single person typically budgets around USD 900–1,200 a month with rent, a couple around USD 1,300–1,800, and a family with one child around USD 1,650–2,500. Rent is the largest expense, with central Tbilisi and the Batumi seafront the priciest; food, transport…",
+      "ru": false
+    },
+    {
+      "slug": "crypto-tax-georgia",
+      "title": "Crypto Tax for Individuals in Georgia (2026)",
+      "category": "tax",
+      "summary": "For individuals, Georgia does not tax the profit from selling cryptocurrency. The position comes from Public Ruling N201 of the Minister of Finance, issued on 28 June 2019: a natural person is exempt from personal income tax on gains from selling crypto-assets, and exchanging cryptocurrency into national currency is…",
+      "ru": false
+    },
+    {
+      "slug": "d6-visa-georgia",
+      "title": "D6 Visa for Georgia: Immigration Visa for Minor Students (from 1 September 2026)",
+      "category": "immigration",
+      "summary": "D6 is a new immigration (D) sub-category added to the Law on the Legal Status of Aliens and Stateless Persons and coming into force on 1 September 2026. It is for a minor foreign national studying at an authorised Georgian institution — a higher or vocational school, or a general-education school until they finish full…",
+      "ru": false
+    },
+    {
+      "slug": "data-integrity-standard",
+      "title": "Data Integrity Standard",
+      "category": "about",
+      "summary": "How Relocation.ge collects, structures, verifies and maintains legal and regulatory information to keep migration and business guidance accurate, traceable and reliable over time.",
+      "ru": false
+    },
+    {
+      "slug": "diplomatic-visa-georgia",
+      "title": "Diplomatic (A) Visa for Georgia: A1–A5 Explained (2026)",
+      "category": "immigration",
+      "summary": "The diplomatic visa (category A) is a short-term Georgian visa for official visitors: heads of state and senior delegations (A1), accredited diplomats and their families (A2), diplomatic couriers and special missions (A3), Georgia's honorary consuls who are foreign nationals (A4), and other national-interest or…",
+      "ru": false
+    },
+    {
+      "slug": "double-tax-treaties-georgia",
+      "title": "Double Tax Treaties (DTAA) in Georgia: The Full Country List and How They Work (2026)",
+      "category": "tax",
+      "summary": "Georgia has 58 double-taxation treaties in force, all based on the OECD Model Convention. They stop the same income being taxed twice by allocating taxing rights between Georgia and the treaty partner, capping withholding tax on dividends, interest and royalties, and providing tie-breaker rules where a person is…",
+      "ru": false
+    },
+    {
+      "slug": "driving-in-georgia",
+      "title": "Driving in Georgia: Licences & Car Registration for Foreigners",
+      "category": "live",
+      "summary": "Foreigners may drive in Georgia on a valid foreign licence for up to one year after their last entry, and can exchange it for a Georgian licence without retaking the driving test. A foreign-plated car can be used for 90 days before customs clearance, and all foreign vehicles must carry compulsory MTPL insurance.",
+      "ru": false
+    },
+    {
+      "slug": "economic-activities-registry-georgia",
+      "title": "Registration in the Economic Activities Registry in Georgia",
+      "category": "work",
+      "summary": "The Economic Activities Registry is a central record of economic activities carried out in Georgia, kept by the National Agency of Public Registry. Registration is voluntary as a rule, but becomes mandatory where sector-specific legislation requires it, and in practice is needed to document an activity for other…",
+      "ru": false
+    },
+    {
+      "slug": "employing-staff-in-georgia",
+      "title": "Employing Staff in Georgia: Contracts, Payroll & Pension (2026)",
+      "category": "work",
+      "summary": "A Georgian employer hires under the Organic Law – Labour Code of Georgia: a labour agreement may be oral or written but must be in writing where the relationship runs longer than three months, a trial (probation) period may last no more than six months, the workweek must not exceed 40 hours, paid annual leave is at…",
+      "ru": false
+    },
+    {
+      "slug": "entry-rules-by-citizenship-georgia",
+      "title": "Entry Rules for Georgia by Citizenship (2026)",
+      "category": "immigration",
+      "summary": "Whether you may enter Georgia depends first on your citizenship, which places you in one of three buckets: visa-free entry (up to one full year), e-Visa, or visa required. But citizenship is not the whole story. Even a national of a visa-required country can usually enter visa-free for a short stay — typically up to 90…",
+      "ru": false
+    },
+    {
+      "slug": "everyday-essentials-georgia",
+      "title": "Everyday Essentials in Georgia: Setting Up Daily Life",
+      "category": "live",
+      "summary": "A short overview of the practical basics for settling into Georgia: getting a mobile SIM and internet, opening a bank account, receiving a personal number and tax ID with your residence permit, driving on a foreign or Georgian licence, and budgeting for the low cost of living.",
+      "ru": false
+    },
+    {
+      "slug": "family-reunification-residence-permit-georgia",
+      "title": "Family Reunification Residence Permit in Georgia (2026)",
+      "category": "immigration",
+      "summary": "The family reunification residence permit lets the family members of a foreign national who legally resides in Georgia — or of a Georgian citizen — live in the country on the basis of family unity. It is usually issued for 6 months to 1 year and is renewable while the sponsor's status and the family relationship remain…",
+      "ru": true
+    },
+    {
+      "slug": "fixed-taxpayer-status-georgia",
+      "title": "Fixed Taxpayer Status in Georgia",
+      "category": "tax",
+      "summary": "Fixed Taxpayer Status is a special tax regime for a person who is not a VAT payer and carries out one or more specific activities defined by the Government — such as bread-baking ovens (tone), hairdressing, manicure and pedicure, solarium and car repair. Instead of tax on income or profit, the taxpayer pays a set…",
+      "ru": false
+    },
+    {
+      "slug": "former-citizen-residence-permit-georgia",
+      "title": "Former Citizen Residence Permit in Georgia (2026)",
+      "category": "immigration",
+      "summary": "The Former Citizen Residence Permit is granted to a foreign national who previously held Georgian citizenship that has since ended — most often renounced or terminated when the person acquired another nationality. It is generally issued for six years and is renewable, giving former citizens a long-term basis to live in…",
+      "ru": true
+    },
+    {
+      "slug": "free-industrial-zones-georgia",
+      "title": "Free Industrial Zones in Georgia (FIZ)",
+      "category": "work",
+      "summary": "A Free Industrial Zone (FIZ) is a delimited part of Georgia with a special tax and customs regime. A company registered inside a FIZ is exempt from profit (corporate income) tax on its permitted in-zone activities, from VAT on transactions within the zone and on foreign goods brought in, from property tax on property…",
+      "ru": false
+    },
+    {
+      "slug": "georgia-for-digital-nomads",
+      "title": "Georgia for Digital Nomads (2026)",
+      "category": "work",
+      "summary": "Georgia lets citizens of 90+ countries enter visa-free and stay up to a year, taxes individuals only on Georgian-source income, and offers a 1% small-business regime for sole traders. The big 2026 change: earning income from within Georgia generally requires the right to work — though fully remote work and work for…",
+      "ru": false
+    },
+    {
+      "slug": "georgia-in-numbers",
+      "title": "Georgia in Numbers: Economy, Population & Trade (2026)",
+      "category": "about",
+      "summary": "Georgia is a small, open, upper-middle-income economy in the South Caucasus. Its population was about 3.9 million at the 2024 census (Geostat), nominal GDP reached roughly GEL 93 billion (about USD 34 billion) in 2024, and the economy grew 9.7% in real terms that year — among the fastest rates in the wider region…",
+      "ru": false
+    },
+    {
+      "slug": "georgian-citizenship-and-naturalisation",
+      "title": "Georgian Citizenship & Naturalisation (2026)",
+      "category": "immigration",
+      "summary": "Georgian citizenship is acquired either by birth or by naturalisation, and naturalisation is granted by the President of Georgia on the recommendation of the Public Service Development Agency (PSDA) and the Citizenship Commission. The main routes are regular naturalisation (for adults who have lawfully resided in…",
+      "ru": true
+    },
+    {
+      "slug": "guide-to-georgian-visas",
+      "title": "Guide to Georgian Visas: All Visa Types Explained (2026)",
+      "category": "immigration",
+      "summary": "Many nationalities can enter Georgia visa-free for up to one year. Those who need a visa choose from short-term categories (diplomatic A, special B, ordinary C, transit) or long-term immigration visas (D1–D6, with D6 in force from 1 September 2026).",
+      "ru": false
+    },
+    {
+      "slug": "guide-to-residence-permits",
+      "title": "Guide to Residence Permits in Georgia",
+      "category": "immigration",
+      "summary": "Georgia offers several residence permits depending on the purpose of stay — work, IT, investment, study, family and more. Each has its own legal basis, conditions and validity.",
+      "ru": true
+    },
+    {
+      "slug": "health-in-georgia",
+      "title": "Health in Georgia: Care and Insurance",
+      "category": "live",
+      "summary": "A short overview of health in Georgia for foreigners: accessible private clinics and well-stocked pharmacies (emergency number 112), and the insurance you need — since 1 January 2026 tourists must hold health and accident cover of at least GEL 30,000, while residents typically buy private insurance. This page links to…",
+      "ru": false
+    },
+    {
+      "slug": "health-insurance-in-georgia-for-foreigners",
+      "title": "Health Insurance in Georgia for Foreigners (2026)",
+      "category": "live",
+      "summary": "From 1 January 2026, tourists entering Georgia — regardless of nationality or whether they arrive by air, land or sea — must hold health and accident insurance with a minimum sum insured of GEL 30,000, valid for their whole stay. Border authorities may check the policy and entry can be refused without it. Long-term…",
+      "ru": false
+    },
+    {
+      "slug": "healthcare-in-georgia",
+      "title": "Healthcare in Georgia: Seeing a Doctor & Pharmacies",
+      "category": "live",
+      "summary": "Georgia has accessible private clinics and well-stocked pharmacies, concentrated in Tbilisi and Batumi, with the emergency number 112. Most foreigners pay out of pocket or use private insurance, as state cover is limited for non-citizens — so insurance is the practical backbone of healthcare here.",
+      "ru": false
+    },
+    {
+      "slug": "housing-in-georgia",
+      "title": "Housing in Georgia: Renting and Buying",
+      "category": "live",
+      "summary": "A short overview of housing in Georgia for foreigners: renting is quick and flexible, while buying is open to foreigners for almost all property except agricultural land. This page explains which route fits whom and links to the detailed guides on renting and on buying property.",
+      "ru": false
+    },
+    {
+      "slug": "immigration-visa-georgia",
+      "title": "Immigration (D) Visa for Georgia: D1–D5 Explained (2026)",
+      "category": "immigration",
+      "summary": "The immigration visa (category D) is Georgia's long-term visa and the precondition for a residence permit. D1 is for those with the right to labour activity or entrepreneurs; D2 for scientific, sporting, cultural or educational missions, freelancers, interns, volunteers and media workers; D3 for study or research at an…",
+      "ru": false
+    },
+    {
+      "slug": "importing-a-car-to-georgia",
+      "title": "Importing & Registering a Car in Georgia (2026)",
+      "category": "live",
+      "summary": "Importing a car into Georgia means clearing it through customs with the Revenue Service — paying import duty, excise and VAT — and then registering it and getting Georgian plates at the Service Agency of the Ministry of Internal Affairs.",
+      "ru": false
+    },
+    {
+      "slug": "indefinite-residence-permit-georgia",
+      "title": "Indefinite Residence Permit in Georgia (2026)",
+      "category": "immigration",
+      "summary": "Georgia's Indefinite Residence Permit is the onward step for investors. It is available to a foreigner who has held an Investment Residence Permit for five years — either on the basis of a USD 300,000 investment, with fifth-year turnover of at least the GEL equivalent of USD 120,000, or on the basis of owning immovable…",
+      "ru": true
+    },
+    {
+      "slug": "international-company-status-georgia",
+      "title": "International Company Status in Georgia: 5% tax regime for IT and maritime firms",
+      "category": "work",
+      "summary": "International Company Status is a preferential tax regime for Georgian companies in qualifying IT and maritime-services activities. It cuts profit (corporate) tax to 5%, salary income tax to 5%, exempts most business property from property tax, and exempts distributed dividends. The status is granted by the Government…",
+      "ru": false
+    },
+    {
+      "slug": "investment-residence-permit-georgia",
+      "title": "Investment Residence Permit in Georgia (2026)",
+      "category": "immigration",
+      "summary": "Georgia's Investment Residence Permit is the country's investor (golden-visa-style) route. It is granted for up to five years to foreigners who invest at least USD 300,000 (in GEL equivalent) in Georgia, or who own non-agricultural real estate with a market value above USD 300,000. The investment route carries annual…",
+      "ru": true
+    },
+    {
+      "slug": "investor-guarantees-in-georgia",
+      "title": "Investor Guarantees in Georgia: rights and protections for foreign investors",
+      "category": "work",
+      "summary": "Georgian law guarantees foreign investors no less than the rights of local investors, the free repatriation of profits abroad, and protection against expropriation except by court decision with market-value compensation.",
+      "ru": false
+    },
+    {
+      "slug": "it-residence-permit-georgia",
+      "title": "IT Residence Permit in Georgia (2026)",
+      "category": "immigration",
+      "summary": "Georgia's IT Residence Permit is a dedicated route for foreign IT professionals, founders and company representatives, and their family members. It is issued for three years and renewable. Three categories qualify — IT migrants, IT entrepreneurs holding Small Business Status, and representatives of international IT…",
+      "ru": true
+    },
+    {
+      "slug": "joint-stock-company-georgia",
+      "title": "Joint-Stock Company (JSC) in Georgia",
+      "category": "work",
+      "summary": "A Joint-Stock Company (JSC) is a company whose capital is divided into shares, governed by the Law of Georgia on Entrepreneurs. Shareholders have limited liability, restricted to the value of their shares, and shares can be transferred, sold and in some cases publicly traded, which makes the form suited to larger…",
+      "ru": false
+    },
+    {
+      "slug": "learning-georgian-language",
+      "title": "Learning Georgian: Language & Integration",
+      "category": "live",
+      "summary": "An orientation to the Georgian language for people settling in Georgia. Georgian (kartuli) is the state language and is written in its own 33-letter Mkhedruli alphabet, with no capital letters and a close match between letters and sounds. Most day-to-day life in Tbilisi and Batumi is possible with English and Russian,…",
+      "ru": false
+    },
+    {
+      "slug": "legal-address-for-business-georgia",
+      "title": "Legal Address for a business in Georgia",
+      "category": "work",
+      "summary": "Under Georgian law, every registered business must have a legal address — the official point of communication between the business and public authorities, courts and third parties. It applies to companies and to individual entrepreneurs alike, is recorded in the Entrepreneurial Registry maintained by the National…",
+      "ru": false
+    },
+    {
+      "slug": "list-of-banks-in-georgia",
+      "title": "Banks in Georgia: Full List of Licensed Banks and What They Offer (2026)",
+      "category": "live",
+      "summary": "The National Bank of Georgia licenses 17 commercial banks. The market is dominated by two universal banks — Bank of Georgia and TBC — with Liberty Bank holding the widest branch network; alongside them are foreign-group banks (ProCredit, Ziraat, Isbank, Halyk, PASHA, Basisbank), the microfinance-origin Credo Bank, and…",
+      "ru": true
+    },
+    {
+      "slug": "living-in-batumi",
+      "title": "Living in Batumi: A Guide for Newcomers",
+      "category": "live",
+      "summary": "A factual overview of Batumi for people relocating: Georgia's main Black Sea resort city and port, its mild but very wet subtropical climate, its compact seafront districts, how it connects by road, rail and air, and who it suits. Batumi is smaller and more seasonal than Tbilisi, built around the coast and tourism.",
+      "ru": false
+    },
+    {
+      "slug": "living-in-tbilisi",
+      "title": "Living in Tbilisi: A Guide for Newcomers",
+      "category": "live",
+      "summary": "A factual overview of Tbilisi for people relocating: the capital's size and setting, its humid-subtropical climate, the neighbourhoods newcomers most often choose, how the city connects by metro, bus and air, and who it suits. Tbilisi is Georgia's business, cultural and administrative centre and home to about a third…",
+      "ru": false
+    },
+    {
+      "slug": "manifesto",
+      "title": "Our Manifesto",
+      "category": "about",
+      "summary": "Why Relocation.ge exists: a short manifesto on removing uncertainty from relocation. We believe trusted information creates opportunity, transparency builds confidence, and knowledge empowers freedom — and that borders should never become barriers to human potential because of missing information.",
+      "ru": false
+    },
+    {
+      "slug": "marriage-and-birth-registration-georgia",
+      "title": "Marriage & Birth Registration in Georgia",
+      "category": "live",
+      "summary": "How marriages and births are registered in Georgia through the Public Service Development Agency (PSDA) and Public Service Hall. A marriage can be registered between two foreign nationals as well as between a foreigner and a Georgian citizen: the couple file a joint application, present identity documents and — for…",
+      "ru": false
+    },
+    {
+      "slug": "methodology",
+      "title": "Methodology",
+      "category": "about",
+      "summary": "How Relocation.ge structures official legal provisions into clear guidance: sources, review process, versioning and scope.",
+      "ru": false
+    },
+    {
+      "slug": "micro-business-status-georgia",
+      "title": "Micro Business Status in Georgia (0% Tax)",
+      "category": "tax",
+      "summary": "Micro Business Status is a special tax regime for an individual who carries out small-scale economic activity personally, without hired labour, and whose qualifying gross income does not exceed GEL 30,000 in a calendar year. Qualifying income is exempt from personal income tax (0%). A VAT payer cannot hold the status,…",
+      "ru": false
+    },
+    {
+      "slug": "migration-to-georgia-data",
+      "title": "Migration to Georgia: What the Official Data Shows (2012–2024)",
+      "category": "immigration",
+      "summary": "Official figures show two opposite trends: Georgian citizens have left in net terms for most of the past decade, while foreign citizens have consistently moved in. Russia's 2022 invasion of Ukraine drove a sharp surge of arrivals from Russia, Ukraine and Belarus that eased through 2023–2024.",
+      "ru": false
+    },
+    {
+      "slug": "mobile-and-internet-in-georgia",
+      "title": "Mobile & Internet in Georgia",
+      "category": "live",
+      "summary": "Georgia has cheap, fast and widely available connectivity. Three main operators — Magti, Silknet and Cellfie — sell prepaid SIMs on a passport, mobile data is inexpensive, and home fibre internet is common in cities. A Georgian number is more than a convenience: government and banking services authenticate by SMS code…",
+      "ru": false
+    },
+    {
+      "slug": "mobile-operators-georgia",
+      "title": "Mobile Operators in Georgia: Magti, Silknet and Cellfie Compared",
+      "category": "live",
+      "summary": "Georgia has three mobile network operators: Magti (Magticom), Silknet — whose mobile brand is Geocell — and Cellfie Mobile, formerly Beeline. All three run 4G and 5G and support eSIM, so an arriving traveller can be online in minutes. Magti markets the widest coverage and sells a Welcome SIM at the airport; Magti and…",
+      "ru": false
+    },
+    {
+      "slug": "nbg-high-risk-jurisdictions-georgia",
+      "title": "High-risk jurisdictions under Georgian AML law: Article 19 and the National Bank of Georgia list (2026)",
+      "category": "live",
+      "summary": "On the recommendation of the Financial Monitoring Service, the National Bank of Georgia approves the list of high-risk jurisdictions under Article 19 of the AML/CFT Law. The current version is Order No 12/04 of 21 January 2026: 33 countries and territories. Russia, Belarus and other CIS states are not on it. Banks must…",
+      "ru": true
+    },
+    {
+      "slug": "ordinary-visa-georgia",
+      "title": "Ordinary (C) Visa for Georgia: C1–C5 Explained (2026)",
+      "category": "immigration",
+      "summary": "The ordinary visa (category C) is the everyday short-term Georgian visa for people who need a visa to visit: C1 for tourism, C2 for visiting relatives and friends, C3 for business meetings, conferences, journalism, ship crews and international drivers, C4 for humanitarian, medical, guardianship and pilgrimage visits,…",
+      "ru": false
+    },
+    {
+      "slug": "permanent-residence-permit-georgia",
+      "title": "Permanent Residence Permit in Georgia (2026)",
+      "category": "immigration",
+      "summary": "Georgia's Permanent Residence Permit gives foreigners the right to live in the country indefinitely. There are two routes: being a close family member of a Georgian citizen — a spouse, a minor child, or a parent of a minor Georgian citizen — or having lived legally in Georgia for the last ten years on temporary…",
+      "ru": true
+    },
+    {
+      "slug": "personal-income-tax-georgia",
+      "title": "Personal Income Tax and Territorial Taxation in Georgia (2026)",
+      "category": "tax",
+      "summary": "Georgia taxes personal income at a flat 20% and applies a territorial system to individuals: a resident is generally taxed only on Georgian-source income, while foreign-source income of a resident natural person is exempt under Article 82 of the Tax Code, and non-residents are taxed only on Georgian-source income under…",
+      "ru": false
+    },
+    {
+      "slug": "personal-number-and-tax-id-georgia",
+      "title": "Getting a Personal Number & Tax ID in Georgia",
+      "category": "live",
+      "summary": "Foreign residents receive an 11-digit personal number with their Georgian ID card, which requires a residence permit and is issued by the Public Service Development Agency. Foreigners without residence can instead get a 9-digit tax identification number (TIN) from the Revenue Service — no residence permit needed.",
+      "ru": false
+    },
+    {
+      "slug": "property-tax-declaration-georgia-2026",
+      "title": "Property Tax Declaration in Georgia (2026)",
+      "category": "tax",
+      "summary": "In 2026 a resident individual in Georgia must declare and pay property tax only if the family's income in the previous calendar year exceeded GEL 100,000; below that, taxable property other than land is exempt (Tax Code art. 206.1.a). The declaration is filed with the Revenue Service by 1 November and the tax paid by…",
+      "ru": false
+    },
+    {
+      "slug": "property-tax-georgia",
+      "title": "Property Tax in Georgia (2026)",
+      "category": "tax",
+      "summary": "Property tax in Georgia is a local tax under the Tax Code. For individuals it depends on household income: a resident's taxable property is exempt where the family's annual income in the preceding year does not exceed GEL 100,000 (the threshold was raised from GEL 40,000, effective 1 October 2026); above GEL 100,000…",
+      "ru": false
+    },
+    {
+      "slug": "public-holidays-in-georgia",
+      "title": "Public Holidays in Georgia (2026)",
+      "category": "live",
+      "summary": "Georgia has 14 fixed public holidays plus a four-day Easter block, set by Article 30 of the Labour Code — 18 days in a typical year. Fourteen fall on the same date every year, from New Year on 1–2 January to St George's Day on 23 November; the Easter block moves with the Orthodox calendar, falling on 10–13 April in…",
+      "ru": false
+    },
+    {
+      "slug": "recognition-of-foreign-diplomas-georgia",
+      "title": "Recognition of Foreign Diplomas in Georgia (NCEQE)",
+      "category": "students",
+      "summary": "The NCEQE is Georgia's official body for recognising foreign qualifications and for legalising or apostilling Georgian educational documents. Recognition verifies a document's authenticity and compares the qualification with Georgian standards — and it is also the route to using a Georgian degree abroad.",
+      "ru": false
+    },
+    {
+      "slug": "register-individual-entrepreneur-in-person-georgia",
+      "title": "How to Register an Individual Entrepreneur in Person in Georgia (2026)",
+      "category": "work",
+      "summary": "A foreign national who is physically present in Georgia can register an Individual Entrepreneur (IE) in person at the Public Service Hall, usually within one working day. You need your passport, a Georgian phone number and a legal address; registration itself is completed on-site and your data is then linked to the…",
+      "ru": false
+    },
+    {
+      "slug": "register-individual-entrepreneur-remotely",
+      "title": "How to Register an Individual Entrepreneur Remotely (2026)",
+      "category": "work",
+      "summary": "Georgia allows a foreign national to register an Individual Entrepreneur (IE) without travelling to the country, by issuing a notarised and apostilled Power of Attorney to a representative who completes the registration at the Public Service Hall. Registration itself usually takes 1–5 working days once documents are in…",
+      "ru": true
+    },
+    {
+      "slug": "registering-a-company-in-georgia",
+      "title": "Registering a Company in Georgia: Business Forms and Setup",
+      "category": "work",
+      "summary": "Under the Law of Georgia on Entrepreneurs, foreigners can set up a Georgian company on the same terms as locals. Registration is handled by the National Agency of Public Registry, counts as both state and tax registration, and the company exists from the moment it is registered. The law recognises five company forms —…",
+      "ru": false
+    },
+    {
+      "slug": "renting-a-home-in-georgia",
+      "title": "Renting a Home in Georgia: Tenant and Landlord Rules",
+      "category": "live",
+      "summary": "Residential tenancies in Georgia are governed by the Civil Code (Articles 531–575). Rent and deposits are freely negotiated, a lease with no stated term is treated as indefinite and can be ended on three months' notice, and any termination must be made in writing.",
+      "ru": false
+    },
+    {
+      "slug": "right-to-work-georgia",
+      "title": "The Right to Work in Georgia: Labour-Migration Permit Explained (2026)",
+      "category": "immigration",
+      "summary": "The 'right to work' is the permission a foreign national needs to take paid employment or run a business for economic benefit in Georgia. Since the 2026 labour-migration reform it is a distinct authorisation, granted by the Ministry of Labour through its electronic labour-migration system, separate from any residence…",
+      "ru": true
+    },
+    {
+      "slug": "run-a-business-in-georgia",
+      "title": "Run a Business in Georgia: IE, LLC and Statuses",
+      "category": "work",
+      "summary": "A short overview of how to do business in Georgia: register as an Individual Entrepreneur (IE) for solo and freelance activity, or set up a company (usually an LLC) when you have partners or want limited liability. Both can then apply for special tax statuses. This page explains which route fits whom, and links to the…",
+      "ru": false
+    },
+    {
+      "slug": "running-a-company-in-georgia",
+      "title": "Running a Company in Georgia: Governance and Ongoing Rules",
+      "category": "work",
+      "summary": "Once registered, a Georgian company is run through its general meeting and management body, with a supervisory board only where law or the charter requires one. A regular general meeting must be held at least once a year, registry data must be kept up to date, and the Law on Entrepreneurs sets clear rules for…",
+      "ru": false
+    },
+    {
+      "slug": "scholarships-in-georgia",
+      "title": "Scholarships for Studying in Georgia",
+      "category": "students",
+      "summary": "Funding for international students in Georgia comes mainly from EU Erasmus+ programmes, a limited number of Georgian government and bilateral scholarships, and university-level tuition discounts. Most international students still largely self-fund, helped by Georgia's low tuition and living costs.",
+      "ru": false
+    },
+    {
+      "slug": "schools-in-georgia-for-children",
+      "title": "Schools in Georgia for Children: Public, Private & International (2026)",
+      "category": "students",
+      "summary": "A practical overview for relocating families of K-12 schooling in Georgia: how general education is structured into primary, basic and secondary levels; the difference between state (public), private and international schools and the curricula they follow (Georgian national, British, IB and American); whether foreign…",
+      "ru": false
+    },
+    {
+      "slug": "short-term-residence-permit-property-georgia",
+      "title": "Short-Term Residence Permit in Georgia by Property (2026)",
+      "category": "immigration",
+      "summary": "Georgia's Short-Term Residence Permit lets owners of Georgian real estate live in the country on the strength of their property. To qualify, a foreigner must own non-agricultural immovable property in Georgia whose market value exceeds the equivalent of USD 150,000 in GEL, confirmed by a certified valuer. The permit is…",
+      "ru": true
+    },
+    {
+      "slug": "small-business-status-georgia",
+      "title": "Small Business Status in Georgia (1% Turnover Tax)",
+      "category": "tax",
+      "summary": "Small Business Status is a special tax regime for an Individual Entrepreneur that taxes qualifying turnover at 1%, rising to 3% once income exceeds GEL 500,000 in a calendar year (GEL 700,000 for wine tourism and agritourism). Registering the IE and obtaining the status are two separate steps: you apply to the tax…",
+      "ru": false
+    },
+    {
+      "slug": "small-business-tax-obligations-georgia",
+      "title": "Tax Obligations of a Small Business in Georgia: What Starts When You Begin Trading",
+      "category": "tax",
+      "summary": "Once an Individual Entrepreneur with Small Business Status begins economic activity, a set of recurring obligations starts running. The core one is a monthly turnover declaration filed by the 15th of the following month, with the 1% tax paid on the same date (3% above GEL 500,000 in a calendar year). Alongside it you…",
+      "ru": false
+    },
+    {
+      "slug": "special-residence-permit-georgia",
+      "title": "Special Residence Permit in Georgia (2026)",
+      "category": "immigration",
+      "summary": "The Special Residence Permit is a discretionary and protective category granted to foreigners in specific circumstances. It covers four situations: residence initiated in writing by a member of the Government of Georgia; victims and injured parties of human trafficking; persons who previously held the right of…",
+      "ru": true
+    },
+    {
+      "slug": "special-tax-regimes-georgia",
+      "title": "Special Tax Regimes in Georgia: Small, Micro and Fixed Status",
+      "category": "tax",
+      "summary": "Georgia offers three simplified tax regimes for individuals and small entrepreneurs instead of the standard system. Micro Business Status taxes qualifying activity at 0% up to GEL 30,000 of annual turnover. Small Business Status taxes turnover at 1% (rising to 3% above GEL 500,000). Fixed Taxpayer Status replaces…",
+      "ru": false
+    },
+    {
+      "slug": "special-visa-georgia",
+      "title": "Special (B) Visa for Georgia: B1–B4 Explained (2026)",
+      "category": "immigration",
+      "summary": "The special visa (category B) is a short-term Georgian visa for semi-official travel: members of foreign delegations and holders of service/official passports (B1), administrative, technical and service staff of diplomatic missions and international-organisation offices and their families (B2), people arriving under…",
+      "ru": false
+    },
+    {
+      "slug": "startup-support-georgia",
+      "title": "Startup Support in Georgia: Innovation Tax Statuses, Grants & Accelerators (2026)",
+      "category": "work",
+      "summary": "Georgia overhauled its startup support in mid-2025. A reform of the Law on Innovations (Law No 718 of 24 June 2025, in force from late September 2025) created three new tax-advantaged statuses — Innovative Startup, Innovative SME, and R&D Service Provider — administered through GITA's Innovations Registry. The…",
+      "ru": false
+    },
+    {
+      "slug": "student-visa-and-residence-georgia",
+      "title": "Student Visa & Residence in Georgia (D3)",
+      "category": "students",
+      "summary": "International students enter Georgia on the D3 immigration visa, issued for study or research at an authorised institution, and then convert it into a study (temporary) residence permit to stay for the length of their programme. The study residence permit is issued by the Public Service Development Agency, usually for…",
+      "ru": true
+    },
+    {
+      "slug": "studying-in-georgia",
+      "title": "Studying in Georgia: A Guide for International Students",
+      "category": "students",
+      "summary": "A short overview of studying in Georgia as an international student: choosing an authorised university and accredited programme, getting admitted (and having a prior diploma recognised by the NCEQE), funding your studies through tuition and scholarships, and the D3 student visa and study residence permit that let you…",
+      "ru": false
+    },
+    {
+      "slug": "studying-medicine-in-georgia",
+      "title": "Studying Medicine in Georgia (MD/MBBS) for International Students",
+      "category": "students",
+      "summary": "Georgia is a major destination for international medical students: six-year MD (MBBS) programmes taught in English, tuition typically around USD 4,000–8,000 a year, and degrees from leading universities listed in the World Directory of Medical Schools. Recognition for licensing always depends on your home country's…",
+      "ru": false
+    },
+    {
+      "slug": "tax-residency-georgia",
+      "title": "Tax Residency in Georgia: The 183-Day Rule and the HNWI Route (2026)",
+      "category": "tax",
+      "summary": "Georgia decides individual tax residency mainly on physical presence: under Article 34 of the Tax Code, a person who spends 183 days or more in Georgia in any continuous 12-month period ending in the tax year is a Georgian tax resident for that entire year. There is also a High Net Worth Individual (HNWI) route, set by…",
+      "ru": true
+    },
+    {
+      "slug": "temporary-residence-permit-domestic-violence-georgia",
+      "title": "Temporary Residence Permit for Victims of Domestic Violence in Georgia (2026)",
+      "category": "immigration",
+      "summary": "Georgia provides a dedicated temporary residence permit for foreign victims of domestic violence and violence against women, issued under the framework of the Law on the Elimination of Violence against Women and/or Domestic Violence. It is available to a foreigner recognised as a victim — for example through a…",
+      "ru": true
+    },
+    {
+      "slug": "terminating-an-individual-entrepreneur-georgia-remotely",
+      "title": "Terminating an Individual Entrepreneur in Georgia (2026)",
+      "category": "work",
+      "summary": "If you no longer need your Individual Entrepreneur (IE) status in Georgia, you must formally terminate it through the National Agency of Public Registry and close your tax obligations with the Revenue Service. An IE remains active until it is cancelled, so stopping activity alone is not enough. Termination can be…",
+      "ru": false
+    },
+    {
+      "slug": "trademark-registration-georgia",
+      "title": "Trademark Registration in Georgia (2026)",
+      "category": "work",
+      "summary": "Trademarks in Georgia are registered by Sakpatenti, the National Intellectual Property Center, under the Law of Georgia on Trademarks. A standard registration takes about a year: formal examination (1 month), substantive examination (up to 6 months), publication, and a 3-month opposition window. An accelerated route…",
+      "ru": true
+    },
+    {
+      "slug": "transit-visa-georgia",
+      "title": "Transit (T) Visa for Georgia (2026)",
+      "category": "immigration",
+      "summary": "The transit visa (category T) is a short-term Georgian visa for passing through Georgia — up to 10 days — on the way to a third country. It is one of the five visa categories. You only need it if your nationality requires a visa and you are genuinely transiting rather than visiting; travellers on the visa-free list do…",
+      "ru": false
+    },
+    {
+      "slug": "tuition-and-cost-of-studying-georgia",
+      "title": "Tuition Fees & Cost of Studying in Georgia",
+      "category": "students",
+      "summary": "Studying in Georgia is affordable by international standards. English-taught degrees commonly cost around USD 3,000–8,000 a year, with medicine at the higher end, and students typically budget another USD 400–700 a month for living. Figures vary by university and city — always confirm current fees directly.",
+      "ru": false
+    },
+    {
+      "slug": "universities-in-georgia",
+      "title": "Universities in Georgia: Higher Education for International Students",
+      "category": "students",
+      "summary": "Georgian higher education follows the Bologna three-cycle system and is overseen by the NCEQE, which authorises institutions and accredits programmes. Many universities teach degrees in English — especially medicine, dentistry, business and IT — but international recognition depends on a university holding…",
+      "ru": false
+    },
+    {
+      "slug": "use-of-materials",
+      "title": "Use of Materials",
+      "category": "about",
+      "summary": "How Relocation.ge's materials may be used — supporting open access to legal information while protecting the intellectual structure, methodology and analytical processing developed within the platform.",
+      "ru": false
+    },
+    {
+      "slug": "vasp-georgia",
+      "title": "Virtual Asset Service Providers (VASPs) in Georgia",
+      "category": "work",
+      "summary": "Since 1 January 2023 anyone providing virtual asset (crypto) services in Georgia must register with the National Bank of Georgia and meet Fit-and-Proper and AML/CFT requirements. The framework defines what counts as a virtual asset service, who must register, and what other financial institutions may also offer. Crypto…",
+      "ru": false
+    },
+    {
+      "slug": "vat-in-georgia",
+      "title": "VAT in Georgia: Rates, Registration & Reverse Charge (2026)",
+      "category": "tax",
+      "summary": "Georgia's standard VAT rate is 18%. A person must register for VAT once taxable turnover exceeds GEL 100,000 in any continuous 12-month period; below that, registration is voluntary. Supplies can be taxable at 18%, exempt (for example many financial, medical and education services), or zero-rated (notably exports). VAT…",
+      "ru": false
+    },
+    {
+      "slug": "virtual-zone-person-georgia",
+      "title": "Virtual Zone Person Status in Georgia: 0% tax on exported IT",
+      "category": "work",
+      "summary": "Virtual Zone Person status is a tax regime for Georgian IT companies. Profit earned from supplying information technologies created by the company to customers outside Georgia is exempt from profit tax, that supply is exempt from VAT, and exports of the IT carry no export duty. The status is granted within 10 working…",
+      "ru": false
+    },
+    {
+      "slug": "visa-free-entry-georgia",
+      "title": "Visa-Free Entry & the One-Year Rule in Georgia (2026)",
+      "category": "immigration",
+      "summary": "Citizens of more than 90 countries can enter Georgia without a visa and stay for one full year — 365 days — under Government of Georgia Ordinance No 255. The list covers the EU, the UK, the US, Canada, Australia, the Gulf states and many others, and EU/UK nationals may enter on a national ID card. The one-year clock…",
+      "ru": false
+    },
+    {
+      "slug": "where-to-live-in-georgia",
+      "title": "Where to Live in Georgia: Cities & Regions",
+      "category": "live",
+      "summary": "A short, factual overview of where newcomers settle in Georgia. Most foreign residents choose between Tbilisi — the capital and the country's business, cultural and administrative hub — and Batumi, the Black Sea resort city and port.",
+      "ru": false
+    },
+    {
+      "slug": "work-residence-permit-georgia",
+      "title": "Work Residence Permit in Georgia (2026)",
+      "category": "immigration",
+      "summary": "The work residence permit lets a foreign national live in Georgia on the basis of labour activity here — employment with a Georgian employer or self-employment/entrepreneurial activity. The applicant must show sufficient monthly income. Family members can join through family reunification.",
+      "ru": true
+    },
+    {
+      "slug": "working-while-studying-georgia",
+      "title": "Working While Studying in Georgia",
+      "category": "students",
+      "summary": "Holding a study residence permit does not by itself give the right to work in Georgia. Since 1 March 2026, most foreign nationals — students included — need a separate 'Right to Labour Activity' work permit to take paid employment or run a business, on top of their study status.",
+      "ru": false
+    }
+  ]
+}
