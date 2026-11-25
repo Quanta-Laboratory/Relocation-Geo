@@ -110,7 +110,8 @@ def claude(system: str, user: str, max_tokens: int = 8000) -> str:
               "messages": [{"role": "user", "content": user}]},
         timeout=300,
     )
-    r.raise_for_status()
+    if r.status_code >= 400:
+        raise RuntimeError(f"Anthropic API {r.status_code}: {r.text[:300]}")
     return "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
 
 

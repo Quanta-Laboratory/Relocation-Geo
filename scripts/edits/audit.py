@@ -92,7 +92,8 @@ def check_page(slug: str, acts: list[dict]) -> list[dict]:
         return []
     blocks = []
     for a in acts:
-        txt = doc_text(a["link"])[:7000]
+        txt = doc_text(a["link"])[:6000].encode("utf-8", "ignore").decode("utf-8")
+        txt = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", " ", txt)
         blocks.append(f"=== ACT id={a['id']} published={a['published'] or a['date']} ===\n{a['title_en']}\n{a['title_ka']}\n{txt or '(text unavailable)'}")
         time.sleep(1)
     out = extract_json(claude(CHECK_SYSTEM, f"PAGE slug={slug}:\n{page.read_text(encoding='utf-8')}\n\n" + "\n\n".join(blocks), 3000))
@@ -105,7 +106,18 @@ def main() -> int:
     docs = entries()
     print(f"Auditing {len(docs)} logged documents against {len(pages)} pages.")
 
-    scores: dict[str, dict] = {}
+    # Scores and page verdicts are cached in audits/state.json so a re-run only
+    # does the missing work (e.g. pages that failed last time).
+    OUT_DIR.mkdir(exist_ok=True)
+    state_file = OUT_DIR / "state.json"
+    try:
+        state = json.loads(state_file.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        state = {}
+    scores: dict[str, dict] = state.get("scores", {})
+    todo = [d for d in docs if d["id"] not in scores]
+    print(f"Cached scores: {len(scores)}; to score: {len(todo)}")
+    docs_all, docs = docs, todo
     for i in range(0, len(docs), BATCH):
         try:
             for r in score_batch(docs[i:i + BATCH], pages):
@@ -113,6 +125,9 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001
             print(f"WARN: batch {i} failed: {exc}")
         print(f"scored {min(i + BATCH, len(docs))}/{len(docs)}")
+    docs = docs_all
+    state["scores"] = scores
+    state_file.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
 
     by_id = {d["id"]: d for d in docs}
     relevant = [(by_id[i], s) for i, s in scores.items() if i in by_id and s["score"] >= 2]
@@ -126,8 +141,10 @@ def main() -> int:
             gaps.append((d, s))
     print(f"Relevant: {len(relevant)} docs; pages to check: {len(per_page)}; gaps: {len(gaps)}")
 
-    findings: dict[str, list[dict]] = {}
+    findings: dict[str, list[dict]] = state.get("findings", {})
     for slug, acts in sorted(per_page.items(), key=lambda kv: -len(kv[1])):
+        if slug in findings:
+            continue
         acts = sorted(acts, key=lambda a: (-a["score"], a["date"]), reverse=False)[:MAX_ACTS_PER_PAGE]
         try:
             verdicts = check_page(slug, acts)
@@ -137,6 +154,8 @@ def main() -> int:
         findings[slug] = [{**next((a for a in acts if a["id"] == str(v.get("id"))), {"id": str(v.get("id"))}), **v}
                           for v in verdicts]
         print(slug, [(v.get("id"), v.get("status")) for v in verdicts])
+        state["findings"] = findings
+        state_file.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
 
     # ---- report -----------------------------------------------------------------
     today = dt.date.today().isoformat()
@@ -163,12 +182,19 @@ def main() -> int:
              f"Документов с {docs[0]['date'] if docs else '—'}: {len(docs)} · относятся к сайту: {len(relevant)}\n"
              f"Проверено страниц: {len(findings)} · <b>устарело: {len(outdated)}</b> · тем без статьи: {len(gaps)}\n"
              f"Полный отчёт: https://github.com/Quanta-Laboratory/Relocation-Geo/blob/main/scripts/edits/audits/{today}.md")
+    sent = set(state.get("sent", []))
     for slug, f in outdated:
+        key = f"{slug}:{f.get('id')}"
+        if key in sent:
+            continue
+        sent.add(key)
         telegram(f"🔴 <b>{html.escape(titles.get(slug, slug))}</b>\n{SITE}/en/{slug}/\n\n"
                  f"📄 {html.escape(f.get('title_en', '')[:250])} ({html.escape(f.get('published') or f.get('date', ''))})\n"
                  f"⚠️ {html.escape(f.get('what_ru', ''))}",
                  [[{"text": "✍️ Подготовить правку", "url": start_url(f["id"], [slug])}]])
         time.sleep(1)
+    state["sent"] = sorted(sent)
+    state_file.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
     if gaps:
         msg = "✍️ <b>Темы, которых нет на сайте</b> (кандидаты на новые статьи):\n" + "\n".join(
             f"• {html.escape(s['topic'] or d['title_en'][:100])}" for d, s in gaps[:15])
