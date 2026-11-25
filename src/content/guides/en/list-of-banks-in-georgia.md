@@ -5,9 +5,11 @@ parent: everyday-essentials-georgia
 lang: "en"
 notice: 'This is a directory of the banks licensed by the National Bank of Georgia, with each bank''s focus and product range. Specifics — remote onboarding for foreigners, minimum balances, fees and rates — change often and are set by each bank; confirm on the bank''s own site before you rely on them.'
 summary: "The National Bank of Georgia licenses 17 commercial banks. The market is dominated by two universal banks — Bank of Georgia and TBC — with Liberty Bank holding the widest branch network; alongside them are foreign-group banks (ProCredit, Ziraat, Isbank, Halyk, PASHA, Basisbank), the microfinance-origin Credo Bank, and three new digital banks (Paysera, Hash, Pave). This page lists every licensed bank with a short profile and the products it offers."
-reviewed: 2026-08-31
+reviewed: 2026-11-25
 checked: 2026-11-25
 sources:
+  - name: "Deposit Insurance Agency Order No. 35/ნ of 25 September 2026 on Setting the Maximum Compensation Limit for Insured Deposits"
+    url: https://www.matsne.gov.ge/ka/document/view/7008577
   - name: "National Bank of Georgia — register of licensed commercial banks"
     url: "https://nbg.gov.ge/en/licensed-commercial-banks"
   - name: "National Bank of Georgia — commercial bank supervision"
@@ -209,6 +211,6 @@ A fully **digital, institution/corporate-focused** "programmable" bank (licence 
 
 For everyday personal banking, most foreigners land on **Bank of Georgia** or **TBC** for their English apps and service, or a **digital bank** if they want to open remotely. **Business** and **corporate** needs are also served by ProCredit, PASHA, Cartu and the foreign-group banks. Whichever you pick, the deciding factors in practice are current onboarding policy for your nationality, remote-opening availability, and the specific products you need — all set by the bank and subject to change.
 
-Deposits at licensed Georgian banks are covered by the country's **deposit insurance** scheme up to the statutory limit; check the current coverage amount with the Deposit Insurance Agency or the bank.
+Deposits at licensed Georgian banks are covered by the country's **deposit insurance** scheme up to the statutory limit. From 1 January 2027 that limit is **100,000 GEL per depositor** (Deposit Insurance Agency Order No. 35/ნ of 25 September 2026); confirm the current figure with the Deposit Insurance Agency or the bank.
 
 **This is general information, not financial advice.** Bank ownership, product ranges, foreigner-acceptance and remote-onboarding policies change; the list of licensed banks is maintained by the National Bank of Georgia. Confirm the current position with the National Bank of Georgia and the individual bank before you rely on anything here.
