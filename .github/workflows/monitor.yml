@@ -20,6 +20,10 @@ on:
         description: 'Send a DEMO impact alert (with buttons) to Telegram, then exit'
         type: boolean
         default: false
+      relevance_backtest:
+        description: 'Score the last N logged documents with the relevance filter and send a summary (e.g. 40); empty = normal run'
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -90,10 +94,13 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TEST_TELEGRAM: ${{ github.event.inputs.test_telegram }}
           TODAY_LIST: ${{ github.event.inputs.today_list }}
-          # Only documents that affect relocation.ge are pushed (by impact.py);
-          # the evening digest still lists everything. Set to '1' to get every doc.
-          NOTIFY_EACH: '0'
-        run: python scripts/matsne_monitor/monitor.py
+          RELEVANCE_BACKTEST: ${{ github.event.inputs.relevance_backtest }}
+        run: |
+          if [ -n "$RELEVANCE_BACKTEST" ]; then
+            cd scripts/matsne_monitor && python relevance.py --backtest "$RELEVANCE_BACKTEST"
+          else
+            python scripts/matsne_monitor/monitor.py
+          fi
 
       - name: Commit state and log if changed
         if: github.event.inputs.sample_impact != 'true'
@@ -103,6 +110,7 @@ jobs:
           git add scripts/matsne_monitor/state.json 2>/dev/null || true
           git add scripts/matsne_monitor/changes_log.md 2>/dev/null || true
           git add scripts/matsne_monitor/watchlist_state.json 2>/dev/null || true
+          git add scripts/matsne_monitor/topics_state.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
@@ -114,7 +122,7 @@ jobs:
       # Relevance filter → proposed edits → PR → Telegram with ✅/❌ buttons.
       # Runs after the state commit so the PR branches start from fresh main.
       - name: Impact analysis (relocation.ge pages)
-        if: github.event.inputs.test_telegram != 'true' && github.event.inputs.today_list != 'true' && github.event.inputs.sample_impact != 'true'
+        if: github.event.inputs.test_telegram != 'true' && github.event.inputs.today_list != 'true' && github.event.inputs.sample_impact != 'true' && github.event.inputs.relevance_backtest == ''
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

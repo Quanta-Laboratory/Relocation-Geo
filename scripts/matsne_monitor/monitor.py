@@ -43,6 +43,7 @@ from pathlib import Path
 
 import requests
 
+import relevance
 import watchlist
 
 # --------------------------------------------------------------------------- #
@@ -91,11 +92,6 @@ USER_AGENT = "relocation-ge-matsne-monitor/1.0 (+https://relocation.ge)"
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
-
-# Per-document "🆕 New document" pushes. Set NOTIFY_EACH=0 to stay quiet and let
-# impact.py report only documents that affect relocation.ge (the daily digest
-# still lists everything).
-NOTIFY_EACH = os.environ.get("NOTIFY_EACH", "1").strip().lower() not in ("0", "false", "no")
 
 # Hand-off to impact.py (same job, not committed).
 NEW_DOCS_FILE = BASE_DIR / ".new_docs.json"
@@ -296,11 +292,16 @@ def send_telegram(text: str) -> bool:
         return False
 
 
-def format_message(item: dict, title_en: str, topic_en: str, translated: bool) -> str:
+def format_message(item: dict, title_en: str, topic_en: str, translated: bool,
+                   rel_block: str = "") -> str:
     note = "" if translated else "\n\n<i>Translation skipped — showing Georgian original.</i>"
     lines = [
         "<b>🆕 New document on matsne.gov.ge</b>",
         "",
+    ]
+    if rel_block:
+        lines += [rel_block, ""]
+    lines += [
         f"📅 {html.escape(item.get('pub_date') or '—')}",
         f"🔢 {html.escape(item.get('id') or '—')}",
         f"📄 {html.escape(title_en or '—')}",
@@ -326,7 +327,8 @@ def ensure_log_header() -> None:
         )
 
 
-def append_log(item: dict, title_en: str, topic_en: str, translated: bool) -> None:
+def append_log(item: dict, title_en: str, topic_en: str, translated: bool,
+               rel: dict | None = None) -> None:
     ensure_log_header()
     stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     flag = "" if translated else " _(translation skipped)_"
@@ -341,6 +343,8 @@ def append_log(item: dict, title_en: str, topic_en: str, translated: bool) -> No
         block.append(f"- **Topic (KA):** {item.get('topic') or '—'}")
     if item.get("link"):
         block.append(f"- **Link:** {item['link']}")
+    if rel is not None:
+        block.append(relevance.log_line(rel))
     block.append("")
     with LOG_FILE.open("a", encoding="utf-8") as fh:
         fh.write("\n".join(block) + "\n")
@@ -522,6 +526,14 @@ def main() -> int:
         print(f"First run: baseline of {len(items)} documents recorded. No notifications sent.")
         return 0
 
+    # Relevance filter: live catalogue of site pages = the topics we care about.
+    try:
+        pages = relevance.sync_catalogue(send_telegram)
+        print(f"Relevance filter: {len(pages)} site topics; alert threshold {relevance.ALERT_MIN_SCORE}.")
+    except Exception as exc:  # noqa: BLE001 — never block the monitor
+        print(f"WARN: relevance catalogue unavailable ({exc}); alerting on keywords.")
+        pages = []
+
     # Feed is newest-first; process oldest-of-the-new first so the log/notifs
     # read chronologically.
     new_items = [it for it in items if it["id"] not in seen_ids]
@@ -534,6 +546,7 @@ def main() -> int:
         return 0
 
     print(f"Found {len(new_items)} new document(s).")
+    alerts = 0
 
     for idx, item in enumerate(new_items):
         title_en, t1 = translate_text(item["title"])
@@ -542,9 +555,14 @@ def main() -> int:
         topic_en, t2 = translate_text(item["topic"])
         translated = t1 or t2
 
-        append_log(item, title_en, topic_en, translated)
-        if NOTIFY_EACH:
-            send_telegram(format_message(item, title_en, topic_en, translated))
+        extra = topic_en if topic_en and topic_en != title_en else ""
+        rel = relevance.score(item["title"], title_en, pages, extra)
+        append_log(item, title_en, topic_en, translated, rel)
+        if relevance.is_alert(rel):
+            send_telegram(format_message(item, title_en, topic_en, translated,
+                                         relevance.format_block(rel, pages)))
+            alerts += 1
+        item["relevance"] = rel  # hand-off to impact.py
         watchlist.check_feed_items([item], send_telegram)
 
         seen_ids.add(item["id"])
@@ -558,7 +576,7 @@ def main() -> int:
     save_state(state)
 
     NEW_DOCS_FILE.write_text(json.dumps(new_items, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Done. Logged {len(new_items)} new document(s).")
+    print(f"Done. Logged {len(new_items)} new document(s); {alerts} relevant alert(s) sent.")
     run_watchlist_sweep()
     return 0
 

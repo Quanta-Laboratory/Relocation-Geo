@@ -20211,3 +20211,203 @@ Automatically maintained by `scripts/matsne_monitor/monitor.py`. Newest entries 
 - **Topic (KA):** „ვაჭრობაში ანტიდემპინგური ღონისძიების შემოღების მიზნით შესწავლის განხორციელების წესისა და პროცედურების დამტკიცების შესახებ“ საქართველოს მთავრობის 2021 წლის 1 ივნისის №249 დადგენილებაში ცვლილების შეტანის თაობაზე
 - **Link:** https://www.matsne.gov.ge/ka/document/view/7050116
 
+
+## 2026-11-24 16:01 UTC — doc 7049976
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Order No. 12 of June 14, 2017, of the Chairperson of the State Procurement Agency "On Approving the Rules for Conducting Electronic Tenders"
+- **Title (KA):** „ელექტრონული ტენდერის ჩატარების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2017 წლის 14 ივნისის №12 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Order No. 12 of 14 June 2017 of the Chairperson of the State Procurement Agency "On Approval of the Procedure for Conducting Electronic Tenders"
+- **Topic (KA):** „ელექტრონული ტენდერის ჩატარების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2017 წლის 14 ივნისის №12 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7049976
+
+
+## 2026-11-24 16:01 UTC — doc 7049990
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Introducing Amendments to Order No. 7 of 22 May 2015 of the Chairperson of the State Procurement Agency "On Approving the Rules and Conditions for State Procurement of Design Services through a Competition"
+- **Title (KA):** „კონკურსის მეშვეობით საპროექტო მომსახურების სახელმწიფო შესყიდვის წესისა და პირობების დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2015 წლის 22 მაისის №7 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Order No. 7 of 22 May 2015 of the Chairman of the State Procurement Agency "On Approval of the Rules and Conditions for State Procurement of Design Services through a Competition"
+- **Topic (KA):** „კონკურსის მეშვეობით საპროექტო მომსახურების სახელმწიფო შესყიდვის წესისა და პირობების დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2015 წლის 22 მაისის №7 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7049990
+
+
+## 2026-11-24 16:01 UTC — doc 7050074
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Introducing Amendments to Resolution No. 5-8 of the Tbilisi Municipality Council dated December 23, 2025, "On the Approval of the 2026 Budget of the Municipality of the City of Tbilisi"
+- **Title (KA):** "ქალაქ თბილისის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ" ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2025 წლის 23 დეკემბრის № 5-8 დადგენილებაში ცვლილებების შეტანის შესახებ
+- **Topic (EN):** On Making Amendments to Resolution No. 5-8 of the Tbilisi City Municipality Council dated December 23, 2025, "On the Approval of the 2026 Budget of the Tbilisi City Municipality"
+- **Topic (KA):** "ქალაქ თბილისის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ" ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2025 წლის 23 დეკემბრის № 5-8 დადგენილებაში ცვლილებების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050074
+
+
+## 2026-11-24 16:01 UTC — doc 7050080
+
+- **Published:** Wed, 18 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 27 of 27 June 2023 of the Georgian National Energy and Water Supply Regulatory Commission on the Approval of the Cost Regulatory Audit Procedure
+- **Title (KA):** „დანახარჯების მარეგულირებელი აუდიტის წესის დამტკიცების შესახებ“ საქართველოს ენერგეტიკისა და წყალმომარაგების მარეგულირებელი ეროვნული კომისიის 2023 წლის 27 ივნისის №27 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Resolution No. 27 of 27 June 2023 of the Georgian National Energy and Water Supply Regulatory Commission on the Approval of the Cost Regulatory Audit Procedure
+- **Topic (KA):** „დანახარჯების მარეგულირებელი აუდიტის წესის დამტკიცების შესახებ“ საქართველოს ენერგეტიკისა და წყალმომარაგების მარეგულირებელი ეროვნული კომისიის 2023 წლის 27 ივნისის №27 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050080
+
+
+## 2026-11-24 16:01 UTC — doc 7050194
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** Regarding the Amendment to Resolution No. 6-14 of December 26, 2025, of the Tbilisi Municipality City Council "On Approving the Procedure for the Redemption of Dilapidated Residential Buildings Located within the Cultural Heritage Protection Zone on the Territory of the Municipality of the City of Tbilisi"
+- **Title (KA):** „ქალაქ თბილისის მუნიციპალიტეტის ტერიტორიაზე, კულტურული მემკვიდრეობის დამცავ ზონაში მდებარე ავარიული საცხოვრებელი სახლების გამოსყიდვის წესის დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2025 წლის 26 დეკემბრის №6-14 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Making Amendments to Resolution No. 6-14 of the Tbilisi Municipality City Council, dated 26 December 2025, "On Approving the Procedure for the Redemption of Dilapidated Residential Buildings Located within the Conservation Zone of Cultural Heritage on the Territory of the Municipality of the City of Tbilisi"
+- **Topic (KA):** „ქალაქ თბილისის მუნიციპალიტეტის ტერიტორიაზე, კულტურული მემკვიდრეობის დამცავ ზონაში მდებარე ავარიული საცხოვრებელი სახლების გამოსყიდვის წესის დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2025 წლის 26 დეკემბრის №6-14 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050194
+
+
+## 2026-11-24 16:01 UTC — doc 7050218
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution №17-48 of December 12, 2014, of the City of Tbilisi Municipal Council "On the Approval of Bus Routes (Category M3) for the Purpose of Regular Passenger Transportation within the Administrative Boundaries of the Municipality of the City of Tbilisi"
+- **Title (KA):** „ქალაქ თბილისის მუნიციპალიტეტის ადმინისტრაციულ საზღვრებში რეგულარული სამგზავრო გადაყვანის მიზნით ავტობუსების (M3 კატეგორია) მარშრუტების დამტკიცების თაობაზე“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2014 წლის 12 დეკემბრის №17-48 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Topic (EN):** On Amendments to Resolution No. 17-48 of the Tbilisi Municipality City Council, dated December 12, 2014, "On the Approval of Bus Routes (Category M3) for the Purpose of Regular Passenger Transportation within the Administrative Boundaries of the Municipality of the City of Tbilisi"
+- **Topic (KA):** „ქალაქ თბილისის მუნიციპალიტეტის ადმინისტრაციულ საზღვრებში რეგულარული სამგზავრო გადაყვანის მიზნით ავტობუსების (M3 კატეგორია) მარშრუტების დამტკიცების თაობაზე“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2014 წლის 12 დეკემბრის №17-48 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050218
+
+
+## 2026-11-24 16:02 UTC — doc 7050228
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution №17-47 of December 12, 2014, of the Tbilisi City Municipality Council "On Approval of Bus Routes (Category M2) for the Purpose of Regular Passenger Transportation within the Administrative Boundaries of the Municipality of the City of Tbilisi"
+- **Title (KA):** „ქალაქ თბილისის მუნიციპალიტეტის ადმინისტრაციულ საზღვრებში რეგულარული სამგზავრო გადაყვანის მიზნით ავტობუსების (M2 კატეგორია) მარშრუტების დამტკიცების თაობაზე“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2014 წლის 12 დეკემბრის №17-47 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Topic (EN):** On Amendments to Resolution №17-47 of December 12, 2014, of the Tbilisi Municipality City Council "On the Approval of Bus Routes (Category M2) for the Purpose of Regular Passenger Transportation within the Administrative Boundaries of the Municipality of the City of Tbilisi"
+- **Topic (KA):** „ქალაქ თბილისის მუნიციპალიტეტის ადმინისტრაციულ საზღვრებში რეგულარული სამგზავრო გადაყვანის მიზნით ავტობუსების (M2 კატეგორია) მარშრუტების დამტკიცების თაობაზე“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2014 წლის 12 დეკემბრის №17-47 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050228
+
+
+## 2026-11-24 16:02 UTC — doc 7050446
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution №39-18 of March 15, 2019 of the Tbilisi Municipality Council "On Approval of the General Plan of Land Use of the Capital City"
+- **Title (KA):** „დედაქალაქის მიწათსარგებლობის გენერალური გეგმის დამტკიცების შესახებ” ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2019 წლის 15 მარტის №39-18 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Making Amendments to Resolution №39-18 of the Sakrebulo of the Municipality of the City of Tbilisi, dated March 15, 2019, "On the Approval of the General Plan of Land Use of the Capital"
+- **Topic (KA):** „დედაქალაქის მიწათსარგებლობის გენერალური გეგმის დამტკიცების შესახებ” ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2019 წლის 15 მარტის №39-18 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050446
+
+
+## 2026-11-24 16:02 UTC — doc 7050477
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Making Amendments to Resolution №20-81 of December 30, 2014, of the City of Tbilisi Municipal Council, on the Approval of Passenger Transportation Tariffs and Discount Systems for Transport Defined as Regulated Sectors of the Economy within the Administrative Boundaries of the Municipality of the City of Tbilisi
+- **Title (KA):** ქალაქ თბილისის მუნიციპალიტეტის ადმინისტრაციულ საზღვრებში ეკონომიკის რეგულირებად სფეროებად განსაზღვრული ტრანსპორტით გადაყვანისას მგზავრობის ტარიფების და ფასდაკლების სისტემის დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2014 წლის 30 დეკემბრის №20-81 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** Regarding Amendments to Resolution №20-81 of December 30, 2014 of the Tbilisi Municipality City Council "On the Approval of Passenger Fare Tariffs and Discount Systems for Transportation by Vehicles Designated as Regulated Economic Sectors within the Administrative Boundaries of the Municipality of the City of Tbilisi"
+- **Topic (KA):** ქალაქ თბილისის მუნიციპალიტეტის ადმინისტრაციულ საზღვრებში ეკონომიკის რეგულირებად სფეროებად განსაზღვრული ტრანსპორტით გადაყვანისას მგზავრობის ტარიფების და ფასდაკლების სისტემის დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2014 წლის 30 დეკემბრის №20-81 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050477
+
+
+## 2026-11-24 16:02 UTC — doc 7050491
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 17-46 of December 12, 2014, of the City of Tbilisi Municipal Council, "On the Approval of the Procedure for the Introduction and Payment of a Fee for the Sanitation of Settled Territory in the Municipality of Tbilisi, as well as the Rules for Sweeping and Cleaning, Waste Management, Selection of an Operator, and Disposal of Waste Owned by the Municipality of the City of Tbilisi"
+- **Title (KA):** „ქ. თბილისის მუნიციპალიტეტში დასახლებული ტერიტორიის დასუფთავებისათვის მოსაკრებლის შემოღების, გადახდის ინსტრუქციისა და დაგვა-დასუფთავების, ნარჩენების მართვის, ოპერატორის შერჩევის და ქალაქ თბილისის მუნიციპალიტეტის საკუთრებაში არსებული ნარჩენების განკარგვის წესის დამტკიცების შესახებ“ ქ. თბილისის მუნიციპალიტეტის საკრებულოს 2014 წლის 12 დეკემბრის №17-46 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Topic (EN):** On Making Amendments to Resolution No. 17-46 of 12 December 2014 of the City Council of the Municipality of Tbilisi "On Approval of the Procedure for Introducing and Paying the Fee for Cleaning the Settled Territory of the Municipality of the City of Tbilisi, and the Rules on Sweeping and Cleaning, Waste Management, Selection of an Operator, and Disposal of Waste Owned by the Municipality of the City of Tbilisi"
+- **Topic (KA):** „ქ. თბილისის მუნიციპალიტეტში დასახლებული ტერიტორიის დასუფთავებისათვის მოსაკრებლის შემოღების, გადახდის ინსტრუქციისა და დაგვა-დასუფთავების, ნარჩენების მართვის, ოპერატორის შერჩევის და ქალაქ თბილისის მუნიციპალიტეტის საკუთრებაში არსებული ნარჩენების განკარგვის წესის დამტკიცების შესახებ“ ქ. თბილისის მუნიციპალიტეტის საკრებულოს 2014 წლის 12 დეკემბრის №17-46 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050491
+
+
+## 2026-11-24 16:02 UTC — doc 7050504
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 31-74 of the Tbilisi Municipality City Council dated October 20, 2023, "On Approval of the Procedure for Regulating the Provision of Expedited Services and Payment of the Fees Established Thereon by the Legal Entity under Public Law of the Tbilisi Municipality – the Tbilisi Municipality Transport and Urban Development Agency"
+- **Title (KA):** „ქალაქ თბილისის მუნიციპალიტეტის საჯარო სამართლის იურიდიული პირის – ქალაქ თბილისის მუნიციპალიტეტის ტრანსპორტისა და ურბანული განვითარების სააგენტოს მიერ დაჩქარებული მომსახურების გაწევისა და მასზე დაწესებული საფასურის გადახდის რეგულირების წესის დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2023 წლის 20 ოქტომბრის №31-74 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Resolution No. 31-74 of October 20, 2023, of the Tbilisi Municipality City Council "On Approval of the Procedure for the Provision of Expedited Services by the Legal Entity under Public Law of the Tbilisi Municipality – the Tbilisi Municipality Transport and Urban Development Agency, and the Regulation of Payment of Fees Established Thereon"
+- **Topic (KA):** „ქალაქ თბილისის მუნიციპალიტეტის საჯარო სამართლის იურიდიული პირის – ქალაქ თბილისის მუნიციპალიტეტის ტრანსპორტისა და ურბანული განვითარების სააგენტოს მიერ დაჩქარებული მომსახურების გაწევისა და მასზე დაწესებული საფასურის გადახდის რეგულირების წესის დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2023 წლის 20 ოქტომბრის №31-74 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050504
+
+
+## 2026-11-24 16:02 UTC — doc 7050516
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Making Amendments to Resolution No. 87-81 of the Tbilisi Municipality City Council dated September 7, 2021, "On Approving the Types and Fee Amounts of Certain Paid Services to be Rendered by the Non-Entrepreneurial (Non-Commercial) Legal Entity of Tbilisi Municipality — the Municipal Services Development Agency"
+- **Title (KA):** „ქალაქ თბილისის მუნიციპალიტეტის არასამეწარმეო (არაკომერციული) იურიდიული პირი ,,მუნიციპალური სერვისების განვითარების სააგენტოს“ მიერ გასაწევი ზოგიერთი ანაზღაურებადი მომსახურების სახისა და საფასურის ოდენობის დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2021 წლის 7 სექტემბრის №87-81 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Resolution No. 87-81 of the Tbilisi Municipality City Council, dated September 7, 2021, on the Approval of Certain Types of Paid Services and Their Fee Amounts to be Provided by the Non-Entrepreneurial (Non-Commercial) Legal Entity "Municipal Services Development Agency" of the Municipality of the City of Tbilisi
+- **Topic (KA):** „ქალაქ თბილისის მუნიციპალიტეტის არასამეწარმეო (არაკომერციული) იურიდიული პირი ,,მუნიციპალური სერვისების განვითარების სააგენტოს“ მიერ გასაწევი ზოგიერთი ანაზღაურებადი მომსახურების სახისა და საფასურის ოდენობის დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2021 წლის 7 სექტემბრის №87-81 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050516
+
+
+## 2026-11-24 16:02 UTC — doc 7050527
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Making Amendments to Resolution No. 14-39 of the Tbilisi Municipality Council, dated May 24, 2016, "On Approving the Rules for Regulating the Use and Development of Territories of the Municipality of the City of Tbilisi"
+- **Title (KA):** „ქ. თბილისის მუნიციპალიტეტის ტერიტორიების გამოყენებისა და განაშენიანების რეგულირების წესების დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2016 წლის 24 მაისის №14-39 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Resolution No. 14-39 of the Tbilisi Municipality Council, dated 24 May 2016, on the Approval of the Rules for Regulating the Use and Development of Territories of the Municipality of the City of Tbilisi
+- **Topic (KA):** „ქ. თბილისის მუნიციპალიტეტის ტერიტორიების გამოყენებისა და განაშენიანების რეგულირების წესების დამტკიცების შესახებ“ ქალაქ თბილისის მუნიციპალიტეტის საკრებულოს 2016 წლის 24 მაისის №14-39 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050527
+
+
+## 2026-11-24 16:03 UTC — doc 7050568
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Approval of the Co-Financing Program for Agricultural Machinery
+- **Title (KA):** სასოფლო-სამეურნეო ტექნიკის თანადაფინანსების პროგრამის დამტკიცების შესახებ
+- **Topic (EN):** On the Approval of the Agricultural Equipment Co-Financing Program
+- **Topic (KA):** სასოფლო-სამეურნეო ტექნიკის თანადაფინანსების პროგრამის დამტკიცების შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050568
+
+
+## 2026-11-24 16:03 UTC — doc 7050794
+
+- **Published:** Fri, 20 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Decree No. 285 of the Government of Georgia of June 24, 2026, on the Approval of the State Program for Agro Co-Financing
+- **Title (KA):** „აგროთანადაფინანსების სახელმწიფო პროგრამის დამტკიცების შესახებ“ საქართველოს მთავრობის 2026 წლის 24 ივნისის №285 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Resolution No. 285 of the Government of Georgia dated June 24, 2026, on the Approval of the State Program for Agricultural Co-Financing
+- **Topic (KA):** „აგროთანადაფინანსების სახელმწიფო პროგრამის დამტკიცების შესახებ“ საქართველოს მთავრობის 2026 წლის 24 ივნისის №285 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050794
+
+
+## 2026-11-24 16:03 UTC — doc 7050805
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Liquidation of the Legal Entity of Public Law — the State Grant Management Agency
+- **Title (KA):** საჯარო სამართლის იურიდიული პირის − სახელმწიფო გრანტის მართვის სააგენტოს ლიკვიდაციის თაობაზე
+- **Topic (EN):** On the Liquidation of the Legal Entity under Public Law — the State Grant Management Agency
+- **Topic (KA):** საჯარო სამართლის იურიდიული პირის − სახელმწიფო გრანტის მართვის სააგენტოს ლიკვიდაციის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050805
+
+
+## 2026-11-25 08:01 UTC — doc 7044462
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Granting Names to Certain Public Schools and on Making Amendments to Order No. 448 of the Minister of Education and Science of Georgia, dated 15 September 2005, on the Establishment of General Educational Institutions as Legal Entities under Public Law and the Approval of the Public School Charter
+- **Title (KA):** ზოგიერთი საჯარო სკოლისათვის სახელის მინიჭებისა და „ზოგადსაგანმანათლებლო დაწესებულებების საჯარო სამართლის იურიდიულ პირებად დაფუძნებისა და საჯარო სკოლის წესდების დამტკიცების შესახებ“ საქართველოს განათლებისა და მეცნიერების მინისტრის 2005 წლის 15 სექტემბრის №448 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Assigning Names to Certain Public Schools and on Amending Order No. 448 of the Minister of Education and Science of Georgia, dated 15 September 2005, on the Establishment of General Educational Institutions as Legal Entities under Public Law and the Approval of the Public School Charter
+- **Topic (KA):** ზოგიერთი საჯარო სკოლისათვის სახელის მინიჭებისა და „ზოგადსაგანმანათლებლო დაწესებულებების საჯარო სამართლის იურიდიულ პირებად დაფუძნებისა და საჯარო სკოლის წესდების დამტკიცების შესახებ“ საქართველოს განათლებისა და მეცნიერების მინისტრის 2005 წლის 15 სექტემბრის №448 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7044462
+
+
+## 2026-11-25 08:01 UTC — doc 7048355
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Determination of the Procedure for the Establishment and Maintenance of the National Registry of Donors (including the registration of a person in the National Registry of Donors or the withdrawal/removal from the National Registry of Donors), as well as the Forms for Declaring Consent to the Donation of an Organ, Tissue, and/or Cell, for Withdrawing Previously Declared Consent to the Donation of an Organ, Tissue, and/or Cell, and for Declaring Refusal of the Donation of an Organ, Tissue, and/or Cell
+- **Title (KA):** დონორთა ეროვნული რეესტრის შექმნისა და წარმოების (მათ შორის, პირის დონორთა ეროვნულ რეესტრში რეგისტრაციის ან დონორთა ეროვნული რეესტრიდან გამოსვლის/ამოღების) წესის, აგრეთვე ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე თანხმობის განცხადებისა და ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე განცხადებულ თანხმობაზე უარის თქმის, აგრეთვე, ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე უარის განცხადების ფორმების განსაზღვრის შესახებ
+- **Topic (EN):** The Procedure for the Establishment and Maintenance of the National Registry of Donors (including the registration of a person in the National Registry of Donors or the withdrawal/removal from the National Registry of Donors), as well as the Determination of the Forms for the Declaration of Consent to the Donation of an Organ, Tissue and/or Cell, the Withdrawal of Consent Previously Declared for the Donation of an Organ, Tissue and/or Cell, and the Declaration of Refusal of the Donation of an Organ, Tissue and/or Cell
+- **Topic (KA):** დონორთა ეროვნული რეესტრის შექმნისა და წარმოების (მათ შორის, პირის დონორთა ეროვნულ რეესტრში რეგისტრაციის ან დონორთა ეროვნული რეესტრიდან გამოსვლის/ამოღების) წესის, აგრეთვე ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე თანხმობის განცხადებისა და ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე განცხადებულ თანხმობაზე უარის თქმის, აგრეთვე, ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე უარის განცხადების ფორმების განსაზღვრის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7048355
+
+
+## 2026-11-25 08:01 UTC — doc 7051650
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Order No. 69 of the Minister of Justice of Georgia, dated 18 March 2015, "On Approval of the Statute of the Legal Entity under Public Law – Legislative Herald of Georgia"
+- **Title (KA):** „საჯარო სამართლის იურიდიული პირის – საქართველოს საკანონმდებლო მაცნეს დებულების დამტკიცების შესახებ“ საქართველოს იუსტიციის მინისტრის 2015 წლის 18 მარტის №69 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Order No. 69 of the Minister of Justice of Georgia, dated 18 March 2015, "On Approval of the Statute of the Legal Entity under Public Law – Legislative Herald of Georgia"
+- **Topic (KA):** „საჯარო სამართლის იურიდიული პირის – საქართველოს საკანონმდებლო მაცნეს დებულების დამტკიცების შესახებ“ საქართველოს იუსტიციის მინისტრის 2015 წლის 18 მარტის №69 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051650
+
+
+## 2026-11-25 08:01 UTC — doc 7051671
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Introducing Amendments to Order No. 1203 of the Minister of Justice of Georgia dated 30 April 2026, "On Approving the Statute of the Legal Entity under Public Law – the Rehabilitation and Support Centre for Juveniles in Conflict with the Law"
+- **Title (KA):** „საჯარო სამართლის იურიდიული პირის – კანონთან კონფლიქტში მყოფი არასრულწლოვანის რეაბილიტაციისა და მხარდაჭერის ცენტრის დებულების დამტკიცების შესახებ“ საქართველოს იუსტიციის მინისტრის 2026 წლის 30 აპრილის №1203 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Introducing Amendments to Order No. 1203 of the Minister of Justice of Georgia dated 30 April 2026, "On Approving the Statute of the Legal Entity under Public Law – the Rehabilitation and Support Centre for Minors in Conflict with the Law"
+- **Topic (KA):** „საჯარო სამართლის იურიდიული პირის – კანონთან კონფლიქტში მყოფი არასრულწლოვანის რეაბილიტაციისა და მხარდაჭერის ცენტრის დებულების დამტკიცების შესახებ“ საქართველოს იუსტიციის მინისტრის 2026 წლის 30 აპრილის №1203 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051671
+

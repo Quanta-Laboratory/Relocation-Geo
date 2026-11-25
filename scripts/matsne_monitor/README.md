@@ -11,6 +11,8 @@ Georgian original.
 | File | Purpose |
 | --- | --- |
 | `monitor.py` | The script that checks matsne and notifies on each new document. |
+| `relevance.py` | **Relevance filter.** Scores every new matsne/parliament document 0–3 against the live catalogue of site pages (`/kb/index.json`); only score ≥ 2 (`ALERT_MIN_SCORE`) is pushed to Telegram, with the site pages to check or a ✍️ "not covered yet" flag. New site pages widen the filter automatically and are announced. Backtest: Run workflow → `relevance_backtest: 40`. |
+| `topics_state.json` | Last known catalogue of site topics (for change announcements and offline fallback). |
 | `watchlist.py` | Priority alerts (🚨) for acts that feed site datasets — e.g. the NBG high-risk jurisdictions list behind `/nbg-high-risk-jurisdictions.json` (used by mono.ge). Matches new feed items by title **and** sweeps matsne search each run, so a change is caught even if it scrolled out of the RSS window. Add a watch = add an entry to `WATCHES`. |
 | `watchlist_state.json` | Document ids already known per watch. Committed back by the workflow. |
 | `digest.py` | Sends one daily summary of the documents detected since the previous digest. |
@@ -145,10 +147,9 @@ Notes:
 
 Turns "a new act was published" into "here is the exact edit to our page — apply?".
 
-1. `monitor.py` hands the run's new documents to `impact.py` (`.new_docs.json`, not committed).
-   With `NOTIFY_EACH: '0'` (set in `monitor.yml`) the per-document 🆕 pushes are off; the evening digest still lists everything.
-2. **Pre-filter** (regex, free): drops auctions, public notices, awards, pardons, appointments.
-3. **Classify** (one Claude call per run): Georgian titles vs. the catalogue of `src/content/guides/en/*` (slug, title, cited laws). Only acts that change something a page states pass.
+1. `monitor.py` scores each new document with `relevance.py` (0–3, alert at ≥2) and hands the run's documents with their verdict to `impact.py` (`.new_docs.json`, not committed).
+2. Documents scored **3** (changes what a page states) with named pages go straight to the proposal step — no second classification. Threshold: `IMPACT_MIN_SCORE` (default 3).
+3. Fallback for documents without a verdict (manual runs): regex pre-filter, then one Claude call against the catalogue of `src/content/guides/en/*`.
 4. **Propose**: reads the act's full text from matsne (amending acts are public) and the affected English pages; Claude returns exact find/replace edits. Each `find` must occur exactly once or the edit is dropped and listed for manual review.
 5. **Localise**: the same change is carried into every existing translation (`de/fr/he/ka/ru/uk/<slug>.md`), verified the same way.
 6. **PR** on branch `matsne/<doc_id>` + **Telegram** message with before/after and buttons **✅ Применить / ❌ Отклонить**.

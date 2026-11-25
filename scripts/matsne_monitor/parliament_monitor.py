@@ -68,6 +68,12 @@ STAGES = [
     ("მიღებული", "adopted"),
 ]
 
+try:  # site-aware relevance filter (relevance.py); optional
+    sys.path.insert(0, str(HERE))
+    import relevance  # type: ignore
+except Exception:  # noqa: BLE001
+    relevance = None  # type: ignore
+
 try:  # reuse the matsne monitor's Claude translation if available
     sys.path.insert(0, str(HERE))
     from monitor import translate_text  # type: ignore
@@ -256,10 +262,22 @@ def run(check_only: bool) -> int:
     events = diff(bills, known)
     events.reverse()  # oldest-first
     print(f"{len(events)} event(s).")
+    pages = relevance.sync_catalogue(send_telegram) if relevance else []
+    scores: dict = state.setdefault("scores", {})
     for bill, event in events:
         title_en, _ = translate_text(bill["name"])
         append_log(bill, title_en, event)
-        send_telegram(format_alert(bill, title_en, event))
+        # Relevance: scored once when first seen; stage alerts follow that score.
+        if relevance and bill["id"] not in scores:
+            res = relevance.score(bill["name"], title_en, pages)
+            scores[bill["id"]] = res
+        res = scores.get(bill["id"])
+        if relevance and res and not relevance.is_alert(res):
+            continue
+        text = format_alert(bill, title_en, event)
+        if relevance and res:
+            text = text.replace("\n\n", "\n\n" + relevance.format_block(res, pages) + "\n\n", 1)
+        send_telegram(text)
         time.sleep(1)
 
     for b in laws:
@@ -267,6 +285,7 @@ def run(check_only: bool) -> int:
     # Keep state bounded: current window + the most recent 400 ids.
     ids = [b["id"] for b in laws] + [k for k in known if k not in {b["id"] for b in laws}]
     state["bills"] = {k: known[k] for k in ids[:400]}
+    state["scores"] = {k: v for k, v in state.get("scores", {}).items() if k in state["bills"]}
     if not check_only:
         save_state(state)
     return 0

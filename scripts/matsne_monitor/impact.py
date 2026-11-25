@@ -73,6 +73,9 @@ HTTP_TIMEOUT = 60
 UA = "relocation-ge-impact/1.0 (+https://relocation.ge)"
 
 MAX_DOCS_TO_CLASSIFY = 60
+# monitor.py scores every document with relevance.py (0–3). Only documents that
+# change something a page states (3) and name the pages get a proposed edit.
+IMPACT_MIN_SCORE = int(os.environ.get("IMPACT_MIN_SCORE", "3"))
 MAX_PROPOSALS_PER_RUN = 5
 MAX_ACT_CHARS = 60_000
 
@@ -222,6 +225,21 @@ CLASSIFY_USER = """New documents (Georgian titles):
 Reply with JSON only: an array containing ONLY the relevant documents, each
 {{"id": "<doc id>", "slugs": ["<slug>", ...], "title_en": "<short English title>", "reason": "<one sentence, English>"}}
 Use only slugs from the catalogue, at most 6 per document. Reply [] if none."""
+
+
+def from_relevance(items: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Reuse relevance.py's verdict (attached by monitor.py) instead of a second
+    classification call. Returns (relevant, unscored)."""
+    relevant, unscored = [], []
+    for it in items:
+        rel = it.get("relevance")
+        if not isinstance(rel, dict):
+            unscored.append(it)
+            continue
+        slugs = [s for s in rel.get("pages", []) if (GUIDES / "en" / f"{s}.md").exists()]
+        if rel.get("score", 0) >= IMPACT_MIN_SCORE and slugs:
+            relevant.append({**it, "slugs": slugs, "title_en": rel.get("topic", ""), "reason": rel.get("why", "")})
+    return relevant, unscored
 
 
 def classify(items: list[dict], pages: list[dict]) -> list[dict]:
@@ -631,12 +649,13 @@ def main() -> int:
                 d["title"] = _short(fetch_act_text(d["id"]), 600)
             except requests.RequestException:
                 pass
-        candidates = docs
+        relevant = classify(docs, pages)
     else:
-        candidates = prefilter(docs)
-    print(f"{len(docs)} new doc(s), {len(candidates)} after pre-filter.")
+        relevant, unscored = from_relevance(docs)
+        candidates = prefilter(unscored)
+        print(f"{len(docs)} new doc(s): {len(relevant)} from relevance filter, {len(candidates)} to classify.")
+        relevant += classify(candidates, pages)
 
-    relevant = classify(candidates, pages)
     print(f"Relevant: {[(d['id'], d['slugs']) for d in relevant]}")
 
     for doc in relevant[:MAX_PROPOSALS_PER_RUN]:
@@ -725,6 +744,17 @@ def selftest() -> int:
             "manual_ru": ""}
     text = telegram_text(doc, prop, good, None, [])
     check("Было:" in text and "Станет:" in text and len(text) <= 4000, "telegram text has before/after")
+
+    rel_docs = [
+        {"id": "a", "relevance": {"score": 3, "pages": ["renting-a-home-in-georgia", "no-such-page"], "topic": "T", "why": "w"}},
+        {"id": "b", "relevance": {"score": 2, "pages": ["renting-a-home-in-georgia"]}},
+        {"id": "c", "relevance": {"score": 3, "pages": [], "gap": True}},
+        {"id": "d", "title": "x"},
+    ]
+    r, u = from_relevance(rel_docs)
+    check([d["id"] for d in r] == ["a"] and r[0]["slugs"] == ["renting-a-home-in-georgia"],
+          "relevance hand-off: only score 3 with existing pages")
+    check([d["id"] for d in u] == ["d"], "relevance hand-off: unscored docs go to classify")
 
     print("ALL PASS" if ok else "SOME FAILED")
     return 0 if ok else 1
