@@ -130,8 +130,9 @@ Body: H2 sections (##), short paragraphs and lists, 400–900 words, practical: 
 Return ONLY JSON: {"slug": "kebab-case-slug-georgia", "markdown": "<full file>", "summary_ru": "2–4 bullet lines in Russian", "reason_ru": "1–2 sentences in Russian"}"""
 
 
-def apply_edits(files: dict, edits: list[dict]) -> list[str]:
-    """Apply find/replace edits in-memory. Returns problems (skipped edits)."""
+def apply_edits(files: dict, edits: list[dict], failed: list | None = None) -> list[str]:
+    """Apply find/replace edits in-memory. Returns problems (skipped edits);
+    edits whose fragment was not found are appended to `failed`."""
     problems = []
     for e in edits:
         key = (e.get("slug"), e.get("lang"))
@@ -142,6 +143,8 @@ def apply_edits(files: dict, edits: list[dict]) -> list[str]:
         n = files[key]["after"].count(find) if find else 0
         if n != 1:
             problems.append(f"{key[0]}/{key[1]}: fragment found {n}× — skipped")
+            if failed is not None:
+                failed.append(e)
             continue
         files[key]["after"] = files[key]["after"].replace(find, repl, 1)
     return problems
@@ -197,7 +200,19 @@ def main() -> int:
             telegram(f"✅ <b>Правка не требуется</b> — документ {DOC_ID}\n{html.escape(out.get('reason_ru', ''))}\n"
                      f"🔗 {html.escape(meta['link'])}")
             return 0
-        problems = apply_edits(files, out["edits"])
+        failed: list = []
+        problems = apply_edits(files, out["edits"], failed)
+        if failed:
+            # One retry: show the model the exact current text and ask it to re-anchor.
+            fix = (act_block[:3000] + "\n\nThese edits could not be applied because 'find' was not copied verbatim "
+                   "(or not unique). Re-issue them with 'find' copied EXACTLY from the page text below.\n"
+                   + json.dumps(failed, ensure_ascii=False) + "\n\n"
+                   + "\n\n".join(f"=== PAGE slug={k[0]} lang={k[1]} ===\n{v['after']}" for k, v in files.items()))
+            try:
+                retry = extract_json(claude(EDIT_SYSTEM, fix, 6000)).get("edits", [])
+                problems = [p for p in problems if "fragment" not in p] + apply_edits(files, retry)
+            except Exception as exc:  # noqa: BLE001
+                print(f"WARN: retry failed: {exc}")
         source = {"name": out.get("source_name") or meta["title_en"][:200], "url": meta["link"]}
         for f in files.values():
             if f["after"] != f["before"]:
