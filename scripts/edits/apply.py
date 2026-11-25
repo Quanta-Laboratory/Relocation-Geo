@@ -42,12 +42,34 @@ def checkout_branch() -> dict:
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
 
 
+CONFLICT_RE = re.compile(r"^<<<<<<< [^\n]*\n(.*?)^=======\n(.*?)^>>>>>>> [^\n]*\n", re.S | re.M)
+
+
+def merge_squash() -> None:
+    """Squash-merge the edit branch. Two edits of the same page often both add a
+    line to the front-matter `sources:` list; such conflicts are resolved by
+    keeping both sides. Any conflict in the article body still fails."""
+    import subprocess
+    if subprocess.run(["git", "merge", "--squash", f"origin/{BRANCH}"]).returncode == 0:
+        return
+    files = [f for f in sh("git", "-C", str(ROOT), "diff", "--name-only", "--diff-filter=U").split() if f]
+    for f in files:
+        text = (ROOT / f).read_text(encoding="utf-8")
+        fm_end = text.find("\n---", 4)
+        blocks = list(CONFLICT_RE.finditer(text))
+        if not f.startswith("src/content/") or not blocks or any(m.start() > fm_end for m in blocks):
+            subprocess.run(["git", "reset", "--hard", "-q"])
+            raise RuntimeError(f"конфликт в тексте {f} — нужна ручная правка")
+        (ROOT / f).write_text(CONFLICT_RE.sub(lambda m: m.group(1) + m.group(2), text), encoding="utf-8")
+        sh("git", "-C", str(ROOT), "add", f)
+
+
 def publish() -> int:
     prop = checkout_branch()
     git_identity()
     sh("git", "checkout", "main")
     sh("git", "pull", "--ff-only", "origin", "main")
-    sh("git", "merge", "--squash", f"origin/{BRANCH}")
+    merge_squash()
     sh("git", "rm", "-r", "-q", "--cached", "--ignore-unmatch", ".edits")
     sh("rm", "-rf", ".edits")
     if pending.remove(DOC_ID):
