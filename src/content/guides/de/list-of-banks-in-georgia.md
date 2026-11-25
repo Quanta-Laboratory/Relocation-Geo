@@ -176,6 +176,22 @@ Eine aus dem Mikrofinanzsektor hervorgegangene Bank (Banklizenz 2017), die in Ge
 - Privatkundeneinlagen, Konten, Karten und Transfers;
 - Digital-/Mobilebanking und ein starkes regionales Netz.
 
+## Mikrobanken (eigene Lizenz seit 2023)
+
+Eine **Mikrobank** ist eine eigene NBG-Lizenzart nach dem [Gesetz über die Tätigkeit von Mikrobanken](https://matsne.gov.ge/en/document/view/5725664) (2023). Mikrobanken sind keine Geschäftsbanken und **zählen nicht zu den 17** oben. Wichtigste Regeln:
+
+- Aktiengesellschaft mit mindestens **10 Mio. GEL** regulatorischem Kapital;
+- mindestens **70 % des Kreditportfolios** an Unternehmer (Rückzahlung aus Geschäftseinkommen); Kredite **nur in GEL**;
+- Einlagen sind erlaubt, von natürlichen Personen (auch Einzelunternehmern) aber nur ab **100.000 GEL** (oder Gegenwert in Fremdwährung) – für ein alltägliches Privatkonto also ungeeignet;
+- Zahlungskarten, Zahlungsdienste und Devisenumtausch sind möglich; ab 1. Januar 2027 kommt Factoring hinzu.
+
+Lizenzierte Mikrobanken:
+
+- **MBC (Micro Business Capital)** – erste Mikrobank-Lizenz, 5. Dezember 2024 (zuvor Mikrofinanzorganisation für Kleinunternehmer);
+- **Crystal** – Lizenz vom 12. Februar 2025, Kredite für Kleinunternehmen und Regionen.
+
+Für Zugezogene sind Mikrobanken vor allem als Quelle für **GEL-Geschäftskredite für Kleinunternehmer** relevant, nicht für das tägliche Banking.
+
 ## Neue Digitalbanken (Lizenzen 2022–2023)
 
 ### Paysera Bank Georgia

@@ -10,6 +10,8 @@ checked: 2026-11-25
 sources:
   - name: "Deposit Insurance Agency Order No. 35/ნ of 25 September 2026 on Setting the Maximum Compensation Limit for Insured Deposits"
     url: https://www.matsne.gov.ge/ka/document/view/7008577
+  - name: "NBG President's Order No. 139 of 5 October 2026 — Banking Licence Granted to JSC Neo Georgian Group (ID 404785372)"
+    url: https://www.matsne.gov.ge/ka/document/view/7017731
   - name: "National Bank of Georgia — register of licensed commercial banks"
     url: "https://nbg.gov.ge/en/licensed-commercial-banks"
   - name: "National Bank of Georgia — commercial bank supervision"
@@ -18,7 +20,7 @@ sources:
     url: "https://www.association.ge/en/members/banks/"
 faq:
   - q: "How many banks are licensed in Georgia?"
-    a: "The National Bank of Georgia currently lists 17 licensed commercial banks. The number rose in recent years after three digital-banking licences were issued (Paysera in 2022, Hash and Pave in 2023)."
+    a: "The National Bank of Georgia currently lists 18 licensed commercial banks. The number rose in recent years after three digital-banking licences were issued (Paysera in 2022, Hash and Pave in 2023), and a further licence was granted to Neo Georgian Group in October 2026."
   - q: "Which are the biggest banks in Georgia?"
     a: "Bank of Georgia and TBC Bank are the two dominant universal banks (both listed in London through their parent groups). Liberty Bank is the third-largest by customers, with the country's widest branch and ATM network."
   - q: "Which banks are best for foreigners?"
@@ -32,7 +34,7 @@ tags:
   - bank
 ---
 
-Georgia's banking sector is supervised by the **National Bank of Georgia (NBG)**, which licenses and publishes the register of commercial banks. As of 2026 there are **17 licensed commercial banks**. This page lists all of them with a short profile and the products each offers.
+Georgia's banking sector is supervised by the **National Bank of Georgia (NBG)**, which licenses and publishes the register of commercial banks. As of 2026 there are **18 licensed commercial banks**. This page lists all of them with a short profile and the products each offers.
 
 For how to actually open an account — documents, non-resident rules and compliance checks — see the **[banking in Georgia guide](/en/banking-in-georgia)**. This page is the directory; the banking guide is the how-to.
 
@@ -57,6 +59,7 @@ For how to actually open an account — documents, non-resident rules and compli
 | Pave Bank Georgia | Digital; institutional / digital assets | [pavebank.com](https://pavebank.com) |
 | VTB Bank (Georgia) | Sanctioned — see note | — |
 | Silk Bank | Small universal (formerly Silk Road Bank) | — |
+| Neo Georgian Group | Newly licensed (Oct 2026) — details not yet available | — |
 
 ## The big three
 
@@ -169,6 +172,10 @@ The Georgian subsidiary of Russia's state-owned **VTB**. It remains on the NBG r
 
 A small universal bank, the renamed former **Silk Road Bank**. Confirm its current products directly with the bank.
 
+### Neo Georgian Group (JSC)
+
+A newly licensed commercial bank (NBG President's Order No. 139, 5 October 2026). No further details on focus, products or website have been published at the time of writing; confirm current status with the National Bank of Georgia.
+
 ## Microfinance-origin bank
 
 ### Credo Bank
@@ -178,6 +185,22 @@ A bank that grew out of microfinance (banking licence in 2017) and leads Georgia
 - micro and small-business loans (agriculture and rural entrepreneurs a core focus);
 - retail deposits, accounts, cards and transfers;
 - digital/mobile banking and a strong regional network.
+
+## Microbanks (separate licence since 2023)
+
+A **microbank** is a separate type of NBG licence created by the [Law on the Activities of Microbanks](https://matsne.gov.ge/en/document/view/5725664) (2023). Microbanks are not commercial banks and are **not counted among the 17** above. Key rules:
+
+- joint-stock company with minimum regulatory capital of **GEL 10 million**;
+- at least **70% of the loan portfolio** must go to entrepreneurs (loans repaid from business income); loans are issued **only in GEL**;
+- may take deposits, but from a natural person (including an individual entrepreneur) only in amounts of **at least GEL 100,000** (or the FX equivalent) — so a microbank is not a place for an everyday personal account;
+- may also issue payment cards, provide payment services and currency exchange; factoring is added from 1 January 2027.
+
+Licensed microbanks:
+
+- **MBC (Micro Business Capital)** — the first microbank licence, 5 December 2024 (formerly a microfinance organisation focused on small entrepreneurs);
+- **Crystal** — licensed 12 February 2025, small-business and regional lending.
+
+For relocation purposes microbanks matter mainly as a source of **GEL business loans for small entrepreneurs**, not for day-to-day banking.
 
 ## New digital banks (2022–2023 licences)
 
