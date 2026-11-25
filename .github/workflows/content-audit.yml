@@ -11,6 +11,10 @@ on:
         description: 'Only documents logged on/after this date (YYYY-MM-DD); empty = all history'
         required: false
         default: ''
+      resend:
+        description: 'Only resend outdated findings to Telegram (no audit)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -31,7 +35,8 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python scripts/edits/audit.py
+        run: |
+          if [ "${{ github.event.inputs.resend }}" = "true" ]; then python scripts/edits/resend_findings.py; else python scripts/edits/audit.py; fi
       - name: Commit report
         if: always()
         run: |
