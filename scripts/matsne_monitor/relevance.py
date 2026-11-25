@@ -124,6 +124,7 @@ Score the document:
 
 Be strict: most acts are 0–1. Amendments to a ministry's internal statute are 1 unless they change a public service foreigners use. Municipal acts, auctions, single-property decisions and procurement rules are 0.
 But summaries below are short — pages also cover their sub-topics. If an act changes how a sub-topic a page plainly belongs to works (e.g. pension-contribution rules or their enforcement → tax/IE pages; Public Service Hall or civil-registry procedures → documents/residence pages; NBG banking rules → banking pages), score it at least 2 and name the page.
+Any act that specifically regulates foreigners / aliens / migrants (entry, stay, detention, expulsion, registration) is at least 2.
 
 Return ONLY JSON: {{"score": 0-3, "pages": ["slug", ...] (0–3 most affected slugs from the catalogue, exact), "topic": "≤8-word English topic", "why": "≤25-word reason", "gap": true|false (true when score>=2 but no page covers it — a candidate new article)}}
 

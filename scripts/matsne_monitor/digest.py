@@ -262,7 +262,15 @@ def build_messages(items: list[dict], shown_from: datetime, now_utc: datetime,
             block += f"\n🔗 {html.escape(it['link'])}"
         add(block)
     if other and not relevant_only:
-        add(f"\n\n<i>Not relevant to the site: {len(other)} document(s) — see changes_log.md.</i>")
+        maybe = [it for it in other if (it.get("rel") or {}).get("score") == 1]
+        if maybe:
+            add("\n\n⚪ <b>Possibly related</b> (score 1):")
+            for it in maybe:
+                t = html.escape((it["title_en"] or it.get("title_ka") or "—")[:140])
+                add(f"\n• <a href=\"{html.escape(it['link'])}\">{t}</a>" if it["link"] else f"\n• {t}")
+        rest = len(other) - len(maybe)
+        if rest:
+            add(f"\n\n<i>Not relevant: {rest} document(s) (municipal acts, auctions, etc.) — see changes_log.md.</i>")
     messages.append(current)
     return messages
 
