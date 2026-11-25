@@ -1,0 +1,31 @@
+name: Setup edits KV (one-off)
+
+# Creates the Cloudflare KV namespace that stores pending article edits for the
+# Telegram review flow (scripts/edits, worker/edits.ts). Safe to re-run: lists
+# existing namespaces first and only creates it when missing.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  kv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Create or show namespace
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: df161cb8bd90d83e39c31aeca74ff386
+        run: |
+          npx --yes wrangler@4.114.0 kv namespace list > ns.json || true
+          cat ns.json
+          if grep -q '"relocation-edits"' ns.json; then
+            echo "Namespace already exists."
+          else
+            npx --yes wrangler@4.114.0 kv namespace create relocation-edits
+          fi
