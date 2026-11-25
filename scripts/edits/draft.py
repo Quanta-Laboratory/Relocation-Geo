@@ -39,7 +39,7 @@ BRANCH = f"edit/doc-{DOC_ID}"
 
 def doc_meta() -> dict:
     text = LOG.read_text(encoding="utf-8") if LOG.exists() else ""
-    m = re.search(rf"^## .*— doc {re.escape(DOC_ID)}\b.*?(?=^## |\Z)", text, re.M | re.S)
+    m = re.search(rf"^## [^\n]*— doc {re.escape(DOC_ID)}\b[\s\S]*?(?=^## |\Z)", text, re.M)
     body = m.group(0) if m else ""
 
     def f(label: str) -> str:
