@@ -4,7 +4,7 @@ category: immigration
 parent: guide-to-georgian-visas
 lang: en
 summary: The immigration visa (category D) is Georgia's long-term visa and the precondition for a residence permit. D1 is for those with the right to labour activity or entrepreneurs; D2 for scientific, sporting, cultural or educational missions, freelancers, interns, volunteers and media workers; D3 for study or research at an authorised institution; D4 for family reunification; and D5 for owners of Georgian real estate (other than agricultural land) worth at least USD 150,000 in GEL, plus spouse and children. D visas are multiple-entry with 90-day or one-year validity — one year only for D5.
-reviewed: 2026-08-31
+reviewed: 2026-11-25
 checked: 2026-11-25
 order: 5
 sources:
@@ -12,6 +12,8 @@ sources:
     url: https://matsne.gov.ge/en/document/view/2278806
   - name: Ministry of Foreign Affairs of Georgia — Consular & e-Visa portal (geoconsul)
     url: https://www.geoconsul.gov.ge/en
+  - name: Government Ordinance No. 442 of 8 September 2026 amending Ordinance No. 583 of 12 November 2015 (immigration visa fees for D3, D5 and D6)
+    url: https://www.matsne.gov.ge/ka/document/view/6997624
 faq:
   - q: What is an immigration (D) visa for?
     a: It is Georgia's long-term visa and the required first step toward a residence permit. You choose the D subcategory that matches your purpose — work or business (D1), missions and freelancing (D2), study or research (D3), family reunification (D4), or property ownership over USD 150,000 (D5).
@@ -20,7 +22,7 @@ faq:
   - q: How long does a D visa decision take?
     a: The Ministry of Foreign Affairs and Georgia's missions decide on a D-category immigration visa within 30 calendar days of application — except D5, which is decided within 10 calendar days.
   - q: Which D visas can be extended?
-    a: D3 (study/research) and D5 (property) immigration visas can be extended if the conditions are still met. When extending a D5, the holder is exempt from re-submitting a market-value reassessment of the property.
+    a: D3 (study/research), D5 (property) and D6 (minor students and their families) immigration visas can be extended if the conditions are still met. When extending a D5, the holder is exempt from re-submitting a market-value reassessment of the property. A service fee of 40 GEL applies when the extension is processed through the PSDA, a Justice House, or a delegated municipality (Government Ordinance No. 442 of 8 September 2026, effective from 1 September 2026).
   - q: Do I need a work permit as well as a D1 visa?
     a: "Yes, in most cases. Since 1 March 2026 the process is two-stage: you first obtain a 'Right to Labour Activity' permit, then apply for the D1 visa or a work residence permit. A temporary residence permit alone no longer grants the right to work."
 tags:
