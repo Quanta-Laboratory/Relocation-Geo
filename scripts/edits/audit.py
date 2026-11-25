@@ -157,6 +157,10 @@ def main() -> int:
         state["findings"] = findings
         state_file.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
 
+    if not scores:
+        telegram("⚠️ Аудит не выполнен: Claude API недоступен (лимит расходов или ключ). Отчёт не перезаписан.")
+        return 1
+
     # ---- report -----------------------------------------------------------------
     today = dt.date.today().isoformat()
     outdated = [(slug, f) for slug, fs in findings.items() for f in fs if f.get("status") == "outdated"]
