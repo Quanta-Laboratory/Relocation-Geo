@@ -267,19 +267,22 @@ def telegram_enabled() -> bool:
     return bool(TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID)
 
 
-def send_telegram(text: str) -> bool:
+def send_telegram(text: str, buttons: list | None = None) -> bool:
     if not telegram_enabled():
         return False
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": text,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": False,
+    }
+    if buttons:
+        payload["reply_markup"] = {"inline_keyboard": buttons}
     try:
         resp = requests.post(
             url,
-            json={
-                "chat_id": TELEGRAM_CHAT_ID,
-                "text": text,
-                "parse_mode": "HTML",
-                "disable_web_page_preview": False,
-            },
+            json=payload,
             timeout=HTTP_TIMEOUT,
         )
         resp.raise_for_status()
@@ -308,6 +311,22 @@ def format_message(item: dict, title_en: str, topic_en: str, translated: bool,
     if item.get("link"):
         lines.append(f"🔗 {html.escape(item['link'])}")
     return "\n".join(lines) + note
+
+
+def edit_buttons(doc_id: str, rel: dict) -> list | None:
+    """'Prepare edit' button for relevant alerts (scripts/edits). Needs the API key,
+    which also signs the link."""
+    if not ANTHROPIC_API_KEY:
+        return None
+    try:
+        sys.path.insert(0, str(BASE_DIR.parent / "edits"))
+        from lib import start_url  # type: ignore
+    except Exception as exc:  # noqa: BLE001
+        print(f"WARN: edit button unavailable ({exc})")
+        return None
+    slugs = rel.get("pages") or []
+    label = "✍️ Подготовить правку" if slugs else "✍️ Черновик новой статьи"
+    return [[{"text": label, "url": start_url(doc_id, slugs)}]]
 
 
 # --------------------------------------------------------------------------- #
@@ -556,7 +575,8 @@ def main() -> int:
         append_log(item, title_en, topic_en, translated, rel)
         if relevance.is_alert(rel):
             send_telegram(format_message(item, title_en, topic_en, translated,
-                                         relevance.format_block(rel, pages)))
+                                         relevance.format_block(rel, pages)),
+                          edit_buttons(item["id"], rel))
             alerts += 1
         watchlist.check_feed_items([item], send_telegram)
 

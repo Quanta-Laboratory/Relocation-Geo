@@ -26,6 +26,7 @@
 import classifier from "../src/data/activity-classifier.json";
 import { runScheduled } from "./scheduler";
 import { handleChat } from "./assistant";
+import { handleEdits } from "./edits";
 
 export interface Env {
   ASSETS: Fetcher;
@@ -203,6 +204,17 @@ export default {
     const url = new URL(request.url);
     if (url.pathname === "/api/match") return handleMatch(request, env);
     if (url.pathname === "/api/chat") return handleChat(request, env);
+    if (url.pathname.startsWith("/api/edits/") || url.pathname.startsWith("/edits/")) {
+      const r = await handleEdits(request, env);
+      if (r) return r;
+    }
+    // Preview versions of article edits (workers.dev aliases) must never be indexed.
+    if (url.hostname.endsWith(".workers.dev")) {
+      const res = await env.ASSETS.fetch(request);
+      const h = new Headers(res.headers);
+      h.set("x-robots-tag", "noindex, nofollow");
+      return new Response(res.body, { status: res.status, headers: h });
+    }
     return env.ASSETS.fetch(request);
   },
 

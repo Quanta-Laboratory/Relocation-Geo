@@ -1,0 +1,59 @@
+name: Apply article edit
+
+# Started from the Telegram review page via the Worker (/edits/<doc>):
+# publish = squash-merge branch edit/doc-<id> into main and deploy;
+# reject  = delete the branch; update = apply the text you edited, rebuild the
+# preview and send fresh review buttons. See scripts/edits/lib.py.
+
+on:
+  workflow_dispatch:
+    inputs:
+      doc_id:
+        required: true
+      action:
+        description: 'publish | reject | update'
+        required: true
+      changes:
+        description: 'JSON list of {path, find, replace} (update only)'
+        required: false
+        default: '[]'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: edit-${{ github.event.inputs.doc_id }}
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: pip install requests
+
+      - name: Apply
+        env:
+          DOC_ID: ${{ github.event.inputs.doc_id }}
+          ACTION: ${{ github.event.inputs.action }}
+          CHANGES: ${{ github.event.inputs.changes }}
+          GH_TOKEN: ${{ github.token }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: python scripts/edits/apply.py

@@ -1,0 +1,60 @@
+name: Draft article edit
+
+# Started by the "✍️ Подготовить правку" button in a monitor alert, via the
+# Worker (/api/edits/start → workflow_dispatch). Drafts minimal edits to the
+# affected guides on branch edit/doc-<id>, uploads a preview version and sends
+# review buttons to Telegram. Nothing reaches the live site until "Publish".
+# See scripts/edits/lib.py for the whole flow.
+
+on:
+  workflow_dispatch:
+    inputs:
+      doc_id:
+        description: 'matsne document id'
+        required: true
+      slugs:
+        description: 'Comma-separated guide slugs to update (empty = draft a new article)'
+        required: false
+        default: ''
+      source:
+        description: 'Source monitor'
+        required: false
+        default: 'matsne'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edit-${{ github.event.inputs.doc_id }}
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: pip install requests
+
+      - name: Draft edit
+        env:
+          DOC_ID: ${{ github.event.inputs.doc_id }}
+          SLUGS: ${{ github.event.inputs.slugs }}
+          SOURCE: ${{ github.event.inputs.source }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: python scripts/edits/draft.py
