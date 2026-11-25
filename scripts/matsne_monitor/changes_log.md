@@ -20371,3 +20371,43 @@ Automatically maintained by `scripts/matsne_monitor/monitor.py`. Newest entries 
 - **Topic (KA):** საჯარო სამართლის იურიდიული პირის − სახელმწიფო გრანტის მართვის სააგენტოს ლიკვიდაციის თაობაზე
 - **Link:** https://www.matsne.gov.ge/ka/document/view/7050805
 
+
+## 2026-11-25 08:01 UTC — doc 7044462
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Granting Names to Certain Public Schools and on Making Amendments to Order No. 448 of the Minister of Education and Science of Georgia, dated 15 September 2005, on the Establishment of General Educational Institutions as Legal Entities under Public Law and the Approval of the Public School Charter
+- **Title (KA):** ზოგიერთი საჯარო სკოლისათვის სახელის მინიჭებისა და „ზოგადსაგანმანათლებლო დაწესებულებების საჯარო სამართლის იურიდიულ პირებად დაფუძნებისა და საჯარო სკოლის წესდების დამტკიცების შესახებ“ საქართველოს განათლებისა და მეცნიერების მინისტრის 2005 წლის 15 სექტემბრის №448 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Assigning Names to Certain Public Schools and on Amending Order No. 448 of the Minister of Education and Science of Georgia, dated 15 September 2005, on the Establishment of General Educational Institutions as Legal Entities under Public Law and the Approval of the Public School Charter
+- **Topic (KA):** ზოგიერთი საჯარო სკოლისათვის სახელის მინიჭებისა და „ზოგადსაგანმანათლებლო დაწესებულებების საჯარო სამართლის იურიდიულ პირებად დაფუძნებისა და საჯარო სკოლის წესდების დამტკიცების შესახებ“ საქართველოს განათლებისა და მეცნიერების მინისტრის 2005 წლის 15 სექტემბრის №448 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7044462
+
+
+## 2026-11-25 08:01 UTC — doc 7048355
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Determination of the Procedure for the Establishment and Maintenance of the National Registry of Donors (including the registration of a person in the National Registry of Donors or the withdrawal/removal from the National Registry of Donors), as well as the Forms for Declaring Consent to the Donation of an Organ, Tissue, and/or Cell, for Withdrawing Previously Declared Consent to the Donation of an Organ, Tissue, and/or Cell, and for Declaring Refusal of the Donation of an Organ, Tissue, and/or Cell
+- **Title (KA):** დონორთა ეროვნული რეესტრის შექმნისა და წარმოების (მათ შორის, პირის დონორთა ეროვნულ რეესტრში რეგისტრაციის ან დონორთა ეროვნული რეესტრიდან გამოსვლის/ამოღების) წესის, აგრეთვე ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე თანხმობის განცხადებისა და ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე განცხადებულ თანხმობაზე უარის თქმის, აგრეთვე, ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე უარის განცხადების ფორმების განსაზღვრის შესახებ
+- **Topic (EN):** The Procedure for the Establishment and Maintenance of the National Registry of Donors (including the registration of a person in the National Registry of Donors or the withdrawal/removal from the National Registry of Donors), as well as the Determination of the Forms for the Declaration of Consent to the Donation of an Organ, Tissue and/or Cell, the Withdrawal of Consent Previously Declared for the Donation of an Organ, Tissue and/or Cell, and the Declaration of Refusal of the Donation of an Organ, Tissue and/or Cell
+- **Topic (KA):** დონორთა ეროვნული რეესტრის შექმნისა და წარმოების (მათ შორის, პირის დონორთა ეროვნულ რეესტრში რეგისტრაციის ან დონორთა ეროვნული რეესტრიდან გამოსვლის/ამოღების) წესის, აგრეთვე ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე თანხმობის განცხადებისა და ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე განცხადებულ თანხმობაზე უარის თქმის, აგრეთვე, ორგანოს, ქსოვილის ან/და უჯრედის დონაციაზე უარის განცხადების ფორმების განსაზღვრის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7048355
+
+
+## 2026-11-25 08:01 UTC — doc 7051650
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Order No. 69 of the Minister of Justice of Georgia, dated 18 March 2015, "On Approval of the Statute of the Legal Entity under Public Law – Legislative Herald of Georgia"
+- **Title (KA):** „საჯარო სამართლის იურიდიული პირის – საქართველოს საკანონმდებლო მაცნეს დებულების დამტკიცების შესახებ“ საქართველოს იუსტიციის მინისტრის 2015 წლის 18 მარტის №69 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Order No. 69 of the Minister of Justice of Georgia, dated 18 March 2015, "On Approval of the Statute of the Legal Entity under Public Law – Legislative Herald of Georgia"
+- **Topic (KA):** „საჯარო სამართლის იურიდიული პირის – საქართველოს საკანონმდებლო მაცნეს დებულების დამტკიცების შესახებ“ საქართველოს იუსტიციის მინისტრის 2015 წლის 18 მარტის №69 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051650
+
+
+## 2026-11-25 08:01 UTC — doc 7051671
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Introducing Amendments to Order No. 1203 of the Minister of Justice of Georgia dated 30 April 2026, "On Approving the Statute of the Legal Entity under Public Law – the Rehabilitation and Support Centre for Juveniles in Conflict with the Law"
+- **Title (KA):** „საჯარო სამართლის იურიდიული პირის – კანონთან კონფლიქტში მყოფი არასრულწლოვანის რეაბილიტაციისა და მხარდაჭერის ცენტრის დებულების დამტკიცების შესახებ“ საქართველოს იუსტიციის მინისტრის 2026 წლის 30 აპრილის №1203 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Introducing Amendments to Order No. 1203 of the Minister of Justice of Georgia dated 30 April 2026, "On Approving the Statute of the Legal Entity under Public Law – the Rehabilitation and Support Centre for Minors in Conflict with the Law"
+- **Topic (KA):** „საჯარო სამართლის იურიდიული პირის – კანონთან კონფლიქტში მყოფი არასრულწლოვანის რეაბილიტაციისა და მხარდაჭერის ცენტრის დებულების დამტკიცების შესახებ“ საქართველოს იუსტიციის მინისტრის 2026 წლის 30 აპრილის №1203 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051671
+
