@@ -5,9 +5,11 @@ parent: studying-in-georgia
 lang: en
 notice: 'From 1 September 2026 Georgia splits the student visa by age: adult students and researchers use the D3 visa, while <strong>minor students</strong> — and their accompanying parents and minor siblings — use the new <a href="/en/d6-visa-georgia">D6 visa</a>. Check which one applies to you.'
 summary: Applying to a Georgian university as an international student means choosing an authorised institution and accredited programme, having your prior qualification recognised by the NCEQE, and preparing apostilled or legalised documents with certified translations. English-taught programmes set their own language requirements.
-reviewed: 2026-08-31
+reviewed: 2026-11-25
 checked: 2026-11-25
 sources:
+  - name: "Government Ordinance No 435 of 8 September 2026 on Internationally Recognised Language Certificates for Foreign Nationals Enrolling in Georgian Educational Institutions"
+    url: https://www.matsne.gov.ge/ka/document/view/6997353
   - name: National Center for Educational Quality Enhancement (NCEQE)
     url: https://eqe.ge/en
   - name: Law of Georgia on Higher Education (Legislative Herald)
@@ -18,7 +20,7 @@ faq:
   - q: Does my previous diploma need to be recognised?
     a: Yes. Foreign qualifications generally must be recognised by the NCEQE, which verifies authenticity and compares your qualification with Georgian standards before you can enrol.
   - q: What are the language requirements?
-    a: It depends on the programme. English-taught programmes set their own English requirements (often an English test or equivalent); Georgian-taught programmes require Georgian. Check the specific programme.
+    a: It depends on the programme and level. From the 2027–2028 academic year (for higher education) and from 1 February 2027 (for vocational programmes), foreign nationals must submit one of the internationally recognised certificates listed in Government Ordinance No 435 of 8 September 2026, at a minimum of B1 for bachelor's and vocational programmes and B2 for master's programmes. Accepted certificates include IELTS, TOEFL iBT, Cambridge English Scale and PTE (English); Goethe-Zertifikat B1/B2, TestDaF, ÖSD and Telc Deutsch B1 (German); DELF and TEF (French); and TORFL (Russian). Georgian-taught programmes require Georgian. Check the specific programme.
   - q: What is an apostille and do I need one?
     a: An apostille certifies a public document for international use. Documents from countries party to the Apostille Convention need an apostille; others need consular legalisation. Most universities require this for your prior qualifications.
   - q: When are the intakes?
@@ -63,7 +65,22 @@ Depending on the university and programme, the required documents commonly inclu
 
 Language requirements depend on the programme you choose. Many programmes in medicine, business and information technology are taught entirely in English.
 
-Each university establishes its own admission requirements, which may include an English-language proficiency test, previous education completed in English, or another form of evidence accepted by the institution. Programmes taught in Georgian generally require applicants to demonstrate sufficient knowledge of the Georgian language.
+From the **2027–2028 academic year** (higher education) and from **1 February 2027** (vocational programmes), foreign nationals are required to submit one of the internationally recognised certificates established by **Government Ordinance No 435 of 8 September 2026**. The minimum levels are:
+
+- **Bachelor's, integrated master's (veterinary), and medical/dental programmes** — at least **B1**;
+- **Master's programmes** — at least **B2**;
+- **Vocational programmes** — at least **B1**.
+
+Accepted certificates are:
+
+| Language | Accepted certificates |
+|---|---|
+| English | IELTS, TOEFL iBT, Cambridge English Scale, PTE – Pearson Test of English |
+| German | Goethe-Zertifikat B1/B2, TestDaF, ÖSD, Telc Deutsch B1 |
+| French | DELF, TEF |
+| Russian | TORFL |
+
+Programmes taught in Georgian generally require applicants to demonstrate sufficient knowledge of the Georgian language.
 
 Always review the specific admission requirements published by your chosen university.
 
