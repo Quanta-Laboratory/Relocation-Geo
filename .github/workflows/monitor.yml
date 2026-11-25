@@ -16,6 +16,10 @@ on:
         description: 'Send a LIST of all documents published today to Telegram, then exit'
         type: boolean
         default: false
+      sample_impact:
+        description: 'Send a DEMO impact alert (with buttons) to Telegram, then exit'
+        type: boolean
+        default: false
       relevance_backtest:
         description: 'Score the last N logged documents with the relevance filter and send a summary (e.g. 40); empty = normal run'
         type: string
@@ -23,6 +27,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: matsne-monitor
@@ -74,7 +79,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
+      - name: Demo impact alert
+        if: github.event.inputs.sample_impact == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/matsne_monitor/impact.py --sample
+
       - name: Run monitor
+        if: github.event.inputs.sample_impact != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -90,6 +103,7 @@ jobs:
           fi
 
       - name: Commit state and log if changed
+        if: github.event.inputs.sample_impact != 'true'
         run: |
           git config user.name "relocation-bot"
           git config user.email "bot@users.noreply.github.com"
@@ -101,6 +115,24 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: matsne monitor update [skip ci]"
+            git pull --rebase --autostash origin ${{ github.ref_name }} || true
+            git push
+          fi
+
+      # Relevance filter → proposed edits → PR → Telegram with ✅/❌ buttons.
+      # Runs after the state commit so the PR branches start from fresh main.
+      - name: Impact analysis (relocation.ge pages)
+        if: github.event.inputs.test_telegram != 'true' && github.event.inputs.today_list != 'true' && github.event.inputs.sample_impact != 'true' && github.event.inputs.relevance_backtest == ''
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/matsne_monitor/impact.py
+          git add scripts/matsne_monitor/impact_log.md 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: matsne impact log [skip ci]"
             git pull --rebase --autostash origin ${{ github.ref_name }} || true
             git push
           fi

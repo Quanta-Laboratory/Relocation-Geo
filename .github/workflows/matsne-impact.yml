@@ -1,0 +1,50 @@
+name: Matsne Impact (manual)
+
+# Analyse specific matsne documents against relocation.ge pages on demand —
+# to test the pipeline, or to re-check an older act. Same flow as the step in
+# monitor.yml: relevance → proposed edits → PR → Telegram with ✅/❌ buttons.
+
+on:
+  workflow_dispatch:
+    inputs:
+      doc_ids:
+        description: 'matsne document ids, space-separated (e.g. 6940189 7050116)'
+        required: true
+      dry_run:
+        description: 'Only print the proposal in the log (no PR, no Telegram)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: matsne-monitor
+  cancel-in-progress: false
+
+jobs:
+  impact:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Analyse
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}
+          DOC_IDS: ${{ github.event.inputs.doc_ids }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          test -n "$ANTHROPIC_API_KEY" || { echo "GitHub secret ANTHROPIC_API_KEY is empty"; exit 1; }
+          git config user.name "relocation-bot"
+          git config user.email "bot@users.noreply.github.com"
+          args=()
+          for id in $DOC_IDS; do args+=(--doc "$id"); done
+          [ "$DRY_RUN" = "true" ] && args+=(--dry-run)
+          python scripts/matsne_monitor/impact.py "${args[@]}"

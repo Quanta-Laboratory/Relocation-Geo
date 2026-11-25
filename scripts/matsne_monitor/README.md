@@ -142,3 +142,30 @@ Notes:
   (logs a warning, leaves state unchanged) rather than inventing data.
 - The main news feed already surfaces bill items; add committee feeds to `FEEDS`
   in the script for finer coverage.
+
+## Impact analysis → one-tap page updates (`impact.py`)
+
+Turns "a new act was published" into "here is the exact edit to our page — apply?".
+
+1. `monitor.py` scores each new document with `relevance.py` (0–3, alert at ≥2) and hands the run's documents with their verdict to `impact.py` (`.new_docs.json`, not committed).
+2. Documents scored **3** (changes what a page states) with named pages go straight to the proposal step — no second classification. Threshold: `IMPACT_MIN_SCORE` (default 3).
+3. Fallback for documents without a verdict (manual runs): regex pre-filter, then one Claude call against the catalogue of `src/content/guides/en/*`.
+4. **Propose**: reads the act's full text from matsne (amending acts are public) and the affected English pages; Claude returns exact find/replace edits. Each `find` must occur exactly once or the edit is dropped and listed for manual review.
+5. **Localise**: the same change is carried into every existing translation (`de/fr/he/ka/ru/uk/<slug>.md`), verified the same way.
+6. **PR** on branch `matsne/<doc_id>` + **Telegram** message with before/after and buttons **✅ Применить / ❌ Отклонить**.
+7. The buttons hit `POST /api/telegram` on the site Worker (`worker/telegram.ts`), which squash-merges or closes the PR. Merge → push to main → `deploy.yml` → live.
+
+Acts that look relevant but can't be expressed as safe edits arrive as ℹ️ messages without buttons. Everything is logged to `impact_log.md`.
+
+Manual run / test: **Actions → Matsne Impact (manual)** with one or more document ids (tick *dry_run* to only see the proposal in the log).
+
+### One-time setup
+
+| Where | What |
+| --- | --- |
+| GitHub → Settings → Secrets → Actions | `ANTHROPIC_API_KEY` (also fixes title translation). Optional `GH_CONTENT_TOKEN`, `TELEGRAM_ADMIN_IDS`. |
+| GitHub → Settings → Actions → General → Workflow permissions | Tick **Allow GitHub Actions to create and approve pull requests**. |
+| Fine-grained PAT used by the Worker | `GH_CONTENT_TOKEN`, or add to the existing `GH_DISPATCH_TOKEN`: **Contents: Read and write**, **Pull requests: Read and write**. |
+| After this is deployed | Run **Actions → Sync Worker secrets** once: copies Telegram secrets into the Worker and registers the webhook `https://relocation.ge/api/telegram` with a fresh secret. |
+
+Self-test (offline): `python scripts/matsne_monitor/impact.py --selftest`
