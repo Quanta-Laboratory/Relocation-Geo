@@ -20664,3 +20664,256 @@ Automatically maintained by `scripts/matsne_monitor/monitor.py`. Newest entries 
 - **Link:** https://www.matsne.gov.ge/ka/document/view/7051162
 - **Relevance:** 0 | pages: — | topic: Municipal budget amendment for Dmanisi | claude
 
+
+## 2026-11-26 16:01 UTC — doc 7042488
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Law of Georgia "On the Chamber of Commerce and Industry of Georgia"
+- **Title (KA):** „საქართველოს სავაჭრო-სამრეწველო პალატის შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Law of Georgia "On the Chamber of Commerce and Industry of Georgia"
+- **Topic (KA):** „საქართველოს სავაჭრო-სამრეწველო პალატის შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7042488
+- **Relevance:** 0 | pages: — | topic: Chamber of Commerce and Industry internal amendments | claude
+
+
+## 2026-11-26 16:01 UTC — doc 7050868
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 9 of June 25, 2024 of the Lanchkhuti Municipality Assembly Regarding the Approval of Tariffs and Benefits for Travel on Routes of Category M2 and M3 Motor Vehicles for Regular Passenger Transportation Defined as Spheres for Regulating the Economy within the Administrative Boundaries of Lanchkhuti Municipality
+- **Title (KA):** „ლანჩხუთის მუნიციპალიტეტის ადმინისტრაციულ საზღვრებში ეკონომიკის რეგულირებად სფეროებად განსაზღვრული რეგულარული სამგზავრო გადაყვანის M2 და M3 კატეგორიების ავტოსატრანსპორტო საშუალებების მარშუტებზე მგზავრობის ტარიფებისა და შეღავათების დამტკიცების შესახებ“ ლანჩხუთის მუნიციპალიტეტის საკრებულოს 2024 წლის 25 ივნისის N9 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Topic (EN):** On Amendments to Resolution No. 9 of June 25, 2024 of the Lanchkhuti Municipality Council Regarding the Approval of Tariffs and Benefits for Travel on Routes of Vehicles of Categories M2 and M3 for Regular Passenger Transportation in the Fields of Economy Regulation Defined Within the Administrative Boundaries of Lanchkhuti Municipality
+- **Topic (KA):** „ლანჩხუთის მუნიციპალიტეტის ადმინისტრაციულ საზღვრებში ეკონომიკის რეგულირებად სფეროებად განსაზღვრული რეგულარული სამგზავრო გადაყვანის M2 და M3 კატეგორიების ავტოსატრანსპორტო საშუალებების მარშუტებზე მგზავრობის ტარიფებისა და შეღავათების დამტკიცების შესახებ“ ლანჩხუთის მუნიციპალიტეტის საკრებულოს 2024 წლის 25 ივნისის N9 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7050868
+- **Relevance:** 0 | pages: — | topic: Municipal public transport tariffs amendment | claude
+
+
+## 2026-11-26 16:01 UTC — doc 7051182
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** "On the Approval of the 2027 Budget of Rustavi Municipality"
+- **Title (KA):** „ქალაქ რუსთავის მუნიციპალიტეტის 2027 წლის ბიუჯეტის დამტკიცების შესახებ“
+- **Topic (EN):** On the Approval of the 2027 Budget of Rustavi Municipality
+- **Topic (KA):** „ქალაქ რუსთავის მუნიციპალიტეტის 2027 წლის ბიუჯეტის დამტკიცების შესახებ“
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051182
+- **Relevance:** 0 | pages: — | topic: Municipal budget approval | claude
+
+
+## 2026-11-26 16:01 UTC — doc 7051210
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 17 of August 29, 2024 of the Khoni Municipality Council Concerning the Approval of the Procedure for Accounting and Reporting of Documents Required for the Conduct of Cases of Administrative Violations in Khoni Municipality and the Forms of These Documents
+- **Title (KA):** „ხონის მუნიციპალიტეტში ადმინისტრაციულ სამართალდარღვევათა საქმის წარმოებისათვის საჭირო დოკუმენტების აღრიცხვა-ანგარიშგების წესისა და ამ დოკუმენტების ფორმების დამტკიცების შესახებ“ ხონის მუნიციპალიტეტის საკრებულოს 2024 წლის 29 აგვისტოს №17 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Topic (EN):** Regarding the Introduction of Amendments to Resolution No. 17 of August 29, 2024 of the Khoni Municipality Council "On the Approval of the Procedure for Record-Keeping and Reporting of Documents Necessary for the Conduct of Administrative Violation Cases in Khoni Municipality and the Forms of These Documents"
+- **Topic (KA):** „ხონის მუნიციპალიტეტში ადმინისტრაციულ სამართალდარღვევათა საქმის წარმოებისათვის საჭირო დოკუმენტების აღრიცხვა-ანგარიშგების წესისა და ამ დოკუმენტების ფორმების დამტკიცების შესახებ“ ხონის მუნიციპალიტეტის საკრებულოს 2024 წლის 29 აგვისტოს №17 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051210
+- **Relevance:** 0 | pages: — | topic: Municipal administrative procedure forms | claude
+
+
+## 2026-11-26 16:01 UTC — doc 7051229
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Approval of the Regulations of the Supervision Department - the Primary Structural Unit of the Office of the Mayor of Khoni Municipality
+- **Title (KA):** ხონის მუნიციპალიტეტის მერიის პირველადი სტრუქტურული ერთეულის - ზედამხედველობის სამსახურის დებულების დამტკიცების შესახებ
+- **Topic (EN):** Regarding the Approval of the Regulations of the Supervisory Office, the Primary Structural Unit of the Office of the Mayor of Khoni Municipality
+- **Topic (KA):** ხონის მუნიციპალიტეტის მერიის პირველადი სტრუქტურული ერთეულის - ზედამხედველობის სამსახურის დებულების დამტკიცების შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051229
+- **Relevance:** 0 | pages: — | topic: Municipal supervision department internal statute | claude
+
+
+## 2026-11-26 16:01 UTC — doc 7051235
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Law of Georgia "On the State Budget of Georgia for 2026"
+- **Title (KA):** „საქართველოს 2026 წლის სახელმწიფო ბიუჯეტის შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Law of Georgia "Concerning the State Budget of Georgia for 2026"
+- **Topic (KA):** „საქართველოს 2026 წლის სახელმწიფო ბიუჯეტის შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051235
+- **Relevance:** 0 | pages: — | topic: State budget amendments for 2026 | claude
+
+
+## 2026-11-26 16:01 UTC — doc 7051246
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 9/12 of April 8, 2015 of the Sakrebulo (Municipal Assembly) of Poti Municipality "On the Introduction of Local (Property) Tax in the Territory of Poti Municipality and the Determination of Its Rates"
+- **Title (KA):** „ქალაქ ფოთის მუნიციპალიტეტის ტერიტორიაზე ადგილობრივი (ქონების) გადასახადის შემოღებისა და მისი განაკვეთების განსაზღვრის შესახებ“ ქალაქ ფოთის მუნიციპალიტეტის საკრებულოს 2015 წლის 8 აპრილის №9/12 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Topic (EN):** On Amendments to Resolution No. 9/12 of April 8, 2015 of the Sakrebulo (Municipal Assembly) of the Municipality of Kutaisi "On the Introduction of Local Property Tax on the Territory of the Municipality of Kutaisi and the Determination of Its Rates"
+- **Topic (KA):** „ქალაქ ფოთის მუნიციპალიტეტის ტერიტორიაზე ადგილობრივი (ქონების) გადასახადის შემოღებისა და მისი განაკვეთების განსაზღვრის შესახებ“ ქალაქ ფოთის მუნიციპალიტეტის საკრებულოს 2015 წლის 8 აპრილის №9/12 დადგენილებაში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051246
+- **Relevance:** 0 | pages: — | topic: Municipal property tax rate amendments | claude
+
+
+## 2026-11-26 16:02 UTC — doc 7051336
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Resolution №11 of March 18, 2022 of the Dmanisi Municipality Council Regarding the Approval of the Regulations of the Municipal Inspection of the Office of the Mayor of Dmanisi Municipality
+- **Title (KA):** „დმანისის მუნიციპალიტეტის მერიის მუნიციპალური ინსპექციის დებულების დამტკიცების შესახებ“ დმანისის მუნიციპალიტეტის საკრებულოს 2022 წლის 18 მარტის №11 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Resolution No. 11 of March 18, 2022 of the Dmanisi Municipality Council Regarding the Approval of the Regulations of the Municipal Inspection of the Office of the Mayor of Dmanisi Municipality
+- **Topic (KA):** „დმანისის მუნიციპალიტეტის მერიის მუნიციპალური ინსპექციის დებულების დამტკიცების შესახებ“ დმანისის მუნიციპალიტეტის საკრებულოს 2022 წლის 18 მარტის №11 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051336
+- **Relevance:** 0 | pages: — | topic: Municipal inspection regulations in Dmanisi | claude
+
+
+## 2026-11-26 16:02 UTC — doc 7051633
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 1 of November 25, 2025 of the Rustavi Municipality Assembly Regarding the Approval of the 2026 Budget of Rustavi Municipality
+- **Title (KA):** „ქალაქ რუსთავის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ ქალაქ რუსთავის მუნიციპალიტეტის საკრებულოს 2025 წლის 25 ნოემბრის N1 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** Regarding amendments to Resolution No. 1 of November 25, 2025 of the Sakrebulo (Representative Body) of Rustavi Municipality "On approval of the 2026 budget of Rustavi Municipality"
+- **Topic (KA):** „ქალაქ რუსთავის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ ქალაქ რუსთავის მუნიციპალიტეტის საკრებულოს 2025 წლის 25 ნოემბრის N1 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051633
+- **Relevance:** 0 | pages: — | topic: Rustavi municipal budget amendment 2026 | claude
+
+
+## 2026-11-26 16:02 UTC — doc 7051726
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Approval of the Regulations of the Department of Spatial Planning, Infrastructure, Transport and Architecture – a Primary Structural Unit of the Mayor's Office of Khoni Municipality
+- **Title (KA):** ხონის მუნიციპალიტეტის მერიის პირველადი სტრუქტურული ერთეულის - სივრცითი მოწყობის, ინფრასტრუქტურის, ტრანსპორტისა და არქიტექტურის სამსახურის დებულების დამტკიცების შესახებ
+- **Topic (EN):** On the Approval of the Statute of the Department of Spatial Planning, Infrastructure, Transport and Architecture as the Primary Structural Unit of the Office of the Mayor of Khoni Municipality
+- **Topic (KA):** ხონის მუნიციპალიტეტის მერიის პირველადი სტრუქტურული ერთეულის - სივრცითი მოწყობის, ინფრასტრუქტურის, ტრანსპორტისა და არქიტექტურის სამსახურის დებულების დამტკიცების შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051726
+- **Relevance:** 0 | pages: — | topic: Municipal department internal regulations | claude
+
+
+## 2026-11-26 16:02 UTC — doc 7051788
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Approval of the Regulations of the Office for Ensuring Coordination of the Mayor's Representatives, as the Primary Structural Unit of the Municipality of Khoni Administration
+- **Title (KA):** ხონის მუნიციპალიტეტის მერიის პირველადი სტრუქტურული ერთეულის - მერის წარმომადგენელთა კოორდინაციის უზრუნველყოფის სამსახურის დებულების დამტკიცების შესახებ
+- **Topic (EN):** On the Approval of the Regulations of the Office for Ensuring the Coordination of the Mayor's Representatives as a Primary Structural Unit of the Mayor's Office of Khoni Municipality
+- **Topic (KA):** ხონის მუნიციპალიტეტის მერიის პირველადი სტრუქტურული ერთეულის - მერის წარმომადგენელთა კოორდინაციის უზრუნველყოფის სამსახურის დებულების დამტკიცების შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051788
+- **Relevance:** 0 | pages: — | topic: Municipal administration internal structure | claude
+
+
+## 2026-11-26 16:02 UTC — doc 7051905
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** "On the approval of a detailed development plan for land plots located in the territory of Rustavi Municipality (land (immovable property) cadastral codes 02.03.04.608, 02.03.04.002, 02.03.04.317, 02.03.04.553)"
+- **Title (KA):** „ქალაქ რუსთავის მუნიციპალიტეტის ტერიტორიაზე მდებარე მიწის ნაკვეთების ((მიწის (უძრავი ქონების) საკადასტრო კოდი 02.03.04.608, 02.03.04.002, 02.03.04.317, 02.03.04.553) განაშენიანების დეტალური გეგმის დამტკიცების შესახებ“
+- **Topic (EN):** "On the approval of a detailed development plan for land parcels (land (immovable property) cadastral codes 02.03.04.608, 02.03.04.002, 02.03.04.317, 02.03.04.553) located in the territory of Rustavi Municipality"
+- **Topic (KA):** „ქალაქ რუსთავის მუნიციპალიტეტის ტერიტორიაზე მდებარე მიწის ნაკვეთების ((მიწის (უძრავი ქონების) საკადასტრო კოდი 02.03.04.608, 02.03.04.002, 02.03.04.317, 02.03.04.553) განაშენიანების დეტალური გეგმის დამტკიცების შესახებ“
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051905
+- **Relevance:** 0 | pages: — | topic: Municipal land-use planning for specific parcels | claude
+
+
+## 2026-11-26 16:02 UTC — doc 7052013
+
+- **Published:** Tue, 10 Nov 2026 04:00:00 +04
+- **Title (EN):** Constitutional petition of members of the Parliament of Georgia (88 members in total) regarding the constitutionality of the activities of political parties ("United National Movement," "Coalition for Change - Gvaram Melia is Coming," "Strong Georgia - Lelo, for the People, for Freedom!," "Federalist Party," "Gakharia for Georgia") and the issue of their prohibition
+- **Title (KA):** საქართველოს პარლამენტის წევრების (სულ 88 წევრის) კონსტიტუციური სარჩელი პოლიტიკური პარტიების („ერთიანი ნაციონალური მოძრაობა“, „კოალიცია ცვლილებისთვის გვარამია მელია გირჩი დროა“, „ძლიერი საქართველო - ლელო, ხალხისთვის, თავისუფლებისთვის!“, „ფედერალისტური პარტია“, „გახარია საქართველოსთვის“) საქმიანობის კონსტიტუციურობისა და აკრძალვის საკითხზე
+- **Topic (EN):** Constitutional Petition of Members of the Parliament of Georgia (a total of 88 members) on the Constitutionality and Prohibition of the Activities of Political Parties ("United National Movement," "Coalition for Change Gvaramia-Melia-Girchi Is the Time," "Strong Georgia - Lelo, for the People, for Freedom!," "Federalist Party," "Gakharia for Georgia")
+- **Topic (KA):** საქართველოს პარლამენტის წევრების (სულ 88 წევრის) კონსტიტუციური სარჩელი პოლიტიკური პარტიების („ერთიანი ნაციონალური მოძრაობა“, „კოალიცია ცვლილებისთვის გვარამია მელია გირჩი დროა“, „ძლიერი საქართველო - ლელო, ხალხისთვის, თავისუფლებისთვის!“, „ფედერალისტური პარტია“, „გახარია საქართველოსთვის“) საქმიანობის კონსტიტუციურობისა და აკრძალვის საკითხზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052013
+- **Relevance:** 0 | pages: — | topic: Constitutional petition on political party prohibition | claude
+
+
+## 2026-11-26 16:02 UTC — doc 7052025
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** Regarding the Approval of the Technical Regulations for Building and Structural Technical Safety Standards Provided for by the Law of Georgia "On Weapons"
+- **Title (KA):** „იარაღის შესახებ“ საქართველოს კანონით გათვალისწინებული ტექნიკური რეგლამენტის − შენობა-ნაგებობის ტექნიკური უსაფრთხოების ნორმების“ დამტკიცების თაობაზე
+- **Topic (EN):** Regarding the Approval of "Technical Regulations for Technical Safety Standards of Buildings and Structures" Provided for by the Law of Georgia "On Weapons"
+- **Topic (KA):** „იარაღის შესახებ“ საქართველოს კანონით გათვალისწინებული ტექნიკური რეგლამენტის − შენობა-ნაგებობის ტექნიკური უსაფრთხოების ნორმების“ დამტკიცების თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052025
+- **Relevance:** 0 | pages: — | topic: Building safety standards for weapons storage | claude
+
+
+## 2026-11-26 16:02 UTC — doc 7052234
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On amending Resolution No. 30 of December 4, 2019 of the Ozurgeti Municipality Assembly regarding the approval of the rules for proactive disclosure and printed publication of public information by bodies and institutions of Ozurgeti Municipality and private law legal entities financed from the municipality budget, the list of public information to be proactively disclosed, and the standard for requesting public information in electronic form.
+- **Title (KA):** ,,ოზურგეთის მუნიციპალიტეტის ორგანოების, დაწესებულებების და მუნიციპალიტეტის ბიუჯეტის სახსრებიდან დაფინანსებული კერძო სამართლის იურიდიული პირ(ებ)ის მიერ საჯარო ინფორმაციის პროაქტიულად და საჯარო ინფორმაციის ბეჭდური სახით გამოქვეყნების წესის, პროაქტიულად გამოსაქვეყნებელი საჯარო ინფორმაციის ნუსხის და საჯარო ინფორმაციის ელექტრონული ფორმით მოთხოვნის სტანდარტის დამტკიცების შესახებ“ - ოზურგეთის მუნიციპალიტეტის საკრებულოს 2019 წლის 4 დეკემბრის №30 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On amending the resolution No. 30 of December 4, 2019 of the Ozurgeti Municipality Assembly "On approval of the rules for proactive publication of public information and publication of public information in printed form by bodies, institutions of Ozurgeti Municipality and private law legal entities financed from the budget of the municipality, the list of public information to be proactively published, and the standard for requesting public information in electronic form"
+- **Topic (KA):** ,,ოზურგეთის მუნიციპალიტეტის ორგანოების, დაწესებულებების და მუნიციპალიტეტის ბიუჯეტის სახსრებიდან დაფინანსებული კერძო სამართლის იურიდიული პირ(ებ)ის მიერ საჯარო ინფორმაციის პროაქტიულად და საჯარო ინფორმაციის ბეჭდური სახით გამოქვეყნების წესის, პროაქტიულად გამოსაქვეყნებელი საჯარო ინფორმაციის ნუსხის და საჯარო ინფორმაციის ელექტრონული ფორმით მოთხოვნის სტანდარტის დამტკიცების შესახებ“ - ოზურგეთის მუნიციპალიტეტის საკრებულოს 2019 წლის 4 დეკემბრის №30 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052234
+- **Relevance:** 0 | pages: — | topic: Municipal public information disclosure rules | claude
+
+
+## 2026-11-26 16:02 UTC — doc 7052306
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Resolution of the Government of Georgia No. 826 of December 31, 2020 Regarding the Approval of the Regulations of the Council for Consideration of Disputes Related to State Procurement
+- **Title (KA):** „სახელმწიფო შესყიდვებთან დაკავშირებული დავების განხილვის საბჭოს რეგლამენტის დამტკიცების შესახებ“ საქართველოს მთავრობის 2020 წლის 31 დეკემბრის №826 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Decree of the Government of Georgia No. 826 of December 31, 2020 on the Approval of the Regulations of the Council for Consideration of Disputes Related to Government Procurements
+- **Topic (KA):** „სახელმწიფო შესყიდვებთან დაკავშირებული დავების განხილვის საბჭოს რეგლამენტის დამტკიცების შესახებ“ საქართველოს მთავრობის 2020 წლის 31 დეკემბრის №826 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052306
+- **Relevance:** 0 | pages: — | topic: State procurement dispute council regulations | claude
+
+
+## 2026-11-26 16:03 UTC — doc 7052407
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Order No. 13 of January 29, 2026 of the Head of the State Security Service of Georgia Regarding the Approval of the Charter of the State Security Academy, a public legal entity falling within the sphere of administration of the State Security Service of Georgia
+- **Title (KA):** „საქართველოს სახელმწიფო უსაფრთხოების სამსახურის მმართველობის სფეროში შემავალი საჯარო სამართლის იურიდიული პირის – სახელმწიფო უსაფრთხოების აკადემიის წესდების დამტკიცების შესახებ“ საქართველოს სახელმწიფო უსაფრთხოების სამსახურის უფროსის 2026 წლის 29 იანვრის №13 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Order No. 13 of January 29, 2026 of the Head of the State Security Service of Georgia Regarding the Approval of the Charter of the State Security Academy, a Public Law Legal Entity Within the Management Scope of the State Security Service of Georgia
+- **Topic (KA):** „საქართველოს სახელმწიფო უსაფრთხოების სამსახურის მმართველობის სფეროში შემავალი საჯარო სამართლის იურიდიული პირის – სახელმწიფო უსაფრთხოების აკადემიის წესდების დამტკიცების შესახებ“ საქართველოს სახელმწიფო უსაფრთხოების სამსახურის უფროსის 2026 წლის 29 იანვრის №13 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052407
+- **Relevance:** 0 | pages: — | topic: State Security Academy charter amendment | claude
+
+
+## 2026-11-26 16:03 UTC — doc 7052582
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** Regulation of the Supreme Council of the Autonomous Republic of Abkhazia Concerning Amendments to the Regulation of the Supreme Council of the Autonomous Republic of Abkhazia
+- **Title (KA):** აფხაზეთის ავტონომიური რესპუბლიკის უმაღლესი საბჭოს რეგლამენტი აფხაზეთის ავტონომიური რესპუბლიკის უმაღლესი საბჭოს რეგლამენტში ცვლილების შეტანის შესახებ
+- **Topic (EN):** Regulations of the Supreme Council of the Autonomous Republic of Abkhazia Regarding Amendments to the Regulations of the Supreme Council of the Autonomous Republic of Abkhazia
+- **Topic (KA):** აფხაზეთის ავტონომიური რესპუბლიკის უმაღლესი საბჭოს რეგლამენტი აფხაზეთის ავტონომიური რესპუბლიკის უმაღლესი საბჭოს რეგლამენტში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052582
+- **Relevance:** 0 | pages: — | topic: Internal procedural rules of Abkhazian legislature | claude
+
+
+## 2026-11-26 16:03 UTC — doc 7052682
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 60 of the Tianeti Municipality Council of December 29, 2025 Regarding the Approval of the 2026 Budget of Tianeti Municipality
+- **Title (KA):** „თიანეთის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ თიანეთის მუნიციპალიტეტის საკრებულოს 2025 წლის 29 დეკემბრის №60 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Resolution No. 60 of the Tianeti Municipality Council of December 29, 2025, Regarding the Approval of the 2026 Budget of Tianeti Municipality
+- **Topic (KA):** „თიანეთის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ თიანეთის მუნიციპალიტეტის საკრებულოს 2025 წლის 29 დეკემბრის №60 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052682
+- **Relevance:** 0 | pages: — | topic: Municipal budget amendment for Tianeti | claude
+
+
+## 2026-11-26 16:03 UTC — doc 7052701
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** Regarding Amendments to the Regulations of the Supreme Council of the Autonomous Republic of Abkhazia
+- **Title (KA):** აფხაზეთის ავტონომიური რესპუბლიკის უმაღლესი საბჭოს რეგლამენტში ცვლილების შეტანის შესახებ
+- **Topic (EN):** On Amendments to the Regulations of the Supreme Council of the Autonomous Republic of Abkhazia
+- **Topic (KA):** აფხაზეთის ავტონომიური რესპუბლიკის უმაღლესი საბჭოს რეგლამენტში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052701
+- **Relevance:** 0 | pages: — | topic: Abkhazian regional parliament internal procedure | claude
+
+
+## 2026-11-26 16:03 UTC — doc 7052826
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Approval of the Social Program for Facilitating Passenger Transportation in the Territory of Tianeti Municipality
+- **Title (KA):** თიანეთის მუნიციპალიტეტის ტერიტორიაზე მგზავრთა გადაყვანის ხელშეწყობის სოციალური პროგრამის დამტკიცების შესახებ
+- **Topic (EN):** On the Approval of the Social Program for Facilitating Passenger Transportation in the Territory of Tianeti Municipality
+- **Topic (KA):** თიანეთის მუნიციპალიტეტის ტერიტორიაზე მგზავრთა გადაყვანის ხელშეწყობის სოციალური პროგრამის დამტკიცების შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052826
+- **Relevance:** 0 | pages: — | topic: Municipal passenger transport subsidy programme | claude
+
+
+## 2026-11-26 16:03 UTC — doc 7052921
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 31 of December 24, 2025 of the Akhalkalaki Municipality Assembly Regarding the Approval of the 2026 Budget of Akhalkalaki Municipality
+- **Title (KA):** „ახალქალაქის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ ახალქალაქის მუნიციპალიტეტის საკრებულოს 2025 წლის 24დეკემბრის №31 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** Regarding amendments to Resolution No. 31 of the Akhalkalaki Municipality Assembly of December 24, 2025 "On approval of the 2026 budget of Akhalkalaki Municipality"
+- **Topic (KA):** „ახალქალაქის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ ახალქალაქის მუნიციპალიტეტის საკრებულოს 2025 წლის 24დეკემბრის №31 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052921
+- **Relevance:** 0 | pages: — | topic: Municipal budget amendment for Akhalkalaki | claude
+
+
+## 2026-11-26 16:03 UTC — doc 7053701
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** Regarding amendments to Resolution No. 14 of December 12, 2025 of the Zestaponi Municipality Council on the approval of the 2026 budget of the local self-government unit of Zestaponi Municipality
+- **Title (KA):** „ზესტაფონის მუნიციპალიტეტის 2026 წლის ადგილობრივი თვითმმართველი ერთეულის ბიუჯეტის დამტკიცების შესახებ" ზესტაფონის მუნიციპალიტეტის საკრებულოს 2025 წლის 12 დეკემბრის №14 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** Regarding amendments to Resolution No. 14 of December 12, 2025 of the Zestafoni Municipality Assembly on the approval of the 2026 budget of the local self-government unit of Zestafoni Municipality
+- **Topic (KA):** „ზესტაფონის მუნიციპალიტეტის 2026 წლის ადგილობრივი თვითმმართველი ერთეულის ბიუჯეტის დამტკიცების შესახებ" ზესტაფონის მუნიციპალიტეტის საკრებულოს 2025 წლის 12 დეკემბრის №14 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053701
+- **Relevance:** 0 | pages: — | topic: Municipal budget amendment for Zestaponi | claude
+
