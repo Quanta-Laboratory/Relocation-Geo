@@ -20631,3 +20631,36 @@ Automatically maintained by `scripts/matsne_monitor/monitor.py`. Newest entries 
 - **Link:** https://www.matsne.gov.ge/ka/document/view/7052967
 - **Relevance:** 0 | pages: — | topic: — | keywords
 
+
+## 2026-11-26 08:01 UTC — doc 7053482
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** Regarding amendments to the Resolution of the Government of Georgia No. 359 of July 30, 2026 "On establishing the procedure and conditions for financing higher educational institutions founded by the Government of Georgia"
+- **Title (KA):** „საქართველოს მთავრობის მიერ დაფუძნებული უმაღლესი საგანმანათლებლო დაწესებულების დაფინანსების წესისა და პირობების დადგენის შესახებ“ საქართველოს მთავრობის 2026 წლის 30 ივლისის №359 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** Regarding the Amendment to Government of Georgia Resolution No. 359 of July 30, 2026 "On the Establishment of the Procedure and Conditions for Financing Higher Educational Institutions Founded by the Government of Georgia"
+- **Topic (KA):** „საქართველოს მთავრობის მიერ დაფუძნებული უმაღლესი საგანმანათლებლო დაწესებულების დაფინანსების წესისა და პირობების დადგენის შესახებ“ საქართველოს მთავრობის 2026 წლის 30 ივლისის №359 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053482
+- **Relevance:** 1 | pages: — | topic: Government funding procedures for state universities | claude
+
+
+## 2026-11-26 08:01 UTC — doc 7051012
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 43 of the Akhaltsikhe Municipality Council of December 24, 2025, Regarding the Approval of the Akhaltsikhe Municipality Budget for 2026
+- **Title (KA):** „ახალციხის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ ახალციხის მუნიციპალიტეტის საკრებულოს 2025 წლის 24 დეკემბრის №43 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** Regarding amendments to Resolution No. 43 of the Akhaltsikhe Municipality Council of December 24, 2025 "On approval of the 2026 budget of Akhaltsikhe Municipality"
+- **Topic (KA):** „ახალციხის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ ახალციხის მუნიციპალიტეტის საკრებულოს 2025 წლის 24 დეკემბრის №43 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051012
+- **Relevance:** 0 | pages: — | topic: Municipal budget amendment for Akhaltsikhe | claude
+
+
+## 2026-11-26 08:01 UTC — doc 7051162
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Resolution No. 36 of the Dmanisi Municipality Council of December 24, 2025 "On the Approval of the 2026 Budget of Dmanisi Municipality"
+- **Title (KA):** „დმანისის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ დმანისის მუნიციპალიტეტის საკრებულოს 2025 წლის 24 დეკემბრის N 36 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Resolution No. 36 of December 24, 2025 of the Dmanisi Municipality Council Regarding the Approval of the 2026 Budget of Dmanisi Municipality
+- **Topic (KA):** „დმანისის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ დმანისის მუნიციპალიტეტის საკრებულოს 2025 წლის 24 დეკემბრის N 36 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051162
+- **Relevance:** 0 | pages: — | topic: Municipal budget amendment for Dmanisi | claude
+
