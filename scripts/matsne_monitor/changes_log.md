@@ -20939,3 +20939,311 @@ Automatically maintained by `scripts/matsne_monitor/monitor.py`. Newest entries 
 - **Link:** https://www.matsne.gov.ge/ka/document/view/7053881
 - **Relevance:** 0 | pages: — | topic: Property auction notice for specific property | claude
 
+
+## 2026-11-27 16:01 UTC — doc 7042049
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Order No. 11 of July 28, 2016 of the Chairman of the State Procurement Agency Regarding the Approval of the Procedure for Conducting Two-Stage Electronic Tenders
+- **Title (KA):** „ორეტაპიანი ელექტრონული ტენდერის ჩატარების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2016 წლის 28 ივლისის №11 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendment to Order No. 11 of July 28, 2016 of the Chairman of the State Procurement Agency Regarding Approval of the Rules for Conducting Two-Stage Electronic Tender
+- **Topic (KA):** „ორეტაპიანი ელექტრონული ტენდერის ჩატარების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2016 წლის 28 ივლისის №11 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7042049
+- **Relevance:** 0 | pages: — | topic: State procurement agency tender procedures | claude
+
+
+## 2026-11-27 16:01 UTC — doc 7042148
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** Regarding Amendments to Order No. 5 of May 21, 2015 of the Chairman of the State Procurement Agency "On Approval of the Procedure for User Registration in the Unified Electronic System of State Procurement and the Use of the Unified Electronic System of State Procurement"
+- **Title (KA):** „სახელმწიფო შესყიდვების ერთიან ელექტრონულ სისტემაში მომხმარებლის რეგისტრაციისა და სახელმწიფო შესყიდვების ერთიანი ელექტრონული სისტემის გამოყენების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2015 წლის 21 მაისის №5 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** Regarding Amendments to Order No. 5 of May 21, 2015 of the Chairman of the State Procurement Agency "On Approval of the Rules for User Registration in the Unified Electronic System of State Procurement and the Use of the Unified Electronic System of State Procurement"
+- **Topic (KA):** „სახელმწიფო შესყიდვების ერთიან ელექტრონულ სისტემაში მომხმარებლის რეგისტრაციისა და სახელმწიფო შესყიდვების ერთიანი ელექტრონული სისტემის გამოყენების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2015 წლის 21 მაისის №5 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7042148
+- **Relevance:** 0 | pages: — | topic: State procurement system user registration rules | claude
+
+
+## 2026-11-27 16:01 UTC — doc 7042154
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** Regarding Amendments to the Order No. 2 of February 26, 2016 of the Chairman of the State Procurement Agency on the Approval of the Procedure and Conditions for the Preparation of the White List
+- **Title (KA):** „თეთრი სიის წარმოების წესისა და პირობების დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2016 წლის 26 თებერვლის №2 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Order No. 2 of February 26, 2016 of the Chairman of the State Procurement Agency Regarding the Approval of the Procedure and Conditions for the Preparation of a White List
+- **Topic (KA):** „თეთრი სიის წარმოების წესისა და პირობების დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2016 წლის 26 თებერვლის №2 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7042154
+- **Relevance:** 0 | pages: — | topic: State procurement white list procedure | claude
+
+
+## 2026-11-27 16:01 UTC — doc 7042196
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Order No. 3 of August 21, 2019 of the Chairman of the State Procurement Agency "On Approval of the Rules and Conditions for the Application of Monetary Thresholds Established by European Union Directives Operating in the Field of Public Procurement"
+- **Title (KA):** „სახელმწიფო შესყიდვების სფეროში მოქმედი ევროკავშირის დირექტივებით დადგენილი მონეტარული ზღვრების გამოყენების წესისა და პირობების დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2019 წლის 21 აგვისტოს №3 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Order No. 3 of August 21, 2019 of the Chairman of the State Procurement Agency Regarding the Approval of the Rules and Conditions for the Application of Monetary Thresholds Established by European Union Directives Operating in the Field of State Procurement
+- **Topic (KA):** „სახელმწიფო შესყიდვების სფეროში მოქმედი ევროკავშირის დირექტივებით დადგენილი მონეტარული ზღვრების გამოყენების წესისა და პირობების დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2019 წლის 21 აგვისტოს №3 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7042196
+- **Relevance:** 0 | pages: — | topic: Public procurement monetary thresholds | claude
+
+
+## 2026-11-27 16:01 UTC — doc 7042220
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** On Introducing Amendments to Order No. 78 of the Chairperson of the State Procurement Agency dated December 30, 2025, Regarding the Approval of the Procedure for Conducting Market Research by the Purchasing Organization
+- **Title (KA):** „შემსყიდველი ორგანიზაციის მიერ ბაზრის კვლევის განხორციელების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2025 წლის 30 დეკემბრის №78 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** Regarding Amendments to Order No. 78 of December 30, 2025 of the Chairman of the State Procurement Agency on the Approval of the Procedure for Conducting Market Research by the Purchasing Organization
+- **Topic (KA):** „შემსყიდველი ორგანიზაციის მიერ ბაზრის კვლევის განხორციელების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2025 წლის 30 დეკემბრის №78 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7042220
+- **Relevance:** 0 | pages: — | topic: State procurement market research procedures | claude
+
+
+## 2026-11-27 16:01 UTC — doc 7042280
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Order of the Chairman of the State Procurement Agency No. 2 of February 10, 2011 on the Approval of the Rules of Accounting of the Purchasing Organization
+- **Title (KA):** „შემსყიდველი ორგანიზაციის ანგარიშგების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2011 წლის 10 თებერვლის №2 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Order No. 2 of the Chairman of the State Procurement Agency dated February 10, 2011 on the Approval of the Rules of Accounting for Purchasing Organizations
+- **Topic (KA):** „შემსყიდველი ორგანიზაციის ანგარიშგების წესის დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2011 წლის 10 თებერვლის №2 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7042280
+- **Relevance:** 0 | pages: — | topic: State procurement accounting rules amendment | claude
+
+
+## 2026-11-27 16:01 UTC — doc 7051275
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Approval of Document Forms for Proceedings Concerning Construction Law Violations by the Supervision Department of the Office of the Mayor of Khoni Municipality
+- **Title (KA):** ხონის მუნიციპალიტეტის მერიის ზედამხედველობის სამსახურის მიერ სამშენებლო სამართალდარღვევათა საქმისწარმოებისათვის დოკუმენტების ფორმების დამტკიცების შესახებ
+- **Topic (EN):** On the Approval of Document Forms for Proceedings Regarding Construction Law Violations by the Supervision Department of the Office of the Mayor of Khobi Municipality
+- **Topic (KA):** ხონის მუნიციპალიტეტის მერიის ზედამხედველობის სამსახურის მიერ სამშენებლო სამართალდარღვევათა საქმისწარმოებისათვის დოკუმენტების ფორმების დამტკიცების შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7051275
+- **Relevance:** 0 | pages: — | topic: Municipal construction violation procedures | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7052199
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Law of Georgia "On the Designation of Place of Origin of Goods and Geographical Indications"
+- **Title (KA):** „საქონლის ადგილწარმოშობის დასახელებისა და გეოგრაფიული აღნიშვნის შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Law of Georgia "On Designation of Country of Origin of Goods and Geographical Indications"
+- **Topic (KA):** „საქონლის ადგილწარმოშობის დასახელებისა და გეოგრაფიული აღნიშვნის შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052199
+- **Relevance:** 1 | pages: — | topic: Geographical indications and country-of-origin labelling rules | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7052271
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Law of Georgia "On State Property"
+- **Title (KA):** „სახელმწიფო ქონების შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Law of Georgia "On State Property"
+- **Topic (KA):** „სახელმწიფო ქონების შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052271
+- **Relevance:** 0 | pages: — | topic: State property law amendments | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7052328
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Approval of "Conclusions Regarding the Technical Regulation on Best Available Techniques (BAT) for Intensive Poultry and Pig Farming"
+- **Title (KA):** „ტექნიკური რეგლამენტის − ინტენსიური მეფრინველეობისა და მეღორეობისთვის საუკეთესო ხელმისაწვდომი ტექნიკის (BAT) შესახებ დასკვნების“ დამტკიცების თაობაზე
+- **Topic (EN):** On the Approval of the "Conclusions on the Best Available Techniques (BAT) for Intensive Poultry and Pig Rearing - Technical Regulation"
+- **Topic (KA):** „ტექნიკური რეგლამენტის − ინტენსიური მეფრინველეობისა და მეღორეობისთვის საუკეთესო ხელმისაწვდომი ტექნიკის (BAT) შესახებ დასკვნების“ დამტკიცების თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052328
+- **Relevance:** 0 | pages: — | topic: BAT technical regulation for poultry and pig farming | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7052663
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Law of Georgia "On Grapes and Wine"
+- **Title (KA):** „ვაზისა და ღვინის შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Law of Georgia "On Grapes and Wine"
+- **Topic (KA):** „ვაზისა და ღვინის შესახებ“ საქართველოს კანონში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052663
+- **Relevance:** 1 | pages: — | topic: Wine sector regulations and production standards | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7052934
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Code of Food/Animal Feed Safety, Veterinary Medicine, and Plant Protection
+- **Title (KA):** სურსათის/ცხოველის საკვების უვნებლობის, ვეტერინარიისა და მცენარეთა დაცვის კოდექსში ცვლილების შეტანის შესახებ
+- **Topic (EN):** On Amendments to the Code on Food/Animal Feed Safety, Veterinary and Plant Protection
+- **Topic (KA):** სურსათის/ცხოველის საკვების უვნებლობის, ვეტერინარიისა და მცენარეთა დაცვის კოდექსში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7052934
+- **Relevance:** 0 | pages: — | topic: Food safety, veterinary and plant protection code amendments | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7053428
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Code of Administrative Offences of Georgia
+- **Title (KA):** საქართველოს ადმინისტრაციულ სამართალდარღვევათა კოდექსში ცვლილების შეტანის შესახებ
+- **Topic (EN):** On Amendments to the Code of Administrative Offenses of Georgia
+- **Topic (KA):** საქართველოს ადმინისტრაციულ სამართალდარღვევათა კოდექსში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053428
+- **Relevance:** 1 | pages: — | topic: Administrative offences code amendments | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7053691
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** Information of the National Agency for Mineral Resources regarding orders issued on the subject of licenses for the extraction of useful minerals
+- **Title (KA):** სსიპ - მინერალური რესურსების ეროვნული სააგენტოს ინფორმაცია სასარგებლო წიაღისეულის მოპოვების ლიცენზიის თაობაზე გამოცემული ბრძანებების შესახებ
+- **Topic (EN):** Information of the National Agency for Mineral Resources regarding orders issued on mineral extraction licenses
+- **Topic (KA):** სსიპ - მინერალური რესურსების ეროვნული სააგენტოს ინფორმაცია სასარგებლო წიაღისეულის მოპოვების ლიცენზიის თაობაზე გამოცემული ბრძანებების შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053691
+- **Relevance:** 0 | pages: — | topic: Mineral extraction licenses and orders | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7053738
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** Limited Liability Company "Indeksi" Public Notice Regarding the Appointment of an Auction (Owner: Tatia Motsrapashvili G 1683)
+- **Title (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: თათია მოისწრაფეშვილი G 1683)
+- **Topic (EN):** JSC "Index" Public Announcement Regarding the Designation of an Auction (Owner: Tatia Motsrapashvili G 1683)
+- **Topic (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: თათია მოისწრაფეშვილი G 1683)
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053738
+- **Relevance:** 0 | pages: — | topic: Property auction notice for single property | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7053759
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** LLC "Index" Public Announcement Regarding the Designation of an Auction (Owner: Shargia Soin Kizi G 1693)
+- **Title (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: შარგია სოინ კიზი G 1693)
+- **Topic (EN):** JSC "Index" Public Announcement Regarding the Designation of an Auction (Owner: Shargia Soin Kizi G 1693)
+- **Topic (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: შარგია სოინ კიზი G 1693)
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053759
+- **Relevance:** 0 | pages: — | topic: Property auction announcement for specific parcel | claude
+
+
+## 2026-11-27 16:02 UTC — doc 7053773
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** JSC "Index" Public Notice Regarding the Appointment of an Auction (Owner: Jemal Qarum Oghli G 1694)
+- **Title (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: ჯემალ ქარუმ ოღლი G 1694)
+- **Topic (EN):** Public Announcement by LLC "Index" Regarding the Appointment of an Auction (Owner: Jemal Qarum Oghli G 1694)
+- **Topic (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: ჯემალ ქარუმ ოღლი G 1694)
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053773
+- **Relevance:** 0 | pages: — | topic: Municipal property auction notice | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7053782
+
+- **Published:** Wed, 25 Nov 2026 04:00:00 +04
+- **Title (EN):** Regarding Amendments to the Decision No. 5 of February 17, 2025 of the Martvili Municipality Assembly on the Approval of the Program for Provision of Personal Assistant Services in Martvili Municipality
+- **Title (KA):** ,,მარტვილის მუნიციპალიტეტის პერსონალური ასისტენტის მომსახურებით უზრუნველყოფის პროგრამის დამტკიცების შესახებ“ მარტვილის მუნიციპალიტეტის საკრებულოს 2025 წლის 17 თებერვლის №5 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Resolution No. 5 of February 17, 2025 of the Martvili Municipality Council Regarding the Approval of the Program for Provision of Personal Assistant Services in Martvili Municipality
+- **Topic (KA):** ,,მარტვილის მუნიციპალიტეტის პერსონალური ასისტენტის მომსახურებით უზრუნველყოფის პროგრამის დამტკიცების შესახებ“ მარტვილის მუნიციპალიტეტის საკრებულოს 2025 წლის 17 თებერვლის №5 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053782
+- **Relevance:** 0 | pages: — | topic: Municipal personal assistant services program amendment | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7053845
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** JSC "Index" Public Announcement Regarding the Appointment of an Auction (Owners: Ilkham Nasibov; Bayram Nasibov M2178)
+- **Title (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრეები: ილხამ ნასიბოვი; ბაირამ ნასიბოვი M2178)
+- **Topic (EN):** JSC "Index" Public Announcement Regarding the Designation of an Auction (Owners: Ilkham Nasibov; Bayram Nasibov M2178)
+- **Topic (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრეები: ილხამ ნასიბოვი; ბაირამ ნასიბოვი M2178)
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053845
+- **Relevance:** 0 | pages: — | topic: Property auction announcement | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7053917
+
+- **Published:** Tue, 24 Nov 2026 04:00:00 +04
+- **Title (EN):** On the Termination of Registration, Initiation of Liquidation Proceedings, and Appointment of a Liquidator of LLC "Microfinance Organization Cross Credit"
+- **Title (KA):** შპს „მიკროსაფინანსო ორგანიზაცია კროს კრედიტის“ რეგისტრაციის გაუქმების, ლიკვიდაციის პროცესის დაწყებისა და ლიკვიდატორის დანიშვნის შესახებ
+- **Topic (EN):** On the Cancellation of Registration, Commencement of Liquidation Proceedings, and Appointment of a Liquidator of LLC "Microfinance Organization Cross Credit"
+- **Topic (KA):** შპს „მიკროსაფინანსო ორგანიზაცია კროს კრედიტის“ რეგისტრაციის გაუქმების, ლიკვიდაციის პროცესის დაწყებისა და ლიკვიდატორის დანიშვნის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053917
+- **Relevance:** 0 | pages: — | topic: Liquidation of single microfinance company | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7054466
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Order No. 1226 of November 22, 2007 of the Minister of Finance of Georgia "On Approval of Treasury Codes of Budget Revenues"
+- **Title (KA):** „ბიუჯეტის შემოსულობების სახაზინო კოდების დამტკიცების შესახებ“ საქართველოს ფინანსთა მინისტრის 2007 წლის 22 ნოემბრის №1226 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Order No. 1226 of November 22, 2007 of the Minister of Finance of Georgia on the Approval of Treasury Codes of Budget Revenues
+- **Topic (KA):** „ბიუჯეტის შემოსულობების სახაზინო კოდების დამტკიცების შესახებ“ საქართველოს ფინანსთა მინისტრის 2007 წლის 22 ნოემბრის №1226 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7054466
+- **Relevance:** 0 | pages: — | topic: Treasury codes for budget revenue classification | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7054578
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Decree No. 24 of the Government of the Autonomous Republic of Abkhazia of October 23, 2026 "On the Approval of Medium-Term Action Plans by the Ministries of the Autonomous Republic of Abkhazia"
+- **Title (KA):** „აფხაზეთის ავტონომიური რესპუბლიკის სამინისტროების მიერ საშუალოვადიანი სამოქმედო გეგმების დამტკიცების შესახებ“ აფხაზეთის ავტონომიური რესპუბლიკის მთავრობის 2026 წლის 23 ოქტომბრის №24 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Resolution №24 of the Government of the Autonomous Republic of Abkhazia of October 23, 2026 Regarding the Approval of Medium-Term Action Plans by the Ministries of the Autonomous Republic of Abkhazia
+- **Topic (KA):** „აფხაზეთის ავტონომიური რესპუბლიკის სამინისტროების მიერ საშუალოვადიანი სამოქმედო გეგმების დამტკიცების შესახებ“ აფხაზეთის ავტონომიური რესპუბლიკის მთავრობის 2026 წლის 23 ოქტომბრის №24 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7054578
+- **Relevance:** 0 | pages: — | topic: Abkhazian ministry action plans | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7054685
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Resolution №131 of the Government of Georgia of April 29, 2025 Regarding the Approval of the Regulation of the Ministry of Culture of Georgia
+- **Title (KA):** „საქართველოს კულტურის სამინისტროს დებულების დამტკიცების შესახებ“ საქართველოს მთავრობის 2025 წლის 29 აპრილის №131 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Government of Georgia Resolution No. 131 of April 29, 2025, Regarding the Approval of the Regulations of the Ministry of Culture of Georgia
+- **Topic (KA):** „საქართველოს კულტურის სამინისტროს დებულების დამტკიცების შესახებ“ საქართველოს მთავრობის 2025 წლის 29 აპრილის №131 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7054685
+- **Relevance:** 0 | pages: — | topic: Ministry of Culture internal regulations amendment | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7054720
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Government of Georgia Resolution No. 595 of December 20, 2021 "On Approval of the Regulations for the Disposal of Military Property Located on the Territory of Georgia That Is in State Ownership or Transferred for Use to or Recorded on the Balance Sheets of Public Law Legal Entities Operating Within the System of the Ministry of Defence of Georgia and Its System"
+- **Title (KA):** „სახელმწიფო საკუთრებაში არსებული საქართველოს თავდაცვის სამინისტროსა და მის სისტემაში მოქმედი საჯარო სამართლის იურიდიული პირების სარგებლობაში გადაცემული ან/და მათ ბალანსზე რიცხული, საქართველოს ტერიტორიაზე არსებული სამხედრო დანიშნულების ქონების განკარგვის დებულების დამტკიცების შესახებ“ საქართველოს მთავრობის 2021 წლის 20 დეკემბრის №595 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Government of Georgia Resolution No. 595 of December 20, 2021, "On Approval of the Regulations for the Disposition of Military Property Located on the Territory of Georgia That Is in State Ownership and That Has Been Transferred for Use to or Is Listed on the Balance Sheet of Public Law Legal Entities Operating Within the System of the Ministry of Defence of Georgia"
+- **Topic (KA):** „სახელმწიფო საკუთრებაში არსებული საქართველოს თავდაცვის სამინისტროსა და მის სისტემაში მოქმედი საჯარო სამართლის იურიდიული პირების სარგებლობაში გადაცემული ან/და მათ ბალანსზე რიცხული, საქართველოს ტერიტორიაზე არსებული სამხედრო დანიშნულების ქონების განკარგვის დებულების დამტკიცების შესახებ“ საქართველოს მთავრობის 2021 წლის 20 დეკემბრის №595 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7054720
+- **Relevance:** 0 | pages: — | topic: Military property disposal regulations | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7054847
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Order №19 of October 29, 2015 of the Chairman of the State Procurement Agency Regarding Approval of the Rules and Conditions for the Compilation of the Blacklist
+- **Title (KA):** „შავი სიის წარმოების წესისა და პირობების დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2015 წლის 29 ოქტომბრის №19 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to Order No. 19 of October 29, 2015 of the Chairman of the State Procurement Agency Regarding the Approval of the Rules and Conditions for Compiling a Blacklist
+- **Topic (KA):** „შავი სიის წარმოების წესისა და პირობების დამტკიცების შესახებ“ სახელმწიფო შესყიდვების სააგენტოს თავმჯდომარის 2015 წლის 29 ოქტომბრის №19 ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7054847
+- **Relevance:** 0 | pages: — | topic: State procurement blacklist procedures | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7055263
+
+- **Published:** Fri, 27 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to Resolution No. 27 of December 24, 2025 of the Marneuli Municipality Council on the Approval of the 2026 Budget of Marneuli Municipality
+- **Title (KA):** „მარნეულის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ მარნეულის მუნიციპალიტეტის საკრებულოს 2025 წლის 24 დეკემბრის №27 დადგენილებაში ცვლილების შესახებ
+- **Topic (EN):** Regarding amendments to Resolution No. 27 of the Marneuli Municipality Council dated December 24, 2025, "On the approval of the 2026 budget of Marneuli Municipality"
+- **Topic (KA):** „მარნეულის მუნიციპალიტეტის 2026 წლის ბიუჯეტის დამტკიცების შესახებ“ მარნეულის მუნიციპალიტეტის საკრებულოს 2025 წლის 24 დეკემბრის №27 დადგენილებაში ცვლილების შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7055263
+- **Relevance:** 0 | pages: — | topic: Municipal budget amendment for Marneuli | claude
+
+
+## 2026-11-27 16:03 UTC — doc 7055561
+
+- **Published:** Fri, 27 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Government of Georgia Resolution No. 655 of December 31, 2025 "On the Approval of State Healthcare Protection Programs for 2026"
+- **Title (KA):** „2026 წლის ჯანმრთელობის დაცვის სახელმწიფო პროგრამების დამტკიცების შესახებ“ საქართველოს მთავრობის 2025 წლის 31 დეკემბრის №655 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Resolution №655 of the Government of Georgia dated December 31, 2025 "On Approval of State Healthcare Protection Programs for 2026"
+- **Topic (KA):** „2026 წლის ჯანმრთელობის დაცვის სახელმწიფო პროგრამების დამტკიცების შესახებ“ საქართველოს მთავრობის 2025 წლის 31 დეკემბრის №655 დადგენილებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7055561
+- **Relevance:** 1 | pages: — | topic: State healthcare program amendments for 2026 | claude
+
+
+## 2026-11-27 16:04 UTC — doc 7055586
+
+- **Published:** Fri, 27 Nov 2026 04:00:00 +04
+- **Title (EN):** On amendments to the Government of Georgia Resolution No. 697 of December 25, 2014 "On the establishment of certain public law legal entities within the sphere of management of the Ministry of Culture of Georgia" and on the reorganization of the public law legal entity "Creative Georgia"
+- **Title (KA):** „საქართველოს კულტურის სამინისტროს მმართველობის სფეროში ზოგიერთი საჯარო სამართლის იურიდიული პირის დაფუძნების შესახებ“ საქართველოს მთავრობის 2014 წლის 25 დეკემბრის №697 დადგენილებაში ცვლილების შეტანისა და საჯარო სამართლის იურიდიული პირის − შემოქმედებითი საქართველოს რეორგანიზაციის თაობაზე
+- **Topic (EN):** On amendments to the resolution of the Government of Georgia No. 697 of December 25, 2014 "On the establishment of certain public law legal entities within the sphere of management of the Ministry of Culture of Georgia" and on the reorganization of the public law legal entity "Creative Georgia"
+- **Topic (KA):** „საქართველოს კულტურის სამინისტროს მმართველობის სფეროში ზოგიერთი საჯარო სამართლის იურიდიული პირის დაფუძნების შესახებ“ საქართველოს მთავრობის 2014 წლის 25 დეკემბრის №697 დადგენილებაში ცვლილების შეტანისა და საჯარო სამართლის იურიდიული პირის − შემოქმედებითი საქართველოს რეორგანიზაციის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7055586
+- **Relevance:** 0 | pages: — | topic: Ministry of Culture agency reorganisation | claude
+
