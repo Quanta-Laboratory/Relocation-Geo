@@ -5,7 +5,7 @@ parent: run-a-business-in-georgia
 lang: "en"
 summary: "Trademarks in Georgia are registered by Sakpatenti, the National Intellectual Property Center, under the Law of Georgia on Trademarks. A standard registration takes about a year: formal examination (1 month), substantive examination (up to 6 months), publication, and a 3-month opposition window. An accelerated route gives a decision in about 7 working days. Official fees are set in US dollars and paid in lari: for one class about USD 420 by the standard route and USD 840 accelerated, with 20% off for electronic filing; each extra class adds USD 50 (USD 300 accelerated). Protection lasts 10 years from registration and can be renewed indefinitely, with a 6-month grace period. Applications are filed in Georgian. Foreign applicants without Georgian residence or a Georgian company usually file through a Georgian patent attorney. Georgia is part of the Madrid System, so an international registration can be extended to Georgia."
 reviewed: 2026-11-25
-checked: 2026-11-26
+checked: 2026-11-27
 notice: "Amendments to the Law on Trademarks take effect on 1 January 2027: a refusal or a registration decision can then be challenged directly in court, the deadline for a Georgian translation of the goods list shrinks from one month to 15 days, and non-use is judged by \"genuine use\" in Georgia."
 sources:
   - name: "Law of Georgia on Trademarks — consolidated text (matsne)"

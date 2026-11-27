@@ -6,7 +6,7 @@ lang: "en"
 summary: "On the recommendation of the Financial Monitoring Service, the National Bank of Georgia approves the list of high-risk jurisdictions under Article 19 of the AML/CFT Law. The current version is Order No 12/04 of 21 January 2026: 33 countries and territories. Russia, Belarus and other CIS states are not on it. Banks must apply enhanced due diligence to clients and transactions linked to listed jurisdictions; Georgian citizens and foreigners with a Georgian residence permit are exempt from the residence-based trigger."
 notice: 'The NBG amends the list by order of its President, with effect on publication. Machine-readable version: <a href="/nbg-high-risk-jurisdictions.json">/nbg-high-risk-jurisdictions.json</a>.'
 reviewed: 2026-11-23
-checked: 2026-11-26
+checked: 2026-11-27
 sources:
   - name: "Law of Georgia on Facilitating the Prevention of Money Laundering and the Financing of Terrorism, No 5226-Iს (consolidated)"
     url: "https://matsne.gov.ge/ka/document/view/4690334"
