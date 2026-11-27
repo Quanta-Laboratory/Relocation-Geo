@@ -20917,3 +20917,25 @@ Automatically maintained by `scripts/matsne_monitor/monitor.py`. Newest entries 
 - **Link:** https://www.matsne.gov.ge/ka/document/view/7053701
 - **Relevance:** 0 | pages: — | topic: Municipal budget amendment for Zestaponi | claude
 
+
+## 2026-11-27 08:01 UTC — doc 7053816
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** JSC "Index" Public Announcement Regarding the Appointment of an Auction (Owner: M/S Mikheil Chubinidze G 1695)
+- **Title (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: ი/მ მიხეილ ჩუბინიძე G 1695)
+- **Topic (EN):** JSC "Index" Public Announcement Regarding the Appointment of an Auction (Owner: I/M Mikheil Chubinidze G 1695)
+- **Topic (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: ი/მ მიხეილ ჩუბინიძე G 1695)
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053816
+- **Relevance:** 0 | pages: — | topic: Property auction announcement for specific property | claude
+
+
+## 2026-11-27 08:01 UTC — doc 7053881
+
+- **Published:** Thu, 26 Nov 2026 04:00:00 +04
+- **Title (EN):** LLC "Index" Public Announcement Regarding the Designation of an Auction (Owner: Eter Bibiluri M2179)
+- **Title (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: ეთერ ბიბილური M2179)
+- **Topic (EN):** Limited Liability Company "Index" Public Notice on the Designation of an Auction (Owner: Eter Bibiluri M2179)
+- **Topic (KA):** შპს „ინდექსის“ საჯარო განცხადება აუქციონის დანიშვნის შესახებ (მესაკუთრე: ეთერ ბიბილური M2179)
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7053881
+- **Relevance:** 0 | pages: — | topic: Property auction notice for specific property | claude
+
