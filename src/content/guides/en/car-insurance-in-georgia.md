@@ -5,7 +5,7 @@ parent: everyday-essentials-georgia
 lang: "en"
 summary: "Georgia has only one compulsory motor insurance: third-party liability (MTPL) for foreign-registered vehicles, required since 1 March 2018 for the whole stay. A 15-day policy for a car costs GEL 30, 30 days GEL 50, 90 days GEL 90 and a year GEL 295; cover is up to GEL 30,000 per injured person (GEL 300,000 per accident) and GEL 25,000 per injured party for property (GEL 50,000 per accident). Driving a foreign car without it is fined GEL 100–200. Cars registered in Georgia do not need insurance yet: a bill making MTPL compulsory for every vehicle owner has been on the government's legislative plan since 2025 but had not been adopted by November 2026. Third-party liability and CASCO for Georgian-plated cars are voluntary and sold by private insurers."
 reviewed: 2026-11-25
-checked: 2026-11-27
+checked: 2026-11-28
 notice: "Compulsory MTPL for all Georgian-registered cars is planned but not law yet. The government put the bill on its autumn 2026 legislative plan; until Parliament adopts it, insurance for locally registered cars stays voluntary."
 sources:
   - name: "Law of Georgia on Compulsory Civil Liability Insurance of an Owner of a Motor Vehicle Registered in a Foreign Country (matsne)"
