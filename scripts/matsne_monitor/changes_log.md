@@ -21247,3 +21247,25 @@ Automatically maintained by `scripts/matsne_monitor/monitor.py`. Newest entries 
 - **Link:** https://www.matsne.gov.ge/ka/document/view/7055586
 - **Relevance:** 0 | pages: — | topic: Ministry of Culture agency reorganisation | claude
 
+
+## 2026-11-28 08:01 UTC — doc 7046863
+
+- **Published:** Fri, 27 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Order №42/n of July 2, 2021 of the Minister of Education and Science of Georgia "On Approval of the Rules and Conditions for Enrollment in Professional Educational Programs"
+- **Title (KA):** „პროფესიულ საგანმანათლებლო პროგრამაზე ჩარიცხვის წესისა და პირობების დამტკიცების შესახებ" საქართველოს განათლებისა და მეცნიერების მინისტრის 2021 წლის 2 ივლისის №42/ნ ბრძანებაში ცვლილების შეტანის შესახებ
+- **Topic (EN):** On Amending the Order No. 42/n of July 2, 2021 of the Minister of Education and Science of Georgia "On Approval of the Rules and Conditions for Enrollment in Professional Educational Programs"
+- **Topic (KA):** „პროფესიულ საგანმანათლებლო პროგრამაზე ჩარიცხვის წესისა და პირობების დამტკიცების შესახებ" საქართველოს განათლებისა და მეცნიერების მინისტრის 2021 წლის 2 ივლისის №42/ნ ბრძანებაში ცვლილების შეტანის შესახებ
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7046863
+- **Relevance:** 1 | pages: — | topic: Vocational education enrollment procedures | claude
+
+
+## 2026-11-28 08:01 UTC — doc 7055105
+
+- **Published:** Fri, 27 Nov 2026 04:00:00 +04
+- **Title (EN):** On Amendments to the Order No. 219/n of December 29, 2011 of the Minister of Education and Science of Georgia Approving the Charter of the Giorgi Eliava Institute of Bacteriophage, Microbiology and Virology, a Public Legal Entity
+- **Title (KA):** „საჯარო სამართლის იურიდიული პირის - გიორგი ელიავას სახელობის ბაქტერიოფაგიის, მიკრობიოლოგიისა და ვირუსოლოგიის ინსტიტუტის წესდების დამტკიცების შესახებ“ საქართველოს განათლებისა და მეცნიერების მინისტრის 2011 წლის 29 დეკემბრის №219/ნ ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Topic (EN):** On Amendments to the Order No. 219/n of December 29, 2011 of the Minister of Education and Science of Georgia Approving the Charter of the Giorgi Eliava Institute of Bacteriophage, Microbiology and Virology, a Legal Entity of Public Law
+- **Topic (KA):** „საჯარო სამართლის იურიდიული პირის - გიორგი ელიავას სახელობის ბაქტერიოფაგიის, მიკრობიოლოგიისა და ვირუსოლოგიის ინსტიტუტის წესდების დამტკიცების შესახებ“ საქართველოს განათლებისა და მეცნიერების მინისტრის 2011 წლის 29 დეკემბრის №219/ნ ბრძანებაში ცვლილების შეტანის თაობაზე
+- **Link:** https://www.matsne.gov.ge/ka/document/view/7055105
+- **Relevance:** 0 | pages: — | topic: Internal charter amendments to research institute | claude
+
